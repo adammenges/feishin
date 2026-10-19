@@ -173,8 +173,14 @@ impl Feishin {
     pub fn apply_theme(&mut self, window: &mut Window, cx: &mut Context<Self>) {
         self.refresh_audio_preset_options(window, cx);
         self.sync_css_file();
+        // macOS window chrome follows our palette, so read the application's
+        // unmodified system appearance when choosing the automatic theme.
+        #[cfg(target_os = "macos")]
+        let system_appearance = cx.window_appearance();
+        #[cfg(not(target_os = "macos"))]
+        let system_appearance = window.appearance();
         let selected = self.selected_theme(matches!(
-            window.appearance(),
+            system_appearance,
             WindowAppearance::Dark | WindowAppearance::VibrantDark
         ));
         let result = appearance::resolve(selected, &self.data_dir.join("Themes"));
@@ -428,6 +434,24 @@ impl Feishin {
             {
                 *target = Rgba { r, g, b, a }.into();
             }
+        }
+        #[cfg(all(target_os = "macos", not(test)))]
+        match crate::tray::mac_window(window) {
+            Ok(native_window) => {
+                let color = cx.theme().background.to_rgb();
+                let dark = cx.theme().mode.is_dark();
+                // AppKit can synchronously report an appearance change. Apply
+                // outside this GPUI update so its callback can borrow the app.
+                cx.spawn(async move |_, _| {
+                    crate::macos_window::apply_theme(
+                        &native_window,
+                        [color.r, color.g, color.b, color.a],
+                        dark,
+                    );
+                })
+                .detach();
+            }
+            Err(error) => log::warn!("Cannot update the macOS title bar: {error}"),
         }
         self.apply_font(cx);
         let font_stack = format!(

@@ -273,7 +273,7 @@ impl Feishin {
 }
 
 #[cfg(target_os = "macos")]
-fn mac_window(window: &Window) -> Result<objc2::rc::Retained<objc2_app_kit::NSWindow>> {
+pub(crate) fn mac_window(window: &Window) -> Result<objc2::rc::Retained<objc2_app_kit::NSWindow>> {
     let RawWindowHandle::AppKit(handle) = HasWindowHandle::window_handle(window)?.as_raw() else {
         bail!("Expected an AppKit window")
     };

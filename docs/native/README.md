@@ -49,6 +49,7 @@ Settings supports export, native restore, and importing Electron preferences/acc
 
 - `crates/feishin-core/assets/locales/`: the 39 translation catalogs.
 - `crates/feishin-core/assets/palettes.json`: bundled theme definitions and stylesheets.
+- `assets/icons/macos.png`: the rounded-square macOS render of `media/feishin.icon`, shared by the runtime Dock icon and every bundled icon size.
 - `crates/feishin-core/assets/mantine-*.json`: compatibility values for existing theme variables.
 - `crates/feishin-core/src/settings_search.rs`: settings search title keys.
 - `crates/feishin-gpui/assets/styles/`, `window-controls/` and `service-icons/`: styles and images used directly by the native interface.

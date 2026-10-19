@@ -1991,6 +1991,9 @@ extern "C" fn window_will_enter_fullscreen(this: &Object, _: Sel, _: id) {
 
     if is_macos_version_at_least(min_version) {
         unsafe {
+            // Applications can tint the system titlebar after window creation.
+            let transparent: BOOL = msg_send![lock.native_window, titlebarAppearsTransparent];
+            lock.transparent_titlebar = transparent == YES;
             lock.native_window.setTitlebarAppearsTransparent_(NO);
         }
     }

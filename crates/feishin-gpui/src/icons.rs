@@ -10,7 +10,7 @@ fn macos_app_icon() -> anyhow::Result<objc2::rc::Retained<objc2_app_kit::NSImage
     use objc2_app_kit::NSImage;
     use objc2_foundation::NSData;
 
-    let data = NSData::with_bytes(include_bytes!("../../../assets/icons/1024x1024.png"));
+    let data = NSData::with_bytes(include_bytes!("../../../assets/icons/macos.png"));
     NSImage::initWithData(NSImage::alloc(), &data).context("Cannot decode the Feishin app icon")
 }
 

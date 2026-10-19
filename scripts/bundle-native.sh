@@ -29,9 +29,9 @@ cp docs/native/THIRD_PARTY.md "$licenses/"
 iconset=target/Feishin.iconset
 mkdir -p "$iconset"
 for size in 16 32 128 256 512; do
-    cp "assets/icons/${size}x${size}.png" "$iconset/icon_${size}x${size}.png"
+    sips -z "$size" "$size" assets/icons/macos.png --out "$iconset/icon_${size}x${size}.png" >/dev/null
     doubled=$((size * 2))
-    cp "assets/icons/${doubled}x${doubled}.png" "$iconset/icon_${size}x${size}@2x.png"
+    sips -z "$doubled" "$doubled" assets/icons/macos.png --out "$iconset/icon_${size}x${size}@2x.png" >/dev/null
 done
 iconutil -c icns "$iconset" -o "$bundle/Contents/Resources/icon.icns"
 cat > "$bundle/Contents/Info.plist" <<PLIST

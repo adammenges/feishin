@@ -41,6 +41,8 @@ mod lyrics_highlight;
 mod lyrics_markup;
 mod lyrics_row;
 mod lyrics_status;
+#[cfg(all(target_os = "macos", not(test)))]
+mod macos_window;
 mod media;
 mod milkdrop;
 mod navigation;
