@@ -24,6 +24,7 @@ const KEYS: [&str; 10] = [
     "setting.customThemes",
     "setting.customCssEnable",
 ];
+const SOLARIZED_KEY: &str = "setting.solarizedAppearance";
 
 fn color(value: &str) -> Hsla {
     let [r, g, b, a] = appearance::color(value).unwrap_or([0.208, 0.455, 0.988, 1.]);
@@ -301,6 +302,7 @@ impl Feishin {
             .iter()
             .chain(
                 [
+                    SOLARIZED_KEY,
                     "setting.customCss",
                     "setting.customThemeErrors",
                     "setting.customThemeWarnings",
@@ -343,6 +345,59 @@ impl Render for ThemeFields {
                     settings_search::matches(&view.state.settings.language, &query, &[key])
                 };
                 let mut rows = Vec::new();
+                if matches(SOLARIZED_KEY) {
+                    let settings = &view.state.settings;
+                    let controls = div().h_flex().gap_1().children(
+                        [
+                            ("light", "setting.solarizedLight", "solarizedLight"),
+                            ("dark", "setting.solarizedDark", "solarizedDark"),
+                            ("system", "setting.solarizedSystem", "solarizedDark"),
+                        ]
+                        .into_iter()
+                        .map(|(mode, label, theme)| {
+                            let selected = if mode == "system" {
+                                settings.follow_system_theme
+                                    && settings.theme_dark == "solarizedDark"
+                                    && settings.theme_light == "solarizedLight"
+                            } else {
+                                !settings.follow_system_theme && settings.theme == theme
+                            };
+                            let label = view.tr(label);
+                            crate::styles::button(
+                                SharedString::from(format!("solarized-{mode}")),
+                                cx,
+                            )
+                            .debug_selector(move || format!("solarized-{mode}"))
+                            .label(label.clone())
+                            .aria_label(format!("Solarized {label}"))
+                            .selected(selected)
+                            .when(selected, |button| button.primary())
+                            .on_click(cx.listener(
+                                move |view, _, window, cx| {
+                                    view.state.settings.theme = theme.into();
+                                    view.state.settings.theme_dark = "solarizedDark".into();
+                                    view.state.settings.theme_light = "solarizedLight".into();
+                                    view.state.settings.follow_system_theme = mode == "system";
+                                    view.state.settings.use_theme_accent_color = true;
+                                    view.state.settings.use_theme_primary_shade = true;
+                                    view.apply_theme(window, cx);
+                                    view.save();
+                                    cx.notify();
+                                },
+                            ))
+                        }),
+                    );
+                    rows.push((
+                        0,
+                        row(
+                            "theme-solarized",
+                            SOLARIZED_KEY,
+                            controls.into_any_element(),
+                            view,
+                            cx,
+                        ),
+                    ));
+                }
                 for (index, id, value) in [
                     (0, "theme-system", view.state.settings.follow_system_theme),
                     (
@@ -1501,6 +1556,159 @@ mod tests {
     }
 
     #[gpui::test]
+    fn solarized_switcher_updates_native_controls_and_persists_modes(cx: &mut TestAppContext) {
+        use gpui_component::{ActiveTheme, Colorize};
+        cx.use_platform_text_system();
+        cx.set_assets(crate::icons::Assets);
+        cx.update(|cx| {
+            gpui_component::init(cx);
+            crate::fonts::register_builtins(cx).unwrap();
+        });
+        let directory =
+            std::env::temp_dir().join(format!("feishin-solarized-ui-{}", uuid::Uuid::new_v4()));
+        let captured = Rc::new(RefCell::new(None));
+        let (_, cx) = cx.add_window_view(|window, cx| {
+            window.activate_accessibility_for_test();
+            window.activate_window();
+            let mut state = State::default();
+            state.settings.home.items.clear();
+            state.settings.home.feature = false;
+            state.settings.lyric_fetch = false;
+            state.settings.scrobble = false;
+            state.settings.mpv_path = directory.join("missing-mpv").to_string_lossy().into();
+            let app = cx.new(|cx| Feishin::new(directory.clone(), Ok(state), window, cx));
+            app.update(cx, |view, cx| {
+                view.route = Route::Settings;
+                view.settings_search
+                    .update(cx, |input, cx| input.set_value("Solarized", window, cx));
+            });
+            captured.replace(Some(app.clone()));
+            Root::new(app, window, cx)
+        });
+        let app = captured.borrow_mut().take().unwrap();
+        cx.simulate_resize(size(px(1100.), px(760.)));
+        cx.run_until_parked();
+        for (label, id, background, surface, foreground) in [
+            (
+                "Solarized Light",
+                "solarizedLight",
+                "#FDF6E3",
+                "#EEE8D5",
+                "#657B83",
+            ),
+            (
+                "Solarized Dark",
+                "solarizedDark",
+                "#002B36",
+                "#073642",
+                "#839496",
+            ),
+        ] {
+            action(cx, Role::Button, label, Action::Click, None);
+            cx.executor()
+                .advance_clock(std::time::Duration::from_millis(300));
+            cx.refresh().unwrap();
+            cx.run_until_parked();
+            app.read_with(cx, |view, cx| {
+                assert_eq!(view.state.settings.theme, id);
+                assert!(!view.state.settings.follow_system_theme);
+                let theme = cx.theme();
+                for color in [
+                    theme.background,
+                    theme.sidebar,
+                    theme.table,
+                    theme.list,
+                    theme.title_bar,
+                ] {
+                    assert_eq!(color.to_hex(), background);
+                }
+                for color in [
+                    theme.popover,
+                    theme.secondary,
+                    theme.muted,
+                    theme.list_hover,
+                    theme.tab_active,
+                ] {
+                    assert_eq!(color.to_hex(), surface);
+                }
+                let track = cx.global::<crate::styles::NativeStyles>().style_in(
+                    feishin_core::styles::Target::pseudo("before"),
+                    [
+                        feishin_core::styles::Target::new("div", "", &["mantine-Slider-root"]),
+                        feishin_core::styles::Target::new("div", "", &["mantine-Slider-track"]),
+                    ],
+                    16.,
+                );
+                assert_eq!(track.background, Some(super::color(surface).into()));
+                assert_eq!(theme.foreground.to_hex(), foreground);
+                for color in [
+                    theme.primary,
+                    theme.ring,
+                    theme.caret,
+                    theme.slider_bar,
+                    theme.link,
+                ] {
+                    assert_eq!(color.to_hex(), "#268BD2");
+                }
+                assert_eq!(theme.danger.to_hex(), "#DC322F");
+                assert_eq!(theme.success.to_hex(), "#859900");
+                assert_eq!(theme.warning.to_hex(), "#B58900");
+                let saved = feishin_core::storage::load(&directory.join("state.json")).unwrap();
+                assert_eq!(saved.settings.theme, id);
+            });
+            let button = cx.debug_bounds("solarized-system").unwrap();
+            cx.update(|window, _| {
+                let tree = window.accessibility_tree_for_test().unwrap();
+                assert!(tree.nodes.iter().any(
+                    |(_, node)| node.label() == Some(label) && node.is_selected() == Some(true)
+                ));
+                let scale = window.scale_factor();
+                let width = (1100. * scale).round() as u32;
+                let height = (760. * scale).round() as u32;
+                let pixels = window
+                    .rasterized_scene_for_test(size(px(1100.), px(760.)))
+                    .unwrap();
+                let offset =
+                    (((600. * scale) as u32 * width + (1080. * scale) as u32) * 4) as usize;
+                let expected = feishin_core::appearance::color(background)
+                    .unwrap()
+                    .map(|value| (value * 255.).round() as u8);
+                assert_eq!(&pixels[offset..offset + 4], &expected);
+                let button_x = ((f32::from(button.left()) + 8.) * scale).round() as u32;
+                let button_y = ((f32::from(button.top()) + 8.) * scale).round() as u32;
+                let button_offset = ((button_y * width + button_x) * 4) as usize;
+                let expected_surface = feishin_core::appearance::color(surface)
+                    .unwrap()
+                    .map(|value| (value * 255.).round() as u8);
+                assert_eq!(&pixels[button_offset..button_offset + 4], &expected_surface);
+                if let Some(directory) = std::env::var_os("FEISHIN_THEME_PREVIEWS") {
+                    let directory = std::path::PathBuf::from(directory);
+                    std::fs::create_dir_all(&directory).unwrap();
+                    image::save_buffer(
+                        directory.join(format!("{id}.png")),
+                        &pixels,
+                        width,
+                        height,
+                        image::ColorType::Rgba8,
+                    )
+                    .unwrap();
+                }
+            });
+        }
+        action(cx, Role::Button, "Solarized System", Action::Click, None);
+        app.read_with(cx, |view, _| {
+            assert!(view.state.settings.follow_system_theme);
+            assert_eq!(view.selected_theme(true), "solarizedDark");
+            assert_eq!(view.selected_theme(false), "solarizedLight");
+        });
+        let saved = feishin_core::storage::load(&directory.join("state.json")).unwrap();
+        assert!(saved.settings.follow_system_theme);
+        assert_eq!(saved.settings.theme_dark, "solarizedDark");
+        assert_eq!(saved.settings.theme_light, "solarizedLight");
+        std::fs::remove_dir_all(directory).unwrap();
+    }
+
+    #[gpui::test]
     fn inline_theme_settings_layout_matches_original_page(cx: &mut TestAppContext) {
         cx.use_platform_text_system();
         cx.set_assets(crate::icons::Assets);
@@ -1530,6 +1738,8 @@ mod tests {
             include_str!("../assets/theme-settings-layout-reference.json")
         })
         .unwrap();
+        let solarized = cx.debug_bounds("theme-solarized-row").unwrap();
+        let new_row_offset = f32::from(solarized.size.height) + 24.;
         for (index, id) in [
             "theme-system",
             "theme-select",
@@ -1552,7 +1762,8 @@ mod tests {
                 ]
                 .map(f32::from);
                 for (axis, value) in actual.into_iter().enumerate() {
-                    let expected = reference[index][property][axis].as_f64().unwrap() as f32;
+                    let expected = reference[index][property][axis].as_f64().unwrap() as f32
+                        + if axis == 1 { new_row_offset } else { 0. };
                     assert!(
                         (value - expected).abs() <= 1.,
                         "{id}/{selector}[{axis}]: {value} != {expected}"

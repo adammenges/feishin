@@ -199,12 +199,12 @@ impl Default for Settings {
                 ("replaygain-clip".into(), true.into()),
                 ("replaygain-preamp".into(), 0.into()),
             ]),
-            theme: "dark".into(),
+            theme: "solarizedDark".into(),
             css: Default::default(),
             follow_system_theme: false,
-            theme_dark: "defaultDark".into(),
-            theme_light: "defaultLight".into(),
-            accent: "rgb(53, 116, 252)".into(),
+            theme_dark: "solarizedDark".into(),
+            theme_light: "solarizedLight".into(),
+            accent: "#268bd2".into(),
             use_theme_accent_color: false,
             use_theme_primary_shade: true,
             primary_shade: 6,
@@ -608,6 +608,24 @@ pub fn load(path: &Path) -> Result<State> {
         Ok(data) => {
             let mut state: State = serde_json::from_slice(&data)
                 .context("Settings file is invalid; the original file was preserved")?;
+            // Upgrade the first rewrite's default aliases, preserving explicit theme choices.
+            if matches!(state.settings.theme.as_str(), "dark" | "light") {
+                state.settings.theme = if state.settings.theme == "light" {
+                    "solarizedLight"
+                } else {
+                    "solarizedDark"
+                }
+                .into();
+                if state.settings.theme_dark == "defaultDark" {
+                    state.settings.theme_dark = "solarizedDark".into();
+                }
+                if state.settings.theme_light == "defaultLight" {
+                    state.settings.theme_light = "solarizedLight".into();
+                }
+                if state.settings.accent == "rgb(53, 116, 252)" {
+                    state.settings.accent = "#268bd2".into();
+                }
+            }
             state.queue.repair();
             state.settings.volume = state.settings.volume.clamp(0.0, 100.0);
             state.settings.speed = state.settings.speed.clamp(0.25, 4.0);
@@ -792,6 +810,39 @@ pub fn load_translation_key(provider: &str) -> Result<String> {
 
 #[cfg(test)]
 mod tests {
+    #[test]
+    fn solarized_defaults_upgrade_legacy_aliases_without_replacing_custom_choices() {
+        let directory =
+            std::env::temp_dir().join(format!("feishin-solarized-{}", uuid::Uuid::new_v4()));
+        std::fs::create_dir_all(&directory).unwrap();
+        let path = directory.join("state.json");
+        let defaults = super::load(&path).unwrap().settings;
+        assert_eq!(defaults.theme, "solarizedDark");
+        assert_eq!(defaults.theme_light, "solarizedLight");
+        for (theme, expected) in [
+            ("dark", "solarizedDark"),
+            ("light", "solarizedLight"),
+            ("nord", "nord"),
+            ("defaultLight", "defaultLight"),
+        ] {
+            std::fs::write(&path, serde_json::to_vec(&serde_json::json!({"settings": {
+                "theme": theme, "theme_dark": "defaultDark", "theme_light": "defaultLight", "accent": "rgb(53, 116, 252)"
+            }})).unwrap()).unwrap();
+            let state = super::load(&path).unwrap();
+            assert_eq!(state.settings.theme, expected);
+            if matches!(theme, "dark" | "light") {
+                assert_eq!(state.settings.theme_dark, "solarizedDark");
+                assert_eq!(state.settings.theme_light, "solarizedLight");
+                assert_eq!(state.settings.accent, "#268bd2");
+            } else {
+                assert_eq!(state.settings.accent, "rgb(53, 116, 252)");
+            }
+            super::save(&path, &state).unwrap();
+            assert_eq!(super::load(&path).unwrap().settings.theme, expected);
+        }
+        std::fs::remove_dir_all(directory).unwrap();
+    }
+
     use super::*;
     #[test]
     fn song_paths_apply_prefixes_with_and_without_a_matching_replacement() {

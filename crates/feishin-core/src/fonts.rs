@@ -4,32 +4,13 @@ use std::{io::Read, path::Path};
 
 const MAX_BYTES: usize = 32_000_000;
 
+include!(concat!(env!("OUT_DIR"), "/builtin_fonts.rs"));
+
 pub fn builtin_fonts() -> Result<Vec<Data>> {
-    [
-        include_bytes!("../../../assets/fonts/Inter-VariableFont_opsz,wght.woff2").as_slice(),
-        include_bytes!("../../../assets/fonts/Poppins-Regular.woff2").as_slice(),
-        include_bytes!("../../../assets/fonts/Poppins-Bold.woff2").as_slice(),
-        include_bytes!("../../../assets/fonts/Poppins-SemiBold.woff2").as_slice(),
-        include_bytes!("../../../assets/fonts/Poppins-Medium.woff2").as_slice(),
-        include_bytes!("../../../assets/fonts/Poppins-ExtraBold.woff2").as_slice(),
-        include_bytes!("../../../assets/fonts/Poppins-Black.woff2").as_slice(),
-        include_bytes!("../assets/fonts/noto-jp-400.woff2").as_slice(),
-        include_bytes!("../assets/fonts/noto-jp-500.woff2").as_slice(),
-        include_bytes!("../assets/fonts/noto-jp-600.woff2").as_slice(),
-        include_bytes!("../assets/fonts/noto-jp-700.woff2").as_slice(),
-        include_bytes!("../assets/fonts/noto-jp-800.woff2").as_slice(),
-        include_bytes!("../assets/fonts/noto-hebrew-400.woff2").as_slice(),
-        include_bytes!("../assets/fonts/noto-hebrew-500.woff2").as_slice(),
-        include_bytes!("../assets/fonts/noto-hebrew-600.woff2").as_slice(),
-        include_bytes!("../assets/fonts/noto-hebrew-700.woff2").as_slice(),
-        include_bytes!("../assets/fonts/noto-hebrew-800.woff2").as_slice(),
-        include_bytes!("../assets/fonts/noto-jp-variable.woff2").as_slice(),
-        include_bytes!("../assets/fonts/noto-hebrew-variable.woff2").as_slice(),
-        include_bytes!("../../../assets/fonts/Symbola.woff2").as_slice(),
-    ]
-    .into_iter()
-    .map(decode)
-    .collect()
+    BUILTIN_FONT_BYTES
+        .iter()
+        .map(|bytes| decode(bytes))
+        .collect()
 }
 
 /// CSS font-style keywords and global resets, excluding angular declarations.
@@ -382,6 +363,15 @@ pub fn read(path: &Path) -> Result<Data> {
 #[cfg(test)]
 mod tests {
     use super::*;
+    #[test]
+    fn predecoded_builtins_match_original_fonts() {
+        assert_eq!(BUILTIN_FONT_BYTES.len(), BUILTIN_FONT_SOURCES.len());
+        for (bytes, source) in BUILTIN_FONT_BYTES.iter().zip(BUILTIN_FONT_SOURCES) {
+            let original = decode(source).unwrap();
+            assert_eq!(*bytes, original.bytes, "{}", original.family);
+            assert_eq!(decode(bytes).unwrap().family, original.family);
+        }
+    }
     #[test]
     fn css_font_stacks_and_embedded_fallback_faces_keep_the_original_mapping() {
         assert_eq!(

@@ -6,29 +6,91 @@ use feishin_core::{
 use gpui::{prelude::*, *};
 use gpui_component::{ActiveTheme, StyledExt, button::Button, input::Input};
 use std::{
-    cell::RefCell,
+    cell::{Cell, RefCell},
     collections::{BTreeMap, HashMap},
+    sync::Arc,
 };
+
+type Variables = Arc<BTreeMap<String, String>>;
 
 pub struct NativeStyles {
     sheet: Stylesheet,
     palette: appearance::Palette,
-    variables: BTreeMap<String, String>,
+    variables: Variables,
     media: feishin_core::styles::MediaEnvironment,
     zoom: f32,
     text_system: Option<std::sync::Arc<TextSystem>>,
     default_font: Font,
     display_scale: f32,
     context: Vec<Target>,
-    cache: RefCell<HashMap<String, StyleRefinement>>,
-    motion_cache: RefCell<HashMap<String, gpui_component::button::ButtonPaintMotion>>,
+    cache: RefCell<HashMap<String, (StyleRefinement, bool)>>,
+    motion_cache: RefCell<HashMap<String, (gpui_component::button::ButtonPaintMotion, bool)>>,
+    variable_cache: RefCell<HashMap<Vec<Target>, Variables>>,
     pub warnings: Vec<String>,
 }
 impl Global for NativeStyles {}
+
+#[cfg(test)]
+#[path = "resize_tests.rs"]
+mod resize_tests;
+
 impl NativeStyles {
-    fn resolve_value(&self, value: &str, variables: &BTreeMap<String, String>) -> Option<String> {
-        feishin_core::styles::variables(value, variables)
-            .and_then(|value| feishin_core::styles::viewport_lengths(&value, self.media))
+    fn inherited_variables(
+        &self,
+        path: &[Target],
+        declarations: &[(String, String)],
+        inherited: &Variables,
+    ) -> Variables {
+        // Parent values are already computed. Most elements declare no new variables.
+        if path.len() > 1 && !declarations.iter().any(|(name, _)| name.starts_with("--")) {
+            return inherited.clone();
+        }
+        if let Some(variables) = self.variable_cache.borrow().get(path) {
+            return variables.clone();
+        }
+        let variables = Arc::new(feishin_core::styles::cascade_variables(
+            inherited,
+            declarations
+                .iter()
+                .filter(|(name, _)| name.starts_with("--"))
+                .cloned()
+                .collect::<BTreeMap<_, _>>(),
+        ));
+        let mut cache = self.variable_cache.borrow_mut();
+        if cache.len() >= 8192 {
+            cache.clear();
+        }
+        cache.insert(path.to_vec(), variables.clone());
+        variables
+    }
+
+    fn resolve_value(
+        &self,
+        value: &str,
+        variables: &BTreeMap<String, String>,
+        viewport_dependent: &Cell<bool>,
+    ) -> Option<String> {
+        let value = feishin_core::styles::variables(value, variables)?;
+        let (resolved, dependent) =
+            feishin_core::styles::viewport_lengths_with_dependency(&value, self.media);
+        viewport_dependent.set(viewport_dependent.get() || dependent);
+        resolved
+    }
+
+    fn update_environment(&mut self, media: feishin_core::styles::MediaEnvironment, scale: f32) {
+        if self.display_scale != scale || self.sheet.media_matches_changed(self.media, media) {
+            self.cache.get_mut().clear();
+            self.motion_cache.get_mut().clear();
+            self.variable_cache.get_mut().clear();
+        } else if self.media.width != media.width || self.media.height != media.height {
+            // Percentages and flex layout follow GPUI bounds without recomputing CSS.
+            self.cache.get_mut().retain(|_, (_, dependent)| !*dependent);
+            self.motion_cache
+                .get_mut()
+                .retain(|_, (_, dependent)| !*dependent);
+        }
+        self.media = media;
+        self.display_scale = scale;
     }
 
     pub fn zoom(&self) -> f32 {
@@ -46,6 +108,7 @@ impl NativeStyles {
         self.display_scale = display_scale;
         self.cache.get_mut().clear();
         self.motion_cache.get_mut().clear();
+        self.variable_cache.get_mut().clear();
         self
     }
 
@@ -57,12 +120,14 @@ impl NativeStyles {
         };
         self.cache.get_mut().clear();
         self.motion_cache.get_mut().clear();
+        self.variable_cache.get_mut().clear();
         self
     }
     pub fn with_variables(mut self, variables: BTreeMap<String, String>) -> Self {
-        self.variables = variables;
+        self.variables = Arc::new(variables);
         self.cache.get_mut().clear();
         self.motion_cache.get_mut().clear();
+        self.variable_cache.get_mut().clear();
         self
     }
 
@@ -191,7 +256,7 @@ impl NativeStyles {
             .insert("data-mantine-color-scheme".into(), palette.mode.clone());
         Self {
             sheet,
-            variables: appearance::css_variables(&palette),
+            variables: Arc::new(appearance::css_variables(&palette)),
             media: feishin_core::styles::MediaEnvironment {
                 dark: palette.mode == "dark",
                 ..Default::default()
@@ -204,6 +269,7 @@ impl NativeStyles {
             context: vec![root],
             cache: RefCell::default(),
             motion_cache: RefCell::default(),
+            variable_cache: RefCell::default(),
             warnings,
         }
     }
@@ -212,10 +278,11 @@ impl NativeStyles {
         use gpui_component::{animation::CssTiming, button::ButtonPaintMotion};
         let mut path = self.context.clone();
         path.push(target);
-        let key = format!("{path:?}:{:?}", self.media);
-        if let Some(motion) = self.motion_cache.borrow().get(&key) {
+        let key = format!("{path:?}");
+        if let Some((motion, _)) = self.motion_cache.borrow().get(&key) {
             return *motion;
         }
+        let viewport_dependent = Cell::new(false);
         let mut variables = self.variables.clone();
         let mut transitions = Transitions::default();
         let mut legacy = [true; 3];
@@ -233,18 +300,13 @@ impl NativeStyles {
             let declarations = self
                 .sheet
                 .ordered_declarations_with_environment(&path[..end], self.media);
-            variables = feishin_core::styles::cascade_variables(
-                &variables,
-                declarations
-                    .iter()
-                    .filter(|(name, _)| name.starts_with("--"))
-                    .cloned(),
-            );
+            variables = self.inherited_variables(&path[..end], &declarations, &variables);
             let declarations: Vec<_> = declarations
                 .into_iter()
+                .filter(|(name, _)| !name.starts_with("--"))
                 .map(|(name, value)| {
                     let computed = self
-                        .resolve_value(&value, &variables)
+                        .resolve_value(&value, &variables, &viewport_dependent)
                         .unwrap_or_else(|| "unset".into());
                     (
                         name,
@@ -311,7 +373,7 @@ impl NativeStyles {
         if cache.len() >= 8192 {
             cache.clear();
         }
-        cache.insert(key, motion);
+        cache.insert(key, (motion, viewport_dependent.get()));
         motion
     }
     pub(crate) fn style(
@@ -358,10 +420,11 @@ impl NativeStyles {
             .text_system
             .as_ref()
             .map(|system| system.fonts_revision());
-        let key = format!("{path:?}:{font}:{:?}:{revision:?}", self.media);
-        if let Some(style) = self.cache.borrow().get(&key) {
+        let key = format!("{path:?}:{font}:{revision:?}");
+        if let Some((style, _)) = self.cache.borrow().get(&key) {
             return style.clone();
         }
+        let viewport_dependent = Cell::new(false);
         let mut style = StyleRefinement::default();
         let mut typography = BTreeMap::<String, String>::new();
         let mut decorations = BTreeMap::new();
@@ -409,16 +472,10 @@ impl NativeStyles {
             foreground_filters = None;
             let parent_word_break = word_break;
             let parent_overflow_wrap = overflow_wrap;
-            vars = feishin_core::styles::cascade_variables(
-                &vars,
-                self.sheet
-                    .declarations_with_environment(&path[..end], self.media)
-                    .into_iter()
-                    .filter(|(name, _)| name.starts_with("--")),
-            );
             let declarations = self
                 .sheet
                 .ordered_declarations_with_environment(&path[..end], self.media);
+            vars = self.inherited_variables(&path[..end], &declarations, &vars);
             let parent_font = parent_typography
                 .get("font-size")
                 .and_then(|value| length(value, font))
@@ -439,7 +496,7 @@ impl NativeStyles {
                 for (name, value) in declarations.iter().filter(|(name, _)| name == property) {
                     let variable = feishin_core::styles::is_variable_value(value);
                     let value = self
-                        .resolve_value(value, &vars)
+                        .resolve_value(value, &vars, &viewport_dependent)
                         .unwrap_or_else(|| "unset".into());
                     let value = match value.trim().to_ascii_lowercase().as_str() {
                         "inherit" | "unset" | "revert" => {
@@ -553,7 +610,7 @@ impl NativeStyles {
                 .and_then(|value| length(value, font))
                 .unwrap_or(parent_font);
             for (name, value) in declarations {
-                if inherited_typography_property(&name) {
+                if inherited_typography_property(&name) || name.starts_with("--") {
                     continue;
                 }
                 let value = if matches!(
@@ -572,7 +629,7 @@ impl NativeStyles {
                         | "font-variation-settings"
                 ) && feishin_core::styles::is_variable_value(&value)
                 {
-                    self.resolve_value(&value, &vars)
+                    self.resolve_value(&value, &vars, &viewport_dependent)
                         .and_then(|value| {
                             feishin_core::styles::font_relative_lengths(&value, element_font, font)
                         })
@@ -582,13 +639,13 @@ impl NativeStyles {
                     value
                 };
                 let value = self
-                    .resolve_value(&value, &vars)
+                    .resolve_value(&value, &vars, &viewport_dependent)
                     .and_then(|value| {
                         feishin_core::styles::font_relative_lengths(&value, element_font, font)
                     })
                     .unwrap_or(value);
                 if name == "text-shadow" {
-                    if let Some(value) = self.resolve_value(&value, &vars) {
+                    if let Some(value) = self.resolve_value(&value, &vars, &viewport_dependent) {
                         text_shadows = match value.trim().to_ascii_lowercase().as_str() {
                             "inherit" | "unset" | "revert" => parent_text_shadows.clone(),
                             "initial" | "none" => Some(vec![]),
@@ -614,7 +671,7 @@ impl NativeStyles {
                     continue;
                 }
                 if name == "letter-spacing" {
-                    if let Some(value) = self.resolve_value(&value, &vars) {
+                    if let Some(value) = self.resolve_value(&value, &vars, &viewport_dependent) {
                         letter_spacing = match value.trim().to_ascii_lowercase().as_str() {
                             "inherit" | "unset" | "revert" => parent_letter_spacing,
                             "initial" | "normal" => Some(px(0.).into()),
@@ -624,7 +681,7 @@ impl NativeStyles {
                     continue;
                 }
                 if name == "color" {
-                    if let Some(value) = self.resolve_value(&value, &vars) {
+                    if let Some(value) = self.resolve_value(&value, &vars, &viewport_dependent) {
                         current_color = match value.trim().to_ascii_lowercase().as_str() {
                             "inherit" | "unset" | "revert" | "currentcolor" => parent_color,
                             "initial" => Some(black()),
@@ -634,7 +691,7 @@ impl NativeStyles {
                     continue;
                 }
                 if name == "word-break" || name == "overflow-wrap" {
-                    if let Some(value) = self.resolve_value(&value, &vars) {
+                    if let Some(value) = self.resolve_value(&value, &vars, &viewport_dependent) {
                         let (target, parent) = if name == "word-break" {
                             (&mut word_break, parent_word_break)
                         } else {
@@ -654,7 +711,7 @@ impl NativeStyles {
                     continue;
                 }
                 if name == "filter" {
-                    if let Some(value) = self.resolve_value(&value, &vars)
+                    if let Some(value) = self.resolve_value(&value, &vars, &viewport_dependent)
                         && let Some(filter) = feishin_core::styles::backdrop_filter(&value, font)
                     {
                         use feishin_core::styles::BackdropFilter;
@@ -687,7 +744,7 @@ impl NativeStyles {
                     continue;
                 }
                 if name == "backdrop-filter" {
-                    if let Some(value) = self.resolve_value(&value, &vars)
+                    if let Some(value) = self.resolve_value(&value, &vars, &viewport_dependent)
                         && let Some(filter) = feishin_core::styles::backdrop_filter(&value, font)
                     {
                         let (sigma, saturation, operations) = match filter {
@@ -719,7 +776,7 @@ impl NativeStyles {
                     continue;
                 }
                 if name == "font-style" {
-                    if let Some(value) = self.resolve_value(&value, &vars) {
+                    if let Some(value) = self.resolve_value(&value, &vars, &viewport_dependent) {
                         let parsed = match feishin_core::fonts::style_keyword(&value) {
                             Some("inherit" | "unset" | "revert") => parent_font_style,
                             Some("normal" | "initial") => Some(FontStyle::Normal),
@@ -732,7 +789,7 @@ impl NativeStyles {
                     continue;
                 }
                 if name == "direction" {
-                    if let Some(value) = self.resolve_value(&value, &vars) {
+                    if let Some(value) = self.resolve_value(&value, &vars, &viewport_dependent) {
                         match value.trim().to_ascii_lowercase().as_str() {
                             "inherit" | "unset" | "revert" => direction = parent_direction,
                             "ltr" | "initial" => direction = Some(TextDirection::Ltr),
@@ -743,7 +800,7 @@ impl NativeStyles {
                     continue;
                 }
                 if name == "text-spacing-trim" {
-                    if let Some(value) = self.resolve_value(&value, &vars) {
+                    if let Some(value) = self.resolve_value(&value, &vars, &viewport_dependent) {
                         let parsed = match value.trim().to_ascii_lowercase().as_str() {
                             "inherit" | "unset" | "revert" => Some(parent_spacing),
                             "initial" => Some(TextSpacingTrim::Normal),
@@ -785,7 +842,7 @@ impl NativeStyles {
                     ),
                     _ => continue,
                 };
-                let Some(value) = self.resolve_value(&value, &vars) else {
+                let Some(value) = self.resolve_value(&value, &vars, &viewport_dependent) else {
                     continue;
                 };
                 let parsed = match value.trim().to_ascii_lowercase().as_str() {
@@ -931,16 +988,19 @@ impl NativeStyles {
             .sheet
             .ordered_declarations_with_environment(path, self.media)
         {
+            if name.starts_with("--") {
+                continue;
+            }
             let computed = if let Some(initial) = initial_layout_css_value(&name)
                 && feishin_core::styles::is_variable_value(&value)
             {
                 Some(
-                    self.resolve_value(&value, &vars)
+                    self.resolve_value(&value, &vars, &viewport_dependent)
                         .filter(|value| valid_layout_css_value(&name, value, &self.palette, font))
                         .unwrap_or_else(|| initial.into()),
                 )
             } else {
-                self.resolve_value(&value, &vars)
+                self.resolve_value(&value, &vars, &viewport_dependent)
             };
             if let Some(value) = computed.and_then(|value| {
                 feishin_core::styles::font_relative_lengths(&value, element_font, font)
@@ -1030,7 +1090,7 @@ impl NativeStyles {
         if cache.len() >= 8192 {
             cache.clear();
         }
-        cache.insert(key, style.clone());
+        cache.insert(key, (style.clone(), viewport_dependent.get()));
         style
     }
 }
@@ -3113,11 +3173,8 @@ impl Feishin {
             dark: styles.palette.mode == "dark",
             hover: true,
         };
-        if styles.media != media {
-            styles.media = media;
-            styles.display_scale = window.scale_factor();
-            styles.cache.borrow_mut().clear();
-            styles.motion_cache.borrow_mut().clear();
+        if styles.media != media || styles.display_scale != window.scale_factor() {
+            styles.update_environment(media, window.scale_factor());
         }
     }
     pub fn sync_css_file(&mut self) {
@@ -3205,10 +3262,11 @@ impl Feishin {
                 &["fs-main-content-module-main-content-container"],
             ),
         ];
-        if format!("{context:?}") != format!("{:?}", styles.context) {
+        if context != styles.context {
             styles.context = context;
             styles.cache.borrow_mut().clear();
             styles.motion_cache.borrow_mut().clear();
+            styles.variable_cache.borrow_mut().clear();
         }
     }
     pub(crate) fn save_custom_css(

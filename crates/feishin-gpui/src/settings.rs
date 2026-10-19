@@ -102,7 +102,11 @@ impl List {
             children: vec![],
         }
     }
-    pub(crate) fn setting(mut self, titles: &[&str], child: impl IntoElement) -> Self {
+    pub(crate) fn setting<E: IntoElement>(
+        mut self,
+        titles: &[&str],
+        child: impl FnOnce() -> E,
+    ) -> Self {
         let section = settings_search::section(titles);
         debug_assert!(
             section.is_some(),
@@ -112,20 +116,24 @@ impl List {
             && settings_search::SECTIONS[section].tab == self.tab
             && settings_search::matches(&self.language, &self.query, titles)
         {
-            self.children.push((section, child.into_any_element()));
+            self.children.push((section, child().into_any_element()));
         }
         self
     }
     /// These controls already apply their individual search and visibility predicates.
-    pub(crate) fn settings_children(
+    pub(crate) fn settings_children<I, E>(
         mut self,
         group: &str,
-        children: impl IntoIterator<Item = impl IntoElement>,
-    ) -> Self {
+        children: impl FnOnce() -> I,
+    ) -> Self
+    where
+        I: IntoIterator<Item = E>,
+        E: IntoElement,
+    {
         let section = settings_search::section(&[group]).expect("Known settings section");
         if settings_search::SECTIONS[section].tab == self.tab {
             self.children.extend(
-                children
+                children()
                     .into_iter()
                     .map(|child| (section, child.into_any_element())),
             );
@@ -347,18 +355,20 @@ impl Feishin {
                     "setting.scrobble",
                     "scrobble-settings",
                 ],
-                self.setting_checkbox(
-                    "scrobble",
-                    "setting.scrobble",
-                    self.state.settings.scrobble,
-                    cx,
-                )
-                .debug_selector(|| "scrobble".into())
-                .on_click(cx.listener(|this, value: &bool, _, cx| {
-                    this.state.settings.scrobble = *value;
-                    this.save();
-                    cx.notify();
-                })),
+                || {
+                    self.setting_checkbox(
+                        "scrobble",
+                        "setting.scrobble",
+                        self.state.settings.scrobble,
+                        cx,
+                    )
+                    .debug_selector(|| "scrobble".into())
+                    .on_click(cx.listener(|this, value: &bool, _, cx| {
+                        this.state.settings.scrobble = *value;
+                        this.save();
+                        cx.notify();
+                    }))
+                },
             )
             .setting(
                 &[
@@ -366,23 +376,23 @@ impl Feishin {
                     "setting.scrobbleMinimumMode",
                     "scrobble-settings",
                 ],
-                row(
-                    "setting.scrobbleMinimumMode",
-                    crate::styles::button("scrobble-mode", cx)
-                        .debug_selector(|| "scrobble-mode".into())
-                        .label(self.tr(mode_key(mode)))
-                        .aria_label(self.tr("setting.scrobbleMinimumMode"))
-                        .dropdown_menu({
-                            let view = cx.weak_entity();
-                            move |mut menu, _, cx| {
-                                for choice in [
-                                    ScrobbleMode::Both,
-                                    ScrobbleMode::Seconds,
-                                    ScrobbleMode::Percentage,
-                                ] {
-                                    let view = view.clone();
-                                    menu =
-                                        menu.item(
+                || {
+                    row(
+                        "setting.scrobbleMinimumMode",
+                        crate::styles::button("scrobble-mode", cx)
+                            .debug_selector(|| "scrobble-mode".into())
+                            .label(self.tr(mode_key(mode)))
+                            .aria_label(self.tr("setting.scrobbleMinimumMode"))
+                            .dropdown_menu({
+                                let view = cx.weak_entity();
+                                move |mut menu, _, cx| {
+                                    for choice in [
+                                        ScrobbleMode::Both,
+                                        ScrobbleMode::Seconds,
+                                        ScrobbleMode::Percentage,
+                                    ] {
+                                        let view = view.clone();
+                                        menu = menu.item(
                                             PopupMenuItem::new(crate::appearance::text(
                                                 mode_key(choice),
                                                 cx,
@@ -397,12 +407,13 @@ impl Feishin {
                                                 .ok();
                                             }),
                                         );
+                                    }
+                                    menu
                                 }
-                                menu
-                            }
-                        })
-                        .into_any_element(),
-                ),
+                            })
+                            .into_any_element(),
+                    )
+                },
             )
             .when(mode != ScrobbleMode::Seconds, |content| {
                 content.setting(
@@ -411,18 +422,20 @@ impl Feishin {
                         "setting.minimumScrobblePercentage",
                         "scrobble-settings",
                     ],
-                    row(
-                        "setting.minimumScrobblePercentage",
-                        div()
-                            .debug_selector(|| "scrobble-percentage".into())
-                            .w(gpui::px(180.))
-                            .child(
-                                crate::styles::slider(&self.scrobble_percentage_slider, cx)
-                                    .aria_label(self.tr("setting.minimumScrobblePercentage")),
-                            )
-                            .child(format!("{}%", self.state.settings.scrobble_percentage))
-                            .into_any_element(),
-                    ),
+                    || {
+                        row(
+                            "setting.minimumScrobblePercentage",
+                            div()
+                                .debug_selector(|| "scrobble-percentage".into())
+                                .w(gpui::px(180.))
+                                .child(
+                                    crate::styles::slider(&self.scrobble_percentage_slider, cx)
+                                        .aria_label(self.tr("setting.minimumScrobblePercentage")),
+                                )
+                                .child(format!("{}%", self.state.settings.scrobble_percentage))
+                                .into_any_element(),
+                        )
+                    },
                 )
             })
             .when(mode != ScrobbleMode::Percentage, |content| {
@@ -432,14 +445,16 @@ impl Feishin {
                         "setting.minimumScrobbleSeconds",
                         "scrobble-settings",
                     ],
-                    row(
-                        "setting.minimumScrobbleSeconds",
-                        div()
-                            .debug_selector(|| "scrobble-seconds".into())
-                            .w(gpui::px(180.))
-                            .child(crate::styles::number_input(&self.audio_numbers[8], cx))
-                            .into_any_element(),
-                    ),
+                    || {
+                        row(
+                            "setting.minimumScrobbleSeconds",
+                            div()
+                                .debug_selector(|| "scrobble-seconds".into())
+                                .w(gpui::px(180.))
+                                .child(crate::styles::number_input(&self.audio_numbers[8], cx))
+                                .into_any_element(),
+                        )
+                    },
                 )
             })
             .setting(
@@ -448,18 +463,20 @@ impl Feishin {
                     "setting.notify",
                     "scrobble-settings",
                 ],
-                self.setting_checkbox(
-                    "track-notifications",
-                    "setting.notify",
-                    self.state.settings.notify_tracks,
-                    cx,
-                )
-                .debug_selector(|| "track-notifications".into())
-                .on_click(cx.listener(|this, value: &bool, _, cx| {
-                    this.state.settings.notify_tracks = *value;
-                    this.save();
-                    cx.notify();
-                })),
+                || {
+                    self.setting_checkbox(
+                        "track-notifications",
+                        "setting.notify",
+                        self.state.settings.notify_tracks,
+                        cx,
+                    )
+                    .debug_selector(|| "track-notifications".into())
+                    .on_click(cx.listener(|this, value: &bool, _, cx| {
+                        this.state.settings.notify_tracks = *value;
+                        this.save();
+                        cx.notify();
+                    }))
+                },
             )
     }
 
@@ -750,6 +767,30 @@ mod tests {
     use gpui::{Entity, Modifiers, Render, Subscription, TestAppContext, VisualTestContext};
     use gpui_component::Root;
     use std::{cell::RefCell, rc::Rc};
+
+    #[test]
+    fn hidden_settings_do_not_build_controls() {
+        use std::cell::Cell;
+        let built = Cell::new(0);
+        let control = || {
+            built.set(built.get() + 1);
+            gpui::Empty
+        };
+        let hidden = List::new("en", "", settings_search::Tab::Hotkeys)
+            .setting(&["setting.language"], control)
+            .settings_children("theme-settings", || [control()]);
+        assert!(hidden.children.is_empty());
+        assert_eq!(built.get(), 0);
+        let filtered = List::new("en", "no-such-setting-123", settings_search::Tab::General)
+            .setting(&["setting.language"], control);
+        assert!(filtered.children.is_empty());
+        assert_eq!(built.get(), 0);
+        let visible = List::new("en", "", settings_search::Tab::General)
+            .setting(&["setting.language"], control)
+            .settings_children("theme-settings", || [control()]);
+        assert_eq!(visible.children.len(), 2);
+        assert_eq!(built.get(), 2);
+    }
 
     #[gpui::test]
     fn complete_settings_header_matches_original_page(cx: &mut TestAppContext) {

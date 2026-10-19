@@ -235,7 +235,7 @@ impl Config {
     }
 }
 
-#[derive(Clone, Debug, Default)]
+#[derive(Clone, Debug, Default, PartialEq, Eq, Hash)]
 pub struct Target {
     pub tag: String,
     pub id: String,
@@ -782,6 +782,23 @@ pub struct Stylesheet {
     pub warnings: Vec<String>,
 }
 impl Stylesheet {
+    /// Resize only changes conditional styles when a media rule changes membership.
+    pub fn media_matches_changed(
+        &self,
+        previous: MediaEnvironment,
+        next: MediaEnvironment,
+    ) -> bool {
+        self.rules.iter().any(|rule| {
+            rule.conditions
+                .iter()
+                .all(|condition| condition.matches(previous))
+                != rule
+                    .conditions
+                    .iter()
+                    .all(|condition| condition.matches(next))
+        })
+    }
+
     pub fn property_values(&self) -> impl Iterator<Item = (&str, &str)> {
         self.rules.iter().map(|rule| {
             (
@@ -1528,22 +1545,34 @@ pub fn font_relative_lengths(value: &str, font: f32, rem: f32) -> Option<String>
 
 /// Desktop viewport units share the native content viewport, without browser chrome.
 pub fn viewport_lengths(value: &str, viewport: MediaEnvironment) -> Option<String> {
+    viewport_lengths_with_dependency(value, viewport).0
+}
+
+/// Keep dependency information even if a viewport length currently exceeds the bounds.
+pub fn viewport_lengths_with_dependency(
+    value: &str,
+    viewport: MediaEnvironment,
+) -> (Option<String>, bool) {
     if !viewport.width.is_finite()
         || !viewport.height.is_finite()
         || viewport.width < 0.
         || viewport.height < 0.
     {
-        return None;
+        return (None, false);
     }
-    dimension_lengths(value, &|unit| {
-        Some(match unit.to_ascii_lowercase().as_str() {
+    let dependent = std::cell::Cell::new(false);
+    let resolved = dimension_lengths(value, &|unit| {
+        let multiplier = match unit.to_ascii_lowercase().as_str() {
             "vw" | "svw" | "lvw" | "dvw" => viewport.width / 100.,
             "vh" | "svh" | "lvh" | "dvh" => viewport.height / 100.,
             "vmin" | "svmin" | "lvmin" | "dvmin" => viewport.width.min(viewport.height) / 100.,
             "vmax" | "svmax" | "lvmax" | "dvmax" => viewport.width.max(viewport.height) / 100.,
             _ => return None,
-        })
-    })
+        };
+        dependent.set(true);
+        Some(multiplier)
+    });
+    (resolved, dependent.get())
 }
 
 fn dimension_lengths(value: &str, multiplier: &dyn Fn(&str) -> Option<f32>) -> Option<String> {
@@ -1806,6 +1835,16 @@ mod variable_tests {
             viewport_lengths("10vw 10vmin 10vmax 10SVH 10lvh 10dvh", viewport).as_deref(),
             Some("80px 60px 80px 60px 60px 60px")
         );
+        for (value, dependent) in [
+            ("calc(2vw + 1px)", true),
+            ("2v\\77", true),
+            ("2000vw", true),
+            ("2rem 50% url(2vw) \"3vh\" /* 4vw */", false),
+        ] {
+            let (resolved, actual) = viewport_lengths_with_dependency(value, viewport);
+            assert_eq!(resolved, viewport_lengths(value, viewport));
+            assert_eq!(actual, dependent, "{value}");
+        }
         assert!(
             viewport_lengths(
                 "1vh",

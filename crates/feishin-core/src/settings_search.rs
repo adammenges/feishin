@@ -211,6 +211,7 @@ pub const SETTINGS_TITLES: &[(&str, &[&str])] = &[
     (
         "theme-settings",
         &[
+            "setting.solarizedAppearance",
             "setting.useSystemTheme",
             "setting.theme",
             "setting.themeDark",

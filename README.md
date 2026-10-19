@@ -108,6 +108,8 @@ Native audio is the default. Install **MPV** to use the optional MPV playback en
 
 The desktop window and controls are rendered by **GPUI**, with shared controls from **gpui-component**. The UI is implemented in Rust. The pinned versions are in [the desktop crate's manifest](crates/feishin-gpui/Cargo.toml).
 
+The default appearance uses [Ethan Schoonover's Solarized palette](https://ethanschoonover.com/solarized/). In **Settings > General**, use **Solarized appearance** to choose **Light**, **Dark**, or **System**. Changes apply immediately and are saved for the next launch; System follows your operating system's light/dark preference.
+
 The GPUI app calls the core crate to authenticate with your music server, fetch and normalize library data, manage the queue, stream audio and save preferences. Network and playback work runs off the UI thread. The default playback engine uses Rodio/Symphonia; the optional MPV engine is controlled through IPC. TagLib handles audio metadata, SoundTouch supports tempo changes, and projectM supplies MilkDrop visualizers.
 
 The browser remote is a small HTML/JavaScript client embedded in the Rust app. When enabled, the app serves it through an authenticated HTTP/WebSocket service so a phone or another browser can control desktop playback. It does not need a separate frontend build or Node server.

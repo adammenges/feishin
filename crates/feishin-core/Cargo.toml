@@ -75,3 +75,5 @@ tokio-tungstenite = "0.29"
 [build-dependencies]
 cmake = "0.1"
 cc = "1"
+wuff = { version = "=0.2.9", default-features = false }
+brotli-decompressor = "5"

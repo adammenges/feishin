@@ -2,6 +2,32 @@ use gpui::{AssetSource, Result, SharedString};
 use std::borrow::Cow;
 
 pub struct Assets;
+
+#[cfg(target_os = "macos")]
+fn macos_app_icon() -> anyhow::Result<objc2::rc::Retained<objc2_app_kit::NSImage>> {
+    use anyhow::Context;
+    use objc2::AnyThread;
+    use objc2_app_kit::NSImage;
+    use objc2_foundation::NSData;
+
+    let data = NSData::with_bytes(include_bytes!("../../../assets/icons/1024x1024.png"));
+    NSImage::initWithData(NSImage::alloc(), &data).context("Cannot decode the Feishin app icon")
+}
+
+#[cfg(target_os = "macos")]
+pub fn set_macos_app_icon() -> anyhow::Result<()> {
+    use anyhow::Context;
+    use objc2::MainThreadMarker;
+    use objc2_app_kit::NSApplication;
+
+    let marker = MainThreadMarker::new().context("The app icon must be set on the main thread")?;
+    let icon = macos_app_icon()?;
+    // Direct Cargo launches have no bundle icon; also refresh stale development bundle icons.
+    // SAFETY: AppKit is called on the main thread with a non-nil, retained image.
+    unsafe { NSApplication::sharedApplication(marker).setApplicationIconImage(Some(&icon)) };
+    Ok(())
+}
+
 pub const RATING: [&str; 2] = ["rating-outline", "rating-fill"];
 pub const PLAYER: [&str; 10] = [
     "previous",
@@ -388,6 +414,20 @@ impl AssetSource for Assets {
 #[cfg(test)]
 mod tests {
     use super::{AssetSource, Assets, INTERFACE, PLAYER, RATING};
+    #[cfg(target_os = "macos")]
+    #[test]
+    fn macos_app_icon_loads_at_full_resolution() {
+        objc2::rc::autoreleasepool(|_| {
+            let icon = super::macos_app_icon().unwrap();
+            assert!(icon.isValid());
+            assert!(
+                icon.representations()
+                    .iter()
+                    .any(|rep| rep.pixelsWide() == 1024 && rep.pixelsHigh() == 1024)
+            );
+        });
+    }
+
     #[test]
     fn original_player_icons_render_at_native_and_double_sizes() {
         for name in PLAYER.into_iter().chain(INTERFACE).chain(RATING) {

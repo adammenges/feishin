@@ -17,9 +17,9 @@ pub fn app_font(cx: &App) -> Font {
 }
 
 pub fn register_builtins(cx: &App) -> Result<()> {
-    let fonts = feishin_core::fonts::builtin_fonts()?
-        .into_iter()
-        .map(|font| Cow::Owned(font.bytes))
+    let fonts = feishin_core::fonts::BUILTIN_FONT_BYTES
+        .iter()
+        .map(|bytes| Cow::Borrowed(*bytes))
         .collect();
     cx.text_system().add_fonts(fonts)
 }

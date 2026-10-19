@@ -816,6 +816,44 @@ mod tests {
     }
 
     #[test]
+    fn solarized_preserves_canonical_background_text_and_accent_pairs() {
+        // Reference: https://ethanschoonover.com/solarized/#the-values
+        for (id, background, surface, foreground, emphasized) in [
+            ("solarizedDark", "#002b36", "#073642", "#839496", "#93a1a1"),
+            ("solarizedLight", "#fdf6e3", "#eee8d5", "#657b83", "#586e75"),
+        ] {
+            let palette = resolve(id, Path::new("/missing-directory")).unwrap();
+            for (key, expected) in [
+                ("background", background),
+                ("surface", surface),
+                ("foreground", foreground),
+                ("surface-foreground", emphasized),
+            ] {
+                assert_eq!(
+                    color(&palette.colors[key]).unwrap(),
+                    color(expected).unwrap()
+                );
+            }
+            for use_theme_accent_color in [false, true] {
+                let settings = crate::storage::Settings {
+                    use_theme_accent_color,
+                    ..Default::default()
+                };
+                assert_eq!(
+                    primary(&palette, &settings).unwrap(),
+                    color("#268bd2").unwrap()
+                );
+                let variables = css_variables_with_settings(&palette, &settings);
+                assert_eq!(variables["--theme-colors-background"], background);
+                let filled =
+                    crate::styles::variables("var(--mantine-primary-color-filled)", &variables)
+                        .unwrap();
+                assert_eq!(color(&filled).unwrap(), color("#268bd2").unwrap());
+            }
+        }
+    }
+
+    #[test]
     fn imports_existing_palettes_and_validates_custom_inheritance() {
         assert!(available(Path::new("/missing-directory")).len() >= 32);
         let palettes = builtins();

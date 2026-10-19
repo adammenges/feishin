@@ -177,6 +177,10 @@ fn main() -> anyhow::Result<()> {
     let application = Application::new().with_assets(Assets);
     application.on_reopen(app_menu::reopen);
     application.run(move |cx| {
+        #[cfg(target_os = "macos")]
+        if let Err(error) = icons::set_macos_app_icon() {
+            log::warn!("Cannot set the macOS app icon: {error}");
+        }
         gpui_component::init(cx);
         if let Err(error) = fonts::register_builtins(cx) {
             log::warn!("Cannot load built-in fonts: {error}");

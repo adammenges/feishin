@@ -3776,18 +3776,18 @@ impl Feishin {
         content
             .setting(
                 &["Updates", "update-settings"],
-                crate::styles::button("native-update-settings", cx)
+                || crate::styles::button("native-update-settings", cx)
                     .label(self.tr("Updates"))
                     .on_click(
                         cx.listener(|this, _, _, cx| this.navigate(Route::UpdateSettings, cx)),
                     ),
             )
             .when(cfg!(target_os = "linux"), |div| {
-                div.setting(&["setting.passwordStore"], self.password_store_control(cx))
+                div.setting(&["setting.passwordStore"], || self.password_store_control(cx))
             })
             .setting(
                 &["Track info in Window Title", "setting.windowBarTrackinfo"],
-                self.setting_checkbox("window-title-track-info", "setting.windowBarTrackinfo", self.state.settings.window_title_track_info, cx)
+                || self.setting_checkbox("window-title-track-info", "setting.windowBarTrackinfo", self.state.settings.window_title_track_info, cx)
                     .on_click(cx.listener(|this, value: &bool, _, cx| {
                         this.state.settings.window_title_track_info = *value;
                         this.save();
@@ -3796,7 +3796,7 @@ impl Feishin {
             )
             .setting(
                 &["Window bar style", "", "setting.windowBarStyle"],
-                crate::styles::button("window-style", cx)
+                || crate::styles::button("window-style", cx)
                     .debug_selector(|| "window-style".into())
                     .tooltip(self.tr("setting.windowBarStyle_description"))
                     .label(format!(
@@ -3829,7 +3829,7 @@ impl Feishin {
                     }),
             )
             .settings_children("media-session-settings",
-                [
+                || ([
                     ("setting.mediaSession", true, self.state.settings.media_session),
                     (
                         "setting.globalMediaHotkeys",
@@ -3870,11 +3870,11 @@ impl Feishin {
                             cx.notify();
                         },
                     ))
-                }),
+                })).collect::<Vec<_>>(),
             )
             .setting(
                 &["Private mode", "page.appMenu.privateModeOn", "page.appMenu.privateModeOff"],
-                crate::styles::button("private-mode", cx)
+                || crate::styles::button("private-mode", cx)
                     .label(self.tr(if self.state.settings.private_mode {
                         "page.appMenu.privateModeOff"
                     } else {
@@ -3890,7 +3890,7 @@ impl Feishin {
             )
             .setting(
                 &["Discord Rich Presence", "setting.discordRichPresence"],
-                Checkbox::new("discord-rpc")
+                || Checkbox::new("discord-rpc")
                     .label(self.tr("setting.discordRichPresence"))
                     .checked(self.state.settings.discord_enabled)
                     .when(crate::appearance::rtl(cx), |checkbox| {
@@ -3905,7 +3905,7 @@ impl Feishin {
             )
             .setting(
                 &["Discord Rich Presence settings", "discord-settings"],
-                crate::styles::button("presence-settings", cx)
+                || crate::styles::button("presence-settings", cx)
                     .label(self.tr("Discord Rich Presence settings"))
                     .on_click(
                         cx.listener(|this, _, _, cx| this.navigate(Route::PresenceSettings, cx)),
@@ -3922,7 +3922,7 @@ impl Feishin {
                     "setting.minimizeToTray",
                     "setting.startMinimized",
                 ],
-                gpui::div()
+                || gpui::div()
                     .h_flex()
                     .when(crate::appearance::rtl(cx), |div| div.flex_row_reverse())
                     .flex_wrap()
@@ -3972,8 +3972,8 @@ impl Feishin {
                             })),
                     )),
             )
-            .settings_children("theme-settings", self.theme_settings_rows(query, cx))
-            .settings_children("application-settings", self.image_settings_rows(query, cx))
+            .settings_children("theme-settings", || self.theme_settings_rows(query, cx))
+            .settings_children("application-settings", || self.image_settings_rows(query, cx))
             .setting(
                 &[
                     "Fonts",
@@ -3982,7 +3982,7 @@ impl Feishin {
                     "setting.customFontPath",
                     "setting.zoom",
                 ],
-                crate::styles::button("font-settings", cx)
+                || crate::styles::button("font-settings", cx)
                     .label(self.tr("Fonts"))
                     .on_click(cx.listener(|this, _, _, cx| this.navigate(Route::FontPicker, cx))),
             )
@@ -3992,13 +3992,13 @@ impl Feishin {
                     "setting.homeFeature",
                     "setting.homeFeatureStyle",
                 ],
-                crate::styles::button("home-settings", cx)
+                || crate::styles::button("home-settings", cx)
                     .label(self.tr("Customize home page"))
                     .on_click(cx.listener(|this, _, _, cx| this.navigate(Route::HomeSettings, cx))),
             )
             .setting(
                 &["setting.language"],
-                crate::styles::button("language", cx)
+                || crate::styles::button("language", cx)
                     .debug_selector(|| "language".into())
                     .label(format!(
                         "{}: {}",
@@ -4011,7 +4011,7 @@ impl Feishin {
             )
             .setting(
                 &["Playlist folders", "setting.sidebarPlaylistFolders"],
-                self.setting_checkbox("playlist-folders-enabled", "setting.sidebarPlaylistFolders", self.state.settings.playlist_folders, cx)
+                || self.setting_checkbox("playlist-folders-enabled", "setting.sidebarPlaylistFolders", self.state.settings.playlist_folders, cx)
                     .on_click(cx.listener(|this, value: &bool, _, cx| {
                         this.state.settings.playlist_folders = *value;
                         this.load_playlist_options(cx);
@@ -4022,7 +4022,7 @@ impl Feishin {
             .when(self.state.settings.playlist_folders, |content| content
                 .setting(
                     &["Playlist folder view", "setting.sidebarPlaylistFolderView"],
-                    gpui::div().v_flex().gap_2()
+                    || gpui::div().v_flex().gap_2()
                         .child(crate::styles::button("playlist-folder-view", cx)
                             .debug_selector(|| "playlist-folder-view".into())
                             .label(format!("{}: {}", self.tr("setting.sidebarPlaylistFolderView"), self.tr(match self.state.settings.playlist_folder_view.as_str() {
@@ -4055,7 +4055,7 @@ impl Feishin {
                             }))
                         .child(gpui::div().text_sm().text_color(cx.theme().muted_foreground).child(self.tr("setting.sidebarPlaylistFolderView_description"))),
                 )
-                .settings_children("sidebar-settings", [
+                .settings_children("sidebar-settings", || ([
                     ("setting.sidebarPlaylistFolderSeparator", &self.playlist_separator, false),
                     ("setting.sidebarPlaylistFolderTreeIndent", &self.playlist_folder_indent_input, true),
                     ("setting.sidebarPlaylistFolderTreeLineColor", &self.playlist_folder_color, true),
@@ -4068,10 +4068,10 @@ impl Feishin {
                             crate::styles::input(input, cx).into_any_element()
                         })
                         .child(gpui::div().text_sm().text_color(cx.theme().muted_foreground).child(self.tr(&format!("{key}_description"))))
-                }))
+                })).collect::<Vec<_>>())
                 .setting(
                     &["Apply playlist folder style", "setting.sidebarPlaylistFolderSeparator", "setting.sidebarPlaylistFolderTreeIndent", "setting.sidebarPlaylistFolderTreeLineColor"],
-                    crate::styles::button("playlist-folder-style", cx)
+                    || crate::styles::button("playlist-folder-style", cx)
                         .debug_selector(|| "playlist-folder-style".into())
                         .label(self.tr("common.save"))
                         .on_click(cx.listener(|this, _, window, cx| {
@@ -4113,37 +4113,37 @@ impl Feishin {
             feishin_core::settings_search::matches(&self.state.settings.language, query, &[label])
         };
         content
-            .setting(&["setting.mpvExecutablePath"], gpui::div().max_w(px(650.0)).child(crate::styles::input(&self.mpv_path, cx)))
-            .setting(&["setting.audioDevice"], gpui::div().max_w(px(650.0)).child(crate::styles::input(&self.mpv_device, cx)))
-            .setting(&["MPV arguments and properties (JSON)", "setting.mpvExtraParameters"], gpui::div().max_w(px(650.0)).v_flex().gap_2().child(crate::appearance::text("MPV arguments and properties (JSON)", cx)).child(crate::styles::input(&self.mpv_options, cx).h(px(220.0))))
-            .setting(&["Apply MPV options", "setting.mpvExtraParameters"], crate::styles::button("save-mpv-options", cx).label(crate::appearance::text("Apply MPV options", cx)).on_click(cx.listener(|this,_,_,cx|{match this.state.settings.apply_mpv_options(&this.mpv_options.read(cx).value()){Ok(())=>{this.apply_audio_settings(cx);this.message="MPV properties applied. Arguments and removed properties apply on the next track.".into();},Err(error)=>this.message=error.to_string()};cx.notify();})))
-            .setting(&["FFmpeg"], gpui::div().max_w(px(650.0)).child(crate::styles::input(&self.ffmpeg_path, cx)))
-            .setting(&["setting.audioPlayer", "setting.audioDevice", "Jukebox"], crate::styles::button("audio-outputs", cx).label(if self.state.settings.jukebox { "Audio output: Jukebox".into() } else { self.cast_selected.as_ref().map_or("Audio outputs: local".into(),|device|format!("Audio output: {}",device.name)) }).on_click(cx.listener(|this,_,_,cx|this.navigate(Route::Outputs,cx))))
-            .setting(&["Apply player path", "setting.mpvExecutablePath", "setting.audioDevice", "FFmpeg"], crate::styles::button("save-mpv", cx).label(self.tr("common.save")).on_click(cx.listener(|this,_,_,cx|{this.state.settings.set_mpv_path(this.mpv_path.read(cx).value().to_string());this.state.settings.mpv_audio_device=this.mpv_device.read(cx).value().to_string();this.state.settings.ffmpeg_path=this.ffmpeg_path.read(cx).value().to_string();this.apply_audio_settings(cx);this.message="Player path saved. It applies to the next track.".into();cx.notify();})))
-            .setting(&["Native audio streams common music formats and live radio. MPV also supports ReplayGain and audio filters."], gpui::div().text_sm().text_color(cx.theme().muted_foreground).child(self.tr("Native audio streams common music formats and live radio. MPV also supports ReplayGain and audio filters.")))
-            .setting(&["Playback speed", "Apply"], gpui::div().h_flex().gap_2().items_center().child(self.tr("Playback speed")).child(gpui::div().w(px(120.)).child(crate::styles::number_input(&self.speed_input, cx))).child(crate::styles::button("apply-speed", cx).label(self.tr("common.confirm")).on_click(cx.listener(|this,_,window,cx| {
+            .setting(&["setting.mpvExecutablePath"], || gpui::div().max_w(px(650.0)).child(crate::styles::input(&self.mpv_path, cx)))
+            .setting(&["setting.audioDevice"], || gpui::div().max_w(px(650.0)).child(crate::styles::input(&self.mpv_device, cx)))
+            .setting(&["MPV arguments and properties (JSON)", "setting.mpvExtraParameters"], || gpui::div().max_w(px(650.0)).v_flex().gap_2().child(crate::appearance::text("MPV arguments and properties (JSON)", cx)).child(crate::styles::input(&self.mpv_options, cx).h(px(220.0))))
+            .setting(&["Apply MPV options", "setting.mpvExtraParameters"], || crate::styles::button("save-mpv-options", cx).label(crate::appearance::text("Apply MPV options", cx)).on_click(cx.listener(|this,_,_,cx|{match this.state.settings.apply_mpv_options(&this.mpv_options.read(cx).value()){Ok(())=>{this.apply_audio_settings(cx);this.message="MPV properties applied. Arguments and removed properties apply on the next track.".into();},Err(error)=>this.message=error.to_string()};cx.notify();})))
+            .setting(&["FFmpeg"], || gpui::div().max_w(px(650.0)).child(crate::styles::input(&self.ffmpeg_path, cx)))
+            .setting(&["setting.audioPlayer", "setting.audioDevice", "Jukebox"], || crate::styles::button("audio-outputs", cx).label(if self.state.settings.jukebox { "Audio output: Jukebox".into() } else { self.cast_selected.as_ref().map_or("Audio outputs: local".into(),|device|format!("Audio output: {}",device.name)) }).on_click(cx.listener(|this,_,_,cx|this.navigate(Route::Outputs,cx))))
+            .setting(&["Apply player path", "setting.mpvExecutablePath", "setting.audioDevice", "FFmpeg"], || crate::styles::button("save-mpv", cx).label(self.tr("common.save")).on_click(cx.listener(|this,_,_,cx|{this.state.settings.set_mpv_path(this.mpv_path.read(cx).value().to_string());this.state.settings.mpv_audio_device=this.mpv_device.read(cx).value().to_string();this.state.settings.ffmpeg_path=this.ffmpeg_path.read(cx).value().to_string();this.apply_audio_settings(cx);this.message="Player path saved. It applies to the next track.".into();cx.notify();})))
+            .setting(&["Native audio streams common music formats and live radio. MPV also supports ReplayGain and audio filters."], || gpui::div().text_sm().text_color(cx.theme().muted_foreground).child(self.tr("Native audio streams common music formats and live radio. MPV also supports ReplayGain and audio filters.")))
+            .setting(&["Playback speed", "Apply"], || gpui::div().h_flex().gap_2().items_center().child(self.tr("Playback speed")).child(gpui::div().w(px(120.)).child(crate::styles::number_input(&self.speed_input, cx))).child(crate::styles::button("apply-speed", cx).label(self.tr("common.confirm")).on_click(cx.listener(|this,_,window,cx| {
                 match this.speed_input.read(cx).value().parse::<f32>() {
                     Ok(speed) => this.set_playback_speed(speed,window,cx),
                     Err(_) => {this.message="Enter a playback speed from 0.5 to 2".into();cx.notify();}
                 }
             }))))
-            .setting(&["pitch-adjust-{i}"], gpui::div().h_flex().gap_2().items_center()
+            .setting(&["pitch-adjust-{i}"], || gpui::div().h_flex().gap_2().items_center()
                 .children([-1., -0.1, 0.1, 1.].into_iter().enumerate().filter(|(_, step): &(usize, f32)| self.state.settings.microtonal_pitch_controls || step.abs() == 1.).map(|(i, step)| {
                     gpui::div().debug_selector(move || format!("pitch-adjust-{i}"))
                         .child(crate::styles::button(("pitch-adjust", i), cx).label(if step.abs() == 1. {format!("{step:+.0}st")} else {format!("{:+.0}ct",step*100.)})
                             .on_click(cx.listener(move |this,_,window,cx| this.adjust_musical_speed(step,window,cx))))
                 }))
                 .child(format!("{:.2}x {:+.2}st", self.state.settings.speed,12.*self.state.settings.speed.log2())))
-            .setting(&["Microtonal pitch controls"], Checkbox::new("microtonal-pitch").label(self.tr("Microtonal pitch controls")).checked(self.state.settings.microtonal_pitch_controls).on_click(cx.listener(|this,value:&bool,_,cx| {this.state.settings.microtonal_pitch_controls = *value;this.save();cx.notify();})))
-            .setting(&["Track transition", "Crossfade", "setting.playbackStyle", "setting.crossfadeDuration", "setting.crossfadeStyle"], gpui::div().id("settings-playback-config").debug_selector(|| "settings-playback-config".into()).h_flex().gap_2().items_center().when(crate::appearance::rtl(cx), |div| div.flex_row_reverse()).child(self.tr("setting.playbackStyle")).child(self.player_config_button(None, cx)))
-            .setting(&["Fade on play, pause and stop", "setting.audioFadeOnStatusChange"], crate::styles::button("status-fade", cx).label(self.tr("setting.audioFadeOnStatusChange")).selected(self.state.settings.fade_on_status).on_click(cx.listener(|this,_,_,cx|{this.state.settings.fade_on_status= !this.state.settings.fade_on_status;this.apply_audio_settings(cx);})))
-            .setting(&["Preserve pitch", "setting.preservePitch"], crate::styles::button("pitch", cx).label(self.tr("setting.preservePitch")).selected(self.state.settings.preserve_pitch).on_click(cx.listener(|this,_,_,cx|{this.state.settings.preserve_pitch= !this.state.settings.preserve_pitch;this.apply_audio_settings(cx);})))
+            .setting(&["Microtonal pitch controls"], || Checkbox::new("microtonal-pitch").label(self.tr("Microtonal pitch controls")).checked(self.state.settings.microtonal_pitch_controls).on_click(cx.listener(|this,value:&bool,_,cx| {this.state.settings.microtonal_pitch_controls = *value;this.save();cx.notify();})))
+            .setting(&["Track transition", "Crossfade", "setting.playbackStyle", "setting.crossfadeDuration", "setting.crossfadeStyle"], || gpui::div().id("settings-playback-config").debug_selector(|| "settings-playback-config".into()).h_flex().gap_2().items_center().when(crate::appearance::rtl(cx), |div| div.flex_row_reverse()).child(self.tr("setting.playbackStyle")).child(self.player_config_button(None, cx)))
+            .setting(&["Fade on play, pause and stop", "setting.audioFadeOnStatusChange"], || crate::styles::button("status-fade", cx).label(self.tr("setting.audioFadeOnStatusChange")).selected(self.state.settings.fade_on_status).on_click(cx.listener(|this,_,_,cx|{this.state.settings.fade_on_status= !this.state.settings.fade_on_status;this.apply_audio_settings(cx);})))
+            .setting(&["Preserve pitch", "setting.preservePitch"], || crate::styles::button("pitch", cx).label(self.tr("setting.preservePitch")).selected(self.state.settings.preserve_pitch).on_click(cx.listener(|this,_,_,cx|{this.state.settings.preserve_pitch= !this.state.settings.preserve_pitch;this.apply_audio_settings(cx);})))
 
 
-            .setting(&["Confirm fetching an entire library list"], Checkbox::new("large-library-confirm").label(self.tr("Confirm fetching an entire library list")).checked(self.state.settings.confirm_large_fetch).on_click(cx.listener(|this, value: &bool, _, cx| { this.state.settings.confirm_large_fetch = *value; this.save(); cx.notify(); })))
+            .setting(&["Confirm fetching an entire library list"], || Checkbox::new("large-library-confirm").label(self.tr("Confirm fetching an entire library list")).checked(self.state.settings.confirm_large_fetch).on_click(cx.listener(|this, value: &bool, _, cx| { this.state.settings.confirm_large_fetch = *value; this.save(); cx.notify(); })))
             .map(|content| self.scrobble_controls(content, cx))
-            .setting(&["Follow current song", "setting.followCurrentSong"], self.setting_checkbox("follow-current-song", "setting.followCurrentSong", self.state.settings.follow_current_song, cx).on_click(cx.listener(|this,value:&bool,_,cx|{this.state.settings.follow_current_song = *value;this.save();cx.notify();})))
-            .settings_children("application-settings", [(true, "setting.albumBackground"), (false, "setting.artistBackground")].into_iter().enumerate().filter(|(_,(_,label))| matches(label)).map(|(i, (album, label))| {
+            .setting(&["Follow current song", "setting.followCurrentSong"], || self.setting_checkbox("follow-current-song", "setting.followCurrentSong", self.state.settings.follow_current_song, cx).on_click(cx.listener(|this,value:&bool,_,cx|{this.state.settings.follow_current_song = *value;this.save();cx.notify();})))
+            .settings_children("application-settings", || ([(true, "setting.albumBackground"), (false, "setting.artistBackground")].into_iter().enumerate().filter(|(_,(_,label))| matches(label)).map(|(i, (album, label))| {
                 let enabled=if album {self.state.settings.album_background} else {self.state.settings.artist_background};
                 let blur=if album {self.state.settings.album_background_blur} else {self.state.settings.artist_background_blur};
                 gpui::div().h_flex().gap_2()
@@ -4155,8 +4155,8 @@ impl Feishin {
                         let value=if album {&mut this.state.settings.album_background_blur} else {&mut this.state.settings.artist_background_blur};
                         *value=if *value >= 6. {0.} else {(*value + 0.5).min(6.)}; this.save(); cx.notify();
                     })))
-            }))
-            .settings_children("application-settings", [("setting.showFavorites", 0usize), ("setting.showRatings", 1), ("setting.enableGridMultiSelect", 2), ("setting.blurExplicitImages", 3)].into_iter().filter(|(label,_)| matches(label)).map(|(label, i)| {
+            })).collect::<Vec<_>>())
+            .settings_children("application-settings", || ([("setting.showFavorites", 0usize), ("setting.showRatings", 1), ("setting.enableGridMultiSelect", 2), ("setting.blurExplicitImages", 3)].into_iter().filter(|(label,_)| matches(label)).map(|(label, i)| {
                 let settings=&self.state.settings;
                 let value=match i {0=>settings.show_favorites,1=>settings.show_ratings,2=>settings.enable_grid_multiselect,_=>settings.blur_explicit_images};
                 self.setting_checkbox(("library-preference", i), label, value, cx).on_click(cx.listener(move |this,checked:&bool,_,cx|{
@@ -4167,22 +4167,22 @@ impl Feishin {
                     if i == 3 { this.player_background=None; this.player_background_key.clear(); this.fetch_covers(cx); }
                     this.save();cx.notify();
                 }))
-            }))
+            })).collect::<Vec<_>>())
 
-            .setting(&["Open expanded player after idle minutes (0 disables)", "setting.fullscreenAutoOpenTimeout"], gpui::div().max_w(px(250.0)).v_flex().gap_2().child(self.tr("Open expanded player after idle minutes (0 disables)")).child(crate::styles::number_input(&self.fullscreen_idle_input, cx)))
-            .setting(&["Apply idle timeout", "setting.fullscreenAutoOpenTimeout"], crate::styles::button("fullscreen-idle-apply", cx).label(self.tr("common.save")).on_click(cx.listener(|this,_,_,cx| {match this.fullscreen_idle_input.read(cx).value().parse::<f64>() {Ok(value) if value.is_finite() && (0. ..=120.).contains(&value)=>{this.state.settings.fullscreen_auto_open_minutes=value;this.save();}, _=>this.message="Use a timeout from 0 to 120 minutes".into()};cx.notify();})))
-            .setting(&["Click player bar to expand", "setting.playerbarOpenDrawer"], self.setting_checkbox("playerbar-open-drawer", "setting.playerbarOpenDrawer", self.state.settings.playerbar_open_drawer, cx).on_click(cx.listener(|this,value:&bool,_,cx|{this.state.settings.playerbar_open_drawer = *value;this.save();cx.notify();})))
-            .settings_children("control-settings", self.waveform_controls(query, cx))
-            .setting(&["Volume wheel step", "setting.volumeWheelStep"], gpui::div().v_flex().gap_2()
+            .setting(&["Open expanded player after idle minutes (0 disables)", "setting.fullscreenAutoOpenTimeout"], || gpui::div().max_w(px(250.0)).v_flex().gap_2().child(self.tr("Open expanded player after idle minutes (0 disables)")).child(crate::styles::number_input(&self.fullscreen_idle_input, cx)))
+            .setting(&["Apply idle timeout", "setting.fullscreenAutoOpenTimeout"], || crate::styles::button("fullscreen-idle-apply", cx).label(self.tr("common.save")).on_click(cx.listener(|this,_,_,cx| {match this.fullscreen_idle_input.read(cx).value().parse::<f64>() {Ok(value) if value.is_finite() && (0. ..=120.).contains(&value)=>{this.state.settings.fullscreen_auto_open_minutes=value;this.save();}, _=>this.message="Use a timeout from 0 to 120 minutes".into()};cx.notify();})))
+            .setting(&["Click player bar to expand", "setting.playerbarOpenDrawer"], || self.setting_checkbox("playerbar-open-drawer", "setting.playerbarOpenDrawer", self.state.settings.playerbar_open_drawer, cx).on_click(cx.listener(|this,value:&bool,_,cx|{this.state.settings.playerbar_open_drawer = *value;this.save();cx.notify();})))
+            .settings_children("control-settings", || self.waveform_controls(query, cx))
+            .setting(&["Volume wheel step", "setting.volumeWheelStep"], || gpui::div().v_flex().gap_2()
                 .child(self.tr("setting.volumeWheelStep"))
                 .child(gpui::div().text_sm().text_color(cx.theme().muted_foreground).child(self.tr("setting.volumeWheelStep_description")))
                 .child(gpui::div().w(px(100.)).debug_selector(|| "volume-wheel-step".into()).child(crate::styles::slider(&self.volume_wheel_slider, cx).aria_label(self.tr("setting.volumeWheelStep")))))
-            .settings_children("control-settings", [("setting.volumeWidth", 0), ("setting.artistRadioCount", 1), ("setting.buttonSize", 2)].into_iter().filter(|(key,_)| matches(key)).map(|(key, index)| gpui::div().max_w(px(250.)).v_flex().gap_2()
+            .settings_children("control-settings", || ([("setting.volumeWidth", 0), ("setting.artistRadioCount", 1), ("setting.buttonSize", 2)].into_iter().filter(|(key,_)| matches(key)).map(|(key, index)| gpui::div().max_w(px(250.)).v_flex().gap_2()
                 .child(self.tr(key))
                 .child(gpui::div().text_sm().text_color(cx.theme().muted_foreground).child(self.tr(&format!("{key}_description"))))
-                .child(crate::styles::number_input(&self.volume_settings_inputs[index], cx))))
+                .child(crate::styles::number_input(&self.volume_settings_inputs[index], cx)))).collect::<Vec<_>>())
 
-            .setting(&["Play button behavior"], crate::styles::button("play-button-behavior", cx).label(format!("{}: {}",self.tr("setting.playButtonBehavior"),self.tr(match self.state.settings.play_button_behavior {feishin_core::queue::PlayBehavior::Now=>"setting.playButtonBehavior_optionPlay",feishin_core::queue::PlayBehavior::Next=>"setting.playButtonBehavior_optionAddNext",feishin_core::queue::PlayBehavior::Last=>"setting.playButtonBehavior_optionAddLast",feishin_core::queue::PlayBehavior::Shuffle=>"setting.playButtonBehavior_optionPlayShuffled"}))).dropdown_menu({
+            .setting(&["Play button behavior"], || crate::styles::button("play-button-behavior", cx).label(format!("{}: {}",self.tr("setting.playButtonBehavior"),self.tr(match self.state.settings.play_button_behavior {feishin_core::queue::PlayBehavior::Now=>"setting.playButtonBehavior_optionPlay",feishin_core::queue::PlayBehavior::Next=>"setting.playButtonBehavior_optionAddNext",feishin_core::queue::PlayBehavior::Last=>"setting.playButtonBehavior_optionAddLast",feishin_core::queue::PlayBehavior::Shuffle=>"setting.playButtonBehavior_optionPlayShuffled"}))).dropdown_menu({
                 let view=cx.weak_entity();
                 move |mut menu,_,cx| {
                     use feishin_core::queue::PlayBehavior;
@@ -4194,8 +4194,8 @@ impl Feishin {
                     menu
                 }
             }))
-            .setting(&["Restore queue on startup", "setting.savePlayQueue"], self.setting_checkbox("resume-queue", "setting.savePlayQueue", self.state.settings.resume_queue, cx).on_click(cx.listener(|this,value:&bool,_,cx|{this.state.settings.resume_queue = *value;this.save();cx.notify();})))
-            .settings_children("external-links-settings", [("setting.externalLinks", 0), ("setting.lastfm", 1), ("setting.listenbrainz", 2), ("setting.musicbrainz", 3), ("setting.qobuz", 4), ("setting.spotify", 5), ("setting.nativeSpotify", 6)].into_iter().filter(|(label,i)| matches(label) && (*i == 0 || self.state.settings.external_links.enabled) && (*i != 6 || self.state.settings.external_links.spotify)).map(|(label, i)| {
+            .setting(&["Restore queue on startup", "setting.savePlayQueue"], || self.setting_checkbox("resume-queue", "setting.savePlayQueue", self.state.settings.resume_queue, cx).on_click(cx.listener(|this,value:&bool,_,cx|{this.state.settings.resume_queue = *value;this.save();cx.notify();})))
+            .settings_children("external-links-settings", || ([("setting.externalLinks", 0), ("setting.lastfm", 1), ("setting.listenbrainz", 2), ("setting.musicbrainz", 3), ("setting.qobuz", 4), ("setting.spotify", 5), ("setting.nativeSpotify", 6)].into_iter().filter(|(label,i)| matches(label) && (*i == 0 || self.state.settings.external_links.enabled) && (*i != 6 || self.state.settings.external_links.spotify)).map(|(label, i)| {
                 let config=&self.state.settings.external_links;
                 let value=match i {0=>config.enabled,1=>config.last_fm,2=>config.listen_brainz,3=>config.music_brainz,4=>config.qobuz,5=>config.spotify,_=>config.native_spotify};
                 self.setting_checkbox(("external-link-setting", i as usize), label, value, cx).on_click(cx.listener(move |this,checked:&bool,_,cx|{
@@ -4203,28 +4203,28 @@ impl Feishin {
                     let value=match i {0=>&mut config.enabled,1=>&mut config.last_fm,2=>&mut config.listen_brainz,3=>&mut config.music_brainz,4=>&mut config.qobuz,5=>&mut config.spotify,_=>&mut config.native_spotify};
                     *value = *checked;this.save();cx.notify();
                 }))
-            }))
-            .setting(&["Autosave queue to server", "setting.autosave"], self.setting_checkbox("queue-autosave", "setting.autosave", self.state.settings.queue_autosave, cx).on_click(cx.listener(|this,value:&bool,_,cx|{this.state.settings.queue_autosave = *value;this.save();cx.notify();})))
-            .setting(&["Tracks between queue saves", "setting.autosaveCount"], gpui::div().max_w(px(250.0)).v_flex().gap_2().child(self.tr("Tracks between queue saves")).child(crate::styles::number_input(&self.queue_autosave_input, cx)))
-            .setting(&["Apply autosave interval", "setting.autosaveCount"], crate::styles::button("queue-autosave-apply", cx).label(self.tr("common.save")).on_click(cx.listener(|this,_,_,cx|{match this.queue_autosave_input.read(cx).value().parse::<u32>() {Ok(value) if value > 0 => {this.state.settings.queue_autosave_count=value;this.save();}, _=>this.message="Use a positive whole number of tracks".into()}; cx.notify();})))
-            .setting(&["Confirm queue changes", "setting.confirmQueueChanges"], self.setting_checkbox("confirm-queue", "setting.confirmQueueChanges", self.state.settings.confirm_queue_changes, cx).on_click(cx.listener(|this,value:&bool,_,cx|{this.state.settings.confirm_queue_changes = *value;this.save();cx.notify();})))
-            .setting(&["Auto DJ", "auto-dj-settings"], crate::styles::button("auto-dj", cx).label(self.tr("setting.autoDJ_enabled")).selected(self.state.settings.auto_dj).on_click(cx.listener(|this,_,_,cx|{this.state.settings.auto_dj= !this.state.settings.auto_dj;this.reset_auto_dj();this.save();cx.notify();})))
-            .setting(&["setting.autoDJ", "auto-dj-settings"], self.auto_dj_controls(cx))
-            .setting(&["Player Filters", "setting.playerFilters"], crate::styles::button("playback-filters", cx).label(self.tr("Player Filters")).on_click(cx.listener(|this,_,_,cx|this.navigate(Route::PlaybackFilters,cx))))
-            .setting(&["setting.transcode"], crate::styles::button("transcode", cx).label(self.tr("setting.transcode")).selected(self.state.settings.transcode).on_click(cx.listener(|this,_,_,cx|{this.state.settings.transcode= !this.state.settings.transcode;this.save();cx.notify();})))
-            .setting(&["setting.transcodeSampleRate"], gpui::div().max_w(px(300.)).v_flex().gap_2().child(self.tr("setting.transcodeSampleRate")).child(crate::styles::number_input(&self.sample_rate_input, cx)).child(gpui::div().text_sm().text_color(cx.theme().muted_foreground).child(self.tr("setting.transcodeSampleRate_description"))))
-            .setting(&["setting.transcodeBitrate"], gpui::div().max_w(px(300.)).v_flex().gap_2().child(self.tr("setting.transcodeBitrate")).child(crate::styles::number_input(&self.bitrate_input, cx)).child(gpui::div().text_sm().text_color(cx.theme().muted_foreground).child(self.tr("setting.transcodeBitrate_description"))))
-            .setting(&["setting.transcodeFormat"], gpui::div().max_w(px(300.)).v_flex().gap_2().child(self.tr("setting.transcodeFormat")).child(crate::styles::input(&self.transcode_format_input, cx)).child(gpui::div().text_sm().text_color(cx.theme().muted_foreground).child(self.tr("setting.transcodeFormat_description"))))
-            .setting(&["transcode-settings"], crate::styles::button("transcode-save", cx).debug_selector(|| "transcode-save".into()).label(self.tr("common.save")).on_click(cx.listener(|this, _, _, cx| this.apply_transcoding_settings(cx))))
-            .setting(&["ReplayGain", "setting.replayGainMode", "setting.replayGainPreamp", "setting.replayGainClipping", "setting.replayGainFallback"], crate::styles::button("replaygain", cx).label(format!("{}: {}", self.tr("setting.replayGainMode"), self.tr(match self.state.settings.replay_gain.as_str() { "track" => "setting.replayGainMode_optionTrack", "album" => "setting.replayGainMode_optionAlbum", _ => "setting.replayGainMode_optionNone" }))).on_click(cx.listener(|this,_,_,cx|{this.state.settings.replay_gain=match this.state.settings.replay_gain.as_str(){"no"=>"track","track"=>"album",_=>"no"}.into();this.apply_audio_settings(cx);})))
-            .setting(&["Equalizer", "setting.equalizer"], crate::styles::button("eq-enabled", cx).debug_selector(|| "equalizer-toggle".into()).label(self.tr("setting.equalizer")).selected(self.state.settings.equalizer_enabled).on_click(cx.listener(|this,_,window,cx|{this.state.settings.equalizer_enabled= !this.state.settings.equalizer_enabled;if !this.state.settings.equalizer_enabled { this.audio_preset_selects[0].update(cx, |select,cx| select.reset(window,cx)); }this.apply_audio_settings(cx);})))
-            .setting(&["eq-settings"], self.equalizer_controls(cx))
-            .setting(&["Compressor", "setting.compressor"], crate::styles::button("compressor", cx).debug_selector(|| "compressor-toggle".into()).label(self.tr("setting.compressor")).selected(self.state.settings.compressor.enabled).on_click(cx.listener(|this,_,window,cx|{this.state.settings.compressor.enabled= !this.state.settings.compressor.enabled;if !this.state.settings.compressor.enabled { this.audio_preset_selects[1].update(cx, |select,cx| select.reset(window,cx)); }this.apply_audio_settings(cx);})))
-            .setting(&["eq-settings"], self.compressor_controls(cx))
-            .setting(&["lyric-settings"], self.lyric_settings(cx))
-            .setting(&["Keep display awake during playback", "setting.preventSleepOnPlayback"], self.setting_checkbox("prevent-sleep", "setting.preventSleepOnPlayback", self.state.settings.prevent_sleep, cx).debug_selector(|| "prevent-sleep".into()).disabled(self.state.settings.prevent_suspend).on_click(cx.listener(|this, value: &bool, _, cx| { this.state.settings.prevent_sleep = *value; this.save(); cx.notify(); })))
-            .setting(&["Prevent idle sleep during playback", "setting.preventSuspendOnPlayback"], self.setting_checkbox("prevent-suspend", "setting.preventSuspendOnPlayback", self.state.settings.prevent_suspend, cx).debug_selector(|| "prevent-suspend".into()).disabled(self.state.settings.prevent_sleep).on_click(cx.listener(|this, value: &bool, _, cx| { this.state.settings.prevent_suspend = *value; this.save(); cx.notify(); })))
-            .setting(&["Sleep timer"], self.sleep_controls(cx))
+            })).collect::<Vec<_>>())
+            .setting(&["Autosave queue to server", "setting.autosave"], || self.setting_checkbox("queue-autosave", "setting.autosave", self.state.settings.queue_autosave, cx).on_click(cx.listener(|this,value:&bool,_,cx|{this.state.settings.queue_autosave = *value;this.save();cx.notify();})))
+            .setting(&["Tracks between queue saves", "setting.autosaveCount"], || gpui::div().max_w(px(250.0)).v_flex().gap_2().child(self.tr("Tracks between queue saves")).child(crate::styles::number_input(&self.queue_autosave_input, cx)))
+            .setting(&["Apply autosave interval", "setting.autosaveCount"], || crate::styles::button("queue-autosave-apply", cx).label(self.tr("common.save")).on_click(cx.listener(|this,_,_,cx|{match this.queue_autosave_input.read(cx).value().parse::<u32>() {Ok(value) if value > 0 => {this.state.settings.queue_autosave_count=value;this.save();}, _=>this.message="Use a positive whole number of tracks".into()}; cx.notify();})))
+            .setting(&["Confirm queue changes", "setting.confirmQueueChanges"], || self.setting_checkbox("confirm-queue", "setting.confirmQueueChanges", self.state.settings.confirm_queue_changes, cx).on_click(cx.listener(|this,value:&bool,_,cx|{this.state.settings.confirm_queue_changes = *value;this.save();cx.notify();})))
+            .setting(&["Auto DJ", "auto-dj-settings"], || crate::styles::button("auto-dj", cx).label(self.tr("setting.autoDJ_enabled")).selected(self.state.settings.auto_dj).on_click(cx.listener(|this,_,_,cx|{this.state.settings.auto_dj= !this.state.settings.auto_dj;this.reset_auto_dj();this.save();cx.notify();})))
+            .setting(&["setting.autoDJ", "auto-dj-settings"], || self.auto_dj_controls(cx))
+            .setting(&["Player Filters", "setting.playerFilters"], || crate::styles::button("playback-filters", cx).label(self.tr("Player Filters")).on_click(cx.listener(|this,_,_,cx|this.navigate(Route::PlaybackFilters,cx))))
+            .setting(&["setting.transcode"], || crate::styles::button("transcode", cx).label(self.tr("setting.transcode")).selected(self.state.settings.transcode).on_click(cx.listener(|this,_,_,cx|{this.state.settings.transcode= !this.state.settings.transcode;this.save();cx.notify();})))
+            .setting(&["setting.transcodeSampleRate"], || gpui::div().max_w(px(300.)).v_flex().gap_2().child(self.tr("setting.transcodeSampleRate")).child(crate::styles::number_input(&self.sample_rate_input, cx)).child(gpui::div().text_sm().text_color(cx.theme().muted_foreground).child(self.tr("setting.transcodeSampleRate_description"))))
+            .setting(&["setting.transcodeBitrate"], || gpui::div().max_w(px(300.)).v_flex().gap_2().child(self.tr("setting.transcodeBitrate")).child(crate::styles::number_input(&self.bitrate_input, cx)).child(gpui::div().text_sm().text_color(cx.theme().muted_foreground).child(self.tr("setting.transcodeBitrate_description"))))
+            .setting(&["setting.transcodeFormat"], || gpui::div().max_w(px(300.)).v_flex().gap_2().child(self.tr("setting.transcodeFormat")).child(crate::styles::input(&self.transcode_format_input, cx)).child(gpui::div().text_sm().text_color(cx.theme().muted_foreground).child(self.tr("setting.transcodeFormat_description"))))
+            .setting(&["transcode-settings"], || crate::styles::button("transcode-save", cx).debug_selector(|| "transcode-save".into()).label(self.tr("common.save")).on_click(cx.listener(|this, _, _, cx| this.apply_transcoding_settings(cx))))
+            .setting(&["ReplayGain", "setting.replayGainMode", "setting.replayGainPreamp", "setting.replayGainClipping", "setting.replayGainFallback"], || crate::styles::button("replaygain", cx).label(format!("{}: {}", self.tr("setting.replayGainMode"), self.tr(match self.state.settings.replay_gain.as_str() { "track" => "setting.replayGainMode_optionTrack", "album" => "setting.replayGainMode_optionAlbum", _ => "setting.replayGainMode_optionNone" }))).on_click(cx.listener(|this,_,_,cx|{this.state.settings.replay_gain=match this.state.settings.replay_gain.as_str(){"no"=>"track","track"=>"album",_=>"no"}.into();this.apply_audio_settings(cx);})))
+            .setting(&["Equalizer", "setting.equalizer"], || crate::styles::button("eq-enabled", cx).debug_selector(|| "equalizer-toggle".into()).label(self.tr("setting.equalizer")).selected(self.state.settings.equalizer_enabled).on_click(cx.listener(|this,_,window,cx|{this.state.settings.equalizer_enabled= !this.state.settings.equalizer_enabled;if !this.state.settings.equalizer_enabled { this.audio_preset_selects[0].update(cx, |select,cx| select.reset(window,cx)); }this.apply_audio_settings(cx);})))
+            .setting(&["eq-settings"], || self.equalizer_controls(cx))
+            .setting(&["Compressor", "setting.compressor"], || crate::styles::button("compressor", cx).debug_selector(|| "compressor-toggle".into()).label(self.tr("setting.compressor")).selected(self.state.settings.compressor.enabled).on_click(cx.listener(|this,_,window,cx|{this.state.settings.compressor.enabled= !this.state.settings.compressor.enabled;if !this.state.settings.compressor.enabled { this.audio_preset_selects[1].update(cx, |select,cx| select.reset(window,cx)); }this.apply_audio_settings(cx);})))
+            .setting(&["eq-settings"], || self.compressor_controls(cx))
+            .setting(&["lyric-settings"], || self.lyric_settings(cx))
+            .setting(&["Keep display awake during playback", "setting.preventSleepOnPlayback"], || self.setting_checkbox("prevent-sleep", "setting.preventSleepOnPlayback", self.state.settings.prevent_sleep, cx).debug_selector(|| "prevent-sleep".into()).disabled(self.state.settings.prevent_suspend).on_click(cx.listener(|this, value: &bool, _, cx| { this.state.settings.prevent_sleep = *value; this.save(); cx.notify(); })))
+            .setting(&["Prevent idle sleep during playback", "setting.preventSuspendOnPlayback"], || self.setting_checkbox("prevent-suspend", "setting.preventSuspendOnPlayback", self.state.settings.prevent_suspend, cx).debug_selector(|| "prevent-suspend".into()).disabled(self.state.settings.prevent_sleep).on_click(cx.listener(|this, value: &bool, _, cx| { this.state.settings.prevent_suspend = *value; this.save(); cx.notify(); })))
+            .setting(&["Sleep timer"], || self.sleep_controls(cx))
     }
 
     fn settings_library_controls(
@@ -4233,23 +4233,20 @@ impl Feishin {
         cx: &mut Context<Self>,
     ) -> crate::settings::List {
         content
-            .setting(
-                &["Restart"],
+            .setting(&["Restart"], || {
                 crate::styles::button("restart-native", cx)
                     .debug_selector(|| "restart-native".into())
                     .label(self.tr("Restart"))
-                    .on_click(cx.listener(|this, _, window, cx| this.restart_native(window, cx))),
-            )
-            .setting(
-                &["Developer tools"],
+                    .on_click(cx.listener(|this, _, window, cx| this.restart_native(window, cx)))
+            })
+            .setting(&["Developer tools"], || {
                 crate::styles::button("native-inspector", cx)
                     .label(self.tr("Developer tools"))
                     .on_click(|_, window, cx| {
                         window.dispatch_action(Box::new(gpui_component::ToggleInspector), cx)
-                    }),
-            )
-            .setting(
-                &["setting.remoteUsername"],
+                    })
+            })
+            .setting(&["setting.remoteUsername"], || {
                 gpui::div()
                     .max_w(px(650.))
                     .v_flex()
@@ -4261,10 +4258,9 @@ impl Feishin {
                             .text_sm()
                             .text_color(cx.theme().muted_foreground)
                             .child(self.tr("setting.remoteUsername_description")),
-                    ),
-            )
-            .setting(
-                &["setting.remotePassword"],
+                    )
+            })
+            .setting(&["setting.remotePassword"], || {
                 gpui::div()
                     .max_w(px(650.))
                     .v_flex()
@@ -4276,10 +4272,9 @@ impl Feishin {
                             .text_sm()
                             .text_color(cx.theme().muted_foreground)
                             .child(self.tr("setting.remotePassword_description")),
-                    ),
-            )
-            .setting(
-                &["setting.remotePort"],
+                    )
+            })
+            .setting(&["setting.remotePort"], || {
                 gpui::div()
                     .max_w(px(650.))
                     .v_flex()
@@ -4291,17 +4286,15 @@ impl Feishin {
                             .text_sm()
                             .text_color(cx.theme().muted_foreground)
                             .child(self.tr("setting.remotePort_description")),
-                    ),
-            )
-            .setting(
-                &["Save remote settings", "remote-settings"],
+                    )
+            })
+            .setting(&["Save remote settings", "remote-settings"], || {
                 crate::styles::button("remote-apply", cx)
                     .debug_selector(|| "remote-apply".into())
                     .label(crate::appearance::text("Save remote settings", cx))
-                    .on_click(cx.listener(|this, _, _, cx| this.apply_remote_config(cx))),
-            )
-            .setting(
-                &["setting.enableRemote"],
+                    .on_click(cx.listener(|this, _, _, cx| this.apply_remote_config(cx)))
+            })
+            .setting(&["setting.enableRemote"], || {
                 gpui::div()
                     .v_flex()
                     .gap_2()
@@ -4331,35 +4324,30 @@ impl Feishin {
                         crate::styles::button("remote-open", cx)
                             .label(url.clone())
                             .on_click(move |_, _, cx| cx.open_url(&url))
-                    }),
-            )
-            .setting(&["cache-settngs"], self.cache_controls(cx))
-            .setting(
-                &["Edit local audio tags"],
+                    })
+            })
+            .setting(&["cache-settngs"], || self.cache_controls(cx))
+            .setting(&["Edit local audio tags"], || {
                 crate::styles::button("edit-local-tags", cx)
                     .label(self.tr("Edit local audio tags"))
-                    .on_click(cx.listener(|this, _, window, cx| this.choose_tag_files(window, cx))),
-            )
-            .setting(
-                &["path-settings", "setting.pathReplace"],
-                crate::path_settings::view(cx.weak_entity(), None),
-            )
-            .setting(
-                &["Scan server library"],
+                    .on_click(cx.listener(|this, _, window, cx| this.choose_tag_files(window, cx)))
+            })
+            .setting(&["path-settings", "setting.pathReplace"], || {
+                crate::path_settings::view(cx.weak_entity(), None)
+            })
+            .setting(&["Scan server library"], || {
                 crate::styles::button("scan", cx)
                     .debug_selector(|| "scan-library".into())
                     .label(self.library_scan_label())
                     .disabled(self.library_scan_busy() || !self.can_scan_library())
-                    .on_click(cx.listener(|this, _, _, cx| this.start_library_scan(cx))),
-            )
-            .setting(
-                &["Export diagnostics"],
+                    .on_click(cx.listener(|this, _, _, cx| this.start_library_scan(cx)))
+            })
+            .setting(&["Export diagnostics"], || {
                 crate::styles::button("export-diagnostics", cx)
                     .label(crate::appearance::text("Export diagnostics", cx))
-                    .on_click(cx.listener(|this, _, _, cx| this.export_diagnostics(cx))),
-            )
-            .setting(
-                &["Log level", "setting.logLevel"],
+                    .on_click(cx.listener(|this, _, _, cx| this.export_diagnostics(cx)))
+            })
+            .setting(&["Log level", "setting.logLevel"], || {
                 crate::styles::button("log-level", cx)
                     .label(format!(
                         "{}: {}",
@@ -4370,10 +4358,9 @@ impl Feishin {
                             "setting.logLevel_optionInfo"
                         })
                     ))
-                    .on_click(cx.listener(|this, _, _, cx| this.change_log_level(cx))),
-            )
-            .setting(
-                &["Open log folder"],
+                    .on_click(cx.listener(|this, _, _, cx| this.change_log_level(cx)))
+            })
+            .setting(&["Open log folder"], || {
                 crate::styles::button("open-log-folder", cx)
                     .label(crate::appearance::text("Open log folder", cx))
                     .on_click(cx.listener(|this, _, _, cx| {
@@ -4381,20 +4368,18 @@ impl Feishin {
                         if let Some(path) = dir.to_str() {
                             cx.reveal_path(std::path::Path::new(path));
                         }
-                    })),
-            )
-            .setting(
-                &["Collections"],
+                    }))
+            })
+            .setting(&["Collections"], || {
                 crate::styles::button("collection-settings", cx)
                     .label(crate::appearance::text("Collections", cx))
-                    .on_click(cx.listener(|this, _, _, cx| this.navigate(Route::Collections, cx))),
-            )
-            .setting(
-                &["Visualizer"],
+                    .on_click(cx.listener(|this, _, _, cx| this.navigate(Route::Collections, cx)))
+            })
+            .setting(&["Visualizer"], || {
                 crate::styles::button("visualizer-settings", cx)
                     .label(crate::appearance::text("Visualizer", cx))
-                    .on_click(cx.listener(|this, _, window, cx| this.edit_visualizer(window, cx))),
-            )
+                    .on_click(cx.listener(|this, _, window, cx| this.edit_visualizer(window, cx)))
+            })
             .setting(
                 &[
                     "Playback panels",
@@ -4405,76 +4390,83 @@ impl Feishin {
                     "setting.showVisualizerInSidebar",
                     "setting.combinedLyricsAndVisualizer",
                 ],
-                crate::styles::button("playback-panel-settings", cx)
-                    .label(crate::appearance::text("Playback panels", cx))
-                    .on_click(
-                        cx.listener(|this, _, _, cx| this.navigate(Route::PanelSettings, cx)),
-                    ),
+                || {
+                    crate::styles::button("playback-panel-settings", cx)
+                        .label(crate::appearance::text("Playback panels", cx))
+                        .on_click(
+                            cx.listener(|this, _, _, cx| this.navigate(Route::PanelSettings, cx)),
+                        )
+                },
             )
-            .setting(
-                &["Album groups"],
+            .setting(&["Album groups"], || {
                 crate::styles::button("release-group-settings", cx)
                     .label(crate::appearance::text("Album groups", cx))
-                    .on_click(cx.listener(|this, _, _, cx| this.navigate(Route::AlbumGroups, cx))),
-            )
+                    .on_click(cx.listener(|this, _, _, cx| this.navigate(Route::AlbumGroups, cx)))
+            })
             .setting(
                 &[
                     "Export settings and queue",
                     "setting.exportImportSettings_control_title",
                 ],
-                crate::styles::button("export-settings", cx)
-                    .label(self.tr("Export settings and queue"))
-                    .on_click(cx.listener(|this, _, _, cx| {
-                        let picker =
-                            cx.prompt_for_new_path(&this.data_dir, Some("feishin-settings.json"));
-                        cx.spawn(async move |this, cx| {
-                            if let Ok(Ok(Some(path))) = picker.await {
-                                this.update(cx, |this, cx| {
-                                    this.message = match storage::save(&path, &this.state) {
-                                        Ok(()) => "Settings exported without credentials".into(),
-                                        Err(e) => e.to_string(),
-                                    };
-                                    cx.notify();
-                                })
-                                .ok();
-                            }
-                        })
-                        .detach();
-                    })),
+                || {
+                    crate::styles::button("export-settings", cx)
+                        .label(self.tr("Export settings and queue"))
+                        .on_click(cx.listener(|this, _, _, cx| {
+                            let picker = cx
+                                .prompt_for_new_path(&this.data_dir, Some("feishin-settings.json"));
+                            cx.spawn(async move |this, cx| {
+                                if let Ok(Ok(Some(path))) = picker.await {
+                                    this.update(cx, |this, cx| {
+                                        this.message = match storage::save(&path, &this.state) {
+                                            Ok(()) => {
+                                                "Settings exported without credentials".into()
+                                            }
+                                            Err(e) => e.to_string(),
+                                        };
+                                        cx.notify();
+                                    })
+                                    .ok();
+                                }
+                            })
+                            .detach();
+                        }))
+                },
             )
             .setting(
                 &[
                     "Import settings",
                     "setting.exportImportSettings_control_title",
                 ],
-                crate::styles::button("import-settings", cx)
-                    .debug_selector(|| "import-settings".into())
-                    .label(self.tr("setting.exportImportSettings_control_importText"))
-                    .on_click(cx.listener(|this, _, _, cx| this.open_settings_import(cx))),
+                || {
+                    crate::styles::button("import-settings", cx)
+                        .debug_selector(|| "import-settings".into())
+                        .label(self.tr("setting.exportImportSettings_control_importText"))
+                        .on_click(cx.listener(|this, _, _, cx| this.open_settings_import(cx)))
+                },
             )
-            .setting(
-                &["Open application data folder"],
+            .setting(&["Open application data folder"], || {
                 crate::styles::button("open-data", cx)
                     .label(self.tr("Open application data folder"))
-                    .on_click(cx.listener(|this, _, _, cx| cx.reveal_path(&this.data_dir))),
-            )
+                    .on_click(cx.listener(|this, _, _, cx| cx.reveal_path(&this.data_dir)))
+            })
             .setting(
                 &[
                     "Custom query builder fields",
                     "setting.queryBuilderCustomFields",
                 ],
-                crate::styles::button("query-field-settings", cx)
-                    .label(self.tr("Custom query builder fields"))
-                    .on_click(
-                        cx.listener(|this, _, window, cx| this.open_query_fields(window, cx)),
-                    ),
+                || {
+                    crate::styles::button("query-field-settings", cx)
+                        .label(self.tr("Custom query builder fields"))
+                        .on_click(
+                            cx.listener(|this, _, window, cx| this.open_query_fields(window, cx)),
+                        )
+                },
             )
-            .setting(
-                &["Keyboard shortcuts"],
+            .setting(&["Keyboard shortcuts"], || {
                 crate::styles::button("shortcut-settings", cx)
                     .label(crate::appearance::text("Keyboard shortcuts", cx))
-                    .on_click(cx.listener(|this, _, _, cx| this.navigate(Route::Shortcuts, cx))),
-            )
+                    .on_click(cx.listener(|this, _, _, cx| this.navigate(Route::Shortcuts, cx)))
+            })
     }
 
     fn editor(&self, cx: &mut Context<Self>) -> AnyElement {

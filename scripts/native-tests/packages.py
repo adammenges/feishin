@@ -2,6 +2,7 @@
 """Verify native archives, executable modes and every bundled license."""
 import hashlib
 import pathlib
+import plistlib
 import re
 import stat
 import sys
@@ -44,6 +45,13 @@ for path in archives:
                 assert archive.read(prefix + name) == source.read_bytes(), f'Stale or missing license: {name}'
             data = archive.read(executable)
             if mac:
+                contents = 'Feishin.app/Contents/'
+                info = plistlib.loads(archive.read(contents + 'Info.plist'))
+                assert info['CFBundleExecutable'] == 'feishin'
+                assert info['CFBundlePackageType'] == 'APPL'
+                icon = archive.read(contents + 'Resources/' + info['CFBundleIconFile'])
+                assert icon[:4] == b'icns', 'Missing macOS icon family'
+                assert int.from_bytes(icon[4:8], 'big') == len(icon), 'Truncated macOS icon family'
                 for name in [executable, 'Feishin.app/Contents/MacOS/feishin-audio-capture']:
                     assert files[name].external_attr >> 16 & 0o111, f'Missing executable mode: {name}'
                 assert data[:4] in [b'\xcf\xfa\xed\xfe', b'\xfe\xed\xfa\xcf', b'\xca\xfe\xba\xbe']

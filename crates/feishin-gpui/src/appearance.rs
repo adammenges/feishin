@@ -260,22 +260,64 @@ impl Feishin {
                 "background" => {
                     theme.background = color;
                     theme.sidebar = color;
+                    theme.list = color;
+                    theme.table = color;
+                    theme.tiles = color;
+                    theme.title_bar = color;
                 }
                 "background-alternate" => {
                     theme.muted = color;
                     theme.sidebar_accent = color;
+                    theme.accordion = color;
+                    theme.accordion_hover = color;
+                    theme.list_even = color;
+                    theme.list_head = color;
+                    theme.table_even = color;
+                    theme.table_head = color;
+                    theme.tab_bar = color;
+                    theme.tab_bar_segmented = color;
+                    theme.skeleton = color;
+                    theme.switch = color;
                 }
                 "surface" => {
                     theme.secondary = color;
                     theme.secondary_hover = color;
                     theme.secondary_active = color;
+                    theme.accent = color;
+                    theme.popover = color;
+                    theme.group_box = color;
+                    theme.description_list_label = color;
+                    theme.tab = color;
+                    theme.tab_active = color;
+                    theme.list_hover = color;
+                    theme.list_active = color;
+                    theme.table_hover = color;
+                    theme.table_active = color;
                 }
-                "surface-foreground" => theme.secondary_foreground = color,
+                "surface-foreground" => {
+                    theme.secondary_foreground = color;
+                    theme.accent_foreground = color;
+                    theme.popover_foreground = color;
+                    theme.group_box_foreground = color;
+                    theme.description_list_label_foreground = color;
+                    theme.tab_active_foreground = color;
+                    theme.table_head_foreground = color;
+                    theme.sidebar_accent_foreground = color;
+                }
                 "foreground" => {
                     theme.foreground = color;
                     theme.sidebar_foreground = color;
+                    theme.tab_foreground = color;
                 }
                 "foreground-muted" => theme.muted_foreground = color,
+                "border" => {
+                    theme.border = color;
+                    theme.input = color;
+                    theme.sidebar_border = color;
+                    theme.table_row_border = color;
+                    theme.title_bar_border = color;
+                    theme.window_border = color;
+                }
                 "primary" => {
                     theme.primary = color;
                     theme.primary_hover = color;
@@ -283,22 +325,79 @@ impl Feishin {
                     theme.sidebar_primary = color;
                     theme.primary_foreground = primary_foreground;
                     theme.sidebar_primary_foreground = primary_foreground;
+                    theme.ring = color;
+                    theme.caret = color;
+                    theme.drag_border = color;
+                    theme.progress_bar = color;
+                    theme.slider_bar = color;
+                    theme.link = color;
+                    theme.link_hover = color;
+                    theme.link_active = color;
+                    theme.list_active_border = color;
+                    theme.table_active_border = color;
+                    theme.selection = color.opacity(0.2);
+                    theme.drop_target = color.opacity(0.2);
                 }
                 "state-error" => {
                     theme.danger = color;
                     theme.danger_hover = color;
                     theme.danger_active = color;
+                    theme.danger_foreground = primary_foreground;
+                    theme.bearish = color;
+                }
+                "state-info" => {
+                    theme.info = color;
+                    theme.info_hover = color;
+                    theme.info_active = color;
+                    theme.info_foreground = primary_foreground;
                 }
                 "state-success" => {
                     theme.success = color;
                     theme.success_hover = color;
                     theme.success_active = color;
+                    theme.success_foreground = primary_foreground;
+                    theme.bullish = color;
                 }
                 "state-warning" => {
                     theme.warning = color;
                     theme.warning_hover = color;
                     theme.warning_active = color;
+                    theme.warning_foreground = primary_foreground;
                 }
+                "black" => theme.overlay = color.opacity(0.5),
+                "white" => {
+                    theme.switch_thumb = color;
+                    theme.slider_thumb = color;
+                }
+                "red" => {
+                    theme.red = color;
+                    theme.red_light = color;
+                }
+                "green" => {
+                    theme.green = color;
+                    theme.green_light = color;
+                    theme.chart_2 = color;
+                }
+                "blue" => {
+                    theme.blue = color;
+                    theme.blue_light = color;
+                    theme.chart_1 = color;
+                }
+                "yellow" => {
+                    theme.yellow = color;
+                    theme.yellow_light = color;
+                }
+                "magenta" => {
+                    theme.magenta = color;
+                    theme.magenta_light = color;
+                }
+                "cyan" => {
+                    theme.cyan = color;
+                    theme.cyan_light = color;
+                    theme.chart_5 = color;
+                }
+                "orange" => theme.chart_3 = color,
+                "violet" => theme.chart_4 = color,
                 _ => {}
             }
         }
