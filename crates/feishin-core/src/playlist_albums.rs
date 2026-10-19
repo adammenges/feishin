@@ -43,6 +43,26 @@ pub fn rows(songs: Vec<Item>) -> Vec<Item> {
         album.playlist_songs = vec![song];
         rows.push(album);
     }
+    for album in &mut rows {
+        album.duration = album.playlist_songs.iter().map(|song| song.duration).sum();
+        album.play_count = album
+            .playlist_songs
+            .iter()
+            .fold(0u32, |total, song| total.saturating_add(song.play_count));
+        album
+            .column_data
+            .insert("songCount".into(), album.playlist_songs.len().to_string());
+        if let Some(latest) = album
+            .playlist_songs
+            .iter()
+            .filter_map(|song| song.column_data.get("lastPlayedAt"))
+            .filter(|date| !date.is_empty())
+            .max()
+            .cloned()
+        {
+            album.column_data.insert("lastPlayedAt".into(), latest);
+        }
+    }
     rows
 }
 
@@ -59,6 +79,39 @@ pub fn sort_songs(songs: &mut [Item], sort: Sort, descending: bool) {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn album_stats_aggregate_only_the_consecutive_playlist_tracks() {
+        let mut songs = vec![
+            Item {
+                album_id: "a".into(),
+                duration: 10.,
+                play_count: 2,
+                ..Default::default()
+            };
+            4
+        ];
+        songs[1].duration = 25.;
+        songs[1].play_count = 3;
+        songs[0]
+            .column_data
+            .insert("lastPlayedAt".into(), "2026-10-01T00:00:00Z".into());
+        songs[1]
+            .column_data
+            .insert("lastPlayedAt".into(), "2026-10-18T00:00:00Z".into());
+        songs[2].album_id = "b".into();
+        let groups = rows(songs);
+        assert_eq!(groups[0].duration, 35.);
+        assert_eq!(groups[0].play_count, 5);
+        assert_eq!(groups[0].column_data["songCount"], "2");
+        assert_eq!(
+            groups[0].column_data["lastPlayedAt"],
+            "2026-10-18T00:00:00Z"
+        );
+        assert_eq!(groups[2].duration, 10.);
+        assert_eq!(groups[2].column_data["songCount"], "1");
+        assert!(!groups[2].column_data.contains_key("lastPlayedAt"));
+    }
 
     #[test]
     fn consecutive_groups_keep_duplicate_entries_disc_order_and_source_positions() {

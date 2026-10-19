@@ -763,7 +763,13 @@ fn artist_tables_share_columns_and_keep_selection_focus_and_displayed_playback(
     cx.run_until_parked();
     app.read_with(cx, |view, _| {
         assert_eq!(view.state.queue.current().unwrap().item.id, "10");
-        assert_eq!(view.state.queue.entries.len(), 20);
+        assert_eq!(view.state.queue.entries.len(), 21);
+        assert_eq!(view.state.queue.up_next.len(), 1);
+        assert_eq!(view.state.queue.next_entry(false).unwrap().item.id, "1");
+        assert_eq!(
+            view.state.queue.next_entry(false).unwrap().key,
+            view.state.queue.up_next[0]
+        );
         assert!(!view.playing);
     });
     // Holding the section control enqueues one shuffled batch and suppresses release activation.
@@ -777,7 +783,7 @@ fn artist_tables_share_columns_and_keep_selection_focus_and_displayed_playback(
         .advance_clock(std::time::Duration::from_millis(501));
     cx.run_until_parked();
     let length = app.read_with(cx, |view, _| view.state.queue.entries.len());
-    assert_eq!(length, 40);
+    assert_eq!(length, 41);
     cx.simulate_mouse_up(next, MouseButton::Left, Modifiers::none());
     cx.run_until_parked();
     assert_eq!(
@@ -5127,8 +5133,9 @@ fn grouped_song_artwork_plays_the_list_context_with_duplicate_tracks(cx: &mut Te
                 .iter()
                 .map(|entry| entry.item.id.as_str())
                 .collect::<Vec<_>>(),
-            ["0", "0", "2", "3", "4", "5"]
+            ["0", "0", "0", "2", "3", "4", "5"]
         );
+        assert_eq!(view.state.queue.up_next, [view.state.queue.order[1]]);
         assert_eq!(
             view.state.queue.current().unwrap().item.playlist_position,
             Some(0)
@@ -12108,6 +12115,7 @@ fn player_sleep_popover_steps_validates_starts_and_cancels_without_navigation(
     cx.set_assets(crate::icons::Assets);
     cx.update(gpui_component::init);
     let dir = std::env::temp_dir().join(format!("feishin-sleep-popover-{}", uuid::Uuid::new_v4()));
+    std::fs::create_dir_all(&dir).unwrap();
     let captured = Rc::new(RefCell::new(None));
     let (_, cx) = cx.add_window_view(|window, cx| {
         window.activate_window();
@@ -17724,8 +17732,8 @@ fn track_radio_includes_library_seed_skips_queued_seed_and_keeps_queue_on_empty_
     for (index, (mode, skip, expected)) in [
         (Enqueue::End, false, 4),
         (Enqueue::Next, true, 6),
-        (Enqueue::Now, true, 3),
-        (Enqueue::Now, true, 3),
+        (Enqueue::Now, true, 5),
+        (Enqueue::Now, true, 5),
     ]
     .into_iter()
     .enumerate()
@@ -17756,6 +17764,7 @@ fn track_radio_includes_library_seed_skips_queued_seed_and_keeps_queue_on_empty_
             }
             if matches!(mode, Enqueue::Now) {
                 assert_eq!(songs[0].item.id, "seed");
+                assert_eq!(view.state.queue.up_next.len(), 2);
             }
             if view.message == "No related tracks found" {
                 assert_eq!(view.state.queue.order, previous);
@@ -17810,7 +17819,7 @@ fn track_radio_includes_library_seed_skips_queued_seed_and_keeps_queue_on_empty_
                 .iter()
                 .map(|entry| entry.item.id.as_str())
                 .collect::<Vec<_>>(),
-            ["related-a", "related-b"]
+            ["related-a", "related-a", "related-b", "related-b"]
         );
         assert_eq!(
             view.state.queue.current,
@@ -18058,7 +18067,10 @@ fn scan_mouse_start_completion_refresh_and_stale_results_preserve_queue_and_lyri
             let mut bytes = [0; 8192];
             let n = stream.read(&mut bytes).unwrap();
             let request = String::from_utf8_lossy(&bytes[..n]).into_owned();
-            let response = if request.contains("/getScanStatus.view?") {
+            let preview = request.contains("/getRandomSongs.view?");
+            let response = if preview {
+                serde_json::json!({"subsonic-response":{"status":"ok","randomSongs":{"song":[]}}})
+            } else if request.contains("/getScanStatus.view?") {
                 serde_json::json!({"subsonic-response":{"status":"ok","scanStatus":{"scanning":false,"lastScan":"before"}}})
             } else if request.contains("/startScan.view?") {
                 serde_json::json!({"subsonic-response":{"status":"ok"}})
@@ -18069,7 +18081,9 @@ fn scan_mouse_start_completion_refresh_and_stale_results_preserve_queue_and_lyri
                 serde_json::json!({"subsonic-response":{"status":"ok","playlists":{"playlist":[]}}})
             }.to_string();
             write!(stream,"HTTP/1.1 200 OK\r\nContent-Type: application/json\r\nContent-Length: {}\r\nConnection: close\r\n\r\n{}",response.len(),response).unwrap();
-            requests.push(request);
+            if !preview {
+                requests.push(request);
+            }
         }
         requests
     });

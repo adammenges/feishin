@@ -804,7 +804,9 @@
         "sleepTimer_timeRemaining": "{{time}} remaining",
         "sleepTimer_setCustom": "Set timer",
         "sleepTimer_cancel": "Cancel timer",
-        "scrobbleForceSubmit": "Force scrobble"
+        "scrobbleForceSubmit": "Force scrobble",
+        "queueSection_queue": "Queue",
+        "queueSection_upNext": "Up next"
     },
     "queryBuilder": {
         "standardTags": "Standard tags",
@@ -1327,7 +1329,9 @@
         "microtonalPitchControls": "Microtonal pitch controls",
         "microtonalPitchControls_description": "Add more pitch controls to go between semi-tones",
         "sidebarImageEnabled": "Expand album art button",
-        "sidebarImageEnabled_description": "Show a button on the player bar's album art to expand it into the sidebar. Disabling this also hides the button and collapses the album art if it is currently expanded"
+        "sidebarImageEnabled_description": "Show a button on the player bar's album art to expand it into the sidebar. Disabling this also hides the button and collapses the album art if it is currently expanded",
+        "upNextQueue_description": "Play next adds songs to an Up next section after the current song, in the order they were added. Up next stays next when the queue is shuffled or replaced. Disable to insert each Play next directly after the current song",
+        "upNextQueue": "Up next queue"
     },
     "table": {
         "column": {

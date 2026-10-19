@@ -120,18 +120,12 @@ pub fn reorder_queue(queue: &mut crate::queue::Queue, value: &Value) -> Result<(
         queue.order.contains(&key) && matches!(value["edge"].as_str(), Some("top" | "bottom")),
         "Invalid queue entry or edge"
     );
-    let index = queue
-        .order
-        .iter()
-        .position(|id| *id == target)
-        .ok_or_else(|| anyhow::anyhow!("Target queue entry no longer exists"))?;
-    let before = if value["edge"] == "bottom" {
-        queue.order.get(index + 1).copied()
-    } else {
-        Some(target)
-    };
+    ensure!(
+        queue.order.contains(&target),
+        "Target queue entry no longer exists"
+    );
     if key != target {
-        queue.move_before(&[key], before);
+        queue.move_at(&[key], Some(target), value["edge"] == "bottom");
     }
     Ok(())
 }
@@ -919,7 +913,7 @@ mod tests {
         state.settings.accent = "invalid-private-value".into();
         state.settings.use_theme_accent_color = false;
         let data = snapshot(&state, true);
-        assert_eq!(data[4]["data"], json!({"dark":"#0558fd","light":"#3574fc"}));
+        assert_eq!(data[4]["data"], json!({"dark":"#268bd2","light":"#57a6df"}));
         assert!(
             !serde_json::to_string(&data)
                 .unwrap()

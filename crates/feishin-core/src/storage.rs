@@ -90,6 +90,7 @@ pub struct Settings {
     pub volume_wheel_step: f32,
     pub volume_width: f32,
     pub button_size: f32,
+    pub up_next_queue: bool,
     pub play_button_behavior: crate::queue::PlayBehavior,
     pub artist_radio_count: usize,
     pub album_group: crate::album_metadata::Config,
@@ -254,6 +255,7 @@ impl Default for Settings {
             volume_wheel_step: 5.,
             volume_width: 70.,
             button_size: 15.,
+            up_next_queue: true,
             play_button_behavior: Default::default(),
             artist_radio_count: 20,
             album_group: Default::default(),
@@ -626,6 +628,7 @@ pub fn load(path: &Path) -> Result<State> {
                     state.settings.accent = "#268bd2".into();
                 }
             }
+            state.queue.up_next_enabled = state.settings.up_next_queue;
             state.queue.repair();
             state.settings.volume = state.settings.volume.clamp(0.0, 100.0);
             state.settings.speed = state.settings.speed.clamp(0.25, 4.0);

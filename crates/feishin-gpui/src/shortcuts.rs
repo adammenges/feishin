@@ -414,7 +414,9 @@ impl Feishin {
             }
         }
         bindings.push(KeyBinding::new(if cfg!(target_os = "macos") { "cmd-a" } else { "ctrl-a" }, SelectListAll, Some("(Feishin > (LibraryList || RelatedList || ArtistSongList || MainQueueList || SideQueueList)) && !Input && !NumberInput && !FormControl && !Select && !RecordingShortcut")));
-        bindings.push(KeyBinding::new("delete", RemoveQueueSelection, Some("(Feishin > (MainQueueList || SideQueueList)) && !Input && !NumberInput && !FormControl && !Select && !RecordingShortcut")));
+        for key in ["delete", "backspace"] {
+            bindings.push(KeyBinding::new(key, RemoveQueueSelection, Some("(Feishin > (MainQueueList || SideQueueList)) && !Input && !NumberInput && !FormControl && !Select && !RecordingShortcut")));
+        }
         cx.clear_key_bindings();
         cx.bind_keys(bindings);
         if !errors.is_empty() {

@@ -122,14 +122,11 @@ impl Config {
         if self.spotify {
             links.push((
                 "Spotify",
-                format!(
-                    "{}{query}",
-                    if self.native_spotify {
-                        "spotify:search:"
-                    } else {
-                        "https://open.spotify.com/search/"
-                    }
-                ),
+                if self.native_spotify {
+                    format!("spotify:search:{}", query.replace("%20", "+"))
+                } else {
+                    format!("https://open.spotify.com/search/{query}")
+                },
             ));
         }
         links
@@ -170,7 +167,16 @@ mod tests {
                 .1
                 .starts_with("spotify:search:")
         );
+        assert_eq!(
+            config.links(&item).last().unwrap().1,
+            "spotify:search:A%2BB+Hello+%2F+%E9%9B%A8+%26+%23"
+        );
+        item.name = "A Tribe Called Quest".into();
         item.kind = ItemKind::AlbumArtist;
+        assert_eq!(
+            config.links(&item).last().unwrap().1,
+            "spotify:search:A+Tribe+Called+Quest"
+        );
         item.musicbrainz_id = "../../bad?".into();
         let links = config.links(&item);
         assert_eq!(links.len(), 4);

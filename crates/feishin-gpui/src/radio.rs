@@ -209,11 +209,19 @@ impl Feishin {
                     && item.playlist_position == start.playlist_position
             })
         });
+        self.state.queue.up_next_enabled = self.state.settings.up_next_queue;
         self.state.queue.add(items, mode);
         if matches!(mode, Enqueue::Now)
             && let Some(index) = index
         {
-            self.state.queue.current = self.state.queue.order.get(index).copied();
+            self.state.queue.current = self
+                .state
+                .queue
+                .order
+                .iter()
+                .filter(|id| !self.state.queue.up_next.contains(id))
+                .nth(index)
+                .copied();
             self.state.queue.position = 0.;
         }
         self.save();
@@ -260,9 +268,18 @@ impl Feishin {
         position: f64,
         cx: &mut Context<Self>,
     ) {
+        self.state.queue.up_next_enabled = self.state.settings.up_next_queue;
         self.state.queue.add(songs, Enqueue::Now);
         self.state.queue.current = current
-            .and_then(|index| self.state.queue.order.get(index).copied())
+            .and_then(|index| {
+                self.state
+                    .queue
+                    .order
+                    .iter()
+                    .filter(|id| !self.state.queue.up_next.contains(id))
+                    .nth(index)
+                    .copied()
+            })
             .or(self.state.queue.current);
         self.state.queue.position = position;
         self.save();

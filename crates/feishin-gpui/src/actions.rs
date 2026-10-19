@@ -727,15 +727,28 @@ impl Feishin {
                                         let start = if label == "Move next" {
                                             this.state
                                                 .queue
-                                                .current
+                                                .up_next
+                                                .first()
                                                 .and_then(|key| {
                                                     this.state
                                                         .queue
                                                         .order
                                                         .iter()
-                                                        .position(|entry| *entry == key)
+                                                        .position(|id| id == key)
                                                 })
-                                                .map_or(0, |index| index + 1)
+                                                .unwrap_or_else(|| {
+                                                    this.state
+                                                        .queue
+                                                        .current
+                                                        .and_then(|key| {
+                                                            this.state
+                                                                .queue
+                                                                .order
+                                                                .iter()
+                                                                .position(|entry| *entry == key)
+                                                        })
+                                                        .map_or(0, |index| index + 1)
+                                                })
                                         } else {
                                             0
                                         };

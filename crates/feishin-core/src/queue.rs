@@ -43,7 +43,7 @@ impl PlayBehavior {
     }
 }
 
-#[derive(Clone, Debug, Default, Deserialize, Serialize)]
+#[derive(Clone, Debug, Deserialize, Serialize)]
 pub struct Queue {
     pub entries: Vec<Entry>,
     pub order: Vec<Uuid>,
@@ -51,6 +51,30 @@ pub struct Queue {
     pub shuffle: bool,
     pub repeat: Repeat,
     pub position: f64,
+    #[serde(default)]
+    pub up_next: Vec<Uuid>,
+    /// Runtime copy of the setting; old saved queues opt in automatically.
+    #[serde(skip, default = "up_next_default")]
+    pub up_next_enabled: bool,
+}
+
+fn up_next_default() -> bool {
+    true
+}
+
+impl Default for Queue {
+    fn default() -> Self {
+        Self {
+            entries: vec![],
+            order: vec![],
+            current: None,
+            shuffle: false,
+            repeat: Repeat::Off,
+            position: 0.,
+            up_next: vec![],
+            up_next_enabled: true,
+        }
+    }
 }
 
 #[derive(Default)]
@@ -77,6 +101,124 @@ impl AutoSave {
 }
 
 impl Queue {
+    /// Keep the pending block after the playing track in both playback and base order.
+    pub fn sync_up_next(&mut self) {
+        self.arrange_up_next(true);
+    }
+
+    fn arrange_up_next(&mut self, keep_pinned: bool) {
+        if !self.up_next_enabled {
+            self.up_next.clear();
+        }
+        if self.up_next.is_empty() {
+            return;
+        }
+        let valid = self
+            .order
+            .iter()
+            .copied()
+            .collect::<std::collections::HashSet<_>>();
+        let mut seen = std::collections::HashSet::new();
+        self.up_next
+            .retain(|key| Some(*key) != self.current && valid.contains(key) && seen.insert(*key));
+        if self.up_next.is_empty() {
+            return;
+        }
+        let settle = |ids: &mut Vec<Uuid>| {
+            let current = self
+                .current
+                .and_then(|key| ids.iter().position(|id| *id == key));
+            let start = ids.iter().position(|id| *id == self.up_next[0]);
+            // Normal songs deliberately dropped above the block stay there.
+            if keep_pinned
+                && start.is_some_and(|start| {
+                    current.is_none_or(|current| start > current)
+                        && ids.get(start..start + self.up_next.len())
+                            == Some(self.up_next.as_slice())
+                })
+            {
+                return false;
+            }
+            ids.retain(|id| !seen.contains(id));
+            let index = self
+                .current
+                .and_then(|key| ids.iter().position(|id| *id == key))
+                .map_or(0, |i| i + 1);
+            ids.splice(index..index, self.up_next.iter().copied());
+            true
+        };
+        settle(&mut self.order);
+        let mut base = self
+            .entries
+            .iter()
+            .map(|entry| entry.key)
+            .collect::<Vec<_>>();
+        if !settle(&mut base) {
+            return;
+        }
+        let indexes = base
+            .into_iter()
+            .enumerate()
+            .map(|(index, key)| (key, index))
+            .collect::<std::collections::HashMap<_, _>>();
+        self.entries.sort_by_key(|entry| indexes[&entry.key]);
+    }
+
+    /// The lower edge of a normal row above Up next belongs to the normal queue.
+    pub fn pins_above_up_next(&self, target: Option<Uuid>, after: bool) -> bool {
+        if !after {
+            return false;
+        }
+        let index = |key| self.order.iter().position(|id| Some(*id) == key);
+        match (
+            index(self.current),
+            index(target),
+            index(self.up_next.first().copied()),
+        ) {
+            (Some(current), Some(target), Some(start)) => current <= target && target < start,
+            _ => false,
+        }
+    }
+
+    fn regroup_up_next(&mut self, moved: &[Uuid], pin: bool) {
+        if self.up_next.is_empty() {
+            return;
+        }
+        let moved = moved
+            .iter()
+            .copied()
+            .collect::<std::collections::HashSet<_>>();
+        let kept = self
+            .up_next
+            .iter()
+            .filter(|id| !moved.contains(id))
+            .copied()
+            .collect::<std::collections::HashSet<_>>();
+        let last_kept = self.order.iter().rposition(|id| kept.contains(id));
+        let mut previous = false;
+        self.up_next = self
+            .order
+            .iter()
+            .enumerate()
+            .filter_map(|(index, id)| {
+                if Some(*id) == self.current {
+                    previous = true;
+                    return None;
+                }
+                if kept.contains(id) {
+                    previous = true;
+                    return Some(*id);
+                }
+                if moved.contains(id) {
+                    return (previous && !pin).then_some(*id);
+                }
+                previous &= last_kept.is_some_and(|last| index < last);
+                None
+            })
+            .collect();
+        self.sync_up_next();
+    }
+
     pub fn current(&self) -> Option<&Entry> {
         self.entries
             .iter()
@@ -96,8 +238,16 @@ impl Queue {
     }
 
     pub fn add(&mut self, items: Vec<Item>, mode: Enqueue) {
+        self.sync_up_next();
+        let priority =
+            matches!(mode, Enqueue::Next) && self.up_next_enabled && self.current.is_some();
         if matches!(mode, Enqueue::Now) {
-            self.entries.clear();
+            let pending = self
+                .up_next
+                .iter()
+                .copied()
+                .collect::<std::collections::HashSet<_>>();
+            self.entries.retain(|entry| pending.contains(&entry.key));
             self.order.clear();
             self.current = None;
             self.position = 0.0;
@@ -110,22 +260,35 @@ impl Queue {
             })
             .collect();
         let mut keys: Vec<_> = entries.iter().map(|entry| entry.key).collect();
-        if self.shuffle {
+        if self.shuffle && !priority {
             keys.shuffle(&mut rand::thread_rng());
         }
         let first_added = keys.first().copied();
         let index = if matches!(mode, Enqueue::Next) {
-            self.current
+            self.up_next
+                .last()
+                .copied()
+                .filter(|_| priority)
+                .or(self.current)
                 .and_then(|key| self.order.iter().position(|id| *id == key))
                 .map_or(self.order.len(), |i| i + 1)
         } else {
             self.order.len()
         };
+        if priority {
+            self.up_next.extend(&keys);
+        }
         self.order.splice(index..index, keys);
+        if matches!(mode, Enqueue::Now) {
+            let index = usize::from(first_added.is_some());
+            self.order
+                .splice(index..index, self.up_next.iter().copied());
+        }
         self.entries.extend(entries);
         if self.current.is_none() {
             self.current = first_added;
         }
+        self.sync_up_next();
     }
 
     pub fn next_entry(&self, automatic: bool) -> Option<&Entry> {
@@ -146,6 +309,7 @@ impl Queue {
     pub fn next(&mut self, automatic: bool) -> Option<&Entry> {
         self.current = self.next_entry(automatic).map(|entry| entry.key);
         self.position = 0.0;
+        self.sync_up_next();
         self.current()
     }
 
@@ -163,6 +327,7 @@ impl Queue {
             _ => self.order.first().copied(),
         };
         self.position = 0.0;
+        self.sync_up_next();
         self.current()
     }
 
@@ -204,6 +369,7 @@ impl Queue {
         };
         self.current = target.map(|index| ordered[index].key);
         self.position = 0.0;
+        self.sync_up_next();
         self.current()
     }
 
@@ -217,6 +383,7 @@ impl Queue {
                 self.order.insert(0, current);
             }
         }
+        self.arrange_up_next(false);
     }
 
     pub fn remove(&mut self, key: Uuid) -> bool {
@@ -229,6 +396,7 @@ impl Queue {
         if self.current == Some(key) {
             self.current = None;
         }
+        self.sync_up_next();
         current
     }
 
@@ -236,6 +404,7 @@ impl Queue {
         if let Some(index) = self.order.iter().position(|id| *id == key) {
             self.order.remove(index);
             self.order.insert(to.min(self.order.len()), key);
+            self.regroup_up_next(&[key], false);
             if !self.shuffle {
                 self.sort_entries();
             }
@@ -262,12 +431,25 @@ impl Queue {
             .and_then(|key| self.order.iter().position(|entry| *entry == key))
             .unwrap_or(self.order.len());
         self.order.splice(index..index, moved);
+        self.regroup_up_next(keys, false);
         if !self.shuffle {
             self.sort_entries();
         }
     }
     /// Insert a dragged block at either edge of a row, preserving source identities and order.
     pub fn move_at(&mut self, keys: &[Uuid], target: Option<Uuid>, after: bool) {
+        let pin = self.pins_above_up_next(target, after);
+        self.move_at_boundary(keys, target, after, pin);
+    }
+
+    /// Preserve the drop boundary while library tracks are fetched asynchronously.
+    pub fn move_at_boundary(
+        &mut self,
+        keys: &[Uuid],
+        target: Option<Uuid>,
+        after: bool,
+        pin: bool,
+    ) {
         let boundary = target
             .and_then(|key| self.order.iter().position(|entry| *entry == key))
             .map_or(self.order.len(), |index| index + usize::from(after));
@@ -288,6 +470,7 @@ impl Queue {
             .count();
         self.order.retain(|key| !seen.contains(key));
         self.order.splice(index..index, moved);
+        self.regroup_up_next(keys, pin);
         if !self.shuffle {
             self.sort_entries();
         }
@@ -314,6 +497,7 @@ impl Queue {
         } else {
             self.order.shuffle(&mut rng);
         }
+        self.arrange_up_next(false);
         self.sort_entries();
     }
     pub fn shuffle_selected(&mut self, selected: &[Uuid]) {
@@ -331,6 +515,7 @@ impl Queue {
         for (index, entry) in positions.into_iter().zip(entries) {
             self.order[index] = entry;
         }
+        self.arrange_up_next(false);
         self.sort_entries();
     }
 
@@ -351,11 +536,125 @@ impl Queue {
         if !self.position.is_finite() || self.position < 0.0 {
             self.position = 0.0;
         }
+        self.sync_up_next();
     }
 }
 
 #[cfg(test)]
 mod tests {
+    use super::{Enqueue, Queue};
+    use crate::model::Item;
+
+    fn named_songs(ids: &[&str]) -> Vec<Item> {
+        ids.iter()
+            .map(|id| Item {
+                id: (*id).into(),
+                ..Default::default()
+            })
+            .collect()
+    }
+    fn ids(queue: &Queue) -> Vec<&str> {
+        queue
+            .ordered()
+            .iter()
+            .map(|entry| entry.item.id.as_str())
+            .collect()
+    }
+
+    #[test]
+    fn up_next_fifo_survives_shuffle_replacement_playback_and_restore() {
+        let mut queue = Queue::default();
+        queue.add(named_songs(&["a", "b", "c"]), Enqueue::Now);
+        queue.add(named_songs(&["x", "y"]), Enqueue::Next);
+        queue.add(named_songs(&["z"]), Enqueue::Next);
+        let pending = queue.up_next.clone();
+        assert_eq!(ids(&queue), ["a", "x", "y", "z", "b", "c"]);
+        for shuffle in [true, false] {
+            queue.set_shuffle(shuffle);
+            assert_eq!(queue.up_next, pending);
+            queue.shuffle_all();
+            assert_eq!(queue.up_next, pending);
+            queue.shuffle_selected(&queue.order.clone());
+            let current = queue
+                .order
+                .iter()
+                .position(|id| Some(*id) == queue.current)
+                .unwrap();
+            assert_eq!(&queue.order[current + 1..current + 4], &pending);
+        }
+        queue.set_shuffle(false);
+        queue.add(named_songs(&["new", "later"]), Enqueue::Now);
+        assert_eq!(ids(&queue), ["new", "x", "y", "z", "later"]);
+        assert_eq!(queue.up_next, pending);
+        assert_eq!(queue.next(false).unwrap().item.id, "x");
+        assert_eq!(queue.up_next, pending[1..]);
+        queue.remove(pending[1]);
+        assert_eq!(queue.up_next, pending[2..]);
+        let mut restored: Queue =
+            serde_json::from_value(serde_json::to_value(&queue).unwrap()).unwrap();
+        restored.repair();
+        assert_eq!(ids(&restored), ids(&queue));
+        assert_eq!(restored.up_next, queue.up_next);
+        assert_eq!(restored.next(false).unwrap().item.id, "z");
+        assert!(restored.up_next.is_empty());
+    }
+
+    #[test]
+    fn up_next_drop_edges_pinned_rows_and_move_out_are_distinct() {
+        let mut queue = Queue::default();
+        queue.add(named_songs(&["a", "b", "c", "d"]), Enqueue::Now);
+        let normal = queue.order.clone();
+        queue.add(named_songs(&["x", "y"]), Enqueue::Next);
+        let pending = queue.up_next.clone();
+        queue.move_at(&[normal[1]], Some(normal[0]), true);
+        assert_eq!(ids(&queue), ["a", "b", "x", "y", "c", "d"]);
+        assert_eq!(queue.up_next, pending);
+        queue.move_at(&[normal[2]], Some(pending[0]), false);
+        assert_eq!(ids(&queue), ["a", "b", "c", "x", "y", "d"]);
+        assert_eq!(queue.up_next, [normal[2], pending[0], pending[1]]);
+        queue.move_at(&[pending[0]], Some(normal[3]), true);
+        assert_eq!(ids(&queue), ["a", "b", "c", "y", "d", "x"]);
+        assert_eq!(queue.up_next, [normal[2], pending[1]]);
+        // A newly fetched drop uses the boundary captured before the fetch.
+        let pin = queue.pins_above_up_next(Some(normal[1]), true);
+        queue.add(named_songs(&["fetched"]), Enqueue::End);
+        let added = *queue.order.last().unwrap();
+        queue.move_at_boundary(&[added], Some(normal[1]), true, pin);
+        assert_eq!(ids(&queue), ["a", "b", "fetched", "c", "y", "d", "x"]);
+        assert!(!queue.up_next.contains(&added));
+        queue.current = Some(normal[3]);
+        queue.sync_up_next();
+        assert_eq!(ids(&queue), ["a", "b", "fetched", "d", "c", "y", "x"]);
+        assert_eq!(queue.up_next, [normal[2], pending[1]]);
+    }
+
+    #[test]
+    fn up_next_setting_defaults_and_duplicate_entries_are_preserved() {
+        let mut queue = Queue::default();
+        queue.add(named_songs(&["same", "same"]), Enqueue::Now);
+        queue.add(named_songs(&["same", "same"]), Enqueue::Next);
+        assert_eq!(queue.entries.len(), 4);
+        assert_eq!(queue.up_next.len(), 2);
+        assert_ne!(queue.up_next[0], queue.up_next[1]);
+        queue.up_next_enabled = false;
+        queue.sync_up_next();
+        assert!(queue.up_next.is_empty());
+        queue.add(named_songs(&["x"]), Enqueue::Next);
+        queue.add(named_songs(&["y"]), Enqueue::Next);
+        assert_eq!(&ids(&queue)[..3], &["same", "y", "x"]);
+        queue.add(named_songs(&["replace"]), Enqueue::Now);
+        assert_eq!(ids(&queue), ["replace"]);
+        let mut old = serde_json::to_value(&queue).unwrap();
+        old.as_object_mut().unwrap().remove("up_next");
+        let restored: Queue = serde_json::from_value(old).unwrap();
+        assert!(restored.up_next_enabled && restored.up_next.is_empty());
+        let imported =
+            crate::migration::preview(&Default::default(), br#"{"general":{"upNextQueue":false}}"#)
+                .unwrap();
+        assert!(!imported.settings.up_next_queue);
+        assert!(imported.omitted.is_empty());
+    }
+
     #[test]
     fn dragged_row_edges_match_original_store_with_duplicate_songs() {
         let reference: serde_json::Value =

@@ -341,6 +341,17 @@ pub(crate) fn variables(palette: &Palette, settings: &Settings) -> BTreeMap<Stri
         }
         .into(),
     );
+    for (name, alpha) in [("hover", 3), ("selected", 6)] {
+        let channel = if mode == "light" {
+            "0 0 0"
+        } else {
+            "255 255 255"
+        };
+        variables.insert(
+            format!("--theme-colors-row-{name}"),
+            format!("rgb({channel} / {alpha}%)"),
+        );
+    }
     variables.insert(
         "--theme-colors-primary".into(),
         selected_accent(palette, settings).into(),

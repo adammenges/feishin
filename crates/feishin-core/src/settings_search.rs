@@ -64,6 +64,7 @@ pub const SETTINGS_TITLES: &[(&str, &[&str])] = &[
             "setting.showSkipButtons",
             "setting.skipDuration",
             "setting.playButtonBehavior",
+            "setting.upNextQueue",
             "setting.followCurrentSong",
             "setting.sidebarImageEnabled",
             "setting.artistRadioCount",

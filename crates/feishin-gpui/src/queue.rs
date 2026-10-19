@@ -3,7 +3,8 @@ use feishin_core::{
     model::{Item, ItemKind},
     queue::Enqueue,
 };
-use gpui::*;
+use gpui::{prelude::FluentBuilder, *};
+use gpui_component::{ActiveTheme, StyledExt};
 use uuid::Uuid;
 
 pub fn album_grouping(config: &feishin_core::lists::Config) -> bool {
@@ -21,6 +22,7 @@ pub fn album_grouping(config: &feishin_core::lists::Config) -> bool {
 
 #[derive(Debug, PartialEq)]
 pub enum GroupedQueueRow {
+    Section { up_next: bool, count: usize },
     Album(std::ops::Range<usize>),
     Track(usize),
 }
@@ -45,6 +47,54 @@ pub fn grouped_queue_rows<'a>(songs: impl Iterator<Item = &'a Item>) -> Vec<Grou
         }
     }
     rows
+}
+
+// Section boundaries also split album groups, so every header points to real track indices.
+pub fn display_rows(
+    entries: &[&feishin_core::queue::Entry],
+    priority: &[Uuid],
+    albums: bool,
+    sections: bool,
+) -> Vec<GroupedQueueRow> {
+    let priority = priority
+        .iter()
+        .copied()
+        .collect::<std::collections::HashSet<_>>();
+    let mut result = vec![];
+    let mut start = 0;
+    while start < entries.len() {
+        let up_next = priority.contains(&entries[start].key);
+        let end = if sections {
+            (start + 1..entries.len())
+                .find(|index| priority.contains(&entries[*index].key) != up_next)
+                .unwrap_or(entries.len())
+        } else {
+            entries.len()
+        };
+        if sections {
+            result.push(GroupedQueueRow::Section {
+                up_next,
+                count: end - start,
+            });
+        }
+        if albums {
+            result.extend(
+                grouped_queue_rows(entries[start..end].iter().map(|entry| &entry.item))
+                    .into_iter()
+                    .map(|row| match row {
+                        GroupedQueueRow::Album(range) => {
+                            GroupedQueueRow::Album(range.start + start..range.end + start)
+                        }
+                        GroupedQueueRow::Track(index) => GroupedQueueRow::Track(index + start),
+                        section => section,
+                    }),
+            );
+        } else {
+            result.extend((start..end).map(GroupedQueueRow::Track));
+        }
+        start = end;
+    }
+    result
 }
 
 /// Match the original closest-edge tie break: the midpoint belongs to the top half.
@@ -73,6 +123,78 @@ pub struct Dragged {
     pub items: Vec<Item>,
 }
 impl Feishin {
+    pub fn queue_has_sections(&self, sidebar: bool) -> bool {
+        self.state.settings.up_next_queue
+            && !self.state.queue.up_next.is_empty()
+            && if sidebar {
+                self.side_queue_filter.trim().is_empty()
+            } else {
+                self.local_filter.trim().is_empty() && self.queue_display_sort.is_none()
+            }
+    }
+
+    pub fn queue_display_rows(
+        &self,
+        entries: &[&feishin_core::queue::Entry],
+        config: &feishin_core::lists::Config,
+        sidebar: bool,
+    ) -> Vec<GroupedQueueRow> {
+        display_rows(
+            entries,
+            &self.state.queue.up_next,
+            album_grouping(config),
+            self.queue_has_sections(sidebar),
+        )
+    }
+
+    pub fn queue_section_header(
+        &self,
+        up_next: bool,
+        count: usize,
+        row: usize,
+        sidebar: bool,
+        cx: &App,
+    ) -> AnyElement {
+        let label = self.tr(if up_next {
+            "player.queueSection_upNext"
+        } else {
+            "player.queueSection_queue"
+        });
+        div()
+            .id(SharedString::from(format!("queue-section-{sidebar}-{row}")))
+            .role(Role::Heading)
+            .aria_label(label)
+            .debug_selector(move || {
+                if up_next {
+                    "up-next-section".into()
+                } else {
+                    "queue-section".into()
+                }
+            })
+            .h_flex()
+            .h(px(32.))
+            .px_3()
+            .gap_2()
+            .bg(cx.theme().secondary)
+            .text_sm()
+            .font_weight(FontWeight::SEMIBOLD)
+            .text_color(cx.theme().foreground)
+            .whitespace_nowrap()
+            .map(|mut div| {
+                div.text_style()
+                    .get_or_insert_with(Default::default)
+                    .letter_spacing_fraction = Some(0.06);
+                div
+            })
+            .child(self.tr(if up_next {
+                "player.queueSection_upNext"
+            } else {
+                "player.queueSection_queue"
+            }))
+            .child(count.to_string())
+            .into_any_element()
+    }
+
     pub fn queue_selection(&self, sidebar: bool) -> (&std::collections::HashSet<Uuid>, &Vec<Uuid>) {
         if sidebar {
             (&self.side_queue_selected, &self.side_queue_selection_order)
@@ -452,6 +574,7 @@ impl Feishin {
             cx.notify();
             return;
         }
+        let pin_above_up_next = self.state.queue.pins_above_up_next(target, after);
         let items = dragged.items.clone();
         let context = dragged
             .playlist_source
@@ -508,7 +631,9 @@ impl Feishin {
                             .iter()
                             .map(|entry| entry.key)
                             .collect::<Vec<_>>();
-                        this.state.queue.move_at(&added, target, after);
+                        this.state
+                            .queue
+                            .move_at_boundary(&added, target, after, pin_above_up_next);
                         this.arm_next();
                         this.save();
                     }
@@ -603,5 +728,157 @@ impl Feishin {
         }
         self.save();
         cx.notify();
+    }
+}
+
+#[cfg(test)]
+mod upstream_tests {
+    use super::{GroupedQueueRow, display_rows};
+    use crate::app::Feishin;
+    use feishin_core::{
+        model::Item,
+        queue::{Enqueue, Queue},
+        storage::State,
+    };
+    use gpui::{AppContext, TestAppContext};
+    use gpui_component::Root;
+    use uuid::Uuid;
+
+    #[test]
+    fn sections_split_album_groups_without_changing_track_indices() {
+        use GroupedQueueRow::{Album, Section, Track};
+        let song = Item {
+            album: "Album".into(),
+            ..Default::default()
+        };
+        let mut queue = Queue::default();
+        queue.add(vec![song.clone(), song.clone()], Enqueue::Now);
+        queue.add(vec![song], Enqueue::Next);
+        let entries = queue.ordered();
+        assert_eq!(
+            display_rows(&entries, &queue.up_next, true, true),
+            [
+                Section {
+                    up_next: false,
+                    count: 1
+                },
+                Album(0..1),
+                Track(0),
+                Section {
+                    up_next: true,
+                    count: 1
+                },
+                Album(1..2),
+                Track(1),
+                Section {
+                    up_next: false,
+                    count: 1
+                },
+                Album(2..3),
+                Track(2),
+            ]
+        );
+        assert_eq!(
+            display_rows(&entries, &queue.up_next, false, false),
+            [Track(0), Track(1), Track(2)]
+        );
+        assert_eq!(
+            display_rows(&entries[1..], &queue.up_next, false, true),
+            [
+                Section {
+                    up_next: true,
+                    count: 1
+                },
+                Track(0),
+                Section {
+                    up_next: false,
+                    count: 1
+                },
+                Track(1),
+            ]
+        );
+    }
+
+    #[gpui::test]
+    fn up_next_native_sections_follow_search_playback_and_saved_setting(cx: &mut TestAppContext) {
+        cx.set_assets(crate::icons::Assets);
+        cx.update(gpui_component::init);
+        let dir = std::env::temp_dir().join(format!("feishin-up-next-{}", Uuid::new_v4()));
+        let mut captured = None;
+        let (_, cx) = cx.add_window_view(|window, cx| {
+            window.activate_accessibility_for_test();
+            let mut state = State::default();
+            state.settings.home.feature = false;
+            state.settings.home.items.clear();
+            let view = cx.new(|cx| Feishin::new(dir.clone(), Ok(state), window, cx));
+            captured = Some(view.clone());
+            Root::new(view, window, cx)
+        });
+        let view = captured.unwrap();
+        let section_visible = |cx: &mut gpui::VisualTestContext| {
+            cx.update(|window, _| {
+                window
+                    .accessibility_tree_for_test()
+                    .unwrap()
+                    .nodes
+                    .iter()
+                    .any(|(_, node)| {
+                        node.role() == gpui::Role::Heading
+                            && !node.is_hidden()
+                            && node.label() == Some("Up next")
+                    })
+            })
+        };
+
+        view.update(cx, |view, cx| {
+            view.route = crate::app::Route::Queue;
+            view.state.queue.add(
+                vec![
+                    Item {
+                        name: "Current".into(),
+                        ..Default::default()
+                    },
+                    Item {
+                        name: "Later".into(),
+                        ..Default::default()
+                    },
+                ],
+                Enqueue::Now,
+            );
+            view.state.queue.add(
+                vec![Item {
+                    name: "Pending".into(),
+                    ..Default::default()
+                }],
+                Enqueue::Next,
+            );
+            view.save();
+            cx.notify();
+        });
+        cx.run_until_parked();
+        cx.refresh().unwrap();
+        assert!(section_visible(cx));
+        view.update(cx, |view, cx| {
+            view.scroll_queue_to_current();
+            view.submit_local_filter("Pending".into(), cx);
+            cx.notify();
+        });
+        cx.run_until_parked();
+        cx.refresh().unwrap();
+        assert!(!section_visible(cx));
+        view.update(cx, |view, cx| {
+            view.local_filter.clear();
+            view.state.settings.up_next_queue = false;
+            view.save();
+            cx.notify();
+        });
+        cx.run_until_parked();
+        cx.refresh().unwrap();
+        assert!(!section_visible(cx));
+        let saved = feishin_core::storage::load(&dir.join("state.json")).unwrap();
+        assert!(!saved.settings.up_next_queue);
+        assert!(saved.queue.up_next.is_empty());
+        assert_eq!(saved.queue.entries.len(), 3);
+        std::fs::remove_dir_all(dir).ok();
     }
 }

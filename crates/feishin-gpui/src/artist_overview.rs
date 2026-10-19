@@ -923,17 +923,26 @@ impl Feishin {
                             .w_full()
                             .h_flex()
                             .when(crate::appearance::rtl(cx), |div| div.flex_row_reverse())
-                            .when(
-                                selected
-                                    || row_config.table.enable_alternate_row_colors
-                                        && display_index % 2 == 1,
-                                |div| div.bg(cx.theme().secondary),
-                            )
                             .when(row_config.table.enable_horizontal_borders, |div| {
                                 div.border_b_1().border_color(cx.theme().border)
                             })
+                            .bg(crate::styles::row_background(
+                                row_config.table.enable_alternate_row_colors
+                                    && display_index % 2 == 1,
+                                selected,
+                                false,
+                                cx,
+                            ))
                             .when(row_config.table.enable_row_hover_highlight, |div| {
-                                div.hover(|style| style.bg(cx.theme().secondary))
+                                div.hover(|style| {
+                                    style.bg(crate::styles::row_background(
+                                        row_config.table.enable_alternate_row_colors
+                                            && display_index % 2 == 1,
+                                        selected,
+                                        true,
+                                        cx,
+                                    ))
+                                })
                             })
                             .on_hover(cx.listener(move |this, hovered_state, _, cx| {
                                 this.hover_table_row(hovered.clone(), index, *hovered_state, cx)

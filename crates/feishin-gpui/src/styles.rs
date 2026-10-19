@@ -11,6 +11,39 @@ use std::{
     sync::Arc,
 };
 
+// Alpha overlays retain the underlying artwork and alternate row colors.
+pub fn row_background(alternate: bool, selected: bool, hovered: bool, cx: &App) -> Hsla {
+    let overlay = if selected || hovered {
+        let name = if selected {
+            "--theme-colors-row-selected"
+        } else {
+            "--theme-colors-row-hover"
+        };
+        cx.try_global::<NativeStyles>()
+            .and_then(|styles| {
+                styles
+                    .variables
+                    .get(name)
+                    .and_then(|value| color(value, &styles.palette))
+            })
+            .unwrap_or_else(|| {
+                hsla(
+                    0.,
+                    0.,
+                    if cx.theme().mode.is_dark() { 1. } else { 0. },
+                    if selected { 0.06 } else { 0.03 },
+                )
+            })
+    } else {
+        hsla(0., 0., 0., 0.)
+    };
+    if alternate {
+        cx.theme().secondary.blend(overlay)
+    } else {
+        overlay
+    }
+}
+
 type Variables = Arc<BTreeMap<String, String>>;
 
 pub struct NativeStyles {

@@ -478,6 +478,7 @@ pub fn preview(current: &Settings, bytes: &[u8]) -> Result<Preview> {
             ("general.volumeWheelStep", "volume_wheel_step"),
             ("general.volumeWidth", "volume_width"),
             ("general.playButtonBehavior", "play_button_behavior"),
+            ("general.upNextQueue", "up_next_queue"),
             ("general.artistRadioCount", "artist_radio_count"),
             (
                 "general.microtonalPitchControls",

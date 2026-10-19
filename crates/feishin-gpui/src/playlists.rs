@@ -2299,6 +2299,7 @@ mod row_tests {
                         case["mode"].as_str().unwrap().into();
                     app.sidebar_playlist_hover = None;
                     app.queue_prompt_open = true;
+                    app.state.queue = Default::default();
                     app.state.queue.add(
                         vec![Item {
                             id: "kept-a".into(),
@@ -2392,6 +2393,7 @@ mod row_tests {
                     app.update(cx, |app, cx| {
                         app.pending_queue_change = None;
                         app.state.settings.confirm_queue_changes = true;
+                        app.state.queue = Default::default();
                         app.state.queue.add(
                             ["kept-a", "kept-b"]
                                 .map(|id| Item {

@@ -139,6 +139,8 @@ On Windows, set `$env:FEISHIN_DATA_DIR` before running Cargo. This redirects app
 
 ## Testing and current status
 
+Upstream changes through `3f321069` (October 18, 2026) are ported to Rust/GPUI. See the [upstream port log](docs/native/UPSTREAM.md) for the included features, fixes and translations.
+
 The first pass has automated core, GPUI, protocol, package and virtual-display coverage. macOS and Linux builds have passed the checks recorded in the [parity ledger](docs/native/PARITY.md), including packaged Linux workflows on X11 and Wayland. The [CI workflow](.github/workflows/native.yml) defines checks for all three desktop platforms.
 
 Interactive listening, real devices, some OS integrations, broader server-version coverage and the native Windows build/runtime remain to be checked. See the [interactive acceptance checklist](docs/native/INTERACTIVE-CHECKS.md). Passing automated tests does not establish full feature parity.

@@ -583,6 +583,8 @@ impl Feishin {
             Ok(state) => (state, String::new(), true),
             Err(error) => (State::default(), error.to_string(), false),
         };
+        state.queue.up_next_enabled = state.settings.up_next_queue;
+        state.queue.sync_up_next();
         // Casting is not resumed at startup; restore the local speaker volume.
         for server in &mut state.servers {
             server.options.ignore_ssl = state.settings.ignore_ssl;
@@ -1878,6 +1880,8 @@ impl Feishin {
     }
 
     pub fn save(&mut self) {
+        self.state.queue.up_next_enabled = self.state.settings.up_next_queue;
+        self.state.queue.sync_up_next();
         self.arm_next();
         if let Some(remote) = &self.remote {
             remote.publish_with_artwork(
@@ -3074,6 +3078,8 @@ impl Feishin {
     }
 
     pub fn play_current(&mut self, cx: &mut Context<Self>) {
+        self.state.queue.up_next_enabled = self.state.settings.up_next_queue;
+        self.state.queue.sync_up_next();
         self.radio_item = None;
         self.radio_position = 0.0;
         self.play_active(cx);

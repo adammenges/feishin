@@ -1656,21 +1656,13 @@ impl Feishin {
                     .gap_2()
                     .h(px(config.table.size.detail_row_height() * self.state.settings.zoom))
                     .w_full()
-                    .when(
-                        config.table.enable_alternate_row_colors && track_index % 2 == 1,
-                        |div| div.bg(cx.theme().secondary),
-                    )
                     .when(config.table.enable_horizontal_borders, |div| {
                         div.border_b_1().border_color(cx.theme().border)
                     })
+                    .bg(crate::styles::row_background(config.table.enable_alternate_row_colors && track_index % 2 == 1, self.selected_album_tracks.contains(&(key.clone(), track_index)), false, cx))
                     .when(config.table.enable_row_hover_highlight, |div| {
-                        div.hover(|style| style.bg(cx.theme().secondary))
+                        div.hover(|style| style.bg(crate::styles::row_background(config.table.enable_alternate_row_colors && track_index % 2 == 1, self.selected_album_tracks.contains(&(key.clone(), track_index)), true, cx)))
                     })
-                    .when(
-                        self.selected_album_tracks
-                            .contains(&(key.clone(), track_index)),
-                        |div| div.bg(cx.theme().secondary),
-                    )
                     .child(
                         crate::styles::button("select-album-track", cx)
                             .ghost()

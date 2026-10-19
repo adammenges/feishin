@@ -532,9 +532,6 @@ impl Feishin {
                 matches!(&self.track_scroll_target, Some((crate::lists::TableRow::Library, target, _)) if *target == index),
                 |div| div.relative().child(self.track_scroll_marker(cx)),
             )
-            .when(self.selected.contains(&index), |div| {
-                div.bg(cx.theme().secondary)
-            })
 
             .on_drop_with_bounds(
                 crate::queue::row_drop_listener(cx, move |this, dragged, after, _, cx| {
@@ -555,12 +552,9 @@ impl Feishin {
             .when(config.table.enable_horizontal_borders, |div| {
                 div.border_b_1().border_color(cx.theme().border)
             })
-            .when(
-                config.table.enable_alternate_row_colors && index % 2 == 1,
-                |div| div.bg(cx.theme().secondary),
-            )
+            .bg(crate::styles::row_background(config.table.enable_alternate_row_colors && index % 2 == 1, self.selected.contains(&index), false, cx))
             .when(config.table.enable_row_hover_highlight, |div| {
-                div.hover(|style| style.bg(cx.theme().secondary))
+                div.hover(|style| style.bg(crate::styles::row_background(config.table.enable_alternate_row_colors && index % 2 == 1, self.selected.contains(&index), true, cx)))
             })
             .child(
                 crate::styles::button(("select", index), cx)
@@ -2891,19 +2885,24 @@ impl Feishin {
             .gap_3()
             .px_3()
             .rounded_md()
-            .when(
-                this.queue_selected.contains(&key) || this.state.queue.current == Some(key),
-                |div| div.bg(cx.theme().secondary),
-            )
             .when(config.table.enable_horizontal_borders, |div| {
                 div.border_b_1().border_color(cx.theme().border)
             })
-            .when(
+            .bg(crate::styles::row_background(
                 config.table.enable_alternate_row_colors && i % 2 == 1,
-                |div| div.bg(cx.theme().secondary),
-            )
+                this.queue_selected.contains(&key),
+                false,
+                cx,
+            ))
             .when(config.table.enable_row_hover_highlight, |div| {
-                div.hover(|style| style.bg(cx.theme().secondary))
+                div.hover(|style| {
+                    style.bg(crate::styles::row_background(
+                        config.table.enable_alternate_row_colors && i % 2 == 1,
+                        this.queue_selected.contains(&key),
+                        true,
+                        cx,
+                    ))
+                })
             })
             .child(this.metadata_cells(
                 &item,
@@ -2997,14 +2996,18 @@ impl Feishin {
         };
         let count = entries.len();
         let entity = cx.entity();
-        let grouped = crate::queue::album_grouping(&config);
+        let grouped = crate::queue::album_grouping(&config) || self.queue_has_sections(false);
         let rows = if grouped {
-            let display = crate::queue::grouped_queue_rows(entries.iter().map(|entry| &entry.item));
+            let display =
+                self.queue_display_rows(&entries.iter().collect::<Vec<_>>(), &config, false);
             if self.queue_group_scroll.item_count() != display.len() {
                 self.queue_group_scroll.reset(display.len());
             }
             list(self.queue_group_scroll.clone(), move |row, _, cx| {
                 entity.update(cx, |this, cx| match &display[row] {
+                    crate::queue::GroupedQueueRow::Section { up_next, count } => {
+                        this.queue_section_header(*up_next, *count, row, false, cx)
+                    }
                     crate::queue::GroupedQueueRow::Album(range) => {
                         let songs = entries[range.clone()]
                             .iter()
@@ -3106,19 +3109,25 @@ impl Feishin {
                                     .dropdown_menu({
                                         let view = cx.entity();
                                         let first = self.state.queue.order.first().copied();
-                                        let next = self
-                                            .state
-                                            .queue
-                                            .current
-                                            .and_then(|key| {
-                                                self.state
-                                                    .queue
-                                                    .order
-                                                    .iter()
-                                                    .position(|entry| *entry == key)
-                                            })
-                                            .and_then(|index| self.state.queue.order.get(index + 1))
-                                            .copied();
+                                        let next =
+                                            self.state.queue.up_next.first().copied().or_else(
+                                                || {
+                                                    self.state
+                                                        .queue
+                                                        .current
+                                                        .and_then(|key| {
+                                                            self.state
+                                                                .queue
+                                                                .order
+                                                                .iter()
+                                                                .position(|entry| *entry == key)
+                                                        })
+                                                        .and_then(|index| {
+                                                            self.state.queue.order.get(index + 1)
+                                                        })
+                                                        .copied()
+                                                },
+                                            );
                                         move |mut menu, _, _| {
                                             for (label, before) in [
                                                 ("To top", first),
@@ -4194,6 +4203,7 @@ impl Feishin {
                     menu
                 }
             }))
+            .setting(&["Up next queue", "setting.upNextQueue"], || gpui::div().v_flex().gap_1().child(self.setting_checkbox("up-next-queue", "setting.upNextQueue", self.state.settings.up_next_queue, cx).on_click(cx.listener(|this,value:&bool,_,cx|{this.state.settings.up_next_queue = *value;this.save();cx.notify();}))).child(gpui::div().text_sm().text_color(cx.theme().muted_foreground).child(self.tr("setting.upNextQueue_description"))))
             .setting(&["Restore queue on startup", "setting.savePlayQueue"], || self.setting_checkbox("resume-queue", "setting.savePlayQueue", self.state.settings.resume_queue, cx).on_click(cx.listener(|this,value:&bool,_,cx|{this.state.settings.resume_queue = *value;this.save();cx.notify();})))
             .settings_children("external-links-settings", || ([("setting.externalLinks", 0), ("setting.lastfm", 1), ("setting.listenbrainz", 2), ("setting.musicbrainz", 3), ("setting.qobuz", 4), ("setting.spotify", 5), ("setting.nativeSpotify", 6)].into_iter().filter(|(label,i)| matches(label) && (*i == 0 || self.state.settings.external_links.enabled) && (*i != 6 || self.state.settings.external_links.spotify)).map(|(label, i)| {
                 let config=&self.state.settings.external_links;

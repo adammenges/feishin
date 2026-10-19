@@ -662,15 +662,21 @@ impl Feishin {
         let empty = entries.is_empty();
         let row_config = config.clone();
         let row_columns = columns.clone();
-        let rows = if crate::queue::album_grouping(&config) {
-            let display =
-                crate::queue::grouped_queue_rows(entries.iter().map(|(_, entry)| &entry.item));
+        let rows = if crate::queue::album_grouping(&config) || self.queue_has_sections(true) {
+            let display = self.queue_display_rows(
+                &entries.iter().map(|(_, entry)| entry).collect::<Vec<_>>(),
+                &config,
+                true,
+            );
             if self.side_queue_group_scroll.item_count() != display.len() {
                 self.side_queue_group_scroll.reset(display.len());
             }
             let entity = cx.entity();
             list(self.side_queue_group_scroll.clone(), move |row, _, cx| {
                 entity.update(cx, |this, cx| match &display[row] {
+                    crate::queue::GroupedQueueRow::Section { up_next, count } => {
+                        this.queue_section_header(*up_next, *count, row, true, cx)
+                    }
                     crate::queue::GroupedQueueRow::Album(range) => {
                         let songs = entries[range.clone()]
                             .iter()
@@ -718,27 +724,34 @@ impl Feishin {
             .flex_1()
             .min_h_0()
             .child(rows)
-            .child(if crate::queue::album_grouping(&config) {
-                crate::scroll::Scrollbar::vertical(
-                    "side-queue-scrollbar",
-                    &self.side_queue_group_scroll,
-                )
-            } else {
-                crate::scroll::Scrollbar::vertical("side-queue-scrollbar", &self.side_queue_scroll)
-            })
-            .child(if crate::queue::album_grouping(&config) {
-                crate::scroll::Scrollbar::horizontal(
-                    "side-queue-horizontal-scrollbar",
-                    &self.side_queue_horizontal_scroll,
-                )
-                .in_viewport(&self.side_queue_group_scroll)
-            } else {
-                crate::scroll::Scrollbar::horizontal(
-                    "side-queue-horizontal-scrollbar",
-                    &self.side_queue_horizontal_scroll,
-                )
-                .in_viewport(&self.side_queue_scroll)
-            });
+            .child(
+                if crate::queue::album_grouping(&config) || self.queue_has_sections(true) {
+                    crate::scroll::Scrollbar::vertical(
+                        "side-queue-scrollbar",
+                        &self.side_queue_group_scroll,
+                    )
+                } else {
+                    crate::scroll::Scrollbar::vertical(
+                        "side-queue-scrollbar",
+                        &self.side_queue_scroll,
+                    )
+                },
+            )
+            .child(
+                if crate::queue::album_grouping(&config) || self.queue_has_sections(true) {
+                    crate::scroll::Scrollbar::horizontal(
+                        "side-queue-horizontal-scrollbar",
+                        &self.side_queue_horizontal_scroll,
+                    )
+                    .in_viewport(&self.side_queue_group_scroll)
+                } else {
+                    crate::scroll::Scrollbar::horizontal(
+                        "side-queue-horizontal-scrollbar",
+                        &self.side_queue_horizontal_scroll,
+                    )
+                    .in_viewport(&self.side_queue_scroll)
+                },
+            );
         div()
             .id("side-queue")
             .debug_selector(|| "side-queue".into())
@@ -841,19 +854,22 @@ impl Feishin {
             .when(config.table.enable_horizontal_borders, |div| {
                 div.border_b_1().border_color(cx.theme().border)
             })
+            .bg(crate::styles::row_background(
+                config.table.enable_alternate_row_colors && index % 2 == 1,
+                self.side_queue_selected.contains(&key),
+                false,
+                cx,
+            ))
             .when(config.table.enable_row_hover_highlight, |div| {
-                div.hover(|div| div.bg(cx.theme().secondary))
+                div.hover(|style| {
+                    style.bg(crate::styles::row_background(
+                        config.table.enable_alternate_row_colors && index % 2 == 1,
+                        self.side_queue_selected.contains(&key),
+                        true,
+                        cx,
+                    ))
+                })
             })
-            .bg(
-                if self.side_queue_selected.contains(&key) || self.state.queue.current == Some(key)
-                {
-                    cx.theme().secondary
-                } else if config.table.enable_alternate_row_colors && index % 2 == 1 {
-                    cx.theme().muted
-                } else {
-                    cx.theme().background
-                },
-            )
             .relative()
             .on_drag(
                 self.drag_queue_entry(key, true),
@@ -934,8 +950,8 @@ impl Feishin {
         } else {
             (entries.as_slice(), index)
         };
-        if crate::queue::album_grouping(&config) {
-            let rows = crate::queue::grouped_queue_rows(entries.iter().map(|entry| &entry.item));
+        if crate::queue::album_grouping(&config) || self.queue_has_sections(false) {
+            let rows = self.queue_display_rows(&entries.iter().collect::<Vec<_>>(), &config, false);
             if self.queue_group_scroll.item_count() != rows.len() {
                 self.queue_group_scroll.reset(rows.len());
             }
@@ -1001,9 +1017,8 @@ impl Feishin {
                 .get("sideQueue")
                 .cloned()
                 .unwrap_or_else(|| feishin_core::lists::default_for("sideQueue"));
-            if crate::queue::album_grouping(&config) {
-                let rows =
-                    crate::queue::grouped_queue_rows(entries.iter().map(|entry| &entry.item));
+            if crate::queue::album_grouping(&config) || self.queue_has_sections(true) {
+                let rows = self.queue_display_rows(&entries, &config, true);
                 if self.side_queue_group_scroll.item_count() != rows.len() {
                     self.side_queue_group_scroll.reset(rows.len());
                 }

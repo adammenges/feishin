@@ -3302,7 +3302,7 @@ mod tests {
                 app.read_with(cx, |view, _| view.queue_selection(side).1.clone()),
                 [keys[0], keys[2], keys[4]]
             );
-            cx.simulate_keystrokes("delete");
+            cx.simulate_keystrokes(if side { "backspace" } else { "delete" });
             cx.run_until_parked();
             app.read_with(cx, |view, _| {
                 assert_eq!(view.state.queue.order, [keys[1], keys[3], keys[5]]);

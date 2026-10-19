@@ -837,10 +837,14 @@ mod tests {
             8
         );
         assert!(app.read_with(cx, |view, _| view.route == Route::Queue));
+        let pending = app.read_with(cx, |view, _| view.state.queue.up_next.clone());
+        assert_eq!(pending.len(), 2);
         click(cx, "random-library");
         click(cx, "random-now");
         app.read_with(cx, |view, _| {
-            assert_eq!(view.state.queue.entries.len(), 2);
+            assert_eq!(view.state.queue.entries.len(), 4);
+            assert_eq!(view.state.queue.up_next, pending);
+            assert_eq!(view.state.queue.order[1..3], pending);
             assert_ne!(view.state.queue.current, current);
         });
 
@@ -944,7 +948,8 @@ mod tests {
         }
         app.read_with(cx, |view, _| {
             assert_eq!(view.route, Route::Home);
-            assert_eq!(view.state.queue.entries.len(), 2);
+            assert_eq!(view.state.queue.entries.len(), 4);
+            assert_eq!(view.state.queue.up_next, pending);
             assert_ne!(
                 view.state.queue.current, previous,
                 "Genre Play replaces the queue despite the saved Last behavior"

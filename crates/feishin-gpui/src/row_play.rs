@@ -746,6 +746,7 @@ mod tests {
                             ..Default::default()
                         }))
                     };
+                    app.state.queue = Default::default();
                     app.state.queue.add(
                         vec![Item {
                             id: "kept".into(),
@@ -1172,6 +1173,7 @@ mod tests {
                             "shuffle" => PlayBehavior::Shuffle,
                             _ => PlayBehavior::Now,
                         };
+                    app.state.queue = Default::default();
                     app.state.queue.add(
                         vec![Item {
                             id: "kept".into(),

@@ -1260,7 +1260,14 @@ mod tests {
                             headers.push_str(&header);
                         }
                         if line.starts_with("GET /Users/account/Items?") {
-                            assert!(line.contains("IncludeItemTypes=Playlist"), "{line}");
+                            // Settings may request one song to preview server path replacement.
+                            assert!(
+                                line.contains("IncludeItemTypes=Playlist")
+                                    || (line.contains("IncludeItemTypes=Audio")
+                                        && line.contains("Limit=1&")
+                                        && line.contains("SortBy=Random")),
+                                "{line}"
+                            );
                             let body = r#"{"Items":[],"TotalRecordCount":0}"#;
                             let _ = write!(
                                 stream,
