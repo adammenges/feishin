@@ -204,7 +204,6 @@ impl Feishin {
 
 struct SpeakerVolume {
     app: WeakEntity<Feishin>,
-    _subscription: Option<Subscription>,
     members: HashMap<String, (Entity<SliderState>, Subscription)>,
     focus: FocusHandle,
     hovered: bool,
@@ -215,9 +214,6 @@ struct SpeakerVolume {
 impl SpeakerVolume {
     fn new(app: WeakEntity<Feishin>, cx: &mut Context<Self>) -> Self {
         Self {
-            _subscription: app
-                .upgrade()
-                .map(|app| cx.observe(&app, |_, _, cx| cx.notify())),
             app,
             members: HashMap::new(),
             focus: cx.focus_handle(),

@@ -435,16 +435,6 @@ fn network_speaker_properties_coalesce_and_reject_stale_reads(cx: &mut TestAppCo
 
 #[gpui::test]
 fn network_speaker_properties_popup_keeps_picker_open_during_edits(cx: &mut TestAppContext) {
-    struct Output(Entity<Feishin>);
-    impl Render for Output {
-        fn render(&mut self, window: &mut Window, cx: &mut Context<Self>) -> impl IntoElement {
-            div()
-                .absolute()
-                .left(px(700.))
-                .top(px(600.))
-                .child(self.0.update(cx, |app, cx| app.output_button(window, cx)))
-        }
-    }
     cx.set_assets(crate::icons::Assets);
     cx.update(gpui_component::init);
     let speaker = Speaker::new();
@@ -460,31 +450,32 @@ fn network_speaker_properties_popup_keeps_picker_open_during_edits(cx: &mut Test
             app.cast_scanning = true;
         });
         captured.replace(Some(app.clone()));
-        let view = cx.new(|_| Output(app));
-        Root::new(view, window, cx)
+        Root::new(app, window, cx)
     });
     let app = captured.borrow_mut().take().unwrap();
     cx.simulate_resize(size(px(1200.), px(800.)));
     cx.run_until_parked();
-    let target = cx.debug_bounds("player-output").unwrap().center();
+    let trigger = cx.debug_bounds("player-output").unwrap();
+    let target = trigger.center();
+    let resting_bottom = f32::from(trigger.top()) - 10.;
     cx.simulate_click(target, Modifiers::none());
     wait(cx, &app, |app| app.cast_property_loading.is_empty());
     let entering = cx.debug_bounds("player-output-panel").unwrap();
-    assert!((f32::from(entering.bottom()) - 620.).abs() < 1.1);
+    assert!((f32::from(entering.bottom()) - (resting_bottom + 30.)).abs() < 1.1);
     cx.executor()
         .advance_clock(std::time::Duration::from_millis(75));
     cx.refresh().unwrap();
     cx.run_until_parked();
     let midpoint = cx.debug_bounds("player-output-panel").unwrap();
     // Original fade-up: 30 CSS pixels, 150 ms ease. ease(0.5) = 0.802403.
-    assert!((f32::from(midpoint.bottom()) - (590. + 30. * (1. - 0.802403))).abs() < 1.1);
+    assert!((f32::from(midpoint.bottom()) - (resting_bottom + 30. * (1. - 0.802403))).abs() < 1.1);
     cx.executor()
         .advance_clock(std::time::Duration::from_millis(200));
     cx.refresh().unwrap();
     cx.run_until_parked();
     let bounds = cx.debug_bounds("player-output-panel").unwrap();
     assert!((f32::from(bounds.center().x - target.x)).abs() < 1.1);
-    assert!((f32::from(bounds.bottom()) - 590.).abs() < 1.1);
+    assert!((f32::from(bounds.bottom()) - resting_bottom).abs() < 1.1);
     let settings = cx.debug_bounds("speaker-properties-uuid:a").unwrap();
     let target = settings.center();
     cx.simulate_click(target, Modifiers::none());
@@ -496,7 +487,10 @@ fn network_speaker_properties_popup_keeps_picker_open_during_edits(cx: &mut Test
     let properties = cx.debug_bounds("speaker-property-panel").unwrap();
     // Mantine reserves half of its seven-pixel arrow in addition to the ten-pixel gap.
     assert!((f32::from(settings.left() - properties.right()) - 13.5).abs() < 1.1);
-    assert!((f32::from(settings.center().y - properties.center().y)).abs() < 1.1);
+    // The player bar sits at the bottom, so the popup must stay inside the viewport.
+    let expected_top = (settings.center().y - properties.size.height / 2.)
+        .clamp(px(5.), px(795.) - properties.size.height);
+    assert!((f32::from(properties.top() - expected_top)).abs() < 1.1);
     app.read_with(cx, |app, _| {
         assert!(app.cast_output_open, "Opening properties closed the picker")
     });

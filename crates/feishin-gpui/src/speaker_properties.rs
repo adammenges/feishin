@@ -214,9 +214,6 @@ impl PropertiesPanel {
                 }),
             );
         }
-        if let Some(app) = app.upgrade() {
-            subscriptions.push(cx.observe(&app, |_, _, cx| cx.notify()));
-        }
         Self {
             app,
             device,

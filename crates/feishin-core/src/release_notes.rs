@@ -4,8 +4,8 @@ use serde::Deserialize;
 use std::{io::Read, time::Duration};
 use url::Url;
 
-const API: &str = "https://api.github.com/repos/jeffvli/feishin/";
-const WEB: &str = "https://github.com/jeffvli/feishin/";
+const API: &str = "https://api.github.com/repos/adammenges/sona/";
+const WEB: &str = "https://github.com/adammenges/sona/";
 pub const HISTORY_LIMIT: usize = 30;
 
 #[derive(Clone, Debug, PartialEq, Eq)]
@@ -229,7 +229,19 @@ mod tests {
     use std::{io::Write, net::TcpListener};
 
     #[test]
-    fn release_history_stable_beta_and_alpha_use_original_github_endpoints() {
+    fn release_notes_use_sona() {
+        assert_eq!(
+            Client::new().unwrap().base.as_str(),
+            "https://api.github.com/repos/adammenges/sona/"
+        );
+        assert_eq!(
+            release_page("1.17.0").unwrap(),
+            "https://github.com/adammenges/sona/releases/tag/v1.17.0"
+        );
+    }
+
+    #[test]
+    fn release_history_stable_beta_and_alpha_use_github_endpoints() {
         let server = TcpListener::bind("127.0.0.1:0").unwrap();
         let client =
             Client::at(Url::parse(&format!("http://{}/", server.local_addr().unwrap())).unwrap())

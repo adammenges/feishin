@@ -310,6 +310,7 @@ pub struct Feishin {
     pub state: State,
     pub data_dir: PathBuf,
     pub route: Route,
+    pub navigation_generation: u64,
     pub secret_form_route: Option<std::mem::Discriminant<Route>>,
     pub history: Vec<crate::navigation::Visit>,
     pub navigation_restore: Option<crate::navigation::Restore>,
@@ -423,6 +424,7 @@ pub struct Feishin {
     pub form_public: bool,
     pub form_songs: Vec<Item>,
     pub form_target: Option<Item>,
+    pub playlist_saving: bool,
     pub volume: Entity<SliderState>,
     pub equalizer: Vec<Entity<SliderState>>,
     pub equalizer_inputs: Vec<Entity<InputState>>,
@@ -1202,6 +1204,7 @@ impl Feishin {
             media_attempted: false,
             window_bar_style_active,
             secret_form_route: None,
+            navigation_generation: 0,
             route: if state.active_server.is_some() {
                 Route::Home
             } else {
@@ -1332,6 +1335,7 @@ impl Feishin {
             form_public: false,
             form_songs: vec![],
             form_target: None,
+            playlist_saving: false,
             volume,
             equalizer,
             equalizer_inputs,
@@ -1957,6 +1961,7 @@ impl Feishin {
     }
 
     pub fn navigate(&mut self, mut route: Route, cx: &mut Context<Self>) {
+        self.navigation_generation = self.navigation_generation.wrapping_add(1);
         if let Some(editor) = &mut self.filter_editor {
             editor.year_debounce = None;
         }
@@ -4049,6 +4054,9 @@ impl Feishin {
     }
 
     pub fn save_playlist(&mut self, cx: &mut Context<Self>) {
+        if self.playlist_saving || self.route != Route::PlaylistEditor {
+            return;
+        }
         if self
             .form_target
             .as_ref()
@@ -4095,6 +4103,8 @@ impl Feishin {
             }
         };
         let server = api.server.id;
+        let navigation = self.navigation_generation;
+        self.playlist_saving = true;
         let task = cx.background_executor().spawn(async move {
             if let Some(target) = target {
                 api.update_playlist_checked(&target, &name, &comment, public, rules)
@@ -4114,13 +4124,19 @@ impl Feishin {
         cx.spawn(async move |this, cx| {
             let result = task.await;
             this.update(cx, |this, cx| {
+                this.playlist_saving = false;
+                cx.notify();
                 if this.state.active_server != Some(server) {
                     return;
                 }
                 match result {
                     Ok(()) => {
                         this.refresh_playlists(cx);
-                        this.navigate(Route::Library(ItemKind::Playlist), cx);
+                        if this.route == Route::PlaylistEditor
+                            && this.navigation_generation == navigation
+                        {
+                            this.navigate(Route::Library(ItemKind::Playlist), cx);
+                        }
                         this.message = "Playlist saved".into();
                     }
                     Err(error) => {
@@ -4128,11 +4144,11 @@ impl Feishin {
                         this.message = error.to_string();
                     }
                 }
-                cx.notify();
             })
             .ok();
         })
         .detach();
+        cx.notify();
     }
 }
 

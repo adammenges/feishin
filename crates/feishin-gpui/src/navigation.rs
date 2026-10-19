@@ -81,6 +81,7 @@ impl Feishin {
     }
 
     pub fn restore_visit(&mut self, visit: Visit, cx: &mut Context<Self>) {
+        self.navigation_generation = self.navigation_generation.wrapping_add(1);
         self.route = visit.route;
         self.artist_tab = visit.artist_tab;
         self.artist_overview = visit.artist_overview;

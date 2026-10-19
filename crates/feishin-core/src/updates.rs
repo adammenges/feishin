@@ -11,8 +11,8 @@ use std::{
     time::{Duration, Instant},
 };
 
-const FEED: &str = "https://api.github.com/repos/jeffvli/feishin/releases?per_page=100";
-const RELEASE_PREFIX: &str = "https://github.com/jeffvli/feishin/releases/";
+const FEED: &str = "https://api.github.com/repos/adammenges/sona/releases?per_page=100";
+const RELEASE_PREFIX: &str = "https://github.com/adammenges/sona/releases/";
 const MAX_ARCHIVE: u64 = 512 * 1024 * 1024;
 const MAX_EXPANDED: u64 = 1024 * 1024 * 1024;
 
@@ -674,6 +674,48 @@ mod tests {
         });
         (url, handle)
     }
+    #[test]
+    fn updates_use_sona_and_reject_other_repositories() {
+        assert_eq!(
+            FEED,
+            "https://api.github.com/repos/adammenges/sona/releases?per_page=100"
+        );
+        let name = asset_name();
+        let mut candidate = release("2.0.0", &name);
+        candidate["html_url"] = json!("https://github.com/adammenges/sona/releases/tag/v2.0.0");
+        candidate["assets"][0]["browser_download_url"] = json!(format!(
+            "https://github.com/adammenges/sona/releases/download/v2.0.0/{name}"
+        ));
+        let selected = |candidate| {
+            select(
+                serde_json::from_value(json!([candidate])).unwrap(),
+                "1.17.0",
+                Channel::Latest,
+                &name,
+            )
+            .unwrap()
+        };
+        let update = selected(candidate.clone()).unwrap();
+        assert_eq!(update.page, candidate["html_url"].as_str().unwrap());
+        assert_eq!(
+            update.url,
+            candidate["assets"][0]["browser_download_url"]
+                .as_str()
+                .unwrap()
+        );
+        for repo in ["jeffvli/feishin", "adammenges/feishin", "other/sona"] {
+            let mut wrong_page = candidate.clone();
+            wrong_page["html_url"] =
+                json!(format!("https://github.com/{repo}/releases/tag/v2.0.0"));
+            assert!(selected(wrong_page).is_none());
+            let mut wrong_asset = candidate.clone();
+            wrong_asset["assets"][0]["browser_download_url"] = json!(format!(
+                "https://github.com/{repo}/releases/download/v2.0.0/{name}"
+            ));
+            assert!(selected(wrong_asset).is_none());
+        }
+    }
+
     #[test]
     fn channels_versions_and_native_platform_selection() {
         let name = asset_name();

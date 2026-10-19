@@ -74,8 +74,7 @@ fn network_volume_callbacks_and_delayed_updates_match_original(cx: &mut TestAppC
         state.settings.volume_wheel_step = 7.;
         let app = cx.new(|cx| Feishin::new(dir.clone(), Ok(state), window, cx));
         captured.replace(Some(app.clone()));
-        let probe = cx.new(|_| Probe(app));
-        Root::new(probe, window, cx)
+        Root::new(app, window, cx)
     });
     let app = captured.borrow_mut().take().unwrap();
     cx.simulate_resize(size(px(1200.), px(700.)));
@@ -417,12 +416,6 @@ fn network_volume_layouts_and_shift_controls_match_original(cx: &mut TestAppCont
 
 #[gpui::test]
 fn network_output_selector_opens_without_navigation_and_tracks_discovery(cx: &mut TestAppContext) {
-    struct Outputs(Entity<Feishin>);
-    impl Render for Outputs {
-        fn render(&mut self, window: &mut Window, cx: &mut Context<Self>) -> impl IntoElement {
-            self.0.update(cx, |app, cx| app.output_button(window, cx))
-        }
-    }
     cx.set_assets(crate::icons::Assets);
     cx.update(gpui_component::init);
     let dir =
@@ -434,13 +427,20 @@ fn network_output_selector_opens_without_navigation_and_tracks_discovery(cx: &mu
         let app = cx.new(|cx| Feishin::new(dir.clone(), Ok(State::default()), window, cx));
         app.update(cx, |app, _| app.cast_scanning = true);
         captured.replace(Some(app.clone()));
-        let view = cx.new(|_| Outputs(app));
-        Root::new(view, window, cx)
+        Root::new(app, window, cx)
     });
     let app = captured.borrow_mut().take().unwrap();
     cx.simulate_resize(size(px(1200.), px(700.)));
     cx.run_until_parked();
     let route = app.read_with(cx, |app, _| app.route.clone());
+    // Fail promptly if a keyed popup starts notifying its parent in a cycle.
+    let mut notifications = 0;
+    let _watch = cx.update(|_, cx| {
+        cx.observe(&app, move |_, _| {
+            notifications += 1;
+            assert!(notifications < 1000, "DLNA popup notification loop");
+        })
+    });
     let position = cx.debug_bounds("player-output").unwrap().center();
     cx.simulate_click(position, Modifiers::none());
     cx.run_until_parked();

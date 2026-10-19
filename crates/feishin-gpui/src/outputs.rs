@@ -51,10 +51,9 @@ impl Feishin {
                 }
             }))
             .content(move |_, window, cx| {
-                window.use_keyed_state("player-output-panel", cx, |_, cx| OutputPanel {
-                    _subscription: app
-                        .upgrade()
-                        .map(|app| cx.observe(&app, |_, _, cx| cx.notify())),
+                // Keyed state already notifies its containing view. Observing that
+                // view in return would create an endless notification loop.
+                window.use_keyed_state("player-output-panel", cx, |_, _| OutputPanel {
                     app: app.clone(),
                 })
             })
@@ -817,7 +816,6 @@ impl Feishin {
 
 struct OutputPanel {
     app: WeakEntity<Feishin>,
-    _subscription: Option<Subscription>,
 }
 impl Render for OutputPanel {
     fn render(&mut self, window: &mut Window, cx: &mut Context<Self>) -> impl IntoElement {

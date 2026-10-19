@@ -58,6 +58,8 @@ mod player_layout;
 mod player_related;
 mod playerbar;
 mod playlist_actions;
+#[cfg(test)]
+mod playlist_editor_tests;
 mod playlist_header;
 mod playlists;
 mod presence_settings;

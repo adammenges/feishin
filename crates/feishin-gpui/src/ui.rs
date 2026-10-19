@@ -4559,6 +4559,8 @@ impl Feishin {
                 .child(
                     crate::styles::button("save-playlist", cx)
                         .primary()
+                        .disabled(self.playlist_saving)
+                        .loading(self.playlist_saving)
                         .label(self.tr("Save playlist"))
                         .on_click(cx.listener(|this, _, _, cx| this.save_playlist(cx))),
                 )
