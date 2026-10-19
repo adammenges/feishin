@@ -1,0 +1,56 @@
+{
+  "playRadius": 16,
+  "toolbar": {
+    "bounds": [
+      432,
+      428,
+      856,
+      36
+    ],
+    "search": [
+      432,
+      428,
+      709.0625,
+      36
+    ],
+    "inputStyle": {
+      "fontSize": "13px",
+      "lineHeight": "34px",
+      "borderRadius": "16px",
+      "borderColor": "rgba(255, 255, 255, 0.05)",
+      "backgroundColor": "rgba(0, 0, 0, 0)"
+    },
+    "buttons": [
+      {
+        "text": "ID",
+        "bounds": [
+          1149.0625,
+          428,
+          50.9375,
+          36
+        ],
+        "radius": "3px"
+      },
+      {
+        "text": "",
+        "bounds": [
+          1208,
+          428,
+          36,
+          36
+        ],
+        "radius": "3px"
+      },
+      {
+        "text": "",
+        "bounds": [
+          1252,
+          428,
+          36,
+          36
+        ],
+        "radius": "3px"
+      }
+    ]
+  }
+}

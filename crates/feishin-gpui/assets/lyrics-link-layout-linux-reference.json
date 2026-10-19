@@ -1,0 +1,678 @@
+{
+  "electron": "43.7.0",
+  "theme": "dark",
+  "cases": [
+    {
+      "text": "<a href='https://example.com/ruby'><ruby>Music<rt>sound</rt></ruby></a>",
+      "size": 24,
+      "width": 180,
+      "alignment": "left",
+      "links": [
+        {
+          "text": "Musicsound",
+          "color": "rgb(158, 158, 255)",
+          "decoration": "none"
+        }
+      ],
+      "line": [
+        0,
+        0,
+        180,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            16,
+            10,
+            67.734375,
+            29
+          ],
+          "base": [
+            [
+              16,
+              10,
+              67.734375,
+              29
+            ]
+          ],
+          "reading": [
+            16,
+            -2,
+            67.734375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "accessibleNames": [
+        "Music"
+      ],
+      "readingUrl": "https://example.com/ruby"
+    },
+    {
+      "text": "<a href='https://example.com/ruby'><ruby>Music<rt>sound</rt></ruby></a>",
+      "size": 24,
+      "width": 180,
+      "alignment": "center",
+      "links": [
+        {
+          "text": "Musicsound",
+          "color": "rgb(158, 158, 255)",
+          "decoration": "none"
+        }
+      ],
+      "line": [
+        0,
+        0,
+        180,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            56.125,
+            10,
+            67.734375,
+            29
+          ],
+          "base": [
+            [
+              56.125,
+              10,
+              67.734375,
+              29
+            ]
+          ],
+          "reading": [
+            56.125,
+            -2,
+            67.734375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "accessibleNames": [
+        "Music"
+      ],
+      "readingUrl": "https://example.com/ruby"
+    },
+    {
+      "text": "<a href='https://example.com/ruby'><ruby>Music<rt>sound</rt></ruby></a>",
+      "size": 24,
+      "width": 180,
+      "alignment": "right",
+      "links": [
+        {
+          "text": "Musicsound",
+          "color": "rgb(158, 158, 255)",
+          "decoration": "none"
+        }
+      ],
+      "line": [
+        0,
+        0,
+        180,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            96.265625,
+            10,
+            67.734375,
+            29
+          ],
+          "base": [
+            [
+              96.265625,
+              10,
+              67.734375,
+              29
+            ]
+          ],
+          "reading": [
+            96.265625,
+            -2,
+            67.734375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "accessibleNames": [
+        "Music"
+      ],
+      "readingUrl": "https://example.com/ruby"
+    },
+    {
+      "text": "<a href='https://example.com/ruby'><ruby>Music<rt>sound</rt></ruby></a>",
+      "size": 24,
+      "width": 600,
+      "alignment": "left",
+      "links": [
+        {
+          "text": "Musicsound",
+          "color": "rgb(158, 158, 255)",
+          "decoration": "none"
+        }
+      ],
+      "line": [
+        0,
+        0,
+        600,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            16,
+            10,
+            67.734375,
+            29
+          ],
+          "base": [
+            [
+              16,
+              10,
+              67.734375,
+              29
+            ]
+          ],
+          "reading": [
+            16,
+            -2,
+            67.734375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "accessibleNames": [
+        "Music"
+      ],
+      "readingUrl": "https://example.com/ruby"
+    },
+    {
+      "text": "<a href='https://example.com/ruby'><ruby>Music<rt>sound</rt></ruby></a>",
+      "size": 24,
+      "width": 600,
+      "alignment": "center",
+      "links": [
+        {
+          "text": "Musicsound",
+          "color": "rgb(158, 158, 255)",
+          "decoration": "none"
+        }
+      ],
+      "line": [
+        0,
+        0,
+        600,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            266.125,
+            10,
+            67.734375,
+            29
+          ],
+          "base": [
+            [
+              266.125,
+              10,
+              67.734375,
+              29
+            ]
+          ],
+          "reading": [
+            266.125,
+            -2,
+            67.734375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "accessibleNames": [
+        "Music"
+      ],
+      "readingUrl": "https://example.com/ruby"
+    },
+    {
+      "text": "<a href='https://example.com/ruby'><ruby>Music<rt>sound</rt></ruby></a>",
+      "size": 24,
+      "width": 600,
+      "alignment": "right",
+      "links": [
+        {
+          "text": "Musicsound",
+          "color": "rgb(158, 158, 255)",
+          "decoration": "none"
+        }
+      ],
+      "line": [
+        0,
+        0,
+        600,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            516.265625,
+            10,
+            67.734375,
+            29
+          ],
+          "base": [
+            [
+              516.265625,
+              10,
+              67.734375,
+              29
+            ]
+          ],
+          "reading": [
+            516.265625,
+            -2,
+            67.734375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "accessibleNames": [
+        "Music"
+      ],
+      "readingUrl": "https://example.com/ruby"
+    },
+    {
+      "text": "<a href='https://example.com/ruby'><ruby>Music<rt>sound</rt></ruby></a>",
+      "size": 36,
+      "width": 180,
+      "alignment": "left",
+      "links": [
+        {
+          "text": "Musicsound",
+          "color": "rgb(158, 158, 255)",
+          "decoration": "none"
+        }
+      ],
+      "line": [
+        0,
+        0,
+        180,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            16,
+            13,
+            98.515625,
+            44
+          ],
+          "base": [
+            [
+              16,
+              13,
+              98.515625,
+              44
+            ]
+          ],
+          "reading": [
+            16,
+            -2,
+            98.515625,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "accessibleNames": [
+        "Music"
+      ],
+      "readingUrl": "https://example.com/ruby"
+    },
+    {
+      "text": "<a href='https://example.com/ruby'><ruby>Music<rt>sound</rt></ruby></a>",
+      "size": 36,
+      "width": 180,
+      "alignment": "center",
+      "links": [
+        {
+          "text": "Musicsound",
+          "color": "rgb(158, 158, 255)",
+          "decoration": "none"
+        }
+      ],
+      "line": [
+        0,
+        0,
+        180,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            40.734375,
+            13,
+            98.515625,
+            44
+          ],
+          "base": [
+            [
+              40.734375,
+              13,
+              98.515625,
+              44
+            ]
+          ],
+          "reading": [
+            40.734375,
+            -2,
+            98.515625,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "accessibleNames": [
+        "Music"
+      ],
+      "readingUrl": "https://example.com/ruby"
+    },
+    {
+      "text": "<a href='https://example.com/ruby'><ruby>Music<rt>sound</rt></ruby></a>",
+      "size": 36,
+      "width": 180,
+      "alignment": "right",
+      "links": [
+        {
+          "text": "Musicsound",
+          "color": "rgb(158, 158, 255)",
+          "decoration": "none"
+        }
+      ],
+      "line": [
+        0,
+        0,
+        180,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            65.484375,
+            13,
+            98.515625,
+            44
+          ],
+          "base": [
+            [
+              65.484375,
+              13,
+              98.515625,
+              44
+            ]
+          ],
+          "reading": [
+            65.484375,
+            -2,
+            98.515625,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "accessibleNames": [
+        "Music"
+      ],
+      "readingUrl": "https://example.com/ruby"
+    },
+    {
+      "text": "<a href='https://example.com/ruby'><ruby>Music<rt>sound</rt></ruby></a>",
+      "size": 36,
+      "width": 600,
+      "alignment": "left",
+      "links": [
+        {
+          "text": "Musicsound",
+          "color": "rgb(158, 158, 255)",
+          "decoration": "none"
+        }
+      ],
+      "line": [
+        0,
+        0,
+        600,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            16,
+            13,
+            98.515625,
+            44
+          ],
+          "base": [
+            [
+              16,
+              13,
+              98.515625,
+              44
+            ]
+          ],
+          "reading": [
+            16,
+            -2,
+            98.515625,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "accessibleNames": [
+        "Music"
+      ],
+      "readingUrl": "https://example.com/ruby"
+    },
+    {
+      "text": "<a href='https://example.com/ruby'><ruby>Music<rt>sound</rt></ruby></a>",
+      "size": 36,
+      "width": 600,
+      "alignment": "center",
+      "links": [
+        {
+          "text": "Musicsound",
+          "color": "rgb(158, 158, 255)",
+          "decoration": "none"
+        }
+      ],
+      "line": [
+        0,
+        0,
+        600,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            250.734375,
+            13,
+            98.515625,
+            44
+          ],
+          "base": [
+            [
+              250.734375,
+              13,
+              98.515625,
+              44
+            ]
+          ],
+          "reading": [
+            250.734375,
+            -2,
+            98.515625,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "accessibleNames": [
+        "Music"
+      ],
+      "readingUrl": "https://example.com/ruby"
+    },
+    {
+      "text": "<a href='https://example.com/ruby'><ruby>Music<rt>sound</rt></ruby></a>",
+      "size": 36,
+      "width": 600,
+      "alignment": "right",
+      "links": [
+        {
+          "text": "Musicsound",
+          "color": "rgb(158, 158, 255)",
+          "decoration": "none"
+        }
+      ],
+      "line": [
+        0,
+        0,
+        600,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            485.484375,
+            13,
+            98.515625,
+            44
+          ],
+          "base": [
+            [
+              485.484375,
+              13,
+              98.515625,
+              44
+            ]
+          ],
+          "reading": [
+            485.484375,
+            -2,
+            98.515625,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "accessibleNames": [
+        "Music"
+      ],
+      "readingUrl": "https://example.com/ruby"
+    }
+  ]
+}

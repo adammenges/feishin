@@ -1,0 +1,2446 @@
+[
+  {
+    "name": "disabled",
+    "stored": {
+      "enabled": false,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "preamp": null,
+    "inputs": [],
+    "names": [
+      null,
+      null
+    ],
+    "presets": {},
+    "filterCount": 0,
+    "filter": ""
+  },
+  {
+    "name": "enabled",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "preamp": "0",
+    "inputs": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "names": [
+      "",
+      null
+    ],
+    "presets": {},
+    "filterCount": 1,
+    "filter": ""
+  },
+  {
+    "name": "preamp-preview",
+    "stored": {
+      "enabled": true,
+      "preamp": 5.5,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "preamp": "5.5",
+    "inputs": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "names": [
+      "",
+      null
+    ],
+    "presets": {},
+    "filterCount": 1,
+    "filter": ""
+  },
+  {
+    "name": "preamp-commit",
+    "stored": {
+      "enabled": true,
+      "preamp": 5.5,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "preamp": "5.5",
+    "inputs": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "names": [
+      "",
+      null
+    ],
+    "presets": {},
+    "filterCount": 2,
+    "filter": "volume=5.5dB"
+  },
+  {
+    "name": "preamp-draft",
+    "stored": {
+      "enabled": true,
+      "preamp": 5.5,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "preamp": "-20",
+    "inputs": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "names": [
+      "",
+      null
+    ],
+    "presets": {},
+    "filterCount": 2,
+    "filter": "volume=5.5dB"
+  },
+  {
+    "name": "preamp-clamp",
+    "stored": {
+      "enabled": true,
+      "preamp": -12,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "preamp": "-12",
+    "inputs": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "names": [
+      "",
+      null
+    ],
+    "presets": {},
+    "filterCount": 3,
+    "filter": "volume=-12dB"
+  },
+  {
+    "name": "band-draft",
+    "stored": {
+      "enabled": true,
+      "preamp": -12,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "preamp": "-12",
+    "inputs": [
+      "3.25",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "names": [
+      "",
+      null
+    ],
+    "presets": {},
+    "filterCount": 3,
+    "filter": "volume=-12dB"
+  },
+  {
+    "name": "band-enter",
+    "stored": {
+      "enabled": true,
+      "preamp": -12,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3.25
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "preamp": "-12",
+    "inputs": [
+      "3.25",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "names": [
+      "",
+      null
+    ],
+    "presets": {},
+    "filterCount": 4,
+    "filter": "volume=-12dB,lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3.25]"
+  },
+  {
+    "name": "band-over",
+    "stored": {
+      "enabled": true,
+      "preamp": -12,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3.25
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "preamp": "-12",
+    "inputs": [
+      "3.25",
+      "19",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "names": [
+      "",
+      null
+    ],
+    "presets": {},
+    "filterCount": 4,
+    "filter": "volume=-12dB,lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3.25]"
+  },
+  {
+    "name": "band-clamp",
+    "stored": {
+      "enabled": true,
+      "preamp": -12,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3.25
+        },
+        {
+          "freq": 63,
+          "gain": 12
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "preamp": "-12",
+    "inputs": [
+      "3.25",
+      "12",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "names": [
+      "",
+      null
+    ],
+    "presets": {},
+    "filterCount": 5,
+    "filter": "volume=-12dB,lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3.25],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=12]"
+  },
+  {
+    "name": "band-empty",
+    "stored": {
+      "enabled": true,
+      "preamp": -12,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3.25
+        },
+        {
+          "freq": 63,
+          "gain": 12
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "preamp": "-12",
+    "inputs": [
+      "3.25",
+      "",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "names": [
+      "",
+      null
+    ],
+    "presets": {},
+    "filterCount": 5,
+    "filter": "volume=-12dB,lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3.25],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=12]"
+  },
+  {
+    "name": "band-blur-empty",
+    "stored": {
+      "enabled": true,
+      "preamp": -12,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3.25
+        },
+        {
+          "freq": 63,
+          "gain": 12
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "preamp": "-12",
+    "inputs": [
+      "3.25",
+      "",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "names": [
+      "",
+      null
+    ],
+    "presets": {},
+    "filterCount": 5,
+    "filter": "volume=-12dB,lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3.25],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=12]"
+  },
+  {
+    "name": "band-preview",
+    "stored": {
+      "enabled": true,
+      "preamp": -12,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3.25
+        },
+        {
+          "freq": 63,
+          "gain": 12
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "preamp": "-12",
+    "inputs": [
+      "3.25",
+      "",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "names": [
+      "",
+      null
+    ],
+    "presets": {},
+    "filterCount": 5,
+    "filter": "volume=-12dB,lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3.25],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=12]"
+  },
+  {
+    "name": "band-release",
+    "stored": {
+      "enabled": true,
+      "preamp": -12,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3.25
+        },
+        {
+          "freq": 63,
+          "gain": 12
+        },
+        {
+          "freq": 125,
+          "gain": 6
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "preamp": "-12",
+    "inputs": [
+      "3.25",
+      "",
+      "6",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "names": [
+      "",
+      null
+    ],
+    "presets": {},
+    "filterCount": 6,
+    "filter": "volume=-12dB,lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3.25],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=12],lavfi=[equalizer=f=125:width_type=o:w=1:g=6]"
+  },
+  {
+    "name": "rock",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3
+        },
+        {
+          "freq": 63,
+          "gain": 2
+        },
+        {
+          "freq": 125,
+          "gain": 1
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": -1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 2
+        },
+        {
+          "freq": 6300,
+          "gain": 2
+        },
+        {
+          "freq": 10000,
+          "gain": 3
+        },
+        {
+          "freq": 16000,
+          "gain": 3
+        }
+      ]
+    },
+    "preamp": "0",
+    "inputs": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "2",
+      "2",
+      "3",
+      "3"
+    ],
+    "names": [
+      "",
+      null
+    ],
+    "presets": {},
+    "filterCount": 7,
+    "filter": "lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=2],lavfi=[equalizer=f=125:width_type=o:w=1:g=1],lavfi=[equalizer=f=500:width_type=o:w=1:g=-1],lavfi=[equalizer=f=2000:width_type=o:w=1:g=1],lavfi=[equalizer=f=3000:width_type=o:w=1:g=2],lavfi=[equalizer=f=4000:width_type=o:w=1:g=2],lavfi=[equalizer=f=6300:width_type=o:w=1.2:g=2],lavfi=[equalizer=f=10000:width_type=o:w=1.2:g=3],lavfi=[equalizer=f=16000:width_type=o:w=1.5:g=3]"
+  },
+  {
+    "name": "names",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3
+        },
+        {
+          "freq": 63,
+          "gain": 2
+        },
+        {
+          "freq": 125,
+          "gain": 1
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": -1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 2
+        },
+        {
+          "freq": 6300,
+          "gain": 2
+        },
+        {
+          "freq": 10000,
+          "gain": 3
+        },
+        {
+          "freq": 16000,
+          "gain": 3
+        }
+      ]
+    },
+    "preamp": "0",
+    "inputs": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "2",
+      "2",
+      "3",
+      "3"
+    ],
+    "names": [
+      "  My EQ  ",
+      ""
+    ],
+    "presets": {},
+    "filterCount": 8,
+    "filter": "lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=2],lavfi=[equalizer=f=125:width_type=o:w=1:g=1],lavfi=[equalizer=f=500:width_type=o:w=1:g=-1],lavfi=[equalizer=f=2000:width_type=o:w=1:g=1],lavfi=[equalizer=f=3000:width_type=o:w=1:g=2],lavfi=[equalizer=f=4000:width_type=o:w=1:g=2],lavfi=[equalizer=f=6300:width_type=o:w=1.2:g=2],lavfi=[equalizer=f=10000:width_type=o:w=1.2:g=3],lavfi=[equalizer=f=16000:width_type=o:w=1.5:g=3],lavfi=[acompressor=threshold=0.063096:ratio=4:attack=20:release=250:makeup=1.995262:knee=2.83]"
+  },
+  {
+    "name": "independent-name",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3
+        },
+        {
+          "freq": 63,
+          "gain": 2
+        },
+        {
+          "freq": 125,
+          "gain": 1
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": -1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 2
+        },
+        {
+          "freq": 6300,
+          "gain": 2
+        },
+        {
+          "freq": 10000,
+          "gain": 3
+        },
+        {
+          "freq": 16000,
+          "gain": 3
+        }
+      ]
+    },
+    "preamp": "0",
+    "inputs": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "2",
+      "2",
+      "3",
+      "3"
+    ],
+    "names": [
+      "  My EQ  ",
+      "  My Compressor  "
+    ],
+    "presets": {},
+    "filterCount": 8,
+    "filter": "lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=2],lavfi=[equalizer=f=125:width_type=o:w=1:g=1],lavfi=[equalizer=f=500:width_type=o:w=1:g=-1],lavfi=[equalizer=f=2000:width_type=o:w=1:g=1],lavfi=[equalizer=f=3000:width_type=o:w=1:g=2],lavfi=[equalizer=f=4000:width_type=o:w=1:g=2],lavfi=[equalizer=f=6300:width_type=o:w=1.2:g=2],lavfi=[equalizer=f=10000:width_type=o:w=1.2:g=3],lavfi=[equalizer=f=16000:width_type=o:w=1.5:g=3],lavfi=[acompressor=threshold=0.063096:ratio=4:attack=20:release=250:makeup=1.995262:knee=2.83]"
+  },
+  {
+    "name": "save-eq",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3
+        },
+        {
+          "freq": 63,
+          "gain": 2
+        },
+        {
+          "freq": 125,
+          "gain": 1
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": -1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 2
+        },
+        {
+          "freq": 6300,
+          "gain": 2
+        },
+        {
+          "freq": 10000,
+          "gain": 3
+        },
+        {
+          "freq": 16000,
+          "gain": 3
+        }
+      ]
+    },
+    "preamp": "0",
+    "inputs": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "2",
+      "2",
+      "3",
+      "3"
+    ],
+    "names": [
+      "",
+      "  My Compressor  "
+    ],
+    "presets": {
+      "feishin_eq_custom_presets": {
+        "My EQ": [
+          3,
+          2,
+          1,
+          0,
+          -1,
+          0,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3
+        ]
+      }
+    },
+    "filterCount": 8,
+    "filter": "lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=2],lavfi=[equalizer=f=125:width_type=o:w=1:g=1],lavfi=[equalizer=f=500:width_type=o:w=1:g=-1],lavfi=[equalizer=f=2000:width_type=o:w=1:g=1],lavfi=[equalizer=f=3000:width_type=o:w=1:g=2],lavfi=[equalizer=f=4000:width_type=o:w=1:g=2],lavfi=[equalizer=f=6300:width_type=o:w=1.2:g=2],lavfi=[equalizer=f=10000:width_type=o:w=1.2:g=3],lavfi=[equalizer=f=16000:width_type=o:w=1.5:g=3],lavfi=[acompressor=threshold=0.063096:ratio=4:attack=20:release=250:makeup=1.995262:knee=2.83]"
+  },
+  {
+    "name": "save-compressor",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3
+        },
+        {
+          "freq": 63,
+          "gain": 2
+        },
+        {
+          "freq": 125,
+          "gain": 1
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": -1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 2
+        },
+        {
+          "freq": 6300,
+          "gain": 2
+        },
+        {
+          "freq": 10000,
+          "gain": 3
+        },
+        {
+          "freq": 16000,
+          "gain": 3
+        }
+      ]
+    },
+    "preamp": "0",
+    "inputs": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "2",
+      "2",
+      "3",
+      "3"
+    ],
+    "names": [
+      "",
+      ""
+    ],
+    "presets": {
+      "feishin_eq_custom_presets": {
+        "My EQ": [
+          3,
+          2,
+          1,
+          0,
+          -1,
+          0,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3
+        ]
+      },
+      "feishin_comp_custom_presets": {
+        "My Compressor": {
+          "attack": 20,
+          "knee": 2.83,
+          "makeup": 6,
+          "ratio": 4,
+          "release": 250,
+          "threshold": -24
+        }
+      }
+    },
+    "filterCount": 8,
+    "filter": "lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=2],lavfi=[equalizer=f=125:width_type=o:w=1:g=1],lavfi=[equalizer=f=500:width_type=o:w=1:g=-1],lavfi=[equalizer=f=2000:width_type=o:w=1:g=1],lavfi=[equalizer=f=3000:width_type=o:w=1:g=2],lavfi=[equalizer=f=4000:width_type=o:w=1:g=2],lavfi=[equalizer=f=6300:width_type=o:w=1.2:g=2],lavfi=[equalizer=f=10000:width_type=o:w=1.2:g=3],lavfi=[equalizer=f=16000:width_type=o:w=1.5:g=3],lavfi=[acompressor=threshold=0.063096:ratio=4:attack=20:release=250:makeup=1.995262:knee=2.83]"
+  },
+  {
+    "name": "reset",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "preamp": "0",
+    "inputs": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "names": [
+      "",
+      ""
+    ],
+    "presets": {
+      "feishin_eq_custom_presets": {
+        "My EQ": [
+          3,
+          2,
+          1,
+          0,
+          -1,
+          0,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3
+        ]
+      },
+      "feishin_comp_custom_presets": {
+        "My Compressor": {
+          "attack": 20,
+          "knee": 2.83,
+          "makeup": 6,
+          "ratio": 4,
+          "release": 250,
+          "threshold": -24
+        }
+      }
+    },
+    "filterCount": 9,
+    "filter": "lavfi=[acompressor=threshold=0.063096:ratio=4:attack=20:release=250:makeup=1.995262:knee=2.83]"
+  },
+  {
+    "name": "custom-eq",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3
+        },
+        {
+          "freq": 63,
+          "gain": 2
+        },
+        {
+          "freq": 125,
+          "gain": 1
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": -1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 2
+        },
+        {
+          "freq": 6300,
+          "gain": 2
+        },
+        {
+          "freq": 10000,
+          "gain": 3
+        },
+        {
+          "freq": 16000,
+          "gain": 3
+        }
+      ]
+    },
+    "preamp": "0",
+    "inputs": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "2",
+      "2",
+      "3",
+      "3"
+    ],
+    "names": [
+      "",
+      ""
+    ],
+    "presets": {
+      "feishin_eq_custom_presets": {
+        "My EQ": [
+          3,
+          2,
+          1,
+          0,
+          -1,
+          0,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3
+        ]
+      },
+      "feishin_comp_custom_presets": {
+        "My Compressor": {
+          "attack": 20,
+          "knee": 2.83,
+          "makeup": 6,
+          "ratio": 4,
+          "release": 250,
+          "threshold": -24
+        }
+      }
+    },
+    "filterCount": 10,
+    "filter": "lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=2],lavfi=[equalizer=f=125:width_type=o:w=1:g=1],lavfi=[equalizer=f=500:width_type=o:w=1:g=-1],lavfi=[equalizer=f=2000:width_type=o:w=1:g=1],lavfi=[equalizer=f=3000:width_type=o:w=1:g=2],lavfi=[equalizer=f=4000:width_type=o:w=1:g=2],lavfi=[equalizer=f=6300:width_type=o:w=1.2:g=2],lavfi=[equalizer=f=10000:width_type=o:w=1.2:g=3],lavfi=[equalizer=f=16000:width_type=o:w=1.5:g=3],lavfi=[acompressor=threshold=0.063096:ratio=4:attack=20:release=250:makeup=1.995262:knee=2.83]"
+  },
+  {
+    "name": "delete-eq",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3
+        },
+        {
+          "freq": 63,
+          "gain": 2
+        },
+        {
+          "freq": 125,
+          "gain": 1
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": -1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 2
+        },
+        {
+          "freq": 6300,
+          "gain": 2
+        },
+        {
+          "freq": 10000,
+          "gain": 3
+        },
+        {
+          "freq": 16000,
+          "gain": 3
+        }
+      ]
+    },
+    "preamp": "0",
+    "inputs": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "2",
+      "2",
+      "3",
+      "3"
+    ],
+    "names": [
+      "",
+      ""
+    ],
+    "presets": {
+      "feishin_eq_custom_presets": {},
+      "feishin_comp_custom_presets": {
+        "My Compressor": {
+          "attack": 20,
+          "knee": 2.83,
+          "makeup": 6,
+          "ratio": 4,
+          "release": 250,
+          "threshold": -24
+        }
+      }
+    },
+    "filterCount": 10,
+    "filter": "lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=2],lavfi=[equalizer=f=125:width_type=o:w=1:g=1],lavfi=[equalizer=f=500:width_type=o:w=1:g=-1],lavfi=[equalizer=f=2000:width_type=o:w=1:g=1],lavfi=[equalizer=f=3000:width_type=o:w=1:g=2],lavfi=[equalizer=f=4000:width_type=o:w=1:g=2],lavfi=[equalizer=f=6300:width_type=o:w=1.2:g=2],lavfi=[equalizer=f=10000:width_type=o:w=1.2:g=3],lavfi=[equalizer=f=16000:width_type=o:w=1.5:g=3],lavfi=[acompressor=threshold=0.063096:ratio=4:attack=20:release=250:makeup=1.995262:knee=2.83]"
+  },
+  {
+    "name": "delete-compressor",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3
+        },
+        {
+          "freq": 63,
+          "gain": 2
+        },
+        {
+          "freq": 125,
+          "gain": 1
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": -1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 2
+        },
+        {
+          "freq": 6300,
+          "gain": 2
+        },
+        {
+          "freq": 10000,
+          "gain": 3
+        },
+        {
+          "freq": 16000,
+          "gain": 3
+        }
+      ]
+    },
+    "preamp": "0",
+    "inputs": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "2",
+      "2",
+      "3",
+      "3"
+    ],
+    "names": [
+      "",
+      ""
+    ],
+    "presets": {
+      "feishin_eq_custom_presets": {},
+      "feishin_comp_custom_presets": {}
+    },
+    "filterCount": 10,
+    "filter": "lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=2],lavfi=[equalizer=f=125:width_type=o:w=1:g=1],lavfi=[equalizer=f=500:width_type=o:w=1:g=-1],lavfi=[equalizer=f=2000:width_type=o:w=1:g=1],lavfi=[equalizer=f=3000:width_type=o:w=1:g=2],lavfi=[equalizer=f=4000:width_type=o:w=1:g=2],lavfi=[equalizer=f=6300:width_type=o:w=1.2:g=2],lavfi=[equalizer=f=10000:width_type=o:w=1.2:g=3],lavfi=[equalizer=f=16000:width_type=o:w=1.5:g=3],lavfi=[acompressor=threshold=0.063096:ratio=4:attack=20:release=250:makeup=1.995262:knee=2.83]"
+  },
+  {
+    "name": "long-names",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3
+        },
+        {
+          "freq": 63,
+          "gain": 2
+        },
+        {
+          "freq": 125,
+          "gain": 1
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": -1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 2
+        },
+        {
+          "freq": 6300,
+          "gain": 2
+        },
+        {
+          "freq": 10000,
+          "gain": 3
+        },
+        {
+          "freq": 16000,
+          "gain": 3
+        }
+      ]
+    },
+    "preamp": "0",
+    "inputs": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "2",
+      "2",
+      "3",
+      "3"
+    ],
+    "names": [
+      "  長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前  ",
+      "  Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor   "
+    ],
+    "presets": {
+      "feishin_eq_custom_presets": {},
+      "feishin_comp_custom_presets": {}
+    },
+    "filterCount": 10,
+    "filter": "lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=2],lavfi=[equalizer=f=125:width_type=o:w=1:g=1],lavfi=[equalizer=f=500:width_type=o:w=1:g=-1],lavfi=[equalizer=f=2000:width_type=o:w=1:g=1],lavfi=[equalizer=f=3000:width_type=o:w=1:g=2],lavfi=[equalizer=f=4000:width_type=o:w=1:g=2],lavfi=[equalizer=f=6300:width_type=o:w=1.2:g=2],lavfi=[equalizer=f=10000:width_type=o:w=1.2:g=3],lavfi=[equalizer=f=16000:width_type=o:w=1.5:g=3],lavfi=[acompressor=threshold=0.063096:ratio=4:attack=20:release=250:makeup=1.995262:knee=2.83]"
+  },
+  {
+    "name": "save-long-eq",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3
+        },
+        {
+          "freq": 63,
+          "gain": 2
+        },
+        {
+          "freq": 125,
+          "gain": 1
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": -1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 2
+        },
+        {
+          "freq": 6300,
+          "gain": 2
+        },
+        {
+          "freq": 10000,
+          "gain": 3
+        },
+        {
+          "freq": 16000,
+          "gain": 3
+        }
+      ]
+    },
+    "preamp": "0",
+    "inputs": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "2",
+      "2",
+      "3",
+      "3"
+    ],
+    "names": [
+      "",
+      "  Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor   "
+    ],
+    "presets": {
+      "feishin_eq_custom_presets": {
+        "長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前": [
+          3,
+          2,
+          1,
+          0,
+          -1,
+          0,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3
+        ]
+      },
+      "feishin_comp_custom_presets": {}
+    },
+    "filterCount": 10,
+    "filter": "lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=2],lavfi=[equalizer=f=125:width_type=o:w=1:g=1],lavfi=[equalizer=f=500:width_type=o:w=1:g=-1],lavfi=[equalizer=f=2000:width_type=o:w=1:g=1],lavfi=[equalizer=f=3000:width_type=o:w=1:g=2],lavfi=[equalizer=f=4000:width_type=o:w=1:g=2],lavfi=[equalizer=f=6300:width_type=o:w=1.2:g=2],lavfi=[equalizer=f=10000:width_type=o:w=1.2:g=3],lavfi=[equalizer=f=16000:width_type=o:w=1.5:g=3],lavfi=[acompressor=threshold=0.063096:ratio=4:attack=20:release=250:makeup=1.995262:knee=2.83]"
+  },
+  {
+    "name": "save-long-compressor",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3
+        },
+        {
+          "freq": 63,
+          "gain": 2
+        },
+        {
+          "freq": 125,
+          "gain": 1
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": -1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 2
+        },
+        {
+          "freq": 6300,
+          "gain": 2
+        },
+        {
+          "freq": 10000,
+          "gain": 3
+        },
+        {
+          "freq": 16000,
+          "gain": 3
+        }
+      ]
+    },
+    "preamp": "0",
+    "inputs": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "2",
+      "2",
+      "3",
+      "3"
+    ],
+    "names": [
+      "",
+      ""
+    ],
+    "presets": {
+      "feishin_eq_custom_presets": {
+        "長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前長い名前": [
+          3,
+          2,
+          1,
+          0,
+          -1,
+          0,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3
+        ]
+      },
+      "feishin_comp_custom_presets": {
+        "Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor": {
+          "attack": 20,
+          "knee": 2.83,
+          "makeup": 6,
+          "ratio": 4,
+          "release": 250,
+          "threshold": -24
+        }
+      }
+    },
+    "filterCount": 10,
+    "filter": "lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=2],lavfi=[equalizer=f=125:width_type=o:w=1:g=1],lavfi=[equalizer=f=500:width_type=o:w=1:g=-1],lavfi=[equalizer=f=2000:width_type=o:w=1:g=1],lavfi=[equalizer=f=3000:width_type=o:w=1:g=2],lavfi=[equalizer=f=4000:width_type=o:w=1:g=2],lavfi=[equalizer=f=6300:width_type=o:w=1.2:g=2],lavfi=[equalizer=f=10000:width_type=o:w=1.2:g=3],lavfi=[equalizer=f=16000:width_type=o:w=1.5:g=3],lavfi=[acompressor=threshold=0.063096:ratio=4:attack=20:release=250:makeup=1.995262:knee=2.83]"
+  },
+  {
+    "name": "delete-long-eq",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3
+        },
+        {
+          "freq": 63,
+          "gain": 2
+        },
+        {
+          "freq": 125,
+          "gain": 1
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": -1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 2
+        },
+        {
+          "freq": 6300,
+          "gain": 2
+        },
+        {
+          "freq": 10000,
+          "gain": 3
+        },
+        {
+          "freq": 16000,
+          "gain": 3
+        }
+      ]
+    },
+    "preamp": "0",
+    "inputs": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "2",
+      "2",
+      "3",
+      "3"
+    ],
+    "names": [
+      "",
+      ""
+    ],
+    "presets": {
+      "feishin_eq_custom_presets": {},
+      "feishin_comp_custom_presets": {
+        "Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor Long Compressor": {
+          "attack": 20,
+          "knee": 2.83,
+          "makeup": 6,
+          "ratio": 4,
+          "release": 250,
+          "threshold": -24
+        }
+      }
+    },
+    "filterCount": 10,
+    "filter": "lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=2],lavfi=[equalizer=f=125:width_type=o:w=1:g=1],lavfi=[equalizer=f=500:width_type=o:w=1:g=-1],lavfi=[equalizer=f=2000:width_type=o:w=1:g=1],lavfi=[equalizer=f=3000:width_type=o:w=1:g=2],lavfi=[equalizer=f=4000:width_type=o:w=1:g=2],lavfi=[equalizer=f=6300:width_type=o:w=1.2:g=2],lavfi=[equalizer=f=10000:width_type=o:w=1.2:g=3],lavfi=[equalizer=f=16000:width_type=o:w=1.5:g=3],lavfi=[acompressor=threshold=0.063096:ratio=4:attack=20:release=250:makeup=1.995262:knee=2.83]"
+  },
+  {
+    "name": "delete-long-compressor",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3
+        },
+        {
+          "freq": 63,
+          "gain": 2
+        },
+        {
+          "freq": 125,
+          "gain": 1
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": -1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 2
+        },
+        {
+          "freq": 6300,
+          "gain": 2
+        },
+        {
+          "freq": 10000,
+          "gain": 3
+        },
+        {
+          "freq": 16000,
+          "gain": 3
+        }
+      ]
+    },
+    "preamp": "0",
+    "inputs": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "2",
+      "2",
+      "3",
+      "3"
+    ],
+    "names": [
+      "",
+      ""
+    ],
+    "presets": {
+      "feishin_eq_custom_presets": {},
+      "feishin_comp_custom_presets": {}
+    },
+    "filterCount": 10,
+    "filter": "lavfi=[equalizer=f=31.5:width_type=o:w=1.9:g=3],lavfi=[equalizer=f=63:width_type=o:w=1.3:g=2],lavfi=[equalizer=f=125:width_type=o:w=1:g=1],lavfi=[equalizer=f=500:width_type=o:w=1:g=-1],lavfi=[equalizer=f=2000:width_type=o:w=1:g=1],lavfi=[equalizer=f=3000:width_type=o:w=1:g=2],lavfi=[equalizer=f=4000:width_type=o:w=1:g=2],lavfi=[equalizer=f=6300:width_type=o:w=1.2:g=2],lavfi=[equalizer=f=10000:width_type=o:w=1.2:g=3],lavfi=[equalizer=f=16000:width_type=o:w=1.5:g=3],lavfi=[acompressor=threshold=0.063096:ratio=4:attack=20:release=250:makeup=1.995262:knee=2.83]"
+  },
+  {
+    "name": "disabled-again",
+    "stored": {
+      "enabled": false,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 3
+        },
+        {
+          "freq": 63,
+          "gain": 2
+        },
+        {
+          "freq": 125,
+          "gain": 1
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": -1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 2
+        },
+        {
+          "freq": 6300,
+          "gain": 2
+        },
+        {
+          "freq": 10000,
+          "gain": 3
+        },
+        {
+          "freq": 16000,
+          "gain": 3
+        }
+      ]
+    },
+    "preamp": null,
+    "inputs": [],
+    "names": [
+      null,
+      ""
+    ],
+    "presets": {
+      "feishin_eq_custom_presets": {},
+      "feishin_comp_custom_presets": {}
+    },
+    "filterCount": 11,
+    "filter": "lavfi=[acompressor=threshold=0.063096:ratio=4:attack=20:release=250:makeup=1.995262:knee=2.83]"
+  }
+]

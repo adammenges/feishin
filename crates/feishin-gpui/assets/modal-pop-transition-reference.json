@@ -1,0 +1,81 @@
+{
+  "duration": 300,
+  "exitDuration": 300,
+  "entrance": [
+    {
+      "elapsed": 0,
+      "opacity": 0,
+      "transform": "matrix(0.9, 0, 0, 0.9, 0, 9)"
+    },
+    {
+      "elapsed": 30,
+      "opacity": 0.0947963,
+      "transform": "matrix(0.90948, 0, 0, 0.90948, 0, 8.23264)"
+    },
+    {
+      "elapsed": 75,
+      "opacity": 0.408511,
+      "transform": "matrix(0.940851, 0, 0, 0.940851, 0, 5.56503)"
+    },
+    {
+      "elapsed": 150,
+      "opacity": 0.802403,
+      "transform": "matrix(0.98024, 0, 0, 0.98024, 0, 1.93692)"
+    },
+    {
+      "elapsed": 225,
+      "opacity": 0.960459,
+      "transform": "matrix(0.996046, 0, 0, 0.996046, 0, 0.393847)"
+    },
+    {
+      "elapsed": 299,
+      "opacity": 0.999994,
+      "transform": "matrix(0.999999, 0, 0, 0.999999, 0, 5.93779e-05)"
+    },
+    {
+      "elapsed": 300,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    }
+  ],
+  "exit": [
+    {
+      "elapsed": 0,
+      "opacity": 1,
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "elapsed": 30,
+      "opacity": 0.905204,
+      "transform": "matrix(0.99052, 0, 0, 0.99052, 0, 0.938977)"
+    },
+    {
+      "elapsed": 75,
+      "opacity": 0.591489,
+      "transform": "matrix(0.959149, 0, 0, 0.959149, 0, 3.91823)"
+    },
+    {
+      "elapsed": 150,
+      "opacity": 0.197597,
+      "transform": "matrix(0.91976, 0, 0, 0.91976, 0, 7.38018)"
+    },
+    {
+      "elapsed": 225,
+      "opacity": 0.039541,
+      "transform": "matrix(0.903954, 0, 0, 0.903954, 0, 8.68211)"
+    },
+    {
+      "elapsed": 299,
+      "opacity": 0.00000593779,
+      "transform": "matrix(0.900001, 0, 0, 0.900001, 0, 8.99995)"
+    },
+    {
+      "elapsed": 300,
+      "opacity": 0,
+      "transform": "matrix(0.9, 0, 0, 0.9, 0, 9)"
+    }
+  ],
+  "retainedOnClose": true,
+  "removedAfterExit": true,
+  "restoredFocus": true
+}

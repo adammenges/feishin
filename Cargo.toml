@@ -1,0 +1,29 @@
+[workspace]
+members = ["crates/feishin-core", "crates/feishin-gpui", "crates/feishin-audio-capture"]
+default-members = ["crates/feishin-gpui"]
+resolver = "2"
+exclude = ["crates/vendor/souvlaki", "crates/vendor/projectm-sys", "crates/vendor/xattr", "crates/vendor/gpui-component", "crates/vendor/gpui", "crates/vendor/moxcms", "crates/vendor/cosmic-text", "crates/vendor/taffy"]
+
+[patch.crates-io]
+souvlaki = { path = "crates/vendor/souvlaki" }
+taffy = { path = "crates/vendor/taffy" }
+cosmic-text = { path = "crates/vendor/cosmic-text" }
+moxcms = { path = "crates/vendor/moxcms" }
+gpui = { path = "crates/vendor/gpui" }
+projectm-sys = { path = "crates/vendor/projectm-sys" }
+xattr = { path = "crates/vendor/xattr" }
+gpui-component = { path = "crates/vendor/gpui-component" }
+
+[workspace.package]
+version = "1.17.0"
+edition = "2024"
+license = "GPL-3.0-only"
+rust-version = "1.91"
+
+[workspace.dependencies]
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+
+[profile.dev]
+debug = 0

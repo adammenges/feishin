@@ -1,0 +1,147 @@
+{
+  "actions": {
+    "icon": "ellipsisHorizontal"
+  },
+  "album": {
+    "key": "table.column.album",
+    "uppercase": true
+  },
+  "albumArtists": {
+    "key": "table.column.albumArtist",
+    "uppercase": true
+  },
+  "albumCount": {
+    "key": "table.column.albumCount",
+    "uppercase": true
+  },
+  "albumGroup": "",
+  "artists": {
+    "key": "table.column.artist",
+    "uppercase": true
+  },
+  "biography": {
+    "key": "table.column.biography",
+    "uppercase": true
+  },
+  "bitDepth": {
+    "key": "table.column.bitDepth",
+    "uppercase": true
+  },
+  "bitRate": {
+    "key": "table.column.bitrate",
+    "uppercase": true
+  },
+  "bpm": {
+    "key": "table.column.bpm",
+    "uppercase": true
+  },
+  "channels": {
+    "key": "table.column.channels",
+    "uppercase": true
+  },
+  "container": {
+    "key": "table.column.codec",
+    "uppercase": true
+  },
+  "comment": {
+    "key": "table.column.comment",
+    "uppercase": true
+  },
+  "composer": {
+    "key": "table.config.label.composer",
+    "uppercase": true
+  },
+  "date": {
+    "key": "table.column.date",
+    "uppercase": true
+  },
+  "createdAt": {
+    "key": "table.column.dateAdded",
+    "uppercase": true
+  },
+  "discNumber": {
+    "icon": "disc"
+  },
+  "duration": {
+    "icon": "duration"
+  },
+  "genres": {
+    "key": "table.column.genre",
+    "uppercase": true
+  },
+  "genreBadge": {
+    "key": "table.column.genre",
+    "uppercase": true
+  },
+  "id": "ID",
+  "imageUrl": "",
+  "lastPlayedAt": {
+    "key": "table.column.lastPlayed",
+    "uppercase": true
+  },
+  "__layoutFill": "",
+  "username": {
+    "key": "table.column.owner",
+    "uppercase": true
+  },
+  "path": {
+    "key": "table.column.path",
+    "uppercase": true
+  },
+  "playCount": {
+    "key": "table.column.playCount",
+    "uppercase": true
+  },
+  "playlistReorder": {
+    "icon": "dragVertical"
+  },
+  "releaseDate": {
+    "key": "table.column.releaseDate",
+    "uppercase": true
+  },
+  "releaseYear": {
+    "key": "table.column.releaseYear",
+    "uppercase": true
+  },
+  "rowIndex": {
+    "icon": "hash"
+  },
+  "sampleRate": {
+    "key": "table.column.sampleRate",
+    "uppercase": true
+  },
+  "size": {
+    "key": "table.column.size",
+    "uppercase": true
+  },
+  "skip": "",
+  "songCount": {
+    "key": "table.column.songCount",
+    "uppercase": true
+  },
+  "name": {
+    "key": "table.column.title",
+    "uppercase": true
+  },
+  "titleArtist": {
+    "key": "table.column.title",
+    "uppercase": true
+  },
+  "titleCombined": {
+    "key": "table.column.title",
+    "uppercase": true
+  },
+  "trackNumber": {
+    "icon": "itemSong"
+  },
+  "userFavorite": {
+    "icon": "favorite"
+  },
+  "userRating": {
+    "icon": "star"
+  },
+  "year": {
+    "key": "table.column.year",
+    "uppercase": true
+  }
+}

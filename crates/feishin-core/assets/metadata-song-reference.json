@@ -1,0 +1,1524 @@
+[
+  {
+    "backend": "navidrome",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678
+    },
+    "expected": {
+      "albumId": null,
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": null,
+      "originalYear": null,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 2,
+      "sampleRate": 44100,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "navidrome",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 0,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678
+    },
+    "expected": {
+      "albumId": null,
+      "date": null,
+      "year": null,
+      "releaseDate": null,
+      "releaseYear": null,
+      "originalDate": null,
+      "originalYear": null,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 2,
+      "sampleRate": 44100,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "navidrome",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 0,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678,
+      "date": "2024-03"
+    },
+    "expected": {
+      "albumId": null,
+      "date": "2024-03",
+      "year": 2024,
+      "releaseDate": "2024-03",
+      "releaseYear": 2024,
+      "originalDate": null,
+      "originalYear": null,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 2,
+      "sampleRate": 44100,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "navidrome",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678,
+      "date": "2024",
+      "releaseYear": 2020
+    },
+    "expected": {
+      "albumId": null,
+      "date": "2024",
+      "year": 1999,
+      "releaseDate": "2020",
+      "releaseYear": 2020,
+      "originalDate": null,
+      "originalYear": null,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 2,
+      "sampleRate": 44100,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "navidrome",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678,
+      "releaseDate": " 2024-03 ",
+      "originalDate": "1989-01-02"
+    },
+    "expected": {
+      "albumId": null,
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "2024-03",
+      "releaseYear": 2024,
+      "originalDate": "1989-01-02",
+      "originalYear": 1989,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 2,
+      "sampleRate": 44100,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "navidrome",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678,
+      "releaseDate": "2024-03",
+      "releaseYear": 2010,
+      "originalYear": 1989
+    },
+    "expected": {
+      "albumId": null,
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "2024-03",
+      "releaseYear": 2010,
+      "originalDate": "1989",
+      "originalYear": 1989,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 2,
+      "sampleRate": 44100,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "navidrome",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678,
+      "releaseDate": "invalid",
+      "date": "2002-04"
+    },
+    "expected": {
+      "albumId": null,
+      "date": "2002-04",
+      "year": 1999,
+      "releaseDate": "2002-04",
+      "releaseYear": 1999,
+      "originalDate": null,
+      "originalYear": null,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 2,
+      "sampleRate": 44100,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "navidrome",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678,
+      "originalYear": 0,
+      "originalDate": "0000"
+    },
+    "expected": {
+      "albumId": null,
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": "0000",
+      "originalYear": null,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 2,
+      "sampleRate": 44100,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "navidrome",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 0,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678,
+      "date": "bad",
+      "releaseYear": 0
+    },
+    "expected": {
+      "albumId": null,
+      "date": null,
+      "year": null,
+      "releaseDate": null,
+      "releaseYear": null,
+      "originalDate": null,
+      "originalYear": null,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 2,
+      "sampleRate": 44100,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "navidrome",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678,
+      "playDate": "2024-03-02T12:00:00Z",
+      "playedAt": "2000-01-01"
+    },
+    "expected": {
+      "albumId": null,
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": null,
+      "originalYear": null,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": "2024-03-02T12:00:00Z",
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 2,
+      "sampleRate": 44100,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "navidrome",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678,
+      "playDate": "0001-01-01T00:00:00Z"
+    },
+    "expected": {
+      "albumId": null,
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": null,
+      "originalYear": null,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 2,
+      "sampleRate": 44100,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "navidrome",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 0,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 0,
+      "sampleRate": 0,
+      "samplingRate": 48000,
+      "bitDepth": 0,
+      "channels": 0,
+      "channelCount": 6,
+      "size": 0,
+      "bpm": 0
+    },
+    "expected": {
+      "albumId": null,
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": null,
+      "originalYear": null,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 0,
+      "bitDepth": null,
+      "channels": null,
+      "sampleRate": null,
+      "size": 0,
+      "bpm": null,
+      "discNumber": 0,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "navidrome",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678,
+      "playCount": 12345,
+      "bpm": 120
+    },
+    "expected": {
+      "albumId": null,
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": null,
+      "originalYear": null,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 2,
+      "sampleRate": 44100,
+      "size": 12345678,
+      "bpm": 120,
+      "discNumber": 1,
+      "playCount": 12345,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "subsonic",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678
+    },
+    "expected": {
+      "albumId": "",
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": "1999",
+      "originalYear": 1999,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 6,
+      "sampleRate": 48000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Song"
+    }
+  },
+  {
+    "backend": "subsonic",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 0,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678
+    },
+    "expected": {
+      "albumId": "",
+      "date": null,
+      "year": null,
+      "releaseDate": null,
+      "releaseYear": null,
+      "originalDate": null,
+      "originalYear": null,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 6,
+      "sampleRate": 48000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Song"
+    }
+  },
+  {
+    "backend": "subsonic",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678,
+      "releaseDate": {
+        "year": 2024,
+        "month": 3,
+        "day": 1
+      }
+    },
+    "expected": {
+      "albumId": "",
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "2024-03-01",
+      "releaseYear": 2024,
+      "originalDate": "1999",
+      "originalYear": 1999,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 6,
+      "sampleRate": 48000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Song"
+    }
+  },
+  {
+    "backend": "subsonic",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678,
+      "releaseDate": {
+        "year": 2024,
+        "month": 3
+      }
+    },
+    "expected": {
+      "albumId": "",
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": "1999",
+      "originalYear": 1999,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 6,
+      "sampleRate": 48000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Song"
+    }
+  },
+  {
+    "backend": "subsonic",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678,
+      "releaseDate": {
+        "year": 0,
+        "month": 3,
+        "day": 1
+      }
+    },
+    "expected": {
+      "albumId": "",
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": null,
+      "releaseYear": 0,
+      "originalDate": "1999",
+      "originalYear": 1999,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 6,
+      "sampleRate": 48000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Song"
+    }
+  },
+  {
+    "backend": "subsonic",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 0,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 0,
+      "sampleRate": 44100,
+      "samplingRate": 0,
+      "bitDepth": 0,
+      "channels": 2,
+      "channelCount": 0,
+      "size": 0
+    },
+    "expected": {
+      "albumId": "",
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": "1999",
+      "originalYear": 1999,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 0,
+      "bitDepth": null,
+      "channels": null,
+      "sampleRate": null,
+      "size": 0,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Song"
+    }
+  },
+  {
+    "backend": "subsonic",
+    "input": {
+      "id": "song",
+      "title": "Song",
+      "orderTitle": "Ordered song",
+      "year": 1999,
+      "duration": 42,
+      "discNumber": 1,
+      "track": 5,
+      "trackNumber": 5,
+      "contentType": "audio/flac",
+      "created": "2024-03-01T12:00:00Z",
+      "createdAt": "2024-03-01T12:00:00Z",
+      "bitRate": 320,
+      "sampleRate": 44100,
+      "samplingRate": 48000,
+      "bitDepth": 16,
+      "channels": 2,
+      "channelCount": 6,
+      "size": 12345678,
+      "playedAt": "2024-03-01",
+      "playCount": 12345,
+      "bpm": 120
+    },
+    "expected": {
+      "albumId": "",
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": "1999",
+      "originalYear": 1999,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 320,
+      "bitDepth": 16,
+      "channels": 6,
+      "sampleRate": 48000,
+      "size": 12345678,
+      "bpm": 120,
+      "discNumber": 1,
+      "playCount": 12345,
+      "sortName": "Song"
+    }
+  },
+  {
+    "backend": "jellyfin",
+    "input": {
+      "Id": "song",
+      "Name": "Song",
+      "SortName": "Ordered song",
+      "ProductionYear": 1999,
+      "RunTimeTicks": 420000000,
+      "ParentIndexNumber": 1,
+      "IndexNumber": 5,
+      "DateCreated": "2024-03-01T12:00:00Z",
+      "MediaSources": [
+        {
+          "Container": "flac",
+          "Size": 12345678,
+          "MediaStreams": [
+            {
+              "Type": "Audio",
+              "BitRate": 1234567,
+              "BitDepth": 24,
+              "Channels": 2,
+              "SampleRate": 96000
+            }
+          ]
+        }
+      ]
+    },
+    "expected": {
+      "albumId": "dummy/song",
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": "1999",
+      "originalYear": 1999,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 1234,
+      "bitDepth": 24,
+      "channels": 2,
+      "sampleRate": 96000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "jellyfin",
+    "input": {
+      "Id": "song",
+      "Name": "Song",
+      "SortName": "Ordered song",
+      "ProductionYear": 1999,
+      "RunTimeTicks": 420000000,
+      "ParentIndexNumber": 1,
+      "IndexNumber": 5,
+      "DateCreated": "2024-03-01T12:00:00Z",
+      "MediaSources": [
+        {
+          "Container": "flac",
+          "Size": 12345678,
+          "MediaStreams": [
+            {
+              "Type": "Audio",
+              "BitRate": 1234567,
+              "BitDepth": 24,
+              "Channels": 2,
+              "SampleRate": 96000
+            }
+          ]
+        }
+      ],
+      "AlbumId": "real-album"
+    },
+    "expected": {
+      "albumId": "real-album",
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": "1999",
+      "originalYear": 1999,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 1234,
+      "bitDepth": 24,
+      "channels": 2,
+      "sampleRate": 96000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "jellyfin",
+    "input": {
+      "Id": "song",
+      "Name": "Song",
+      "SortName": "Ordered song",
+      "ProductionYear": 1999,
+      "RunTimeTicks": 420000000,
+      "ParentIndexNumber": 1,
+      "IndexNumber": 5,
+      "DateCreated": "2024-03-01T12:00:00Z",
+      "MediaSources": [
+        {
+          "Container": "flac",
+          "Size": 12345678,
+          "MediaStreams": [
+            {
+              "Type": "Audio",
+              "BitRate": 1234567,
+              "BitDepth": 24,
+              "Channels": 2,
+              "SampleRate": 96000
+            }
+          ]
+        }
+      ],
+      "AlbumId": ""
+    },
+    "expected": {
+      "albumId": "dummy/song",
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": "1999",
+      "originalYear": 1999,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 1234,
+      "bitDepth": 24,
+      "channels": 2,
+      "sampleRate": 96000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "jellyfin",
+    "input": {
+      "Id": "song",
+      "Name": "Song",
+      "SortName": "Ordered song",
+      "ProductionYear": 1999,
+      "RunTimeTicks": 420000000,
+      "ParentIndexNumber": 1,
+      "IndexNumber": 5,
+      "DateCreated": "2024-03-01T12:00:00Z",
+      "MediaSources": [
+        {
+          "Container": "flac",
+          "Size": 12345678,
+          "MediaStreams": [
+            {
+              "Type": "Audio",
+              "BitRate": 1234567,
+              "BitDepth": 24,
+              "Channels": 2,
+              "SampleRate": 96000
+            }
+          ]
+        }
+      ],
+      "AlbumId": null
+    },
+    "expected": {
+      "albumId": "dummy/song",
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": "1999",
+      "originalYear": 1999,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 1234,
+      "bitDepth": 24,
+      "channels": 2,
+      "sampleRate": 96000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "jellyfin",
+    "input": {
+      "Id": "song",
+      "Name": "Song",
+      "SortName": "Ordered song",
+      "ProductionYear": 1999,
+      "RunTimeTicks": 420000000,
+      "ParentIndexNumber": 1,
+      "IndexNumber": 5,
+      "DateCreated": "2024-03-01T12:00:00Z",
+      "MediaSources": [
+        {
+          "Container": "flac",
+          "Size": 12345678,
+          "MediaStreams": [
+            {
+              "Type": "Audio",
+              "BitRate": 1234567,
+              "BitDepth": 24,
+              "Channels": 2,
+              "SampleRate": 96000
+            }
+          ]
+        }
+      ],
+      "PremiereDate": "2024-03-01T23:00:00-08:00"
+    },
+    "expected": {
+      "albumId": "dummy/song",
+      "date": "2024-03-01",
+      "year": 2024,
+      "releaseDate": "2024-03-01",
+      "releaseYear": 2024,
+      "originalDate": "2024-03-01",
+      "originalYear": 2024,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 1234,
+      "bitDepth": 24,
+      "channels": 2,
+      "sampleRate": 96000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "jellyfin",
+    "input": {
+      "Id": "song",
+      "Name": "Song",
+      "SortName": "Ordered song",
+      "ProductionYear": 1999,
+      "RunTimeTicks": 420000000,
+      "ParentIndexNumber": 1,
+      "IndexNumber": 5,
+      "DateCreated": "2024-03-01T12:00:00Z",
+      "MediaSources": [
+        {
+          "Container": "flac",
+          "Size": 12345678,
+          "MediaStreams": [
+            {
+              "Type": "Audio",
+              "BitRate": 1234567,
+              "BitDepth": 24,
+              "Channels": 2,
+              "SampleRate": 96000
+            }
+          ]
+        }
+      ],
+      "PremiereDate": "2024-03"
+    },
+    "expected": {
+      "albumId": "dummy/song",
+      "date": "2024-03",
+      "year": 2024,
+      "releaseDate": "2024-03",
+      "releaseYear": 2024,
+      "originalDate": "2024-03",
+      "originalYear": 2024,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 1234,
+      "bitDepth": 24,
+      "channels": 2,
+      "sampleRate": 96000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "jellyfin",
+    "input": {
+      "Id": "song",
+      "Name": "Song",
+      "SortName": "Ordered song",
+      "ProductionYear": 1999,
+      "RunTimeTicks": 420000000,
+      "ParentIndexNumber": 1,
+      "IndexNumber": 5,
+      "DateCreated": "2024-03-01T12:00:00Z",
+      "MediaSources": [
+        {
+          "Container": "flac",
+          "Size": 12345678,
+          "MediaStreams": [
+            {
+              "Type": "Audio",
+              "BitRate": 1234567,
+              "BitDepth": 24,
+              "Channels": 2,
+              "SampleRate": 96000
+            }
+          ]
+        }
+      ],
+      "PremiereDate": "bad"
+    },
+    "expected": {
+      "albumId": "dummy/song",
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": "1999",
+      "originalYear": 1999,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 1234,
+      "bitDepth": 24,
+      "channels": 2,
+      "sampleRate": 96000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "jellyfin",
+    "input": {
+      "Id": "song",
+      "Name": "Song",
+      "SortName": "Ordered song",
+      "ProductionYear": 1999,
+      "RunTimeTicks": 420000000,
+      "ParentIndexNumber": 1,
+      "IndexNumber": 5,
+      "DateCreated": "2024-03-01T12:00:00Z",
+      "MediaSources": [
+        {
+          "Container": "flac",
+          "Size": 12345678,
+          "MediaStreams": [
+            {
+              "Type": "Audio",
+              "BitRate": 1234567,
+              "BitDepth": 24,
+              "Channels": 2,
+              "SampleRate": 96000
+            }
+          ]
+        }
+      ],
+      "PremiereDate": "0000"
+    },
+    "expected": {
+      "albumId": "dummy/song",
+      "date": "0000",
+      "year": 1999,
+      "releaseDate": "0000",
+      "releaseYear": 1999,
+      "originalDate": "0000",
+      "originalYear": 1999,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 1234,
+      "bitDepth": 24,
+      "channels": 2,
+      "sampleRate": 96000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "jellyfin",
+    "input": {
+      "Id": "song",
+      "Name": "Song",
+      "SortName": "Ordered song",
+      "ProductionYear": 0,
+      "RunTimeTicks": 420000000,
+      "ParentIndexNumber": 1,
+      "IndexNumber": 5,
+      "DateCreated": "2024-03-01T12:00:00Z",
+      "MediaSources": [
+        {
+          "Container": "flac",
+          "Size": 12345678,
+          "MediaStreams": [
+            {
+              "Type": "Audio",
+              "BitRate": 1234567,
+              "BitDepth": 24,
+              "Channels": 2,
+              "SampleRate": 96000
+            }
+          ]
+        }
+      ],
+      "PremiereDate": "0000"
+    },
+    "expected": {
+      "albumId": "dummy/song",
+      "date": "0000",
+      "year": null,
+      "releaseDate": "0000",
+      "releaseYear": null,
+      "originalDate": "0000",
+      "originalYear": null,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 1234,
+      "bitDepth": 24,
+      "channels": 2,
+      "sampleRate": 96000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "jellyfin",
+    "input": {
+      "Id": "song",
+      "Name": "Song",
+      "SortName": "Ordered song",
+      "ProductionYear": 0,
+      "RunTimeTicks": 420000000,
+      "ParentIndexNumber": 1,
+      "IndexNumber": 5,
+      "DateCreated": "2024-03-01T12:00:00Z",
+      "MediaSources": [
+        {
+          "Container": "flac",
+          "Size": 12345678,
+          "MediaStreams": [
+            {
+              "Type": "Audio",
+              "BitRate": 1234567,
+              "BitDepth": 24,
+              "Channels": 2,
+              "SampleRate": 96000
+            }
+          ]
+        }
+      ]
+    },
+    "expected": {
+      "albumId": "dummy/song",
+      "date": null,
+      "year": null,
+      "releaseDate": null,
+      "releaseYear": null,
+      "originalDate": null,
+      "originalYear": null,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 1234,
+      "bitDepth": 24,
+      "channels": 2,
+      "sampleRate": 96000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "jellyfin",
+    "input": {
+      "Id": "song",
+      "Name": "Song",
+      "SortName": "Ordered song",
+      "ProductionYear": 1999,
+      "RunTimeTicks": 420000000,
+      "ParentIndexNumber": 1,
+      "IndexNumber": 5,
+      "DateCreated": "2024-03-01T12:00:00Z",
+      "MediaSources": []
+    },
+    "expected": {
+      "albumId": "dummy/song",
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": "1999",
+      "originalYear": 1999,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 0,
+      "bitDepth": null,
+      "channels": null,
+      "sampleRate": null,
+      "size": 0,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "jellyfin",
+    "input": {
+      "Id": "song",
+      "Name": "Song",
+      "SortName": "Ordered song",
+      "ProductionYear": 1999,
+      "RunTimeTicks": 420000000,
+      "ParentIndexNumber": 1,
+      "IndexNumber": 5,
+      "DateCreated": "2024-03-01T12:00:00Z",
+      "MediaSources": [
+        {
+          "Size": 2048,
+          "MediaStreams": [
+            {
+              "Type": "Video",
+              "BitRate": 5000000
+            },
+            {
+              "Type": "Audio",
+              "BitRate": 321999,
+              "BitDepth": 0,
+              "Channels": 0,
+              "SampleRate": 0
+            }
+          ]
+        }
+      ]
+    },
+    "expected": {
+      "albumId": "dummy/song",
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": "1999",
+      "originalYear": 1999,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 321,
+      "bitDepth": null,
+      "channels": null,
+      "sampleRate": null,
+      "size": 2048,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 0,
+      "sortName": "Ordered song"
+    }
+  },
+  {
+    "backend": "jellyfin",
+    "input": {
+      "Id": "song",
+      "Name": "Song",
+      "SortName": "Ordered song",
+      "ProductionYear": 1999,
+      "RunTimeTicks": 420000000,
+      "ParentIndexNumber": 0,
+      "IndexNumber": 5,
+      "DateCreated": "2024-03-01T12:00:00Z",
+      "MediaSources": [
+        {
+          "Container": "flac",
+          "Size": 12345678,
+          "MediaStreams": [
+            {
+              "Type": "Audio",
+              "BitRate": 1234567,
+              "BitDepth": 24,
+              "Channels": 2,
+              "SampleRate": 96000
+            }
+          ]
+        }
+      ],
+      "UserData": {
+        "PlayCount": 12345,
+        "LastPlayedDate": "2024-03-01"
+      }
+    },
+    "expected": {
+      "albumId": "dummy/song",
+      "date": "1999",
+      "year": 1999,
+      "releaseDate": "1999",
+      "releaseYear": 1999,
+      "originalDate": "1999",
+      "originalYear": 1999,
+      "createdAt": "2024-03-01T12:00:00Z",
+      "lastPlayedAt": null,
+      "bitRate": 1234,
+      "bitDepth": 24,
+      "channels": 2,
+      "sampleRate": 96000,
+      "size": 12345678,
+      "bpm": null,
+      "discNumber": 1,
+      "playCount": 12345,
+      "sortName": "Ordered song"
+    }
+  }
+]

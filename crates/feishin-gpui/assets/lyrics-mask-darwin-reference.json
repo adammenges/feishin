@@ -1,0 +1,61 @@
+{
+  "mask": "linear-gradient(\n        180deg,\n        transparent 0%,\n        rgb(0 0 0 / 100%) 15%,\n        rgb(0 0 0 / 100%) 85%,\n        transparent 100%\n    )",
+  "cases": [
+    {
+      "scale": 1,
+      "opacity": 1,
+      "top": 20,
+      "height": 200,
+      "file": "lyrics-mask-0-darwin.png"
+    },
+    {
+      "scale": 1,
+      "opacity": 1,
+      "top": 20.5,
+      "height": 199.5,
+      "file": "lyrics-mask-1-darwin.png"
+    },
+    {
+      "scale": 1,
+      "opacity": 0.6,
+      "top": 20,
+      "height": 200,
+      "file": "lyrics-mask-2-darwin.png"
+    },
+    {
+      "scale": 1,
+      "opacity": 0.6,
+      "top": 20.5,
+      "height": 199.5,
+      "file": "lyrics-mask-3-darwin.png"
+    },
+    {
+      "scale": 0.95,
+      "opacity": 1,
+      "top": 20,
+      "height": 200,
+      "file": "lyrics-mask-4-darwin.png"
+    },
+    {
+      "scale": 0.95,
+      "opacity": 1,
+      "top": 20.5,
+      "height": 199.5,
+      "file": "lyrics-mask-5-darwin.png"
+    },
+    {
+      "scale": 0.95,
+      "opacity": 0.6,
+      "top": 20,
+      "height": 200,
+      "file": "lyrics-mask-6-darwin.png"
+    },
+    {
+      "scale": 0.95,
+      "opacity": 0.6,
+      "top": 20.5,
+      "height": 199.5,
+      "file": "lyrics-mask-7-darwin.png"
+    }
+  ]
+}

@@ -1,0 +1,1874 @@
+[
+  {
+    "font": 16,
+    "width": 600,
+    "web": false,
+    "feature": "none",
+    "reverse": false,
+    "padding": [
+      48,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 48,
+        "width": 536
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 180,
+        "width": 536
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 312,
+        "width": 536
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 600,
+    "web": false,
+    "feature": "none",
+    "reverse": true,
+    "padding": [
+      48,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 48,
+        "width": 536
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 180,
+        "width": 536
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 312,
+        "width": 536
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 600,
+    "web": false,
+    "feature": "single",
+    "reverse": false,
+    "padding": [
+      48,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 48,
+        "width": 536
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 180,
+        "width": 536
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 312,
+        "width": 536
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 444,
+        "width": 536
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 600,
+    "web": false,
+    "feature": "single",
+    "reverse": true,
+    "padding": [
+      48,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 48,
+        "width": 536
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 180,
+        "width": 536
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 312,
+        "width": 536
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 444,
+        "width": 536
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 600,
+    "web": false,
+    "feature": "multiple",
+    "reverse": false,
+    "padding": [
+      48,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 48,
+        "width": 536
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 180,
+        "width": 536
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 312,
+        "width": 536
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 444,
+        "width": 536
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 600,
+    "web": false,
+    "feature": "multiple",
+    "reverse": true,
+    "padding": [
+      48,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 48,
+        "width": 536
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 180,
+        "width": 536
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 312,
+        "width": 536
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 444,
+        "width": 536
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 600,
+    "web": true,
+    "feature": "none",
+    "reverse": false,
+    "padding": [
+      80,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 80,
+        "width": 536
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 212,
+        "width": 536
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 344,
+        "width": 536
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 600,
+    "web": true,
+    "feature": "none",
+    "reverse": true,
+    "padding": [
+      80,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 80,
+        "width": 536
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 212,
+        "width": 536
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 344,
+        "width": 536
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 600,
+    "web": true,
+    "feature": "single",
+    "reverse": false,
+    "padding": [
+      80,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 80,
+        "width": 536
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 212,
+        "width": 536
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 344,
+        "width": 536
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 476,
+        "width": 536
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 600,
+    "web": true,
+    "feature": "single",
+    "reverse": true,
+    "padding": [
+      80,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 80,
+        "width": 536
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 212,
+        "width": 536
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 344,
+        "width": 536
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 476,
+        "width": 536
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 600,
+    "web": true,
+    "feature": "multiple",
+    "reverse": false,
+    "padding": [
+      80,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 80,
+        "width": 536
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 212,
+        "width": 536
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 344,
+        "width": 536
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 476,
+        "width": 536
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 600,
+    "web": true,
+    "feature": "multiple",
+    "reverse": true,
+    "padding": [
+      80,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 80,
+        "width": 536
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 212,
+        "width": 536
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 344,
+        "width": 536
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 476,
+        "width": 536
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 1440,
+    "web": false,
+    "feature": "none",
+    "reverse": false,
+    "padding": [
+      48,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 48,
+        "width": 1376
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 180,
+        "width": 1376
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 312,
+        "width": 1376
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 1440,
+    "web": false,
+    "feature": "none",
+    "reverse": true,
+    "padding": [
+      48,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 48,
+        "width": 1376
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 180,
+        "width": 1376
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 312,
+        "width": 1376
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 1440,
+    "web": false,
+    "feature": "single",
+    "reverse": false,
+    "padding": [
+      48,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 48,
+        "width": 1376
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 180,
+        "width": 1376
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 312,
+        "width": 1376
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 444,
+        "width": 1376
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 1440,
+    "web": false,
+    "feature": "single",
+    "reverse": true,
+    "padding": [
+      48,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 48,
+        "width": 1376
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 180,
+        "width": 1376
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 312,
+        "width": 1376
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 444,
+        "width": 1376
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 1440,
+    "web": false,
+    "feature": "multiple",
+    "reverse": false,
+    "padding": [
+      48,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 48,
+        "width": 1376
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 180,
+        "width": 1376
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 312,
+        "width": 1376
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 444,
+        "width": 1376
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 1440,
+    "web": false,
+    "feature": "multiple",
+    "reverse": true,
+    "padding": [
+      48,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 48,
+        "width": 1376
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 180,
+        "width": 1376
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 312,
+        "width": 1376
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 444,
+        "width": 1376
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 1440,
+    "web": true,
+    "feature": "none",
+    "reverse": false,
+    "padding": [
+      80,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 80,
+        "width": 1376
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 212,
+        "width": 1376
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 344,
+        "width": 1376
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 1440,
+    "web": true,
+    "feature": "none",
+    "reverse": true,
+    "padding": [
+      80,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 80,
+        "width": 1376
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 212,
+        "width": 1376
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 344,
+        "width": 1376
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 1440,
+    "web": true,
+    "feature": "single",
+    "reverse": false,
+    "padding": [
+      80,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 80,
+        "width": 1376
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 212,
+        "width": 1376
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 344,
+        "width": 1376
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 476,
+        "width": 1376
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 1440,
+    "web": true,
+    "feature": "single",
+    "reverse": true,
+    "padding": [
+      80,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 80,
+        "width": 1376
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 212,
+        "width": 1376
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 344,
+        "width": 1376
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 476,
+        "width": 1376
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 1440,
+    "web": true,
+    "feature": "multiple",
+    "reverse": false,
+    "padding": [
+      80,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 80,
+        "width": 1376
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 212,
+        "width": 1376
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 344,
+        "width": 1376
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 476,
+        "width": 1376
+      }
+    ]
+  },
+  {
+    "font": 16,
+    "width": 1440,
+    "web": true,
+    "feature": "multiple",
+    "reverse": true,
+    "padding": [
+      80,
+      32,
+      0,
+      32
+    ],
+    "marginBottom": 80,
+    "gap": 32,
+    "children": [
+      {
+        "id": "feature",
+        "x": 32,
+        "y": 80,
+        "width": 1376
+      },
+      {
+        "id": "playlists",
+        "x": 32,
+        "y": 212,
+        "width": 1376
+      },
+      {
+        "id": "random",
+        "x": 32,
+        "y": 344,
+        "width": 1376
+      },
+      {
+        "id": "genres",
+        "x": 32,
+        "y": 476,
+        "width": 1376
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 600,
+    "web": false,
+    "feature": "none",
+    "reverse": false,
+    "padding": [
+      60,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 60,
+        "width": 520
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 200,
+        "width": 520
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 340,
+        "width": 520
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 600,
+    "web": false,
+    "feature": "none",
+    "reverse": true,
+    "padding": [
+      60,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 60,
+        "width": 520
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 200,
+        "width": 520
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 340,
+        "width": 520
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 600,
+    "web": false,
+    "feature": "single",
+    "reverse": false,
+    "padding": [
+      60,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 60,
+        "width": 520
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 200,
+        "width": 520
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 340,
+        "width": 520
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 480,
+        "width": 520
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 600,
+    "web": false,
+    "feature": "single",
+    "reverse": true,
+    "padding": [
+      60,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 60,
+        "width": 520
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 200,
+        "width": 520
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 340,
+        "width": 520
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 480,
+        "width": 520
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 600,
+    "web": false,
+    "feature": "multiple",
+    "reverse": false,
+    "padding": [
+      60,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 60,
+        "width": 520
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 200,
+        "width": 520
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 340,
+        "width": 520
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 480,
+        "width": 520
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 600,
+    "web": false,
+    "feature": "multiple",
+    "reverse": true,
+    "padding": [
+      60,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 60,
+        "width": 520
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 200,
+        "width": 520
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 340,
+        "width": 520
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 480,
+        "width": 520
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 600,
+    "web": true,
+    "feature": "none",
+    "reverse": false,
+    "padding": [
+      100,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 100,
+        "width": 520
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 240,
+        "width": 520
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 380,
+        "width": 520
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 600,
+    "web": true,
+    "feature": "none",
+    "reverse": true,
+    "padding": [
+      100,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 100,
+        "width": 520
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 240,
+        "width": 520
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 380,
+        "width": 520
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 600,
+    "web": true,
+    "feature": "single",
+    "reverse": false,
+    "padding": [
+      100,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 100,
+        "width": 520
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 240,
+        "width": 520
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 380,
+        "width": 520
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 520,
+        "width": 520
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 600,
+    "web": true,
+    "feature": "single",
+    "reverse": true,
+    "padding": [
+      100,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 100,
+        "width": 520
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 240,
+        "width": 520
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 380,
+        "width": 520
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 520,
+        "width": 520
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 600,
+    "web": true,
+    "feature": "multiple",
+    "reverse": false,
+    "padding": [
+      100,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 100,
+        "width": 520
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 240,
+        "width": 520
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 380,
+        "width": 520
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 520,
+        "width": 520
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 600,
+    "web": true,
+    "feature": "multiple",
+    "reverse": true,
+    "padding": [
+      100,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 100,
+        "width": 520
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 240,
+        "width": 520
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 380,
+        "width": 520
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 520,
+        "width": 520
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 1440,
+    "web": false,
+    "feature": "none",
+    "reverse": false,
+    "padding": [
+      60,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 60,
+        "width": 1360
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 200,
+        "width": 1360
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 340,
+        "width": 1360
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 1440,
+    "web": false,
+    "feature": "none",
+    "reverse": true,
+    "padding": [
+      60,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 60,
+        "width": 1360
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 200,
+        "width": 1360
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 340,
+        "width": 1360
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 1440,
+    "web": false,
+    "feature": "single",
+    "reverse": false,
+    "padding": [
+      60,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 60,
+        "width": 1360
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 200,
+        "width": 1360
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 340,
+        "width": 1360
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 480,
+        "width": 1360
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 1440,
+    "web": false,
+    "feature": "single",
+    "reverse": true,
+    "padding": [
+      60,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 60,
+        "width": 1360
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 200,
+        "width": 1360
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 340,
+        "width": 1360
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 480,
+        "width": 1360
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 1440,
+    "web": false,
+    "feature": "multiple",
+    "reverse": false,
+    "padding": [
+      60,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 60,
+        "width": 1360
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 200,
+        "width": 1360
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 340,
+        "width": 1360
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 480,
+        "width": 1360
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 1440,
+    "web": false,
+    "feature": "multiple",
+    "reverse": true,
+    "padding": [
+      60,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 60,
+        "width": 1360
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 200,
+        "width": 1360
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 340,
+        "width": 1360
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 480,
+        "width": 1360
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 1440,
+    "web": true,
+    "feature": "none",
+    "reverse": false,
+    "padding": [
+      100,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 100,
+        "width": 1360
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 240,
+        "width": 1360
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 380,
+        "width": 1360
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 1440,
+    "web": true,
+    "feature": "none",
+    "reverse": true,
+    "padding": [
+      100,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 100,
+        "width": 1360
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 240,
+        "width": 1360
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 380,
+        "width": 1360
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 1440,
+    "web": true,
+    "feature": "single",
+    "reverse": false,
+    "padding": [
+      100,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 100,
+        "width": 1360
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 240,
+        "width": 1360
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 380,
+        "width": 1360
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 520,
+        "width": 1360
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 1440,
+    "web": true,
+    "feature": "single",
+    "reverse": true,
+    "padding": [
+      100,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 100,
+        "width": 1360
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 240,
+        "width": 1360
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 380,
+        "width": 1360
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 520,
+        "width": 1360
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 1440,
+    "web": true,
+    "feature": "multiple",
+    "reverse": false,
+    "padding": [
+      100,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 100,
+        "width": 1360
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 240,
+        "width": 1360
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 380,
+        "width": 1360
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 520,
+        "width": 1360
+      }
+    ]
+  },
+  {
+    "font": 20,
+    "width": 1440,
+    "web": true,
+    "feature": "multiple",
+    "reverse": true,
+    "padding": [
+      100,
+      40,
+      0,
+      40
+    ],
+    "marginBottom": 100,
+    "gap": 40,
+    "children": [
+      {
+        "id": "feature",
+        "x": 40,
+        "y": 100,
+        "width": 1360
+      },
+      {
+        "id": "playlists",
+        "x": 40,
+        "y": 240,
+        "width": 1360
+      },
+      {
+        "id": "random",
+        "x": 40,
+        "y": 380,
+        "width": 1360
+      },
+      {
+        "id": "genres",
+        "x": 40,
+        "y": 520,
+        "width": 1360
+      }
+    ]
+  }
+]

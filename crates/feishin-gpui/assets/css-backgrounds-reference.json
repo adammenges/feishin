@@ -1,0 +1,140 @@
+{
+  "cases": [
+    {
+      "value": "linear-gradient(to right, red, green 30%, blue)",
+      "width": 64,
+      "height": 24,
+      "top": 0
+    },
+    {
+      "value": "linear-gradient(180deg, rgb(255 0 0 / .3) 0%, transparent 35%, rgb(0 0 255 / .8))",
+      "width": 64,
+      "height": 24,
+      "top": 24
+    },
+    {
+      "value": "linear-gradient(to top right, #fff, #123 60%, #f00)",
+      "width": 64,
+      "height": 24,
+      "top": 48
+    },
+    {
+      "value": "linear-gradient(.375turn, #012, #456 40%, #89a 40%, #def)",
+      "width": 64,
+      "height": 24,
+      "top": 72
+    },
+    {
+      "value": "linear-gradient(45deg, red -40%, lime, blue 130%)",
+      "width": 64,
+      "height": 24,
+      "top": 96
+    },
+    {
+      "value": "linear-gradient(to right, red 20% 40%, blue 60% 80%)",
+      "width": 64,
+      "height": 24,
+      "top": 120
+    },
+    {
+      "value": "linear-gradient(to right, red 75%, blue 25%, green)",
+      "width": 64,
+      "height": 24,
+      "top": 144
+    },
+    {
+      "value": "linear-gradient(to right, red 3px, lime 19px, blue 60px)",
+      "width": 64,
+      "height": 24,
+      "top": 168
+    },
+    {
+      "value": "linear-gradient(to bottom left, #00ff0080 4px, transparent 20%, #ff0000 18px, blue)",
+      "width": 64,
+      "height": 24,
+      "top": 192
+    },
+    {
+      "value": "linear-gradient(36deg, #a11 10px 30px, #18f 32px, white 110%)",
+      "width": 64,
+      "height": 24,
+      "top": 216
+    },
+    {
+      "value": "linear-gradient(to right, transparent, #00000080 40%, #123), var(--theme-background-noise)",
+      "width": 64,
+      "height": 24,
+      "top": 240
+    },
+    {
+      "value": "linear-gradient(to right, red, green 30%, blue)",
+      "width": 97,
+      "height": 37,
+      "top": 264
+    },
+    {
+      "value": "linear-gradient(180deg, rgb(255 0 0 / .3) 0%, transparent 35%, rgb(0 0 255 / .8))",
+      "width": 97,
+      "height": 37,
+      "top": 301
+    },
+    {
+      "value": "linear-gradient(to top right, #fff, #123 60%, #f00)",
+      "width": 97,
+      "height": 37,
+      "top": 338
+    },
+    {
+      "value": "linear-gradient(.375turn, #012, #456 40%, #89a 40%, #def)",
+      "width": 97,
+      "height": 37,
+      "top": 375
+    },
+    {
+      "value": "linear-gradient(45deg, red -40%, lime, blue 130%)",
+      "width": 97,
+      "height": 37,
+      "top": 412
+    },
+    {
+      "value": "linear-gradient(to right, red 20% 40%, blue 60% 80%)",
+      "width": 97,
+      "height": 37,
+      "top": 449
+    },
+    {
+      "value": "linear-gradient(to right, red 75%, blue 25%, green)",
+      "width": 97,
+      "height": 37,
+      "top": 486
+    },
+    {
+      "value": "linear-gradient(to right, red 3px, lime 19px, blue 60px)",
+      "width": 97,
+      "height": 37,
+      "top": 523
+    },
+    {
+      "value": "linear-gradient(to bottom left, #00ff0080 4px, transparent 20%, #ff0000 18px, blue)",
+      "width": 97,
+      "height": 37,
+      "top": 560
+    },
+    {
+      "value": "linear-gradient(36deg, #a11 10px 30px, #18f 32px, white 110%)",
+      "width": 97,
+      "height": 37,
+      "top": 597
+    },
+    {
+      "value": "linear-gradient(to right, transparent, #00000080 40%, #123), var(--theme-background-noise)",
+      "width": 97,
+      "height": 37,
+      "top": 634
+    }
+  ],
+  "scales": [
+    1,
+    2
+  ]
+}

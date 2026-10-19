@@ -1,0 +1,2524 @@
+[
+  {
+    "section": "table",
+    "language": "en",
+    "labels": [
+      "Actions",
+      "Album",
+      "Album Group",
+      "Albums",
+      "Album Artist",
+      "Artist",
+      "Biography",
+      "Bit depth",
+      "Bitrate",
+      "BPM",
+      "Channels",
+      "Codec",
+      "Composer",
+      "Date",
+      "Date Added",
+      "Disc Number",
+      "Duration",
+      "Favorite",
+      "Genre",
+      "Genre (badges)",
+      "Image",
+      "Last Played",
+      "Note",
+      "Owner",
+      "Path",
+      "Play Count",
+      "Rating",
+      "Release Date",
+      "Release Year",
+      "Row Index",
+      "Sample rate",
+      "Size",
+      "Tracks",
+      "Title",
+      "Title (artist)",
+      "Title (combined)",
+      "Track Number",
+      "Year",
+      "",
+      "A very distant title containing Gold",
+      "  spaced  title  ",
+      "世界の音楽",
+      "😀 ocean 🎵",
+      "İSTANBUL",
+      "ΟΣ ΣΙΓΜΑ",
+      "abcdefghijklmnopqrstuvwxyz0123456789 long release title"
+    ],
+    "searches": [
+      {
+        "query": "",
+        "matches": []
+      },
+      {
+        "query": " ",
+        "matches": []
+      },
+      {
+        "query": "\t\n",
+        "matches": []
+      },
+      {
+        "query": "title",
+        "matches": [
+          "33",
+          "34",
+          "35",
+          "39",
+          "40"
+        ]
+      },
+      {
+        "query": "ttle",
+        "matches": [
+          "33",
+          "34",
+          "35"
+        ]
+      },
+      {
+        "query": "goold",
+        "matches": []
+      },
+      {
+        "query": "Gold",
+        "matches": []
+      },
+      {
+        "query": "spaced title",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "  spaced  title  ",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "世界",
+        "matches": [
+          "41"
+        ]
+      },
+      {
+        "query": "😀 ocean 🎵",
+        "matches": [
+          "42"
+        ]
+      },
+      {
+        "query": "İstanbul",
+        "matches": [
+          "43"
+        ]
+      },
+      {
+        "query": "ΟΣ ΣΙΓΜΑ",
+        "matches": [
+          "44"
+        ]
+      },
+      {
+        "query": "unknown",
+        "matches": []
+      },
+      {
+        "query": "Actions",
+        "matches": [
+          "0"
+        ]
+      },
+      {
+        "query": "Album",
+        "matches": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "query": "Album Group",
+        "matches": [
+          "2"
+        ]
+      },
+      {
+        "query": "Albums",
+        "matches": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "query": "Album Artist",
+        "matches": [
+          "4"
+        ]
+      },
+      {
+        "query": "Artist",
+        "matches": [
+          "4",
+          "5",
+          "34"
+        ]
+      },
+      {
+        "query": "Biography",
+        "matches": [
+          "6"
+        ]
+      },
+      {
+        "query": "Bit depth",
+        "matches": [
+          "7"
+        ]
+      },
+      {
+        "query": "Bitrate",
+        "matches": [
+          "8"
+        ]
+      },
+      {
+        "query": "BPM",
+        "matches": [
+          "9"
+        ]
+      },
+      {
+        "query": "Channels",
+        "matches": [
+          "10"
+        ]
+      },
+      {
+        "query": "Codec",
+        "matches": [
+          "11"
+        ]
+      },
+      {
+        "query": "Composer",
+        "matches": [
+          "12"
+        ]
+      },
+      {
+        "query": "Date",
+        "matches": [
+          "8",
+          "13",
+          "14",
+          "27"
+        ]
+      },
+      {
+        "query": "Date Added",
+        "matches": [
+          "14"
+        ]
+      },
+      {
+        "query": "Disc Number",
+        "matches": [
+          "15"
+        ]
+      },
+      {
+        "query": "Duration",
+        "matches": [
+          "16"
+        ]
+      },
+      {
+        "query": "Favorite",
+        "matches": [
+          "17"
+        ]
+      },
+      {
+        "query": "Genre",
+        "matches": [
+          "18",
+          "19"
+        ]
+      },
+      {
+        "query": "Genre (badges)",
+        "matches": [
+          "19"
+        ]
+      },
+      {
+        "query": "Image",
+        "matches": [
+          "20"
+        ]
+      },
+      {
+        "query": "Last Played",
+        "matches": [
+          "21"
+        ]
+      },
+      {
+        "query": "Note",
+        "matches": [
+          "22"
+        ]
+      },
+      {
+        "query": "Owner",
+        "matches": [
+          "23"
+        ]
+      },
+      {
+        "query": "Path",
+        "matches": [
+          "24"
+        ]
+      },
+      {
+        "query": "Play Count",
+        "matches": [
+          "25"
+        ]
+      },
+      {
+        "query": "Rating",
+        "matches": [
+          "26"
+        ]
+      },
+      {
+        "query": "Release Date",
+        "matches": [
+          "27",
+          "28"
+        ]
+      },
+      {
+        "query": "Release Year",
+        "matches": [
+          "27",
+          "28"
+        ]
+      },
+      {
+        "query": "Row Index",
+        "matches": [
+          "29"
+        ]
+      },
+      {
+        "query": "Sample rate",
+        "matches": [
+          "30"
+        ]
+      },
+      {
+        "query": "Size",
+        "matches": [
+          "31"
+        ]
+      },
+      {
+        "query": "Tracks",
+        "matches": [
+          "32",
+          "36"
+        ]
+      },
+      {
+        "query": "Title",
+        "matches": [
+          "33",
+          "34",
+          "35",
+          "39",
+          "40"
+        ]
+      },
+      {
+        "query": "Title (artist)",
+        "matches": [
+          "34"
+        ]
+      },
+      {
+        "query": "Title (combined)",
+        "matches": [
+          "35"
+        ]
+      },
+      {
+        "query": "Track Number",
+        "matches": [
+          "36"
+        ]
+      },
+      {
+        "query": "Year",
+        "matches": [
+          "28",
+          "37"
+        ]
+      },
+      {
+        "query": "",
+        "matches": []
+      },
+      {
+        "query": "A very distant title containing Gold",
+        "matches": [
+          "39"
+        ]
+      },
+      {
+        "query": "  spaced  title  ",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "世界の音楽",
+        "matches": [
+          "41"
+        ]
+      },
+      {
+        "query": "😀 ocean 🎵",
+        "matches": [
+          "42"
+        ]
+      },
+      {
+        "query": "İSTANBUL",
+        "matches": [
+          "43"
+        ]
+      },
+      {
+        "query": "ΟΣ ΣΙΓΜΑ",
+        "matches": [
+          "44"
+        ]
+      },
+      {
+        "query": "abcdefghijklmnopqrstuvwxyz0123456789 long release title",
+        "matches": [
+          "45"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "table",
+    "language": "fr",
+    "labels": [
+      "Actions",
+      "Album",
+      "Groupe d'album",
+      "Albums",
+      "Artiste d'album",
+      "Artiste",
+      "Biographie",
+      "Format d'échantillonnage",
+      "Débit binaire",
+      "BPM",
+      "Canaux",
+      "Codec",
+      "Compositeur",
+      "Date",
+      "Date d'ajout",
+      "Disque n°",
+      "Durée",
+      "Favori",
+      "Genre",
+      "Genre (badges)",
+      "Image",
+      "Écouté récemment",
+      "Note",
+      "Propriétaire",
+      "Chemin",
+      "Nombre de lecture",
+      "Note",
+      "Date de sortie",
+      "Année de sortie",
+      "Index de ligne",
+      "Taux d'échantillonnage",
+      "Taille",
+      "Pistes",
+      "Titre",
+      "Titre (artiste)",
+      "Titre (combiné)",
+      "Numéro de piste",
+      "Année",
+      "",
+      "A very distant title containing Gold",
+      "  spaced  title  ",
+      "世界の音楽",
+      "😀 ocean 🎵",
+      "İSTANBUL",
+      "ΟΣ ΣΙΓΜΑ",
+      "abcdefghijklmnopqrstuvwxyz0123456789 long release title"
+    ],
+    "searches": [
+      {
+        "query": "",
+        "matches": []
+      },
+      {
+        "query": " ",
+        "matches": []
+      },
+      {
+        "query": "\t\n",
+        "matches": []
+      },
+      {
+        "query": "title",
+        "matches": [
+          "33",
+          "34",
+          "35",
+          "39",
+          "40"
+        ]
+      },
+      {
+        "query": "ttle",
+        "matches": []
+      },
+      {
+        "query": "goold",
+        "matches": []
+      },
+      {
+        "query": "Gold",
+        "matches": []
+      },
+      {
+        "query": "spaced title",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "  spaced  title  ",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "世界",
+        "matches": [
+          "41"
+        ]
+      },
+      {
+        "query": "😀 ocean 🎵",
+        "matches": [
+          "42"
+        ]
+      },
+      {
+        "query": "İstanbul",
+        "matches": [
+          "43"
+        ]
+      },
+      {
+        "query": "ΟΣ ΣΙΓΜΑ",
+        "matches": [
+          "44"
+        ]
+      },
+      {
+        "query": "unknown",
+        "matches": []
+      },
+      {
+        "query": "Actions",
+        "matches": [
+          "0"
+        ]
+      },
+      {
+        "query": "Album",
+        "matches": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "query": "Groupe d'album",
+        "matches": [
+          "2"
+        ]
+      },
+      {
+        "query": "Albums",
+        "matches": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "query": "Artiste d'album",
+        "matches": [
+          "4"
+        ]
+      },
+      {
+        "query": "Artiste",
+        "matches": [
+          "4",
+          "5",
+          "34"
+        ]
+      },
+      {
+        "query": "Biographie",
+        "matches": [
+          "6"
+        ]
+      },
+      {
+        "query": "Format d'échantillonnage",
+        "matches": [
+          "7",
+          "30"
+        ]
+      },
+      {
+        "query": "Débit binaire",
+        "matches": [
+          "8"
+        ]
+      },
+      {
+        "query": "BPM",
+        "matches": [
+          "9"
+        ]
+      },
+      {
+        "query": "Canaux",
+        "matches": [
+          "10"
+        ]
+      },
+      {
+        "query": "Codec",
+        "matches": [
+          "11"
+        ]
+      },
+      {
+        "query": "Compositeur",
+        "matches": [
+          "12"
+        ]
+      },
+      {
+        "query": "Date",
+        "matches": [
+          "13",
+          "14",
+          "27"
+        ]
+      },
+      {
+        "query": "Date d'ajout",
+        "matches": [
+          "14"
+        ]
+      },
+      {
+        "query": "Disque n°",
+        "matches": [
+          "15"
+        ]
+      },
+      {
+        "query": "Durée",
+        "matches": [
+          "16"
+        ]
+      },
+      {
+        "query": "Favori",
+        "matches": [
+          "17"
+        ]
+      },
+      {
+        "query": "Genre",
+        "matches": [
+          "18",
+          "19"
+        ]
+      },
+      {
+        "query": "Genre (badges)",
+        "matches": [
+          "19"
+        ]
+      },
+      {
+        "query": "Image",
+        "matches": [
+          "20"
+        ]
+      },
+      {
+        "query": "Écouté récemment",
+        "matches": [
+          "21"
+        ]
+      },
+      {
+        "query": "Note",
+        "matches": [
+          "22",
+          "26"
+        ]
+      },
+      {
+        "query": "Propriétaire",
+        "matches": [
+          "23"
+        ]
+      },
+      {
+        "query": "Chemin",
+        "matches": [
+          "24"
+        ]
+      },
+      {
+        "query": "Nombre de lecture",
+        "matches": [
+          "25"
+        ]
+      },
+      {
+        "query": "Note",
+        "matches": [
+          "22",
+          "26"
+        ]
+      },
+      {
+        "query": "Date de sortie",
+        "matches": [
+          "27",
+          "28"
+        ]
+      },
+      {
+        "query": "Année de sortie",
+        "matches": [
+          "27",
+          "28"
+        ]
+      },
+      {
+        "query": "Index de ligne",
+        "matches": [
+          "29"
+        ]
+      },
+      {
+        "query": "Taux d'échantillonnage",
+        "matches": [
+          "7",
+          "30"
+        ]
+      },
+      {
+        "query": "Taille",
+        "matches": [
+          "31"
+        ]
+      },
+      {
+        "query": "Pistes",
+        "matches": [
+          "32",
+          "36"
+        ]
+      },
+      {
+        "query": "Titre",
+        "matches": [
+          "33",
+          "34",
+          "35"
+        ]
+      },
+      {
+        "query": "Titre (artiste)",
+        "matches": [
+          "34"
+        ]
+      },
+      {
+        "query": "Titre (combiné)",
+        "matches": [
+          "35"
+        ]
+      },
+      {
+        "query": "Numéro de piste",
+        "matches": [
+          "36"
+        ]
+      },
+      {
+        "query": "Année",
+        "matches": [
+          "28",
+          "37"
+        ]
+      },
+      {
+        "query": "",
+        "matches": []
+      },
+      {
+        "query": "A very distant title containing Gold",
+        "matches": [
+          "39"
+        ]
+      },
+      {
+        "query": "  spaced  title  ",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "世界の音楽",
+        "matches": [
+          "41"
+        ]
+      },
+      {
+        "query": "😀 ocean 🎵",
+        "matches": [
+          "42"
+        ]
+      },
+      {
+        "query": "İSTANBUL",
+        "matches": [
+          "43"
+        ]
+      },
+      {
+        "query": "ΟΣ ΣΙΓΜΑ",
+        "matches": [
+          "44"
+        ]
+      },
+      {
+        "query": "abcdefghijklmnopqrstuvwxyz0123456789 long release title",
+        "matches": [
+          "45"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "table",
+    "language": "ar",
+    "labels": [
+      "عمليتين",
+      "الالبوم",
+      "Album Group",
+      "الالبومين",
+      "فنان الالبوم",
+      "فنان",
+      "السيرة",
+      "عمق البت",
+      "معدل البت (البت ريت)",
+      "نبضة في الدقيقة",
+      "قناتين",
+      "كوديك",
+      "Composer",
+      "Date",
+      "Date Added",
+      "Disc Number",
+      "مدة",
+      "مفضلة",
+      "نوع",
+      "نوع (badges)",
+      "Image",
+      "Last Played",
+      "ملاحظة",
+      "المالك",
+      "المسار",
+      "Play Count",
+      "التقييم",
+      "Release Date",
+      "Release Year",
+      "Row Index",
+      "معدل العينة (sample rate)",
+      "حجم",
+      "مقطعان",
+      "العنوان",
+      "العنوان (artist)",
+      "العنوان (combined)",
+      "Track Number",
+      "السنة",
+      "",
+      "A very distant title containing Gold",
+      "  spaced  title  ",
+      "世界の音楽",
+      "😀 ocean 🎵",
+      "İSTANBUL",
+      "ΟΣ ΣΙΓΜΑ",
+      "abcdefghijklmnopqrstuvwxyz0123456789 long release title"
+    ],
+    "searches": [
+      {
+        "query": "",
+        "matches": []
+      },
+      {
+        "query": " ",
+        "matches": []
+      },
+      {
+        "query": "\t\n",
+        "matches": []
+      },
+      {
+        "query": "title",
+        "matches": [
+          "39",
+          "40"
+        ]
+      },
+      {
+        "query": "ttle",
+        "matches": []
+      },
+      {
+        "query": "goold",
+        "matches": []
+      },
+      {
+        "query": "Gold",
+        "matches": []
+      },
+      {
+        "query": "spaced title",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "  spaced  title  ",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "世界",
+        "matches": [
+          "41"
+        ]
+      },
+      {
+        "query": "😀 ocean 🎵",
+        "matches": [
+          "42"
+        ]
+      },
+      {
+        "query": "İstanbul",
+        "matches": [
+          "43"
+        ]
+      },
+      {
+        "query": "ΟΣ ΣΙΓΜΑ",
+        "matches": [
+          "44"
+        ]
+      },
+      {
+        "query": "unknown",
+        "matches": []
+      },
+      {
+        "query": "عمليتين",
+        "matches": [
+          "0"
+        ]
+      },
+      {
+        "query": "الالبوم",
+        "matches": [
+          "1",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "query": "Album Group",
+        "matches": [
+          "2"
+        ]
+      },
+      {
+        "query": "الالبومين",
+        "matches": [
+          "1",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "query": "فنان الالبوم",
+        "matches": [
+          "4"
+        ]
+      },
+      {
+        "query": "فنان",
+        "matches": [
+          "4",
+          "5"
+        ]
+      },
+      {
+        "query": "السيرة",
+        "matches": [
+          "6"
+        ]
+      },
+      {
+        "query": "عمق البت",
+        "matches": [
+          "7",
+          "8"
+        ]
+      },
+      {
+        "query": "معدل البت (البت ريت)",
+        "matches": [
+          "8"
+        ]
+      },
+      {
+        "query": "نبضة في الدقيقة",
+        "matches": [
+          "9"
+        ]
+      },
+      {
+        "query": "قناتين",
+        "matches": [
+          "10"
+        ]
+      },
+      {
+        "query": "كوديك",
+        "matches": [
+          "11"
+        ]
+      },
+      {
+        "query": "Composer",
+        "matches": [
+          "12"
+        ]
+      },
+      {
+        "query": "Date",
+        "matches": [
+          "13",
+          "14",
+          "27"
+        ]
+      },
+      {
+        "query": "Date Added",
+        "matches": [
+          "14"
+        ]
+      },
+      {
+        "query": "Disc Number",
+        "matches": [
+          "15"
+        ]
+      },
+      {
+        "query": "مدة",
+        "matches": [
+          "16"
+        ]
+      },
+      {
+        "query": "مفضلة",
+        "matches": [
+          "17"
+        ]
+      },
+      {
+        "query": "نوع",
+        "matches": [
+          "18",
+          "19"
+        ]
+      },
+      {
+        "query": "نوع (badges)",
+        "matches": [
+          "19"
+        ]
+      },
+      {
+        "query": "Image",
+        "matches": [
+          "20"
+        ]
+      },
+      {
+        "query": "Last Played",
+        "matches": [
+          "21"
+        ]
+      },
+      {
+        "query": "ملاحظة",
+        "matches": [
+          "22"
+        ]
+      },
+      {
+        "query": "المالك",
+        "matches": [
+          "23"
+        ]
+      },
+      {
+        "query": "المسار",
+        "matches": [
+          "24"
+        ]
+      },
+      {
+        "query": "Play Count",
+        "matches": [
+          "25"
+        ]
+      },
+      {
+        "query": "التقييم",
+        "matches": [
+          "26"
+        ]
+      },
+      {
+        "query": "Release Date",
+        "matches": [
+          "27",
+          "28"
+        ]
+      },
+      {
+        "query": "Release Year",
+        "matches": [
+          "27",
+          "28"
+        ]
+      },
+      {
+        "query": "Row Index",
+        "matches": [
+          "29"
+        ]
+      },
+      {
+        "query": "معدل العينة (sample rate)",
+        "matches": [
+          "30"
+        ]
+      },
+      {
+        "query": "حجم",
+        "matches": [
+          "31"
+        ]
+      },
+      {
+        "query": "مقطعان",
+        "matches": [
+          "32"
+        ]
+      },
+      {
+        "query": "العنوان",
+        "matches": [
+          "33",
+          "34",
+          "35"
+        ]
+      },
+      {
+        "query": "العنوان (artist)",
+        "matches": [
+          "34"
+        ]
+      },
+      {
+        "query": "العنوان (combined)",
+        "matches": [
+          "35"
+        ]
+      },
+      {
+        "query": "Track Number",
+        "matches": [
+          "36"
+        ]
+      },
+      {
+        "query": "السنة",
+        "matches": [
+          "37"
+        ]
+      },
+      {
+        "query": "",
+        "matches": []
+      },
+      {
+        "query": "A very distant title containing Gold",
+        "matches": [
+          "39"
+        ]
+      },
+      {
+        "query": "  spaced  title  ",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "世界の音楽",
+        "matches": [
+          "41"
+        ]
+      },
+      {
+        "query": "😀 ocean 🎵",
+        "matches": [
+          "42"
+        ]
+      },
+      {
+        "query": "İSTANBUL",
+        "matches": [
+          "43"
+        ]
+      },
+      {
+        "query": "ΟΣ ΣΙΓΜΑ",
+        "matches": [
+          "44"
+        ]
+      },
+      {
+        "query": "abcdefghijklmnopqrstuvwxyz0123456789 long release title",
+        "matches": [
+          "45"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "grid",
+    "language": "en",
+    "labels": [
+      "Actions",
+      "Album",
+      "Album Group",
+      "Albums",
+      "Album Artist",
+      "Artist",
+      "Biography",
+      "Bit depth",
+      "Bitrate",
+      "BPM",
+      "Channels",
+      "Codec",
+      "Composer",
+      "Date",
+      "Date Added",
+      "Disc Number",
+      "Duration",
+      "Favorite",
+      "Genre",
+      "Genre (badges)",
+      "Image",
+      "Last Played",
+      "Note",
+      "Owner",
+      "Path",
+      "Play Count",
+      "Rating",
+      "Release Date",
+      "Release Year",
+      "Row Index",
+      "Sample rate",
+      "Size",
+      "Tracks",
+      "Title",
+      "Title (artist)",
+      "Title (combined)",
+      "Track Number",
+      "Year",
+      "",
+      "A very distant title containing Gold",
+      "  spaced  title  ",
+      "世界の音楽",
+      "😀 ocean 🎵",
+      "İSTANBUL",
+      "ΟΣ ΣΙΓΜΑ",
+      "abcdefghijklmnopqrstuvwxyz0123456789 long release title"
+    ],
+    "searches": [
+      {
+        "query": "",
+        "matches": []
+      },
+      {
+        "query": " ",
+        "matches": []
+      },
+      {
+        "query": "\t\n",
+        "matches": []
+      },
+      {
+        "query": "title",
+        "matches": [
+          "33",
+          "34",
+          "35",
+          "39",
+          "40"
+        ]
+      },
+      {
+        "query": "ttle",
+        "matches": [
+          "33",
+          "34",
+          "35"
+        ]
+      },
+      {
+        "query": "goold",
+        "matches": []
+      },
+      {
+        "query": "Gold",
+        "matches": []
+      },
+      {
+        "query": "spaced title",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "  spaced  title  ",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "世界",
+        "matches": [
+          "41"
+        ]
+      },
+      {
+        "query": "😀 ocean 🎵",
+        "matches": [
+          "42"
+        ]
+      },
+      {
+        "query": "İstanbul",
+        "matches": [
+          "43"
+        ]
+      },
+      {
+        "query": "ΟΣ ΣΙΓΜΑ",
+        "matches": [
+          "44"
+        ]
+      },
+      {
+        "query": "unknown",
+        "matches": []
+      },
+      {
+        "query": "Actions",
+        "matches": [
+          "0"
+        ]
+      },
+      {
+        "query": "Album",
+        "matches": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "query": "Album Group",
+        "matches": [
+          "2"
+        ]
+      },
+      {
+        "query": "Albums",
+        "matches": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "query": "Album Artist",
+        "matches": [
+          "4"
+        ]
+      },
+      {
+        "query": "Artist",
+        "matches": [
+          "4",
+          "5",
+          "34"
+        ]
+      },
+      {
+        "query": "Biography",
+        "matches": [
+          "6"
+        ]
+      },
+      {
+        "query": "Bit depth",
+        "matches": [
+          "7"
+        ]
+      },
+      {
+        "query": "Bitrate",
+        "matches": [
+          "8"
+        ]
+      },
+      {
+        "query": "BPM",
+        "matches": [
+          "9"
+        ]
+      },
+      {
+        "query": "Channels",
+        "matches": [
+          "10"
+        ]
+      },
+      {
+        "query": "Codec",
+        "matches": [
+          "11"
+        ]
+      },
+      {
+        "query": "Composer",
+        "matches": [
+          "12"
+        ]
+      },
+      {
+        "query": "Date",
+        "matches": [
+          "8",
+          "13",
+          "14",
+          "27"
+        ]
+      },
+      {
+        "query": "Date Added",
+        "matches": [
+          "14"
+        ]
+      },
+      {
+        "query": "Disc Number",
+        "matches": [
+          "15"
+        ]
+      },
+      {
+        "query": "Duration",
+        "matches": [
+          "16"
+        ]
+      },
+      {
+        "query": "Favorite",
+        "matches": [
+          "17"
+        ]
+      },
+      {
+        "query": "Genre",
+        "matches": [
+          "18",
+          "19"
+        ]
+      },
+      {
+        "query": "Genre (badges)",
+        "matches": [
+          "19"
+        ]
+      },
+      {
+        "query": "Image",
+        "matches": [
+          "20"
+        ]
+      },
+      {
+        "query": "Last Played",
+        "matches": [
+          "21"
+        ]
+      },
+      {
+        "query": "Note",
+        "matches": [
+          "22"
+        ]
+      },
+      {
+        "query": "Owner",
+        "matches": [
+          "23"
+        ]
+      },
+      {
+        "query": "Path",
+        "matches": [
+          "24"
+        ]
+      },
+      {
+        "query": "Play Count",
+        "matches": [
+          "25"
+        ]
+      },
+      {
+        "query": "Rating",
+        "matches": [
+          "26"
+        ]
+      },
+      {
+        "query": "Release Date",
+        "matches": [
+          "27",
+          "28"
+        ]
+      },
+      {
+        "query": "Release Year",
+        "matches": [
+          "27",
+          "28"
+        ]
+      },
+      {
+        "query": "Row Index",
+        "matches": [
+          "29"
+        ]
+      },
+      {
+        "query": "Sample rate",
+        "matches": [
+          "30"
+        ]
+      },
+      {
+        "query": "Size",
+        "matches": [
+          "31"
+        ]
+      },
+      {
+        "query": "Tracks",
+        "matches": [
+          "32",
+          "36"
+        ]
+      },
+      {
+        "query": "Title",
+        "matches": [
+          "33",
+          "34",
+          "35",
+          "39",
+          "40"
+        ]
+      },
+      {
+        "query": "Title (artist)",
+        "matches": [
+          "34"
+        ]
+      },
+      {
+        "query": "Title (combined)",
+        "matches": [
+          "35"
+        ]
+      },
+      {
+        "query": "Track Number",
+        "matches": [
+          "36"
+        ]
+      },
+      {
+        "query": "Year",
+        "matches": [
+          "28",
+          "37"
+        ]
+      },
+      {
+        "query": "",
+        "matches": []
+      },
+      {
+        "query": "A very distant title containing Gold",
+        "matches": [
+          "39"
+        ]
+      },
+      {
+        "query": "  spaced  title  ",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "世界の音楽",
+        "matches": [
+          "41"
+        ]
+      },
+      {
+        "query": "😀 ocean 🎵",
+        "matches": [
+          "42"
+        ]
+      },
+      {
+        "query": "İSTANBUL",
+        "matches": [
+          "43"
+        ]
+      },
+      {
+        "query": "ΟΣ ΣΙΓΜΑ",
+        "matches": [
+          "44"
+        ]
+      },
+      {
+        "query": "abcdefghijklmnopqrstuvwxyz0123456789 long release title",
+        "matches": [
+          "45"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "grid",
+    "language": "fr",
+    "labels": [
+      "Actions",
+      "Album",
+      "Groupe d'album",
+      "Albums",
+      "Artiste d'album",
+      "Artiste",
+      "Biographie",
+      "Format d'échantillonnage",
+      "Débit binaire",
+      "BPM",
+      "Canaux",
+      "Codec",
+      "Compositeur",
+      "Date",
+      "Date d'ajout",
+      "Disque n°",
+      "Durée",
+      "Favori",
+      "Genre",
+      "Genre (badges)",
+      "Image",
+      "Écouté récemment",
+      "Note",
+      "Propriétaire",
+      "Chemin",
+      "Nombre de lecture",
+      "Note",
+      "Date de sortie",
+      "Année de sortie",
+      "Index de ligne",
+      "Taux d'échantillonnage",
+      "Taille",
+      "Pistes",
+      "Titre",
+      "Titre (artiste)",
+      "Titre (combiné)",
+      "Numéro de piste",
+      "Année",
+      "",
+      "A very distant title containing Gold",
+      "  spaced  title  ",
+      "世界の音楽",
+      "😀 ocean 🎵",
+      "İSTANBUL",
+      "ΟΣ ΣΙΓΜΑ",
+      "abcdefghijklmnopqrstuvwxyz0123456789 long release title"
+    ],
+    "searches": [
+      {
+        "query": "",
+        "matches": []
+      },
+      {
+        "query": " ",
+        "matches": []
+      },
+      {
+        "query": "\t\n",
+        "matches": []
+      },
+      {
+        "query": "title",
+        "matches": [
+          "33",
+          "34",
+          "35",
+          "39",
+          "40"
+        ]
+      },
+      {
+        "query": "ttle",
+        "matches": []
+      },
+      {
+        "query": "goold",
+        "matches": []
+      },
+      {
+        "query": "Gold",
+        "matches": []
+      },
+      {
+        "query": "spaced title",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "  spaced  title  ",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "世界",
+        "matches": [
+          "41"
+        ]
+      },
+      {
+        "query": "😀 ocean 🎵",
+        "matches": [
+          "42"
+        ]
+      },
+      {
+        "query": "İstanbul",
+        "matches": [
+          "43"
+        ]
+      },
+      {
+        "query": "ΟΣ ΣΙΓΜΑ",
+        "matches": [
+          "44"
+        ]
+      },
+      {
+        "query": "unknown",
+        "matches": []
+      },
+      {
+        "query": "Actions",
+        "matches": [
+          "0"
+        ]
+      },
+      {
+        "query": "Album",
+        "matches": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "query": "Groupe d'album",
+        "matches": [
+          "2"
+        ]
+      },
+      {
+        "query": "Albums",
+        "matches": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "query": "Artiste d'album",
+        "matches": [
+          "4"
+        ]
+      },
+      {
+        "query": "Artiste",
+        "matches": [
+          "4",
+          "5",
+          "34"
+        ]
+      },
+      {
+        "query": "Biographie",
+        "matches": [
+          "6"
+        ]
+      },
+      {
+        "query": "Format d'échantillonnage",
+        "matches": [
+          "7",
+          "30"
+        ]
+      },
+      {
+        "query": "Débit binaire",
+        "matches": [
+          "8"
+        ]
+      },
+      {
+        "query": "BPM",
+        "matches": [
+          "9"
+        ]
+      },
+      {
+        "query": "Canaux",
+        "matches": [
+          "10"
+        ]
+      },
+      {
+        "query": "Codec",
+        "matches": [
+          "11"
+        ]
+      },
+      {
+        "query": "Compositeur",
+        "matches": [
+          "12"
+        ]
+      },
+      {
+        "query": "Date",
+        "matches": [
+          "13",
+          "14",
+          "27"
+        ]
+      },
+      {
+        "query": "Date d'ajout",
+        "matches": [
+          "14"
+        ]
+      },
+      {
+        "query": "Disque n°",
+        "matches": [
+          "15"
+        ]
+      },
+      {
+        "query": "Durée",
+        "matches": [
+          "16"
+        ]
+      },
+      {
+        "query": "Favori",
+        "matches": [
+          "17"
+        ]
+      },
+      {
+        "query": "Genre",
+        "matches": [
+          "18",
+          "19"
+        ]
+      },
+      {
+        "query": "Genre (badges)",
+        "matches": [
+          "19"
+        ]
+      },
+      {
+        "query": "Image",
+        "matches": [
+          "20"
+        ]
+      },
+      {
+        "query": "Écouté récemment",
+        "matches": [
+          "21"
+        ]
+      },
+      {
+        "query": "Note",
+        "matches": [
+          "22",
+          "26"
+        ]
+      },
+      {
+        "query": "Propriétaire",
+        "matches": [
+          "23"
+        ]
+      },
+      {
+        "query": "Chemin",
+        "matches": [
+          "24"
+        ]
+      },
+      {
+        "query": "Nombre de lecture",
+        "matches": [
+          "25"
+        ]
+      },
+      {
+        "query": "Note",
+        "matches": [
+          "22",
+          "26"
+        ]
+      },
+      {
+        "query": "Date de sortie",
+        "matches": [
+          "27",
+          "28"
+        ]
+      },
+      {
+        "query": "Année de sortie",
+        "matches": [
+          "27",
+          "28"
+        ]
+      },
+      {
+        "query": "Index de ligne",
+        "matches": [
+          "29"
+        ]
+      },
+      {
+        "query": "Taux d'échantillonnage",
+        "matches": [
+          "7",
+          "30"
+        ]
+      },
+      {
+        "query": "Taille",
+        "matches": [
+          "31"
+        ]
+      },
+      {
+        "query": "Pistes",
+        "matches": [
+          "32",
+          "36"
+        ]
+      },
+      {
+        "query": "Titre",
+        "matches": [
+          "33",
+          "34",
+          "35"
+        ]
+      },
+      {
+        "query": "Titre (artiste)",
+        "matches": [
+          "34"
+        ]
+      },
+      {
+        "query": "Titre (combiné)",
+        "matches": [
+          "35"
+        ]
+      },
+      {
+        "query": "Numéro de piste",
+        "matches": [
+          "36"
+        ]
+      },
+      {
+        "query": "Année",
+        "matches": [
+          "28",
+          "37"
+        ]
+      },
+      {
+        "query": "",
+        "matches": []
+      },
+      {
+        "query": "A very distant title containing Gold",
+        "matches": [
+          "39"
+        ]
+      },
+      {
+        "query": "  spaced  title  ",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "世界の音楽",
+        "matches": [
+          "41"
+        ]
+      },
+      {
+        "query": "😀 ocean 🎵",
+        "matches": [
+          "42"
+        ]
+      },
+      {
+        "query": "İSTANBUL",
+        "matches": [
+          "43"
+        ]
+      },
+      {
+        "query": "ΟΣ ΣΙΓΜΑ",
+        "matches": [
+          "44"
+        ]
+      },
+      {
+        "query": "abcdefghijklmnopqrstuvwxyz0123456789 long release title",
+        "matches": [
+          "45"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "grid",
+    "language": "ar",
+    "labels": [
+      "عمليتين",
+      "الالبوم",
+      "Album Group",
+      "الالبومين",
+      "فنان الالبوم",
+      "فنان",
+      "السيرة",
+      "عمق البت",
+      "معدل البت (البت ريت)",
+      "نبضة في الدقيقة",
+      "قناتين",
+      "كوديك",
+      "Composer",
+      "Date",
+      "Date Added",
+      "Disc Number",
+      "مدة",
+      "مفضلة",
+      "نوع",
+      "نوع (badges)",
+      "Image",
+      "Last Played",
+      "ملاحظة",
+      "المالك",
+      "المسار",
+      "Play Count",
+      "التقييم",
+      "Release Date",
+      "Release Year",
+      "Row Index",
+      "معدل العينة (sample rate)",
+      "حجم",
+      "مقطعان",
+      "العنوان",
+      "العنوان (artist)",
+      "العنوان (combined)",
+      "Track Number",
+      "السنة",
+      "",
+      "A very distant title containing Gold",
+      "  spaced  title  ",
+      "世界の音楽",
+      "😀 ocean 🎵",
+      "İSTANBUL",
+      "ΟΣ ΣΙΓΜΑ",
+      "abcdefghijklmnopqrstuvwxyz0123456789 long release title"
+    ],
+    "searches": [
+      {
+        "query": "",
+        "matches": []
+      },
+      {
+        "query": " ",
+        "matches": []
+      },
+      {
+        "query": "\t\n",
+        "matches": []
+      },
+      {
+        "query": "title",
+        "matches": [
+          "39",
+          "40"
+        ]
+      },
+      {
+        "query": "ttle",
+        "matches": []
+      },
+      {
+        "query": "goold",
+        "matches": []
+      },
+      {
+        "query": "Gold",
+        "matches": []
+      },
+      {
+        "query": "spaced title",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "  spaced  title  ",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "世界",
+        "matches": [
+          "41"
+        ]
+      },
+      {
+        "query": "😀 ocean 🎵",
+        "matches": [
+          "42"
+        ]
+      },
+      {
+        "query": "İstanbul",
+        "matches": [
+          "43"
+        ]
+      },
+      {
+        "query": "ΟΣ ΣΙΓΜΑ",
+        "matches": [
+          "44"
+        ]
+      },
+      {
+        "query": "unknown",
+        "matches": []
+      },
+      {
+        "query": "عمليتين",
+        "matches": [
+          "0"
+        ]
+      },
+      {
+        "query": "الالبوم",
+        "matches": [
+          "1",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "query": "Album Group",
+        "matches": [
+          "2"
+        ]
+      },
+      {
+        "query": "الالبومين",
+        "matches": [
+          "1",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "query": "فنان الالبوم",
+        "matches": [
+          "4"
+        ]
+      },
+      {
+        "query": "فنان",
+        "matches": [
+          "4",
+          "5"
+        ]
+      },
+      {
+        "query": "السيرة",
+        "matches": [
+          "6"
+        ]
+      },
+      {
+        "query": "عمق البت",
+        "matches": [
+          "7",
+          "8"
+        ]
+      },
+      {
+        "query": "معدل البت (البت ريت)",
+        "matches": [
+          "8"
+        ]
+      },
+      {
+        "query": "نبضة في الدقيقة",
+        "matches": [
+          "9"
+        ]
+      },
+      {
+        "query": "قناتين",
+        "matches": [
+          "10"
+        ]
+      },
+      {
+        "query": "كوديك",
+        "matches": [
+          "11"
+        ]
+      },
+      {
+        "query": "Composer",
+        "matches": [
+          "12"
+        ]
+      },
+      {
+        "query": "Date",
+        "matches": [
+          "13",
+          "14",
+          "27"
+        ]
+      },
+      {
+        "query": "Date Added",
+        "matches": [
+          "14"
+        ]
+      },
+      {
+        "query": "Disc Number",
+        "matches": [
+          "15"
+        ]
+      },
+      {
+        "query": "مدة",
+        "matches": [
+          "16"
+        ]
+      },
+      {
+        "query": "مفضلة",
+        "matches": [
+          "17"
+        ]
+      },
+      {
+        "query": "نوع",
+        "matches": [
+          "18",
+          "19"
+        ]
+      },
+      {
+        "query": "نوع (badges)",
+        "matches": [
+          "19"
+        ]
+      },
+      {
+        "query": "Image",
+        "matches": [
+          "20"
+        ]
+      },
+      {
+        "query": "Last Played",
+        "matches": [
+          "21"
+        ]
+      },
+      {
+        "query": "ملاحظة",
+        "matches": [
+          "22"
+        ]
+      },
+      {
+        "query": "المالك",
+        "matches": [
+          "23"
+        ]
+      },
+      {
+        "query": "المسار",
+        "matches": [
+          "24"
+        ]
+      },
+      {
+        "query": "Play Count",
+        "matches": [
+          "25"
+        ]
+      },
+      {
+        "query": "التقييم",
+        "matches": [
+          "26"
+        ]
+      },
+      {
+        "query": "Release Date",
+        "matches": [
+          "27",
+          "28"
+        ]
+      },
+      {
+        "query": "Release Year",
+        "matches": [
+          "27",
+          "28"
+        ]
+      },
+      {
+        "query": "Row Index",
+        "matches": [
+          "29"
+        ]
+      },
+      {
+        "query": "معدل العينة (sample rate)",
+        "matches": [
+          "30"
+        ]
+      },
+      {
+        "query": "حجم",
+        "matches": [
+          "31"
+        ]
+      },
+      {
+        "query": "مقطعان",
+        "matches": [
+          "32"
+        ]
+      },
+      {
+        "query": "العنوان",
+        "matches": [
+          "33",
+          "34",
+          "35"
+        ]
+      },
+      {
+        "query": "العنوان (artist)",
+        "matches": [
+          "34"
+        ]
+      },
+      {
+        "query": "العنوان (combined)",
+        "matches": [
+          "35"
+        ]
+      },
+      {
+        "query": "Track Number",
+        "matches": [
+          "36"
+        ]
+      },
+      {
+        "query": "السنة",
+        "matches": [
+          "37"
+        ]
+      },
+      {
+        "query": "",
+        "matches": []
+      },
+      {
+        "query": "A very distant title containing Gold",
+        "matches": [
+          "39"
+        ]
+      },
+      {
+        "query": "  spaced  title  ",
+        "matches": [
+          "40"
+        ]
+      },
+      {
+        "query": "世界の音楽",
+        "matches": [
+          "41"
+        ]
+      },
+      {
+        "query": "😀 ocean 🎵",
+        "matches": [
+          "42"
+        ]
+      },
+      {
+        "query": "İSTANBUL",
+        "matches": [
+          "43"
+        ]
+      },
+      {
+        "query": "ΟΣ ΣΙΓΜΑ",
+        "matches": [
+          "44"
+        ]
+      },
+      {
+        "query": "abcdefghijklmnopqrstuvwxyz0123456789 long release title",
+        "matches": [
+          "45"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[package]
+name = "feishin-gpui"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+png = "=0.18.1"
+base64 = "0.22"
+feishin-core = { path = "../feishin-core" }
+anyhow.workspace = true
+serde_json.workspace = true
+serde.workspace = true
+global-hotkey = "0.8"
+gpui = { version = "=0.2.2", features = ["inspector"] }
+gpui-component = { version = "=0.5.1", features = ["inspector"] }
+gpui-component-assets = "=0.5.1"
+smol = "2"
+log = "0.4"
+notify-rust = "=4.18.1"
+env_logger = "0.11"
+url = "2"
+uuid = { version = "1", features = ["v4"] }
+souvlaki = { version = "0.8.3", default-features = false, features = ["use_zbus"] }
+raw-window-handle = "0.6"
+rand = "0.8"
+chrono = "0.4"
+projectm-sys = { version = "=1.2.2", default-features = false, features = ["static"] }
+surfman = "=0.14.0"
+glow = "0.17"
+euclid = "0.22"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "webp", "gif"] }
+mime_guess = "2"
+tray-icon = { version = "=0.26.1", default-features = false, features = ["ksni"] }
+
+[target.'cfg(target_os = "linux")'.dependencies]
+x11rb = "0.13"
+
+[target.'cfg(target_os = "windows")'.dependencies]
+windows = { version = "0.61", features = ["Win32_UI_WindowsAndMessaging", "Win32_UI_Shell", "Win32_System_Com"] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+objc2 = "0.6"
+objc2-app-kit = { version = "0.3", default-features = false, features = ["NSView", "NSWindow", "NSResponder", "NSApplication", "NSMenu", "NSMenuItem", "NSCell"] }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["sync"] }
+accesskit_consumer = "0.38"
+keyring = "3"
+resvg = { version = "0.45", default-features = false }
+gpui = { version = "=0.2.2", features = ["test-support"] }
+
+[[bin]]
+name = "feishin"
+path = "src/main.rs"

@@ -1,0 +1,424 @@
+{
+  "states": [
+    {
+      "smart": false,
+      "dragging": false,
+      "addDrag": false,
+      "over": false,
+      "opacity": 1,
+      "highlight": false
+    },
+    {
+      "smart": false,
+      "dragging": false,
+      "addDrag": false,
+      "over": true,
+      "opacity": 1,
+      "highlight": true
+    },
+    {
+      "smart": false,
+      "dragging": false,
+      "addDrag": true,
+      "over": false,
+      "opacity": 1,
+      "highlight": false
+    },
+    {
+      "smart": false,
+      "dragging": false,
+      "addDrag": true,
+      "over": true,
+      "opacity": 1,
+      "highlight": true
+    },
+    {
+      "smart": false,
+      "dragging": true,
+      "addDrag": false,
+      "over": false,
+      "opacity": 0.5,
+      "highlight": false
+    },
+    {
+      "smart": false,
+      "dragging": true,
+      "addDrag": false,
+      "over": true,
+      "opacity": 0.5,
+      "highlight": true
+    },
+    {
+      "smart": false,
+      "dragging": true,
+      "addDrag": true,
+      "over": false,
+      "opacity": 0.5,
+      "highlight": false
+    },
+    {
+      "smart": false,
+      "dragging": true,
+      "addDrag": true,
+      "over": true,
+      "opacity": 0.5,
+      "highlight": true
+    },
+    {
+      "smart": true,
+      "dragging": false,
+      "addDrag": false,
+      "over": false,
+      "opacity": 1,
+      "highlight": false
+    },
+    {
+      "smart": true,
+      "dragging": false,
+      "addDrag": false,
+      "over": true,
+      "opacity": 1,
+      "highlight": false
+    },
+    {
+      "smart": true,
+      "dragging": false,
+      "addDrag": true,
+      "over": false,
+      "opacity": 0.5,
+      "highlight": false
+    },
+    {
+      "smart": true,
+      "dragging": false,
+      "addDrag": true,
+      "over": true,
+      "opacity": 0.5,
+      "highlight": false
+    },
+    {
+      "smart": true,
+      "dragging": true,
+      "addDrag": false,
+      "over": false,
+      "opacity": 0.5,
+      "highlight": false
+    },
+    {
+      "smart": true,
+      "dragging": true,
+      "addDrag": false,
+      "over": true,
+      "opacity": 0.5,
+      "highlight": false
+    },
+    {
+      "smart": true,
+      "dragging": true,
+      "addDrag": true,
+      "over": false,
+      "opacity": 0.5,
+      "highlight": false
+    },
+    {
+      "smart": true,
+      "dragging": true,
+      "addDrag": true,
+      "over": true,
+      "opacity": 0.5,
+      "highlight": false
+    }
+  ],
+  "opacity": [
+    {
+      "reverseAt": null,
+      "frames": [
+        {
+          "milliseconds": 0,
+          "value": 1
+        },
+        {
+          "milliseconds": 50,
+          "value": 0.86983
+        },
+        {
+          "milliseconds": 100,
+          "value": 0.755826
+        },
+        {
+          "milliseconds": 150,
+          "value": 0.657678
+        },
+        {
+          "milliseconds": 200,
+          "value": 0.578082
+        },
+        {
+          "milliseconds": 299,
+          "value": 0.50001
+        },
+        {
+          "milliseconds": 300,
+          "value": 0.5
+        },
+        {
+          "milliseconds": 350,
+          "value": 0.5
+        },
+        {
+          "milliseconds": 400,
+          "value": 0.5
+        },
+        {
+          "milliseconds": 450,
+          "value": 0.5
+        },
+        {
+          "milliseconds": 500,
+          "value": 0.5
+        },
+        {
+          "milliseconds": 600,
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "reverseAt": 100,
+      "frames": [
+        {
+          "milliseconds": 0,
+          "value": 1
+        },
+        {
+          "milliseconds": 50,
+          "value": 0.86983
+        },
+        {
+          "milliseconds": 100,
+          "value": 0.755676
+        },
+        {
+          "milliseconds": 150,
+          "value": 0.819283
+        },
+        {
+          "milliseconds": 200,
+          "value": 0.874991
+        },
+        {
+          "milliseconds": 299,
+          "value": 0.96117
+        },
+        {
+          "milliseconds": 300,
+          "value": 0.961845
+        },
+        {
+          "milliseconds": 350,
+          "value": 0.989128
+        },
+        {
+          "milliseconds": 400,
+          "value": 1
+        },
+        {
+          "milliseconds": 450,
+          "value": 1
+        },
+        {
+          "milliseconds": 500,
+          "value": 1
+        },
+        {
+          "milliseconds": 600,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "reverseAt": 200,
+      "frames": [
+        {
+          "milliseconds": 0,
+          "value": 1
+        },
+        {
+          "milliseconds": 50,
+          "value": 0.86983
+        },
+        {
+          "milliseconds": 100,
+          "value": 0.755826
+        },
+        {
+          "milliseconds": 150,
+          "value": 0.657678
+        },
+        {
+          "milliseconds": 200,
+          "value": 0.577988
+        },
+        {
+          "milliseconds": 299,
+          "value": 0.782279
+        },
+        {
+          "milliseconds": 300,
+          "value": 0.784077
+        },
+        {
+          "milliseconds": 350,
+          "value": 0.866916
+        },
+        {
+          "milliseconds": 400,
+          "value": 0.934097
+        },
+        {
+          "milliseconds": 450,
+          "value": 0.981221
+        },
+        {
+          "milliseconds": 500,
+          "value": 1
+        },
+        {
+          "milliseconds": 600,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "reverseAt": 300,
+      "frames": [
+        {
+          "milliseconds": 0,
+          "value": 1
+        },
+        {
+          "milliseconds": 50,
+          "value": 0.86983
+        },
+        {
+          "milliseconds": 100,
+          "value": 0.755826
+        },
+        {
+          "milliseconds": 150,
+          "value": 0.657678
+        },
+        {
+          "milliseconds": 200,
+          "value": 0.578082
+        },
+        {
+          "milliseconds": 299,
+          "value": 0.50001
+        },
+        {
+          "milliseconds": 300,
+          "value": 0.5
+        },
+        {
+          "milliseconds": 350,
+          "value": 0.63017
+        },
+        {
+          "milliseconds": 400,
+          "value": 0.744174
+        },
+        {
+          "milliseconds": 450,
+          "value": 0.842322
+        },
+        {
+          "milliseconds": 500,
+          "value": 0.921918
+        },
+        {
+          "milliseconds": 600,
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "scale": [
+    {
+      "name": "hover",
+      "duration": 200,
+      "frames": [
+        {
+          "milliseconds": 0,
+          "value": 1
+        },
+        {
+          "milliseconds": 20,
+          "value": 1.00758
+        },
+        {
+          "milliseconds": 50,
+          "value": 1.03268
+        },
+        {
+          "milliseconds": 100,
+          "value": 1.06419
+        },
+        {
+          "milliseconds": 150,
+          "value": 1.07684
+        },
+        {
+          "milliseconds": 199,
+          "value": 1.08
+        },
+        {
+          "milliseconds": 200,
+          "value": 1.08
+        },
+        {
+          "milliseconds": 250,
+          "value": 1.08
+        }
+      ]
+    },
+    {
+      "name": "leave",
+      "duration": 200,
+      "frames": [
+        {
+          "milliseconds": 0,
+          "value": 1.08
+        },
+        {
+          "milliseconds": 20,
+          "value": 1.07242
+        },
+        {
+          "milliseconds": 50,
+          "value": 1.04732
+        },
+        {
+          "milliseconds": 100,
+          "value": 1.01581
+        },
+        {
+          "milliseconds": 150,
+          "value": 1.00316
+        },
+        {
+          "milliseconds": 199,
+          "value": 1
+        },
+        {
+          "milliseconds": 200,
+          "value": 1
+        },
+        {
+          "milliseconds": 250,
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

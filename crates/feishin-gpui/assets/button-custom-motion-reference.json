@@ -1,0 +1,5798 @@
+[
+  {
+    "declarations": "transition:none",
+    "phase": "hover",
+    "timing": {
+      "property": "none",
+      "duration": "0s",
+      "delay": "0s",
+      "easing": "ease"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:none",
+    "phase": "leave",
+    "timing": {
+      "property": "none",
+      "duration": "0s",
+      "delay": "0s",
+      "easing": "ease"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all 400ms linear",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(21, 50, 79)",
+        "color": "rgb(233, 234, 236)",
+        "border": "rgb(52, 80, 112)",
+        "opacity": 0.985
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(32, 54, 78)",
+        "color": "rgb(224, 226, 232)",
+        "border": "rgb(60, 79, 113)",
+        "opacity": 0.955
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(42, 58, 76)",
+        "color": "rgb(214, 218, 228)",
+        "border": "rgb(68, 78, 114)",
+        "opacity": 0.925
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(58, 64, 74)",
+        "color": "rgb(200, 206, 222)",
+        "border": "rgb(80, 77, 115)",
+        "opacity": 0.88
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(67, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8515
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(69, 68, 72)",
+        "color": "rgb(190, 198, 218)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8485
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(93, 78, 68)",
+        "color": "rgb(167, 179, 209)",
+        "border": "rgb(108, 74, 118)",
+        "opacity": 0.7765
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(95, 78, 68)",
+        "color": "rgb(166, 178, 209)",
+        "border": "rgb(108, 74, 118)",
+        "opacity": 0.7735
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(119, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7015
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(121, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.6985
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(171, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5515
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(173, 108, 56)",
+        "color": "rgb(95, 119, 179)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5485
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(223, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4015
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all 400ms linear",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(219, 126, 49)",
+        "color": "rgb(53, 84, 162)",
+        "border": "rgb(204, 64, 128)",
+        "opacity": 0.415
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(208, 122, 50)",
+        "color": "rgb(62, 92, 166)",
+        "border": "rgb(196, 65, 127)",
+        "opacity": 0.445
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(198, 118, 52)",
+        "color": "rgb(72, 100, 170)",
+        "border": "rgb(188, 66, 126)",
+        "opacity": 0.475
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(182, 112, 54)",
+        "color": "rgb(86, 112, 176)",
+        "border": "rgb(176, 67, 125)",
+        "opacity": 0.52
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(173, 108, 56)",
+        "color": "rgb(95, 119, 179)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5485
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(171, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5515
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(147, 98, 60)",
+        "color": "rgb(119, 139, 189)",
+        "border": "rgb(148, 70, 122)",
+        "opacity": 0.6235
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(145, 98, 60)",
+        "color": "rgb(120, 140, 189)",
+        "border": "rgb(148, 70, 122)",
+        "opacity": 0.6265
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(121, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.6985
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(119, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7015
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(69, 68, 72)",
+        "color": "rgb(190, 198, 218)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8485
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(67, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8515
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(17, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.9985
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:background-color .3s ease-in, color .5s ease-out, border-color .2s ease-in-out, opacity .1s ease",
+    "phase": "hover",
+    "timing": {
+      "property": "background-color, color, border-color, opacity",
+      "duration": "0.3s, 0.5s, 0.2s, 0.1s",
+      "delay": "0s, 0s, 0s, 0s",
+      "easing": "ease-in, ease-out, ease-in-out, ease"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(232, 233, 235)",
+        "border": "rgb(49, 80, 112)",
+        "opacity": 0.943122
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(20, 49, 79)",
+        "color": "rgb(219, 222, 230)",
+        "border": "rgb(55, 79, 113)",
+        "opacity": 0.692011
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(25, 52, 79)",
+        "color": "rgb(207, 213, 225)",
+        "border": "rgb(69, 78, 114)",
+        "opacity": 0.518558
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(38, 56, 77)",
+        "color": "rgb(190, 198, 218)",
+        "border": "rgb(101, 75, 117)",
+        "opacity": 0.414625
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(48, 60, 75)",
+        "color": "rgb(180, 190, 214)",
+        "border": "rgb(127, 72, 120)",
+        "opacity": 0.400032
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(49, 61, 75)",
+        "color": "rgb(179, 189, 214)",
+        "border": "rgb(129, 72, 120)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(81, 73, 70)",
+        "color": "rgb(154, 168, 203)",
+        "border": "rgb(186, 66, 126)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(82, 74, 70)",
+        "color": "rgb(153, 167, 203)",
+        "border": "rgb(188, 66, 126)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(122, 89, 64)",
+        "color": "rgb(130, 148, 194)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(123, 89, 63)",
+        "color": "rgb(129, 147, 193)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(223, 128, 48)",
+        "color": "rgb(89, 114, 177)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(88, 114, 177)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(60, 90, 165)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(60, 90, 165)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:background-color .3s ease-in, color .5s ease-out, border-color .2s ease-in-out, opacity .1s ease",
+    "phase": "leave",
+    "timing": {
+      "property": "background-color, color, border-color, opacity",
+      "duration": "0.3s, 0.5s, 0.2s, 0.1s",
+      "delay": "0s, 0s, 0s, 0s",
+      "easing": "ease-in, ease-out, ease-in-out, ease"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(54, 85, 163)",
+        "border": "rgb(207, 64, 128)",
+        "opacity": 0.456878
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(220, 127, 49)",
+        "color": "rgb(67, 96, 168)",
+        "border": "rgb(201, 65, 127)",
+        "opacity": 0.707989
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(215, 124, 49)",
+        "color": "rgb(79, 105, 173)",
+        "border": "rgb(187, 66, 126)",
+        "opacity": 0.881442
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(202, 120, 51)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(155, 69, 123)",
+        "opacity": 0.985375
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(192, 116, 53)",
+        "color": "rgb(106, 128, 184)",
+        "border": "rgb(129, 72, 120)",
+        "opacity": 0.999968
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(191, 115, 53)",
+        "color": "rgb(107, 129, 184)",
+        "border": "rgb(127, 72, 120)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(159, 103, 58)",
+        "color": "rgb(132, 150, 195)",
+        "border": "rgb(70, 78, 114)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(158, 102, 58)",
+        "color": "rgb(133, 151, 195)",
+        "border": "rgb(68, 78, 114)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(118, 87, 64)",
+        "color": "rgb(156, 170, 204)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(117, 87, 65)",
+        "color": "rgb(157, 171, 205)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(17, 48, 80)",
+        "color": "rgb(197, 204, 221)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(198, 204, 221)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(226, 228, 233)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(226, 228, 233)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .3s linear .1s",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0.3s",
+      "delay": "0.1s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(17, 48, 80)",
+        "color": "rgb(237, 237, 238)",
+        "border": "rgb(49, 80, 112)",
+        "opacity": 0.998
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(50, 61, 75)",
+        "color": "rgb(207, 212, 225)",
+        "border": "rgb(74, 77, 115)",
+        "opacity": 0.902
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(51, 62, 75)",
+        "color": "rgb(206, 211, 225)",
+        "border": "rgb(75, 77, 115)",
+        "opacity": 0.898
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(85, 74, 69)",
+        "color": "rgb(175, 186, 212)",
+        "border": "rgb(101, 75, 117)",
+        "opacity": 0.802
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(86, 75, 69)",
+        "color": "rgb(174, 185, 212)",
+        "border": "rgb(102, 75, 117)",
+        "opacity": 0.798
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(154, 101, 59)",
+        "color": "rgb(112, 133, 186)",
+        "border": "rgb(154, 69, 123)",
+        "opacity": 0.602
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(155, 102, 59)",
+        "color": "rgb(111, 132, 186)",
+        "border": "rgb(155, 69, 123)",
+        "opacity": 0.598
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(223, 128, 48)",
+        "color": "rgb(49, 81, 160)",
+        "border": "rgb(207, 64, 128)",
+        "opacity": 0.402
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .3s linear .1s",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0.3s",
+      "delay": "0.1s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(223, 128, 48)",
+        "color": "rgb(49, 81, 160)",
+        "border": "rgb(207, 64, 128)",
+        "opacity": 0.402
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(190, 115, 53)",
+        "color": "rgb(79, 106, 173)",
+        "border": "rgb(182, 67, 125)",
+        "opacity": 0.498
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(189, 114, 53)",
+        "color": "rgb(80, 107, 173)",
+        "border": "rgb(181, 67, 125)",
+        "opacity": 0.502
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(155, 102, 59)",
+        "color": "rgb(111, 132, 186)",
+        "border": "rgb(155, 69, 123)",
+        "opacity": 0.598
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(154, 101, 59)",
+        "color": "rgb(112, 133, 186)",
+        "border": "rgb(154, 69, 123)",
+        "opacity": 0.602
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(86, 75, 69)",
+        "color": "rgb(174, 185, 212)",
+        "border": "rgb(102, 75, 117)",
+        "opacity": 0.798
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(85, 74, 69)",
+        "color": "rgb(175, 186, 212)",
+        "border": "rgb(101, 75, 117)",
+        "opacity": 0.802
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(17, 48, 80)",
+        "color": "rgb(237, 237, 238)",
+        "border": "rgb(49, 80, 112)",
+        "opacity": 0.998
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .3s linear -.1s",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0.3s",
+      "delay": "-0.1s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(85, 75, 69)",
+        "color": "rgb(175, 185, 212)",
+        "border": "rgb(101, 75, 117)",
+        "opacity": 0.8
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(92, 77, 68)",
+        "color": "rgb(168, 180, 209)",
+        "border": "rgb(107, 74, 118)",
+        "opacity": 0.78
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(106, 83, 66)",
+        "color": "rgb(156, 170, 204)",
+        "border": "rgb(117, 73, 119)",
+        "opacity": 0.74
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(141, 96, 61)",
+        "color": "rgb(124, 143, 191)",
+        "border": "rgb(144, 70, 122)",
+        "opacity": 0.64
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(154, 101, 59)",
+        "color": "rgb(112, 133, 186)",
+        "border": "rgb(154, 69, 123)",
+        "opacity": 0.602
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(155, 102, 59)",
+        "color": "rgb(111, 132, 186)",
+        "border": "rgb(155, 69, 123)",
+        "opacity": 0.598
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(189, 114, 53)",
+        "color": "rgb(80, 107, 173)",
+        "border": "rgb(181, 67, 125)",
+        "opacity": 0.502
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(190, 115, 53)",
+        "color": "rgb(79, 106, 173)",
+        "border": "rgb(182, 67, 125)",
+        "opacity": 0.498
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(223, 128, 48)",
+        "color": "rgb(49, 81, 160)",
+        "border": "rgb(207, 64, 128)",
+        "opacity": 0.402
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .3s linear -.1s",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0.3s",
+      "delay": "-0.1s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(155, 101, 59)",
+        "color": "rgb(111, 133, 186)",
+        "border": "rgb(155, 69, 123)",
+        "opacity": 0.6
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(148, 99, 60)",
+        "color": "rgb(118, 138, 189)",
+        "border": "rgb(149, 70, 122)",
+        "opacity": 0.62
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(134, 93, 62)",
+        "color": "rgb(130, 148, 194)",
+        "border": "rgb(139, 71, 121)",
+        "opacity": 0.66
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(99, 80, 67)",
+        "color": "rgb(162, 175, 207)",
+        "border": "rgb(112, 74, 118)",
+        "opacity": 0.76
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(86, 75, 69)",
+        "color": "rgb(174, 185, 212)",
+        "border": "rgb(102, 75, 117)",
+        "opacity": 0.798
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(85, 74, 69)",
+        "color": "rgb(175, 186, 212)",
+        "border": "rgb(101, 75, 117)",
+        "opacity": 0.802
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(51, 62, 75)",
+        "color": "rgb(206, 211, 225)",
+        "border": "rgb(75, 77, 115)",
+        "opacity": 0.898
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(50, 61, 75)",
+        "color": "rgb(207, 212, 225)",
+        "border": "rgb(74, 77, 115)",
+        "opacity": 0.902
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(17, 48, 80)",
+        "color": "rgb(237, 237, 238)",
+        "border": "rgb(49, 80, 112)",
+        "opacity": 0.998
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s cubic-bezier(.1,.8,.6,1.2)",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "cubic-bezier(0.1, 0.8, 0.6, 1.2)"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(48, 60, 75)",
+        "color": "rgb(209, 214, 226)",
+        "border": "rgb(73, 78, 114)",
+        "opacity": 0.907785
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(88, 76, 69)",
+        "color": "rgb(172, 183, 211)",
+        "border": "rgb(104, 74, 118)",
+        "opacity": 0.79165
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(116, 87, 65)",
+        "color": "rgb(146, 162, 200)",
+        "border": "rgb(125, 72, 120)",
+        "opacity": 0.710324
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(148, 99, 60)",
+        "color": "rgb(117, 138, 189)",
+        "border": "rgb(149, 70, 122)",
+        "opacity": 0.619444
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(164, 105, 57)",
+        "color": "rgb(103, 126, 183)",
+        "border": "rgb(162, 69, 123)",
+        "opacity": 0.573997
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(165, 105, 57)",
+        "color": "rgb(102, 125, 182)",
+        "border": "rgb(163, 69, 123)",
+        "opacity": 0.569633
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(195, 117, 52)",
+        "color": "rgb(74, 102, 171)",
+        "border": "rgb(186, 66, 126)",
+        "opacity": 0.483607
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(196, 117, 52)",
+        "color": "rgb(74, 101, 170)",
+        "border": "rgb(186, 66, 126)",
+        "opacity": 0.480692
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(216, 125, 49)",
+        "color": "rgb(55, 86, 163)",
+        "border": "rgb(202, 65, 127)",
+        "opacity": 0.423569
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(216, 125, 49)",
+        "color": "rgb(55, 86, 163)",
+        "border": "rgb(202, 65, 127)",
+        "opacity": 0.42168
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(234, 132, 46)",
+        "color": "rgb(39, 72, 156)",
+        "border": "rgb(216, 63, 129)",
+        "opacity": 0.370459
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(234, 132, 46)",
+        "color": "rgb(39, 72, 156)",
+        "border": "rgb(216, 63, 129)",
+        "opacity": 0.370217
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.399255
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s cubic-bezier(.1,.8,.6,1.2)",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "cubic-bezier(0.1, 0.8, 0.6, 1.2)"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(192, 116, 53)",
+        "color": "rgb(77, 104, 172)",
+        "border": "rgb(183, 66, 126)",
+        "opacity": 0.492215
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(152, 100, 59)",
+        "color": "rgb(114, 135, 187)",
+        "border": "rgb(152, 70, 122)",
+        "opacity": 0.60835
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(124, 89, 63)",
+        "color": "rgb(140, 156, 198)",
+        "border": "rgb(131, 72, 120)",
+        "opacity": 0.689676
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(92, 77, 68)",
+        "color": "rgb(169, 180, 209)",
+        "border": "rgb(107, 74, 118)",
+        "opacity": 0.780556
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(76, 71, 71)",
+        "color": "rgb(183, 192, 215)",
+        "border": "rgb(94, 75, 117)",
+        "opacity": 0.826003
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(75, 71, 71)",
+        "color": "rgb(184, 193, 216)",
+        "border": "rgb(93, 75, 117)",
+        "opacity": 0.830367
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(45, 59, 76)",
+        "color": "rgb(212, 216, 227)",
+        "border": "rgb(70, 78, 114)",
+        "opacity": 0.916393
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(44, 59, 76)",
+        "color": "rgb(212, 217, 228)",
+        "border": "rgb(70, 78, 114)",
+        "opacity": 0.919308
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(24, 51, 79)",
+        "color": "rgb(231, 232, 235)",
+        "border": "rgb(54, 79, 113)",
+        "opacity": 0.976431
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(24, 51, 79)",
+        "color": "rgb(231, 232, 235)",
+        "border": "rgb(54, 79, 113)",
+        "opacity": 0.97832
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(6, 44, 82)",
+        "color": "rgb(247, 246, 242)",
+        "border": "rgb(40, 81, 111)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(6, 44, 82)",
+        "color": "rgb(247, 246, 242)",
+        "border": "rgb(40, 81, 111)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s steps(4,end)",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "steps(4)"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.85
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.85
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.85
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.85
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(172, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.55
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(172, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.55
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s steps(4,end)",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "steps(4)"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(172, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.55
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(172, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.55
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(172, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.55
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(172, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.55
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.85
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.85
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s steps(4,start)",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "steps(4, start)"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.85
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.85
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.85
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.85
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.85
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.85
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(172, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.55
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(172, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.55
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s steps(4,start)",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "steps(4, start)"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(172, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.55
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(172, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.55
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(172, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.55
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(172, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.55
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(172, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.55
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(172, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.55
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.85
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.85
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s steps(4,jump-none)",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "steps(4, jump-none)"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(85, 75, 69)",
+        "color": "rgb(175, 185, 212)",
+        "border": "rgb(101, 75, 117)",
+        "opacity": 0.8
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(85, 75, 69)",
+        "color": "rgb(175, 185, 212)",
+        "border": "rgb(101, 75, 117)",
+        "opacity": 0.8
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(85, 75, 69)",
+        "color": "rgb(175, 185, 212)",
+        "border": "rgb(101, 75, 117)",
+        "opacity": 0.8
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(85, 75, 69)",
+        "color": "rgb(175, 185, 212)",
+        "border": "rgb(101, 75, 117)",
+        "opacity": 0.8
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(155, 101, 59)",
+        "color": "rgb(111, 133, 186)",
+        "border": "rgb(155, 69, 123)",
+        "opacity": 0.6
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(155, 101, 59)",
+        "color": "rgb(111, 133, 186)",
+        "border": "rgb(155, 69, 123)",
+        "opacity": 0.6
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s steps(4,jump-none)",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "steps(4, jump-none)"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(155, 101, 59)",
+        "color": "rgb(111, 133, 186)",
+        "border": "rgb(155, 69, 123)",
+        "opacity": 0.6
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(155, 101, 59)",
+        "color": "rgb(111, 133, 186)",
+        "border": "rgb(155, 69, 123)",
+        "opacity": 0.6
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(155, 101, 59)",
+        "color": "rgb(111, 133, 186)",
+        "border": "rgb(155, 69, 123)",
+        "opacity": 0.6
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(155, 101, 59)",
+        "color": "rgb(111, 133, 186)",
+        "border": "rgb(155, 69, 123)",
+        "opacity": 0.6
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(85, 75, 69)",
+        "color": "rgb(175, 185, 212)",
+        "border": "rgb(101, 75, 117)",
+        "opacity": 0.8
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(85, 75, 69)",
+        "color": "rgb(175, 185, 212)",
+        "border": "rgb(101, 75, 117)",
+        "opacity": 0.8
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s steps(4,jump-both)",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "steps(4, jump-both)"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(58, 64, 74)",
+        "color": "rgb(200, 206, 222)",
+        "border": "rgb(80, 77, 115)",
+        "opacity": 0.88
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(58, 64, 74)",
+        "color": "rgb(200, 206, 222)",
+        "border": "rgb(80, 77, 115)",
+        "opacity": 0.88
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(58, 64, 74)",
+        "color": "rgb(200, 206, 222)",
+        "border": "rgb(80, 77, 115)",
+        "opacity": 0.88
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(58, 64, 74)",
+        "color": "rgb(200, 206, 222)",
+        "border": "rgb(80, 77, 115)",
+        "opacity": 0.88
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(58, 64, 74)",
+        "color": "rgb(200, 206, 222)",
+        "border": "rgb(80, 77, 115)",
+        "opacity": 0.88
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(58, 64, 74)",
+        "color": "rgb(200, 206, 222)",
+        "border": "rgb(80, 77, 115)",
+        "opacity": 0.88
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(99, 80, 67)",
+        "color": "rgb(162, 175, 207)",
+        "border": "rgb(112, 74, 118)",
+        "opacity": 0.76
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(99, 80, 67)",
+        "color": "rgb(162, 175, 207)",
+        "border": "rgb(112, 74, 118)",
+        "opacity": 0.76
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(99, 80, 67)",
+        "color": "rgb(162, 175, 207)",
+        "border": "rgb(112, 74, 118)",
+        "opacity": 0.76
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(99, 80, 67)",
+        "color": "rgb(162, 175, 207)",
+        "border": "rgb(112, 74, 118)",
+        "opacity": 0.76
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(141, 96, 61)",
+        "color": "rgb(124, 143, 191)",
+        "border": "rgb(144, 70, 122)",
+        "opacity": 0.64
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(141, 96, 61)",
+        "color": "rgb(124, 143, 191)",
+        "border": "rgb(144, 70, 122)",
+        "opacity": 0.64
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(182, 112, 54)",
+        "color": "rgb(86, 112, 176)",
+        "border": "rgb(176, 67, 125)",
+        "opacity": 0.52
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(182, 112, 54)",
+        "color": "rgb(86, 112, 176)",
+        "border": "rgb(176, 67, 125)",
+        "opacity": 0.52
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s steps(4,jump-both)",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "steps(4, jump-both)"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(182, 112, 54)",
+        "color": "rgb(86, 112, 176)",
+        "border": "rgb(176, 67, 125)",
+        "opacity": 0.52
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(182, 112, 54)",
+        "color": "rgb(86, 112, 176)",
+        "border": "rgb(176, 67, 125)",
+        "opacity": 0.52
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(182, 112, 54)",
+        "color": "rgb(86, 112, 176)",
+        "border": "rgb(176, 67, 125)",
+        "opacity": 0.52
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(182, 112, 54)",
+        "color": "rgb(86, 112, 176)",
+        "border": "rgb(176, 67, 125)",
+        "opacity": 0.52
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(182, 112, 54)",
+        "color": "rgb(86, 112, 176)",
+        "border": "rgb(176, 67, 125)",
+        "opacity": 0.52
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(182, 112, 54)",
+        "color": "rgb(86, 112, 176)",
+        "border": "rgb(176, 67, 125)",
+        "opacity": 0.52
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(141, 96, 61)",
+        "color": "rgb(124, 143, 191)",
+        "border": "rgb(144, 70, 122)",
+        "opacity": 0.64
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(141, 96, 61)",
+        "color": "rgb(124, 143, 191)",
+        "border": "rgb(144, 70, 122)",
+        "opacity": 0.64
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(141, 96, 61)",
+        "color": "rgb(124, 143, 191)",
+        "border": "rgb(144, 70, 122)",
+        "opacity": 0.64
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(141, 96, 61)",
+        "color": "rgb(124, 143, 191)",
+        "border": "rgb(144, 70, 122)",
+        "opacity": 0.64
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(99, 80, 67)",
+        "color": "rgb(162, 175, 207)",
+        "border": "rgb(112, 74, 118)",
+        "opacity": 0.76
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(99, 80, 67)",
+        "color": "rgb(162, 175, 207)",
+        "border": "rgb(112, 74, 118)",
+        "opacity": 0.76
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(58, 64, 74)",
+        "color": "rgb(200, 206, 222)",
+        "border": "rgb(80, 77, 115)",
+        "opacity": 0.88
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(58, 64, 74)",
+        "color": "rgb(200, 206, 222)",
+        "border": "rgb(80, 77, 115)",
+        "opacity": 0.88
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition-property:opacity,background-color,color,border-color;transition-duration:.1s,.3s;transition-timing-function:linear,ease-out;transition-delay:0s,.05s",
+    "phase": "hover",
+    "timing": {
+      "property": "opacity, background-color, color, border-color",
+      "duration": "0.1s, 0.3s",
+      "delay": "0s, 0.05s",
+      "easing": "linear, ease-out"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(219, 222, 230)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.94
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(181, 191, 215)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.82
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(49, 61, 75)",
+        "color": "rgb(86, 112, 176)",
+        "border": "rgb(74, 77, 115)",
+        "opacity": 0.52
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(69, 68, 72)",
+        "color": "rgb(50, 82, 161)",
+        "border": "rgb(89, 76, 116)",
+        "opacity": 0.406
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(71, 69, 72)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(90, 76, 116)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(117, 87, 65)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(125, 72, 120)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(118, 87, 64)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(127, 72, 120)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(158, 102, 58)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(157, 69, 123)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(159, 103, 58)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(158, 69, 123)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(214, 124, 49)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(201, 65, 127)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(215, 125, 49)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(201, 65, 127)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition-property:opacity,background-color,color,border-color;transition-duration:.1s,.3s;transition-timing-function:linear,ease-out;transition-delay:0s,.05s",
+    "phase": "leave",
+    "timing": {
+      "property": "opacity, background-color, color, border-color",
+      "duration": "0.1s, 0.3s",
+      "delay": "0s, 0.05s",
+      "easing": "linear, ease-out"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(67, 96, 168)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.46
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(105, 127, 183)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.58
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(191, 115, 53)",
+        "color": "rgb(200, 206, 222)",
+        "border": "rgb(182, 67, 125)",
+        "opacity": 0.88
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(171, 108, 56)",
+        "color": "rgb(236, 236, 237)",
+        "border": "rgb(167, 68, 124)",
+        "opacity": 0.994
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(169, 107, 56)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(166, 68, 124)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(123, 89, 63)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(131, 72, 120)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(122, 89, 64)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(129, 72, 120)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(82, 74, 70)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(99, 75, 117)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(81, 73, 70)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(98, 75, 117)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(26, 52, 79)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(55, 79, 113)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(25, 51, 79)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(55, 79, 113)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s linear;transition-duration:-1s;transition-timing-function:cubic-bezier(2,0,1,1)",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(21, 50, 79)",
+        "color": "rgb(233, 234, 236)",
+        "border": "rgb(52, 80, 112)",
+        "opacity": 0.985
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(32, 54, 78)",
+        "color": "rgb(224, 226, 232)",
+        "border": "rgb(60, 79, 113)",
+        "opacity": 0.955
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(42, 58, 76)",
+        "color": "rgb(214, 218, 228)",
+        "border": "rgb(68, 78, 114)",
+        "opacity": 0.925
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(58, 64, 74)",
+        "color": "rgb(200, 206, 222)",
+        "border": "rgb(80, 77, 115)",
+        "opacity": 0.88
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(67, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8515
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(69, 68, 72)",
+        "color": "rgb(190, 198, 218)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8485
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(93, 78, 68)",
+        "color": "rgb(167, 179, 209)",
+        "border": "rgb(108, 74, 118)",
+        "opacity": 0.7765
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(95, 78, 68)",
+        "color": "rgb(166, 178, 209)",
+        "border": "rgb(108, 74, 118)",
+        "opacity": 0.7735
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(119, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7015
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(121, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.6985
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(171, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5515
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(173, 108, 56)",
+        "color": "rgb(95, 119, 179)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5485
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(223, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4015
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s linear;transition-duration:-1s;transition-timing-function:cubic-bezier(2,0,1,1)",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(219, 126, 49)",
+        "color": "rgb(53, 84, 162)",
+        "border": "rgb(204, 64, 128)",
+        "opacity": 0.415
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(208, 122, 50)",
+        "color": "rgb(62, 92, 166)",
+        "border": "rgb(196, 65, 127)",
+        "opacity": 0.445
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(198, 118, 52)",
+        "color": "rgb(72, 100, 170)",
+        "border": "rgb(188, 66, 126)",
+        "opacity": 0.475
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(182, 112, 54)",
+        "color": "rgb(86, 112, 176)",
+        "border": "rgb(176, 67, 125)",
+        "opacity": 0.52
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(173, 108, 56)",
+        "color": "rgb(95, 119, 179)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5485
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(171, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5515
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(147, 98, 60)",
+        "color": "rgb(119, 139, 189)",
+        "border": "rgb(148, 70, 122)",
+        "opacity": 0.6235
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(145, 98, 60)",
+        "color": "rgb(120, 140, 189)",
+        "border": "rgb(148, 70, 122)",
+        "opacity": 0.6265
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(121, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.6985
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(119, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7015
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(69, 68, 72)",
+        "color": "rgb(190, 198, 218)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8485
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(67, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8515
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(17, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.9985
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "--duration:350ms;transition:all var(--duration) linear",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0.35s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(22, 50, 79)",
+        "color": "rgb(233, 233, 236)",
+        "border": "rgb(53, 80, 112)",
+        "opacity": 0.982857
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(34, 55, 77)",
+        "color": "rgb(222, 224, 231)",
+        "border": "rgb(62, 79, 113)",
+        "opacity": 0.948571
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(46, 59, 75)",
+        "color": "rgb(211, 215, 227)",
+        "border": "rgb(71, 78, 114)",
+        "opacity": 0.914286
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(64, 66, 73)",
+        "color": "rgb(195, 202, 220)",
+        "border": "rgb(85, 76, 116)",
+        "opacity": 0.862857
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(75, 71, 71)",
+        "color": "rgb(184, 193, 216)",
+        "border": "rgb(93, 75, 117)",
+        "opacity": 0.830286
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(76, 71, 71)",
+        "color": "rgb(183, 192, 215)",
+        "border": "rgb(94, 75, 117)",
+        "opacity": 0.826857
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(105, 82, 66)",
+        "color": "rgb(157, 171, 205)",
+        "border": "rgb(116, 73, 119)",
+        "opacity": 0.744571
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(106, 83, 66)",
+        "color": "rgb(156, 170, 204)",
+        "border": "rgb(117, 73, 119)",
+        "opacity": 0.741143
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(134, 93, 62)",
+        "color": "rgb(130, 148, 194)",
+        "border": "rgb(139, 71, 121)",
+        "opacity": 0.658857
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(135, 94, 62)",
+        "color": "rgb(129, 147, 193)",
+        "border": "rgb(140, 71, 121)",
+        "opacity": 0.655429
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(194, 116, 53)",
+        "color": "rgb(76, 103, 171)",
+        "border": "rgb(185, 66, 126)",
+        "opacity": 0.487429
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(195, 117, 52)",
+        "color": "rgb(75, 102, 171)",
+        "border": "rgb(186, 66, 126)",
+        "opacity": 0.484
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "--duration:350ms;transition:all var(--duration) linear",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0.35s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(218, 126, 49)",
+        "color": "rgb(53, 85, 162)",
+        "border": "rgb(203, 64, 128)",
+        "opacity": 0.417143
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(206, 121, 51)",
+        "color": "rgb(64, 94, 167)",
+        "border": "rgb(194, 65, 127)",
+        "opacity": 0.451429
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(194, 117, 53)",
+        "color": "rgb(75, 103, 171)",
+        "border": "rgb(185, 66, 126)",
+        "opacity": 0.485714
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(176, 110, 55)",
+        "color": "rgb(91, 116, 178)",
+        "border": "rgb(171, 68, 124)",
+        "opacity": 0.537143
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(165, 105, 57)",
+        "color": "rgb(102, 125, 182)",
+        "border": "rgb(163, 69, 123)",
+        "opacity": 0.569714
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(164, 105, 57)",
+        "color": "rgb(103, 126, 183)",
+        "border": "rgb(162, 69, 123)",
+        "opacity": 0.573143
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(135, 94, 62)",
+        "color": "rgb(129, 147, 193)",
+        "border": "rgb(140, 71, 121)",
+        "opacity": 0.655429
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(134, 93, 62)",
+        "color": "rgb(130, 148, 194)",
+        "border": "rgb(139, 71, 121)",
+        "opacity": 0.658857
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(106, 83, 66)",
+        "color": "rgb(156, 170, 204)",
+        "border": "rgb(117, 73, 119)",
+        "opacity": 0.741143
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(105, 82, 66)",
+        "color": "rgb(157, 171, 205)",
+        "border": "rgb(116, 73, 119)",
+        "opacity": 0.744571
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(46, 60, 75)",
+        "color": "rgb(210, 215, 227)",
+        "border": "rgb(71, 78, 114)",
+        "opacity": 0.912571
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(45, 59, 76)",
+        "color": "rgb(211, 216, 227)",
+        "border": "rgb(70, 78, 114)",
+        "opacity": 0.916
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s linear!important;transition:none",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(21, 50, 79)",
+        "color": "rgb(233, 234, 236)",
+        "border": "rgb(52, 80, 112)",
+        "opacity": 0.985
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(32, 54, 78)",
+        "color": "rgb(224, 226, 232)",
+        "border": "rgb(60, 79, 113)",
+        "opacity": 0.955
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(42, 58, 76)",
+        "color": "rgb(214, 218, 228)",
+        "border": "rgb(68, 78, 114)",
+        "opacity": 0.925
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(58, 64, 74)",
+        "color": "rgb(200, 206, 222)",
+        "border": "rgb(80, 77, 115)",
+        "opacity": 0.88
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(67, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8515
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(69, 68, 72)",
+        "color": "rgb(190, 198, 218)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8485
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(93, 78, 68)",
+        "color": "rgb(167, 179, 209)",
+        "border": "rgb(108, 74, 118)",
+        "opacity": 0.7765
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(95, 78, 68)",
+        "color": "rgb(166, 178, 209)",
+        "border": "rgb(108, 74, 118)",
+        "opacity": 0.7735
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(119, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7015
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(121, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.6985
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(171, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5515
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(173, 108, 56)",
+        "color": "rgb(95, 119, 179)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5485
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(223, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4015
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s linear!important;transition:none",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(219, 126, 49)",
+        "color": "rgb(53, 84, 162)",
+        "border": "rgb(204, 64, 128)",
+        "opacity": 0.415
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(208, 122, 50)",
+        "color": "rgb(62, 92, 166)",
+        "border": "rgb(196, 65, 127)",
+        "opacity": 0.445
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(198, 118, 52)",
+        "color": "rgb(72, 100, 170)",
+        "border": "rgb(188, 66, 126)",
+        "opacity": 0.475
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(182, 112, 54)",
+        "color": "rgb(86, 112, 176)",
+        "border": "rgb(176, 67, 125)",
+        "opacity": 0.52
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(173, 108, 56)",
+        "color": "rgb(95, 119, 179)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5485
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(171, 108, 56)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5515
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(147, 98, 60)",
+        "color": "rgb(119, 139, 189)",
+        "border": "rgb(148, 70, 122)",
+        "opacity": 0.6235
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(145, 98, 60)",
+        "color": "rgb(120, 140, 189)",
+        "border": "rgb(148, 70, 122)",
+        "opacity": 0.6265
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(121, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.6985
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(119, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7015
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(69, 68, 72)",
+        "color": "rgb(190, 198, 218)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8485
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(67, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8515
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(17, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.9985
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s linear;transition:initial",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0s",
+      "delay": "0s",
+      "easing": "ease"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s linear;transition:initial",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0s",
+      "delay": "0s",
+      "easing": "ease"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s linear;transition-property:opacity,background",
+    "phase": "hover",
+    "timing": {
+      "property": "opacity, background",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(21, 50, 79)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.985
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(32, 54, 78)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.955
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(42, 58, 76)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.925
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(58, 64, 74)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.88
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(67, 68, 72)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.8515
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(69, 68, 72)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.8485
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(93, 78, 68)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.7765
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(95, 78, 68)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.7735
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(119, 88, 64)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.7015
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(121, 88, 64)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.6985
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(171, 108, 56)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.5515
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(173, 108, 56)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.5485
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(223, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4015
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s linear;transition-property:opacity,background",
+    "phase": "leave",
+    "timing": {
+      "property": "opacity, background",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(219, 126, 49)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.415
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(208, 122, 50)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.445
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(198, 118, 52)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.475
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(182, 112, 54)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.52
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(173, 108, 56)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.5485
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(171, 108, 56)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.5515
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(147, 98, 60)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.6235
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(145, 98, 60)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.6265
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(121, 88, 64)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.6985
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(119, 88, 64)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.7015
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(69, 68, 72)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.8485
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(67, 68, 72)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.8515
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(17, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.9985
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all 0s linear .1s",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0s",
+      "delay": "0.1s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all 0s linear .1s",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0s",
+      "delay": "0.1s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "--invalid:invalid;transition:all .4s linear;transition-duration:var(--invalid)",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "--invalid:invalid;transition:all .4s linear;transition-duration:var(--invalid)",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .1s linear}#button:hover{transition-duration:.6s",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0.6s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(19, 49, 79)",
+        "color": "rgb(235, 235, 237)",
+        "border": "rgb(51, 80, 112)",
+        "opacity": 0.99
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(26, 52, 78)",
+        "color": "rgb(229, 230, 234)",
+        "border": "rgb(56, 79, 113)",
+        "opacity": 0.97
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(33, 55, 77)",
+        "color": "rgb(222, 225, 232)",
+        "border": "rgb(61, 79, 113)",
+        "opacity": 0.95
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(44, 59, 76)",
+        "color": "rgb(213, 217, 228)",
+        "border": "rgb(69, 78, 114)",
+        "opacity": 0.92
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(50, 61, 75)",
+        "color": "rgb(207, 212, 225)",
+        "border": "rgb(74, 77, 115)",
+        "opacity": 0.901
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(51, 61, 75)",
+        "color": "rgb(206, 211, 225)",
+        "border": "rgb(75, 77, 115)",
+        "opacity": 0.899
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.851
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(68, 68, 72)",
+        "color": "rgb(190, 198, 218)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.849
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(85, 75, 69)",
+        "color": "rgb(175, 186, 212)",
+        "border": "rgb(101, 75, 117)",
+        "opacity": 0.801
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(86, 75, 69)",
+        "color": "rgb(174, 185, 212)",
+        "border": "rgb(102, 75, 117)",
+        "opacity": 0.799
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.701
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.699
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(154, 101, 59)",
+        "color": "rgb(112, 133, 186)",
+        "border": "rgb(154, 69, 123)",
+        "opacity": 0.601
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(155, 101, 59)",
+        "color": "rgb(111, 132, 186)",
+        "border": "rgb(155, 69, 123)",
+        "opacity": 0.599
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.401
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .1s linear}#button:hover{transition-duration:.6s",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0.1s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(224, 128, 48)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(203, 120, 51)",
+        "color": "rgb(67, 96, 168)",
+        "border": "rgb(192, 66, 126)",
+        "opacity": 0.46
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(162, 104, 58)",
+        "color": "rgb(105, 127, 183)",
+        "border": "rgb(160, 69, 123)",
+        "opacity": 0.58
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(120, 88, 64)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(58, 64, 74)",
+        "color": "rgb(200, 206, 222)",
+        "border": "rgb(80, 77, 115)",
+        "opacity": 0.88
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(18, 49, 80)",
+        "color": "rgb(236, 236, 237)",
+        "border": "rgb(50, 80, 112)",
+        "opacity": 0.994
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .1s linear}#button:hover{transition-duration:.6s",
+    "phase": "reverse",
+    "timing": {
+      "property": "all",
+      "duration": "0.1s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "rgb(59, 64, 73)",
+        "color": "rgb(199, 206, 222)",
+        "border": "rgb(81, 77, 115)",
+        "opacity": 0.877
+      },
+      {
+        "elapsed": 10,
+        "background": "rgb(38, 56, 77)",
+        "color": "rgb(218, 221, 230)",
+        "border": "rgb(65, 78, 114)",
+        "opacity": 0.937
+      },
+      {
+        "elapsed": 30,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 50,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 80,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 99,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 101,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s linear}#button:hover{background:color-mix(in srgb,#e08030,transparent 0%)!important",
+    "phase": "hover",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "oklab(0.303614 -0.0222599 -0.0653371)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 10,
+        "background": "oklab(0.313325 -0.0196205 -0.0606273)",
+        "color": "rgb(233, 234, 236)",
+        "border": "rgb(52, 80, 112)",
+        "opacity": 0.985
+      },
+      {
+        "elapsed": 30,
+        "background": "oklab(0.332746 -0.0143416 -0.0512077)",
+        "color": "rgb(224, 226, 232)",
+        "border": "rgb(60, 79, 113)",
+        "opacity": 0.955
+      },
+      {
+        "elapsed": 50,
+        "background": "oklab(0.352166 -0.00906272 -0.0417881)",
+        "color": "rgb(214, 218, 228)",
+        "border": "rgb(68, 78, 114)",
+        "opacity": 0.925
+      },
+      {
+        "elapsed": 80,
+        "background": "oklab(0.381298 -0.00114442 -0.0276588)",
+        "color": "rgb(200, 206, 222)",
+        "border": "rgb(80, 77, 115)",
+        "opacity": 0.88
+      },
+      {
+        "elapsed": 99,
+        "background": "oklab(0.399748 0.00387051 -0.0187102)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8515
+      },
+      {
+        "elapsed": 101,
+        "background": "oklab(0.40169 0.0043984 -0.0177682)",
+        "color": "rgb(190, 198, 218)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8485
+      },
+      {
+        "elapsed": 149,
+        "background": "oklab(0.4483 0.0170677 0.0048388)",
+        "color": "rgb(167, 179, 209)",
+        "border": "rgb(108, 74, 118)",
+        "opacity": 0.7765
+      },
+      {
+        "elapsed": 151,
+        "background": "oklab(0.450242 0.0175956 0.00578076)",
+        "color": "rgb(166, 178, 209)",
+        "border": "rgb(108, 74, 118)",
+        "opacity": 0.7735
+      },
+      {
+        "elapsed": 199,
+        "background": "oklab(0.496852 0.0302649 0.0283878)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7015
+      },
+      {
+        "elapsed": 201,
+        "background": "oklab(0.498794 0.0307928 0.0293297)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.6985
+      },
+      {
+        "elapsed": 299,
+        "background": "oklab(0.593956 0.0566592 0.0754857)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5515
+      },
+      {
+        "elapsed": 301,
+        "background": "oklab(0.595898 0.0571871 0.0764276)",
+        "color": "rgb(95, 119, 179)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5485
+      },
+      {
+        "elapsed": 399,
+        "background": "oklab(0.691061 0.0830536 0.122584)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4015
+      },
+      {
+        "elapsed": 401,
+        "background": "color(srgb 0.878431 0.501961 0.188235)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 599,
+        "background": "color(srgb 0.878431 0.501961 0.188235)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 601,
+        "background": "color(srgb 0.878431 0.501961 0.188235)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 800,
+        "background": "color(srgb 0.878431 0.501961 0.188235)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s linear}#button:hover{background:color-mix(in srgb,#e08030,transparent 0%)!important",
+    "phase": "leave",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "oklab(0.692032 0.0833175 0.123055)",
+        "color": "rgb(48, 80, 160)",
+        "border": "rgb(208, 64, 128)",
+        "opacity": 0.4
+      },
+      {
+        "elapsed": 10,
+        "background": "oklab(0.682321 0.0806781 0.118345)",
+        "color": "rgb(53, 84, 162)",
+        "border": "rgb(204, 64, 128)",
+        "opacity": 0.415
+      },
+      {
+        "elapsed": 30,
+        "background": "oklab(0.6629 0.0753992 0.108925)",
+        "color": "rgb(62, 92, 166)",
+        "border": "rgb(196, 65, 127)",
+        "opacity": 0.445
+      },
+      {
+        "elapsed": 50,
+        "background": "oklab(0.643479 0.0701204 0.0995056)",
+        "color": "rgb(72, 100, 170)",
+        "border": "rgb(188, 66, 126)",
+        "opacity": 0.475
+      },
+      {
+        "elapsed": 80,
+        "background": "oklab(0.614348 0.0622021 0.0853762)",
+        "color": "rgb(86, 112, 176)",
+        "border": "rgb(176, 67, 125)",
+        "opacity": 0.52
+      },
+      {
+        "elapsed": 99,
+        "background": "oklab(0.595898 0.0571871 0.0764276)",
+        "color": "rgb(95, 119, 179)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5485
+      },
+      {
+        "elapsed": 101,
+        "background": "oklab(0.593956 0.0566592 0.0754857)",
+        "color": "rgb(96, 120, 180)",
+        "border": "rgb(168, 68, 124)",
+        "opacity": 0.5515
+      },
+      {
+        "elapsed": 149,
+        "background": "oklab(0.547346 0.0439899 0.0528787)",
+        "color": "rgb(119, 139, 189)",
+        "border": "rgb(148, 70, 122)",
+        "opacity": 0.6235
+      },
+      {
+        "elapsed": 151,
+        "background": "oklab(0.545404 0.0434621 0.0519367)",
+        "color": "rgb(120, 140, 189)",
+        "border": "rgb(148, 70, 122)",
+        "opacity": 0.6265
+      },
+      {
+        "elapsed": 199,
+        "background": "oklab(0.498794 0.0307928 0.0293297)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.6985
+      },
+      {
+        "elapsed": 201,
+        "background": "oklab(0.496852 0.0302649 0.0283878)",
+        "color": "rgb(143, 159, 199)",
+        "border": "rgb(128, 72, 120)",
+        "opacity": 0.7015
+      },
+      {
+        "elapsed": 299,
+        "background": "oklab(0.40169 0.0043984 -0.0177682)",
+        "color": "rgb(190, 198, 218)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8485
+      },
+      {
+        "elapsed": 301,
+        "background": "oklab(0.399748 0.00387051 -0.0187102)",
+        "color": "rgb(191, 199, 219)",
+        "border": "rgb(88, 76, 116)",
+        "opacity": 0.8515
+      },
+      {
+        "elapsed": 399,
+        "background": "oklab(0.304585 -0.021996 -0.0648661)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 0.9985
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "declarations": "transition:all .4s linear}#button:hover{background:color-mix(in srgb,#e08030,transparent 0%)!important",
+    "phase": "reverse",
+    "timing": {
+      "property": "all",
+      "duration": "0.4s",
+      "delay": "0s",
+      "easing": "linear"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "background": "oklab(0.423053 0.0102052 -0.00740666)",
+        "color": "rgb(180, 189, 214)",
+        "border": "rgb(97, 75, 117)",
+        "opacity": 0.8155
+      },
+      {
+        "elapsed": 10,
+        "background": "oklab(0.413342 0.00756572 -0.0121164)",
+        "color": "rgb(184, 193, 216)",
+        "border": "rgb(93, 75, 117)",
+        "opacity": 0.8305
+      },
+      {
+        "elapsed": 30,
+        "background": "oklab(0.393921 0.00228685 -0.021536)",
+        "color": "rgb(194, 201, 220)",
+        "border": "rgb(85, 76, 116)",
+        "opacity": 0.8605
+      },
+      {
+        "elapsed": 50,
+        "background": "oklab(0.3745 -0.00299202 -0.0309556)",
+        "color": "rgb(203, 209, 224)",
+        "border": "rgb(77, 77, 115)",
+        "opacity": 0.8905
+      },
+      {
+        "elapsed": 80,
+        "background": "oklab(0.345369 -0.0109103 -0.045085)",
+        "color": "rgb(218, 221, 230)",
+        "border": "rgb(65, 78, 114)",
+        "opacity": 0.9355
+      },
+      {
+        "elapsed": 99,
+        "background": "oklab(0.326919 -0.0159253 -0.0540336)",
+        "color": "rgb(227, 229, 233)",
+        "border": "rgb(58, 79, 113)",
+        "opacity": 0.964
+      },
+      {
+        "elapsed": 101,
+        "background": "oklab(0.324977 -0.0164531 -0.0549756)",
+        "color": "rgb(228, 229, 234)",
+        "border": "rgb(57, 79, 113)",
+        "opacity": 0.967
+      },
+      {
+        "elapsed": 149,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 151,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 199,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 201,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 299,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 301,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 399,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 401,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 599,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 601,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      },
+      {
+        "elapsed": 800,
+        "background": "rgb(16, 48, 80)",
+        "color": "rgb(238, 238, 238)",
+        "border": "rgb(48, 80, 112)",
+        "opacity": 1
+      }
+    ]
+  }
+]

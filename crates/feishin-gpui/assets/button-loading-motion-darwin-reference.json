@@ -1,0 +1,514 @@
+[
+  {
+    "rem": 16,
+    "mode": "dark",
+    "phase": "enter",
+    "frames": [
+      {
+        "elapsed": 0,
+        "innerOpacity": 1,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -41)"
+      },
+      {
+        "elapsed": 20,
+        "innerOpacity": 0.704756,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0.295244,
+        "loaderOpacity": 0.152424,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -36.1605)"
+      },
+      {
+        "elapsed": 50,
+        "innerOpacity": 0.197597,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0.802403,
+        "loaderOpacity": 0.575862,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -22.7164)"
+      },
+      {
+        "elapsed": 99,
+        "innerOpacity": 0.0000536605,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0.999946,
+        "loaderOpacity": 0.921344,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -11.7473)"
+      },
+      {
+        "elapsed": 100,
+        "innerOpacity": 0,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 1,
+        "loaderOpacity": 0.924824,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -11.6368)"
+      },
+      {
+        "elapsed": 149,
+        "innerOpacity": 0,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 1,
+        "loaderOpacity": 0.999976,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -9.25076)"
+      },
+      {
+        "elapsed": 150,
+        "innerOpacity": 0,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 1,
+        "loaderOpacity": 1,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -9.25)"
+      }
+    ],
+    "removed": false
+  },
+  {
+    "rem": 16,
+    "mode": "dark",
+    "phase": "exit",
+    "frames": [
+      {
+        "elapsed": 0,
+        "innerOpacity": 0,
+        "labelOpacity": 1,
+        "overlayOpacity": 1,
+        "loaderOpacity": 1,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -9.25)"
+      },
+      {
+        "elapsed": 20,
+        "innerOpacity": 0.295244,
+        "labelOpacity": 1,
+        "overlayOpacity": 0.704756,
+        "loaderOpacity": 0.847576,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -14.0894)"
+      },
+      {
+        "elapsed": 50,
+        "innerOpacity": 0.802403,
+        "labelOpacity": 1,
+        "overlayOpacity": 0.197597,
+        "loaderOpacity": 0.424138,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -27.5336)"
+      },
+      {
+        "elapsed": 99,
+        "innerOpacity": 0.999946,
+        "labelOpacity": 1,
+        "overlayOpacity": 0.0000536605,
+        "loaderOpacity": 0.0786558,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -38.5027)"
+      },
+      {
+        "elapsed": 100,
+        "innerOpacity": 1,
+        "labelOpacity": 1,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0.075176,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -38.6132)"
+      },
+      {
+        "elapsed": 149,
+        "innerOpacity": 1,
+        "labelOpacity": 1,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0.0000238004,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -40.9992)"
+      },
+      {
+        "elapsed": 150,
+        "innerOpacity": 1,
+        "labelOpacity": 1,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -41)"
+      }
+    ],
+    "removed": true
+  },
+  {
+    "rem": 16,
+    "mode": "light",
+    "phase": "enter",
+    "frames": [
+      {
+        "elapsed": 0,
+        "innerOpacity": 1,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -41)"
+      },
+      {
+        "elapsed": 20,
+        "innerOpacity": 0.704756,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0.295244,
+        "loaderOpacity": 0.152424,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -36.1605)"
+      },
+      {
+        "elapsed": 50,
+        "innerOpacity": 0.197597,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0.802403,
+        "loaderOpacity": 0.575862,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -22.7164)"
+      },
+      {
+        "elapsed": 99,
+        "innerOpacity": 0.0000536605,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0.999946,
+        "loaderOpacity": 0.921344,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -11.7473)"
+      },
+      {
+        "elapsed": 100,
+        "innerOpacity": 0,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 1,
+        "loaderOpacity": 0.924824,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -11.6368)"
+      },
+      {
+        "elapsed": 149,
+        "innerOpacity": 0,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 1,
+        "loaderOpacity": 0.999976,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -9.25076)"
+      },
+      {
+        "elapsed": 150,
+        "innerOpacity": 0,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 1,
+        "loaderOpacity": 1,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -9.25)"
+      }
+    ],
+    "removed": false
+  },
+  {
+    "rem": 16,
+    "mode": "light",
+    "phase": "exit",
+    "frames": [
+      {
+        "elapsed": 0,
+        "innerOpacity": 0,
+        "labelOpacity": 1,
+        "overlayOpacity": 1,
+        "loaderOpacity": 1,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -9.25)"
+      },
+      {
+        "elapsed": 20,
+        "innerOpacity": 0.295244,
+        "labelOpacity": 1,
+        "overlayOpacity": 0.704756,
+        "loaderOpacity": 0.847576,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -14.0894)"
+      },
+      {
+        "elapsed": 50,
+        "innerOpacity": 0.802403,
+        "labelOpacity": 1,
+        "overlayOpacity": 0.197597,
+        "loaderOpacity": 0.424138,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -27.5336)"
+      },
+      {
+        "elapsed": 99,
+        "innerOpacity": 0.999946,
+        "labelOpacity": 1,
+        "overlayOpacity": 0.0000536605,
+        "loaderOpacity": 0.0786558,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -38.5027)"
+      },
+      {
+        "elapsed": 100,
+        "innerOpacity": 1,
+        "labelOpacity": 1,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0.075176,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -38.6132)"
+      },
+      {
+        "elapsed": 149,
+        "innerOpacity": 1,
+        "labelOpacity": 1,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0.0000238004,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -40.9992)"
+      },
+      {
+        "elapsed": 150,
+        "innerOpacity": 1,
+        "labelOpacity": 1,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0,
+        "loaderTransform": "matrix(1, 0, 0, 1, -9, -41)"
+      }
+    ],
+    "removed": true
+  },
+  {
+    "rem": 20,
+    "mode": "dark",
+    "phase": "enter",
+    "frames": [
+      {
+        "elapsed": 0,
+        "innerOpacity": 1,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -51)"
+      },
+      {
+        "elapsed": 20,
+        "innerOpacity": 0.704756,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0.295244,
+        "loaderOpacity": 0.152424,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -44.9793)"
+      },
+      {
+        "elapsed": 50,
+        "innerOpacity": 0.197597,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0.802403,
+        "loaderOpacity": 0.575862,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -28.2534)"
+      },
+      {
+        "elapsed": 99,
+        "innerOpacity": 0.0000536605,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0.999946,
+        "loaderOpacity": 0.921344,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -14.6069)"
+      },
+      {
+        "elapsed": 100,
+        "innerOpacity": 0,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 1,
+        "loaderOpacity": 0.924824,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -14.4695)"
+      },
+      {
+        "elapsed": 149,
+        "innerOpacity": 0,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 1,
+        "loaderOpacity": 0.999976,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -11.5009)"
+      },
+      {
+        "elapsed": 150,
+        "innerOpacity": 0,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 1,
+        "loaderOpacity": 1,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -11.5)"
+      }
+    ],
+    "removed": false
+  },
+  {
+    "rem": 20,
+    "mode": "dark",
+    "phase": "exit",
+    "frames": [
+      {
+        "elapsed": 0,
+        "innerOpacity": 0,
+        "labelOpacity": 1,
+        "overlayOpacity": 1,
+        "loaderOpacity": 1,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -11.5)"
+      },
+      {
+        "elapsed": 20,
+        "innerOpacity": 0.295244,
+        "labelOpacity": 1,
+        "overlayOpacity": 0.704756,
+        "loaderOpacity": 0.847576,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -17.5207)"
+      },
+      {
+        "elapsed": 50,
+        "innerOpacity": 0.802403,
+        "labelOpacity": 1,
+        "overlayOpacity": 0.197597,
+        "loaderOpacity": 0.424138,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -34.2466)"
+      },
+      {
+        "elapsed": 99,
+        "innerOpacity": 0.999946,
+        "labelOpacity": 1,
+        "overlayOpacity": 0.0000536605,
+        "loaderOpacity": 0.0786558,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -47.8931)"
+      },
+      {
+        "elapsed": 100,
+        "innerOpacity": 1,
+        "labelOpacity": 1,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0.075176,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -48.0305)"
+      },
+      {
+        "elapsed": 149,
+        "innerOpacity": 1,
+        "labelOpacity": 1,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0.0000238004,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -50.9991)"
+      },
+      {
+        "elapsed": 150,
+        "innerOpacity": 1,
+        "labelOpacity": 1,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -51)"
+      }
+    ],
+    "removed": true
+  },
+  {
+    "rem": 20,
+    "mode": "light",
+    "phase": "enter",
+    "frames": [
+      {
+        "elapsed": 0,
+        "innerOpacity": 1,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -51)"
+      },
+      {
+        "elapsed": 20,
+        "innerOpacity": 0.704756,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0.295244,
+        "loaderOpacity": 0.152424,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -44.9793)"
+      },
+      {
+        "elapsed": 50,
+        "innerOpacity": 0.197597,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0.802403,
+        "loaderOpacity": 0.575862,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -28.2534)"
+      },
+      {
+        "elapsed": 99,
+        "innerOpacity": 0.0000536605,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 0.999946,
+        "loaderOpacity": 0.921344,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -14.6069)"
+      },
+      {
+        "elapsed": 100,
+        "innerOpacity": 0,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 1,
+        "loaderOpacity": 0.924824,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -14.4695)"
+      },
+      {
+        "elapsed": 149,
+        "innerOpacity": 0,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 1,
+        "loaderOpacity": 0.999976,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -11.5009)"
+      },
+      {
+        "elapsed": 150,
+        "innerOpacity": 0,
+        "labelOpacity": 0.2,
+        "overlayOpacity": 1,
+        "loaderOpacity": 1,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -11.5)"
+      }
+    ],
+    "removed": false
+  },
+  {
+    "rem": 20,
+    "mode": "light",
+    "phase": "exit",
+    "frames": [
+      {
+        "elapsed": 0,
+        "innerOpacity": 0,
+        "labelOpacity": 1,
+        "overlayOpacity": 1,
+        "loaderOpacity": 1,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -11.5)"
+      },
+      {
+        "elapsed": 20,
+        "innerOpacity": 0.295244,
+        "labelOpacity": 1,
+        "overlayOpacity": 0.704756,
+        "loaderOpacity": 0.847576,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -17.5207)"
+      },
+      {
+        "elapsed": 50,
+        "innerOpacity": 0.802403,
+        "labelOpacity": 1,
+        "overlayOpacity": 0.197597,
+        "loaderOpacity": 0.424138,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -34.2466)"
+      },
+      {
+        "elapsed": 99,
+        "innerOpacity": 0.999946,
+        "labelOpacity": 1,
+        "overlayOpacity": 0.0000536605,
+        "loaderOpacity": 0.0786558,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -47.8931)"
+      },
+      {
+        "elapsed": 100,
+        "innerOpacity": 1,
+        "labelOpacity": 1,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0.075176,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -48.0305)"
+      },
+      {
+        "elapsed": 149,
+        "innerOpacity": 1,
+        "labelOpacity": 1,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0.0000238004,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -50.9991)"
+      },
+      {
+        "elapsed": 150,
+        "innerOpacity": 1,
+        "labelOpacity": 1,
+        "overlayOpacity": 0,
+        "loaderOpacity": 0,
+        "loaderTransform": "matrix(1, 0, 0, 1, -11.25, -51)"
+      }
+    ],
+    "removed": true
+  }
+]

@@ -1,0 +1,203 @@
+{
+  "source": "src/main/features/linux/mpris.ts",
+  "metadata": [
+    {
+      "name": "rich",
+      "song": {
+        "id": "track-2",
+        "_serverId": "server",
+        "name": "Track 002",
+        "album": "Northern Lights",
+        "artists": [
+          {
+            "name": "Fixture Artist"
+          },
+          {
+            "name": "Guest Artist"
+          }
+        ],
+        "albumArtists": [
+          {
+            "name": "Album Artist"
+          }
+        ],
+        "duration": 40000,
+        "bpm": 123,
+        "comment": "Fixture comment",
+        "releaseDate": "2026-01-02T00:00:00Z",
+        "discNumber": 1,
+        "genres": [
+          {
+            "name": "Ambient"
+          },
+          {
+            "name": "Electronic"
+          }
+        ],
+        "lastPlayedAt": "2026-02-03T01:02:03Z",
+        "trackNumber": 2,
+        "playCount": 7,
+        "userRating": 4
+      },
+      "cover": "file:///tmp/art%20work.png",
+      "metadata": {
+        "mpris:artUrl": "file:///tmp/art%20work.png",
+        "mpris:length": 40000000,
+        "mpris:trackid": "/org/mpris/MediaPlayer2/track/track2",
+        "xesam:album": "Northern Lights",
+        "xesam:albumArtist": [
+          "Album Artist"
+        ],
+        "xesam:artist": [
+          "Fixture Artist",
+          "Guest Artist"
+        ],
+        "xesam:audioBpm": 123,
+        "xesam:comment": [
+          "Fixture comment"
+        ],
+        "xesam:contentCreated": "2026-01-02T00:00:00Z",
+        "xesam:discNumber": 1,
+        "xesam:genre": [
+          "Ambient",
+          "Electronic"
+        ],
+        "xesam:lastUsed": "2026-02-03T01:02:03Z",
+        "xesam:title": "Track 002",
+        "xesam:trackNumber": 2,
+        "xesam:useCount": 7,
+        "xesam:userRating": 0.8
+      }
+    },
+    {
+      "name": "sparse",
+      "song": {
+        "id": "sparse",
+        "_serverId": "server",
+        "name": "Sparse",
+        "duration": 0,
+        "playCount": 0
+      },
+      "cover": null,
+      "metadata": {
+        "mpris:artUrl": null,
+        "mpris:length": null,
+        "mpris:trackid": "/org/mpris/MediaPlayer2/track/sparse",
+        "xesam:album": null,
+        "xesam:albumArtist": null,
+        "xesam:artist": null,
+        "xesam:comment": null,
+        "xesam:discNumber": null,
+        "xesam:genre": null,
+        "xesam:title": "Sparse",
+        "xesam:trackNumber": null,
+        "xesam:useCount": 0,
+        "xesam:userRating": null
+      }
+    },
+    {
+      "name": "radio",
+      "song": {
+        "id": "radio-FM / station",
+        "_serverId": "",
+        "name": "Live title",
+        "album": "Station",
+        "artists": [
+          {
+            "name": "Radio artist"
+          }
+        ]
+      },
+      "cover": null,
+      "metadata": {
+        "mpris:trackid": "/org/mpris/MediaPlayer2/track/radio",
+        "xesam:album": "Station",
+        "xesam:artist": [
+          "Radio artist"
+        ],
+        "xesam:title": "Live title"
+      }
+    },
+    {
+      "name": "empty",
+      "song": null,
+      "cover": null,
+      "metadata": {}
+    }
+  ],
+  "volume": [
+    {
+      "input": -0.25,
+      "volume": 0,
+      "published": 0
+    },
+    {
+      "input": 0,
+      "volume": 0,
+      "published": 0
+    },
+    {
+      "input": 0.004,
+      "volume": 0,
+      "published": 0
+    },
+    {
+      "input": 0.005,
+      "volume": 1,
+      "published": 0.01
+    },
+    {
+      "input": 0.499,
+      "volume": 50,
+      "published": 0.5
+    },
+    {
+      "input": 0.504,
+      "volume": 50,
+      "published": 0.5
+    },
+    {
+      "input": 0.505,
+      "volume": 51,
+      "published": 0.51
+    },
+    {
+      "input": 1,
+      "volume": 100,
+      "published": 1
+    },
+    {
+      "input": 1.3,
+      "volume": 100,
+      "published": 1
+    }
+  ],
+  "repeat": [
+    {
+      "input": "none",
+      "output": "None"
+    },
+    {
+      "input": "all",
+      "output": "Playlist"
+    },
+    {
+      "input": "one",
+      "output": "Track"
+    }
+  ],
+  "seek": [
+    {
+      "input": 0,
+      "output": 0
+    },
+    {
+      "input": 1.25,
+      "output": 1250000
+    },
+    {
+      "input": 40,
+      "output": 40000000
+    }
+  ]
+}

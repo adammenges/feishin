@@ -1,0 +1,788 @@
+[
+  {
+    "config": {
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "disabled": []
+    },
+    "initial": {
+      "selected": "0",
+      "focus": "query",
+      "activations": []
+    },
+    "steps": [
+      {
+        "operation": {
+          "key": "ArrowUp"
+        },
+        "prevented": true,
+        "selected": "0",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "End"
+        },
+        "prevented": true,
+        "selected": "5",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowDown"
+        },
+        "prevented": true,
+        "selected": "5",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Home"
+        },
+        "prevented": true,
+        "selected": "0",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowDown"
+        },
+        "prevented": true,
+        "selected": "1",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "j",
+          "ctrlKey": true
+        },
+        "prevented": true,
+        "selected": "2",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "p",
+          "ctrlKey": true
+        },
+        "prevented": true,
+        "selected": "1",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "n",
+          "ctrlKey": true
+        },
+        "prevented": true,
+        "selected": "2",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "k",
+          "ctrlKey": true
+        },
+        "prevented": true,
+        "selected": "1",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowDown",
+          "altKey": true
+        },
+        "prevented": true,
+        "selected": "3",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowUp",
+          "altKey": true
+        },
+        "prevented": true,
+        "selected": "0",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowDown",
+          "metaKey": true
+        },
+        "prevented": true,
+        "selected": "5",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowUp",
+          "metaKey": true
+        },
+        "prevented": true,
+        "selected": "0",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "pointer": "2"
+        },
+        "prevented": false,
+        "selected": "2",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Tab"
+        },
+        "prevented": true,
+        "selected": "2",
+        "focus": "second-2",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowDown"
+        },
+        "prevented": true,
+        "selected": "3",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Tab"
+        },
+        "prevented": true,
+        "selected": "3",
+        "focus": "action-3",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Tab",
+          "shiftKey": true
+        },
+        "prevented": false,
+        "selected": "3",
+        "focus": "action-3",
+        "activations": []
+      },
+      {
+        "operation": {
+          "pointer": "4"
+        },
+        "prevented": false,
+        "selected": "4",
+        "focus": "action-3",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Enter"
+        },
+        "prevented": true,
+        "selected": "4",
+        "focus": "action-3",
+        "activations": [
+          "4"
+        ]
+      }
+    ]
+  },
+  {
+    "config": {
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "disabled": [
+        0,
+        1,
+        4
+      ]
+    },
+    "initial": {
+      "selected": "2",
+      "focus": "query",
+      "activations": []
+    },
+    "steps": [
+      {
+        "operation": {
+          "key": "ArrowUp"
+        },
+        "prevented": true,
+        "selected": "2",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "End"
+        },
+        "prevented": true,
+        "selected": "5",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowDown"
+        },
+        "prevented": true,
+        "selected": "5",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Home"
+        },
+        "prevented": true,
+        "selected": "2",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowDown"
+        },
+        "prevented": true,
+        "selected": "3",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "j",
+          "ctrlKey": true
+        },
+        "prevented": true,
+        "selected": "5",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "p",
+          "ctrlKey": true
+        },
+        "prevented": true,
+        "selected": "3",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "n",
+          "ctrlKey": true
+        },
+        "prevented": true,
+        "selected": "5",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "k",
+          "ctrlKey": true
+        },
+        "prevented": true,
+        "selected": "3",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowDown",
+          "altKey": true
+        },
+        "prevented": true,
+        "selected": "5",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowUp",
+          "altKey": true
+        },
+        "prevented": true,
+        "selected": "2",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowDown",
+          "metaKey": true
+        },
+        "prevented": true,
+        "selected": "5",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowUp",
+          "metaKey": true
+        },
+        "prevented": true,
+        "selected": "2",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "pointer": "2"
+        },
+        "prevented": false,
+        "selected": "2",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Tab"
+        },
+        "prevented": true,
+        "selected": "2",
+        "focus": "second-2",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowDown"
+        },
+        "prevented": true,
+        "selected": "3",
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Tab"
+        },
+        "prevented": true,
+        "selected": "3",
+        "focus": "action-3",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Tab",
+          "shiftKey": true
+        },
+        "prevented": false,
+        "selected": "3",
+        "focus": "action-3",
+        "activations": []
+      },
+      {
+        "operation": {
+          "pointer": "4"
+        },
+        "prevented": false,
+        "selected": "3",
+        "focus": "action-3",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Enter"
+        },
+        "prevented": true,
+        "selected": "3",
+        "focus": "action-3",
+        "activations": [
+          "3"
+        ]
+      }
+    ]
+  },
+  {
+    "config": {
+      "groups": [
+        [],
+        []
+      ],
+      "disabled": []
+    },
+    "initial": {
+      "selected": null,
+      "focus": "query",
+      "activations": []
+    },
+    "steps": [
+      {
+        "operation": {
+          "key": "ArrowUp"
+        },
+        "prevented": true,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "End"
+        },
+        "prevented": true,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowDown"
+        },
+        "prevented": true,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Home"
+        },
+        "prevented": true,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowDown"
+        },
+        "prevented": true,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "j",
+          "ctrlKey": true
+        },
+        "prevented": true,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "p",
+          "ctrlKey": true
+        },
+        "prevented": true,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "n",
+          "ctrlKey": true
+        },
+        "prevented": true,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "k",
+          "ctrlKey": true
+        },
+        "prevented": true,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowDown",
+          "altKey": true
+        },
+        "prevented": true,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowUp",
+          "altKey": true
+        },
+        "prevented": true,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowDown",
+          "metaKey": true
+        },
+        "prevented": true,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowUp",
+          "metaKey": true
+        },
+        "prevented": true,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "pointer": "2"
+        },
+        "prevented": false,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Tab"
+        },
+        "prevented": false,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "ArrowDown"
+        },
+        "prevented": true,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Tab"
+        },
+        "prevented": false,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Tab",
+          "shiftKey": true
+        },
+        "prevented": false,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "pointer": "4"
+        },
+        "prevented": false,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Enter"
+        },
+        "prevented": true,
+        "selected": null,
+        "focus": "query",
+        "activations": []
+      }
+    ]
+  },
+  {
+    "config": {
+      "groups": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "disabled": [],
+      "actions": true
+    },
+    "initial": {
+      "selected": "0",
+      "focus": "query",
+      "activations": []
+    },
+    "steps": [
+      {
+        "operation": {
+          "key": "Tab"
+        },
+        "prevented": true,
+        "selected": "0",
+        "focus": "action-0",
+        "activations": []
+      },
+      {
+        "operation": {
+          "key": "Enter"
+        },
+        "prevented": true,
+        "selected": "0",
+        "focus": "action-0",
+        "activations": [
+          "now:0"
+        ]
+      },
+      {
+        "operation": {
+          "key": " "
+        },
+        "prevented": true,
+        "selected": "0",
+        "focus": "action-0",
+        "activations": [
+          "now:0",
+          "now:0"
+        ]
+      },
+      {
+        "operation": {
+          "key": "Tab"
+        },
+        "prevented": false,
+        "selected": "0",
+        "focus": "action-0",
+        "activations": [
+          "now:0",
+          "now:0"
+        ]
+      },
+      {
+        "operation": {
+          "key": "ArrowDown"
+        },
+        "prevented": true,
+        "selected": "1",
+        "focus": "query",
+        "activations": [
+          "now:0",
+          "now:0"
+        ]
+      },
+      {
+        "operation": {
+          "key": "Tab"
+        },
+        "prevented": true,
+        "selected": "1",
+        "focus": "action-1",
+        "activations": [
+          "now:0",
+          "now:0"
+        ]
+      },
+      {
+        "operation": {
+          "key": "Enter"
+        },
+        "prevented": true,
+        "selected": "1",
+        "focus": "action-1",
+        "activations": [
+          "now:0",
+          "now:0",
+          "now:1"
+        ]
+      },
+      {
+        "operation": {
+          "key": "ArrowDown"
+        },
+        "prevented": true,
+        "selected": "2",
+        "focus": "query",
+        "activations": [
+          "now:0",
+          "now:0",
+          "now:1"
+        ]
+      },
+      {
+        "operation": {
+          "key": "Tab"
+        },
+        "prevented": true,
+        "selected": "2",
+        "focus": "second-2",
+        "activations": [
+          "now:0",
+          "now:0",
+          "now:1"
+        ]
+      },
+      {
+        "operation": {
+          "key": " "
+        },
+        "prevented": true,
+        "selected": "2",
+        "focus": "second-2",
+        "activations": [
+          "now:0",
+          "now:0",
+          "now:1",
+          "next:2"
+        ]
+      }
+    ]
+  }
+]

@@ -2,7 +2,7 @@
 
 Custom themes let you add your own light and dark themes to the **desktop** app without rebuilding Feishin. Drop JSON theme files into the Themes folder; Feishin watches that folder and reloads themes when files change.
 
-Custom themes are **Electron / desktop only**. They are not available in the web or Docker builds.
+Custom themes are loaded by the native Rust desktop application. Existing theme JSON and supported CSS overrides remain compatible.
 
 ---
 
@@ -19,11 +19,11 @@ You can also click **Reload** in Settings if a change was not picked up automati
 
 | Platform | Typical path |
 |----------|----------------|
-| Windows | `%APPDATA%\feishin\Themes` |
-| macOS | `~/Library/Application Support/feishin/Themes` |
-| Linux | `~/.config/feishin/Themes` |
+| Windows | `%APPDATA%\jeffvli\FeishinRust\data\Themes` |
+| macOS | `~/Library/Application Support/org.jeffvli.FeishinRust/Themes` |
+| Linux | `~/.local/share/feishinrust/Themes` |
 
-In development builds the folder name is under `feishin-dev` instead of `feishin`.
+Set `FEISHIN_DATA_DIR` to override the native data directory; themes then live in its `Themes` subdirectory. Use Open Folder for the exact platform path.
 
 Theme files must be **`.json` files in the root of the Themes folder** (not nested in subfolders). Linked stylesheets may live next to them or in subfolders, as long as they stay inside Themes.
 
@@ -142,7 +142,7 @@ Rules:
 
 - Custom theme fields always win over the theme they extend.
 - Custom → custom chains are flattened when loading (depth limit of 10; cycles are ignored).
-- If `extends` is a built-in id, merging with that built-in’s defaults happens in the renderer.
+- If `extends` is a built-in id, merging with that built-in’s defaults happens in the native theme loader.
 - If `extends` is omitted, the theme still merges onto Feishin’s shared default palette.
 
 ### Built-in theme ids

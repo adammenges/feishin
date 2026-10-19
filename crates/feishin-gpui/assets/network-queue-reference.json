@@ -1,0 +1,1202 @@
+[
+  {
+    "empty": false,
+    "uri": "",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?id=repeat&token=new",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": {
+      "index": 1,
+      "id": "1",
+      "url": "http://library/stream?id=repeat&token=old"
+    }
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?id=repeat&token=new",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": {
+      "index": 1,
+      "id": "1",
+      "url": "http://library/stream?id=repeat&token=old"
+    }
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?id=repeat&token=new",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": {
+      "index": 3,
+      "id": "3",
+      "url": "http://library/stream?id=repeat&token=old"
+    }
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?id=repeat&token=new",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?itemId=repeat",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": {
+      "index": 1,
+      "id": "1",
+      "url": "http://library/stream?id=repeat&token=old"
+    }
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?itemId=repeat",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": {
+      "index": 1,
+      "id": "1",
+      "url": "http://library/stream?id=repeat&token=old"
+    }
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?itemId=repeat",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": {
+      "index": 3,
+      "id": "3",
+      "url": "http://library/stream?id=repeat&token=old"
+    }
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?itemId=repeat",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?Id=repeat",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": {
+      "index": 1,
+      "id": "1",
+      "url": "http://library/stream?id=repeat&token=old"
+    }
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?Id=repeat",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": {
+      "index": 1,
+      "id": "1",
+      "url": "http://library/stream?id=repeat&token=old"
+    }
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?Id=repeat",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": {
+      "index": 3,
+      "id": "3",
+      "url": "http://library/stream?id=repeat&token=old"
+    }
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?Id=repeat",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/audio/track.flac?token=new",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": {
+      "index": 6,
+      "id": "6",
+      "url": "http://library/audio/track.flac?token=old"
+    }
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/audio/track.flac?token=new",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/audio/track.flac?token=new",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/audio/track.flac?token=new",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "not-a-url?token=new",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": {
+      "index": 7,
+      "id": "7",
+      "url": "not-a-url?token=old"
+    }
+  },
+  {
+    "empty": false,
+    "uri": "not-a-url?token=new",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "not-a-url?token=new",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "not-a-url?token=new",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/unmatched",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/unmatched",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/unmatched",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/unmatched",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?id=first",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": {
+      "index": 0,
+      "id": "0",
+      "url": "http://library/stream?id=first&token=old"
+    }
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?id=first",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?id=first",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?id=first",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?id=missing",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?id=missing",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?id=missing",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": false,
+    "uri": "http://speaker/stream?id=missing",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?id=repeat&token=new",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?id=repeat&token=new",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?id=repeat&token=new",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?id=repeat&token=new",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?itemId=repeat",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?itemId=repeat",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?itemId=repeat",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?itemId=repeat",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?Id=repeat",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?Id=repeat",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?Id=repeat",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?Id=repeat",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/audio/track.flac?token=new",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/audio/track.flac?token=new",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/audio/track.flac?token=new",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/audio/track.flac?token=new",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "not-a-url?token=new",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "not-a-url?token=new",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "not-a-url?token=new",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "not-a-url?token=new",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/unmatched",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/unmatched",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/unmatched",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/unmatched",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?id=first",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?id=first",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?id=first",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?id=first",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?id=missing",
+    "nextUri": "",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?id=missing",
+    "nextUri": "http://speaker/stream?id=last",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?id=missing",
+    "nextUri": "http://speaker/stream?id=finish",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  },
+  {
+    "empty": true,
+    "uri": "http://speaker/stream?id=missing",
+    "nextUri": "http://speaker/stream?id=unknown",
+    "urls": [
+      "http://library/stream?id=first&token=old",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=last",
+      "http://library/stream?id=repeat&token=old",
+      "http://library/stream?id=finish",
+      null,
+      "http://library/audio/track.flac?token=old",
+      "not-a-url?token=old"
+    ],
+    "match": null
+  }
+]

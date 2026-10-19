@@ -1,0 +1,6 @@
+Test-only ICC profile: Artifex CMYK SWOP Profile
+Copyright Artifex Software 2011
+Source: https://github.com/ArtifexSoftware/ghostpdl/blob/22d8a2653ae532c7c23aa9a441e6c120edd9bdef/iccprofiles/default_cmyk.icc
+SHA256: 8472fa1493a024b800b67dee9424835ec0c41ab79490200ae8ec4a689fd1b9a9
+License: AGPL-3.0-or-later; upstream LICENSE and doc/COPYING are retained alongside this file.
+The profile is embedded only in synthetic JPEG test fixtures, never used as an application default or runtime conversion profile.

@@ -1,0 +1,65 @@
+[
+  {
+    "query": "",
+    "items": [
+      {
+        "value": "common.search",
+        "label": "common.search..."
+      },
+      {
+        "value": "action.createPlaylist...",
+        "label": "action.createPlaylist..."
+      },
+      {
+        "value": "page.globalSearch.commands.goToPage...",
+        "label": "page.globalSearch.commands.goToPage..."
+      },
+      {
+        "value": "page.globalSearch.commands.serverCommands...",
+        "label": "page.globalSearch.commands.serverCommands..."
+      }
+    ]
+  },
+  {
+    "query": "music",
+    "items": [
+      {
+        "value": "common.search",
+        "label": "page.globalSearch.commands.searchFor"
+      },
+      {
+        "value": "action.createPlaylist...",
+        "label": "action.createPlaylist..."
+      },
+      {
+        "value": "page.globalSearch.commands.goToPage...",
+        "label": "page.globalSearch.commands.goToPage..."
+      },
+      {
+        "value": "page.globalSearch.commands.serverCommands...",
+        "label": "page.globalSearch.commands.serverCommands..."
+      }
+    ]
+  },
+  {
+    "query": "create",
+    "items": [
+      {
+        "value": "common.search",
+        "label": "page.globalSearch.commands.searchFor"
+      },
+      {
+        "value": "action.createPlaylist...",
+        "label": "action.createPlaylist..."
+      },
+      {
+        "value": "page.globalSearch.commands.goToPage...",
+        "label": "page.globalSearch.commands.goToPage..."
+      },
+      {
+        "value": "page.globalSearch.commands.serverCommands...",
+        "label": "page.globalSearch.commands.serverCommands..."
+      }
+    ]
+  }
+]

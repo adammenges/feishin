@@ -1,0 +1,2913 @@
+[
+  {
+    "kind": "panel",
+    "initial": "a",
+    "updates": [
+      [
+        0,
+        "b"
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 50,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.80142,
+            "x": 11.9078
+          }
+        ]
+      },
+      {
+        "milliseconds": 100,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.621862,
+            "x": 22.7048
+          }
+        ]
+      },
+      {
+        "milliseconds": 150,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.459465,
+            "x": 32.4366
+          }
+        ]
+      },
+      {
+        "milliseconds": 200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.315357,
+            "x": 41.0774
+          }
+        ]
+      },
+      {
+        "milliseconds": 250,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.192022,
+            "x": 48.4847
+          }
+        ]
+      },
+      {
+        "milliseconds": 350,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.0259846,
+            "x": 58.4336
+          }
+        ]
+      },
+      {
+        "milliseconds": 399,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.0000117769,
+            "x": 59.9992
+          }
+        ]
+      },
+      {
+        "milliseconds": 400,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 0,
+            "x": 60
+          }
+        ]
+      },
+      {
+        "milliseconds": 450,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 0.19858,
+            "x": 48.0922
+          }
+        ]
+      },
+      {
+        "milliseconds": 500,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 0.378138,
+            "x": 37.2952
+          }
+        ]
+      },
+      {
+        "milliseconds": 550,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 0.540535,
+            "x": 27.5634
+          }
+        ]
+      },
+      {
+        "milliseconds": 600,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 0.684643,
+            "x": 18.9226
+          }
+        ]
+      },
+      {
+        "milliseconds": 700,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 0.906535,
+            "x": 5.60424
+          }
+        ]
+      },
+      {
+        "milliseconds": 799,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 0.999988,
+            "x": 0.00084
+          }
+        ]
+      },
+      {
+        "milliseconds": 800,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 900,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1000,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1200,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1600,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "panel",
+    "initial": "",
+    "updates": [
+      [
+        0,
+        "a"
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0,
+            "x": 60
+          }
+        ]
+      },
+      {
+        "milliseconds": 50,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.19858,
+            "x": 48.0922
+          }
+        ]
+      },
+      {
+        "milliseconds": 100,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.378138,
+            "x": 37.2952
+          }
+        ]
+      },
+      {
+        "milliseconds": 150,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.540535,
+            "x": 27.5634
+          }
+        ]
+      },
+      {
+        "milliseconds": 200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.684643,
+            "x": 18.9226
+          }
+        ]
+      },
+      {
+        "milliseconds": 250,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.807978,
+            "x": 11.5153
+          }
+        ]
+      },
+      {
+        "milliseconds": 350,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.974015,
+            "x": 1.56636
+          }
+        ]
+      },
+      {
+        "milliseconds": 399,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.999988,
+            "x": 0.00084
+          }
+        ]
+      },
+      {
+        "milliseconds": 400,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 450,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 500,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 550,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 600,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 700,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 799,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 800,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 900,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1000,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1600,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "panel",
+    "initial": "a",
+    "updates": [
+      [
+        0,
+        ""
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 50,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.80142,
+            "x": 11.9078
+          }
+        ]
+      },
+      {
+        "milliseconds": 100,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.621862,
+            "x": 22.7048
+          }
+        ]
+      },
+      {
+        "milliseconds": 150,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.459465,
+            "x": 32.4366
+          }
+        ]
+      },
+      {
+        "milliseconds": 200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.315357,
+            "x": 41.0774
+          }
+        ]
+      },
+      {
+        "milliseconds": 250,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.192022,
+            "x": 48.4847
+          }
+        ]
+      },
+      {
+        "milliseconds": 350,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.0259846,
+            "x": 58.4336
+          }
+        ]
+      },
+      {
+        "milliseconds": 399,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.0000117769,
+            "x": 59.9992
+          }
+        ]
+      },
+      {
+        "milliseconds": 400,
+        "layers": []
+      },
+      {
+        "milliseconds": 450,
+        "layers": []
+      },
+      {
+        "milliseconds": 500,
+        "layers": []
+      },
+      {
+        "milliseconds": 550,
+        "layers": []
+      },
+      {
+        "milliseconds": 600,
+        "layers": []
+      },
+      {
+        "milliseconds": 700,
+        "layers": []
+      },
+      {
+        "milliseconds": 799,
+        "layers": []
+      },
+      {
+        "milliseconds": 800,
+        "layers": []
+      },
+      {
+        "milliseconds": 900,
+        "layers": []
+      },
+      {
+        "milliseconds": 1000,
+        "layers": []
+      },
+      {
+        "milliseconds": 1200,
+        "layers": []
+      },
+      {
+        "milliseconds": 1600,
+        "layers": []
+      }
+    ]
+  },
+  {
+    "kind": "panel",
+    "initial": "a",
+    "updates": [
+      [
+        0,
+        "b"
+      ],
+      [
+        100,
+        "a"
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 50,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.80142,
+            "x": 11.9078
+          }
+        ]
+      },
+      {
+        "milliseconds": 100,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.621587,
+            "x": 22.7048
+          }
+        ]
+      },
+      {
+        "milliseconds": 150,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.696732,
+            "x": 18.1987
+          }
+        ]
+      },
+      {
+        "milliseconds": 200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.764679,
+            "x": 14.113
+          }
+        ]
+      },
+      {
+        "milliseconds": 250,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.826132,
+            "x": 10.4304
+          }
+        ]
+      },
+      {
+        "milliseconds": 350,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.927336,
+            "x": 4.35756
+          }
+        ]
+      },
+      {
+        "milliseconds": 399,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.963991,
+            "x": 2.16162
+          }
+        ]
+      },
+      {
+        "milliseconds": 400,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.964632,
+            "x": 2.1207
+          }
+        ]
+      },
+      {
+        "milliseconds": 450,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.990167,
+            "x": 0.59274
+          }
+        ]
+      },
+      {
+        "milliseconds": 500,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 550,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 600,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 700,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 799,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 800,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 900,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1000,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1600,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "panel",
+    "initial": "a",
+    "updates": [
+      [
+        0,
+        "b"
+      ],
+      [
+        200,
+        "c"
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 50,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.80142,
+            "x": 11.9078
+          }
+        ]
+      },
+      {
+        "milliseconds": 100,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.621862,
+            "x": 22.7048
+          }
+        ]
+      },
+      {
+        "milliseconds": 150,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.459465,
+            "x": 32.4366
+          }
+        ]
+      },
+      {
+        "milliseconds": 200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.315357,
+            "x": 41.0774
+          }
+        ]
+      },
+      {
+        "milliseconds": 250,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.192022,
+            "x": 48.4847
+          }
+        ]
+      },
+      {
+        "milliseconds": 350,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.0259846,
+            "x": 58.4336
+          }
+        ]
+      },
+      {
+        "milliseconds": 399,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.0000117769,
+            "x": 59.9992
+          }
+        ]
+      },
+      {
+        "milliseconds": 400,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 0,
+            "x": 60
+          }
+        ]
+      },
+      {
+        "milliseconds": 450,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 0.19858,
+            "x": 48.0922
+          }
+        ]
+      },
+      {
+        "milliseconds": 500,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 0.378138,
+            "x": 37.2952
+          }
+        ]
+      },
+      {
+        "milliseconds": 550,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 0.540535,
+            "x": 27.5634
+          }
+        ]
+      },
+      {
+        "milliseconds": 600,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 0.684643,
+            "x": 18.9226
+          }
+        ]
+      },
+      {
+        "milliseconds": 700,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 0.906535,
+            "x": 5.60424
+          }
+        ]
+      },
+      {
+        "milliseconds": 799,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 0.999988,
+            "x": 0.00084
+          }
+        ]
+      },
+      {
+        "milliseconds": 800,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 900,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1000,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1200,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1600,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "panel",
+    "initial": "a",
+    "updates": [
+      [
+        0,
+        "b"
+      ],
+      [
+        500,
+        "c"
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 50,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.80142,
+            "x": 11.9078
+          }
+        ]
+      },
+      {
+        "milliseconds": 100,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.621862,
+            "x": 22.7048
+          }
+        ]
+      },
+      {
+        "milliseconds": 150,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.459465,
+            "x": 32.4366
+          }
+        ]
+      },
+      {
+        "milliseconds": 200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.315357,
+            "x": 41.0774
+          }
+        ]
+      },
+      {
+        "milliseconds": 250,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.192022,
+            "x": 48.4847
+          }
+        ]
+      },
+      {
+        "milliseconds": 350,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.0259846,
+            "x": 58.4336
+          }
+        ]
+      },
+      {
+        "milliseconds": 399,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.0000117769,
+            "x": 59.9992
+          }
+        ]
+      },
+      {
+        "milliseconds": 400,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 0,
+            "x": 60
+          }
+        ]
+      },
+      {
+        "milliseconds": 450,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 0.19858,
+            "x": 48.0922
+          }
+        ]
+      },
+      {
+        "milliseconds": 500,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 0.378413,
+            "x": 37.2952
+          }
+        ]
+      },
+      {
+        "milliseconds": 550,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 0.303268,
+            "x": 41.8013
+          }
+        ]
+      },
+      {
+        "milliseconds": 600,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 0.235321,
+            "x": 45.887
+          }
+        ]
+      },
+      {
+        "milliseconds": 700,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 0.119335,
+            "x": 52.8394
+          }
+        ]
+      },
+      {
+        "milliseconds": 799,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 0.0360088,
+            "x": 57.8384
+          }
+        ]
+      },
+      {
+        "milliseconds": 800,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 0.0353683,
+            "x": 57.8793
+          }
+        ]
+      },
+      {
+        "milliseconds": 900,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 0,
+            "x": 60
+          }
+        ]
+      },
+      {
+        "milliseconds": 1000,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 0.378138,
+            "x": 37.2952
+          }
+        ]
+      },
+      {
+        "milliseconds": 1200,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 0.906535,
+            "x": 5.60424
+          }
+        ]
+      },
+      {
+        "milliseconds": 1600,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "artwork",
+    "initial": "a",
+    "updates": [
+      [
+        0,
+        "b"
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 50,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.9375,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.125,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 100,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.875,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.25,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 150,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.8125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.375,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.75,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.5,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 250,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.6875,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.625,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 350,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.5625,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.875,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 399,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.50125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.9975,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 400,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.5,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 450,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.4375,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 500,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.375,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 550,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.3125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 600,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.25,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 700,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 799,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.00125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 800,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 900,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1000,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1200,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1600,
+        "layers": [
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "artwork",
+    "initial": "",
+    "updates": [
+      [
+        0,
+        "a"
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 50,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.125,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 100,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.25,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 150,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.375,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.5,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 250,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.625,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 350,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.875,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 399,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.9975,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 400,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 450,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 500,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 550,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 600,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 700,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 799,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 800,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 900,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1000,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1600,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "artwork",
+    "initial": "a",
+    "updates": [
+      [
+        0,
+        ""
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 50,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.9375,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 100,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.875,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 150,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.8125,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.75,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 250,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.6875,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 350,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.5625,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 399,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.50125,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 400,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.5,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 450,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.4375,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 500,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.375,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 550,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.3125,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 600,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.25,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 700,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.125,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 799,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.00125,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 800,
+        "layers": []
+      },
+      {
+        "milliseconds": 900,
+        "layers": []
+      },
+      {
+        "milliseconds": 1000,
+        "layers": []
+      },
+      {
+        "milliseconds": 1200,
+        "layers": []
+      },
+      {
+        "milliseconds": 1600,
+        "layers": []
+      }
+    ]
+  },
+  {
+    "kind": "artwork",
+    "initial": "a",
+    "updates": [
+      [
+        0,
+        "b"
+      ],
+      [
+        100,
+        "a"
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 50,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.9375,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.125,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 100,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.875,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.25,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 150,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.890625,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.234375,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.90625,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.21875,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 250,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.921875,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.203125,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 350,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.953125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.171875,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 399,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.968437,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.156563,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 400,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.96875,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.15625,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 450,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.984375,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.140625,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 500,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.125,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 550,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.109375,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 600,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.09375,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 700,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.0625,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 799,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.0315625,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 800,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.03125,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 900,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1000,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1600,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "artwork",
+    "initial": "a",
+    "updates": [
+      [
+        0,
+        "b"
+      ],
+      [
+        200,
+        "c"
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 50,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.9375,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.125,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 100,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.875,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.25,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 150,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.8125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.375,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.75,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.5,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 0,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 250,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.6875,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.46875,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 0.125,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 350,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.5625,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.40625,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 0.375,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 399,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.50125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.375625,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 0.4975,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 400,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.5,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.375,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 0.5,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 450,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.4375,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.34375,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 0.625,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 500,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.375,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.3125,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 0.75,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 550,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.3125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.28125,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 0.875,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 600,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.25,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.25,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 700,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.1875,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 799,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.00125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.125625,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 800,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.125,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 900,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.0625,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1000,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1200,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1600,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "kind": "artwork",
+    "initial": "a",
+    "updates": [
+      [
+        0,
+        "b"
+      ],
+      [
+        500,
+        "c"
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 1,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 50,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.9375,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.125,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 100,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.875,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.25,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 150,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.8125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.375,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.75,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.5,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 250,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.6875,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.625,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 350,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.5625,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.875,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 399,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.50125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.9975,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 400,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.5,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 450,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.4375,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 500,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.375,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 1,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 0,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 550,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.3125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.9375,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 0.125,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 600,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.25,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.875,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 0.25,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 700,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.75,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 0.5,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 799,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0.00125,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.62625,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 0.7475,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 800,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.625,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 0.75,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 900,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.5,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1000,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.375,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1200,
+        "layers": [
+          {
+            "key": "a",
+            "opacity": 0,
+            "x": 0
+          },
+          {
+            "key": "b",
+            "opacity": 0.125,
+            "x": 0
+          },
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      },
+      {
+        "milliseconds": 1600,
+        "layers": [
+          {
+            "key": "c",
+            "opacity": 1,
+            "x": 0
+          }
+        ]
+      }
+    ]
+  }
+]

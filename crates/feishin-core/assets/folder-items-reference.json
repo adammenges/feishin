@@ -1,0 +1,3763 @@
+{
+  "cases": [
+    {
+      "audiobooks": false,
+      "root": false,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "folders": [
+        "album",
+        "book",
+        "collection",
+        "folder",
+        "unavailable-book"
+      ],
+      "songs": [
+        "audio",
+        "audio-folder-flag",
+        "empty-sources"
+      ]
+    },
+    {
+      "audiobooks": false,
+      "root": true,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "folders": [
+        "album",
+        "book",
+        "collection",
+        "folder",
+        "unavailable-book"
+      ],
+      "songs": []
+    },
+    {
+      "audiobooks": true,
+      "root": false,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "folders": [
+        "album",
+        "collection",
+        "folder"
+      ],
+      "songs": [
+        "audio",
+        "audio-folder-flag",
+        "book",
+        "empty-sources"
+      ]
+    },
+    {
+      "audiobooks": true,
+      "root": true,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "folders": [
+        "album",
+        "collection",
+        "folder"
+      ],
+      "songs": []
+    }
+  ],
+  "filterCases": [
+    {
+      "query": "",
+      "sort": "name",
+      "descending": false,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "album",
+        "collection",
+        "folder",
+        "audio",
+        "audio-folder-flag",
+        "book",
+        "empty-sources"
+      ]
+    },
+    {
+      "query": "",
+      "sort": "name",
+      "descending": true,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "folder",
+        "collection",
+        "album",
+        "empty-sources",
+        "book",
+        "audio-folder-flag",
+        "audio"
+      ]
+    },
+    {
+      "query": "",
+      "sort": "duration",
+      "descending": false,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "album",
+        "collection",
+        "folder",
+        "audio",
+        "empty-sources",
+        "book",
+        "audio-folder-flag"
+      ]
+    },
+    {
+      "query": "",
+      "sort": "duration",
+      "descending": true,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "folder",
+        "collection",
+        "album",
+        "audio-folder-flag",
+        "book",
+        "empty-sources",
+        "audio"
+      ]
+    },
+    {
+      "query": "Album needle",
+      "sort": "name",
+      "descending": false,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "audio"
+      ]
+    },
+    {
+      "query": "Album needle",
+      "sort": "name",
+      "descending": true,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "audio"
+      ]
+    },
+    {
+      "query": "Album needle",
+      "sort": "duration",
+      "descending": false,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "audio"
+      ]
+    },
+    {
+      "query": "Album needle",
+      "sort": "duration",
+      "descending": true,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "audio"
+      ]
+    },
+    {
+      "query": "Performer",
+      "sort": "name",
+      "descending": false,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "empty-sources"
+      ]
+    },
+    {
+      "query": "Performer",
+      "sort": "name",
+      "descending": true,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "empty-sources"
+      ]
+    },
+    {
+      "query": "Performer",
+      "sort": "duration",
+      "descending": false,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "empty-sources"
+      ]
+    },
+    {
+      "query": "Performer",
+      "sort": "duration",
+      "descending": true,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "empty-sources"
+      ]
+    },
+    {
+      "query": "unknown",
+      "sort": "name",
+      "descending": false,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": []
+    },
+    {
+      "query": "unknown",
+      "sort": "name",
+      "descending": true,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": []
+    },
+    {
+      "query": "unknown",
+      "sort": "duration",
+      "descending": false,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": []
+    },
+    {
+      "query": "unknown",
+      "sort": "duration",
+      "descending": true,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": []
+    },
+    {
+      "query": "Audio",
+      "sort": "name",
+      "descending": false,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "audio",
+        "audio-folder-flag"
+      ]
+    },
+    {
+      "query": "Audio",
+      "sort": "name",
+      "descending": true,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "audio-folder-flag",
+        "audio"
+      ]
+    },
+    {
+      "query": "Audio",
+      "sort": "duration",
+      "descending": false,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "audio",
+        "audio-folder-flag"
+      ]
+    },
+    {
+      "query": "Audio",
+      "sort": "duration",
+      "descending": true,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": [
+        "audio-folder-flag",
+        "audio"
+      ]
+    },
+    {
+      "query": "Genre only",
+      "sort": "name",
+      "descending": false,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": []
+    },
+    {
+      "query": "Genre only",
+      "sort": "name",
+      "descending": true,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": []
+    },
+    {
+      "query": "Genre only",
+      "sort": "duration",
+      "descending": false,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": []
+    },
+    {
+      "query": "Genre only",
+      "sort": "duration",
+      "descending": true,
+      "rows": [
+        {
+          "Id": "album",
+          "Name": "Album",
+          "Type": "MusicAlbum",
+          "RunTimeTicks": 100000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio",
+          "Name": "Audio",
+          "Type": "Audio",
+          "MediaSources": [
+            {
+              "Container": "flac"
+            }
+          ],
+          "RunTimeTicks": 200000000,
+          "Album": "Album needle",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "empty-sources",
+          "Name": "Empty sources",
+          "Type": "Audio",
+          "MediaSources": [],
+          "RunTimeTicks": 300000000,
+          "Album": "",
+          "Artists": [
+            "Performer"
+          ],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "missing-sources",
+          "Name": "Missing sources",
+          "Type": "Audio",
+          "RunTimeTicks": 400000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "null-sources",
+          "Name": "Null sources",
+          "Type": "Audio",
+          "MediaSources": null,
+          "RunTimeTicks": 500000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "book",
+          "Name": "Book",
+          "Type": "AudioBook",
+          "MediaSources": [],
+          "RunTimeTicks": 600000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "unavailable-book",
+          "Name": "Unavailable book",
+          "Type": "AudioBook",
+          "RunTimeTicks": 700000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "folder",
+          "Name": "Folder",
+          "Type": "Folder",
+          "IsFolder": true,
+          "RunTimeTicks": 800000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "collection",
+          "Name": "Collection",
+          "Type": "CollectionFolder",
+          "RunTimeTicks": 900000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        },
+        {
+          "Id": "audio-folder-flag",
+          "Name": "Audio folder flag",
+          "Type": "Audio",
+          "IsFolder": true,
+          "MediaSources": [],
+          "RunTimeTicks": 1000000000,
+          "Album": "",
+          "Artists": [],
+          "Genres": [
+            "Genre only"
+          ]
+        }
+      ],
+      "ids": []
+    }
+  ]
+}

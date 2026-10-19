@@ -1,0 +1,785 @@
+{
+  "electron": "43.7.0",
+  "chromium": "150.0.7871.250",
+  "motion": "12.40.0",
+  "variants": {
+    "closed": {
+      "transition": {
+        "duration": 0.5,
+        "ease": "easeInOut"
+      },
+      "y": "100%"
+    },
+    "open": {
+      "transition": {
+        "delay": 0.1,
+        "duration": 0.5,
+        "ease": "easeInOut"
+      },
+      "y": 0
+    }
+  },
+  "scenarios": [
+    {
+      "name": "open",
+      "frames": [
+        {
+          "milliseconds": 0,
+          "present": true,
+          "y": 1,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 50,
+          "present": true,
+          "y": 1,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 100,
+          "present": true,
+          "y": 1,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 150,
+          "present": true,
+          "y": 0.9803611111111111,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 250,
+          "present": true,
+          "y": 0.8127888888888889,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 350,
+          "present": true,
+          "y": 0.5,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 500,
+          "present": true,
+          "y": 0.08162222222222222,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 599,
+          "present": true,
+          "y": 0.000008799999999999999,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 600,
+          "present": true,
+          "y": 0,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 601,
+          "present": true,
+          "y": 0,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        }
+      ]
+    },
+    {
+      "name": "close",
+      "frames": [
+        {
+          "milliseconds": 1000,
+          "present": true,
+          "y": 0,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 1050,
+          "present": true,
+          "y": 0.01963861111111111,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 1100,
+          "present": true,
+          "y": 0.08162222222222222,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 1250,
+          "present": true,
+          "y": 0.5,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 1499,
+          "present": true,
+          "y": 0.9999916666666667,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 1500,
+          "present": true,
+          "y": 1,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 1501,
+          "present": false,
+          "y": null,
+          "info": [],
+          "timers": 0
+        }
+      ]
+    },
+    {
+      "name": "restored",
+      "frames": [
+        {
+          "milliseconds": 0,
+          "present": true,
+          "y": 0,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        }
+      ]
+    },
+    {
+      "name": "interrupt-close",
+      "interruptAt": 50,
+      "frames": [
+        {
+          "milliseconds": 50,
+          "present": false,
+          "y": null,
+          "info": [],
+          "timers": 0
+        },
+        {
+          "milliseconds": 100,
+          "present": false,
+          "y": null,
+          "info": [],
+          "timers": 0
+        },
+        {
+          "milliseconds": 150,
+          "present": false,
+          "y": null,
+          "info": [],
+          "timers": 0
+        },
+        {
+          "milliseconds": 300,
+          "present": false,
+          "y": null,
+          "info": [],
+          "timers": 0
+        },
+        {
+          "milliseconds": 549,
+          "present": false,
+          "y": null,
+          "info": [],
+          "timers": 0
+        },
+        {
+          "milliseconds": 550,
+          "present": false,
+          "y": null,
+          "info": [],
+          "timers": 0
+        },
+        {
+          "milliseconds": 551,
+          "present": false,
+          "y": null,
+          "info": [],
+          "timers": 0
+        }
+      ]
+    },
+    {
+      "name": "interrupt-close",
+      "interruptAt": 150,
+      "frames": [
+        {
+          "milliseconds": 150,
+          "present": true,
+          "y": 0.9803611111111111,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 200,
+          "present": true,
+          "y": 0.9807472222222222,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 250,
+          "present": true,
+          "y": 0.9819638888888889,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 400,
+          "present": true,
+          "y": 0.9901805555555555,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 649,
+          "present": true,
+          "y": 1,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 650,
+          "present": true,
+          "y": 1,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 651,
+          "present": false,
+          "y": null,
+          "info": [],
+          "timers": 0
+        }
+      ]
+    },
+    {
+      "name": "interrupt-close",
+      "interruptAt": 350,
+      "frames": [
+        {
+          "milliseconds": 350,
+          "present": true,
+          "y": 0.5,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 400,
+          "present": true,
+          "y": 0.5098194444444444,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 450,
+          "present": true,
+          "y": 0.5408111111111111,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 600,
+          "present": true,
+          "y": 0.75,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 849,
+          "present": true,
+          "y": 0.9999944444444444,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 850,
+          "present": true,
+          "y": 1,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 851,
+          "present": false,
+          "y": null,
+          "info": [],
+          "timers": 0
+        }
+      ]
+    },
+    {
+      "name": "interrupt-close",
+      "interruptAt": 550,
+      "frames": [
+        {
+          "milliseconds": 550,
+          "present": true,
+          "y": 0.01963861111111111,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 600,
+          "present": true,
+          "y": 0.038891666666666665,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 650,
+          "present": true,
+          "y": 0.09965777777777779,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 800,
+          "present": true,
+          "y": 0.5098194444444444,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 1049,
+          "present": true,
+          "y": 0.9999916666666667,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 1050,
+          "present": true,
+          "y": 1,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 1051,
+          "present": false,
+          "y": null,
+          "info": [],
+          "timers": 0
+        }
+      ]
+    },
+    {
+      "name": "song",
+      "frames": [
+        {
+          "milliseconds": 700,
+          "present": true,
+          "y": 0,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 750,
+          "present": true,
+          "y": 0,
+          "info": [
+            0.0197225,
+            0.0197225
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 950,
+          "present": true,
+          "y": 0,
+          "info": [
+            0.5,
+            0.5
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 1200,
+          "present": true,
+          "y": 0,
+          "info": [
+            1,
+            1
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 1500,
+          "present": true,
+          "y": 0,
+          "info": [
+            1,
+            1
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 3699,
+          "present": true,
+          "y": 0,
+          "info": [
+            1,
+            1
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 3700,
+          "present": true,
+          "y": 0,
+          "info": [
+            1,
+            1
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 3950,
+          "present": true,
+          "y": 0,
+          "info": [
+            0.943869,
+            0.943869
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 4450,
+          "present": true,
+          "y": 0,
+          "info": [
+            0.5,
+            0.5
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 5199,
+          "present": true,
+          "y": 0,
+          "info": [
+            8.40094e-7,
+            8.40094e-7
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 5200,
+          "present": true,
+          "y": 0,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        }
+      ]
+    },
+    {
+      "name": "song-reset",
+      "frames": [
+        {
+          "milliseconds": 2700,
+          "present": true,
+          "y": 0,
+          "info": [
+            1,
+            1
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 3000,
+          "present": true,
+          "y": 0,
+          "info": [
+            1,
+            1
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 3699,
+          "present": true,
+          "y": 0,
+          "info": [
+            1,
+            1
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 5699,
+          "present": true,
+          "y": 0,
+          "info": [
+            1,
+            1
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 5700,
+          "present": true,
+          "y": 0,
+          "info": [
+            1,
+            1
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 5950,
+          "present": true,
+          "y": 0,
+          "info": [
+            0.943869,
+            0.943869
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 6450,
+          "present": true,
+          "y": 0,
+          "info": [
+            0.5,
+            0.5
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 7200,
+          "present": true,
+          "y": 0,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        }
+      ]
+    },
+    {
+      "name": "reopen-song",
+      "frames": [
+        {
+          "milliseconds": 1100,
+          "present": true,
+          "y": 0.08162222222222222,
+          "info": [
+            0.91834,
+            0.91834
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 1150,
+          "present": true,
+          "y": 0.08162222222222222,
+          "info": [
+            0.980278,
+            0.980278
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 1200,
+          "present": true,
+          "y": 0.08162222222222222,
+          "info": [
+            1,
+            1
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 1350,
+          "present": true,
+          "y": 0.06634138888888888,
+          "info": [
+            1,
+            1
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 1500,
+          "present": true,
+          "y": 0.02709388888888889,
+          "info": [
+            1,
+            1
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 1700,
+          "present": true,
+          "y": 0,
+          "info": [
+            1,
+            1
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 3699,
+          "present": true,
+          "y": 0,
+          "info": [
+            1,
+            1
+          ],
+          "timers": 1
+        },
+        {
+          "milliseconds": 4450,
+          "present": true,
+          "y": 0,
+          "info": [
+            0.5,
+            0.5
+          ],
+          "timers": 0
+        },
+        {
+          "milliseconds": 5200,
+          "present": true,
+          "y": 0,
+          "info": [
+            0,
+            0
+          ],
+          "timers": 0
+        }
+      ]
+    }
+  ]
+}

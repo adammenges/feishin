@@ -1,0 +1,1382 @@
+[
+  {
+    "electron": false,
+    "enabled": false,
+    "title": {
+      "key": "page.setting.discord",
+      "options": {}
+    },
+    "options": [
+      {
+        "control": {
+          "type": "Switch",
+          "checked": false,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordRichPresence",
+          "options": {
+            "context": "description",
+            "discord": "Discord",
+            "icon": "icon",
+            "paused": "paused",
+            "playing": "playing"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordRichPresence",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "enabled": true
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "TextInput",
+          "defaultValue": "1165957668758900787",
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordApplicationId",
+          "options": {
+            "context": "description",
+            "defaultId": "1165957668758900787",
+            "discord": "Discord"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordApplicationId",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "clientId": "1165957668758900787"
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": true,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordPausedStatus",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordPausedStatus",
+          "options": {}
+        },
+        "changes": [
+          {
+            "discord": {
+              "showPaused": false
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": true,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordStateIcon",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordStateIcon",
+          "options": {}
+        },
+        "changes": [
+          {
+            "discord": {
+              "showStateIcon": false
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": false,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordListening",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordListening",
+          "options": {}
+        },
+        "changes": [
+          {
+            "discord": {
+              "showAsListening": true
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Select",
+          "aria-label": {
+            "key": "setting.discordDisplayType",
+            "options": {}
+          },
+          "clearable": false,
+          "data": [
+            {
+              "label": "Feishin",
+              "value": "feishin"
+            },
+            {
+              "label": {
+                "key": "setting.discordDisplayType",
+                "options": {
+                  "context": "songname"
+                }
+              },
+              "value": "song"
+            },
+            {
+              "label": {
+                "key": "setting.discordDisplayType_artistname",
+                "options": {
+                  "context": "artistname"
+                }
+              },
+              "value": "artist"
+            }
+          ],
+          "defaultValue": "feishin",
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordDisplayType",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordDisplayType",
+          "options": {
+            "discord": "Discord",
+            "musicbrainz": "musicbrainz"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "displayType": "feishin"
+            }
+          },
+          {
+            "discord": {
+              "displayType": "song"
+            }
+          },
+          {
+            "discord": {
+              "displayType": "artist"
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Select",
+          "aria-label": {
+            "key": "setting.discordLinkType",
+            "options": {}
+          },
+          "clearable": false,
+          "data": [
+            {
+              "label": {
+                "key": "setting.discordLinkType_none",
+                "options": {}
+              },
+              "value": "none"
+            },
+            {
+              "label": "last.fm",
+              "value": "last_fm"
+            },
+            {
+              "label": "musicbrainz",
+              "value": "musicbrainz"
+            },
+            {
+              "label": {
+                "key": "setting.discordLinkType_mbz_lastfm",
+                "options": {
+                  "lastfm": "last.fm",
+                  "musicbrainz": "musicbrainz"
+                }
+              },
+              "value": "musicbrainz_last_fm"
+            }
+          ],
+          "defaultValue": "none",
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordLinkType",
+          "options": {
+            "context": "description",
+            "discord": "Discord",
+            "lastfm": "last.fm",
+            "musicbrainz": "musicbrainz"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordLinkType",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "linkType": "none"
+            }
+          },
+          {
+            "discord": {
+              "linkType": "last_fm"
+            }
+          },
+          {
+            "discord": {
+              "linkType": "musicbrainz"
+            }
+          },
+          {
+            "discord": {
+              "linkType": "musicbrainz_last_fm"
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": false,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordServeImage",
+          "options": {
+            "context": "description",
+            "discord": "Discord"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordServeImage",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "showServerImage": true
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "TextInput",
+          "defaultValue": "",
+          "children": []
+        },
+        "description": {
+          "key": "setting.lastfmApiKey",
+          "options": {
+            "context": "description",
+            "lastfm": "Last.fm"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.lastfmApiKey",
+          "options": {
+            "lastfm": "Last.fm"
+          }
+        },
+        "changes": [
+          {
+            "general": {
+              "lastfmApiKey": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "electron": false,
+    "enabled": true,
+    "title": {
+      "key": "page.setting.discord",
+      "options": {}
+    },
+    "options": [
+      {
+        "control": {
+          "type": "Switch",
+          "checked": true,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordRichPresence",
+          "options": {
+            "context": "description",
+            "discord": "Discord",
+            "icon": "icon",
+            "paused": "paused",
+            "playing": "playing"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordRichPresence",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "enabled": false
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "TextInput",
+          "defaultValue": "1165957668758900787",
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordApplicationId",
+          "options": {
+            "context": "description",
+            "defaultId": "1165957668758900787",
+            "discord": "Discord"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordApplicationId",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "clientId": "1165957668758900787"
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": false,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordPausedStatus",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordPausedStatus",
+          "options": {}
+        },
+        "changes": [
+          {
+            "discord": {
+              "showPaused": true
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": false,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordStateIcon",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordStateIcon",
+          "options": {}
+        },
+        "changes": [
+          {
+            "discord": {
+              "showStateIcon": true
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": true,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordListening",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordListening",
+          "options": {}
+        },
+        "changes": [
+          {
+            "discord": {
+              "showAsListening": false
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Select",
+          "aria-label": {
+            "key": "setting.discordDisplayType",
+            "options": {}
+          },
+          "clearable": false,
+          "data": [
+            {
+              "label": "Feishin",
+              "value": "feishin"
+            },
+            {
+              "label": {
+                "key": "setting.discordDisplayType",
+                "options": {
+                  "context": "songname"
+                }
+              },
+              "value": "song"
+            },
+            {
+              "label": {
+                "key": "setting.discordDisplayType_artistname",
+                "options": {
+                  "context": "artistname"
+                }
+              },
+              "value": "artist"
+            }
+          ],
+          "defaultValue": "feishin",
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordDisplayType",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordDisplayType",
+          "options": {
+            "discord": "Discord",
+            "musicbrainz": "musicbrainz"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "displayType": "feishin"
+            }
+          },
+          {
+            "discord": {
+              "displayType": "song"
+            }
+          },
+          {
+            "discord": {
+              "displayType": "artist"
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Select",
+          "aria-label": {
+            "key": "setting.discordLinkType",
+            "options": {}
+          },
+          "clearable": false,
+          "data": [
+            {
+              "label": {
+                "key": "setting.discordLinkType_none",
+                "options": {}
+              },
+              "value": "none"
+            },
+            {
+              "label": "last.fm",
+              "value": "last_fm"
+            },
+            {
+              "label": "musicbrainz",
+              "value": "musicbrainz"
+            },
+            {
+              "label": {
+                "key": "setting.discordLinkType_mbz_lastfm",
+                "options": {
+                  "lastfm": "last.fm",
+                  "musicbrainz": "musicbrainz"
+                }
+              },
+              "value": "musicbrainz_last_fm"
+            }
+          ],
+          "defaultValue": "none",
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordLinkType",
+          "options": {
+            "context": "description",
+            "discord": "Discord",
+            "lastfm": "last.fm",
+            "musicbrainz": "musicbrainz"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordLinkType",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "linkType": "none"
+            }
+          },
+          {
+            "discord": {
+              "linkType": "last_fm"
+            }
+          },
+          {
+            "discord": {
+              "linkType": "musicbrainz"
+            }
+          },
+          {
+            "discord": {
+              "linkType": "musicbrainz_last_fm"
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": true,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordServeImage",
+          "options": {
+            "context": "description",
+            "discord": "Discord"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.discordServeImage",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "showServerImage": false
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "TextInput",
+          "defaultValue": "",
+          "children": []
+        },
+        "description": {
+          "key": "setting.lastfmApiKey",
+          "options": {
+            "context": "description",
+            "lastfm": "Last.fm"
+          }
+        },
+        "isHidden": true,
+        "title": {
+          "key": "setting.lastfmApiKey",
+          "options": {
+            "lastfm": "Last.fm"
+          }
+        },
+        "changes": [
+          {
+            "general": {
+              "lastfmApiKey": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "electron": true,
+    "enabled": false,
+    "title": {
+      "key": "page.setting.discord",
+      "options": {}
+    },
+    "options": [
+      {
+        "control": {
+          "type": "Switch",
+          "checked": false,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordRichPresence",
+          "options": {
+            "context": "description",
+            "discord": "Discord",
+            "icon": "icon",
+            "paused": "paused",
+            "playing": "playing"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordRichPresence",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "enabled": true
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "TextInput",
+          "defaultValue": "1165957668758900787",
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordApplicationId",
+          "options": {
+            "context": "description",
+            "defaultId": "1165957668758900787",
+            "discord": "Discord"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordApplicationId",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "clientId": "1165957668758900787"
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": true,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordPausedStatus",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordPausedStatus",
+          "options": {}
+        },
+        "changes": [
+          {
+            "discord": {
+              "showPaused": false
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": true,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordStateIcon",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordStateIcon",
+          "options": {}
+        },
+        "changes": [
+          {
+            "discord": {
+              "showStateIcon": false
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": false,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordListening",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordListening",
+          "options": {}
+        },
+        "changes": [
+          {
+            "discord": {
+              "showAsListening": true
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Select",
+          "aria-label": {
+            "key": "setting.discordDisplayType",
+            "options": {}
+          },
+          "clearable": false,
+          "data": [
+            {
+              "label": "Feishin",
+              "value": "feishin"
+            },
+            {
+              "label": {
+                "key": "setting.discordDisplayType",
+                "options": {
+                  "context": "songname"
+                }
+              },
+              "value": "song"
+            },
+            {
+              "label": {
+                "key": "setting.discordDisplayType_artistname",
+                "options": {
+                  "context": "artistname"
+                }
+              },
+              "value": "artist"
+            }
+          ],
+          "defaultValue": "feishin",
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordDisplayType",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordDisplayType",
+          "options": {
+            "discord": "Discord",
+            "musicbrainz": "musicbrainz"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "displayType": "feishin"
+            }
+          },
+          {
+            "discord": {
+              "displayType": "song"
+            }
+          },
+          {
+            "discord": {
+              "displayType": "artist"
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Select",
+          "aria-label": {
+            "key": "setting.discordLinkType",
+            "options": {}
+          },
+          "clearable": false,
+          "data": [
+            {
+              "label": {
+                "key": "setting.discordLinkType_none",
+                "options": {}
+              },
+              "value": "none"
+            },
+            {
+              "label": "last.fm",
+              "value": "last_fm"
+            },
+            {
+              "label": "musicbrainz",
+              "value": "musicbrainz"
+            },
+            {
+              "label": {
+                "key": "setting.discordLinkType_mbz_lastfm",
+                "options": {
+                  "lastfm": "last.fm",
+                  "musicbrainz": "musicbrainz"
+                }
+              },
+              "value": "musicbrainz_last_fm"
+            }
+          ],
+          "defaultValue": "none",
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordLinkType",
+          "options": {
+            "context": "description",
+            "discord": "Discord",
+            "lastfm": "last.fm",
+            "musicbrainz": "musicbrainz"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordLinkType",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "linkType": "none"
+            }
+          },
+          {
+            "discord": {
+              "linkType": "last_fm"
+            }
+          },
+          {
+            "discord": {
+              "linkType": "musicbrainz"
+            }
+          },
+          {
+            "discord": {
+              "linkType": "musicbrainz_last_fm"
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": false,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordServeImage",
+          "options": {
+            "context": "description",
+            "discord": "Discord"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordServeImage",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "showServerImage": true
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "TextInput",
+          "defaultValue": "",
+          "children": []
+        },
+        "description": {
+          "key": "setting.lastfmApiKey",
+          "options": {
+            "context": "description",
+            "lastfm": "Last.fm"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.lastfmApiKey",
+          "options": {
+            "lastfm": "Last.fm"
+          }
+        },
+        "changes": [
+          {
+            "general": {
+              "lastfmApiKey": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "electron": true,
+    "enabled": true,
+    "title": {
+      "key": "page.setting.discord",
+      "options": {}
+    },
+    "options": [
+      {
+        "control": {
+          "type": "Switch",
+          "checked": true,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordRichPresence",
+          "options": {
+            "context": "description",
+            "discord": "Discord",
+            "icon": "icon",
+            "paused": "paused",
+            "playing": "playing"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordRichPresence",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "enabled": false
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "TextInput",
+          "defaultValue": "1165957668758900787",
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordApplicationId",
+          "options": {
+            "context": "description",
+            "defaultId": "1165957668758900787",
+            "discord": "Discord"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordApplicationId",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "clientId": "1165957668758900787"
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": false,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordPausedStatus",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordPausedStatus",
+          "options": {}
+        },
+        "changes": [
+          {
+            "discord": {
+              "showPaused": true
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": false,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordStateIcon",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordStateIcon",
+          "options": {}
+        },
+        "changes": [
+          {
+            "discord": {
+              "showStateIcon": true
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": true,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordListening",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordListening",
+          "options": {}
+        },
+        "changes": [
+          {
+            "discord": {
+              "showAsListening": false
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Select",
+          "aria-label": {
+            "key": "setting.discordDisplayType",
+            "options": {}
+          },
+          "clearable": false,
+          "data": [
+            {
+              "label": "Feishin",
+              "value": "feishin"
+            },
+            {
+              "label": {
+                "key": "setting.discordDisplayType",
+                "options": {
+                  "context": "songname"
+                }
+              },
+              "value": "song"
+            },
+            {
+              "label": {
+                "key": "setting.discordDisplayType_artistname",
+                "options": {
+                  "context": "artistname"
+                }
+              },
+              "value": "artist"
+            }
+          ],
+          "defaultValue": "feishin",
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordDisplayType",
+          "options": {
+            "context": "description"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordDisplayType",
+          "options": {
+            "discord": "Discord",
+            "musicbrainz": "musicbrainz"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "displayType": "feishin"
+            }
+          },
+          {
+            "discord": {
+              "displayType": "song"
+            }
+          },
+          {
+            "discord": {
+              "displayType": "artist"
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Select",
+          "aria-label": {
+            "key": "setting.discordLinkType",
+            "options": {}
+          },
+          "clearable": false,
+          "data": [
+            {
+              "label": {
+                "key": "setting.discordLinkType_none",
+                "options": {}
+              },
+              "value": "none"
+            },
+            {
+              "label": "last.fm",
+              "value": "last_fm"
+            },
+            {
+              "label": "musicbrainz",
+              "value": "musicbrainz"
+            },
+            {
+              "label": {
+                "key": "setting.discordLinkType_mbz_lastfm",
+                "options": {
+                  "lastfm": "last.fm",
+                  "musicbrainz": "musicbrainz"
+                }
+              },
+              "value": "musicbrainz_last_fm"
+            }
+          ],
+          "defaultValue": "none",
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordLinkType",
+          "options": {
+            "context": "description",
+            "discord": "Discord",
+            "lastfm": "last.fm",
+            "musicbrainz": "musicbrainz"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordLinkType",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "linkType": "none"
+            }
+          },
+          {
+            "discord": {
+              "linkType": "last_fm"
+            }
+          },
+          {
+            "discord": {
+              "linkType": "musicbrainz"
+            }
+          },
+          {
+            "discord": {
+              "linkType": "musicbrainz_last_fm"
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "Switch",
+          "checked": true,
+          "children": []
+        },
+        "description": {
+          "key": "setting.discordServeImage",
+          "options": {
+            "context": "description",
+            "discord": "Discord"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.discordServeImage",
+          "options": {
+            "discord": "Discord"
+          }
+        },
+        "changes": [
+          {
+            "discord": {
+              "showServerImage": false
+            }
+          }
+        ]
+      },
+      {
+        "control": {
+          "type": "TextInput",
+          "defaultValue": "",
+          "children": []
+        },
+        "description": {
+          "key": "setting.lastfmApiKey",
+          "options": {
+            "context": "description",
+            "lastfm": "Last.fm"
+          }
+        },
+        "isHidden": false,
+        "title": {
+          "key": "setting.lastfmApiKey",
+          "options": {
+            "lastfm": "Last.fm"
+          }
+        },
+        "changes": [
+          {
+            "general": {
+              "lastfmApiKey": ""
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

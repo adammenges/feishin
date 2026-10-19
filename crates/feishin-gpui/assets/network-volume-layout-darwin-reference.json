@@ -1,0 +1,3714 @@
+[
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        34,
+        36
+      ],
+      [
+        1,
+        -55,
+        34,
+        36
+      ],
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -251,
+      52,
+      295
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          34,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          34,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        34,
+        36
+      ],
+      [
+        1,
+        -55,
+        34,
+        36
+      ],
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -251,
+      52,
+      295
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          34,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          34,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        108,
+        36
+      ],
+      [
+        1,
+        -55,
+        108,
+        36
+      ],
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -195,
+      126,
+      239
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          108,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          108,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        108,
+        36
+      ],
+      [
+        1,
+        -55,
+        108,
+        36
+      ],
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -195,
+      126,
+      239
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          108,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          108,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        34,
+        36
+      ],
+      [
+        1,
+        -55,
+        34,
+        36
+      ],
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -251,
+      52,
+      295
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          34,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          34,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        34,
+        36
+      ],
+      [
+        1,
+        -55,
+        34,
+        36
+      ],
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -251,
+      52,
+      295
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          34,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          34,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        108,
+        36
+      ],
+      [
+        1,
+        -55,
+        108,
+        36
+      ],
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -195,
+      126,
+      239
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          108,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          108,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        108,
+        36
+      ],
+      [
+        1,
+        -55,
+        108,
+        36
+      ],
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -195,
+      126,
+      239
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          108,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          108,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        34,
+        36
+      ],
+      [
+        1,
+        -55,
+        34,
+        36
+      ],
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -251,
+      52,
+      295
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          34,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          34,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        34,
+        36
+      ],
+      [
+        1,
+        -55,
+        34,
+        36
+      ],
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -251,
+      52,
+      295
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          34,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          34,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        108,
+        36
+      ],
+      [
+        1,
+        -55,
+        108,
+        36
+      ],
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -195,
+      126,
+      239
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          108,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          108,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        108,
+        36
+      ],
+      [
+        1,
+        -55,
+        108,
+        36
+      ],
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -195,
+      126,
+      239
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          108,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          108,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        34,
+        36
+      ],
+      [
+        1,
+        -55,
+        34,
+        36
+      ],
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -251,
+      52,
+      295
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          34,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          34,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        34,
+        36
+      ],
+      [
+        1,
+        -55,
+        34,
+        36
+      ],
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -251,
+      52,
+      295
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          34,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          34,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      36,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        36,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        108,
+        36
+      ],
+      [
+        1,
+        -55,
+        108,
+        36
+      ],
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -195,
+      126,
+      239
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          108,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          108,
+          54
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        1,
+        -117,
+        108,
+        36
+      ],
+      [
+        1,
+        -55,
+        108,
+        36
+      ],
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": [
+      -8,
+      -195,
+      126,
+      239
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -135,
+          108,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -73,
+          108,
+          54
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      110,
+      36
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        110,
+        36
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        43,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        43,
+        45
+      ],
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -313,
+      65,
+      368
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          43,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          43,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        43,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        43,
+        45
+      ],
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -313,
+      65,
+      368
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          43,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          43,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        135.5,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        135.5,
+        45
+      ],
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -243,
+      157.5,
+      298
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          135.5,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          135.5,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        135.5,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        135.5,
+        45
+      ],
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -243,
+      157.5,
+      298
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          135.5,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          135.5,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        43,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        43,
+        45
+      ],
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -313,
+      65,
+      368
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          43,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          43,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        43,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        43,
+        45
+      ],
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -313,
+      65,
+      368
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          43,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          43,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        135.5,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        135.5,
+        45
+      ],
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -243,
+      157.5,
+      298
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          135.5,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          135.5,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        135.5,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        135.5,
+        45
+      ],
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -243,
+      157.5,
+      298
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          135.5,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          135.5,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        43,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        43,
+        45
+      ],
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -313,
+      65,
+      368
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          43,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          43,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        43,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        43,
+        45
+      ],
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -313,
+      65,
+      368
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          43,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          43,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        135.5,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        135.5,
+        45
+      ],
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -243,
+      157.5,
+      298
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          135.5,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          135.5,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        135.5,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        135.5,
+        45
+      ],
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -243,
+      157.5,
+      298
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          135.5,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          135.5,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        43,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        43,
+        45
+      ],
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -313,
+      65,
+      368
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          43,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          43,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        43,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        43,
+        45
+      ],
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -313,
+      65,
+      368
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          43,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          43,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 480,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      45,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        45,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "solo",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        135.5,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        135.5,
+        45
+      ],
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -243,
+      157.5,
+      298
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          135.5,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          135.5,
+          67.5
+        ],
+        "disabled": "true",
+        "opacity": "0.4"
+      }
+    ],
+    "mode": "Hold Shift to modify individual speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "group",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        1,
+        -146,
+        135.5,
+        45
+      ],
+      [
+        1,
+        -68.5,
+        135.5,
+        45
+      ],
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": [
+      -10,
+      -243,
+      157.5,
+      298
+    ],
+    "members": [
+      {
+        "bounds": [
+          1,
+          -168.5,
+          135.5,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      },
+      {
+        "bounds": [
+          1,
+          -91,
+          135.5,
+          67.5
+        ],
+        "disabled": "false",
+        "opacity": "1"
+      }
+    ],
+    "mode": "Release Shift to modify all speaker volumes"
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": false,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "viewport": 1200,
+    "grouping": "pair",
+    "shift": true,
+    "width": 70,
+    "root": [
+      0,
+      0,
+      137.5,
+      45
+    ],
+    "controls": [
+      [
+        0,
+        0,
+        137.5,
+        45
+      ]
+    ],
+    "panel": null,
+    "members": [],
+    "mode": null
+  }
+]

@@ -1,0 +1,426 @@
+{
+  "electron": "43.7.0",
+  "chromium": "150.0.7871.250",
+  "cases": [
+    {
+      "name": "title",
+      "kind": "title",
+      "text": "Northern Lights",
+      "size": 16,
+      "weight": 700,
+      "rem": 16,
+      "zoom": 1,
+      "bounds": [
+        32,
+        32,
+        160,
+        17.59375
+      ],
+      "plain": "home-text-shadow-linux-0-plain.png",
+      "shadow": "home-text-shadow-linux-0-shadow.png"
+    },
+    {
+      "name": "title-wrap",
+      "kind": "title",
+      "text": "A long album title wraps across lines",
+      "size": 16,
+      "weight": 700,
+      "wrap": true,
+      "rem": 16,
+      "zoom": 1,
+      "bounds": [
+        32,
+        32,
+        160,
+        35.1875
+      ],
+      "plain": "home-text-shadow-linux-1-plain.png",
+      "shadow": "home-text-shadow-linux-1-shadow.png"
+    },
+    {
+      "name": "artist",
+      "kind": "artist",
+      "text": "Various Artists",
+      "size": 14,
+      "weight": 500,
+      "rem": 16,
+      "zoom": 1,
+      "bounds": [
+        32,
+        32,
+        160,
+        15.3984375
+      ],
+      "plain": "home-text-shadow-linux-2-plain.png",
+      "shadow": "home-text-shadow-linux-2-shadow.png"
+    },
+    {
+      "name": "single-title",
+      "kind": "title",
+      "text": "Night Music",
+      "size": 32,
+      "weight": 900,
+      "wrap": true,
+      "rem": 16,
+      "zoom": 1,
+      "bounds": [
+        32,
+        32,
+        160,
+        70.390625
+      ],
+      "plain": "home-text-shadow-linux-3-plain.png",
+      "shadow": "home-text-shadow-linux-3-shadow.png"
+    },
+    {
+      "name": "badge",
+      "kind": "badge",
+      "text": "ELECTRONIC • 1999",
+      "size": 10,
+      "weight": 500,
+      "tracking": 0.25,
+      "rem": 16,
+      "zoom": 1,
+      "bounds": [
+        32,
+        32,
+        160,
+        11
+      ],
+      "plain": "home-text-shadow-linux-4-plain.png",
+      "shadow": "home-text-shadow-linux-4-shadow.png"
+    },
+    {
+      "name": "single-badge",
+      "kind": "badge",
+      "text": "Electronic • 1999",
+      "size": 13,
+      "weight": 600,
+      "rem": 16,
+      "zoom": 1,
+      "bounds": [
+        32,
+        32,
+        160,
+        14.296875
+      ],
+      "plain": "home-text-shadow-linux-5-plain.png",
+      "shadow": "home-text-shadow-linux-5-shadow.png"
+    },
+    {
+      "name": "title",
+      "kind": "title",
+      "text": "Northern Lights",
+      "size": 16,
+      "weight": 700,
+      "rem": 16,
+      "zoom": 1.25,
+      "bounds": [
+        32,
+        32,
+        160,
+        17.600000381469727
+      ],
+      "plain": "home-text-shadow-linux-6-plain.png",
+      "shadow": "home-text-shadow-linux-6-shadow.png"
+    },
+    {
+      "name": "title-wrap",
+      "kind": "title",
+      "text": "A long album title wraps across lines",
+      "size": 16,
+      "weight": 700,
+      "wrap": true,
+      "rem": 16,
+      "zoom": 1.25,
+      "bounds": [
+        32,
+        32,
+        160,
+        35.20000076293945
+      ],
+      "plain": "home-text-shadow-linux-7-plain.png",
+      "shadow": "home-text-shadow-linux-7-shadow.png"
+    },
+    {
+      "name": "artist",
+      "kind": "artist",
+      "text": "Various Artists",
+      "size": 14,
+      "weight": 500,
+      "rem": 16,
+      "zoom": 1.25,
+      "bounds": [
+        32,
+        32,
+        160,
+        15.40000057220459
+      ],
+      "plain": "home-text-shadow-linux-8-plain.png",
+      "shadow": "home-text-shadow-linux-8-shadow.png"
+    },
+    {
+      "name": "single-title",
+      "kind": "title",
+      "text": "Night Music",
+      "size": 32,
+      "weight": 900,
+      "wrap": true,
+      "rem": 16,
+      "zoom": 1.25,
+      "bounds": [
+        32,
+        32,
+        160,
+        70.4000015258789
+      ],
+      "plain": "home-text-shadow-linux-9-plain.png",
+      "shadow": "home-text-shadow-linux-9-shadow.png"
+    },
+    {
+      "name": "badge",
+      "kind": "badge",
+      "text": "ELECTRONIC • 1999",
+      "size": 10,
+      "weight": 500,
+      "tracking": 0.25,
+      "rem": 16,
+      "zoom": 1.25,
+      "bounds": [
+        32,
+        32,
+        160,
+        11
+      ],
+      "plain": "home-text-shadow-linux-10-plain.png",
+      "shadow": "home-text-shadow-linux-10-shadow.png"
+    },
+    {
+      "name": "single-badge",
+      "kind": "badge",
+      "text": "Electronic • 1999",
+      "size": 13,
+      "weight": 600,
+      "rem": 16,
+      "zoom": 1.25,
+      "bounds": [
+        32,
+        32,
+        160,
+        14.300000190734863
+      ],
+      "plain": "home-text-shadow-linux-11-plain.png",
+      "shadow": "home-text-shadow-linux-11-shadow.png"
+    },
+    {
+      "name": "title",
+      "kind": "title",
+      "text": "Northern Lights",
+      "size": 16,
+      "weight": 700,
+      "rem": 20,
+      "zoom": 1,
+      "bounds": [
+        32,
+        32,
+        160,
+        22
+      ],
+      "plain": "home-text-shadow-linux-12-plain.png",
+      "shadow": "home-text-shadow-linux-12-shadow.png"
+    },
+    {
+      "name": "title-wrap",
+      "kind": "title",
+      "text": "A long album title wraps across lines",
+      "size": 16,
+      "weight": 700,
+      "wrap": true,
+      "rem": 20,
+      "zoom": 1,
+      "bounds": [
+        32,
+        32,
+        160,
+        66
+      ],
+      "plain": "home-text-shadow-linux-13-plain.png",
+      "shadow": "home-text-shadow-linux-13-shadow.png"
+    },
+    {
+      "name": "artist",
+      "kind": "artist",
+      "text": "Various Artists",
+      "size": 14,
+      "weight": 500,
+      "rem": 20,
+      "zoom": 1,
+      "bounds": [
+        32,
+        32,
+        160,
+        19.25
+      ],
+      "plain": "home-text-shadow-linux-14-plain.png",
+      "shadow": "home-text-shadow-linux-14-shadow.png"
+    },
+    {
+      "name": "single-title",
+      "kind": "title",
+      "text": "Night Music",
+      "size": 32,
+      "weight": 900,
+      "wrap": true,
+      "rem": 20,
+      "zoom": 1,
+      "bounds": [
+        32,
+        32,
+        160,
+        88
+      ],
+      "plain": "home-text-shadow-linux-15-plain.png",
+      "shadow": "home-text-shadow-linux-15-shadow.png"
+    },
+    {
+      "name": "badge",
+      "kind": "badge",
+      "text": "ELECTRONIC • 1999",
+      "size": 10,
+      "weight": 500,
+      "tracking": 0.25,
+      "rem": 20,
+      "zoom": 1,
+      "bounds": [
+        32,
+        32,
+        160,
+        13.75
+      ],
+      "plain": "home-text-shadow-linux-16-plain.png",
+      "shadow": "home-text-shadow-linux-16-shadow.png"
+    },
+    {
+      "name": "single-badge",
+      "kind": "badge",
+      "text": "Electronic • 1999",
+      "size": 13,
+      "weight": 600,
+      "rem": 20,
+      "zoom": 1,
+      "bounds": [
+        32,
+        32,
+        160,
+        17.875
+      ],
+      "plain": "home-text-shadow-linux-17-plain.png",
+      "shadow": "home-text-shadow-linux-17-shadow.png"
+    },
+    {
+      "name": "title",
+      "kind": "title",
+      "text": "Northern Lights",
+      "size": 16,
+      "weight": 700,
+      "rem": 20,
+      "zoom": 1.25,
+      "bounds": [
+        32,
+        32,
+        160,
+        22
+      ],
+      "plain": "home-text-shadow-linux-18-plain.png",
+      "shadow": "home-text-shadow-linux-18-shadow.png"
+    },
+    {
+      "name": "title-wrap",
+      "kind": "title",
+      "text": "A long album title wraps across lines",
+      "size": 16,
+      "weight": 700,
+      "wrap": true,
+      "rem": 20,
+      "zoom": 1.25,
+      "bounds": [
+        32,
+        32,
+        160,
+        66
+      ],
+      "plain": "home-text-shadow-linux-19-plain.png",
+      "shadow": "home-text-shadow-linux-19-shadow.png"
+    },
+    {
+      "name": "artist",
+      "kind": "artist",
+      "text": "Various Artists",
+      "size": 14,
+      "weight": 500,
+      "rem": 20,
+      "zoom": 1.25,
+      "bounds": [
+        32,
+        32,
+        160,
+        19.25
+      ],
+      "plain": "home-text-shadow-linux-20-plain.png",
+      "shadow": "home-text-shadow-linux-20-shadow.png"
+    },
+    {
+      "name": "single-title",
+      "kind": "title",
+      "text": "Night Music",
+      "size": 32,
+      "weight": 900,
+      "wrap": true,
+      "rem": 20,
+      "zoom": 1.25,
+      "bounds": [
+        32,
+        32,
+        160,
+        88
+      ],
+      "plain": "home-text-shadow-linux-21-plain.png",
+      "shadow": "home-text-shadow-linux-21-shadow.png"
+    },
+    {
+      "name": "badge",
+      "kind": "badge",
+      "text": "ELECTRONIC • 1999",
+      "size": 10,
+      "weight": 500,
+      "tracking": 0.25,
+      "rem": 20,
+      "zoom": 1.25,
+      "bounds": [
+        32,
+        32,
+        160,
+        13.75
+      ],
+      "plain": "home-text-shadow-linux-22-plain.png",
+      "shadow": "home-text-shadow-linux-22-shadow.png"
+    },
+    {
+      "name": "single-badge",
+      "kind": "badge",
+      "text": "Electronic • 1999",
+      "size": 13,
+      "weight": 600,
+      "rem": 20,
+      "zoom": 1.25,
+      "bounds": [
+        32,
+        32,
+        160,
+        17.875
+      ],
+      "plain": "home-text-shadow-linux-23-plain.png",
+      "shadow": "home-text-shadow-linux-23-shadow.png"
+    }
+  ]
+}

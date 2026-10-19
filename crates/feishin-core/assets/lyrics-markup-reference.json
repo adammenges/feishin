@@ -1,0 +1,280 @@
+{
+  "cases": [
+    {
+      "input": "plain text",
+      "sanitized": "plain text",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": null,
+          "text": "plain text"
+        }
+      ]
+    },
+    {
+      "input": "A &amp; B &#x1f642;",
+      "sanitized": "A &amp; B 🙂",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": null,
+          "text": "A & B 🙂"
+        }
+      ]
+    },
+    {
+      "input": "<b>A <i>B</i></b>",
+      "sanitized": "<b>A <i>B</i></b>",
+      "spans": [
+        {
+          "bold": true,
+          "italic": false,
+          "href": null,
+          "ruby": null,
+          "text": "A "
+        },
+        {
+          "bold": true,
+          "italic": true,
+          "href": null,
+          "ruby": null,
+          "text": "B"
+        }
+      ]
+    },
+    {
+      "input": "<strong>Bold</strong> <em>italic</em>",
+      "sanitized": "<strong>Bold</strong> <em>italic</em>",
+      "spans": [
+        {
+          "bold": true,
+          "italic": false,
+          "href": null,
+          "ruby": null,
+          "text": "Bold"
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": null,
+          "text": " "
+        },
+        {
+          "bold": false,
+          "italic": true,
+          "href": null,
+          "ruby": null,
+          "text": "italic"
+        }
+      ]
+    },
+    {
+      "input": "<span style='color:red' onclick='bad()'>plain</span>",
+      "sanitized": "<span>plain</span>",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": null,
+          "text": "plain"
+        }
+      ]
+    },
+    {
+      "input": "<a href='//example.com/music'>link</a>",
+      "sanitized": "<a href=\"https://example.com/music\" target=\"_blank\" rel=\"noopener noreferrer\">link</a>",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": "https://example.com/music",
+          "ruby": null,
+          "text": "link"
+        }
+      ]
+    },
+    {
+      "input": "<a href='HTTP://example.com/music'>link</a>",
+      "sanitized": "<a href=\"HTTP://example.com/music\" target=\"_blank\" rel=\"noopener noreferrer\">link</a>",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": "HTTP://example.com/music",
+          "ruby": null,
+          "text": "link"
+        }
+      ]
+    },
+    {
+      "input": "<a href='javascript:bad()'>plain</a>",
+      "sanitized": "<a target=\"_blank\" rel=\"noopener noreferrer\">plain</a>",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": null,
+          "text": "plain"
+        }
+      ]
+    },
+    {
+      "input": "<a href='file:///private/secret'>plain</a>",
+      "sanitized": "<a target=\"_blank\" rel=\"noopener noreferrer\">plain</a>",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": null,
+          "text": "plain"
+        }
+      ]
+    },
+    {
+      "input": "<a href='https://example.com/music?a=1&amp;b=2' target='_self'>link</a>",
+      "sanitized": "<a href=\"https://example.com/music?a=1&amp;b=2\" target=\"_blank\" rel=\"noopener noreferrer\">link</a>",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": "https://example.com/music?a=1&b=2",
+          "ruby": null,
+          "text": "link"
+        }
+      ]
+    },
+    {
+      "input": "<script>hidden</script><style>hidden</style><iframe>hidden</iframe>end",
+      "sanitized": "end",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": null,
+          "text": "end"
+        }
+      ]
+    },
+    {
+      "input": "<img src='file:///private/secret'>end<br>more",
+      "sanitized": "endmore",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": null,
+          "text": "endmore"
+        }
+      ]
+    },
+    {
+      "input": "<unknown>kept</unknown><del>plain</del>",
+      "sanitized": "keptplain",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": null,
+          "text": "keptplain"
+        }
+      ]
+    },
+    {
+      "input": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+      "sanitized": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": "きみ",
+          "text": "君"
+        }
+      ]
+    },
+    {
+      "input": "前<ruby><b>音楽</b><rt>おんがく</rt></ruby>後",
+      "sanitized": "前<ruby><b>音楽</b><rt>おんがく</rt></ruby>後",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": null,
+          "text": "前"
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": "おんがく",
+          "text": "音楽"
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": null,
+          "text": "後"
+        }
+      ]
+    },
+    {
+      "input": "<ruby>一<rt>いち</rt></ruby><ruby>二<rt>に</rt></ruby>",
+      "sanitized": "<ruby>一<rt>いち</rt></ruby><ruby>二<rt>に</rt></ruby>",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": "いち",
+          "text": "一"
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": "に",
+          "text": "二"
+        }
+      ]
+    },
+    {
+      "input": "literal <3 & unknown",
+      "sanitized": "literal &lt;3 &amp; unknown",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": null,
+          "text": "literal <3 & unknown"
+        }
+      ]
+    },
+    {
+      "input": "<div>first</div><p>second</p>",
+      "sanitized": "<div>first</div><p>second</p>",
+      "spans": [
+        {
+          "bold": false,
+          "italic": false,
+          "href": null,
+          "ruby": null,
+          "text": "first\nsecond\n"
+        }
+      ]
+    }
+  ]
+}

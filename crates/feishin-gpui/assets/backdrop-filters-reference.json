@@ -1,0 +1,3636 @@
+{
+  "platform_metrics": {
+    "darwin": {
+      "electron": "43.7.0",
+      "chromium": "150.0.7871.250",
+      "cases": [
+        {
+          "name": "control",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(0px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-control-darwin.png"
+        },
+        {
+          "name": "player",
+          "sigma": 32,
+          "radius": 0,
+          "background": "#00000066",
+          "className": "fs-player-bar-module-container",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(32px)",
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0.4)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-player-darwin.png"
+        },
+        {
+          "name": "grid",
+          "sigma": 5,
+          "radius": 18,
+          "background": "#00000000",
+          "className": "fs-grid-card-controls-module-grid-card-controls-container",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(5px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-grid-darwin.png"
+        },
+        {
+          "name": "overlay",
+          "sigma": 3,
+          "radius": 0,
+          "background": "#00000033",
+          "className": "mantine-Modal-overlay",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(3px)",
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0.2)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-overlay-darwin.png"
+        },
+        {
+          "name": "card",
+          "sigma": 6,
+          "radius": 18,
+          "background": "#03010186",
+          "className": "fs-item-card-controls-module-container",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(6px)",
+            "radius": "18px",
+            "background": "rgba(3, 1, 1, 0.525)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-card-darwin.png"
+        },
+        {
+          "name": "popup",
+          "sigma": 32,
+          "radius": 18,
+          "background": "#04040980",
+          "className": "fs-context-menu-module-content",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(32px)",
+            "radius": "18px",
+            "background": "rgba(4, 4, 9, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-popup-darwin.png"
+        },
+        {
+          "name": "opacity",
+          "sigma": 5,
+          "radius": 18,
+          "background": "#00000000",
+          "opacity": 0.65,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(5px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-opacity-darwin.png"
+        },
+        {
+          "name": "fractional",
+          "sigma": 5,
+          "radius": 18,
+          "background": "#00000000",
+          "x": 40.25,
+          "y": 36.5,
+          "computed": {
+            "filter": "blur(5px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-fractional-darwin.png"
+        },
+        {
+          "name": "overlap",
+          "sigma": 32,
+          "radius": 18,
+          "background": "#04040980",
+          "className": "fs-context-menu-module-content",
+          "overlap": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(32px)",
+            "radius": "18px",
+            "background": "rgba(4, 4, 9, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-overlap-darwin.png"
+        },
+        {
+          "name": "translucent-card",
+          "sigma": 6,
+          "radius": 18,
+          "background": "#03010186",
+          "sourceOpacity": 0.5,
+          "className": "fs-item-card-controls-module-container",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(6px)",
+            "radius": "18px",
+            "background": "rgba(3, 1, 1, 0.525)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-translucent-card-darwin.png"
+        },
+        {
+          "name": "translucent-source",
+          "sigma": 5,
+          "radius": 18,
+          "background": "#00000000",
+          "sourceOpacity": 0.5,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(5px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-translucent-source-darwin.png"
+        },
+        {
+          "name": "fine-texture",
+          "sigma": 32,
+          "radius": 18,
+          "background": "#00000000",
+          "fine": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(32px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-fine-texture-darwin.png"
+        },
+        {
+          "name": "clipped",
+          "sigma": 32,
+          "radius": 18,
+          "background": "#04040980",
+          "clipped": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(32px)",
+            "radius": "18px",
+            "background": "rgba(4, 4, 9, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-clipped-darwin.png"
+        },
+        {
+          "name": "edge",
+          "sigma": 32,
+          "radius": 18,
+          "background": "#00000000",
+          "x": 0,
+          "y": 0,
+          "computed": {
+            "filter": "blur(32px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-edge-darwin.png"
+        },
+        {
+          "name": "preview-blur",
+          "sigma": 12,
+          "radius": 12,
+          "background": "#00000026",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px)",
+            "radius": "12px",
+            "background": "rgba(0, 0, 0, 0.15)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-preview-blur-darwin.png"
+        },
+        {
+          "name": "selection-saturation",
+          "sigma": 12,
+          "saturation": 1.8,
+          "filter": "blur(12px) saturate(180%)",
+          "radius": 12,
+          "background": "#00000026",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) saturate(1.8)",
+            "radius": "12px",
+            "background": "rgba(0, 0, 0, 0.15)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-selection-saturation-darwin.png"
+        },
+        {
+          "name": "drag-saturation",
+          "sigma": 12,
+          "saturation": 1.8,
+          "filter": "blur(12px) saturate(180%)",
+          "radius": 18,
+          "background": "#12345680",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) saturate(1.8)",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-drag-saturation-darwin.png"
+        },
+        {
+          "name": "grayscale-backdrop",
+          "sigma": 0,
+          "saturation": 0,
+          "filter": "saturate(0)",
+          "radius": 18,
+          "background": "#00000000",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "saturate(0)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-grayscale-backdrop-darwin.png"
+        },
+        {
+          "name": "saturation-only",
+          "sigma": 0,
+          "saturation": 1.8,
+          "filter": "saturate(180%)",
+          "radius": 18,
+          "background": "#00000000",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "saturate(1.8)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-saturation-only-darwin.png"
+        },
+        {
+          "name": "blur-desaturation",
+          "sigma": 12,
+          "saturation": 0,
+          "filter": "blur(12px) saturate(0)",
+          "radius": 18,
+          "background": "#00000000",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) saturate(0)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-blur-desaturation-darwin.png"
+        },
+        {
+          "name": "high-saturation",
+          "sigma": 12,
+          "saturation": 3,
+          "filter": "blur(12px) saturate(300%)",
+          "radius": 18,
+          "background": "#00000000",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) saturate(3)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-high-saturation-darwin.png"
+        },
+        {
+          "name": "translucent-saturation",
+          "sigma": 12,
+          "saturation": 1.8,
+          "filter": "blur(12px) saturate(180%)",
+          "radius": 18,
+          "background": "#00000000",
+          "sourceOpacity": 0.5,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) saturate(1.8)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-translucent-saturation-darwin.png"
+        },
+        {
+          "name": "ordered-0",
+          "filter": "brightness(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "brightness(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-0-darwin.png"
+        },
+        {
+          "name": "ordered-1",
+          "filter": "brightness(180%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "brightness(1.8)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-1-darwin.png"
+        },
+        {
+          "name": "ordered-2",
+          "filter": "brightness(0)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "brightness(0)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-2-darwin.png"
+        },
+        {
+          "name": "ordered-3",
+          "filter": "contrast(0)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "contrast(0)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-3-darwin.png"
+        },
+        {
+          "name": "ordered-4",
+          "filter": "contrast(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "contrast(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-4-darwin.png"
+        },
+        {
+          "name": "ordered-5",
+          "filter": "contrast(180%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "contrast(1.8)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-5-darwin.png"
+        },
+        {
+          "name": "ordered-6",
+          "filter": "grayscale()",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "grayscale(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-6-darwin.png"
+        },
+        {
+          "name": "ordered-7",
+          "filter": "grayscale(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "grayscale(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-7-darwin.png"
+        },
+        {
+          "name": "ordered-8",
+          "filter": "grayscale(200%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "grayscale(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-8-darwin.png"
+        },
+        {
+          "name": "ordered-9",
+          "filter": "sepia()",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "sepia(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-9-darwin.png"
+        },
+        {
+          "name": "ordered-10",
+          "filter": "sepia(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "sepia(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-10-darwin.png"
+        },
+        {
+          "name": "ordered-11",
+          "filter": "sepia(200%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "sepia(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-11-darwin.png"
+        },
+        {
+          "name": "ordered-12",
+          "filter": "hue-rotate(90deg)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "hue-rotate(90deg)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-12-darwin.png"
+        },
+        {
+          "name": "ordered-13",
+          "filter": "hue-rotate(-120deg)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "hue-rotate(-120deg)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-13-darwin.png"
+        },
+        {
+          "name": "ordered-14",
+          "filter": "hue-rotate(720deg)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "hue-rotate(720deg)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-14-darwin.png"
+        },
+        {
+          "name": "ordered-15",
+          "filter": "invert()",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "invert(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-15-darwin.png"
+        },
+        {
+          "name": "ordered-16",
+          "filter": "invert(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "invert(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-16-darwin.png"
+        },
+        {
+          "name": "ordered-17",
+          "filter": "invert(200%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "invert(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-17-darwin.png"
+        },
+        {
+          "name": "ordered-18",
+          "filter": "opacity(0)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "opacity(0)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-18-darwin.png"
+        },
+        {
+          "name": "ordered-19",
+          "filter": "opacity(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "opacity(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-19-darwin.png"
+        },
+        {
+          "name": "ordered-20",
+          "filter": "opacity(200%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "opacity(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-20-darwin.png"
+        },
+        {
+          "name": "ordered-21",
+          "filter": "brightness(180%) contrast(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "brightness(1.8) contrast(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-21-darwin.png"
+        },
+        {
+          "name": "ordered-22",
+          "filter": "contrast(50%) brightness(180%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "contrast(0.5) brightness(1.8)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-22-darwin.png"
+        },
+        {
+          "name": "ordered-23",
+          "filter": "saturate(300%) blur(12px)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "saturate(3) blur(12px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-23-darwin.png"
+        },
+        {
+          "name": "ordered-24",
+          "filter": "blur(12px) saturate(300%)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) saturate(3)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-24-darwin.png"
+        },
+        {
+          "name": "ordered-25",
+          "filter": "invert(80%) blur(12px) contrast(160%)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "invert(0.8) blur(12px) contrast(1.6)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-25-darwin.png"
+        },
+        {
+          "name": "ordered-26",
+          "filter": "blur(4px) blur(12px)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(4px) blur(12px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-26-darwin.png"
+        },
+        {
+          "name": "ordered-27",
+          "filter": "blur(32px) brightness(60%) blur(3px)",
+          "sigma": 32,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(32px) brightness(0.6) blur(3px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-27-darwin.png"
+        },
+        {
+          "name": "ordered-28",
+          "filter": "sepia(80%) hue-rotate(90deg) saturate(180%) brightness(110%) contrast(120%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "sepia(0.8) hue-rotate(90deg) saturate(1.8) brightness(1.1) contrast(1.2)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-28-darwin.png"
+        },
+        {
+          "name": "ordered-29",
+          "filter": "blur(12px) opacity(50%)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) opacity(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-29-darwin.png"
+        },
+        {
+          "name": "ordered-30",
+          "filter": "opacity(50%) blur(12px)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "opacity(0.5) blur(12px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-30-darwin.png"
+        },
+        {
+          "name": "ordered-31",
+          "filter": "brightness() contrast() grayscale(0) sepia(0) hue-rotate() invert(0) opacity()",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "brightness(1) contrast(1) grayscale(0) sepia(0) hue-rotate(0deg) invert(0) opacity(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-31-darwin.png"
+        },
+        {
+          "name": "ordered-alpha-0",
+          "filter": "invert(80%) blur(12px) contrast(160%)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.65,
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "invert(0.8) blur(12px) contrast(1.6)",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-alpha-0-darwin.png"
+        },
+        {
+          "name": "ordered-alpha-1",
+          "filter": "sepia(80%) hue-rotate(90deg)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.65,
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "sepia(0.8) hue-rotate(90deg)",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-alpha-1-darwin.png"
+        },
+        {
+          "name": "ordered-alpha-2",
+          "filter": "blur(12px) opacity(50%)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.65,
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) opacity(0.5)",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-alpha-2-darwin.png"
+        },
+        {
+          "name": "ordered-alpha-3",
+          "filter": "brightness(180%) contrast(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.65,
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "brightness(1.8) contrast(0.5)",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-alpha-3-darwin.png"
+        },
+        {
+          "name": "group-0.25-1",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 1,
+          "opacity": 0.25,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.25-1-darwin.png"
+        },
+        {
+          "name": "group-0.25-0.5",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.25,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.25-0.5-darwin.png"
+        },
+        {
+          "name": "group-0.25-0.125",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.125,
+          "opacity": 0.25,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.25-0.125-darwin.png"
+        },
+        {
+          "name": "group-0.5-1",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 1,
+          "opacity": 0.5,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.5-1-darwin.png"
+        },
+        {
+          "name": "group-0.5-0.5",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.5,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.5-0.5-darwin.png"
+        },
+        {
+          "name": "group-0.5-0.125",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.125,
+          "opacity": 0.5,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.5-0.125-darwin.png"
+        },
+        {
+          "name": "group-0.65-1",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 1,
+          "opacity": 0.65,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.65-1-darwin.png"
+        },
+        {
+          "name": "group-0.65-0.5",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.65,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.65-0.5-darwin.png"
+        },
+        {
+          "name": "group-0.65-0.125",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.125,
+          "opacity": 0.65,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.65-0.125-darwin.png"
+        },
+        {
+          "name": "group-0.9-1",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 1,
+          "opacity": 0.9,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.9-1-darwin.png"
+        },
+        {
+          "name": "group-0.9-0.5",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.9,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.9-0.5-darwin.png"
+        },
+        {
+          "name": "group-0.9-0.125",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.125,
+          "opacity": 0.9,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.9-0.125-darwin.png"
+        },
+        {
+          "name": "nested-group-1",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 1,
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-nested-group-1-darwin.png"
+        },
+        {
+          "name": "nested-group-0.5",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-nested-group-0.5-darwin.png"
+        }
+      ],
+      "cascades": [
+        {
+          "source": "span{backdrop-filter:blur(3px)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{backdrop-filter:BLUR(2REM)}",
+          "filter": "blur(32px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur( /* gap */ 5px)}",
+          "filter": "blur(5px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur()}",
+          "filter": "blur(0px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(0)}",
+          "filter": "blur(0px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:blur(-1px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:blur(1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:blur(50%)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:blur(3px) bogus}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:\"blur(3px)\"}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "body{backdrop-filter:blur(9px)}",
+          "filter": "none"
+        },
+        {
+          "source": "body{backdrop-filter:blur(9px)}span{backdrop-filter:inherit}",
+          "filter": "blur(9px)"
+        },
+        {
+          "source": "body{backdrop-filter:blur(9px)}span{backdrop-filter:unset}",
+          "filter": "none"
+        },
+        {
+          "source": "body{backdrop-filter:blur(9px)}span{backdrop-filter:initial}",
+          "filter": "none"
+        },
+        {
+          "source": "body{backdrop-filter:blur(9px)}span{backdrop-filter:revert}",
+          "filter": "none"
+        },
+        {
+          "source": "body{--blur:5px}span{backdrop-filter:blur(var(--blur))}",
+          "filter": "blur(5px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(12px) saturate(180%)}",
+          "filter": "blur(12px) saturate(1.8)"
+        },
+        {
+          "source": "span{backdrop-filter:saturate()}",
+          "filter": "saturate(1)"
+        },
+        {
+          "source": "span{backdrop-filter:saturate(0)}",
+          "filter": "saturate(0)"
+        },
+        {
+          "source": "span{backdrop-filter:saturate(50%)}",
+          "filter": "saturate(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:BLUR(2PX) SATURATE(200%)}",
+          "filter": "blur(2px) saturate(2)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:blur(3px) saturate(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:blur(3px) saturate(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "body{backdrop-filter:blur(9px) saturate(3)}span{backdrop-filter:inherit}",
+          "filter": "blur(9px) saturate(3)"
+        },
+        {
+          "source": "body{--blur:5px;--saturation:150%}span{backdrop-filter:blur(var(--blur)) saturate(var(--saturation))}",
+          "filter": "blur(5px) saturate(1.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness()}",
+          "filter": "brightness(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(0)}",
+          "filter": "brightness(0)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(.5)}",
+          "filter": "brightness(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(180%)}",
+          "filter": "brightness(1.8)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast()}",
+          "filter": "contrast(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast(0)}",
+          "filter": "contrast(0)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast(.5)}",
+          "filter": "contrast(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast(180%)}",
+          "filter": "contrast(1.8)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate()}",
+          "filter": "saturate(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(0)}",
+          "filter": "saturate(0)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(.5)}",
+          "filter": "saturate(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(180%)}",
+          "filter": "saturate(1.8)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale()}",
+          "filter": "grayscale(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale(0)}",
+          "filter": "grayscale(0)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale(.5)}",
+          "filter": "grayscale(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale(180%)}",
+          "filter": "grayscale(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia()}",
+          "filter": "sepia(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(0)}",
+          "filter": "sepia(0)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(.5)}",
+          "filter": "sepia(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(180%)}",
+          "filter": "sepia(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert()}",
+          "filter": "invert(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert(0)}",
+          "filter": "invert(0)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert(.5)}",
+          "filter": "invert(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert(180%)}",
+          "filter": "invert(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity()}",
+          "filter": "opacity(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity(0)}",
+          "filter": "opacity(0)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity(.5)}",
+          "filter": "opacity(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity(180%)}",
+          "filter": "opacity(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate()}",
+          "filter": "hue-rotate(0deg)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(0)}",
+          "filter": "hue-rotate(0deg)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(90deg)}",
+          "filter": "hue-rotate(90deg)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(-.5turn)}",
+          "filter": "hue-rotate(-180deg)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(100grad)}",
+          "filter": "hue-rotate(90deg)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(1rad)}",
+          "filter": "hue-rotate(57.2958deg)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(20%)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(NaN)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(2) blur(3px)}",
+          "filter": "brightness(2) blur(3px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:blur(2px) blur(4px)}",
+          "filter": "blur(2px) blur(4px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(.5) invert(.2)}",
+          "filter": "sepia(0.5) invert(0.2)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:none blur(3px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(2), contrast(1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "body{backdrop-filter:brightness(2) blur(3px)}span{backdrop-filter:inherit}",
+          "filter": "brightness(2) blur(3px)"
+        },
+        {
+          "source": "body{backdrop-filter:sepia(.5) invert(.2)}span{backdrop-filter:unset}",
+          "filter": "none"
+        },
+        {
+          "source": "body{--filter:brightness(2) blur(3px)}span{backdrop-filter:var(--filter)}",
+          "filter": "brightness(2) blur(3px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(var(--missing))}",
+          "filter": "none"
+        },
+        {
+          "source": "span{backdrop-filter:BRIGHTNESS( /* comment */ 50%) INVERT(.2)}",
+          "filter": "brightness(0.5) invert(0.2)"
+        }
+      ]
+    },
+    "linux": {
+      "electron": "43.7.0",
+      "chromium": "150.0.7871.250",
+      "cases": [
+        {
+          "name": "control",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(0px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-control-linux.png"
+        },
+        {
+          "name": "player",
+          "sigma": 32,
+          "radius": 0,
+          "background": "#00000066",
+          "className": "fs-player-bar-module-container",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(32px)",
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0.4)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-player-linux.png"
+        },
+        {
+          "name": "grid",
+          "sigma": 5,
+          "radius": 18,
+          "background": "#00000000",
+          "className": "fs-grid-card-controls-module-grid-card-controls-container",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(5px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-grid-linux.png"
+        },
+        {
+          "name": "overlay",
+          "sigma": 3,
+          "radius": 0,
+          "background": "#00000033",
+          "className": "mantine-Modal-overlay",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(3px)",
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0.2)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-overlay-linux.png"
+        },
+        {
+          "name": "card",
+          "sigma": 6,
+          "radius": 18,
+          "background": "#03010186",
+          "className": "fs-item-card-controls-module-container",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(6px)",
+            "radius": "18px",
+            "background": "rgba(3, 1, 1, 0.525)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-card-linux.png"
+        },
+        {
+          "name": "popup",
+          "sigma": 32,
+          "radius": 18,
+          "background": "#04040980",
+          "className": "fs-context-menu-module-content",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(32px)",
+            "radius": "18px",
+            "background": "rgba(4, 4, 9, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-popup-linux.png"
+        },
+        {
+          "name": "opacity",
+          "sigma": 5,
+          "radius": 18,
+          "background": "#00000000",
+          "opacity": 0.65,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(5px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-opacity-linux.png"
+        },
+        {
+          "name": "fractional",
+          "sigma": 5,
+          "radius": 18,
+          "background": "#00000000",
+          "x": 40.25,
+          "y": 36.5,
+          "computed": {
+            "filter": "blur(5px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-fractional-linux.png"
+        },
+        {
+          "name": "overlap",
+          "sigma": 32,
+          "radius": 18,
+          "background": "#04040980",
+          "className": "fs-context-menu-module-content",
+          "overlap": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(32px)",
+            "radius": "18px",
+            "background": "rgba(4, 4, 9, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-overlap-linux.png"
+        },
+        {
+          "name": "translucent-card",
+          "sigma": 6,
+          "radius": 18,
+          "background": "#03010186",
+          "sourceOpacity": 0.5,
+          "className": "fs-item-card-controls-module-container",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(6px)",
+            "radius": "18px",
+            "background": "rgba(3, 1, 1, 0.525)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-translucent-card-linux.png"
+        },
+        {
+          "name": "translucent-source",
+          "sigma": 5,
+          "radius": 18,
+          "background": "#00000000",
+          "sourceOpacity": 0.5,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(5px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-translucent-source-linux.png"
+        },
+        {
+          "name": "fine-texture",
+          "sigma": 32,
+          "radius": 18,
+          "background": "#00000000",
+          "fine": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(32px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-fine-texture-linux.png"
+        },
+        {
+          "name": "clipped",
+          "sigma": 32,
+          "radius": 18,
+          "background": "#04040980",
+          "clipped": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(32px)",
+            "radius": "18px",
+            "background": "rgba(4, 4, 9, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-clipped-linux.png"
+        },
+        {
+          "name": "edge",
+          "sigma": 32,
+          "radius": 18,
+          "background": "#00000000",
+          "x": 0,
+          "y": 0,
+          "computed": {
+            "filter": "blur(32px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-edge-linux.png"
+        },
+        {
+          "name": "preview-blur",
+          "sigma": 12,
+          "radius": 12,
+          "background": "#00000026",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px)",
+            "radius": "12px",
+            "background": "rgba(0, 0, 0, 0.15)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-preview-blur-linux.png"
+        },
+        {
+          "name": "selection-saturation",
+          "sigma": 12,
+          "saturation": 1.8,
+          "filter": "blur(12px) saturate(180%)",
+          "radius": 12,
+          "background": "#00000026",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) saturate(1.8)",
+            "radius": "12px",
+            "background": "rgba(0, 0, 0, 0.15)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-selection-saturation-linux.png"
+        },
+        {
+          "name": "drag-saturation",
+          "sigma": 12,
+          "saturation": 1.8,
+          "filter": "blur(12px) saturate(180%)",
+          "radius": 18,
+          "background": "#12345680",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) saturate(1.8)",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-drag-saturation-linux.png"
+        },
+        {
+          "name": "grayscale-backdrop",
+          "sigma": 0,
+          "saturation": 0,
+          "filter": "saturate(0)",
+          "radius": 18,
+          "background": "#00000000",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "saturate(0)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-grayscale-backdrop-linux.png"
+        },
+        {
+          "name": "saturation-only",
+          "sigma": 0,
+          "saturation": 1.8,
+          "filter": "saturate(180%)",
+          "radius": 18,
+          "background": "#00000000",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "saturate(1.8)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-saturation-only-linux.png"
+        },
+        {
+          "name": "blur-desaturation",
+          "sigma": 12,
+          "saturation": 0,
+          "filter": "blur(12px) saturate(0)",
+          "radius": 18,
+          "background": "#00000000",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) saturate(0)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-blur-desaturation-linux.png"
+        },
+        {
+          "name": "high-saturation",
+          "sigma": 12,
+          "saturation": 3,
+          "filter": "blur(12px) saturate(300%)",
+          "radius": 18,
+          "background": "#00000000",
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) saturate(3)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-high-saturation-linux.png"
+        },
+        {
+          "name": "translucent-saturation",
+          "sigma": 12,
+          "saturation": 1.8,
+          "filter": "blur(12px) saturate(180%)",
+          "radius": 18,
+          "background": "#00000000",
+          "sourceOpacity": 0.5,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) saturate(1.8)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-translucent-saturation-linux.png"
+        },
+        {
+          "name": "ordered-0",
+          "filter": "brightness(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "brightness(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-0-linux.png"
+        },
+        {
+          "name": "ordered-1",
+          "filter": "brightness(180%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "brightness(1.8)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-1-linux.png"
+        },
+        {
+          "name": "ordered-2",
+          "filter": "brightness(0)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "brightness(0)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-2-linux.png"
+        },
+        {
+          "name": "ordered-3",
+          "filter": "contrast(0)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "contrast(0)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-3-linux.png"
+        },
+        {
+          "name": "ordered-4",
+          "filter": "contrast(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "contrast(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-4-linux.png"
+        },
+        {
+          "name": "ordered-5",
+          "filter": "contrast(180%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "contrast(1.8)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-5-linux.png"
+        },
+        {
+          "name": "ordered-6",
+          "filter": "grayscale()",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "grayscale(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-6-linux.png"
+        },
+        {
+          "name": "ordered-7",
+          "filter": "grayscale(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "grayscale(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-7-linux.png"
+        },
+        {
+          "name": "ordered-8",
+          "filter": "grayscale(200%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "grayscale(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-8-linux.png"
+        },
+        {
+          "name": "ordered-9",
+          "filter": "sepia()",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "sepia(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-9-linux.png"
+        },
+        {
+          "name": "ordered-10",
+          "filter": "sepia(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "sepia(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-10-linux.png"
+        },
+        {
+          "name": "ordered-11",
+          "filter": "sepia(200%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "sepia(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-11-linux.png"
+        },
+        {
+          "name": "ordered-12",
+          "filter": "hue-rotate(90deg)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "hue-rotate(90deg)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-12-linux.png"
+        },
+        {
+          "name": "ordered-13",
+          "filter": "hue-rotate(-120deg)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "hue-rotate(-120deg)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-13-linux.png"
+        },
+        {
+          "name": "ordered-14",
+          "filter": "hue-rotate(720deg)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "hue-rotate(720deg)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-14-linux.png"
+        },
+        {
+          "name": "ordered-15",
+          "filter": "invert()",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "invert(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-15-linux.png"
+        },
+        {
+          "name": "ordered-16",
+          "filter": "invert(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "invert(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-16-linux.png"
+        },
+        {
+          "name": "ordered-17",
+          "filter": "invert(200%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "invert(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-17-linux.png"
+        },
+        {
+          "name": "ordered-18",
+          "filter": "opacity(0)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "opacity(0)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-18-linux.png"
+        },
+        {
+          "name": "ordered-19",
+          "filter": "opacity(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "opacity(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-19-linux.png"
+        },
+        {
+          "name": "ordered-20",
+          "filter": "opacity(200%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "opacity(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-20-linux.png"
+        },
+        {
+          "name": "ordered-21",
+          "filter": "brightness(180%) contrast(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "brightness(1.8) contrast(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-21-linux.png"
+        },
+        {
+          "name": "ordered-22",
+          "filter": "contrast(50%) brightness(180%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "contrast(0.5) brightness(1.8)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-22-linux.png"
+        },
+        {
+          "name": "ordered-23",
+          "filter": "saturate(300%) blur(12px)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "saturate(3) blur(12px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-23-linux.png"
+        },
+        {
+          "name": "ordered-24",
+          "filter": "blur(12px) saturate(300%)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) saturate(3)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-24-linux.png"
+        },
+        {
+          "name": "ordered-25",
+          "filter": "invert(80%) blur(12px) contrast(160%)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "invert(0.8) blur(12px) contrast(1.6)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-25-linux.png"
+        },
+        {
+          "name": "ordered-26",
+          "filter": "blur(4px) blur(12px)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(4px) blur(12px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-26-linux.png"
+        },
+        {
+          "name": "ordered-27",
+          "filter": "blur(32px) brightness(60%) blur(3px)",
+          "sigma": 32,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(32px) brightness(0.6) blur(3px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-27-linux.png"
+        },
+        {
+          "name": "ordered-28",
+          "filter": "sepia(80%) hue-rotate(90deg) saturate(180%) brightness(110%) contrast(120%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "sepia(0.8) hue-rotate(90deg) saturate(1.8) brightness(1.1) contrast(1.2)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-28-linux.png"
+        },
+        {
+          "name": "ordered-29",
+          "filter": "blur(12px) opacity(50%)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) opacity(0.5)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-29-linux.png"
+        },
+        {
+          "name": "ordered-30",
+          "filter": "opacity(50%) blur(12px)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "opacity(0.5) blur(12px)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-30-linux.png"
+        },
+        {
+          "name": "ordered-31",
+          "filter": "brightness() contrast() grayscale(0) sepia(0) hue-rotate() invert(0) opacity()",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#00000000",
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "brightness(1) contrast(1) grayscale(0) sepia(0) hue-rotate(0deg) invert(0) opacity(1)",
+            "radius": "18px",
+            "background": "rgba(0, 0, 0, 0)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-31-linux.png"
+        },
+        {
+          "name": "ordered-alpha-0",
+          "filter": "invert(80%) blur(12px) contrast(160%)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.65,
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "invert(0.8) blur(12px) contrast(1.6)",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-alpha-0-linux.png"
+        },
+        {
+          "name": "ordered-alpha-1",
+          "filter": "sepia(80%) hue-rotate(90deg)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.65,
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "sepia(0.8) hue-rotate(90deg)",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-alpha-1-linux.png"
+        },
+        {
+          "name": "ordered-alpha-2",
+          "filter": "blur(12px) opacity(50%)",
+          "sigma": 12,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.65,
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "blur(12px) opacity(0.5)",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-alpha-2-linux.png"
+        },
+        {
+          "name": "ordered-alpha-3",
+          "filter": "brightness(180%) contrast(50%)",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.65,
+          "ordered": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "brightness(1.8) contrast(0.5)",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-ordered-alpha-3-linux.png"
+        },
+        {
+          "name": "group-0.25-1",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 1,
+          "opacity": 0.25,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.25-1-linux.png"
+        },
+        {
+          "name": "group-0.25-0.5",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.25,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.25-0.5-linux.png"
+        },
+        {
+          "name": "group-0.25-0.125",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.125,
+          "opacity": 0.25,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.25-0.125-linux.png"
+        },
+        {
+          "name": "group-0.5-1",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 1,
+          "opacity": 0.5,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.5-1-linux.png"
+        },
+        {
+          "name": "group-0.5-0.5",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.5,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.5-0.5-linux.png"
+        },
+        {
+          "name": "group-0.5-0.125",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.125,
+          "opacity": 0.5,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.5-0.125-linux.png"
+        },
+        {
+          "name": "group-0.65-1",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 1,
+          "opacity": 0.65,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.65-1-linux.png"
+        },
+        {
+          "name": "group-0.65-0.5",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.65,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.65-0.5-linux.png"
+        },
+        {
+          "name": "group-0.65-0.125",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.125,
+          "opacity": 0.65,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.65-0.125-linux.png"
+        },
+        {
+          "name": "group-0.9-1",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 1,
+          "opacity": 0.9,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.9-1-linux.png"
+        },
+        {
+          "name": "group-0.9-0.5",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.9,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.9-0.5-linux.png"
+        },
+        {
+          "name": "group-0.9-0.125",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.125,
+          "opacity": 0.9,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-group-0.9-0.125-linux.png"
+        },
+        {
+          "name": "nested-group-1",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 1,
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-nested-group-1-linux.png"
+        },
+        {
+          "name": "nested-group-0.5",
+          "filter": "none",
+          "sigma": 0,
+          "radius": 18,
+          "background": "#12345680",
+          "sourceOpacity": 0.5,
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "ordered": true,
+          "groupOnly": true,
+          "x": 40,
+          "y": 36,
+          "computed": {
+            "filter": "none",
+            "radius": "18px",
+            "background": "rgba(18, 52, 86, 0.5)",
+            "scale": 2,
+            "width": 256,
+            "height": 256
+          },
+          "file": "backdrop-nested-group-0.5-linux.png"
+        }
+      ],
+      "cascades": [
+        {
+          "source": "span{backdrop-filter:blur(3px)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{backdrop-filter:BLUR(2REM)}",
+          "filter": "blur(32px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur( /* gap */ 5px)}",
+          "filter": "blur(5px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur()}",
+          "filter": "blur(0px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(0)}",
+          "filter": "blur(0px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:blur(-1px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:blur(1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:blur(50%)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:blur(3px) bogus}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:\"blur(3px)\"}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "body{backdrop-filter:blur(9px)}",
+          "filter": "none"
+        },
+        {
+          "source": "body{backdrop-filter:blur(9px)}span{backdrop-filter:inherit}",
+          "filter": "blur(9px)"
+        },
+        {
+          "source": "body{backdrop-filter:blur(9px)}span{backdrop-filter:unset}",
+          "filter": "none"
+        },
+        {
+          "source": "body{backdrop-filter:blur(9px)}span{backdrop-filter:initial}",
+          "filter": "none"
+        },
+        {
+          "source": "body{backdrop-filter:blur(9px)}span{backdrop-filter:revert}",
+          "filter": "none"
+        },
+        {
+          "source": "body{--blur:5px}span{backdrop-filter:blur(var(--blur))}",
+          "filter": "blur(5px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(12px) saturate(180%)}",
+          "filter": "blur(12px) saturate(1.8)"
+        },
+        {
+          "source": "span{backdrop-filter:saturate()}",
+          "filter": "saturate(1)"
+        },
+        {
+          "source": "span{backdrop-filter:saturate(0)}",
+          "filter": "saturate(0)"
+        },
+        {
+          "source": "span{backdrop-filter:saturate(50%)}",
+          "filter": "saturate(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:BLUR(2PX) SATURATE(200%)}",
+          "filter": "blur(2px) saturate(2)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:blur(3px) saturate(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:blur(3px) saturate(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "body{backdrop-filter:blur(9px) saturate(3)}span{backdrop-filter:inherit}",
+          "filter": "blur(9px) saturate(3)"
+        },
+        {
+          "source": "body{--blur:5px;--saturation:150%}span{backdrop-filter:blur(var(--blur)) saturate(var(--saturation))}",
+          "filter": "blur(5px) saturate(1.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness()}",
+          "filter": "brightness(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(0)}",
+          "filter": "brightness(0)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(.5)}",
+          "filter": "brightness(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(180%)}",
+          "filter": "brightness(1.8)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast()}",
+          "filter": "contrast(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast(0)}",
+          "filter": "contrast(0)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast(.5)}",
+          "filter": "contrast(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast(180%)}",
+          "filter": "contrast(1.8)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:contrast(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate()}",
+          "filter": "saturate(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(0)}",
+          "filter": "saturate(0)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(.5)}",
+          "filter": "saturate(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(180%)}",
+          "filter": "saturate(1.8)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:saturate(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale()}",
+          "filter": "grayscale(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale(0)}",
+          "filter": "grayscale(0)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale(.5)}",
+          "filter": "grayscale(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale(180%)}",
+          "filter": "grayscale(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:grayscale(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia()}",
+          "filter": "sepia(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(0)}",
+          "filter": "sepia(0)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(.5)}",
+          "filter": "sepia(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(180%)}",
+          "filter": "sepia(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert()}",
+          "filter": "invert(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert(0)}",
+          "filter": "invert(0)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert(.5)}",
+          "filter": "invert(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert(180%)}",
+          "filter": "invert(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:invert(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity()}",
+          "filter": "opacity(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity(0)}",
+          "filter": "opacity(0)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity(.5)}",
+          "filter": "opacity(0.5)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity(180%)}",
+          "filter": "opacity(1)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:opacity(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate()}",
+          "filter": "hue-rotate(0deg)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(0)}",
+          "filter": "hue-rotate(0deg)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(90deg)}",
+          "filter": "hue-rotate(90deg)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(-.5turn)}",
+          "filter": "hue-rotate(-180deg)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(100grad)}",
+          "filter": "hue-rotate(90deg)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(1rad)}",
+          "filter": "hue-rotate(57.2958deg)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(20%)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:hue-rotate(NaN)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(2) blur(3px)}",
+          "filter": "brightness(2) blur(3px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:blur(2px) blur(4px)}",
+          "filter": "blur(2px) blur(4px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:sepia(.5) invert(.2)}",
+          "filter": "sepia(0.5) invert(0.2)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:none blur(3px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(2), contrast(1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "body{backdrop-filter:brightness(2) blur(3px)}span{backdrop-filter:inherit}",
+          "filter": "brightness(2) blur(3px)"
+        },
+        {
+          "source": "body{backdrop-filter:sepia(.5) invert(.2)}span{backdrop-filter:unset}",
+          "filter": "none"
+        },
+        {
+          "source": "body{--filter:brightness(2) blur(3px)}span{backdrop-filter:var(--filter)}",
+          "filter": "brightness(2) blur(3px)"
+        },
+        {
+          "source": "span{backdrop-filter:blur(6px);backdrop-filter:brightness(var(--missing))}",
+          "filter": "none"
+        },
+        {
+          "source": "span{backdrop-filter:BRIGHTNESS( /* comment */ 50%) INVERT(.2)}",
+          "filter": "brightness(0.5) invert(0.2)"
+        }
+      ]
+    }
+  }
+}

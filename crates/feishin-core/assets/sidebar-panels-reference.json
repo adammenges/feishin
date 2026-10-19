@@ -1,0 +1,8088 @@
+{
+  "visibility": [
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics",
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics",
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "visualizer",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics",
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics",
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics",
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "visualizer",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics",
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "visualizer",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "visualizer",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "visualizer",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": false,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "visualizer",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": []
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": false,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": false,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": false,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "visualizer",
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": false,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": false,
+      "expected": [
+        "lyrics",
+        "queue"
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "queue": true,
+      "lyrics": true,
+      "visualizer": true,
+      "combined": true,
+      "webAudio": true,
+      "nowPlaying": true,
+      "expected": [
+        "lyrics"
+      ]
+    }
+  ],
+  "layout": [
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": null,
+      "expected": [
+        null,
+        100,
+        null
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [],
+      "expected": [
+        null,
+        100,
+        null
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [
+        80
+      ],
+      "expected": [
+        null,
+        100,
+        null
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "expected": [
+        null,
+        140,
+        230
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": null,
+      "expected": [
+        null,
+        100,
+        null
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [],
+      "expected": [
+        null,
+        100,
+        null
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [
+        80
+      ],
+      "expected": [
+        null,
+        100,
+        null
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "expected": [
+        null,
+        140,
+        230
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "saved": null,
+      "expected": [
+        100,
+        null,
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "saved": [],
+      "expected": [
+        100,
+        null,
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "saved": [
+        80
+      ],
+      "expected": [
+        80,
+        null,
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "expected": [
+        80,
+        null,
+        230
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "saved": null,
+      "expected": [
+        100,
+        null,
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "saved": [],
+      "expected": [
+        100,
+        null,
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "saved": [
+        80
+      ],
+      "expected": [
+        80,
+        null,
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "expected": [
+        80,
+        140,
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "saved": null,
+      "expected": [
+        100,
+        null,
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "saved": [],
+      "expected": [
+        100,
+        null,
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "saved": [
+        80
+      ],
+      "expected": [
+        80,
+        null,
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "expected": [
+        80,
+        null,
+        230
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "saved": null,
+      "expected": [
+        100,
+        null,
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "saved": [],
+      "expected": [
+        100,
+        null,
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "saved": [
+        80
+      ],
+      "expected": [
+        80,
+        null,
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "expected": [
+        80,
+        140,
+        null
+      ]
+    },
+    {
+      "order": [
+        "queue"
+      ],
+      "saved": null,
+      "expected": [
+        null
+      ]
+    },
+    {
+      "order": [
+        "queue"
+      ],
+      "saved": [],
+      "expected": [
+        null
+      ]
+    },
+    {
+      "order": [
+        "queue"
+      ],
+      "saved": [
+        80
+      ],
+      "expected": [
+        null
+      ]
+    },
+    {
+      "order": [
+        "queue"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "expected": [
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics"
+      ],
+      "saved": null,
+      "expected": [
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics"
+      ],
+      "saved": [],
+      "expected": [
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics"
+      ],
+      "saved": [
+        80
+      ],
+      "expected": [
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "expected": [
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer"
+      ],
+      "saved": null,
+      "expected": [
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer"
+      ],
+      "saved": [],
+      "expected": [
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer"
+      ],
+      "saved": [
+        80
+      ],
+      "expected": [
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "expected": [
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": null,
+      "expected": [
+        100,
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [],
+      "expected": [
+        100,
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [
+        80
+      ],
+      "expected": [
+        80,
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "expected": [
+        80,
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": null,
+      "expected": [
+        100,
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [],
+      "expected": [
+        100,
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [
+        80
+      ],
+      "expected": [
+        80,
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "expected": [
+        80,
+        null
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics"
+      ],
+      "saved": null,
+      "expected": [
+        null,
+        100
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics"
+      ],
+      "saved": [],
+      "expected": [
+        null,
+        100
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics"
+      ],
+      "saved": [
+        80
+      ],
+      "expected": [
+        null,
+        100
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "expected": [
+        null,
+        140
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue"
+      ],
+      "saved": null,
+      "expected": [
+        100,
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue"
+      ],
+      "saved": [],
+      "expected": [
+        100,
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue"
+      ],
+      "saved": [
+        80
+      ],
+      "expected": [
+        80,
+        null
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "expected": [
+        80,
+        null
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer"
+      ],
+      "saved": null,
+      "expected": [
+        null,
+        100
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer"
+      ],
+      "saved": [],
+      "expected": [
+        null,
+        100
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer"
+      ],
+      "saved": [
+        80
+      ],
+      "expected": [
+        null,
+        100
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "expected": [
+        null,
+        140
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue"
+      ],
+      "saved": null,
+      "expected": [
+        100,
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue"
+      ],
+      "saved": [],
+      "expected": [
+        100,
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue"
+      ],
+      "saved": [
+        80
+      ],
+      "expected": [
+        80,
+        null
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "expected": [
+        80,
+        null
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "lyrics",
+            "queue",
+            "visualizer"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "queue",
+            "visualizer",
+            "lyrics"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showLyricsInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "queue",
+            "visualizer",
+            "lyrics"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": null
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "lyrics",
+            "queue",
+            "visualizer"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "queue",
+            "visualizer",
+            "lyrics"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showLyricsInSidebar": false,
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "queue",
+            "visualizer",
+            "lyrics"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": null
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "queue",
+            "lyrics",
+            "visualizer"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": null
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "showLyricsInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "visualizer",
+            "queue",
+            "lyrics"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "queue",
+            "lyrics",
+            "visualizer"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "queue",
+            "lyrics",
+            "visualizer"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": null
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "showLyricsInSidebar": false,
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "visualizer",
+            "queue",
+            "lyrics"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "queue",
+            "lyrics",
+            "visualizer"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "up",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": null
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "down",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "queue",
+            "lyrics",
+            "visualizer"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "close",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showLyricsInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "lyrics",
+            "visualizer",
+            "queue"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": null
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "up",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": null
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "down",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "queue",
+            "lyrics",
+            "visualizer"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "close",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showLyricsInSidebar": false,
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "lyrics",
+            "visualizer",
+            "queue"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": null
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "up",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": null
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "down",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "visualizer",
+            "lyrics",
+            "queue"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "close",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showLyricsInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "visualizer",
+            "lyrics",
+            "queue"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "lyrics",
+            "queue",
+            "visualizer"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "up",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": null
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "down",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "visualizer",
+            "lyrics",
+            "queue"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "close",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showLyricsInSidebar": false,
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "visualizer",
+            "lyrics",
+            "queue"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "lyrics",
+            "queue",
+            "visualizer"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "visualizer",
+            "lyrics",
+            "queue"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": null
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "showLyricsInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "up",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": null
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "down",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "queue",
+            "visualizer",
+            "lyrics"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "close",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "visualizer",
+            "lyrics",
+            "queue"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": null
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": false,
+      "expected": {
+        "general": {
+          "showLyricsInSidebar": false,
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "up",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": null
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "down",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "queue",
+            "visualizer",
+            "lyrics"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "close",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "lyrics",
+            "visualizer",
+            "queue"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "visualizer",
+            "queue",
+            "lyrics"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "combined": false,
+      "panel": "lyrics",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showLyricsInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "up",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": null
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "down",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "lyrics",
+            "visualizer",
+            "queue"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "combined": false,
+      "panel": "visualizer",
+      "action": "close",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "up",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "lyrics",
+            "visualizer",
+            "queue"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "down",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "visualizer",
+            "queue",
+            "lyrics"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "combined": true,
+      "panel": "lyrics",
+      "action": "close",
+      "canMoveUp": true,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showLyricsInSidebar": false,
+          "showVisualizerInSidebar": false
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "up",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": null
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "down",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "sidebarPanelOrder": [
+            "lyrics",
+            "visualizer",
+            "queue"
+          ]
+        }
+      }
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "combined": true,
+      "panel": "visualizer",
+      "action": "close",
+      "canMoveUp": false,
+      "canMoveDown": true,
+      "expected": {
+        "general": {
+          "showVisualizerInSidebar": false
+        }
+      }
+    }
+  ]
+}

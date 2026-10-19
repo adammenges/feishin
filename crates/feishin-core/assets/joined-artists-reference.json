@@ -1,0 +1,4731 @@
+{
+  "cases": [
+    {
+      "artistName": "Alpha feat. Beta",
+      "artists": [
+        {
+          "id": "a",
+          "name": "Alpha"
+        },
+        {
+          "id": "b",
+          "name": "Beta"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "Alpha",
+          "id": "a"
+        },
+        {
+          "text": " feat. ",
+          "id": null
+        },
+        {
+          "text": "Beta",
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "artistName": "Alpha feat. Beta",
+      "artists": [
+        {
+          "id": "a",
+          "name": "Alpha"
+        },
+        {
+          "id": "b",
+          "name": "Beta"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "Alpha",
+          "id": null
+        },
+        {
+          "text": " feat. ",
+          "id": null
+        },
+        {
+          "text": "Beta",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "Alpha feat. Beta",
+      "artists": [
+        {
+          "id": "b",
+          "name": "Beta"
+        },
+        {
+          "id": "a",
+          "name": "Alpha"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "Alpha",
+          "id": "a"
+        },
+        {
+          "text": " feat. ",
+          "id": null
+        },
+        {
+          "text": "Beta",
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "artistName": "Alpha feat. Beta",
+      "artists": [
+        {
+          "id": "b",
+          "name": "Beta"
+        },
+        {
+          "id": "a",
+          "name": "Alpha"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "Alpha",
+          "id": null
+        },
+        {
+          "text": " feat. ",
+          "id": null
+        },
+        {
+          "text": "Beta",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "ALPHA & alpha, Beta",
+      "artists": [
+        {
+          "id": "a",
+          "name": "Alpha"
+        },
+        {
+          "id": "b",
+          "name": "Beta"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "ALPHA",
+          "id": "a"
+        },
+        {
+          "text": " & ",
+          "id": null
+        },
+        {
+          "text": "alpha",
+          "id": "a"
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Beta",
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "artistName": "ALPHA & alpha, Beta",
+      "artists": [
+        {
+          "id": "a",
+          "name": "Alpha"
+        },
+        {
+          "id": "b",
+          "name": "Beta"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "ALPHA",
+          "id": null
+        },
+        {
+          "text": " & ",
+          "id": null
+        },
+        {
+          "text": "alpha",
+          "id": null
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Beta",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "ABBA and AB",
+      "artists": [
+        {
+          "id": "short",
+          "name": "AB"
+        },
+        {
+          "id": "long",
+          "name": "ABBA"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "ABBA",
+          "id": "long"
+        },
+        {
+          "text": " and ",
+          "id": null
+        },
+        {
+          "text": "AB",
+          "id": "short"
+        }
+      ]
+    },
+    {
+      "artistName": "ABBA and AB",
+      "artists": [
+        {
+          "id": "short",
+          "name": "AB"
+        },
+        {
+          "id": "long",
+          "name": "ABBA"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "ABBA",
+          "id": null
+        },
+        {
+          "text": " and ",
+          "id": null
+        },
+        {
+          "text": "AB",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "Anna Maria / Anna",
+      "artists": [
+        {
+          "id": "anna",
+          "name": "Anna"
+        },
+        {
+          "id": "full",
+          "name": "Anna Maria"
+        },
+        {
+          "id": "maria",
+          "name": "Maria"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "Anna Maria",
+          "id": "full"
+        },
+        {
+          "text": " / ",
+          "id": null
+        },
+        {
+          "text": "Anna",
+          "id": "anna"
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Maria",
+          "id": "maria"
+        }
+      ]
+    },
+    {
+      "artistName": "Anna Maria / Anna",
+      "artists": [
+        {
+          "id": "anna",
+          "name": "Anna"
+        },
+        {
+          "id": "full",
+          "name": "Anna Maria"
+        },
+        {
+          "id": "maria",
+          "name": "Maria"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "Anna Maria",
+          "id": null
+        },
+        {
+          "text": " / ",
+          "id": null
+        },
+        {
+          "text": "Anna",
+          "id": null
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Maria",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "a.b + [x] (A) C++",
+      "artists": [
+        {
+          "id": "dot",
+          "name": "a.b"
+        },
+        {
+          "id": "bracket",
+          "name": "[x]"
+        },
+        {
+          "id": "parens",
+          "name": "(A)"
+        },
+        {
+          "id": "plus",
+          "name": "C++"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "a.b",
+          "id": "dot"
+        },
+        {
+          "text": " + ",
+          "id": null
+        },
+        {
+          "text": "[x]",
+          "id": "bracket"
+        },
+        {
+          "text": " ",
+          "id": null
+        },
+        {
+          "text": "(A)",
+          "id": "parens"
+        },
+        {
+          "text": " ",
+          "id": null
+        },
+        {
+          "text": "C++",
+          "id": "plus"
+        }
+      ]
+    },
+    {
+      "artistName": "a.b + [x] (A) C++",
+      "artists": [
+        {
+          "id": "dot",
+          "name": "a.b"
+        },
+        {
+          "id": "bracket",
+          "name": "[x]"
+        },
+        {
+          "id": "parens",
+          "name": "(A)"
+        },
+        {
+          "id": "plus",
+          "name": "C++"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "a.b",
+          "id": null
+        },
+        {
+          "text": " + ",
+          "id": null
+        },
+        {
+          "text": "[x]",
+          "id": null
+        },
+        {
+          "text": " ",
+          "id": null
+        },
+        {
+          "text": "(A)",
+          "id": null
+        },
+        {
+          "text": " ",
+          "id": null
+        },
+        {
+          "text": "C++",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "Echo Echo",
+      "artists": [
+        {
+          "id": "same",
+          "name": "Echo"
+        },
+        {
+          "id": "other",
+          "name": "Echo"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "Echo",
+          "id": "same"
+        },
+        {
+          "text": " ",
+          "id": null
+        },
+        {
+          "text": "Echo",
+          "id": "same"
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Echo",
+          "id": "other"
+        }
+      ]
+    },
+    {
+      "artistName": "Echo Echo",
+      "artists": [
+        {
+          "id": "same",
+          "name": "Echo"
+        },
+        {
+          "id": "other",
+          "name": "Echo"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "Echo",
+          "id": null
+        },
+        {
+          "text": " ",
+          "id": null
+        },
+        {
+          "text": "Echo",
+          "id": null
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Echo",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "Known",
+      "artists": [
+        {
+          "id": "a",
+          "name": "Known"
+        },
+        {
+          "id": "b",
+          "name": "Unmatched"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "Known",
+          "id": "a"
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Unmatched",
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "artistName": "Known",
+      "artists": [
+        {
+          "id": "a",
+          "name": "Known"
+        },
+        {
+          "id": "b",
+          "name": "Unmatched"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "Known",
+          "id": null
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Unmatched",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "None matched",
+      "artists": [
+        {
+          "id": "a",
+          "name": "First"
+        },
+        {
+          "id": "b",
+          "name": "Second"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "First",
+          "id": "a"
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Second",
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "artistName": "None matched",
+      "artists": [
+        {
+          "id": "a",
+          "name": "First"
+        },
+        {
+          "id": "b",
+          "name": "Second"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "First",
+          "id": null
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Second",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "",
+      "artists": [
+        {
+          "id": "a",
+          "name": "First"
+        },
+        {
+          "id": "b",
+          "name": "Second"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "First",
+          "id": "a"
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Second",
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "artistName": "",
+      "artists": [
+        {
+          "id": "a",
+          "name": "First"
+        },
+        {
+          "id": "b",
+          "name": "Second"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "First",
+          "id": null
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Second",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "Only text",
+      "artists": [],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "Only text",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "Only text",
+      "artists": [],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "Only text",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "",
+      "artists": [],
+      "readOnly": false,
+      "parts": []
+    },
+    {
+      "artistName": "",
+      "artists": [],
+      "readOnly": true,
+      "parts": []
+    },
+    {
+      "artistName": "No ID and Known",
+      "artists": [
+        {
+          "id": "",
+          "name": "No ID"
+        },
+        {
+          "id": "known",
+          "name": "Known"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "No ID",
+          "id": null
+        },
+        {
+          "text": " and ",
+          "id": null
+        },
+        {
+          "text": "Known",
+          "id": "known"
+        }
+      ]
+    },
+    {
+      "artistName": "No ID and Known",
+      "artists": [
+        {
+          "id": "",
+          "name": "No ID"
+        },
+        {
+          "id": "known",
+          "name": "Known"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "No ID",
+          "id": null
+        },
+        {
+          "text": " and ",
+          "id": null
+        },
+        {
+          "text": "Known",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "An empty name",
+      "artists": [
+        {
+          "id": "a",
+          "name": ""
+        },
+        {
+          "id": "b",
+          "name": "An"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "An",
+          "id": "b"
+        },
+        {
+          "text": " empty name",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "An empty name",
+      "artists": [
+        {
+          "id": "a",
+          "name": ""
+        },
+        {
+          "id": "b",
+          "name": "An"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "An",
+          "id": null
+        },
+        {
+          "text": " empty name",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "same label",
+      "artists": [
+        {
+          "id": "",
+          "name": "same"
+        },
+        {
+          "id": "",
+          "name": "unmatched"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "same",
+          "id": null
+        },
+        {
+          "text": " label",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "same label",
+      "artists": [
+        {
+          "id": "",
+          "name": "same"
+        },
+        {
+          "id": "",
+          "name": "unmatched"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "same",
+          "id": null
+        },
+        {
+          "text": " label",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "😀 Artist and 漢字",
+      "artists": [
+        {
+          "id": "emoji",
+          "name": "😀 Artist"
+        },
+        {
+          "id": "han",
+          "name": "漢字"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "😀 Artist",
+          "id": "emoji"
+        },
+        {
+          "text": " and ",
+          "id": null
+        },
+        {
+          "text": "漢字",
+          "id": "han"
+        }
+      ]
+    },
+    {
+      "artistName": "😀 Artist and 漢字",
+      "artists": [
+        {
+          "id": "emoji",
+          "name": "😀 Artist"
+        },
+        {
+          "id": "han",
+          "name": "漢字"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "😀 Artist",
+          "id": null
+        },
+        {
+          "text": " and ",
+          "id": null
+        },
+        {
+          "text": "漢字",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "Σίσυφος σίσυφος",
+      "artists": [
+        {
+          "id": "greek",
+          "name": "Σίσυφος"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "Σίσυφος",
+          "id": "greek"
+        },
+        {
+          "text": " ",
+          "id": null
+        },
+        {
+          "text": "σίσυφος",
+          "id": "greek"
+        }
+      ]
+    },
+    {
+      "artistName": "Σίσυφος σίσυφος",
+      "artists": [
+        {
+          "id": "greek",
+          "name": "Σίσυφος"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "Σίσυφος",
+          "id": null
+        },
+        {
+          "text": " ",
+          "id": null
+        },
+        {
+          "text": "σίσυφος",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "İSTANBUL / Istanbul",
+      "artists": [
+        {
+          "id": "latin",
+          "name": "Istanbul"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "İSTANBUL / ",
+          "id": null
+        },
+        {
+          "text": "Istanbul",
+          "id": "latin"
+        }
+      ]
+    },
+    {
+      "artistName": "İSTANBUL / Istanbul",
+      "artists": [
+        {
+          "id": "latin",
+          "name": "Istanbul"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "İSTANBUL / ",
+          "id": null
+        },
+        {
+          "text": "Istanbul",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "ÄNN / änn",
+      "artists": [
+        {
+          "id": "accent",
+          "name": "Änn"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "ÄNN",
+          "id": "accent"
+        },
+        {
+          "text": " / ",
+          "id": null
+        },
+        {
+          "text": "änn",
+          "id": "accent"
+        }
+      ]
+    },
+    {
+      "artistName": "ÄNN / änn",
+      "artists": [
+        {
+          "id": "accent",
+          "name": "Änn"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "ÄNN",
+          "id": null
+        },
+        {
+          "text": " / ",
+          "id": null
+        },
+        {
+          "text": "änn",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "Straße STRASSE",
+      "artists": [
+        {
+          "id": "eszett",
+          "name": "Straße"
+        },
+        {
+          "id": "ss",
+          "name": "STRASSE"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "Straße",
+          "id": "eszett"
+        },
+        {
+          "text": " ",
+          "id": null
+        },
+        {
+          "text": "STRASSE",
+          "id": "ss"
+        }
+      ]
+    },
+    {
+      "artistName": "Straße STRASSE",
+      "artists": [
+        {
+          "id": "eszett",
+          "name": "Straße"
+        },
+        {
+          "id": "ss",
+          "name": "STRASSE"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "Straße",
+          "id": null
+        },
+        {
+          "text": " ",
+          "id": null
+        },
+        {
+          "text": "STRASSE",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "Mixed",
+      "artists": [
+        {
+          "id": "same",
+          "name": "Mixed"
+        },
+        {
+          "id": "same",
+          "name": "Not shown"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "Mixed",
+          "id": "same"
+        }
+      ]
+    },
+    {
+      "artistName": "Mixed",
+      "artists": [
+        {
+          "id": "same",
+          "name": "Mixed"
+        },
+        {
+          "id": "same",
+          "name": "Not shown"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "Mixed",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "abcabc",
+      "artists": [
+        {
+          "id": "a",
+          "name": "abc"
+        },
+        {
+          "id": "b",
+          "name": "bca"
+        }
+      ],
+      "readOnly": false,
+      "parts": [
+        {
+          "text": "abc",
+          "id": "a"
+        },
+        {
+          "text": "abc",
+          "id": "a"
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "bca",
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "artistName": "abcabc",
+      "artists": [
+        {
+          "id": "a",
+          "name": "abc"
+        },
+        {
+          "id": "b",
+          "name": "bca"
+        }
+      ],
+      "readOnly": true,
+      "parts": [
+        {
+          "text": "abc",
+          "id": null
+        },
+        {
+          "text": "abc",
+          "id": null
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "bca",
+          "id": null
+        }
+      ]
+    },
+    {
+      "artistName": "x",
+      "artists": [
+        {
+          "id": "empty",
+          "name": ""
+        }
+      ],
+      "readOnly": false,
+      "parts": []
+    },
+    {
+      "artistName": "x",
+      "artists": [
+        {
+          "id": "empty",
+          "name": ""
+        }
+      ],
+      "readOnly": true,
+      "parts": []
+    }
+  ],
+  "normalization": [
+    {
+      "backend": "Subsonic",
+      "kind": "Song",
+      "input": {},
+      "artists": [
+        [
+          "",
+          ""
+        ]
+      ],
+      "albumArtists": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {},
+      "artists": [],
+      "albumArtists": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Album",
+      "input": {},
+      "artists": [],
+      "albumArtists": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {},
+      "artists": [],
+      "albumArtists": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Song",
+      "input": {
+        "artistId": 7,
+        "artist": "Legacy",
+        "albumArtistId": "album",
+        "albumArtist": "Album legacy"
+      },
+      "artists": [
+        [
+          "7",
+          "Legacy"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "7",
+          "Legacy"
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {
+        "artistId": 7,
+        "artist": "Legacy",
+        "albumArtistId": "album",
+        "albumArtist": "Album legacy"
+      },
+      "artists": [
+        [
+          "7",
+          "Legacy"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "album",
+          "Album legacy"
+        ]
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Album",
+      "input": {
+        "artistId": 7,
+        "artist": "Legacy",
+        "albumArtistId": "album",
+        "albumArtist": "Album legacy"
+      },
+      "artists": [],
+      "albumArtists": [
+        [
+          "7",
+          "Legacy"
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {
+        "artistId": 7,
+        "artist": "Legacy",
+        "albumArtistId": "album",
+        "albumArtist": "Album legacy"
+      },
+      "artists": [
+        [
+          "7",
+          "Legacy"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "album",
+          "Album legacy"
+        ]
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Song",
+      "input": {
+        "artistId": "legacy",
+        "artist": "Legacy",
+        "artists": [],
+        "albumArtists": [],
+        "contributors": []
+      },
+      "artists": [],
+      "albumArtists": []
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {
+        "artistId": "legacy",
+        "artist": "Legacy",
+        "participants": {
+          "artist": [],
+          "albumartist": [],
+          "remixer": []
+        }
+      },
+      "artists": [
+        [
+          "legacy",
+          "Legacy"
+        ]
+      ],
+      "albumArtists": []
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Album",
+      "input": {
+        "artistId": "legacy",
+        "artist": "Legacy",
+        "artists": [],
+        "albumArtists": [],
+        "contributors": []
+      },
+      "artists": [],
+      "albumArtists": []
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {
+        "artistId": "legacy",
+        "artist": "Legacy",
+        "participants": {
+          "artist": [],
+          "albumartist": [],
+          "remixer": []
+        }
+      },
+      "artists": [
+        [
+          "legacy",
+          "Legacy"
+        ]
+      ],
+      "albumArtists": []
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Song",
+      "input": {
+        "artists": [
+          {
+            "id": "a",
+            "name": "Alpha"
+          },
+          {
+            "id": "b",
+            "name": "Beta"
+          }
+        ],
+        "albumArtists": [
+          {
+            "id": "aa",
+            "name": "Album Alpha"
+          }
+        ]
+      },
+      "artists": [
+        [
+          "a",
+          "Alpha"
+        ],
+        [
+          "b",
+          "Beta"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "aa",
+          "Album Alpha"
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {
+        "participants": {
+          "artist": [
+            {
+              "id": "a",
+              "name": "Alpha"
+            },
+            {
+              "id": "b",
+              "name": "Beta"
+            }
+          ],
+          "albumartist": [
+            {
+              "id": "aa",
+              "name": "Album Alpha"
+            }
+          ]
+        }
+      },
+      "artists": [
+        [
+          "a",
+          "Alpha"
+        ],
+        [
+          "b",
+          "Beta"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "aa",
+          "Album Alpha"
+        ]
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Album",
+      "input": {
+        "artists": [
+          {
+            "id": "a",
+            "name": "Alpha"
+          },
+          {
+            "id": "b",
+            "name": "Beta"
+          }
+        ],
+        "albumArtists": [
+          {
+            "id": "aa",
+            "name": "Album Alpha"
+          }
+        ]
+      },
+      "artists": [],
+      "albumArtists": [
+        [
+          "a",
+          "Alpha"
+        ],
+        [
+          "b",
+          "Beta"
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {
+        "participants": {
+          "artist": [
+            {
+              "id": "a",
+              "name": "Alpha"
+            },
+            {
+              "id": "b",
+              "name": "Beta"
+            }
+          ],
+          "albumartist": [
+            {
+              "id": "aa",
+              "name": "Album Alpha"
+            }
+          ]
+        }
+      },
+      "artists": [
+        [
+          "a",
+          "Alpha"
+        ],
+        [
+          "b",
+          "Beta"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "aa",
+          "Album Alpha"
+        ]
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Song",
+      "input": {
+        "artists": [
+          {
+            "id": "",
+            "name": "Unlinked"
+          },
+          {
+            "id": "b",
+            "name": "Linked"
+          }
+        ],
+        "albumArtists": [
+          {
+            "id": "",
+            "name": "Unlinked"
+          },
+          {
+            "id": "ab",
+            "name": "Linked"
+          }
+        ]
+      },
+      "artists": [
+        [
+          "",
+          "Unlinked"
+        ],
+        [
+          "b",
+          "Linked"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "",
+          "Unlinked"
+        ],
+        [
+          "ab",
+          "Linked"
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {
+        "participants": {
+          "artist": [
+            {
+              "id": "",
+              "name": "Unlinked"
+            },
+            {
+              "id": "b",
+              "name": "Linked"
+            }
+          ],
+          "albumartist": [
+            {
+              "id": "",
+              "name": "Unlinked"
+            },
+            {
+              "id": "ab",
+              "name": "Linked"
+            }
+          ]
+        }
+      },
+      "artists": [
+        [
+          "",
+          "Unlinked"
+        ],
+        [
+          "b",
+          "Linked"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "",
+          "Unlinked"
+        ],
+        [
+          "ab",
+          "Linked"
+        ]
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Album",
+      "input": {
+        "artists": [
+          {
+            "id": "",
+            "name": "Unlinked"
+          },
+          {
+            "id": "b",
+            "name": "Linked"
+          }
+        ],
+        "albumArtists": [
+          {
+            "id": "",
+            "name": "Unlinked"
+          },
+          {
+            "id": "ab",
+            "name": "Linked"
+          }
+        ]
+      },
+      "artists": [],
+      "albumArtists": [
+        [
+          "",
+          "Unlinked"
+        ],
+        [
+          "b",
+          "Linked"
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {
+        "participants": {
+          "artist": [
+            {
+              "id": "",
+              "name": "Unlinked"
+            },
+            {
+              "id": "b",
+              "name": "Linked"
+            }
+          ],
+          "albumartist": [
+            {
+              "id": "",
+              "name": "Unlinked"
+            },
+            {
+              "id": "ab",
+              "name": "Linked"
+            }
+          ]
+        }
+      },
+      "artists": [
+        [
+          "",
+          "Unlinked"
+        ],
+        [
+          "b",
+          "Linked"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "",
+          "Unlinked"
+        ],
+        [
+          "ab",
+          "Linked"
+        ]
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Song",
+      "input": {
+        "artists": [
+          {
+            "id": "a",
+            "name": ""
+          },
+          {
+            "id": "b",
+            "name": "Beta"
+          }
+        ],
+        "albumArtists": [
+          {
+            "id": "aa",
+            "name": ""
+          },
+          {
+            "id": "bb",
+            "name": "Beta"
+          }
+        ]
+      },
+      "artists": [
+        [
+          "a",
+          ""
+        ],
+        [
+          "b",
+          "Beta"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "aa",
+          ""
+        ],
+        [
+          "bb",
+          "Beta"
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {
+        "participants": {
+          "artist": [
+            {
+              "id": "a",
+              "name": ""
+            },
+            {
+              "id": "b",
+              "name": "Beta"
+            }
+          ],
+          "albumartist": [
+            {
+              "id": "aa",
+              "name": ""
+            },
+            {
+              "id": "bb",
+              "name": "Beta"
+            }
+          ]
+        }
+      },
+      "artists": [
+        [
+          "a",
+          ""
+        ],
+        [
+          "b",
+          "Beta"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "aa",
+          ""
+        ],
+        [
+          "bb",
+          "Beta"
+        ]
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Album",
+      "input": {
+        "artists": [
+          {
+            "id": "a",
+            "name": ""
+          },
+          {
+            "id": "b",
+            "name": "Beta"
+          }
+        ],
+        "albumArtists": [
+          {
+            "id": "aa",
+            "name": ""
+          },
+          {
+            "id": "bb",
+            "name": "Beta"
+          }
+        ]
+      },
+      "artists": [],
+      "albumArtists": [
+        [
+          "a",
+          ""
+        ],
+        [
+          "b",
+          "Beta"
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {
+        "participants": {
+          "artist": [
+            {
+              "id": "a",
+              "name": ""
+            },
+            {
+              "id": "b",
+              "name": "Beta"
+            }
+          ],
+          "albumartist": [
+            {
+              "id": "aa",
+              "name": ""
+            },
+            {
+              "id": "bb",
+              "name": "Beta"
+            }
+          ]
+        }
+      },
+      "artists": [
+        [
+          "a",
+          ""
+        ],
+        [
+          "b",
+          "Beta"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "aa",
+          ""
+        ],
+        [
+          "bb",
+          "Beta"
+        ]
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Song",
+      "input": {
+        "artistId": "base",
+        "artist": "Legacy",
+        "contributors": [
+          {
+            "role": "remixer",
+            "artist": {
+              "id": "mix",
+              "name": "Remixer"
+            }
+          }
+        ]
+      },
+      "artists": [
+        [
+          "mix",
+          "Remixer"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "base",
+          "Legacy"
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {
+        "artistId": "base",
+        "artist": "Legacy",
+        "participants": {
+          "remixer": [
+            {
+              "id": "mix",
+              "name": "Remixer"
+            }
+          ]
+        }
+      },
+      "artists": [
+        [
+          "base",
+          "Legacy"
+        ],
+        [
+          "mix",
+          "Remixer"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Album",
+      "input": {
+        "artistId": "base",
+        "artist": "Legacy",
+        "contributors": [
+          {
+            "role": "remixer",
+            "artist": {
+              "id": "mix",
+              "name": "Remixer"
+            }
+          }
+        ]
+      },
+      "artists": [],
+      "albumArtists": [
+        [
+          "base",
+          "Legacy"
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {
+        "artistId": "base",
+        "artist": "Legacy",
+        "participants": {
+          "remixer": [
+            {
+              "id": "mix",
+              "name": "Remixer"
+            }
+          ]
+        }
+      },
+      "artists": [
+        [
+          "mix",
+          "Remixer"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Song",
+      "input": {
+        "artists": [
+          {
+            "id": "a",
+            "name": "Alpha"
+          }
+        ],
+        "contributors": [
+          {
+            "role": "remixer",
+            "artist": {
+              "id": "a",
+              "name": "Duplicate"
+            }
+          },
+          {
+            "role": "remixer",
+            "artist": {
+              "id": "mix",
+              "name": "Mix"
+            }
+          },
+          {
+            "role": "remixer",
+            "artist": {
+              "id": "mix",
+              "name": "Repeated"
+            }
+          },
+          {
+            "role": "remixer",
+            "subRole": "extra",
+            "artist": {
+              "id": "other",
+              "name": "Other"
+            }
+          }
+        ]
+      },
+      "artists": [
+        [
+          "a",
+          "Alpha"
+        ],
+        [
+          "mix",
+          "Mix"
+        ],
+        [
+          "mix",
+          "Repeated"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {
+        "participants": {
+          "artist": [
+            {
+              "id": "a",
+              "name": "Alpha"
+            }
+          ],
+          "remixer": [
+            {
+              "id": "a",
+              "name": "Duplicate"
+            },
+            {
+              "id": "mix",
+              "name": "Mix"
+            },
+            {
+              "id": "mix",
+              "name": "Repeated"
+            }
+          ]
+        }
+      },
+      "artists": [
+        [
+          "a",
+          "Alpha"
+        ],
+        [
+          "mix",
+          "Mix"
+        ],
+        [
+          "mix",
+          "Repeated"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Album",
+      "input": {
+        "artists": [
+          {
+            "id": "a",
+            "name": "Alpha"
+          }
+        ],
+        "contributors": [
+          {
+            "role": "remixer",
+            "artist": {
+              "id": "a",
+              "name": "Duplicate"
+            }
+          },
+          {
+            "role": "remixer",
+            "artist": {
+              "id": "mix",
+              "name": "Mix"
+            }
+          },
+          {
+            "role": "remixer",
+            "artist": {
+              "id": "mix",
+              "name": "Repeated"
+            }
+          },
+          {
+            "role": "remixer",
+            "subRole": "extra",
+            "artist": {
+              "id": "other",
+              "name": "Other"
+            }
+          }
+        ]
+      },
+      "artists": [],
+      "albumArtists": [
+        [
+          "a",
+          "Alpha"
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {
+        "participants": {
+          "artist": [
+            {
+              "id": "a",
+              "name": "Alpha"
+            }
+          ],
+          "remixer": [
+            {
+              "id": "a",
+              "name": "Duplicate"
+            },
+            {
+              "id": "mix",
+              "name": "Mix"
+            },
+            {
+              "id": "mix",
+              "name": "Repeated"
+            }
+          ]
+        }
+      },
+      "artists": [
+        [
+          "a",
+          "Duplicate"
+        ],
+        [
+          "mix",
+          "Mix"
+        ],
+        [
+          "mix",
+          "Repeated"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {
+        "participants": {
+          "artist": [
+            {
+              "id": "artist",
+              "name": "Artist"
+            }
+          ],
+          "remixer": [
+            {
+              "id": "remixer",
+              "name": "Remixer"
+            }
+          ]
+        }
+      },
+      "artists": [
+        [
+          "artist",
+          "Artist"
+        ],
+        [
+          "remixer",
+          "Remixer"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {
+        "participants": {
+          "artist": [
+            {
+              "id": "artist",
+              "name": "Artist"
+            }
+          ],
+          "remixer": [
+            {
+              "id": "remixer",
+              "name": "Remixer"
+            }
+          ]
+        }
+      },
+      "artists": [
+        [
+          "remixer",
+          "Remixer"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {
+        "participants": {
+          "remixer": [
+            {
+              "id": "remixer",
+              "name": "Remixer"
+            }
+          ],
+          "artist": [
+            {
+              "id": "artist",
+              "name": "Artist"
+            }
+          ]
+        }
+      },
+      "artists": [
+        [
+          "artist",
+          "Artist"
+        ],
+        [
+          "remixer",
+          "Remixer"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {
+        "participants": {
+          "remixer": [
+            {
+              "id": "remixer",
+              "name": "Remixer"
+            }
+          ],
+          "artist": [
+            {
+              "id": "artist",
+              "name": "Artist"
+            }
+          ]
+        }
+      },
+      "artists": [
+        [
+          "artist",
+          "Artist"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Song",
+      "input": {},
+      "artists": [],
+      "albumArtists": []
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Album",
+      "input": {},
+      "artists": [],
+      "albumArtists": []
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Song",
+      "input": {
+        "ArtistItems": [],
+        "AlbumArtists": []
+      },
+      "artists": [],
+      "albumArtists": []
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Album",
+      "input": {
+        "ArtistItems": [],
+        "AlbumArtists": []
+      },
+      "artists": [],
+      "albumArtists": []
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Song",
+      "input": {
+        "ArtistItems": [
+          {
+            "Id": "a",
+            "Name": "Alpha"
+          },
+          {
+            "Id": "b",
+            "Name": "Beta"
+          }
+        ],
+        "Artists": [
+          "Beta",
+          "Alpha"
+        ]
+      },
+      "artists": [
+        [
+          "a",
+          "Alpha"
+        ],
+        [
+          "b",
+          "Beta"
+        ]
+      ],
+      "albumArtists": []
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Album",
+      "input": {
+        "ArtistItems": [
+          {
+            "Id": "a",
+            "Name": "Alpha"
+          },
+          {
+            "Id": "b",
+            "Name": "Beta"
+          }
+        ],
+        "Artists": [
+          "Beta",
+          "Alpha"
+        ]
+      },
+      "artists": [
+        [
+          "a",
+          "Alpha"
+        ],
+        [
+          "b",
+          "Beta"
+        ]
+      ],
+      "albumArtists": []
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Song",
+      "input": {
+        "AlbumArtists": [
+          {
+            "Id": "album",
+            "Name": "Album Artist"
+          }
+        ]
+      },
+      "artists": [
+        [
+          "album",
+          "Album Artist"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "album",
+          "Album Artist"
+        ]
+      ]
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Album",
+      "input": {
+        "AlbumArtists": [
+          {
+            "Id": "album",
+            "Name": "Album Artist"
+          }
+        ]
+      },
+      "artists": [
+        [
+          "album",
+          "Album Artist"
+        ]
+      ],
+      "albumArtists": [
+        [
+          "album",
+          "Album Artist"
+        ]
+      ]
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Song",
+      "input": {
+        "ArtistItems": [
+          {
+            "Name": "Unlinked"
+          },
+          {
+            "Id": "linked",
+            "Name": "Linked"
+          }
+        ]
+      },
+      "artists": [
+        [
+          "",
+          "Unlinked"
+        ],
+        [
+          "linked",
+          "Linked"
+        ]
+      ],
+      "albumArtists": []
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Album",
+      "input": {
+        "ArtistItems": [
+          {
+            "Name": "Unlinked"
+          },
+          {
+            "Id": "linked",
+            "Name": "Linked"
+          }
+        ]
+      },
+      "artists": [
+        [
+          "",
+          "Unlinked"
+        ],
+        [
+          "linked",
+          "Linked"
+        ]
+      ],
+      "albumArtists": []
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Song",
+      "input": {
+        "ArtistItems": [
+          {
+            "Id": "a"
+          },
+          {
+            "Id": "b",
+            "Name": "Beta"
+          }
+        ]
+      },
+      "artists": [
+        [
+          "a",
+          ""
+        ],
+        [
+          "b",
+          "Beta"
+        ]
+      ],
+      "albumArtists": []
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Album",
+      "input": {
+        "ArtistItems": [
+          {
+            "Id": "a"
+          },
+          {
+            "Id": "b",
+            "Name": "Beta"
+          }
+        ]
+      },
+      "artists": [
+        [
+          "a",
+          ""
+        ],
+        [
+          "b",
+          "Beta"
+        ]
+      ],
+      "albumArtists": []
+    }
+  ],
+  "participantCases": [
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {
+        "participants": {
+          "producer": [
+            {
+              "id": "p",
+              "name": "Producer"
+            },
+            {
+              "id": "p2",
+              "name": "Second producer"
+            }
+          ],
+          "composer": [
+            {
+              "id": "c",
+              "name": "Composer"
+            }
+          ],
+          "conductor": [
+            {
+              "id": "d",
+              "name": "Conductor"
+            }
+          ]
+        }
+      },
+      "participants": {
+        "producer": [
+          [
+            "p",
+            "Producer"
+          ],
+          [
+            "p2",
+            "Second producer"
+          ]
+        ],
+        "composer": [
+          [
+            "c",
+            "Composer"
+          ]
+        ],
+        "conductor": [
+          [
+            "d",
+            "Conductor"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "producer",
+        "composer",
+        "conductor"
+      ],
+      "composer": [
+        {
+          "text": "Composer",
+          "id": "c"
+        }
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Song",
+      "input": {
+        "contributors": [
+          {
+            "role": "producer",
+            "artist": {
+              "id": "p",
+              "name": "Producer"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": "c",
+              "name": "Composer"
+            }
+          },
+          {
+            "role": "conductor",
+            "artist": {
+              "id": "d",
+              "name": "Conductor"
+            }
+          },
+          {
+            "role": "producer",
+            "artist": {
+              "id": "p2",
+              "name": "Second producer"
+            }
+          }
+        ]
+      },
+      "participants": {
+        "producer": [
+          [
+            "p",
+            "Producer"
+          ],
+          [
+            "p2",
+            "Second producer"
+          ]
+        ],
+        "composer": [
+          [
+            "c",
+            "Composer"
+          ]
+        ],
+        "conductor": [
+          [
+            "d",
+            "Conductor"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "producer",
+        "composer",
+        "conductor"
+      ],
+      "composer": [
+        {
+          "text": "Composer",
+          "id": "c"
+        }
+      ]
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Song",
+      "input": {
+        "contributors": [
+          {
+            "role": "producer",
+            "artist": {
+              "id": "p",
+              "name": "Producer"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": "c",
+              "name": "Composer"
+            }
+          },
+          {
+            "role": "conductor",
+            "artist": {
+              "id": "d",
+              "name": "Conductor"
+            }
+          },
+          {
+            "role": "producer",
+            "artist": {
+              "id": "p2",
+              "name": "Second producer"
+            }
+          }
+        ]
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {
+        "participants": {
+          "producer": [
+            {
+              "id": "p",
+              "name": "Producer"
+            },
+            {
+              "id": "p2",
+              "name": "Second producer"
+            }
+          ],
+          "composer": [
+            {
+              "id": "c",
+              "name": "Composer"
+            }
+          ],
+          "conductor": [
+            {
+              "id": "d",
+              "name": "Conductor"
+            }
+          ]
+        }
+      },
+      "participants": {
+        "producer": [
+          [
+            "p",
+            "Producer"
+          ],
+          [
+            "p2",
+            "Second producer"
+          ]
+        ],
+        "composer": [
+          [
+            "c",
+            "Composer"
+          ]
+        ],
+        "conductor": [
+          [
+            "d",
+            "Conductor"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "producer",
+        "composer",
+        "conductor"
+      ],
+      "composer": [
+        {
+          "text": "Composer",
+          "id": "c"
+        }
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Album",
+      "input": {
+        "contributors": [
+          {
+            "role": "producer",
+            "artist": {
+              "id": "p",
+              "name": "Producer"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": "c",
+              "name": "Composer"
+            }
+          },
+          {
+            "role": "conductor",
+            "artist": {
+              "id": "d",
+              "name": "Conductor"
+            }
+          },
+          {
+            "role": "producer",
+            "artist": {
+              "id": "p2",
+              "name": "Second producer"
+            }
+          }
+        ]
+      },
+      "participants": {
+        "producer": [
+          [
+            "p",
+            "Producer"
+          ],
+          [
+            "p2",
+            "Second producer"
+          ]
+        ],
+        "composer": [
+          [
+            "c",
+            "Composer"
+          ]
+        ],
+        "conductor": [
+          [
+            "d",
+            "Conductor"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "producer",
+        "composer",
+        "conductor"
+      ],
+      "composer": [
+        {
+          "text": "Composer",
+          "id": "c"
+        }
+      ]
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Album",
+      "input": {
+        "contributors": [
+          {
+            "role": "producer",
+            "artist": {
+              "id": "p",
+              "name": "Producer"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": "c",
+              "name": "Composer"
+            }
+          },
+          {
+            "role": "conductor",
+            "artist": {
+              "id": "d",
+              "name": "Conductor"
+            }
+          },
+          {
+            "role": "producer",
+            "artist": {
+              "id": "p2",
+              "name": "Second producer"
+            }
+          }
+        ]
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {
+        "participants": {}
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Song",
+      "input": {
+        "contributors": []
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Song",
+      "input": {
+        "contributors": []
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {
+        "participants": {}
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Album",
+      "input": {
+        "contributors": []
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Album",
+      "input": {
+        "contributors": []
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {
+        "participants": {
+          "composer": [
+            {
+              "id": "one",
+              "name": "One"
+            },
+            {
+              "id": "two",
+              "name": "Two"
+            }
+          ]
+        }
+      },
+      "participants": {
+        "composer": [
+          [
+            "one",
+            "One"
+          ],
+          [
+            "two",
+            "Two"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "composer"
+      ],
+      "composer": [
+        {
+          "text": "One",
+          "id": "one"
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Two",
+          "id": "two"
+        }
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Song",
+      "input": {
+        "contributors": [
+          {
+            "role": "composer",
+            "artist": {
+              "id": "one",
+              "name": "One"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": "two",
+              "name": "Two"
+            }
+          }
+        ]
+      },
+      "participants": {
+        "composer": [
+          [
+            "one",
+            "One"
+          ],
+          [
+            "two",
+            "Two"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "composer"
+      ],
+      "composer": [
+        {
+          "text": "One",
+          "id": "one"
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Two",
+          "id": "two"
+        }
+      ]
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Song",
+      "input": {
+        "contributors": [
+          {
+            "role": "composer",
+            "artist": {
+              "id": "one",
+              "name": "One"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": "two",
+              "name": "Two"
+            }
+          }
+        ]
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {
+        "participants": {
+          "composer": [
+            {
+              "id": "one",
+              "name": "One"
+            },
+            {
+              "id": "two",
+              "name": "Two"
+            }
+          ]
+        }
+      },
+      "participants": {
+        "composer": [
+          [
+            "one",
+            "One"
+          ],
+          [
+            "two",
+            "Two"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "composer"
+      ],
+      "composer": [
+        {
+          "text": "One",
+          "id": "one"
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Two",
+          "id": "two"
+        }
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Album",
+      "input": {
+        "contributors": [
+          {
+            "role": "composer",
+            "artist": {
+              "id": "one",
+              "name": "One"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": "two",
+              "name": "Two"
+            }
+          }
+        ]
+      },
+      "participants": {
+        "composer": [
+          [
+            "one",
+            "One"
+          ],
+          [
+            "two",
+            "Two"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "composer"
+      ],
+      "composer": [
+        {
+          "text": "One",
+          "id": "one"
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Two",
+          "id": "two"
+        }
+      ]
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Album",
+      "input": {
+        "contributors": [
+          {
+            "role": "composer",
+            "artist": {
+              "id": "one",
+              "name": "One"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": "two",
+              "name": "Two"
+            }
+          }
+        ]
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {
+        "participants": {
+          "composer": [
+            {
+              "name": "Unlinked"
+            },
+            {
+              "id": 7,
+              "name": "Number"
+            }
+          ],
+          "conductor": [
+            {
+              "id": "c",
+              "name": "Conductor"
+            }
+          ]
+        }
+      },
+      "participants": {
+        "composer": [
+          [
+            "",
+            "Unlinked"
+          ],
+          [
+            "7",
+            "Number"
+          ]
+        ],
+        "conductor": [
+          [
+            "c",
+            "Conductor"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "composer",
+        "conductor"
+      ],
+      "composer": [
+        {
+          "text": "Unlinked",
+          "id": null
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Number",
+          "id": "7"
+        }
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Song",
+      "input": {
+        "contributors": [
+          {
+            "role": "composer",
+            "artist": {
+              "name": "Unlinked"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": 7,
+              "name": "Number"
+            }
+          },
+          {
+            "role": "conductor",
+            "artist": {
+              "id": "c",
+              "name": "Conductor"
+            }
+          }
+        ]
+      },
+      "participants": {
+        "composer": [
+          [
+            "",
+            "Unlinked"
+          ],
+          [
+            "7",
+            "Number"
+          ]
+        ],
+        "conductor": [
+          [
+            "c",
+            "Conductor"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "composer",
+        "conductor"
+      ],
+      "composer": [
+        {
+          "text": "Unlinked",
+          "id": null
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Number",
+          "id": "7"
+        }
+      ]
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Song",
+      "input": {
+        "contributors": [
+          {
+            "role": "composer",
+            "artist": {
+              "name": "Unlinked"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": 7,
+              "name": "Number"
+            }
+          },
+          {
+            "role": "conductor",
+            "artist": {
+              "id": "c",
+              "name": "Conductor"
+            }
+          }
+        ]
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {
+        "participants": {
+          "composer": [
+            {
+              "name": "Unlinked"
+            },
+            {
+              "id": 7,
+              "name": "Number"
+            }
+          ],
+          "conductor": [
+            {
+              "id": "c",
+              "name": "Conductor"
+            }
+          ]
+        }
+      },
+      "participants": {
+        "composer": [
+          [
+            "",
+            "Unlinked"
+          ],
+          [
+            "7",
+            "Number"
+          ]
+        ],
+        "conductor": [
+          [
+            "c",
+            "Conductor"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "composer",
+        "conductor"
+      ],
+      "composer": [
+        {
+          "text": "Unlinked",
+          "id": null
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Number",
+          "id": "7"
+        }
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Album",
+      "input": {
+        "contributors": [
+          {
+            "role": "composer",
+            "artist": {
+              "name": "Unlinked"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": 7,
+              "name": "Number"
+            }
+          },
+          {
+            "role": "conductor",
+            "artist": {
+              "id": "c",
+              "name": "Conductor"
+            }
+          }
+        ]
+      },
+      "participants": {
+        "composer": [
+          [
+            "",
+            "Unlinked"
+          ],
+          [
+            "7",
+            "Number"
+          ]
+        ],
+        "conductor": [
+          [
+            "c",
+            "Conductor"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "composer",
+        "conductor"
+      ],
+      "composer": [
+        {
+          "text": "Unlinked",
+          "id": null
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Number",
+          "id": "7"
+        }
+      ]
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Album",
+      "input": {
+        "contributors": [
+          {
+            "role": "composer",
+            "artist": {
+              "name": "Unlinked"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": 7,
+              "name": "Number"
+            }
+          },
+          {
+            "role": "conductor",
+            "artist": {
+              "id": "c",
+              "name": "Conductor"
+            }
+          }
+        ]
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {
+        "participants": {
+          "composer": [
+            {
+              "id": "a",
+              "name": "Arranger",
+              "subRole": "arranger"
+            },
+            {
+              "id": "b",
+              "name": "Composer"
+            },
+            {
+              "id": "c",
+              "name": "Other",
+              "subRole": ""
+            },
+            {
+              "id": "d",
+              "name": "Second arranger",
+              "subRole": "arranger"
+            }
+          ]
+        }
+      },
+      "participants": {
+        "composer (arranger)": [
+          [
+            "a",
+            "Arranger"
+          ],
+          [
+            "d",
+            "Second arranger"
+          ]
+        ],
+        "composer": [
+          [
+            "c",
+            "Other"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "composer (arranger)",
+        "composer"
+      ],
+      "composer": [
+        {
+          "text": "Other",
+          "id": "c"
+        }
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Song",
+      "input": {
+        "contributors": [
+          {
+            "role": "composer",
+            "subRole": "arranger",
+            "artist": {
+              "id": "a",
+              "name": "Arranger"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": "b",
+              "name": "Composer"
+            }
+          },
+          {
+            "role": "composer",
+            "subRole": "",
+            "artist": {
+              "id": "c",
+              "name": "Other"
+            }
+          },
+          {
+            "role": "composer",
+            "subRole": "arranger",
+            "artist": {
+              "id": "d",
+              "name": "Second arranger"
+            }
+          }
+        ]
+      },
+      "participants": {
+        "composer (arranger)": [
+          [
+            "a",
+            "Arranger"
+          ],
+          [
+            "d",
+            "Second arranger"
+          ]
+        ],
+        "composer": [
+          [
+            "b",
+            "Composer"
+          ],
+          [
+            "c",
+            "Other"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "composer (arranger)",
+        "composer"
+      ],
+      "composer": [
+        {
+          "text": "Composer",
+          "id": "b"
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Other",
+          "id": "c"
+        }
+      ]
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Song",
+      "input": {
+        "contributors": [
+          {
+            "role": "composer",
+            "subRole": "arranger",
+            "artist": {
+              "id": "a",
+              "name": "Arranger"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": "b",
+              "name": "Composer"
+            }
+          },
+          {
+            "role": "composer",
+            "subRole": "",
+            "artist": {
+              "id": "c",
+              "name": "Other"
+            }
+          },
+          {
+            "role": "composer",
+            "subRole": "arranger",
+            "artist": {
+              "id": "d",
+              "name": "Second arranger"
+            }
+          }
+        ]
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {
+        "participants": {
+          "composer": [
+            {
+              "id": "a",
+              "name": "Arranger",
+              "subRole": "arranger"
+            },
+            {
+              "id": "b",
+              "name": "Composer"
+            },
+            {
+              "id": "c",
+              "name": "Other",
+              "subRole": ""
+            },
+            {
+              "id": "d",
+              "name": "Second arranger",
+              "subRole": "arranger"
+            }
+          ]
+        }
+      },
+      "participants": {
+        "composer (arranger)": [
+          [
+            "a",
+            "Arranger"
+          ],
+          [
+            "d",
+            "Second arranger"
+          ]
+        ],
+        "composer": [
+          [
+            "c",
+            "Other"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "composer (arranger)",
+        "composer"
+      ],
+      "composer": [
+        {
+          "text": "Other",
+          "id": "c"
+        }
+      ]
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Album",
+      "input": {
+        "contributors": [
+          {
+            "role": "composer",
+            "subRole": "arranger",
+            "artist": {
+              "id": "a",
+              "name": "Arranger"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": "b",
+              "name": "Composer"
+            }
+          },
+          {
+            "role": "composer",
+            "subRole": "",
+            "artist": {
+              "id": "c",
+              "name": "Other"
+            }
+          },
+          {
+            "role": "composer",
+            "subRole": "arranger",
+            "artist": {
+              "id": "d",
+              "name": "Second arranger"
+            }
+          }
+        ]
+      },
+      "participants": {
+        "composer (arranger)": [
+          [
+            "a",
+            "Arranger"
+          ],
+          [
+            "d",
+            "Second arranger"
+          ]
+        ],
+        "composer": [
+          [
+            "b",
+            "Composer"
+          ],
+          [
+            "c",
+            "Other"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "composer (arranger)",
+        "composer"
+      ],
+      "composer": [
+        {
+          "text": "Composer",
+          "id": "b"
+        },
+        {
+          "text": ", ",
+          "id": null
+        },
+        {
+          "text": "Other",
+          "id": "c"
+        }
+      ]
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Album",
+      "input": {
+        "contributors": [
+          {
+            "role": "composer",
+            "subRole": "arranger",
+            "artist": {
+              "id": "a",
+              "name": "Arranger"
+            }
+          },
+          {
+            "role": "composer",
+            "artist": {
+              "id": "b",
+              "name": "Composer"
+            }
+          },
+          {
+            "role": "composer",
+            "subRole": "",
+            "artist": {
+              "id": "c",
+              "name": "Other"
+            }
+          },
+          {
+            "role": "composer",
+            "subRole": "arranger",
+            "artist": {
+              "id": "d",
+              "name": "Second arranger"
+            }
+          }
+        ]
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Song",
+      "input": {
+        "participants": {
+          "remixer": [
+            {
+              "id": "r",
+              "name": "Mix"
+            },
+            {
+              "id": "e",
+              "name": "Extra",
+              "subRole": "extra"
+            }
+          ],
+          "artist": [
+            {
+              "id": "a",
+              "name": "Artist"
+            }
+          ],
+          "albumartist": [
+            {
+              "id": "aa",
+              "name": "Album artist"
+            }
+          ]
+        }
+      },
+      "participants": {
+        "remixer": [
+          [
+            "r",
+            "Mix"
+          ],
+          [
+            "e",
+            "Extra"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "remixer"
+      ],
+      "composer": []
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Song",
+      "input": {
+        "contributors": [
+          {
+            "role": "remixer",
+            "artist": {
+              "id": "r",
+              "name": "Mix"
+            }
+          },
+          {
+            "role": "remixer",
+            "subRole": "extra",
+            "artist": {
+              "id": "e",
+              "name": "Extra"
+            }
+          },
+          {
+            "role": "artist",
+            "artist": {
+              "id": "a",
+              "name": "Artist"
+            }
+          },
+          {
+            "role": "albumartist",
+            "artist": {
+              "id": "aa",
+              "name": "Album artist"
+            }
+          }
+        ]
+      },
+      "participants": {
+        "remixer": [
+          [
+            "r",
+            "Mix"
+          ]
+        ],
+        "remixer (extra)": [
+          [
+            "e",
+            "Extra"
+          ]
+        ],
+        "artist": [
+          [
+            "a",
+            "Artist"
+          ]
+        ],
+        "albumartist": [
+          [
+            "aa",
+            "Album artist"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "remixer",
+        "remixer (extra)",
+        "artist",
+        "albumartist"
+      ],
+      "composer": []
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Song",
+      "input": {
+        "contributors": [
+          {
+            "role": "remixer",
+            "artist": {
+              "id": "r",
+              "name": "Mix"
+            }
+          },
+          {
+            "role": "remixer",
+            "subRole": "extra",
+            "artist": {
+              "id": "e",
+              "name": "Extra"
+            }
+          },
+          {
+            "role": "artist",
+            "artist": {
+              "id": "a",
+              "name": "Artist"
+            }
+          },
+          {
+            "role": "albumartist",
+            "artist": {
+              "id": "aa",
+              "name": "Album artist"
+            }
+          }
+        ]
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Navidrome",
+      "kind": "Album",
+      "input": {
+        "participants": {
+          "remixer": [
+            {
+              "id": "r",
+              "name": "Mix"
+            },
+            {
+              "id": "e",
+              "name": "Extra",
+              "subRole": "extra"
+            }
+          ],
+          "artist": [
+            {
+              "id": "a",
+              "name": "Artist"
+            }
+          ],
+          "albumartist": [
+            {
+              "id": "aa",
+              "name": "Album artist"
+            }
+          ]
+        }
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    },
+    {
+      "backend": "Subsonic",
+      "kind": "Album",
+      "input": {
+        "contributors": [
+          {
+            "role": "remixer",
+            "artist": {
+              "id": "r",
+              "name": "Mix"
+            }
+          },
+          {
+            "role": "remixer",
+            "subRole": "extra",
+            "artist": {
+              "id": "e",
+              "name": "Extra"
+            }
+          },
+          {
+            "role": "artist",
+            "artist": {
+              "id": "a",
+              "name": "Artist"
+            }
+          },
+          {
+            "role": "albumartist",
+            "artist": {
+              "id": "aa",
+              "name": "Album artist"
+            }
+          }
+        ]
+      },
+      "participants": {
+        "remixer": [
+          [
+            "r",
+            "Mix"
+          ]
+        ],
+        "remixer (extra)": [
+          [
+            "e",
+            "Extra"
+          ]
+        ],
+        "artist": [
+          [
+            "a",
+            "Artist"
+          ]
+        ],
+        "albumartist": [
+          [
+            "aa",
+            "Album artist"
+          ]
+        ]
+      },
+      "roleOrder": [
+        "remixer",
+        "remixer (extra)",
+        "artist",
+        "albumartist"
+      ],
+      "composer": []
+    },
+    {
+      "backend": "Jellyfin",
+      "kind": "Album",
+      "input": {
+        "contributors": [
+          {
+            "role": "remixer",
+            "artist": {
+              "id": "r",
+              "name": "Mix"
+            }
+          },
+          {
+            "role": "remixer",
+            "subRole": "extra",
+            "artist": {
+              "id": "e",
+              "name": "Extra"
+            }
+          },
+          {
+            "role": "artist",
+            "artist": {
+              "id": "a",
+              "name": "Artist"
+            }
+          },
+          {
+            "role": "albumartist",
+            "artist": {
+              "id": "aa",
+              "name": "Album artist"
+            }
+          }
+        ]
+      },
+      "participants": {},
+      "roleOrder": [],
+      "composer": []
+    }
+  ],
+  "cardCases": [
+    {
+      "artistName": "Alpha feat. Beta",
+      "artists": [
+        {
+          "id": "a",
+          "name": "Alpha"
+        },
+        {
+          "id": "b",
+          "name": "Beta"
+        }
+      ],
+      "parts": [
+        {
+          "text": "Alpha",
+          "id": "a"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "Beta",
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "artistName": "Alpha feat. Beta",
+      "artists": [
+        {
+          "id": "b",
+          "name": "Beta"
+        },
+        {
+          "id": "a",
+          "name": "Alpha"
+        }
+      ],
+      "parts": [
+        {
+          "text": "Beta",
+          "id": "b"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "Alpha",
+          "id": "a"
+        }
+      ]
+    },
+    {
+      "artistName": "ALPHA & alpha, Beta",
+      "artists": [
+        {
+          "id": "a",
+          "name": "Alpha"
+        },
+        {
+          "id": "b",
+          "name": "Beta"
+        }
+      ],
+      "parts": [
+        {
+          "text": "Alpha",
+          "id": "a"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "Beta",
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "artistName": "ABBA and AB",
+      "artists": [
+        {
+          "id": "short",
+          "name": "AB"
+        },
+        {
+          "id": "long",
+          "name": "ABBA"
+        }
+      ],
+      "parts": [
+        {
+          "text": "AB",
+          "id": "short"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "ABBA",
+          "id": "long"
+        }
+      ]
+    },
+    {
+      "artistName": "Anna Maria / Anna",
+      "artists": [
+        {
+          "id": "anna",
+          "name": "Anna"
+        },
+        {
+          "id": "full",
+          "name": "Anna Maria"
+        },
+        {
+          "id": "maria",
+          "name": "Maria"
+        }
+      ],
+      "parts": [
+        {
+          "text": "Anna",
+          "id": "anna"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "Anna Maria",
+          "id": "full"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "Maria",
+          "id": "maria"
+        }
+      ]
+    },
+    {
+      "artistName": "a.b + [x] (A) C++",
+      "artists": [
+        {
+          "id": "dot",
+          "name": "a.b"
+        },
+        {
+          "id": "bracket",
+          "name": "[x]"
+        },
+        {
+          "id": "parens",
+          "name": "(A)"
+        },
+        {
+          "id": "plus",
+          "name": "C++"
+        }
+      ],
+      "parts": [
+        {
+          "text": "a.b",
+          "id": "dot"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "[x]",
+          "id": "bracket"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "(A)",
+          "id": "parens"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "C++",
+          "id": "plus"
+        }
+      ]
+    },
+    {
+      "artistName": "Echo Echo",
+      "artists": [
+        {
+          "id": "same",
+          "name": "Echo"
+        },
+        {
+          "id": "other",
+          "name": "Echo"
+        }
+      ],
+      "parts": [
+        {
+          "text": "Echo",
+          "id": "same"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "Echo",
+          "id": "other"
+        }
+      ]
+    },
+    {
+      "artistName": "Known",
+      "artists": [
+        {
+          "id": "a",
+          "name": "Known"
+        },
+        {
+          "id": "b",
+          "name": "Unmatched"
+        }
+      ],
+      "parts": [
+        {
+          "text": "Known",
+          "id": "a"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "Unmatched",
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "artistName": "None matched",
+      "artists": [
+        {
+          "id": "a",
+          "name": "First"
+        },
+        {
+          "id": "b",
+          "name": "Second"
+        }
+      ],
+      "parts": [
+        {
+          "text": "First",
+          "id": "a"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "Second",
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "artistName": "",
+      "artists": [
+        {
+          "id": "a",
+          "name": "First"
+        },
+        {
+          "id": "b",
+          "name": "Second"
+        }
+      ],
+      "parts": [
+        {
+          "text": "First",
+          "id": "a"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "Second",
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "artistName": "😀 Artist and 漢字",
+      "artists": [
+        {
+          "id": "emoji",
+          "name": "😀 Artist"
+        },
+        {
+          "id": "han",
+          "name": "漢字"
+        }
+      ],
+      "parts": [
+        {
+          "text": "😀 Artist",
+          "id": "emoji"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "漢字",
+          "id": "han"
+        }
+      ]
+    },
+    {
+      "artistName": "Σίσυφος σίσυφος",
+      "artists": [
+        {
+          "id": "greek",
+          "name": "Σίσυφος"
+        }
+      ],
+      "parts": [
+        {
+          "text": "Σίσυφος",
+          "id": "greek"
+        }
+      ]
+    },
+    {
+      "artistName": "İSTANBUL / Istanbul",
+      "artists": [
+        {
+          "id": "latin",
+          "name": "Istanbul"
+        }
+      ],
+      "parts": [
+        {
+          "text": "Istanbul",
+          "id": "latin"
+        }
+      ]
+    },
+    {
+      "artistName": "ÄNN / änn",
+      "artists": [
+        {
+          "id": "accent",
+          "name": "Änn"
+        }
+      ],
+      "parts": [
+        {
+          "text": "Änn",
+          "id": "accent"
+        }
+      ]
+    },
+    {
+      "artistName": "Straße STRASSE",
+      "artists": [
+        {
+          "id": "eszett",
+          "name": "Straße"
+        },
+        {
+          "id": "ss",
+          "name": "STRASSE"
+        }
+      ],
+      "parts": [
+        {
+          "text": "Straße",
+          "id": "eszett"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "STRASSE",
+          "id": "ss"
+        }
+      ]
+    },
+    {
+      "artistName": "Mixed",
+      "artists": [
+        {
+          "id": "same",
+          "name": "Mixed"
+        },
+        {
+          "id": "same",
+          "name": "Not shown"
+        }
+      ],
+      "parts": [
+        {
+          "text": "Mixed",
+          "id": "same"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "Not shown",
+          "id": "same"
+        }
+      ]
+    },
+    {
+      "artistName": "abcabc",
+      "artists": [
+        {
+          "id": "a",
+          "name": "abc"
+        },
+        {
+          "id": "b",
+          "name": "bca"
+        }
+      ],
+      "parts": [
+        {
+          "text": "abc",
+          "id": "a"
+        },
+        {
+          "text": " • ",
+          "id": null
+        },
+        {
+          "text": "bca",
+          "id": "b"
+        }
+      ]
+    }
+  ]
+}

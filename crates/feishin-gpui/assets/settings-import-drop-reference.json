@@ -1,0 +1,74 @@
+[
+  {
+    "name": "initial",
+    "selected": [],
+    "text": [
+      "Drop a file here"
+    ]
+  },
+  {
+    "name": "drop-one",
+    "selected": [
+      "{\"general\":{\"theme\":\"dracula\"}}"
+    ],
+    "text": [
+      "Drop a file here"
+    ]
+  },
+  {
+    "name": "drop-many",
+    "selected": [],
+    "text": [
+      "Drop a file here",
+      "Please only select 1 file"
+    ]
+  },
+  {
+    "name": "drop-invalid",
+    "selected": [],
+    "text": [
+      "Drop a file here",
+      "The file passed is not valid JSON"
+    ]
+  },
+  {
+    "name": "drop-nonfile",
+    "selected": [],
+    "text": [
+      "Drop a file here"
+    ]
+  },
+  {
+    "name": "drop-unreadable",
+    "selected": [],
+    "text": [
+      "Drop a file here",
+      "There has been an issue reading the file: Permission denied"
+    ]
+  },
+  {
+    "name": "choose-one",
+    "selected": [
+      "{\"general\":{\"theme\":\"dracula\"}}"
+    ],
+    "text": [
+      "Drop a file here"
+    ]
+  },
+  {
+    "name": "choose-many",
+    "selected": [],
+    "text": [
+      "Drop a file here",
+      "Please only select 1 file"
+    ]
+  },
+  {
+    "name": "choose-invalid",
+    "selected": [],
+    "text": [
+      "Drop a file here",
+      "The file passed is not valid JSON"
+    ]
+  }
+]

@@ -1,0 +1,1078 @@
+{
+  "connect": [
+    {
+      "type": "web",
+      "playing": false,
+      "transport": "STOPPED",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "web",
+      "playing": false,
+      "transport": "STOPPED",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "web",
+      "playing": false,
+      "transport": "PAUSED_PLAYBACK",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "web",
+      "playing": false,
+      "transport": "PAUSED_PLAYBACK",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": true,
+        "deviceWasPaused": true
+      }
+    },
+    {
+      "type": "web",
+      "playing": false,
+      "transport": "PLAYING",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "web",
+      "playing": false,
+      "transport": "PLAYING",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": true,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "web",
+      "playing": true,
+      "transport": "STOPPED",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "web",
+      "playing": true,
+      "transport": "STOPPED",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": 83,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "web",
+      "playing": true,
+      "transport": "PAUSED_PLAYBACK",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "web",
+      "playing": true,
+      "transport": "PAUSED_PLAYBACK",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": 83,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "web",
+      "playing": true,
+      "transport": "PLAYING",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "web",
+      "playing": true,
+      "transport": "PLAYING",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": 83,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "local",
+      "playing": false,
+      "transport": "STOPPED",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "local",
+      "playing": false,
+      "transport": "STOPPED",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "local"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "local",
+      "playing": false,
+      "transport": "PAUSED_PLAYBACK",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "local",
+      "playing": false,
+      "transport": "PAUSED_PLAYBACK",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "local"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": true,
+        "deviceWasPaused": true
+      }
+    },
+    {
+      "type": "local",
+      "playing": false,
+      "transport": "PLAYING",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "local",
+      "playing": false,
+      "transport": "PLAYING",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "local"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": true,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "local",
+      "playing": true,
+      "transport": "STOPPED",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "local",
+      "playing": true,
+      "transport": "STOPPED",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "local"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": 83,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "local",
+      "playing": true,
+      "transport": "PAUSED_PLAYBACK",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "local",
+      "playing": true,
+      "transport": "PAUSED_PLAYBACK",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "local"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": 83,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "local",
+      "playing": true,
+      "transport": "PLAYING",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "local",
+      "playing": true,
+      "transport": "PLAYING",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "local"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": 83,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "dlna",
+      "playing": false,
+      "transport": "STOPPED",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "dlna",
+      "playing": false,
+      "transport": "STOPPED",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "dlna",
+      "playing": false,
+      "transport": "PAUSED_PLAYBACK",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "dlna",
+      "playing": false,
+      "transport": "PAUSED_PLAYBACK",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": true,
+        "deviceWasPaused": true
+      }
+    },
+    {
+      "type": "dlna",
+      "playing": false,
+      "transport": "PLAYING",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "dlna",
+      "playing": false,
+      "transport": "PLAYING",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": true,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "dlna",
+      "playing": true,
+      "transport": "STOPPED",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "dlna",
+      "playing": true,
+      "transport": "STOPPED",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": 83,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "dlna",
+      "playing": true,
+      "transport": "PAUSED_PLAYBACK",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "dlna",
+      "playing": true,
+      "transport": "PAUSED_PLAYBACK",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": 83,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "dlna",
+      "playing": true,
+      "transport": "PLAYING",
+      "success": false,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ]
+      ],
+      "settings": [],
+      "handoff": {
+        "pendingDlnaSeek": -1,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    },
+    {
+      "type": "dlna",
+      "playing": true,
+      "transport": "PLAYING",
+      "success": true,
+      "calls": [
+        [
+          "connect",
+          "speaker"
+        ],
+        [
+          "volume",
+          37
+        ]
+      ],
+      "settings": [
+        {
+          "type": "dlna",
+          "previousLocalVolume": 50,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {
+        "pendingDlnaSeek": 83,
+        "deviceAlreadyPlaying": false,
+        "deviceWasPaused": false
+      }
+    }
+  ],
+  "disconnect": [
+    {
+      "previous": "web",
+      "shift": false,
+      "position": 0,
+      "calls": [
+        [
+          "position"
+        ],
+        [
+          "disconnect"
+        ],
+        [
+          "volume",
+          24
+        ],
+        [
+          "discover"
+        ]
+      ],
+      "settings": [
+        {
+          "type": "web",
+          "previousLocalVolume": 24,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {}
+    },
+    {
+      "previous": "web",
+      "shift": false,
+      "position": 83,
+      "calls": [
+        [
+          "position"
+        ],
+        [
+          "disconnect"
+        ],
+        [
+          "volume",
+          24
+        ],
+        [
+          "discover"
+        ]
+      ],
+      "settings": [
+        {
+          "type": "web",
+          "previousLocalVolume": 24,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {
+        "pendingLocalSeek": 83
+      }
+    },
+    {
+      "previous": "web",
+      "shift": true,
+      "position": 0,
+      "calls": [
+        [
+          "position"
+        ],
+        [
+          "disconnect-passive"
+        ],
+        [
+          "pause"
+        ],
+        [
+          "volume",
+          24
+        ],
+        [
+          "discover"
+        ]
+      ],
+      "settings": [
+        {
+          "type": "web",
+          "previousLocalVolume": 24,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {}
+    },
+    {
+      "previous": "web",
+      "shift": true,
+      "position": 83,
+      "calls": [
+        [
+          "position"
+        ],
+        [
+          "disconnect-passive"
+        ],
+        [
+          "pause"
+        ],
+        [
+          "volume",
+          24
+        ],
+        [
+          "discover"
+        ]
+      ],
+      "settings": [
+        {
+          "type": "web",
+          "previousLocalVolume": 24,
+          "previousPlayerType": "web"
+        }
+      ],
+      "handoff": {
+        "pendingLocalSeek": 83
+      }
+    },
+    {
+      "previous": "local",
+      "shift": false,
+      "position": 0,
+      "calls": [
+        [
+          "position"
+        ],
+        [
+          "disconnect"
+        ],
+        [
+          "volume",
+          24
+        ],
+        [
+          "discover"
+        ]
+      ],
+      "settings": [
+        {
+          "type": "local",
+          "previousLocalVolume": 24,
+          "previousPlayerType": "local"
+        }
+      ],
+      "handoff": {}
+    },
+    {
+      "previous": "local",
+      "shift": false,
+      "position": 83,
+      "calls": [
+        [
+          "position"
+        ],
+        [
+          "disconnect"
+        ],
+        [
+          "volume",
+          24
+        ],
+        [
+          "discover"
+        ]
+      ],
+      "settings": [
+        {
+          "type": "local",
+          "previousLocalVolume": 24,
+          "previousPlayerType": "local"
+        }
+      ],
+      "handoff": {
+        "pendingLocalSeek": 83
+      }
+    },
+    {
+      "previous": "local",
+      "shift": true,
+      "position": 0,
+      "calls": [
+        [
+          "position"
+        ],
+        [
+          "disconnect-passive"
+        ],
+        [
+          "pause"
+        ],
+        [
+          "volume",
+          24
+        ],
+        [
+          "discover"
+        ]
+      ],
+      "settings": [
+        {
+          "type": "local",
+          "previousLocalVolume": 24,
+          "previousPlayerType": "local"
+        }
+      ],
+      "handoff": {}
+    },
+    {
+      "previous": "local",
+      "shift": true,
+      "position": 83,
+      "calls": [
+        [
+          "position"
+        ],
+        [
+          "disconnect-passive"
+        ],
+        [
+          "pause"
+        ],
+        [
+          "volume",
+          24
+        ],
+        [
+          "discover"
+        ]
+      ],
+      "settings": [
+        {
+          "type": "local",
+          "previousLocalVolume": 24,
+          "previousPlayerType": "local"
+        }
+      ],
+      "handoff": {
+        "pendingLocalSeek": 83
+      }
+    }
+  ]
+}

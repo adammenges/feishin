@@ -1,0 +1,4202 @@
+{
+  "columns": [
+    {
+      "ids": [],
+      "selected": null
+    },
+    {
+      "ids": [
+        "name"
+      ],
+      "selected": null
+    },
+    {
+      "ids": [
+        "rowIndex"
+      ],
+      "selected": "rowIndex"
+    },
+    {
+      "ids": [
+        "trackNumber"
+      ],
+      "selected": "trackNumber"
+    },
+    {
+      "ids": [
+        "name",
+        "rowIndex",
+        "trackNumber"
+      ],
+      "selected": "rowIndex"
+    },
+    {
+      "ids": [
+        "trackNumber",
+        "name",
+        "rowIndex"
+      ],
+      "selected": "trackNumber"
+    }
+  ],
+  "cases": [
+    {
+      "itemType": "song",
+      "active": false,
+      "playing": false,
+      "mode": "now",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "now",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "song",
+      "active": false,
+      "playing": false,
+      "mode": "next",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "next",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "song",
+      "active": false,
+      "playing": false,
+      "mode": "last",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "last",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "song",
+      "active": false,
+      "playing": false,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "shuffle",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "song",
+      "active": false,
+      "playing": true,
+      "mode": "now",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "now",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "song",
+      "active": false,
+      "playing": true,
+      "mode": "next",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "next",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "song",
+      "active": false,
+      "playing": true,
+      "mode": "last",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "last",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "song",
+      "active": false,
+      "playing": true,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "shuffle",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "song",
+      "active": true,
+      "playing": false,
+      "mode": "now",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "now",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "song",
+      "active": true,
+      "playing": false,
+      "mode": "next",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "next",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "song",
+      "active": true,
+      "playing": false,
+      "mode": "last",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "last",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "song",
+      "active": true,
+      "playing": false,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "shuffle",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "song",
+      "active": true,
+      "playing": true,
+      "mode": "now",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "now",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "song",
+      "active": true,
+      "playing": true,
+      "mode": "next",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "next",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "song",
+      "active": true,
+      "playing": true,
+      "mode": "last",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "last",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "song",
+      "active": true,
+      "playing": true,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "shuffle",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": false,
+      "playing": false,
+      "mode": "now",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "now",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": false,
+      "playing": false,
+      "mode": "next",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "next",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": false,
+      "playing": false,
+      "mode": "last",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "last",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": false,
+      "playing": false,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "shuffle",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": false,
+      "playing": true,
+      "mode": "now",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "now",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": false,
+      "playing": true,
+      "mode": "next",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "next",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": false,
+      "playing": true,
+      "mode": "last",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "last",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": false,
+      "playing": true,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "shuffle",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": true,
+      "playing": false,
+      "mode": "now",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "now",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": true,
+      "playing": false,
+      "mode": "next",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "next",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": true,
+      "playing": false,
+      "mode": "last",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "last",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": true,
+      "playing": false,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "shuffle",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": true,
+      "playing": true,
+      "mode": "now",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "now",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": true,
+      "playing": true,
+      "mode": "next",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "next",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": true,
+      "playing": true,
+      "mode": "last",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "last",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "playlistSong",
+      "active": true,
+      "playing": true,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "data": [
+            "row"
+          ],
+          "mode": "shuffle",
+          "start": "row"
+        }
+      ]
+    },
+    {
+      "itemType": "queueSong",
+      "active": false,
+      "playing": false,
+      "mode": "now",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "queueSong",
+      "active": false,
+      "playing": false,
+      "mode": "next",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "queueSong",
+      "active": false,
+      "playing": false,
+      "mode": "last",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "queueSong",
+      "active": false,
+      "playing": false,
+      "mode": "shuffle",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "queueSong",
+      "active": false,
+      "playing": true,
+      "mode": "now",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "queueSong",
+      "active": false,
+      "playing": true,
+      "mode": "next",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "queueSong",
+      "active": false,
+      "playing": true,
+      "mode": "last",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "queueSong",
+      "active": false,
+      "playing": true,
+      "mode": "shuffle",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "queueSong",
+      "active": true,
+      "playing": false,
+      "mode": "now",
+      "show": false,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "queueSong",
+      "active": true,
+      "playing": false,
+      "mode": "next",
+      "show": false,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "queueSong",
+      "active": true,
+      "playing": false,
+      "mode": "last",
+      "show": false,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "queueSong",
+      "active": true,
+      "playing": false,
+      "mode": "shuffle",
+      "show": false,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "queueSong",
+      "active": true,
+      "playing": true,
+      "mode": "now",
+      "show": false,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": []
+    },
+    {
+      "itemType": "queueSong",
+      "active": true,
+      "playing": true,
+      "mode": "next",
+      "show": false,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": []
+    },
+    {
+      "itemType": "queueSong",
+      "active": true,
+      "playing": true,
+      "mode": "last",
+      "show": false,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": []
+    },
+    {
+      "itemType": "queueSong",
+      "active": true,
+      "playing": true,
+      "mode": "shuffle",
+      "show": false,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": []
+    },
+    {
+      "itemType": "album",
+      "active": false,
+      "playing": false,
+      "mode": "now",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "album",
+      "active": false,
+      "playing": false,
+      "mode": "next",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "album",
+      "active": false,
+      "playing": false,
+      "mode": "last",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "album",
+      "active": false,
+      "playing": false,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "album",
+      "active": false,
+      "playing": true,
+      "mode": "now",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "album",
+      "active": false,
+      "playing": true,
+      "mode": "next",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "album",
+      "active": false,
+      "playing": true,
+      "mode": "last",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "album",
+      "active": false,
+      "playing": true,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "album",
+      "active": true,
+      "playing": false,
+      "mode": "now",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "album",
+      "active": true,
+      "playing": false,
+      "mode": "next",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "album",
+      "active": true,
+      "playing": false,
+      "mode": "last",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "album",
+      "active": true,
+      "playing": false,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "album",
+      "active": true,
+      "playing": true,
+      "mode": "now",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "album",
+      "active": true,
+      "playing": true,
+      "mode": "next",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "album",
+      "active": true,
+      "playing": true,
+      "mode": "last",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "album",
+      "active": true,
+      "playing": true,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "album",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": false,
+      "playing": false,
+      "mode": "now",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": false,
+      "playing": false,
+      "mode": "next",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": false,
+      "playing": false,
+      "mode": "last",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": false,
+      "playing": false,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": false,
+      "playing": true,
+      "mode": "now",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": false,
+      "playing": true,
+      "mode": "next",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": false,
+      "playing": true,
+      "mode": "last",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": false,
+      "playing": true,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": true,
+      "playing": false,
+      "mode": "now",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": true,
+      "playing": false,
+      "mode": "next",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": true,
+      "playing": false,
+      "mode": "last",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": true,
+      "playing": false,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": true,
+      "playing": true,
+      "mode": "now",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": true,
+      "playing": true,
+      "mode": "next",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": true,
+      "playing": true,
+      "mode": "last",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "albumArtist",
+      "active": true,
+      "playing": true,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "albumArtist",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": false,
+      "playing": false,
+      "mode": "now",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": false,
+      "playing": false,
+      "mode": "next",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": false,
+      "playing": false,
+      "mode": "last",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": false,
+      "playing": false,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": false,
+      "playing": true,
+      "mode": "now",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": false,
+      "playing": true,
+      "mode": "next",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": false,
+      "playing": true,
+      "mode": "last",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": false,
+      "playing": true,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": true,
+      "playing": false,
+      "mode": "now",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": true,
+      "playing": false,
+      "mode": "next",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": true,
+      "playing": false,
+      "mode": "last",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": true,
+      "playing": false,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": true,
+      "playing": true,
+      "mode": "now",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": true,
+      "playing": true,
+      "mode": "next",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": true,
+      "playing": true,
+      "mode": "last",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "artist",
+      "active": true,
+      "playing": true,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "artist",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": false,
+      "playing": false,
+      "mode": "now",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": false,
+      "playing": false,
+      "mode": "next",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": false,
+      "playing": false,
+      "mode": "last",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": false,
+      "playing": false,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": false,
+      "playing": true,
+      "mode": "now",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": false,
+      "playing": true,
+      "mode": "next",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": false,
+      "playing": true,
+      "mode": "last",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": false,
+      "playing": true,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": true,
+      "playing": false,
+      "mode": "now",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": true,
+      "playing": false,
+      "mode": "next",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": true,
+      "playing": false,
+      "mode": "last",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": true,
+      "playing": false,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": true,
+      "playing": true,
+      "mode": "now",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "now"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": true,
+      "playing": true,
+      "mode": "next",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "next"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": true,
+      "playing": true,
+      "mode": "last",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "last"
+        }
+      ]
+    },
+    {
+      "itemType": "playlist",
+      "active": true,
+      "playing": true,
+      "mode": "shuffle",
+      "show": true,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": [
+        {
+          "fetch": [
+            "row"
+          ],
+          "kind": "playlist",
+          "mode": "shuffle"
+        }
+      ]
+    },
+    {
+      "itemType": "folder",
+      "active": false,
+      "playing": false,
+      "mode": "now",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "folder",
+      "active": false,
+      "playing": false,
+      "mode": "next",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "folder",
+      "active": false,
+      "playing": false,
+      "mode": "last",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "folder",
+      "active": false,
+      "playing": false,
+      "mode": "shuffle",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "folder",
+      "active": false,
+      "playing": true,
+      "mode": "now",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "folder",
+      "active": false,
+      "playing": true,
+      "mode": "next",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "folder",
+      "active": false,
+      "playing": true,
+      "mode": "last",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "folder",
+      "active": false,
+      "playing": true,
+      "mode": "shuffle",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "folder",
+      "active": true,
+      "playing": false,
+      "mode": "now",
+      "show": false,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "folder",
+      "active": true,
+      "playing": false,
+      "mode": "next",
+      "show": false,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "folder",
+      "active": true,
+      "playing": false,
+      "mode": "last",
+      "show": false,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "folder",
+      "active": true,
+      "playing": false,
+      "mode": "shuffle",
+      "show": false,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "folder",
+      "active": true,
+      "playing": true,
+      "mode": "now",
+      "show": false,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": []
+    },
+    {
+      "itemType": "folder",
+      "active": true,
+      "playing": true,
+      "mode": "next",
+      "show": false,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": []
+    },
+    {
+      "itemType": "folder",
+      "active": true,
+      "playing": true,
+      "mode": "last",
+      "show": false,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": []
+    },
+    {
+      "itemType": "folder",
+      "active": true,
+      "playing": true,
+      "mode": "shuffle",
+      "show": false,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": false,
+      "playing": false,
+      "mode": "now",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": false,
+      "playing": false,
+      "mode": "next",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": false,
+      "playing": false,
+      "mode": "last",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": false,
+      "playing": false,
+      "mode": "shuffle",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": false,
+      "playing": true,
+      "mode": "now",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": false,
+      "playing": true,
+      "mode": "next",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": false,
+      "playing": true,
+      "mode": "last",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": false,
+      "playing": true,
+      "mode": "shuffle",
+      "show": false,
+      "isActive": false,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": true,
+      "playing": false,
+      "mode": "now",
+      "show": false,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": true,
+      "playing": false,
+      "mode": "next",
+      "show": false,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": true,
+      "playing": false,
+      "mode": "last",
+      "show": false,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": true,
+      "playing": false,
+      "mode": "shuffle",
+      "show": false,
+      "isActive": true,
+      "isPlaying": false,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": true,
+      "playing": true,
+      "mode": "now",
+      "show": false,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": true,
+      "playing": true,
+      "mode": "next",
+      "show": false,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": true,
+      "playing": true,
+      "mode": "last",
+      "show": false,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": []
+    },
+    {
+      "itemType": "genre",
+      "active": true,
+      "playing": true,
+      "mode": "shuffle",
+      "show": false,
+      "isActive": true,
+      "isPlaying": true,
+      "calls": []
+    }
+  ],
+  "playlistContexts": [
+    {
+      "route": "",
+      "mode": "now",
+      "previous": null,
+      "source": "data",
+      "explicit": null,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "now",
+      "previous": null,
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "",
+      "mode": "now",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "now",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "now",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "",
+      "mode": "now",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "now",
+      "previous": "previous",
+      "source": "data",
+      "explicit": null,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "mode": "now",
+      "previous": "previous",
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "",
+      "mode": "now",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "mode": "now",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "mode": "now",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "",
+      "mode": "now",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "mode": "next",
+      "previous": null,
+      "source": "data",
+      "explicit": null,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "next",
+      "previous": null,
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "",
+      "mode": "next",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "next",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "next",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "",
+      "mode": "next",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "next",
+      "previous": "previous",
+      "source": "data",
+      "explicit": null,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "mode": "next",
+      "previous": "previous",
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "",
+      "mode": "next",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "mode": "next",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "mode": "next",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "",
+      "mode": "next",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "mode": "last",
+      "previous": null,
+      "source": "data",
+      "explicit": null,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "last",
+      "previous": null,
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "",
+      "mode": "last",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "last",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "last",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "",
+      "mode": "last",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "last",
+      "previous": "previous",
+      "source": "data",
+      "explicit": null,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "mode": "last",
+      "previous": "previous",
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "",
+      "mode": "last",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "mode": "last",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "mode": "last",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "",
+      "mode": "last",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "mode": "shuffle",
+      "previous": null,
+      "source": "data",
+      "explicit": null,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "shuffle",
+      "previous": null,
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "",
+      "mode": "shuffle",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "shuffle",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "shuffle",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "",
+      "mode": "shuffle",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "",
+      "mode": "shuffle",
+      "previous": "previous",
+      "source": "data",
+      "explicit": null,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "mode": "shuffle",
+      "previous": "previous",
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "",
+      "mode": "shuffle",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "mode": "shuffle",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "mode": "shuffle",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "",
+      "mode": "shuffle",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "now",
+      "previous": null,
+      "source": "data",
+      "explicit": null,
+      "result": "current"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "now",
+      "previous": null,
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "now",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": "current"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "now",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": "current"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "now",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "now",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "now",
+      "previous": "previous",
+      "source": "data",
+      "explicit": null,
+      "result": "current"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "now",
+      "previous": "previous",
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "now",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": "current"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "now",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": "current"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "now",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "now",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "next",
+      "previous": null,
+      "source": "data",
+      "explicit": null,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "next",
+      "previous": null,
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "next",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "next",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "next",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "next",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "next",
+      "previous": "previous",
+      "source": "data",
+      "explicit": null,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "next",
+      "previous": "previous",
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "next",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "next",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "next",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "next",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "last",
+      "previous": null,
+      "source": "data",
+      "explicit": null,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "last",
+      "previous": null,
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "last",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "last",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "last",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "last",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "last",
+      "previous": "previous",
+      "source": "data",
+      "explicit": null,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "last",
+      "previous": "previous",
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "last",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "last",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "last",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "last",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "shuffle",
+      "previous": null,
+      "source": "data",
+      "explicit": null,
+      "result": "current"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "shuffle",
+      "previous": null,
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "shuffle",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": "current"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "shuffle",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": "current"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "shuffle",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "shuffle",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "shuffle",
+      "previous": "previous",
+      "source": "data",
+      "explicit": null,
+      "result": "current"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "shuffle",
+      "previous": "previous",
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "shuffle",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 1,
+      "result": "current"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "shuffle",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "song",
+      "count": 2,
+      "result": "current"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "shuffle",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "#/playlists/current",
+      "mode": "shuffle",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": "previous"
+    }
+  ],
+  "dropContexts": [
+    {
+      "route": "",
+      "edge": "top",
+      "previous": null,
+      "source": "data",
+      "explicit": null,
+      "result": null
+    },
+    {
+      "route": "",
+      "edge": "top",
+      "previous": null,
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "",
+      "edge": "top",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "album",
+      "count": 1,
+      "result": null
+    },
+    {
+      "route": "",
+      "edge": "top",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "album",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "",
+      "edge": "top",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "",
+      "edge": "top",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "",
+      "edge": "top",
+      "previous": "previous",
+      "source": "data",
+      "explicit": null,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "edge": "top",
+      "previous": "previous",
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "",
+      "edge": "top",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "album",
+      "count": 1,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "edge": "top",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "album",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "edge": "top",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "",
+      "edge": "top",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "edge": "bottom",
+      "previous": null,
+      "source": "data",
+      "explicit": null,
+      "result": null
+    },
+    {
+      "route": "",
+      "edge": "bottom",
+      "previous": null,
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "",
+      "edge": "bottom",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "album",
+      "count": 1,
+      "result": null
+    },
+    {
+      "route": "",
+      "edge": "bottom",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "album",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "",
+      "edge": "bottom",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "",
+      "edge": "bottom",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "",
+      "edge": "bottom",
+      "previous": "previous",
+      "source": "data",
+      "explicit": null,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "edge": "bottom",
+      "previous": "previous",
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "",
+      "edge": "bottom",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "album",
+      "count": 1,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "edge": "bottom",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "album",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "",
+      "edge": "bottom",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "",
+      "edge": "bottom",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "top",
+      "previous": null,
+      "source": "data",
+      "explicit": null,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "top",
+      "previous": null,
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "top",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "album",
+      "count": 1,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "top",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "album",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "top",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "top",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "top",
+      "previous": "previous",
+      "source": "data",
+      "explicit": null,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "top",
+      "previous": "previous",
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "top",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "album",
+      "count": 1,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "top",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "album",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "top",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "top",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "bottom",
+      "previous": null,
+      "source": "data",
+      "explicit": null,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "bottom",
+      "previous": null,
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "bottom",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "album",
+      "count": 1,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "bottom",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "album",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "bottom",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "bottom",
+      "previous": null,
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": null
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "bottom",
+      "previous": "previous",
+      "source": "data",
+      "explicit": null,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "bottom",
+      "previous": "previous",
+      "source": "data",
+      "explicit": "explicit",
+      "result": "explicit"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "bottom",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "album",
+      "count": 1,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "bottom",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "album",
+      "count": 2,
+      "result": "previous"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "bottom",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 1,
+      "result": "source-0"
+    },
+    {
+      "route": "#/playlists/current",
+      "edge": "bottom",
+      "previous": "previous",
+      "source": "fetch",
+      "itemType": "playlist",
+      "count": 2,
+      "result": "previous"
+    }
+  ],
+  "imageCases": [
+    {
+      "kind": "song",
+      "behavior": "now",
+      "held": false,
+      "call": {
+        "type": "doubleClick",
+        "playType": "now",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "song",
+      "behavior": "now",
+      "held": true,
+      "call": {
+        "type": "doubleClick",
+        "playType": "shuffle",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "song",
+      "behavior": "next",
+      "held": false,
+      "call": {
+        "type": "doubleClick",
+        "playType": "next",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "song",
+      "behavior": "next",
+      "held": true,
+      "call": {
+        "type": "doubleClick",
+        "playType": "nextShuffle",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "song",
+      "behavior": "last",
+      "held": false,
+      "call": {
+        "type": "doubleClick",
+        "playType": "last",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "song",
+      "behavior": "last",
+      "held": true,
+      "call": {
+        "type": "doubleClick",
+        "playType": "lastShuffle",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "song",
+      "behavior": "shuffle",
+      "held": false,
+      "call": {
+        "type": "doubleClick",
+        "playType": "shuffle",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "song",
+      "behavior": "shuffle",
+      "held": true,
+      "call": {
+        "type": "doubleClick",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlistSong",
+      "behavior": "now",
+      "held": false,
+      "call": {
+        "type": "doubleClick",
+        "playType": "now",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlistSong",
+      "behavior": "now",
+      "held": true,
+      "call": {
+        "type": "doubleClick",
+        "playType": "shuffle",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlistSong",
+      "behavior": "next",
+      "held": false,
+      "call": {
+        "type": "doubleClick",
+        "playType": "next",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlistSong",
+      "behavior": "next",
+      "held": true,
+      "call": {
+        "type": "doubleClick",
+        "playType": "nextShuffle",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlistSong",
+      "behavior": "last",
+      "held": false,
+      "call": {
+        "type": "doubleClick",
+        "playType": "last",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlistSong",
+      "behavior": "last",
+      "held": true,
+      "call": {
+        "type": "doubleClick",
+        "playType": "lastShuffle",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlistSong",
+      "behavior": "shuffle",
+      "held": false,
+      "call": {
+        "type": "doubleClick",
+        "playType": "shuffle",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlistSong",
+      "behavior": "shuffle",
+      "held": true,
+      "call": {
+        "type": "doubleClick",
+        "singleSongOnly": true,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "queueSong",
+      "behavior": "now",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "now",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "queueSong",
+      "behavior": "now",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "shuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "queueSong",
+      "behavior": "next",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "next",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "queueSong",
+      "behavior": "next",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "nextShuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "queueSong",
+      "behavior": "last",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "last",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "queueSong",
+      "behavior": "last",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "lastShuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "queueSong",
+      "behavior": "shuffle",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "shuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "queueSong",
+      "behavior": "shuffle",
+      "held": true,
+      "call": {
+        "type": "play",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "album",
+      "behavior": "now",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "now",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "album",
+      "behavior": "now",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "shuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "album",
+      "behavior": "next",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "next",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "album",
+      "behavior": "next",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "nextShuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "album",
+      "behavior": "last",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "last",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "album",
+      "behavior": "last",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "lastShuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "album",
+      "behavior": "shuffle",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "shuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "album",
+      "behavior": "shuffle",
+      "held": true,
+      "call": {
+        "type": "play",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "artist",
+      "behavior": "now",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "now",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "artist",
+      "behavior": "now",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "shuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "artist",
+      "behavior": "next",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "next",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "artist",
+      "behavior": "next",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "nextShuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "artist",
+      "behavior": "last",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "last",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "artist",
+      "behavior": "last",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "lastShuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "artist",
+      "behavior": "shuffle",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "shuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "artist",
+      "behavior": "shuffle",
+      "held": true,
+      "call": {
+        "type": "play",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlist",
+      "behavior": "now",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "now",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlist",
+      "behavior": "now",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "shuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlist",
+      "behavior": "next",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "next",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlist",
+      "behavior": "next",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "nextShuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlist",
+      "behavior": "last",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "last",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlist",
+      "behavior": "last",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "lastShuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlist",
+      "behavior": "shuffle",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "shuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "playlist",
+      "behavior": "shuffle",
+      "held": true,
+      "call": {
+        "type": "play",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "folder",
+      "behavior": "now",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "now",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "folder",
+      "behavior": "now",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "shuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "folder",
+      "behavior": "next",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "next",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "folder",
+      "behavior": "next",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "nextShuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "folder",
+      "behavior": "last",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "last",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "folder",
+      "behavior": "last",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "lastShuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "folder",
+      "behavior": "shuffle",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "shuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "folder",
+      "behavior": "shuffle",
+      "held": true,
+      "call": {
+        "type": "play",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "genre",
+      "behavior": "now",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "now",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "genre",
+      "behavior": "now",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "shuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "genre",
+      "behavior": "next",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "next",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "genre",
+      "behavior": "next",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "nextShuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "genre",
+      "behavior": "last",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "last",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "genre",
+      "behavior": "last",
+      "held": true,
+      "call": {
+        "type": "play",
+        "playType": "lastShuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "genre",
+      "behavior": "shuffle",
+      "held": false,
+      "call": {
+        "type": "play",
+        "playType": "shuffle",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    },
+    {
+      "kind": "genre",
+      "behavior": "shuffle",
+      "held": true,
+      "call": {
+        "type": "play",
+        "singleSongOnly": false,
+        "item": "row"
+      }
+    }
+  ]
+}

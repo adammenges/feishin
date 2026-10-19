@@ -1,0 +1,5293 @@
+{
+  "electron": "43.7.0",
+  "platforms": [
+    "darwin",
+    "linux"
+  ],
+  "metrics": [
+    {
+      "direction": "ltr",
+      "text": "antidisestablishmentarianism",
+      "value": "antidisestablishmentarianism",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            27,
+            27
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            23,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            27,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 42
+    },
+    {
+      "direction": "ltr",
+      "text": "ABC אבג DEF אבג ABC 123",
+      "value": "ABC אבג DEF אבג ABC 123",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            19,
+            19
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            20,
+            20
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            19,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            20,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 42
+    },
+    {
+      "direction": "ltr",
+      "text": "مرحبابالعالم مرحبابالعالم",
+      "value": "مرحبابالعالم مرحبابالعالم",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            15,
+            15
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            20,
+            20
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            15,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            20,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 42
+    },
+    {
+      "direction": "ltr",
+      "text": "漢字（音楽）ABC🙂DEF",
+      "value": "漢字（音楽）ABC🙂DEF",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            9,
+            9
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            9,
+            9
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            9,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            9,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 42
+    },
+    {
+      "direction": "ltr",
+      "text": "سلام لا لا سلام\nשלום abc",
+      "value": "سلام لا لا سلام\nשלום abc",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            17,
+            17
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            21,
+            21
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            17,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            21,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 42
+    },
+    {
+      "direction": "ltr",
+      "text": "antidisestablishmentarianism",
+      "value": "antidisestablishmentarianism",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            18,
+            18
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            19,
+            19
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            18,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            19,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 70
+    },
+    {
+      "direction": "ltr",
+      "text": "ABC אבג DEF אבג ABC 123",
+      "value": "ABC אבג DEF אבג ABC 123",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            16,
+            16
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            16,
+            16
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            16,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            16,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 70
+    },
+    {
+      "direction": "ltr",
+      "text": "مرحبابالعالم مرحبابالعالم",
+      "value": "مرحبابالعالم مرحبابالعالم",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            13,
+            13
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            0,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            13,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 70
+    },
+    {
+      "direction": "ltr",
+      "text": "漢字（音楽）ABC🙂DEF",
+      "value": "漢字（音楽）ABC🙂DEF",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            7,
+            7
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            9,
+            9
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            7,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            9,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 70
+    },
+    {
+      "direction": "ltr",
+      "text": "سلام لا لا سلام\nשלום abc",
+      "value": "سلام لا لا سلام\nשלום abc",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            15,
+            15
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            16,
+            16
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            15,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            16,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 70
+    },
+    {
+      "direction": "ltr",
+      "text": "antidisestablishmentarianism",
+      "value": "antidisestablishmentarianism",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            16,
+            16
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            14,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            16,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 112
+    },
+    {
+      "direction": "ltr",
+      "text": "ABC אבג DEF אבג ABC 123",
+      "value": "ABC אבג DEF אבג ABC 123",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            11,
+            11
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            12,
+            12
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            11,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            12,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 112
+    },
+    {
+      "direction": "ltr",
+      "text": "مرحبابالعالم مرحبابالعالم",
+      "value": "مرحبابالعالم مرحبابالعالم",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            13,
+            13
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            0,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            13,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 112
+    },
+    {
+      "direction": "ltr",
+      "text": "漢字（音楽）ABC🙂DEF",
+      "value": "漢字（音楽）ABC🙂DEF",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            5,
+            5
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            6,
+            6
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            5,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            6,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 112
+    },
+    {
+      "direction": "ltr",
+      "text": "سلام لا لا سلام\nשלום abc",
+      "value": "سلام لا لا سلام\nשלום abc",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            2,
+            2
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            16,
+            16
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            2,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            16,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 112
+    },
+    {
+      "direction": "rtl",
+      "text": "antidisestablishmentarianism",
+      "value": "antidisestablishmentarianism",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            27,
+            27
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            25,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            27,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 42
+    },
+    {
+      "direction": "rtl",
+      "text": "ABC אבג DEF אבג ABC 123",
+      "value": "ABC אבג DEF אבג ABC 123",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            16,
+            16
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            20,
+            20
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            16,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            20,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 42
+    },
+    {
+      "direction": "rtl",
+      "text": "مرحبابالعالم مرحبابالعالم",
+      "value": "مرحبابالعالم مرحبابالعالم",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            17,
+            17
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            20,
+            20
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            17,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            20,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 42
+    },
+    {
+      "direction": "rtl",
+      "text": "漢字（音楽）ABC🙂DEF",
+      "value": "漢字（音楽）ABC🙂DEF",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            9,
+            9
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            9,
+            9
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            9,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            9,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 42
+    },
+    {
+      "direction": "rtl",
+      "text": "سلام لا لا سلام\nשלום abc",
+      "value": "سلام لا لا سلام\nשלום abc",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            19,
+            19
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            21,
+            21
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            19,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            21,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 42
+    },
+    {
+      "direction": "rtl",
+      "text": "antidisestablishmentarianism",
+      "value": "antidisestablishmentarianism",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            11,
+            11
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            19,
+            19
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            11,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            19,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 70
+    },
+    {
+      "direction": "rtl",
+      "text": "ABC אבג DEF אבג ABC 123",
+      "value": "ABC אבג DEF אבג ABC 123",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            16,
+            16
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            16,
+            16
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            16,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            16,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 70
+    },
+    {
+      "direction": "rtl",
+      "text": "مرحبابالعالم مرحبابالعالم",
+      "value": "مرحبابالعالم مرحبابالعالم",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            12,
+            12
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            13,
+            13
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            12,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            13,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 70
+    },
+    {
+      "direction": "rtl",
+      "text": "漢字（音楽）ABC🙂DEF",
+      "value": "漢字（音楽）ABC🙂DEF",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            5,
+            5
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            9,
+            9
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            5,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            9,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 70
+    },
+    {
+      "direction": "rtl",
+      "text": "سلام لا لا سلام\nשלום abc",
+      "value": "سلام لا لا سلام\nשלום abc",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            15,
+            15
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            16,
+            16
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            15,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            16,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 70
+    },
+    {
+      "direction": "rtl",
+      "text": "antidisestablishmentarianism",
+      "value": "antidisestablishmentarianism",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            2,
+            2
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            16,
+            16
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            2,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            16,
+            28
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 28,
+          "value": "antidisestablishmentarianism",
+          "selection": [
+            28,
+            28
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 112
+    },
+    {
+      "direction": "rtl",
+      "text": "ABC אבג DEF אבג ABC 123",
+      "value": "ABC אבג DEF אבג ABC 123",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            11,
+            11
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            12,
+            12
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            11,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            12,
+            23
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 23,
+          "value": "ABC אבג DEF אבג ABC 123",
+          "selection": [
+            23,
+            23
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 112
+    },
+    {
+      "direction": "rtl",
+      "text": "مرحبابالعالم مرحبابالعالم",
+      "value": "مرحبابالعالم مرحبابالعالم",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            12,
+            12
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            13,
+            13
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            12,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            13,
+            25
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 25,
+          "value": "مرحبابالعالم مرحبابالعالم",
+          "selection": [
+            25,
+            25
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 112
+    },
+    {
+      "direction": "rtl",
+      "text": "漢字（音楽）ABC🙂DEF",
+      "value": "漢字（音楽）ABC🙂DEF",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            1,
+            1
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            6,
+            6
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            1,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            6,
+            14
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 14,
+          "value": "漢字（音楽）ABC🙂DEF",
+          "selection": [
+            14,
+            14
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 112
+    },
+    {
+      "direction": "rtl",
+      "text": "سلام لا لا سلام\nשלום abc",
+      "value": "سلام لا لا سلام\nשלום abc",
+      "actions": [
+        {
+          "key": "Up",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            12,
+            12
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Down",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Home",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            16,
+            16
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "End",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Up",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            12,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Down",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-Home",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            16,
+            24
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "shift-End",
+          "start": 24,
+          "value": "سلام لا لا سلام\nשלום abc",
+          "selection": [
+            24,
+            24
+          ],
+          "bidi": "isolate"
+        }
+      ],
+      "width": 112
+    }
+  ],
+  "platform_metrics": {
+    "linux": [
+      {
+        "direction": "ltr",
+        "text": "antidisestablishmentarianism",
+        "value": "antidisestablishmentarianism",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              27,
+              27
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              23,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              27,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 42
+      },
+      {
+        "direction": "ltr",
+        "text": "ABC אבג DEF אבג ABC 123",
+        "value": "ABC אבג DEF אבג ABC 123",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              19,
+              19
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              20,
+              20
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              19,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              20,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 42
+      },
+      {
+        "direction": "ltr",
+        "text": "مرحبابالعالم مرحبابالعالم",
+        "value": "مرحبابالعالم مرحبابالعالم",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              15,
+              15
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              20,
+              20
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              15,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              20,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 42
+      },
+      {
+        "direction": "ltr",
+        "text": "漢字（音楽）ABC🙂DEF",
+        "value": "漢字（音楽）ABC🙂DEF",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              9,
+              9
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              11,
+              11
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              9,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              11,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 42
+      },
+      {
+        "direction": "ltr",
+        "text": "سلام لا لا سلام\nשלום abc",
+        "value": "سلام لا لا سلام\nשלום abc",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              17,
+              17
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              21,
+              21
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              17,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              21,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 42
+      },
+      {
+        "direction": "ltr",
+        "text": "antidisestablishmentarianism",
+        "value": "antidisestablishmentarianism",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              18,
+              18
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              19,
+              19
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              18,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              19,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 70
+      },
+      {
+        "direction": "ltr",
+        "text": "ABC אבג DEF אבג ABC 123",
+        "value": "ABC אבג DEF אבג ABC 123",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              16,
+              16
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              16,
+              16
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              16,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              16,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 70
+      },
+      {
+        "direction": "ltr",
+        "text": "مرحبابالعالم مرحبابالعالم",
+        "value": "مرحبابالعالم مرحبابالعالم",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              0,
+              0
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              13,
+              13
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              0,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              13,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 70
+      },
+      {
+        "direction": "ltr",
+        "text": "漢字（音楽）ABC🙂DEF",
+        "value": "漢字（音楽）ABC🙂DEF",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              6,
+              6
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              11,
+              11
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              6,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              11,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 70
+      },
+      {
+        "direction": "ltr",
+        "text": "سلام لا لا سلام\nשלום abc",
+        "value": "سلام لا لا سلام\nשלום abc",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              15,
+              15
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              16,
+              16
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              15,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              16,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 70
+      },
+      {
+        "direction": "ltr",
+        "text": "antidisestablishmentarianism",
+        "value": "antidisestablishmentarianism",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              16,
+              16
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              14,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              16,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 112
+      },
+      {
+        "direction": "ltr",
+        "text": "ABC אבג DEF אבג ABC 123",
+        "value": "ABC אבג DEF אבג ABC 123",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              11,
+              11
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              12,
+              12
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              11,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              12,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 112
+      },
+      {
+        "direction": "ltr",
+        "text": "مرحبابالعالم مرحبابالعالم",
+        "value": "مرحبابالعالم مرحبابالعالم",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              0,
+              0
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              13,
+              13
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              0,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              13,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 112
+      },
+      {
+        "direction": "ltr",
+        "text": "漢字（音楽）ABC🙂DEF",
+        "value": "漢字（音楽）ABC🙂DEF",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              5,
+              5
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              6,
+              6
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              5,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              6,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 112
+      },
+      {
+        "direction": "ltr",
+        "text": "سلام لا لا سلام\nשלום abc",
+        "value": "سلام لا لا سلام\nשלום abc",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              4,
+              4
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              16,
+              16
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              4,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              16,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 112
+      },
+      {
+        "direction": "rtl",
+        "text": "antidisestablishmentarianism",
+        "value": "antidisestablishmentarianism",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              27,
+              27
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              25,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              27,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 42
+      },
+      {
+        "direction": "rtl",
+        "text": "ABC אבג DEF אבג ABC 123",
+        "value": "ABC אבג DEF אבג ABC 123",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              16,
+              16
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              20,
+              20
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              16,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              20,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 42
+      },
+      {
+        "direction": "rtl",
+        "text": "مرحبابالعالم مرحبابالعالم",
+        "value": "مرحبابالعالم مرحبابالعالم",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              17,
+              17
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              20,
+              20
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              17,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              20,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 42
+      },
+      {
+        "direction": "rtl",
+        "text": "漢字（音楽）ABC🙂DEF",
+        "value": "漢字（音楽）ABC🙂DEF",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              7,
+              7
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              11,
+              11
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              7,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              11,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 42
+      },
+      {
+        "direction": "rtl",
+        "text": "سلام لا لا سلام\nשלום abc",
+        "value": "سلام لا لا سلام\nשלום abc",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              19,
+              19
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              21,
+              21
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              19,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              21,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 42
+      },
+      {
+        "direction": "rtl",
+        "text": "antidisestablishmentarianism",
+        "value": "antidisestablishmentarianism",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              11,
+              11
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              19,
+              19
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              11,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              19,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 70
+      },
+      {
+        "direction": "rtl",
+        "text": "ABC אבג DEF אבג ABC 123",
+        "value": "ABC אבג DEF אבג ABC 123",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              16,
+              16
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              16,
+              16
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              16,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              16,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 70
+      },
+      {
+        "direction": "rtl",
+        "text": "مرحبابالعالم مرحبابالعالم",
+        "value": "مرحبابالعالم مرحبابالعالم",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              12,
+              12
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              13,
+              13
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              12,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              13,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 70
+      },
+      {
+        "direction": "rtl",
+        "text": "漢字（音楽）ABC🙂DEF",
+        "value": "漢字（音楽）ABC🙂DEF",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              7,
+              7
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              11,
+              11
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              7,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              11,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 70
+      },
+      {
+        "direction": "rtl",
+        "text": "سلام لا لا سلام\nשלום abc",
+        "value": "سلام لا لا سلام\nשלום abc",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              15,
+              15
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              16,
+              16
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              15,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              16,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 70
+      },
+      {
+        "direction": "rtl",
+        "text": "antidisestablishmentarianism",
+        "value": "antidisestablishmentarianism",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              2,
+              2
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              16,
+              16
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              2,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              16,
+              28
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 28,
+            "value": "antidisestablishmentarianism",
+            "selection": [
+              28,
+              28
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 112
+      },
+      {
+        "direction": "rtl",
+        "text": "ABC אבג DEF אבג ABC 123",
+        "value": "ABC אבג DEF אבג ABC 123",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              11,
+              11
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              12,
+              12
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              11,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              12,
+              23
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 23,
+            "value": "ABC אבג DEF אבג ABC 123",
+            "selection": [
+              23,
+              23
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 112
+      },
+      {
+        "direction": "rtl",
+        "text": "مرحبابالعالم مرحبابالعالم",
+        "value": "مرحبابالعالم مرحبابالعالم",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              12,
+              12
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              13,
+              13
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              12,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              13,
+              25
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 25,
+            "value": "مرحبابالعالم مرحبابالعالم",
+            "selection": [
+              25,
+              25
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 112
+      },
+      {
+        "direction": "rtl",
+        "text": "漢字（音楽）ABC🙂DEF",
+        "value": "漢字（音楽）ABC🙂DEF",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              1,
+              1
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              6,
+              6
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              1,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              6,
+              14
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 14,
+            "value": "漢字（音楽）ABC🙂DEF",
+            "selection": [
+              14,
+              14
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 112
+      },
+      {
+        "direction": "rtl",
+        "text": "سلام لا لا سلام\nשלום abc",
+        "value": "سلام لا لا سلام\nשלום abc",
+        "actions": [
+          {
+            "key": "Up",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              11,
+              11
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Down",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "Home",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              16,
+              16
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "End",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Up",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              11,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Down",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-Home",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              16,
+              24
+            ],
+            "bidi": "isolate"
+          },
+          {
+            "key": "shift-End",
+            "start": 24,
+            "value": "سلام لا لا سلام\nשלום abc",
+            "selection": [
+              24,
+              24
+            ],
+            "bidi": "isolate"
+          }
+        ],
+        "width": 112
+      }
+    ]
+  }
+}

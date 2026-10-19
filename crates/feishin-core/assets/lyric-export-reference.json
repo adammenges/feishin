@@ -1,0 +1,1816 @@
+{
+  "cases": [
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": "Plain lyrics\nSecond line"
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "Plain lyrics\nSecond line"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": "Plain lyrics\nSecond line"
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "Plain lyrics\nSecond line"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": "Plain lyrics\nSecond line"
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "Plain lyrics\nSecond line"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": "Plain lyrics\nSecond line"
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "Plain lyrics\nSecond line"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": "Plain lyrics\nSecond line"
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "Plain lyrics\nSecond line"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": "Plain lyrics\nSecond line"
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "Plain lyrics\nSecond line"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": "Plain lyrics\nSecond line"
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "Plain lyrics\nSecond line"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": "Plain lyrics\nSecond line"
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "Plain lyrics\nSecond line"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": "Plain lyrics\nSecond line"
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "Plain lyrics\nSecond line"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": "Plain lyrics\nSecond line"
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "Plain lyrics\nSecond line"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": "Plain lyrics\nSecond line"
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "Plain lyrics\nSecond line"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": "Plain lyrics\nSecond line"
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "Plain lyrics\nSecond line"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "[ar:Original]\n[offset:250]\n[00:01.234]First\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": []
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": []
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": []
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": []
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": []
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": []
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": []
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:0]\n\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": []
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:125]\n\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": []
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:250]\n\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": []
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:375]\n\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": []
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:-750]\n\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": []
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:-625]\n\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            0,
+            "Start"
+          ],
+          [
+            1234,
+            "First"
+          ],
+          [
+            60001,
+            "Minute"
+          ],
+          [
+            3600002,
+            "Hour"
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "Start\nFirst\nMinute\nHour\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            0,
+            "Start"
+          ],
+          [
+            1234,
+            "First"
+          ],
+          [
+            60001,
+            "Minute"
+          ],
+          [
+            3600002,
+            "Hour"
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "Start\nFirst\nMinute\nHour\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            0,
+            "Start"
+          ],
+          [
+            1234,
+            "First"
+          ],
+          [
+            60001,
+            "Minute"
+          ],
+          [
+            3600002,
+            "Hour"
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "Start\nFirst\nMinute\nHour\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            0,
+            "Start"
+          ],
+          [
+            1234,
+            "First"
+          ],
+          [
+            60001,
+            "Minute"
+          ],
+          [
+            3600002,
+            "Hour"
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "Start\nFirst\nMinute\nHour\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            0,
+            "Start"
+          ],
+          [
+            1234,
+            "First"
+          ],
+          [
+            60001,
+            "Minute"
+          ],
+          [
+            3600002,
+            "Hour"
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "Start\nFirst\nMinute\nHour\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            0,
+            "Start"
+          ],
+          [
+            1234,
+            "First"
+          ],
+          [
+            60001,
+            "Minute"
+          ],
+          [
+            3600002,
+            "Hour"
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "Start\nFirst\nMinute\nHour\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            0,
+            "Start"
+          ],
+          [
+            1234,
+            "First"
+          ],
+          [
+            60001,
+            "Minute"
+          ],
+          [
+            3600002,
+            "Hour"
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:0]\n[00:00.000]Start\n[00:01.234]First\n[01:00.001]Minute\n[01:00:00.002]Hour\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            0,
+            "Start"
+          ],
+          [
+            1234,
+            "First"
+          ],
+          [
+            60001,
+            "Minute"
+          ],
+          [
+            3600002,
+            "Hour"
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:125]\n[00:00.000]Start\n[00:01.234]First\n[01:00.001]Minute\n[01:00:00.002]Hour\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            0,
+            "Start"
+          ],
+          [
+            1234,
+            "First"
+          ],
+          [
+            60001,
+            "Minute"
+          ],
+          [
+            3600002,
+            "Hour"
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:250]\n[00:00.000]Start\n[00:01.234]First\n[01:00.001]Minute\n[01:00:00.002]Hour\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            0,
+            "Start"
+          ],
+          [
+            1234,
+            "First"
+          ],
+          [
+            60001,
+            "Minute"
+          ],
+          [
+            3600002,
+            "Hour"
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:375]\n[00:00.000]Start\n[00:01.234]First\n[01:00.001]Minute\n[01:00:00.002]Hour\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            0,
+            "Start"
+          ],
+          [
+            1234,
+            "First"
+          ],
+          [
+            60001,
+            "Minute"
+          ],
+          [
+            3600002,
+            "Hour"
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:-750]\n[00:00.000]Start\n[00:01.234]First\n[01:00.001]Minute\n[01:00:00.002]Hour\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            0,
+            "Start"
+          ],
+          [
+            1234,
+            "First"
+          ],
+          [
+            60001,
+            "Minute"
+          ],
+          [
+            3600002,
+            "Hour"
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:-625]\n[00:00.000]Start\n[00:01.234]First\n[01:00.001]Minute\n[01:00:00.002]Hour\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          {
+            "startMs": 1,
+            "text": "Unicode 君 & 🙂"
+          },
+          {
+            "startMs": 1234.5,
+            "text": null
+          },
+          {
+            "startMs": 9999,
+            "text": "Last"
+          }
+        ]
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "Unicode 君 & 🙂\n\nLast\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          {
+            "startMs": 1,
+            "text": "Unicode 君 & 🙂"
+          },
+          {
+            "startMs": 1234.5,
+            "text": null
+          },
+          {
+            "startMs": 9999,
+            "text": "Last"
+          }
+        ]
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "Unicode 君 & 🙂\n\nLast\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          {
+            "startMs": 1,
+            "text": "Unicode 君 & 🙂"
+          },
+          {
+            "startMs": 1234.5,
+            "text": null
+          },
+          {
+            "startMs": 9999,
+            "text": "Last"
+          }
+        ]
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "Unicode 君 & 🙂\n\nLast\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          {
+            "startMs": 1,
+            "text": "Unicode 君 & 🙂"
+          },
+          {
+            "startMs": 1234.5,
+            "text": null
+          },
+          {
+            "startMs": 9999,
+            "text": "Last"
+          }
+        ]
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "Unicode 君 & 🙂\n\nLast\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          {
+            "startMs": 1,
+            "text": "Unicode 君 & 🙂"
+          },
+          {
+            "startMs": 1234.5,
+            "text": null
+          },
+          {
+            "startMs": 9999,
+            "text": "Last"
+          }
+        ]
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "Unicode 君 & 🙂\n\nLast\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          {
+            "startMs": 1,
+            "text": "Unicode 君 & 🙂"
+          },
+          {
+            "startMs": 1234.5,
+            "text": null
+          },
+          {
+            "startMs": 9999,
+            "text": "Last"
+          }
+        ]
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "Unicode 君 & 🙂\n\nLast\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          {
+            "startMs": 1,
+            "text": "Unicode 君 & 🙂"
+          },
+          {
+            "startMs": 1234.5,
+            "text": null
+          },
+          {
+            "startMs": 9999,
+            "text": "Last"
+          }
+        ]
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:0]\n[00:00.001]Unicode 君 & 🙂\n[00:01.234]\n[00:09.999]Last\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          {
+            "startMs": 1,
+            "text": "Unicode 君 & 🙂"
+          },
+          {
+            "startMs": 1234.5,
+            "text": null
+          },
+          {
+            "startMs": 9999,
+            "text": "Last"
+          }
+        ]
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:125]\n[00:00.001]Unicode 君 & 🙂\n[00:01.234]\n[00:09.999]Last\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          {
+            "startMs": 1,
+            "text": "Unicode 君 & 🙂"
+          },
+          {
+            "startMs": 1234.5,
+            "text": null
+          },
+          {
+            "startMs": 9999,
+            "text": "Last"
+          }
+        ]
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:250]\n[00:00.001]Unicode 君 & 🙂\n[00:01.234]\n[00:09.999]Last\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          {
+            "startMs": 1,
+            "text": "Unicode 君 & 🙂"
+          },
+          {
+            "startMs": 1234.5,
+            "text": null
+          },
+          {
+            "startMs": 9999,
+            "text": "Last"
+          }
+        ]
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:375]\n[00:00.001]Unicode 君 & 🙂\n[00:01.234]\n[00:09.999]Last\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          {
+            "startMs": 1,
+            "text": "Unicode 君 & 🙂"
+          },
+          {
+            "startMs": 1234.5,
+            "text": null
+          },
+          {
+            "startMs": 9999,
+            "text": "Last"
+          }
+        ]
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:-750]\n[00:00.001]Unicode 君 & 🙂\n[00:01.234]\n[00:09.999]Last\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          {
+            "startMs": 1,
+            "text": "Unicode 君 & 🙂"
+          },
+          {
+            "startMs": 1234.5,
+            "text": null
+          },
+          {
+            "startMs": 9999,
+            "text": "Last"
+          }
+        ]
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:-625]\n[00:00.001]Unicode 君 & 🙂\n[00:01.234]\n[00:09.999]Last\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          {
+            "startMs": 1000,
+            "text": "First singer",
+            "cueLines": [
+              {
+                "startMs": 1000,
+                "endMs": 1500,
+                "value": "Voice",
+                "words": [
+                  {
+                    "text": "Voice",
+                    "startMs": 1000,
+                    "endMs": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "First singer\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          {
+            "startMs": 1000,
+            "text": "First singer",
+            "cueLines": [
+              {
+                "startMs": 1000,
+                "endMs": 1500,
+                "value": "Voice",
+                "words": [
+                  {
+                    "text": "Voice",
+                    "startMs": 1000,
+                    "endMs": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "First singer\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          {
+            "startMs": 1000,
+            "text": "First singer",
+            "cueLines": [
+              {
+                "startMs": 1000,
+                "endMs": 1500,
+                "value": "Voice",
+                "words": [
+                  {
+                    "text": "Voice",
+                    "startMs": 1000,
+                    "endMs": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "First singer\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          {
+            "startMs": 1000,
+            "text": "First singer",
+            "cueLines": [
+              {
+                "startMs": 1000,
+                "endMs": 1500,
+                "value": "Voice",
+                "words": [
+                  {
+                    "text": "Voice",
+                    "startMs": 1000,
+                    "endMs": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "First singer\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          {
+            "startMs": 1000,
+            "text": "First singer",
+            "cueLines": [
+              {
+                "startMs": 1000,
+                "endMs": 1500,
+                "value": "Voice",
+                "words": [
+                  {
+                    "text": "Voice",
+                    "startMs": 1000,
+                    "endMs": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "First singer\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          {
+            "startMs": 1000,
+            "text": "First singer",
+            "cueLines": [
+              {
+                "startMs": 1000,
+                "endMs": 1500,
+                "value": "Voice",
+                "words": [
+                  {
+                    "text": "Voice",
+                    "startMs": 1000,
+                    "endMs": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "First singer\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          {
+            "startMs": 1000,
+            "text": "First singer",
+            "cueLines": [
+              {
+                "startMs": 1000,
+                "endMs": 1500,
+                "value": "Voice",
+                "words": [
+                  {
+                    "text": "Voice",
+                    "startMs": 1000,
+                    "endMs": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:0]\n[00:01.000]First singer\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          {
+            "startMs": 1000,
+            "text": "First singer",
+            "cueLines": [
+              {
+                "startMs": 1000,
+                "endMs": 1500,
+                "value": "Voice",
+                "words": [
+                  {
+                    "text": "Voice",
+                    "startMs": 1000,
+                    "endMs": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:125]\n[00:01.000]First singer\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          {
+            "startMs": 1000,
+            "text": "First singer",
+            "cueLines": [
+              {
+                "startMs": 1000,
+                "endMs": 1500,
+                "value": "Voice",
+                "words": [
+                  {
+                    "text": "Voice",
+                    "startMs": 1000,
+                    "endMs": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:250]\n[00:01.000]First singer\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          {
+            "startMs": 1000,
+            "text": "First singer",
+            "cueLines": [
+              {
+                "startMs": 1000,
+                "endMs": 1500,
+                "value": "Voice",
+                "words": [
+                  {
+                    "text": "Voice",
+                    "startMs": 1000,
+                    "endMs": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:375]\n[00:01.000]First singer\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          {
+            "startMs": 1000,
+            "text": "First singer",
+            "cueLines": [
+              {
+                "startMs": 1000,
+                "endMs": 1500,
+                "value": "Voice",
+                "words": [
+                  {
+                    "text": "Voice",
+                    "startMs": 1000,
+                    "endMs": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:-750]\n[00:01.000]First singer\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          {
+            "startMs": 1000,
+            "text": "First singer",
+            "cueLines": [
+              {
+                "startMs": 1000,
+                "endMs": 1500,
+                "value": "Voice",
+                "words": [
+                  {
+                    "text": "Voice",
+                    "startMs": 1000,
+                    "endMs": 1500
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:-625]\n[00:01.000]First singer\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            -1234,
+            "Negative"
+          ],
+          [
+            3723123.75,
+            "Hour fraction"
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "Negative\nHour fraction\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            -1234,
+            "Negative"
+          ],
+          [
+            3723123.75,
+            "Hour fraction"
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "Negative\nHour fraction\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            -1234,
+            "Negative"
+          ],
+          [
+            3723123.75,
+            "Hour fraction"
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "Negative\nHour fraction\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            -1234,
+            "Negative"
+          ],
+          [
+            3723123.75,
+            "Hour fraction"
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "Negative\nHour fraction\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            -1234,
+            "Negative"
+          ],
+          [
+            3723123.75,
+            "Hour fraction"
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "Negative\nHour fraction\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            -1234,
+            "Negative"
+          ],
+          [
+            3723123.75,
+            "Hour fraction"
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "Negative\nHour fraction\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            -1234,
+            "Negative"
+          ],
+          [
+            3723123.75,
+            "Hour fraction"
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:0]\n[-00:01.234]Negative\n[01:02:03.123]Hour fraction\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            -1234,
+            "Negative"
+          ],
+          [
+            3723123.75,
+            "Hour fraction"
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:125]\n[-00:01.234]Negative\n[01:02:03.123]Hour fraction\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            -1234,
+            "Negative"
+          ],
+          [
+            3723123.75,
+            "Hour fraction"
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:250]\n[-00:01.234]Negative\n[01:02:03.123]Hour fraction\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            -1234,
+            "Negative"
+          ],
+          [
+            3723123.75,
+            "Hour fraction"
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:375]\n[-00:01.234]Negative\n[01:02:03.123]Hour fraction\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            -1234,
+            "Negative"
+          ],
+          [
+            3723123.75,
+            "Hour fraction"
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:-750]\n[-00:01.234]Negative\n[01:02:03.123]Hour fraction\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            -1234,
+            "Negative"
+          ],
+          [
+            3723123.75,
+            "Hour fraction"
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:-625]\n[-00:01.234]Negative\n[01:02:03.123]Hour fraction\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            0,
+            ""
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            0,
+            ""
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": 0,
+      "output": "\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            0,
+            ""
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            0,
+            ""
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": 250,
+      "output": "\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            0,
+            ""
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            0,
+            ""
+          ]
+        ]
+      },
+      "synced": false,
+      "offset": -750,
+      "output": "\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            0,
+            ""
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:0]\n[00:00.000]\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            0,
+            ""
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": 0,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:125]\n[00:00.000]\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            0,
+            ""
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:250]\n[00:00.000]\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            0,
+            ""
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": 250,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:375]\n[00:00.000]\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": null,
+        "lyrics": [
+          [
+            0,
+            ""
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:-750]\n[00:00.000]\n"
+    },
+    {
+      "metadata": {
+        "name": "Fixture title",
+        "artist": "Fixture artist",
+        "offsetMs": 125,
+        "lyrics": [
+          [
+            0,
+            ""
+          ]
+        ]
+      },
+      "synced": true,
+      "offset": -750,
+      "output": "[ar:Fixture artist]\n[ti:Fixture title]\n[offset:-625]\n[00:00.000]\n"
+    }
+  ]
+}

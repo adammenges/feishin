@@ -1,0 +1,4082 @@
+[
+  {
+    "width": 0,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 0,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 0,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 0,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 0,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": false
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 0,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 0,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 0,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 239,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 239,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 239,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 239,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 239,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": false
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 239,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 239,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 239,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 240,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 240,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 240,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 240,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 240,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": false
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 240,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 240,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 240,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 299,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 299,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 299,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 299,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 299,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": false
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 299,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 299,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 299,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 300,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 300,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 300,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 300,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 300,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": false
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 300,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 300,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": false,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 300,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": true,
+    "tier": 3,
+    "buttons": [
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 301,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": false,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 301,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": true,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 301,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": false,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 301,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": true,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 301,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": false,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 301,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": true,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 301,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": false,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 301,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": true,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 379,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": false,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 379,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": true,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 379,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": false,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 379,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": true,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 379,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": false,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 379,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": true,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 379,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": false,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 379,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": true,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 380,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": false,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 380,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": true,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 380,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": false,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 380,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": true,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 380,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": false,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 380,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": true,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 380,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": false,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 380,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": true,
+    "tier": 2,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 381,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": false,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 381,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": true,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 381,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": false,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 381,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": true,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 381,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": false,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 381,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": true,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "width": 381,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": false,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "width": 381,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": true,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "width": 479,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": false,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 479,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": true,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 479,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": false,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 479,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": true,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 479,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": false,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 479,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": true,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "width": 479,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": false,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "width": 479,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": true,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "width": 480,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": false,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 480,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": true,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 480,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": false,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 480,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": true,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 480,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": false,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 480,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": true,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "width": 480,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": false,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "width": 480,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": true,
+    "tier": 1,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "more",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "width": 481,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": false,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 481,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": true,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 481,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": false,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 481,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": true,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 481,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": false,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 481,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": true,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true,
+        "loading": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true,
+        "loading": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 481,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": false,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false,
+        "loading": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true,
+        "loading": false
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 481,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": true,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true,
+        "loading": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true,
+        "loading": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 600,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": false,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 600,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": true,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 600,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": false,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 600,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": true,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 600,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": false,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 600,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": true,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true,
+        "loading": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true,
+        "loading": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 600,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": false,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false,
+        "loading": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true,
+        "loading": false
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 600,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": true,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true,
+        "loading": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true,
+        "loading": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 960,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": false,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 960,
+    "supportsQueue": false,
+    "saving": false,
+    "fetching": true,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 960,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": false,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 960,
+    "supportsQueue": false,
+    "saving": true,
+    "fetching": true,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 960,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": false,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 960,
+    "supportsQueue": true,
+    "saving": false,
+    "fetching": true,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true,
+        "loading": false
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true,
+        "loading": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 960,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": false,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": false,
+        "loading": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true,
+        "loading": false
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  },
+  {
+    "width": 960,
+    "supportsQueue": true,
+    "saving": true,
+    "fetching": true,
+    "tier": 0,
+    "buttons": [
+      {
+        "key": "player.saveQueueToServer",
+        "disabled": true,
+        "loading": true
+      },
+      {
+        "key": "player.restoreQueueFromServer",
+        "disabled": true,
+        "loading": true
+      },
+      {
+        "key": "player.shuffle",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.clearQueue",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.goToCurrent",
+        "disabled": false,
+        "loading": false
+      },
+      {
+        "key": "action.createPlaylistFromQueue",
+        "disabled": false,
+        "loading": false
+      }
+    ],
+    "menu": []
+  }
+]

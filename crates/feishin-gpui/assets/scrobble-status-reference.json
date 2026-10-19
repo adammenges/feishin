@@ -1,0 +1,2253 @@
+{
+  "accounting": [
+    {
+      "enabled": false,
+      "privateMode": false,
+      "frames": [
+        {
+          "event": "poll",
+          "value": 1,
+          "previous": 0,
+          "time": 1,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 6,
+          "previous": 1,
+          "time": 6,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 11.1,
+          "previous": 6,
+          "time": 11.1,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "seek",
+          "value": 12,
+          "previous": 11.1,
+          "time": 12,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 13,
+          "previous": 12,
+          "time": 13,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 10,
+          "previous": 13,
+          "time": 10,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 11,
+          "previous": 10,
+          "time": 11,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "force",
+          "value": null,
+          "previous": 11,
+          "time": 11,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "seek",
+          "value": 2,
+          "previous": 11,
+          "time": 2,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 3,
+          "previous": 2,
+          "time": 3,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 8,
+          "previous": 3,
+          "time": 8,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 13,
+          "previous": 8,
+          "time": 13,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 1,
+          "previous": 13,
+          "time": 1,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 2,
+          "previous": 1,
+          "time": 2,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "paused",
+          "value": 4,
+          "previous": 2,
+          "time": 4,
+          "playing": false,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 5,
+          "previous": 4,
+          "time": 5,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "reset",
+          "value": null,
+          "previous": 5,
+          "time": 5,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 6,
+          "previous": 5,
+          "time": 6,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "seek",
+          "value": 7,
+          "previous": 6,
+          "time": 7,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 8,
+          "previous": 7,
+          "time": 8,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 13,
+          "previous": 8,
+          "time": 13,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 18,
+          "previous": 13,
+          "time": 18,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 23,
+          "previous": 18,
+          "time": 23,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 28,
+          "previous": 23,
+          "time": 28,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 33,
+          "previous": 28,
+          "time": 33,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 38,
+          "previous": 33,
+          "time": 38,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 43,
+          "previous": 38,
+          "time": 43,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 48,
+          "previous": 43,
+          "time": 48,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 53,
+          "previous": 48,
+          "time": 53,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 58,
+          "previous": 53,
+          "time": 58,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 63,
+          "previous": 58,
+          "time": 63,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 68,
+          "previous": 63,
+          "time": 68,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        }
+      ]
+    },
+    {
+      "enabled": false,
+      "privateMode": true,
+      "frames": [
+        {
+          "event": "poll",
+          "value": 1,
+          "previous": 0,
+          "time": 1,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 6,
+          "previous": 1,
+          "time": 6,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 11.1,
+          "previous": 6,
+          "time": 11.1,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "seek",
+          "value": 12,
+          "previous": 11.1,
+          "time": 12,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 13,
+          "previous": 12,
+          "time": 13,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 10,
+          "previous": 13,
+          "time": 10,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 11,
+          "previous": 10,
+          "time": 11,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "force",
+          "value": null,
+          "previous": 11,
+          "time": 11,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "seek",
+          "value": 2,
+          "previous": 11,
+          "time": 2,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 3,
+          "previous": 2,
+          "time": 3,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 8,
+          "previous": 3,
+          "time": 8,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 13,
+          "previous": 8,
+          "time": 13,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 1,
+          "previous": 13,
+          "time": 1,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 2,
+          "previous": 1,
+          "time": 2,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "paused",
+          "value": 4,
+          "previous": 2,
+          "time": 4,
+          "playing": false,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 5,
+          "previous": 4,
+          "time": 5,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "reset",
+          "value": null,
+          "previous": 5,
+          "time": 5,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 6,
+          "previous": 5,
+          "time": 6,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "seek",
+          "value": 7,
+          "previous": 6,
+          "time": 7,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 8,
+          "previous": 7,
+          "time": 8,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 13,
+          "previous": 8,
+          "time": 13,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 18,
+          "previous": 13,
+          "time": 18,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 23,
+          "previous": 18,
+          "time": 23,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 28,
+          "previous": 23,
+          "time": 28,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 33,
+          "previous": 28,
+          "time": 33,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 38,
+          "previous": 33,
+          "time": 38,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 43,
+          "previous": 38,
+          "time": 43,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 48,
+          "previous": 43,
+          "time": 48,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 53,
+          "previous": 48,
+          "time": 53,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 58,
+          "previous": 53,
+          "time": 58,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 63,
+          "previous": 58,
+          "time": 63,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 68,
+          "previous": 63,
+          "time": 68,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "privateMode": false,
+      "frames": [
+        {
+          "event": "poll",
+          "value": 1,
+          "previous": 0,
+          "time": 1,
+          "playing": true,
+          "listened": 1000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 6,
+          "previous": 1,
+          "time": 6,
+          "playing": true,
+          "listened": 6000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 11.1,
+          "previous": 6,
+          "time": 11.1,
+          "playing": true,
+          "listened": 6000,
+          "submitted": false
+        },
+        {
+          "event": "seek",
+          "value": 12,
+          "previous": 11.1,
+          "time": 12,
+          "playing": true,
+          "listened": 6000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 13,
+          "previous": 12,
+          "time": 13,
+          "playing": true,
+          "listened": 7000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 10,
+          "previous": 13,
+          "time": 10,
+          "playing": true,
+          "listened": 7000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 11,
+          "previous": 10,
+          "time": 11,
+          "playing": true,
+          "listened": 8000,
+          "submitted": false
+        },
+        {
+          "event": "force",
+          "value": null,
+          "previous": 11,
+          "time": 11,
+          "playing": true,
+          "listened": 8000,
+          "submitted": true
+        },
+        {
+          "event": "seek",
+          "value": 2,
+          "previous": 11,
+          "time": 2,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 3,
+          "previous": 2,
+          "time": 3,
+          "playing": true,
+          "listened": 1000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 8,
+          "previous": 3,
+          "time": 8,
+          "playing": true,
+          "listened": 6000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 13,
+          "previous": 8,
+          "time": 13,
+          "playing": true,
+          "listened": 11000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 1,
+          "previous": 13,
+          "time": 1,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 2,
+          "previous": 1,
+          "time": 2,
+          "playing": true,
+          "listened": 1000,
+          "submitted": false
+        },
+        {
+          "event": "paused",
+          "value": 4,
+          "previous": 2,
+          "time": 4,
+          "playing": false,
+          "listened": 1000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 5,
+          "previous": 4,
+          "time": 5,
+          "playing": true,
+          "listened": 2000,
+          "submitted": false
+        },
+        {
+          "event": "reset",
+          "value": null,
+          "previous": 5,
+          "time": 5,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 6,
+          "previous": 5,
+          "time": 6,
+          "playing": true,
+          "listened": 1000,
+          "submitted": false
+        },
+        {
+          "event": "seek",
+          "value": 7,
+          "previous": 6,
+          "time": 7,
+          "playing": true,
+          "listened": 1000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 8,
+          "previous": 7,
+          "time": 8,
+          "playing": true,
+          "listened": 2000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 13,
+          "previous": 8,
+          "time": 13,
+          "playing": true,
+          "listened": 7000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 18,
+          "previous": 13,
+          "time": 18,
+          "playing": true,
+          "listened": 12000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 23,
+          "previous": 18,
+          "time": 23,
+          "playing": true,
+          "listened": 17000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 28,
+          "previous": 23,
+          "time": 28,
+          "playing": true,
+          "listened": 22000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 33,
+          "previous": 28,
+          "time": 33,
+          "playing": true,
+          "listened": 27000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 38,
+          "previous": 33,
+          "time": 38,
+          "playing": true,
+          "listened": 32000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 43,
+          "previous": 38,
+          "time": 43,
+          "playing": true,
+          "listened": 37000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 48,
+          "previous": 43,
+          "time": 48,
+          "playing": true,
+          "listened": 42000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 53,
+          "previous": 48,
+          "time": 53,
+          "playing": true,
+          "listened": 47000,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 58,
+          "previous": 53,
+          "time": 58,
+          "playing": true,
+          "listened": 52000,
+          "submitted": true
+        },
+        {
+          "event": "poll",
+          "value": 63,
+          "previous": 58,
+          "time": 63,
+          "playing": true,
+          "listened": 57000,
+          "submitted": true
+        },
+        {
+          "event": "poll",
+          "value": 68,
+          "previous": 63,
+          "time": 68,
+          "playing": true,
+          "listened": 62000,
+          "submitted": true
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "privateMode": true,
+      "frames": [
+        {
+          "event": "poll",
+          "value": 1,
+          "previous": 0,
+          "time": 1,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 6,
+          "previous": 1,
+          "time": 6,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 11.1,
+          "previous": 6,
+          "time": 11.1,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "seek",
+          "value": 12,
+          "previous": 11.1,
+          "time": 12,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 13,
+          "previous": 12,
+          "time": 13,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 10,
+          "previous": 13,
+          "time": 10,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 11,
+          "previous": 10,
+          "time": 11,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "force",
+          "value": null,
+          "previous": 11,
+          "time": 11,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "seek",
+          "value": 2,
+          "previous": 11,
+          "time": 2,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 3,
+          "previous": 2,
+          "time": 3,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 8,
+          "previous": 3,
+          "time": 8,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 13,
+          "previous": 8,
+          "time": 13,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 1,
+          "previous": 13,
+          "time": 1,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 2,
+          "previous": 1,
+          "time": 2,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "paused",
+          "value": 4,
+          "previous": 2,
+          "time": 4,
+          "playing": false,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 5,
+          "previous": 4,
+          "time": 5,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "reset",
+          "value": null,
+          "previous": 5,
+          "time": 5,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 6,
+          "previous": 5,
+          "time": 6,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "seek",
+          "value": 7,
+          "previous": 6,
+          "time": 7,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 8,
+          "previous": 7,
+          "time": 8,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 13,
+          "previous": 8,
+          "time": 13,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 18,
+          "previous": 13,
+          "time": 18,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 23,
+          "previous": 18,
+          "time": 23,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 28,
+          "previous": 23,
+          "time": 28,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 33,
+          "previous": 28,
+          "time": 33,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 38,
+          "previous": 33,
+          "time": 38,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 43,
+          "previous": 38,
+          "time": 43,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 48,
+          "previous": 43,
+          "time": 48,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 53,
+          "previous": 48,
+          "time": 53,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 58,
+          "previous": 53,
+          "time": 58,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 63,
+          "previous": 58,
+          "time": 63,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        },
+        {
+          "event": "poll",
+          "value": 68,
+          "previous": 63,
+          "time": 68,
+          "playing": true,
+          "listened": 0,
+          "submitted": false
+        }
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "mode": "both",
+      "state": "active",
+      "listened": 0,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "0.0s / 60s",
+        "0.0% / 50%"
+      ],
+      "progress": [
+        0,
+        0
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": false
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "both",
+      "state": "active",
+      "listened": 25,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "25.0s / 60s",
+        "25.0% / 50%"
+      ],
+      "progress": [
+        41.66666666666667,
+        50
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": false
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "both",
+      "state": "active",
+      "listened": 90,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "60.0s / 60s",
+        "50.0% / 50%"
+      ],
+      "progress": [
+        100,
+        100
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": false
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "both",
+      "state": "submitted",
+      "listened": 0,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "60.0s / 60s",
+        "50.0% / 50%"
+      ],
+      "progress": [
+        100,
+        100
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "both",
+      "state": "submitted",
+      "listened": 25,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "60.0s / 60s",
+        "50.0% / 50%"
+      ],
+      "progress": [
+        100,
+        100
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "both",
+      "state": "submitted",
+      "listened": 90,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "60.0s / 60s",
+        "50.0% / 50%"
+      ],
+      "progress": [
+        100,
+        100
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "both",
+      "state": "private",
+      "listened": 0,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "both",
+      "state": "private",
+      "listened": 25,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "both",
+      "state": "private",
+      "listened": 90,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "both",
+      "state": "disabled",
+      "listened": 0,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "both",
+      "state": "disabled",
+      "listened": 25,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "both",
+      "state": "disabled",
+      "listened": 90,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "both",
+      "state": "empty",
+      "listened": 0,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "0.0s / 60s",
+        "0.0% / 50%"
+      ],
+      "progress": [
+        0,
+        0
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": true
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "both",
+      "state": "empty",
+      "listened": 25,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "25.0s / 60s",
+        "25.0% / 50%"
+      ],
+      "progress": [
+        41.66666666666667,
+        50
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": true
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "both",
+      "state": "empty",
+      "listened": 90,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "60.0s / 60s",
+        "50.0% / 50%"
+      ],
+      "progress": [
+        100,
+        100
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": true
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "seconds",
+      "state": "active",
+      "listened": 0,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "0.0s / 60s"
+      ],
+      "progress": [
+        0
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": false
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "seconds",
+      "state": "active",
+      "listened": 25,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "25.0s / 60s"
+      ],
+      "progress": [
+        41.66666666666667
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": false
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "seconds",
+      "state": "active",
+      "listened": 90,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "60.0s / 60s"
+      ],
+      "progress": [
+        100
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": false
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "seconds",
+      "state": "submitted",
+      "listened": 0,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "60.0s / 60s"
+      ],
+      "progress": [
+        100
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "seconds",
+      "state": "submitted",
+      "listened": 25,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "60.0s / 60s"
+      ],
+      "progress": [
+        100
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "seconds",
+      "state": "submitted",
+      "listened": 90,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "60.0s / 60s"
+      ],
+      "progress": [
+        100
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "seconds",
+      "state": "private",
+      "listened": 0,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "seconds",
+      "state": "private",
+      "listened": 25,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "seconds",
+      "state": "private",
+      "listened": 90,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "seconds",
+      "state": "disabled",
+      "listened": 0,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "seconds",
+      "state": "disabled",
+      "listened": 25,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "seconds",
+      "state": "disabled",
+      "listened": 90,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "seconds",
+      "state": "empty",
+      "listened": 0,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "0.0s / 60s"
+      ],
+      "progress": [
+        0
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": true
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "seconds",
+      "state": "empty",
+      "listened": 25,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "25.0s / 60s"
+      ],
+      "progress": [
+        41.66666666666667
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": true
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "seconds",
+      "state": "empty",
+      "listened": 90,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "60.0s / 60s"
+      ],
+      "progress": [
+        100
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": true
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "percentage",
+      "state": "active",
+      "listened": 0,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "0.0% / 50%"
+      ],
+      "progress": [
+        0
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": false
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "percentage",
+      "state": "active",
+      "listened": 25,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "25.0% / 50%"
+      ],
+      "progress": [
+        50
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": false
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "percentage",
+      "state": "active",
+      "listened": 90,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "50.0% / 50%"
+      ],
+      "progress": [
+        100
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": false
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "percentage",
+      "state": "submitted",
+      "listened": 0,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "50.0% / 50%"
+      ],
+      "progress": [
+        100
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "percentage",
+      "state": "submitted",
+      "listened": 25,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "50.0% / 50%"
+      ],
+      "progress": [
+        100
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "percentage",
+      "state": "submitted",
+      "listened": 90,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "50.0% / 50%"
+      ],
+      "progress": [
+        100
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": false
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "percentage",
+      "state": "private",
+      "listened": 0,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "percentage",
+      "state": "private",
+      "listened": 25,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "percentage",
+      "state": "private",
+      "listened": 90,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "percentage",
+      "state": "disabled",
+      "listened": 0,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "percentage",
+      "state": "disabled",
+      "listened": 25,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "percentage",
+      "state": "disabled",
+      "listened": 90,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "form.privateMode.enabled"
+      ],
+      "progress": [],
+      "buttons": [],
+      "calls": []
+    },
+    {
+      "mode": "percentage",
+      "state": "empty",
+      "listened": 0,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "0.0% / 50%"
+      ],
+      "progress": [
+        0
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": true
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "percentage",
+      "state": "empty",
+      "listened": 25,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "25.0% / 50%"
+      ],
+      "progress": [
+        50
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": true
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    },
+    {
+      "mode": "percentage",
+      "state": "empty",
+      "listened": 90,
+      "delay": 500,
+      "width": 280,
+      "position": "top",
+      "label": "player.scrobble, 0:42",
+      "texts": [
+        "50.0% / 50%"
+      ],
+      "progress": [
+        100
+      ],
+      "buttons": [
+        {
+          "label": "common.reset",
+          "disabled": true
+        },
+        {
+          "label": "player.scrobbleForceSubmit",
+          "disabled": true
+        }
+      ],
+      "calls": [
+        "reset",
+        "force"
+      ]
+    }
+  ]
+}

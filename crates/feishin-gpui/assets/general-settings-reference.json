@@ -1,0 +1,3494 @@
+[
+  {
+    "enabled": false,
+    "key": "savePlayQueue",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.savePlayQueue",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.savePlayQueue",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "confirmQueueChanges",
+    "control": {
+      "type": "Switch",
+      "aria-label": {
+        "key": "setting.confirmQueueChanges",
+        "options": {}
+      },
+      "checked": false
+    },
+    "description": {
+      "key": "setting.confirmQueueChanges",
+      "options": {
+        "context": "description"
+      }
+    },
+    "title": {
+      "key": "setting.confirmQueueChanges",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": true,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "albumBackground",
+    "control": {
+      "type": "Switch",
+      "aria-label": {
+        "key": "setting.albumBackground",
+        "options": {}
+      },
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.albumBackground",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.albumBackground",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": true,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "artistBackground",
+    "control": {
+      "type": "Switch",
+      "aria-label": {
+        "key": "setting.artistBackground",
+        "options": {}
+      },
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.artistBackground",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.artistBackground",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": true,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "showFavorites",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.showFavorites",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.showFavorites",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": true,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "showRatings",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.showRatings",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.showRatings",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": true,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "blurExplicitImages",
+    "control": {
+      "type": "Switch",
+      "aria-label": {
+        "key": "setting.blurExplicitImages",
+        "options": {}
+      },
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.blurExplicitImages",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.blurExplicitImages",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "enableGridMultiSelect",
+    "control": {
+      "type": "Switch",
+      "aria-label": {
+        "key": "setting.enableGridMultiSelect",
+        "options": {}
+      },
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.enableGridMultiSelect",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.enableGridMultiSelect",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "playerbarOpenDrawer",
+    "control": {
+      "type": "Switch",
+      "aria-label": {
+        "key": "setting.playerbarOpenDrawer",
+        "options": {}
+      },
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.playerbarOpenDrawer",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.playerbarOpenDrawer",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "autosave",
+    "control": {
+      "type": "Switch",
+      "aria-label": {
+        "key": "setting.autosave",
+        "options": {}
+      },
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.autosave",
+      "options": {
+        "context": "description"
+      }
+    },
+    "title": {
+      "key": "setting.autosave",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "savePlayQueue",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.savePlayQueue",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.savePlayQueue",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "confirmQueueChanges",
+    "control": {
+      "type": "Switch",
+      "aria-label": {
+        "key": "setting.confirmQueueChanges",
+        "options": {}
+      },
+      "checked": true
+    },
+    "description": {
+      "key": "setting.confirmQueueChanges",
+      "options": {
+        "context": "description"
+      }
+    },
+    "title": {
+      "key": "setting.confirmQueueChanges",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": false,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "albumBackground",
+    "control": {
+      "type": "Switch",
+      "aria-label": {
+        "key": "setting.albumBackground",
+        "options": {}
+      },
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.albumBackground",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.albumBackground",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": false,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "artistBackground",
+    "control": {
+      "type": "Switch",
+      "aria-label": {
+        "key": "setting.artistBackground",
+        "options": {}
+      },
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.artistBackground",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.artistBackground",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": false,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "showFavorites",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.showFavorites",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.showFavorites",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": false,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "showRatings",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.showRatings",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.showRatings",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": false,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "blurExplicitImages",
+    "control": {
+      "type": "Switch",
+      "aria-label": {
+        "key": "setting.blurExplicitImages",
+        "options": {}
+      },
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.blurExplicitImages",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.blurExplicitImages",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "enableGridMultiSelect",
+    "control": {
+      "type": "Switch",
+      "aria-label": {
+        "key": "setting.enableGridMultiSelect",
+        "options": {}
+      },
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.enableGridMultiSelect",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.enableGridMultiSelect",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "playerbarOpenDrawer",
+    "control": {
+      "type": "Switch",
+      "aria-label": {
+        "key": "setting.playerbarOpenDrawer",
+        "options": {}
+      },
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.playerbarOpenDrawer",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.playerbarOpenDrawer",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "autosave",
+    "control": {
+      "type": "Switch",
+      "aria-label": {
+        "key": "setting.autosave",
+        "options": {}
+      },
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.autosave",
+      "options": {
+        "context": "description"
+      }
+    },
+    "title": {
+      "key": "setting.autosave",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "followCurrentSong",
+    "control": {
+      "type": "Switch",
+      "aria-label": "Follow current song",
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.followCurrentSong",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.followCurrentSong",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": true,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "followCurrentSong",
+    "control": {
+      "type": "Switch",
+      "aria-label": "Follow current song",
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.followCurrentSong",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.followCurrentSong",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": false,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "externalLinks",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.externalLinks",
+      "options": {
+        "context": "description"
+      }
+    },
+    "title": {
+      "key": "setting.externalLinks",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": true,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "lastfm",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.lastfm",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": true,
+    "title": {
+      "key": "setting.lastfm",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": true,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "listenbrainz",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.listenbrainz",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": true,
+    "title": {
+      "key": "setting.listenbrainz",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": true,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "musicbrainz",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.musicbrainz",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": true,
+    "title": {
+      "key": "setting.musicbrainz",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": true,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "qobuz",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.qobuz",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": true,
+    "title": {
+      "key": "setting.qobuz",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": true,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "spotify",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.spotify",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": true,
+    "title": {
+      "key": "setting.spotify",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": true,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "nativeSpotify",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": false
+    },
+    "description": {
+      "key": "setting.nativeSpotify",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": true,
+    "title": {
+      "key": "setting.nativeSpotify",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": false,
+            "confirmQueueChanges": false,
+            "albumBackground": false,
+            "artistBackground": false,
+            "showFavorites": false,
+            "showRatings": false,
+            "blurExplicitImages": false,
+            "enableGridMultiSelect": false,
+            "playerbarOpenDrawer": false,
+            "followCurrentSong": false,
+            "externalLinks": false,
+            "lastFM": false,
+            "listenBrainz": false,
+            "musicBrainz": false,
+            "qobuz": false,
+            "spotify": false,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": false,
+            "autoSave": {
+              "enabled": false,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "externalLinks",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.externalLinks",
+      "options": {
+        "context": "description"
+      }
+    },
+    "title": {
+      "key": "setting.externalLinks",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": false,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "lastfm",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.lastfm",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.lastfm",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": false,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "listenbrainz",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.listenbrainz",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.listenbrainz",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": false,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "musicbrainz",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.musicbrainz",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.musicbrainz",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": false,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "qobuz",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.qobuz",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.qobuz",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": false,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "spotify",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.spotify",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.spotify",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": false,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "nativeSpotify",
+    "control": {
+      "type": "Switch",
+      "defaultChecked": true
+    },
+    "description": {
+      "key": "setting.nativeSpotify",
+      "options": {
+        "context": "description"
+      }
+    },
+    "isHidden": false,
+    "title": {
+      "key": "setting.nativeSpotify",
+      "options": {}
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": true,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "resume": true,
+            "confirmQueueChanges": true,
+            "albumBackground": true,
+            "artistBackground": true,
+            "showFavorites": true,
+            "showRatings": true,
+            "blurExplicitImages": true,
+            "enableGridMultiSelect": true,
+            "playerbarOpenDrawer": true,
+            "followCurrentSong": true,
+            "externalLinks": true,
+            "lastFM": true,
+            "listenBrainz": true,
+            "musicBrainz": true,
+            "qobuz": true,
+            "spotify": true,
+            "nativeSpotify": false,
+            "sidebarPlaylistFolders": true,
+            "autoSave": {
+              "enabled": true,
+              "count": 3
+            },
+            "sidebarPlaylistFolderView": "tree",
+            "sidebarPlaylistFolderTreeIndent": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "sidebarPlaylistFolders",
+    "control": {
+      "type": "Switch",
+      "checked": false
+    },
+    "description": {
+      "key": "setting.sidebarPlaylistFolders",
+      "options": {
+        "context": "description",
+        "postProcess": "sentenceCase"
+      }
+    },
+    "title": {
+      "key": "setting.sidebarPlaylistFolders",
+      "options": {
+        "postProcess": "sentenceCase"
+      }
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolders": true
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolders": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "sidebarPlaylistFolderView",
+    "control": {
+      "type": "Select",
+      "data": [
+        {
+          "label": {
+            "key": "setting.sidebarPlaylistFolderView_optionSingle",
+            "options": {
+              "postProcess": "sentenceCase"
+            }
+          },
+          "value": "single"
+        },
+        {
+          "label": {
+            "key": "setting.sidebarPlaylistFolderView_optionTree",
+            "options": {
+              "postProcess": "sentenceCase"
+            }
+          },
+          "value": "tree"
+        },
+        {
+          "label": {
+            "key": "setting.sidebarPlaylistFolderView_optionNavigation",
+            "options": {
+              "postProcess": "sentenceCase"
+            }
+          },
+          "value": "navigation"
+        }
+      ],
+      "value": "tree",
+      "width": 200
+    },
+    "description": {
+      "key": "setting.sidebarPlaylistFolderView",
+      "options": {
+        "context": "description",
+        "postProcess": "sentenceCase"
+      }
+    },
+    "indent": true,
+    "isHidden": true,
+    "title": {
+      "key": "setting.sidebarPlaylistFolderView",
+      "options": {
+        "postProcess": "sentenceCase"
+      }
+    },
+    "changes": [
+      {
+        "value": "single",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderView": "single"
+          }
+        }
+      },
+      {
+        "value": "tree",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderView": "tree"
+          }
+        }
+      },
+      {
+        "value": "navigation",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderView": "navigation"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": false,
+    "key": "sidebarPlaylistFolderTreeIndent",
+    "control": {
+      "type": "NumberInput",
+      "max": 64,
+      "min": 0,
+      "value": 16,
+      "width": 100
+    },
+    "description": {
+      "key": "setting.sidebarPlaylistFolderTreeIndent",
+      "options": {
+        "context": "description",
+        "postProcess": "sentenceCase"
+      }
+    },
+    "indent": true,
+    "isHidden": true,
+    "title": {
+      "key": "setting.sidebarPlaylistFolderTreeIndent",
+      "options": {
+        "postProcess": "sentenceCase"
+      }
+    },
+    "changes": [
+      {
+        "value": "",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 0
+          }
+        }
+      },
+      {
+        "value": "-10",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 0
+          }
+        }
+      },
+      {
+        "value": "0",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 0
+          }
+        }
+      },
+      {
+        "value": "1",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 1
+          }
+        }
+      },
+      {
+        "value": "3.4",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 3
+          }
+        }
+      },
+      {
+        "value": "3.5",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 4
+          }
+        }
+      },
+      {
+        "value": "63.5",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 64
+          }
+        }
+      },
+      {
+        "value": "64",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 64
+          }
+        }
+      },
+      {
+        "value": "100",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 64
+          }
+        }
+      },
+      {
+        "value": "NaN",
+        "settings": null
+      },
+      {
+        "value": "Infinity",
+        "settings": null
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "sidebarPlaylistFolders",
+    "control": {
+      "type": "Switch",
+      "checked": true
+    },
+    "description": {
+      "key": "setting.sidebarPlaylistFolders",
+      "options": {
+        "context": "description",
+        "postProcess": "sentenceCase"
+      }
+    },
+    "title": {
+      "key": "setting.sidebarPlaylistFolders",
+      "options": {
+        "postProcess": "sentenceCase"
+      }
+    },
+    "changes": [
+      {
+        "checked": true,
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolders": true
+          }
+        }
+      },
+      {
+        "checked": false,
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolders": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "sidebarPlaylistFolderView",
+    "control": {
+      "type": "Select",
+      "data": [
+        {
+          "label": {
+            "key": "setting.sidebarPlaylistFolderView_optionSingle",
+            "options": {
+              "postProcess": "sentenceCase"
+            }
+          },
+          "value": "single"
+        },
+        {
+          "label": {
+            "key": "setting.sidebarPlaylistFolderView_optionTree",
+            "options": {
+              "postProcess": "sentenceCase"
+            }
+          },
+          "value": "tree"
+        },
+        {
+          "label": {
+            "key": "setting.sidebarPlaylistFolderView_optionNavigation",
+            "options": {
+              "postProcess": "sentenceCase"
+            }
+          },
+          "value": "navigation"
+        }
+      ],
+      "value": "tree",
+      "width": 200
+    },
+    "description": {
+      "key": "setting.sidebarPlaylistFolderView",
+      "options": {
+        "context": "description",
+        "postProcess": "sentenceCase"
+      }
+    },
+    "indent": true,
+    "isHidden": false,
+    "title": {
+      "key": "setting.sidebarPlaylistFolderView",
+      "options": {
+        "postProcess": "sentenceCase"
+      }
+    },
+    "changes": [
+      {
+        "value": "single",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderView": "single"
+          }
+        }
+      },
+      {
+        "value": "tree",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderView": "tree"
+          }
+        }
+      },
+      {
+        "value": "navigation",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderView": "navigation"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "key": "sidebarPlaylistFolderTreeIndent",
+    "control": {
+      "type": "NumberInput",
+      "max": 64,
+      "min": 0,
+      "value": 16,
+      "width": 100
+    },
+    "description": {
+      "key": "setting.sidebarPlaylistFolderTreeIndent",
+      "options": {
+        "context": "description",
+        "postProcess": "sentenceCase"
+      }
+    },
+    "indent": true,
+    "isHidden": false,
+    "title": {
+      "key": "setting.sidebarPlaylistFolderTreeIndent",
+      "options": {
+        "postProcess": "sentenceCase"
+      }
+    },
+    "changes": [
+      {
+        "value": "",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 0
+          }
+        }
+      },
+      {
+        "value": "-10",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 0
+          }
+        }
+      },
+      {
+        "value": "0",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 0
+          }
+        }
+      },
+      {
+        "value": "1",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 1
+          }
+        }
+      },
+      {
+        "value": "3.4",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 3
+          }
+        }
+      },
+      {
+        "value": "3.5",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 4
+          }
+        }
+      },
+      {
+        "value": "63.5",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 64
+          }
+        }
+      },
+      {
+        "value": "64",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 64
+          }
+        }
+      },
+      {
+        "value": "100",
+        "settings": {
+          "general": {
+            "sidebarPlaylistFolderTreeIndent": 64
+          }
+        }
+      },
+      {
+        "value": "NaN",
+        "settings": null
+      },
+      {
+        "value": "Infinity",
+        "settings": null
+      }
+    ]
+  }
+]

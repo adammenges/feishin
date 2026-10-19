@@ -1,0 +1,555 @@
+[
+  {
+    "name": "closed",
+    "stored": {
+      "table": 80,
+      "itemCard": 300,
+      "sidebar": 400,
+      "header": 300,
+      "fullScreenPlayer": 0
+    },
+    "rows": [],
+    "buttons": [
+      "common.edit"
+    ]
+  },
+  {
+    "name": "open",
+    "stored": {
+      "table": 80,
+      "itemCard": 300,
+      "sidebar": 400,
+      "header": 300,
+      "fullScreenPlayer": 0
+    },
+    "rows": [
+      {
+        "label": "setting.imageResolution_optionTable",
+        "input": "80"
+      },
+      {
+        "label": "setting.imageResolution_optionItemCard",
+        "input": "300"
+      },
+      {
+        "label": "setting.imageResolution_optionSidebar",
+        "input": "400"
+      },
+      {
+        "label": "setting.imageResolution_optionHeader",
+        "input": "300"
+      },
+      {
+        "label": "setting.imageResolution_optionFullScreenPlayer",
+        "input": "0"
+      }
+    ],
+    "buttons": [
+      "common.close"
+    ]
+  },
+  {
+    "name": "table",
+    "stored": {
+      "table": 123,
+      "itemCard": 300,
+      "sidebar": 400,
+      "header": 300,
+      "fullScreenPlayer": 0
+    },
+    "rows": [
+      {
+        "label": "setting.imageResolution_optionTable",
+        "input": "123"
+      },
+      {
+        "label": "setting.imageResolution_optionItemCard",
+        "input": "300"
+      },
+      {
+        "label": "setting.imageResolution_optionSidebar",
+        "input": "400"
+      },
+      {
+        "label": "setting.imageResolution_optionHeader",
+        "input": "300"
+      },
+      {
+        "label": "setting.imageResolution_optionFullScreenPlayer",
+        "input": "0"
+      }
+    ],
+    "buttons": [
+      "common.close"
+    ]
+  },
+  {
+    "name": "increment",
+    "stored": {
+      "table": 124,
+      "itemCard": 300,
+      "sidebar": 400,
+      "header": 300,
+      "fullScreenPlayer": 0
+    },
+    "rows": [
+      {
+        "label": "setting.imageResolution_optionTable",
+        "input": "124"
+      },
+      {
+        "label": "setting.imageResolution_optionItemCard",
+        "input": "300"
+      },
+      {
+        "label": "setting.imageResolution_optionSidebar",
+        "input": "400"
+      },
+      {
+        "label": "setting.imageResolution_optionHeader",
+        "input": "300"
+      },
+      {
+        "label": "setting.imageResolution_optionFullScreenPlayer",
+        "input": "0"
+      }
+    ],
+    "buttons": [
+      "common.close"
+    ]
+  },
+  {
+    "name": "decrement",
+    "stored": {
+      "table": 123,
+      "itemCard": 300,
+      "sidebar": 400,
+      "header": 300,
+      "fullScreenPlayer": 0
+    },
+    "rows": [
+      {
+        "label": "setting.imageResolution_optionTable",
+        "input": "123"
+      },
+      {
+        "label": "setting.imageResolution_optionItemCard",
+        "input": "300"
+      },
+      {
+        "label": "setting.imageResolution_optionSidebar",
+        "input": "400"
+      },
+      {
+        "label": "setting.imageResolution_optionHeader",
+        "input": "300"
+      },
+      {
+        "label": "setting.imageResolution_optionFullScreenPlayer",
+        "input": "0"
+      }
+    ],
+    "buttons": [
+      "common.close"
+    ]
+  },
+  {
+    "name": "original",
+    "stored": {
+      "table": 123,
+      "itemCard": 0,
+      "sidebar": 400,
+      "header": 300,
+      "fullScreenPlayer": 0
+    },
+    "rows": [
+      {
+        "label": "setting.imageResolution_optionTable",
+        "input": "123"
+      },
+      {
+        "label": "setting.imageResolution_optionItemCard",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionSidebar",
+        "input": "400"
+      },
+      {
+        "label": "setting.imageResolution_optionHeader",
+        "input": "300"
+      },
+      {
+        "label": "setting.imageResolution_optionFullScreenPlayer",
+        "input": "0"
+      }
+    ],
+    "buttons": [
+      "common.close"
+    ]
+  },
+  {
+    "name": "maximum",
+    "stored": {
+      "table": 123,
+      "itemCard": 0,
+      "sidebar": 2000,
+      "header": 300,
+      "fullScreenPlayer": 0
+    },
+    "rows": [
+      {
+        "label": "setting.imageResolution_optionTable",
+        "input": "123"
+      },
+      {
+        "label": "setting.imageResolution_optionItemCard",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionSidebar",
+        "input": "2000"
+      },
+      {
+        "label": "setting.imageResolution_optionHeader",
+        "input": "300"
+      },
+      {
+        "label": "setting.imageResolution_optionFullScreenPlayer",
+        "input": "0"
+      }
+    ],
+    "buttons": [
+      "common.close"
+    ]
+  },
+  {
+    "name": "over-maximum",
+    "stored": {
+      "table": 123,
+      "itemCard": 0,
+      "sidebar": 2001,
+      "header": 300,
+      "fullScreenPlayer": 0
+    },
+    "rows": [
+      {
+        "label": "setting.imageResolution_optionTable",
+        "input": "123"
+      },
+      {
+        "label": "setting.imageResolution_optionItemCard",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionSidebar",
+        "input": "2001"
+      },
+      {
+        "label": "setting.imageResolution_optionHeader",
+        "input": "300"
+      },
+      {
+        "label": "setting.imageResolution_optionFullScreenPlayer",
+        "input": "0"
+      }
+    ],
+    "buttons": [
+      "common.close"
+    ]
+  },
+  {
+    "name": "clamp-maximum",
+    "stored": {
+      "table": 123,
+      "itemCard": 0,
+      "sidebar": 2000,
+      "header": 300,
+      "fullScreenPlayer": 0
+    },
+    "rows": [
+      {
+        "label": "setting.imageResolution_optionTable",
+        "input": "123"
+      },
+      {
+        "label": "setting.imageResolution_optionItemCard",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionSidebar",
+        "input": "2000"
+      },
+      {
+        "label": "setting.imageResolution_optionHeader",
+        "input": "300"
+      },
+      {
+        "label": "setting.imageResolution_optionFullScreenPlayer",
+        "input": "0"
+      }
+    ],
+    "buttons": [
+      "common.close"
+    ]
+  },
+  {
+    "name": "negative",
+    "stored": {
+      "table": 123,
+      "itemCard": 0,
+      "sidebar": 2000,
+      "header": -1,
+      "fullScreenPlayer": 0
+    },
+    "rows": [
+      {
+        "label": "setting.imageResolution_optionTable",
+        "input": "123"
+      },
+      {
+        "label": "setting.imageResolution_optionItemCard",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionSidebar",
+        "input": "2000"
+      },
+      {
+        "label": "setting.imageResolution_optionHeader",
+        "input": "-1"
+      },
+      {
+        "label": "setting.imageResolution_optionFullScreenPlayer",
+        "input": "0"
+      }
+    ],
+    "buttons": [
+      "common.close"
+    ]
+  },
+  {
+    "name": "clamp-minimum",
+    "stored": {
+      "table": 123,
+      "itemCard": 0,
+      "sidebar": 2000,
+      "header": 0,
+      "fullScreenPlayer": 0
+    },
+    "rows": [
+      {
+        "label": "setting.imageResolution_optionTable",
+        "input": "123"
+      },
+      {
+        "label": "setting.imageResolution_optionItemCard",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionSidebar",
+        "input": "2000"
+      },
+      {
+        "label": "setting.imageResolution_optionHeader",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionFullScreenPlayer",
+        "input": "0"
+      }
+    ],
+    "buttons": [
+      "common.close"
+    ]
+  },
+  {
+    "name": "empty",
+    "stored": {
+      "table": 123,
+      "itemCard": 0,
+      "sidebar": 2000,
+      "header": 0,
+      "fullScreenPlayer": 0
+    },
+    "rows": [
+      {
+        "label": "setting.imageResolution_optionTable",
+        "input": "123"
+      },
+      {
+        "label": "setting.imageResolution_optionItemCard",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionSidebar",
+        "input": "2000"
+      },
+      {
+        "label": "setting.imageResolution_optionHeader",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionFullScreenPlayer",
+        "input": ""
+      }
+    ],
+    "buttons": [
+      "common.close"
+    ]
+  },
+  {
+    "name": "blur-empty",
+    "stored": {
+      "table": 123,
+      "itemCard": 0,
+      "sidebar": 2000,
+      "header": 0,
+      "fullScreenPlayer": 0
+    },
+    "rows": [
+      {
+        "label": "setting.imageResolution_optionTable",
+        "input": "123"
+      },
+      {
+        "label": "setting.imageResolution_optionItemCard",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionSidebar",
+        "input": "2000"
+      },
+      {
+        "label": "setting.imageResolution_optionHeader",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionFullScreenPlayer",
+        "input": ""
+      }
+    ],
+    "buttons": [
+      "common.close"
+    ]
+  },
+  {
+    "name": "decimal",
+    "stored": {
+      "table": 123.5,
+      "itemCard": 0,
+      "sidebar": 2000,
+      "header": 0,
+      "fullScreenPlayer": 0
+    },
+    "rows": [
+      {
+        "label": "setting.imageResolution_optionTable",
+        "input": "123.5"
+      },
+      {
+        "label": "setting.imageResolution_optionItemCard",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionSidebar",
+        "input": "2000"
+      },
+      {
+        "label": "setting.imageResolution_optionHeader",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionFullScreenPlayer",
+        "input": ""
+      }
+    ],
+    "buttons": [
+      "common.close"
+    ]
+  },
+  {
+    "name": "blur-decimal",
+    "stored": {
+      "table": 123.5,
+      "itemCard": 0,
+      "sidebar": 2000,
+      "header": 0,
+      "fullScreenPlayer": 0
+    },
+    "rows": [
+      {
+        "label": "setting.imageResolution_optionTable",
+        "input": "123.5"
+      },
+      {
+        "label": "setting.imageResolution_optionItemCard",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionSidebar",
+        "input": "2000"
+      },
+      {
+        "label": "setting.imageResolution_optionHeader",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionFullScreenPlayer",
+        "input": ""
+      }
+    ],
+    "buttons": [
+      "common.close"
+    ]
+  },
+  {
+    "name": "close",
+    "stored": {
+      "table": 123.5,
+      "itemCard": 0,
+      "sidebar": 2000,
+      "header": 0,
+      "fullScreenPlayer": 0
+    },
+    "rows": [],
+    "buttons": [
+      "common.edit"
+    ]
+  },
+  {
+    "name": "reopen",
+    "stored": {
+      "table": 123.5,
+      "itemCard": 0,
+      "sidebar": 2000,
+      "header": 0,
+      "fullScreenPlayer": 0
+    },
+    "rows": [
+      {
+        "label": "setting.imageResolution_optionTable",
+        "input": "123.5"
+      },
+      {
+        "label": "setting.imageResolution_optionItemCard",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionSidebar",
+        "input": "2000"
+      },
+      {
+        "label": "setting.imageResolution_optionHeader",
+        "input": "0"
+      },
+      {
+        "label": "setting.imageResolution_optionFullScreenPlayer",
+        "input": "0"
+      }
+    ],
+    "buttons": [
+      "common.close"
+    ]
+  }
+]

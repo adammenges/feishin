@@ -1,0 +1,5318 @@
+[
+  {
+    "type": "slider",
+    "enabled": false,
+    "controls": [
+      {
+        "title": {
+          "key": "setting.buttonSize",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.buttonSize",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 15,
+            "min": 15,
+            "max": 30,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "buttonSize": 25
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "buttonSize": null
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.showSkipButtons",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.showSkipButtons",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": false,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.skipDuration",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.skipDuration",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 5,
+            "min": 0,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 0,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": -1,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 0,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 1,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 15,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 25,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 30,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 100,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 200,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 500,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": null,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": null,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "number",
+            "value": 10,
+            "min": 0,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 0
+                    }
+                  }
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": -1
+                    }
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 0
+                    }
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 1
+                    }
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 15
+                    }
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 25
+                    }
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 30
+                    }
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 100
+                    }
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 200
+                    }
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 500
+                    }
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": null
+                    }
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": null
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playButtonBehavior",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playButtonBehavior",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "select",
+            "value": "now",
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": [
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionPlay"
+                  }
+                },
+                "value": "now"
+              },
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionAddNext"
+                  }
+                },
+                "value": "next"
+              },
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionAddLast"
+                  }
+                },
+                "value": "last"
+              },
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionPlayShuffled"
+                  }
+                },
+                "value": "shuffle"
+              }
+            ],
+            "changes": [
+              {
+                "value": "now",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "next",
+                "settings": {
+                  "general": {
+                    "playButtonBehavior": "next"
+                  }
+                }
+              },
+              {
+                "value": "last",
+                "settings": {
+                  "general": {
+                    "playButtonBehavior": "last"
+                  }
+                }
+              },
+              {
+                "value": "shuffle",
+                "settings": {
+                  "general": {
+                    "playButtonBehavior": "shuffle"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.followCurrentSong",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.followCurrentSong",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": false,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {
+                    "followCurrentSong": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.sidebarImageEnabled",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.sidebarImageEnabled",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": false,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {
+                    "sidebarImageEnabled": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.artistRadioCount",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.artistRadioCount",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 20,
+            "min": 10,
+            "max": 200,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 10
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 10
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 10
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 15
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 25
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 30
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": null
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.volumeWheelStep",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.volumeWheelStep",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "slider",
+            "value": 5,
+            "min": 1,
+            "max": 20,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": 1,
+                "settings": {
+                  "general": {
+                    "volumeWheelStep": 1
+                  }
+                }
+              },
+              {
+                "value": 11,
+                "settings": {
+                  "general": {
+                    "volumeWheelStep": 11
+                  }
+                }
+              },
+              {
+                "value": 20,
+                "settings": {
+                  "general": {
+                    "volumeWheelStep": 20
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.volumeWidth",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.volumeWidth",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 70,
+            "min": 30,
+            "max": 180,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 0
+                  }
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "volumeWidth": -1
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 0
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 1
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 15
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 25
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 30
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 100
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 200
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 500
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "volumeWidth": null
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "volumeWidth": null
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playerbarSlider",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playerbarSlider",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "segment",
+            "value": "slider",
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": [
+              {
+                "label": {
+                  "key": "setting.playerbarSliderType",
+                  "options": {
+                    "context": "optionSlider"
+                  }
+                },
+                "value": "slider"
+              },
+              {
+                "label": {
+                  "key": "setting.playerbarSliderType",
+                  "options": {
+                    "context": "optionWaveform"
+                  }
+                },
+                "value": "waveform"
+              }
+            ],
+            "changes": [
+              {
+                "value": "slider",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "waveform",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.microtonalPitchControls",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.microtonalPitchControls",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": false,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {
+                    "microtonalPitchControls": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "slider",
+    "enabled": true,
+    "controls": [
+      {
+        "title": {
+          "key": "setting.buttonSize",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.buttonSize",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 15,
+            "min": 15,
+            "max": 30,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "buttonSize": 25
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "buttonSize": null
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.showSkipButtons",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.showSkipButtons",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": true,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {}
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.skipDuration",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.skipDuration",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 5,
+            "min": 0,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 0,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": -1,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 0,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 1,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 15,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 25,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 30,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 100,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 200,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 500,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": null,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": null,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "number",
+            "value": 10,
+            "min": 0,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 0
+                    }
+                  }
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": -1
+                    }
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 0
+                    }
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 1
+                    }
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 15
+                    }
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 25
+                    }
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 30
+                    }
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 100
+                    }
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 200
+                    }
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 500
+                    }
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": null
+                    }
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": null
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playButtonBehavior",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playButtonBehavior",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "select",
+            "value": "now",
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": [
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionPlay"
+                  }
+                },
+                "value": "now"
+              },
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionAddNext"
+                  }
+                },
+                "value": "next"
+              },
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionAddLast"
+                  }
+                },
+                "value": "last"
+              },
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionPlayShuffled"
+                  }
+                },
+                "value": "shuffle"
+              }
+            ],
+            "changes": [
+              {
+                "value": "now",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "next",
+                "settings": {
+                  "general": {
+                    "playButtonBehavior": "next"
+                  }
+                }
+              },
+              {
+                "value": "last",
+                "settings": {
+                  "general": {
+                    "playButtonBehavior": "last"
+                  }
+                }
+              },
+              {
+                "value": "shuffle",
+                "settings": {
+                  "general": {
+                    "playButtonBehavior": "shuffle"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.followCurrentSong",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.followCurrentSong",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": true,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {
+                    "followCurrentSong": false
+                  }
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {}
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.sidebarImageEnabled",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.sidebarImageEnabled",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": true,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {
+                    "sidebarImageEnabled": false
+                  }
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {}
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.artistRadioCount",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.artistRadioCount",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 20,
+            "min": 10,
+            "max": 200,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 10
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 10
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 10
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 15
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 25
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 30
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": null
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.volumeWheelStep",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.volumeWheelStep",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "slider",
+            "value": 5,
+            "min": 1,
+            "max": 20,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": 1,
+                "settings": {
+                  "general": {
+                    "volumeWheelStep": 1
+                  }
+                }
+              },
+              {
+                "value": 11,
+                "settings": {
+                  "general": {
+                    "volumeWheelStep": 11
+                  }
+                }
+              },
+              {
+                "value": 20,
+                "settings": {
+                  "general": {
+                    "volumeWheelStep": 20
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.volumeWidth",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.volumeWidth",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 70,
+            "min": 30,
+            "max": 180,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 0
+                  }
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "volumeWidth": -1
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 0
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 1
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 15
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 25
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 30
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 100
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 200
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 500
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "volumeWidth": null
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "volumeWidth": null
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playerbarSlider",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playerbarSlider",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "segment",
+            "value": "slider",
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": [
+              {
+                "label": {
+                  "key": "setting.playerbarSliderType",
+                  "options": {
+                    "context": "optionSlider"
+                  }
+                },
+                "value": "slider"
+              },
+              {
+                "label": {
+                  "key": "setting.playerbarSliderType",
+                  "options": {
+                    "context": "optionWaveform"
+                  }
+                },
+                "value": "waveform"
+              }
+            ],
+            "changes": [
+              {
+                "value": "slider",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "waveform",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.microtonalPitchControls",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.microtonalPitchControls",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": true,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {
+                    "microtonalPitchControls": false
+                  }
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "waveform",
+    "enabled": false,
+    "controls": [
+      {
+        "title": {
+          "key": "setting.buttonSize",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.buttonSize",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 15,
+            "min": 15,
+            "max": 30,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "buttonSize": 25
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "buttonSize": null
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.showSkipButtons",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.showSkipButtons",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": false,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.skipDuration",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.skipDuration",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 5,
+            "min": 0,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 0,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": -1,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 0,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 1,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 15,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 25,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 30,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 100,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 200,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 500,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": null,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": null,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "number",
+            "value": 10,
+            "min": 0,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 0
+                    }
+                  }
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": -1
+                    }
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 0
+                    }
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 1
+                    }
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 15
+                    }
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 25
+                    }
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 30
+                    }
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 100
+                    }
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 200
+                    }
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 500
+                    }
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": null
+                    }
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": null
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playButtonBehavior",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playButtonBehavior",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "select",
+            "value": "now",
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": [
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionPlay"
+                  }
+                },
+                "value": "now"
+              },
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionAddNext"
+                  }
+                },
+                "value": "next"
+              },
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionAddLast"
+                  }
+                },
+                "value": "last"
+              },
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionPlayShuffled"
+                  }
+                },
+                "value": "shuffle"
+              }
+            ],
+            "changes": [
+              {
+                "value": "now",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "next",
+                "settings": {
+                  "general": {
+                    "playButtonBehavior": "next"
+                  }
+                }
+              },
+              {
+                "value": "last",
+                "settings": {
+                  "general": {
+                    "playButtonBehavior": "last"
+                  }
+                }
+              },
+              {
+                "value": "shuffle",
+                "settings": {
+                  "general": {
+                    "playButtonBehavior": "shuffle"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.followCurrentSong",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.followCurrentSong",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": false,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {
+                    "followCurrentSong": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.sidebarImageEnabled",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.sidebarImageEnabled",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": false,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {
+                    "sidebarImageEnabled": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.artistRadioCount",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.artistRadioCount",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 20,
+            "min": 10,
+            "max": 200,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 10
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 10
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 10
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 15
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 25
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 30
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": null
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.volumeWheelStep",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.volumeWheelStep",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "slider",
+            "value": 5,
+            "min": 1,
+            "max": 20,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": 1,
+                "settings": {
+                  "general": {
+                    "volumeWheelStep": 1
+                  }
+                }
+              },
+              {
+                "value": 11,
+                "settings": {
+                  "general": {
+                    "volumeWheelStep": 11
+                  }
+                }
+              },
+              {
+                "value": 20,
+                "settings": {
+                  "general": {
+                    "volumeWheelStep": 20
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.volumeWidth",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.volumeWidth",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 70,
+            "min": 30,
+            "max": 180,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 0
+                  }
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "volumeWidth": -1
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 0
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 1
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 15
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 25
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 30
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 100
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 200
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 500
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "volumeWidth": null
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "volumeWidth": null
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playerbarSlider",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playerbarSlider",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "segment",
+            "value": "waveform",
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": [
+              {
+                "label": {
+                  "key": "setting.playerbarSliderType",
+                  "options": {
+                    "context": "optionSlider"
+                  }
+                },
+                "value": "slider"
+              },
+              {
+                "label": {
+                  "key": "setting.playerbarSliderType",
+                  "options": {
+                    "context": "optionWaveform"
+                  }
+                },
+                "value": "waveform"
+              }
+            ],
+            "changes": [
+              {
+                "value": "slider",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": false,
+                      "type": "slider"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "waveform",
+                "settings": {
+                  "general": {}
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playerbarWaveformAlign",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playerbarWaveformAlign",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "segment",
+            "value": "center",
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": [
+              {
+                "label": {
+                  "key": "setting.playerbarWaveformAlign",
+                  "options": {
+                    "context": "optionTop"
+                  }
+                },
+                "value": "top"
+              },
+              {
+                "label": {
+                  "key": "setting.playerbarWaveformAlign",
+                  "options": {
+                    "context": "optionCenter"
+                  }
+                },
+                "value": "center"
+              },
+              {
+                "label": {
+                  "key": "setting.playerbarWaveformAlign",
+                  "options": {
+                    "context": "optionBottom"
+                  }
+                },
+                "value": "bottom"
+              }
+            ],
+            "changes": [
+              {
+                "value": "top",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "top",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "center",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "bottom",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "bottom",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playerbarWaveformBarWidth",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playerbarWaveformBarWidth",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "slider",
+            "value": 2,
+            "min": 0,
+            "max": 10,
+            "step": 1,
+            "choices": null,
+            "changes": [
+              {
+                "value": 0,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 0,
+                      "loadingDelay": 2,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": 5,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 5,
+                      "loadingDelay": 2,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": 10,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 10,
+                      "loadingDelay": 2,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playerbarWaveformGap",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playerbarWaveformGap",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "slider",
+            "value": 1,
+            "min": 0,
+            "max": 10,
+            "step": 1,
+            "choices": null,
+            "changes": [
+              {
+                "value": 0,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 0,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": 5,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 5,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": 10,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 10,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playerbarWaveformRadius",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playerbarWaveformRadius",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "slider",
+            "value": 4,
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "choices": null,
+            "changes": [
+              {
+                "value": 0,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 0,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": 10,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 10,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": 20,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 20,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playerbarWaveformStretch",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playerbarWaveformStretch",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": false,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.waveformLoadingDelay",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.waveformLoadingDelay",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 2,
+            "min": 0,
+            "max": 30,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": -1,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 0,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 1,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 15,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 25,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 30,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 100,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 200,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 500,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": null,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": null,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.microtonalPitchControls",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.microtonalPitchControls",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": false,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {
+                    "microtonalPitchControls": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "waveform",
+    "enabled": true,
+    "controls": [
+      {
+        "title": {
+          "key": "setting.buttonSize",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.buttonSize",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 15,
+            "min": 15,
+            "max": 30,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "buttonSize": 25
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "buttonSize": null
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "buttonSize": 30
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.showSkipButtons",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.showSkipButtons",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": true,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": false,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {}
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.skipDuration",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.skipDuration",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 5,
+            "min": 0,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 0,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": -1,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 0,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 1,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 15,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 25,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 30,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 100,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 200,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 500,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": null,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": null,
+                      "skipForwardSeconds": 10
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "number",
+            "value": 10,
+            "min": 0,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 0
+                    }
+                  }
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": -1
+                    }
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 0
+                    }
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 1
+                    }
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 15
+                    }
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 25
+                    }
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 30
+                    }
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 100
+                    }
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 200
+                    }
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": 500
+                    }
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": null
+                    }
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "skipButtons": {
+                      "enabled": true,
+                      "skipBackwardSeconds": 5,
+                      "skipForwardSeconds": null
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playButtonBehavior",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playButtonBehavior",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "select",
+            "value": "now",
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": [
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionPlay"
+                  }
+                },
+                "value": "now"
+              },
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionAddNext"
+                  }
+                },
+                "value": "next"
+              },
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionAddLast"
+                  }
+                },
+                "value": "last"
+              },
+              {
+                "label": {
+                  "key": "setting.playButtonBehavior",
+                  "options": {
+                    "context": "optionPlayShuffled"
+                  }
+                },
+                "value": "shuffle"
+              }
+            ],
+            "changes": [
+              {
+                "value": "now",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "next",
+                "settings": {
+                  "general": {
+                    "playButtonBehavior": "next"
+                  }
+                }
+              },
+              {
+                "value": "last",
+                "settings": {
+                  "general": {
+                    "playButtonBehavior": "last"
+                  }
+                }
+              },
+              {
+                "value": "shuffle",
+                "settings": {
+                  "general": {
+                    "playButtonBehavior": "shuffle"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.followCurrentSong",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.followCurrentSong",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": true,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {
+                    "followCurrentSong": false
+                  }
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {}
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.sidebarImageEnabled",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.sidebarImageEnabled",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": true,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {
+                    "sidebarImageEnabled": false
+                  }
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {}
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.artistRadioCount",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.artistRadioCount",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 20,
+            "min": 10,
+            "max": 200,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 10
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 10
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 10
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 15
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 25
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 30
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": null
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "artistRadioCount": 100
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.volumeWheelStep",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.volumeWheelStep",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "slider",
+            "value": 5,
+            "min": 1,
+            "max": 20,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": 1,
+                "settings": {
+                  "general": {
+                    "volumeWheelStep": 1
+                  }
+                }
+              },
+              {
+                "value": 11,
+                "settings": {
+                  "general": {
+                    "volumeWheelStep": 11
+                  }
+                }
+              },
+              {
+                "value": 20,
+                "settings": {
+                  "general": {
+                    "volumeWheelStep": 20
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.volumeWidth",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.volumeWidth",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 70,
+            "min": 30,
+            "max": 180,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 0
+                  }
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "volumeWidth": -1
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 0
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 1
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 15
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 25
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 30
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 100
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 200
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "volumeWidth": 500
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "volumeWidth": null
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "volumeWidth": null
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playerbarSlider",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playerbarSlider",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "segment",
+            "value": "waveform",
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": [
+              {
+                "label": {
+                  "key": "setting.playerbarSliderType",
+                  "options": {
+                    "context": "optionSlider"
+                  }
+                },
+                "value": "slider"
+              },
+              {
+                "label": {
+                  "key": "setting.playerbarSliderType",
+                  "options": {
+                    "context": "optionWaveform"
+                  }
+                },
+                "value": "waveform"
+              }
+            ],
+            "changes": [
+              {
+                "value": "slider",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": true,
+                      "type": "slider"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "waveform",
+                "settings": {
+                  "general": {}
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playerbarWaveformAlign",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playerbarWaveformAlign",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "segment",
+            "value": "center",
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": [
+              {
+                "label": {
+                  "key": "setting.playerbarWaveformAlign",
+                  "options": {
+                    "context": "optionTop"
+                  }
+                },
+                "value": "top"
+              },
+              {
+                "label": {
+                  "key": "setting.playerbarWaveformAlign",
+                  "options": {
+                    "context": "optionCenter"
+                  }
+                },
+                "value": "center"
+              },
+              {
+                "label": {
+                  "key": "setting.playerbarWaveformAlign",
+                  "options": {
+                    "context": "optionBottom"
+                  }
+                },
+                "value": "bottom"
+              }
+            ],
+            "changes": [
+              {
+                "value": "top",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "top",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "center",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "bottom",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "bottom",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playerbarWaveformBarWidth",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playerbarWaveformBarWidth",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "slider",
+            "value": 2,
+            "min": 0,
+            "max": 10,
+            "step": 1,
+            "choices": null,
+            "changes": [
+              {
+                "value": 0,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 0,
+                      "loadingDelay": 2,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": 5,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 5,
+                      "loadingDelay": 2,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": 10,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 10,
+                      "loadingDelay": 2,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playerbarWaveformGap",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playerbarWaveformGap",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "slider",
+            "value": 1,
+            "min": 0,
+            "max": 10,
+            "step": 1,
+            "choices": null,
+            "changes": [
+              {
+                "value": 0,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 0,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": 5,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 5,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": 10,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 10,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playerbarWaveformRadius",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playerbarWaveformRadius",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "slider",
+            "value": 4,
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "choices": null,
+            "changes": [
+              {
+                "value": 0,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 0,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": 10,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 10,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": 20,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 20,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.playerbarWaveformStretch",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.playerbarWaveformStretch",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": true,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 2,
+                      "stretched": false,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {}
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.waveformLoadingDelay",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.waveformLoadingDelay",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "number",
+            "value": 2,
+            "min": 0,
+            "max": 30,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": "",
+                "settings": {
+                  "general": {}
+                }
+              },
+              {
+                "value": "-1",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": -1,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "0",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 0,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "1",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 1,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "15",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 15,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "25",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 25,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "30",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 30,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "100",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 100,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "200",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 200,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "500",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": 500,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "NaN",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": null,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              },
+              {
+                "value": "Infinity",
+                "settings": {
+                  "general": {
+                    "playerbarSlider": {
+                      "barAlign": "center",
+                      "barGap": 1,
+                      "barRadius": 4,
+                      "barWidth": 2,
+                      "loadingDelay": null,
+                      "stretched": true,
+                      "type": "waveform"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "key": "setting.microtonalPitchControls",
+          "options": {}
+        },
+        "description": {
+          "key": "setting.microtonalPitchControls",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "inputs": [
+          {
+            "type": "switch",
+            "value": true,
+            "min": null,
+            "max": null,
+            "step": null,
+            "choices": null,
+            "changes": [
+              {
+                "value": false,
+                "settings": {
+                  "general": {
+                    "microtonalPitchControls": false
+                  }
+                }
+              },
+              {
+                "value": true,
+                "settings": {
+                  "general": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

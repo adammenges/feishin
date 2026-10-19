@@ -1,0 +1,397 @@
+{
+  "electron": "43.7.0",
+  "chromium": "150.0.7871.250",
+  "cases": [
+    {
+      "text": "Northern Lights",
+      "name": "blur",
+      "css": ".text{text-shadow:0 0 8px #0008}",
+      "computed": {
+        "shadow": "rgba(0, 0, 0, 0.533) 0px 0px 8px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-0-plain.png",
+      "shadow": "css-text-shadow-darwin-0-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "positive",
+      "css": ".text{text-shadow:5px 4px 3px #0009}",
+      "computed": {
+        "shadow": "rgba(0, 0, 0, 0.6) 5px 4px 3px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-1-plain.png",
+      "shadow": "css-text-shadow-darwin-1-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "negative",
+      "css": ".text{text-shadow:-5px -4px 3px #0009}",
+      "computed": {
+        "shadow": "rgba(0, 0, 0, 0.6) -5px -4px 3px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-2-plain.png",
+      "shadow": "css-text-shadow-darwin-2-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "sharp",
+      "css": ".text{text-shadow:6px 5px 0 #19d}",
+      "computed": {
+        "shadow": "rgb(17, 153, 221) 6px 5px 0px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-3-plain.png",
+      "shadow": "css-text-shadow-darwin-3-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "fractional",
+      "css": ".text{text-shadow:1.5px -2.25px 2.5px #fa05}",
+      "computed": {
+        "shadow": "rgba(255, 170, 0, 0.333) 1.5px -2.25px 2.5px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-4-plain.png",
+      "shadow": "css-text-shadow-darwin-4-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "colored",
+      "css": ".text{text-shadow:0 5px 8px rgba(0,80,255,.8)}",
+      "computed": {
+        "shadow": "rgba(0, 80, 255, 0.8) 0px 5px 8px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-5-plain.png",
+      "shadow": "css-text-shadow-darwin-5-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "transparent-shadow",
+      "css": ".text{text-shadow:2px 3px 4px transparent}",
+      "computed": {
+        "shadow": "rgba(0, 0, 0, 0) 2px 3px 4px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-6-plain.png",
+      "shadow": "css-text-shadow-darwin-6-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "transparent-ink",
+      "css": ".text{color:transparent;text-shadow:3px 4px 6px #16a9}",
+      "computed": {
+        "shadow": "rgba(17, 102, 170, 0.6) 3px 4px 6px",
+        "color": "rgba(0, 0, 0, 0)"
+      },
+      "plain": "css-text-shadow-darwin-7-plain.png",
+      "shadow": "css-text-shadow-darwin-7-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "translucent-ink",
+      "css": ".text{color:#fff4;text-shadow:3px 4px 6px #16a9}",
+      "computed": {
+        "shadow": "rgba(17, 102, 170, 0.6) 3px 4px 6px",
+        "color": "rgba(255, 255, 255, 0.267)"
+      },
+      "plain": "css-text-shadow-darwin-8-plain.png",
+      "shadow": "css-text-shadow-darwin-8-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "current",
+      "css": ".text{color:#369;text-shadow:0 4px 4px currentColor}",
+      "computed": {
+        "shadow": "rgb(51, 102, 153) 0px 4px 4px",
+        "color": "rgb(51, 102, 153)"
+      },
+      "plain": "css-text-shadow-darwin-9-plain.png",
+      "shadow": "css-text-shadow-darwin-9-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "default-color",
+      "css": ".text{color:#369;text-shadow:0 4px 4px}",
+      "computed": {
+        "shadow": "rgb(51, 102, 153) 0px 4px 4px",
+        "color": "rgb(51, 102, 153)"
+      },
+      "plain": "css-text-shadow-darwin-10-plain.png",
+      "shadow": "css-text-shadow-darwin-10-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "inherited-current",
+      "css": ".parent{color:#369;text-shadow:0 4px 4px currentColor}.text{color:#d60}",
+      "computed": {
+        "shadow": "rgb(221, 102, 0) 0px 4px 4px",
+        "color": "rgb(221, 102, 0)"
+      },
+      "plain": "css-text-shadow-darwin-11-plain.png",
+      "shadow": "css-text-shadow-darwin-11-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "inherited-explicit",
+      "css": ".parent{text-shadow:0 4px 4px #3699}",
+      "computed": {
+        "shadow": "rgba(51, 102, 153, 0.6) 0px 4px 4px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-12-plain.png",
+      "shadow": "css-text-shadow-darwin-12-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "inherit",
+      "css": ".parent{text-shadow:0 4px 4px #3699}.text{text-shadow:inherit}",
+      "computed": {
+        "shadow": "rgba(51, 102, 153, 0.6) 0px 4px 4px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-13-plain.png",
+      "shadow": "css-text-shadow-darwin-13-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "unset",
+      "css": ".parent{text-shadow:0 4px 4px #3699}.text{text-shadow:unset}",
+      "computed": {
+        "shadow": "rgba(51, 102, 153, 0.6) 0px 4px 4px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-14-plain.png",
+      "shadow": "css-text-shadow-darwin-14-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "revert",
+      "css": ".parent{text-shadow:0 4px 4px #3699}.text{text-shadow:revert}",
+      "computed": {
+        "shadow": "rgba(51, 102, 153, 0.6) 0px 4px 4px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-15-plain.png",
+      "shadow": "css-text-shadow-darwin-15-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "initial",
+      "css": ".parent{text-shadow:0 4px 4px #3699}.text{text-shadow:initial}",
+      "computed": {
+        "shadow": "none",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-16-plain.png",
+      "shadow": "css-text-shadow-darwin-16-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "none",
+      "css": ".parent{text-shadow:0 4px 4px #3699}.text{text-shadow:none}",
+      "computed": {
+        "shadow": "none",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-17-plain.png",
+      "shadow": "css-text-shadow-darwin-17-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "invalid-negative",
+      "css": ".text{text-shadow:0 4px 4px #3699;text-shadow:1px 2px -1px red!important}",
+      "computed": {
+        "shadow": "rgba(51, 102, 153, 0.6) 0px 4px 4px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-18-plain.png",
+      "shadow": "css-text-shadow-darwin-18-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "invalid-spread",
+      "css": ".text{text-shadow:0 4px 4px #3699;text-shadow:1px 2px 3px 4px red}",
+      "computed": {
+        "shadow": "rgba(51, 102, 153, 0.6) 0px 4px 4px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-19-plain.png",
+      "shadow": "css-text-shadow-darwin-19-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "invalid-inset",
+      "css": ".text{text-shadow:0 4px 4px #3699;text-shadow:inset 1px 2px red}",
+      "computed": {
+        "shadow": "rgba(51, 102, 153, 0.6) 0px 4px 4px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-20-plain.png",
+      "shadow": "css-text-shadow-darwin-20-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "invalid-percent",
+      "css": ".text{text-shadow:0 4px 4px #3699;text-shadow:10% 2px red}",
+      "computed": {
+        "shadow": "rgba(51, 102, 153, 0.6) 0px 4px 4px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-21-plain.png",
+      "shadow": "css-text-shadow-darwin-21-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "invalid-variable",
+      "css": ".parent{text-shadow:0 4px 4px #3699}.text{text-shadow:1px 2px red;text-shadow:var(--missing)}",
+      "computed": {
+        "shadow": "rgba(51, 102, 153, 0.6) 0px 4px 4px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-22-plain.png",
+      "shadow": "css-text-shadow-darwin-22-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "variable",
+      "css": ".parent{--shadow:0 4px 4px #3699}.text{text-shadow:var(--shadow)}",
+      "computed": {
+        "shadow": "rgba(51, 102, 153, 0.6) 0px 4px 4px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-23-plain.png",
+      "shadow": "css-text-shadow-darwin-23-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "two-layers",
+      "css": ".text{text-shadow:0 5px 3px #f609,-3px 2px 6px #16d9}",
+      "computed": {
+        "shadow": "rgba(255, 102, 0, 0.6) 0px 5px 3px, rgba(17, 102, 221, 0.6) -3px 2px 6px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-24-plain.png",
+      "shadow": "css-text-shadow-darwin-24-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "reverse-layers",
+      "css": ".text{text-shadow:-3px 2px 6px #16d9,0 5px 3px #f609}",
+      "computed": {
+        "shadow": "rgba(17, 102, 221, 0.6) -3px 2px 6px, rgba(255, 102, 0, 0.6) 0px 5px 3px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-25-plain.png",
+      "shadow": "css-text-shadow-darwin-25-shadow.png"
+    },
+    {
+      "text": "Northern Lights and Music",
+      "name": "wrap",
+      "wrap": true,
+      "css": ".text{text-shadow:0 5px 6px #3699,-3px -2px 3px #d609}",
+      "computed": {
+        "shadow": "rgba(51, 102, 153, 0.6) 0px 5px 6px, rgba(221, 102, 0, 0.6) -3px -2px 3px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-26-plain.png",
+      "shadow": "css-text-shadow-darwin-26-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "large-blur",
+      "css": ".text{text-shadow:0 0 24px #0008}",
+      "computed": {
+        "shadow": "rgba(0, 0, 0, 0.533) 0px 0px 24px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-27-plain.png",
+      "shadow": "css-text-shadow-darwin-27-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "background",
+      "background": true,
+      "css": ".text{background:#445566;text-shadow:5px 6px 8px #000a}",
+      "computed": {
+        "shadow": "rgba(0, 0, 0, 0.667) 5px 6px 8px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-28-plain.png",
+      "shadow": "css-text-shadow-darwin-28-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "border",
+      "border": true,
+      "css": ".text{border:2px solid #369;text-shadow:5px 6px 8px #000a}",
+      "computed": {
+        "shadow": "rgba(0, 0, 0, 0.667) 5px 6px 8px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-29-plain.png",
+      "shadow": "css-text-shadow-darwin-29-shadow.png"
+    },
+    {
+      "text": "Music 🎵 night",
+      "name": "emoji",
+      "css": ".text{text-shadow:2px 6px 4px #0009}",
+      "fonts": [
+        {
+          "familyName": "Inter",
+          "glyphCount": 12,
+          "isCustomFont": true,
+          "postScriptName": "Inter-Regular_opsz100000_wght2BC0000"
+        },
+        {
+          "familyName": "Apple Color Emoji",
+          "glyphCount": 1,
+          "isCustomFont": false,
+          "postScriptName": "AppleColorEmoji"
+        }
+      ],
+      "computed": {
+        "shadow": "rgba(0, 0, 0, 0.6) 2px 6px 4px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-30-plain.png",
+      "shadow": "css-text-shadow-darwin-30-shadow.png"
+    },
+    {
+      "text": "Music 🎵 night",
+      "name": "transparent-emoji",
+      "css": ".text{color:transparent;text-shadow:2px 6px 4px #0009}",
+      "computed": {
+        "shadow": "rgba(0, 0, 0, 0.6) 2px 6px 4px",
+        "color": "rgba(0, 0, 0, 0)"
+      },
+      "plain": "css-text-shadow-darwin-31-plain.png",
+      "shadow": "css-text-shadow-darwin-31-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "standalone",
+      "css": ".text{text-shadow:3px 4px 4px #3699}",
+      "computed": {
+        "shadow": "rgba(51, 102, 153, 0.6) 3px 4px 4px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-32-plain.png",
+      "shadow": "css-text-shadow-darwin-32-shadow.png"
+    },
+    {
+      "text": "Northern Lights",
+      "name": "decoration",
+      "css": ".text{text-decoration:underline line-through overline;text-decoration-color:#16a;text-shadow:3px 6px 4px #d609}",
+      "computed": {
+        "shadow": "rgba(221, 102, 0, 0.6) 3px 6px 4px",
+        "color": "rgb(255, 255, 255)"
+      },
+      "plain": "css-text-shadow-darwin-33-plain.png",
+      "shadow": "css-text-shadow-darwin-33-shadow.png"
+    }
+  ]
+}

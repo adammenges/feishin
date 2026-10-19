@@ -1,0 +1,450 @@
+[
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": false,
+    "action": "visualizer",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": false,
+    "action": "player",
+    "expected": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": false,
+    "action": "escape",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": false,
+    "action": "route",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": true,
+    "action": "visualizer",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": true,
+    "action": "player",
+    "expected": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": true,
+    "action": "escape",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": true,
+    "action": "route",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": false,
+    "action": "visualizer",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": true
+    }
+  },
+  {
+    "state": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": false,
+    "action": "player",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": false,
+    "action": "escape",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": false,
+    "action": "route",
+    "expected": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": true,
+    "action": "visualizer",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": true
+    }
+  },
+  {
+    "state": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": true,
+    "action": "player",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": true,
+    "action": "escape",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": true,
+    "action": "route",
+    "expected": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": false,
+    "action": "visualizer",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": false,
+    "action": "player",
+    "expected": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": false,
+    "action": "escape",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": false,
+    "action": "route",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": true,
+    "action": "visualizer",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": true,
+    "action": "player",
+    "expected": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": true,
+    "action": "escape",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": false
+    },
+    "fullscreen": true,
+    "action": "route",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": true
+    },
+    "fullscreen": false,
+    "action": "visualizer",
+    "expected": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": true
+    },
+    "fullscreen": false,
+    "action": "player",
+    "expected": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": true
+    },
+    "fullscreen": false,
+    "action": "escape",
+    "expected": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": true
+    },
+    "fullscreen": false,
+    "action": "route",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": true
+    },
+    "fullscreen": true,
+    "action": "visualizer",
+    "expected": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": true
+    },
+    "fullscreen": true,
+    "action": "player",
+    "expected": {
+      "expanded": true,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": true
+    },
+    "fullscreen": true,
+    "action": "escape",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": true
+    }
+  },
+  {
+    "state": {
+      "expanded": false,
+      "visualizerExpanded": true,
+      "visualizerReturnToPlayer": true
+    },
+    "fullscreen": true,
+    "action": "route",
+    "expected": {
+      "expanded": false,
+      "visualizerExpanded": false,
+      "visualizerReturnToPlayer": false
+    }
+  }
+]

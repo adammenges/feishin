@@ -1,0 +1,2720 @@
+[
+  {
+    "locked": false,
+    "loading": false,
+    "pair": false,
+    "toggles": [],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "b",
+        "a"
+      ],
+      "coordinator": "b"
+    }
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "c"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "a",
+      "c",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "c",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b",
+      "c",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "b",
+        "c"
+      ],
+      "coordinator": "b"
+    }
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": true,
+    "toggles": [],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "b",
+        "a"
+      ],
+      "coordinator": "b"
+    }
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "c"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "a",
+      "c",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": false,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b",
+      "c",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": false,
+    "toggles": [],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "b",
+        "a"
+      ],
+      "coordinator": "b"
+    }
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "c"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "a",
+      "c",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "c",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b",
+      "c",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "b",
+        "c"
+      ],
+      "coordinator": "b"
+    }
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": true,
+    "toggles": [],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "b",
+        "a"
+      ],
+      "coordinator": "b"
+    }
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "c"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "a",
+      "c",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": false,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b",
+      "c",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": true
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": false,
+    "toggles": [],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "c"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "c"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "a",
+      "c",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "c",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b",
+      "c",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b",
+        "c"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": true,
+    "toggles": [],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "c"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "a",
+      "c",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": false,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b",
+      "c",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": false,
+    "toggles": [],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "c"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "c"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "a",
+      "c",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "c",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": false,
+    "toggles": [
+      "a",
+      "b",
+      "c",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b",
+        "c"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": true,
+    "toggles": [],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "c"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": false,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": false,
+    "confirmed": null
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "a",
+      "c",
+      "b"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  },
+  {
+    "locked": true,
+    "loading": true,
+    "pair": true,
+    "toggles": [
+      "a",
+      "b",
+      "c",
+      "a"
+    ],
+    "rows": [
+      {
+        "id": "a",
+        "checked": true,
+        "disabled": true,
+        "coordinator": true
+      },
+      {
+        "id": "b",
+        "checked": true,
+        "disabled": false,
+        "coordinator": false
+      },
+      {
+        "id": "c",
+        "checked": false,
+        "disabled": true,
+        "coordinator": false
+      }
+    ],
+    "canConfirm": true,
+    "confirmed": {
+      "selected": [
+        "a",
+        "b"
+      ],
+      "coordinator": "a"
+    }
+  }
+]

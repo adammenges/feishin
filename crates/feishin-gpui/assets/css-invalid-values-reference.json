@@ -1,0 +1,1474 @@
+[
+  {
+    "property": "color",
+    "valid": "#123456",
+    "invalid": "banana",
+    "source": ".probe {color:#123456;color:banana !important}",
+    "expected": "rgb(18, 52, 86)",
+    "actual": "rgb(18, 52, 86)"
+  },
+  {
+    "property": "color",
+    "valid": "#123456",
+    "invalid": "rgb(1 2)",
+    "source": ".probe {color:#123456;color:rgb(1 2) !important}",
+    "expected": "rgb(18, 52, 86)",
+    "actual": "rgb(18, 52, 86)"
+  },
+  {
+    "property": "color",
+    "valid": "#123456",
+    "invalid": "12px",
+    "source": ".probe {color:#123456;color:12px !important}",
+    "expected": "rgb(18, 52, 86)",
+    "actual": "rgb(18, 52, 86)"
+  },
+  {
+    "property": "background-color",
+    "valid": "#123456",
+    "invalid": "banana",
+    "source": ".probe {background-color:#123456;background-color:banana !important}",
+    "expected": "rgb(18, 52, 86)",
+    "actual": "rgb(18, 52, 86)"
+  },
+  {
+    "property": "background-color",
+    "valid": "#123456",
+    "invalid": "none",
+    "source": ".probe {background-color:#123456;background-color:none !important}",
+    "expected": "rgb(18, 52, 86)",
+    "actual": "rgb(18, 52, 86)"
+  },
+  {
+    "property": "background-color",
+    "valid": "#123456",
+    "invalid": "-1px",
+    "source": ".probe {background-color:#123456;background-color:-1px !important}",
+    "expected": "rgb(18, 52, 86)",
+    "actual": "rgb(18, 52, 86)"
+  },
+  {
+    "property": "border-color",
+    "valid": "#123456",
+    "invalid": "banana",
+    "source": ".probe {border-color:#123456;border-color:banana !important}",
+    "expected": "rgb(18, 52, 86)",
+    "actual": "rgb(18, 52, 86)"
+  },
+  {
+    "property": "border-color",
+    "valid": "#123456",
+    "invalid": "rgb(1 2)",
+    "source": ".probe {border-color:#123456;border-color:rgb(1 2) !important}",
+    "expected": "rgb(18, 52, 86)",
+    "actual": "rgb(18, 52, 86)"
+  },
+  {
+    "property": "border-color",
+    "valid": "#123456",
+    "invalid": "12px",
+    "source": ".probe {border-color:#123456;border-color:12px !important}",
+    "expected": "rgb(18, 52, 86)",
+    "actual": "rgb(18, 52, 86)"
+  },
+  {
+    "property": "width",
+    "valid": "36px",
+    "invalid": "banana",
+    "source": ".probe {width:36px;width:banana !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "width",
+    "valid": "36px",
+    "invalid": "-1px",
+    "source": ".probe {width:36px;width:-1px !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "width",
+    "valid": "36px",
+    "invalid": "12",
+    "source": ".probe {width:36px;width:12 !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "height",
+    "valid": "36px",
+    "invalid": "banana",
+    "source": ".probe {height:36px;height:banana !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "height",
+    "valid": "36px",
+    "invalid": "-1px",
+    "source": ".probe {height:36px;height:-1px !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "height",
+    "valid": "36px",
+    "invalid": "12",
+    "source": ".probe {height:36px;height:12 !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "min-width",
+    "valid": "36px",
+    "invalid": "banana",
+    "source": ".probe {min-width:36px;min-width:banana !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "min-width",
+    "valid": "36px",
+    "invalid": "-1px",
+    "source": ".probe {min-width:36px;min-width:-1px !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "min-width",
+    "valid": "36px",
+    "invalid": "12",
+    "source": ".probe {min-width:36px;min-width:12 !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "min-height",
+    "valid": "36px",
+    "invalid": "banana",
+    "source": ".probe {min-height:36px;min-height:banana !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "min-height",
+    "valid": "36px",
+    "invalid": "-1px",
+    "source": ".probe {min-height:36px;min-height:-1px !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "min-height",
+    "valid": "36px",
+    "invalid": "12",
+    "source": ".probe {min-height:36px;min-height:12 !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "max-width",
+    "valid": "36px",
+    "invalid": "banana",
+    "source": ".probe {max-width:36px;max-width:banana !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "max-width",
+    "valid": "36px",
+    "invalid": "-1px",
+    "source": ".probe {max-width:36px;max-width:-1px !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "max-width",
+    "valid": "36px",
+    "invalid": "12",
+    "source": ".probe {max-width:36px;max-width:12 !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "max-height",
+    "valid": "36px",
+    "invalid": "banana",
+    "source": ".probe {max-height:36px;max-height:banana !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "max-height",
+    "valid": "36px",
+    "invalid": "-1px",
+    "source": ".probe {max-height:36px;max-height:-1px !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "max-height",
+    "valid": "36px",
+    "invalid": "12",
+    "source": ".probe {max-height:36px;max-height:12 !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "padding",
+    "valid": "1px 2px 3px 4px",
+    "invalid": "banana",
+    "source": ".probe {padding:1px 2px 3px 4px;padding:banana !important}",
+    "expected": "1px 2px 3px 4px",
+    "actual": "1px 2px 3px 4px"
+  },
+  {
+    "property": "padding",
+    "valid": "1px 2px 3px 4px",
+    "invalid": "1px -2px",
+    "source": ".probe {padding:1px 2px 3px 4px;padding:1px -2px !important}",
+    "expected": "1px 2px 3px 4px",
+    "actual": "1px 2px 3px 4px"
+  },
+  {
+    "property": "padding",
+    "valid": "1px 2px 3px 4px",
+    "invalid": "1px 2px 3px 4px 5px",
+    "source": ".probe {padding:1px 2px 3px 4px;padding:1px 2px 3px 4px 5px !important}",
+    "expected": "1px 2px 3px 4px",
+    "actual": "1px 2px 3px 4px"
+  },
+  {
+    "property": "padding-top",
+    "valid": "5px",
+    "invalid": "banana",
+    "source": ".probe {padding-top:5px;padding-top:banana !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "padding-top",
+    "valid": "5px",
+    "invalid": "-1px",
+    "source": ".probe {padding-top:5px;padding-top:-1px !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "padding-top",
+    "valid": "5px",
+    "invalid": "12",
+    "source": ".probe {padding-top:5px;padding-top:12 !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "padding-right",
+    "valid": "5px",
+    "invalid": "banana",
+    "source": ".probe {padding-right:5px;padding-right:banana !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "padding-right",
+    "valid": "5px",
+    "invalid": "-1px",
+    "source": ".probe {padding-right:5px;padding-right:-1px !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "padding-right",
+    "valid": "5px",
+    "invalid": "12",
+    "source": ".probe {padding-right:5px;padding-right:12 !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "padding-bottom",
+    "valid": "5px",
+    "invalid": "banana",
+    "source": ".probe {padding-bottom:5px;padding-bottom:banana !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "padding-bottom",
+    "valid": "5px",
+    "invalid": "-1px",
+    "source": ".probe {padding-bottom:5px;padding-bottom:-1px !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "padding-bottom",
+    "valid": "5px",
+    "invalid": "12",
+    "source": ".probe {padding-bottom:5px;padding-bottom:12 !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "padding-left",
+    "valid": "5px",
+    "invalid": "banana",
+    "source": ".probe {padding-left:5px;padding-left:banana !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "padding-left",
+    "valid": "5px",
+    "invalid": "-1px",
+    "source": ".probe {padding-left:5px;padding-left:-1px !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "padding-left",
+    "valid": "5px",
+    "invalid": "12",
+    "source": ".probe {padding-left:5px;padding-left:12 !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "margin",
+    "valid": "1px 2px 3px 4px",
+    "invalid": "banana",
+    "source": ".probe {margin:1px 2px 3px 4px;margin:banana !important}",
+    "expected": "1px 2px 3px 4px",
+    "actual": "1px 2px 3px 4px"
+  },
+  {
+    "property": "margin",
+    "valid": "1px 2px 3px 4px",
+    "invalid": "1px 2px 3px 4px 5px",
+    "source": ".probe {margin:1px 2px 3px 4px;margin:1px 2px 3px 4px 5px !important}",
+    "expected": "1px 2px 3px 4px",
+    "actual": "1px 2px 3px 4px"
+  },
+  {
+    "property": "margin-top",
+    "valid": "5px",
+    "invalid": "banana",
+    "source": ".probe {margin-top:5px;margin-top:banana !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "margin-top",
+    "valid": "5px",
+    "invalid": "12",
+    "source": ".probe {margin-top:5px;margin-top:12 !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "margin-right",
+    "valid": "5px",
+    "invalid": "banana",
+    "source": ".probe {margin-right:5px;margin-right:banana !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "margin-right",
+    "valid": "5px",
+    "invalid": "12",
+    "source": ".probe {margin-right:5px;margin-right:12 !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "margin-bottom",
+    "valid": "5px",
+    "invalid": "banana",
+    "source": ".probe {margin-bottom:5px;margin-bottom:banana !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "margin-bottom",
+    "valid": "5px",
+    "invalid": "12",
+    "source": ".probe {margin-bottom:5px;margin-bottom:12 !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "margin-left",
+    "valid": "5px",
+    "invalid": "banana",
+    "source": ".probe {margin-left:5px;margin-left:banana !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "margin-left",
+    "valid": "5px",
+    "invalid": "12",
+    "source": ".probe {margin-left:5px;margin-left:12 !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "border-radius",
+    "valid": "8px",
+    "invalid": "banana",
+    "source": ".probe {border-radius:8px;border-radius:banana !important}",
+    "expected": "8px",
+    "actual": "8px"
+  },
+  {
+    "property": "border-radius",
+    "valid": "8px",
+    "invalid": "-1px",
+    "source": ".probe {border-radius:8px;border-radius:-1px !important}",
+    "expected": "8px",
+    "actual": "8px"
+  },
+  {
+    "property": "border-radius",
+    "valid": "8px",
+    "invalid": "2px 3px -1px",
+    "source": ".probe {border-radius:8px;border-radius:2px 3px -1px !important}",
+    "expected": "8px",
+    "actual": "8px"
+  },
+  {
+    "property": "border-width",
+    "valid": "3px",
+    "invalid": "banana",
+    "source": ".probe {border-width:3px;border-width:banana !important}",
+    "expected": "0px",
+    "actual": "0px"
+  },
+  {
+    "property": "border-width",
+    "valid": "3px",
+    "invalid": "-1px",
+    "source": ".probe {border-width:3px;border-width:-1px !important}",
+    "expected": "0px",
+    "actual": "0px"
+  },
+  {
+    "property": "border-width",
+    "valid": "3px",
+    "invalid": "1px 2px 3px 4px 5px",
+    "source": ".probe {border-width:3px;border-width:1px 2px 3px 4px 5px !important}",
+    "expected": "0px",
+    "actual": "0px"
+  },
+  {
+    "property": "border",
+    "valid": "2px solid red",
+    "invalid": "banana",
+    "source": ".probe {border:2px solid red;border:banana !important}",
+    "expected": "2px solid rgb(255, 0, 0)",
+    "actual": "2px solid rgb(255, 0, 0)"
+  },
+  {
+    "property": "border",
+    "valid": "2px solid red",
+    "invalid": "4px dashed blue banana",
+    "source": ".probe {border:2px solid red;border:4px dashed blue banana !important}",
+    "expected": "2px solid rgb(255, 0, 0)",
+    "actual": "2px solid rgb(255, 0, 0)"
+  },
+  {
+    "property": "border",
+    "valid": "2px solid red",
+    "invalid": "-1px solid blue",
+    "source": ".probe {border:2px solid red;border:-1px solid blue !important}",
+    "expected": "2px solid rgb(255, 0, 0)",
+    "actual": "2px solid rgb(255, 0, 0)"
+  },
+  {
+    "property": "border",
+    "valid": "2px solid red",
+    "invalid": "2px 3px solid red",
+    "source": ".probe {border:2px solid red;border:2px 3px solid red !important}",
+    "expected": "2px solid rgb(255, 0, 0)",
+    "actual": "2px solid rgb(255, 0, 0)"
+  },
+  {
+    "property": "border-top",
+    "valid": "2px solid red",
+    "invalid": "4px dashed blue banana",
+    "source": ".probe {border-top:2px solid red;border-top:4px dashed blue banana !important}",
+    "expected": "2px solid rgb(255, 0, 0)",
+    "actual": "2px solid rgb(255, 0, 0)"
+  },
+  {
+    "property": "border-top",
+    "valid": "2px solid red",
+    "invalid": "-1px solid blue",
+    "source": ".probe {border-top:2px solid red;border-top:-1px solid blue !important}",
+    "expected": "2px solid rgb(255, 0, 0)",
+    "actual": "2px solid rgb(255, 0, 0)"
+  },
+  {
+    "property": "border-right",
+    "valid": "2px solid red",
+    "invalid": "4px dashed blue banana",
+    "source": ".probe {border-right:2px solid red;border-right:4px dashed blue banana !important}",
+    "expected": "2px solid rgb(255, 0, 0)",
+    "actual": "2px solid rgb(255, 0, 0)"
+  },
+  {
+    "property": "border-right",
+    "valid": "2px solid red",
+    "invalid": "-1px solid blue",
+    "source": ".probe {border-right:2px solid red;border-right:-1px solid blue !important}",
+    "expected": "2px solid rgb(255, 0, 0)",
+    "actual": "2px solid rgb(255, 0, 0)"
+  },
+  {
+    "property": "border-bottom",
+    "valid": "2px solid red",
+    "invalid": "4px dashed blue banana",
+    "source": ".probe {border-bottom:2px solid red;border-bottom:4px dashed blue banana !important}",
+    "expected": "2px solid rgb(255, 0, 0)",
+    "actual": "2px solid rgb(255, 0, 0)"
+  },
+  {
+    "property": "border-bottom",
+    "valid": "2px solid red",
+    "invalid": "-1px solid blue",
+    "source": ".probe {border-bottom:2px solid red;border-bottom:-1px solid blue !important}",
+    "expected": "2px solid rgb(255, 0, 0)",
+    "actual": "2px solid rgb(255, 0, 0)"
+  },
+  {
+    "property": "border-left",
+    "valid": "2px solid red",
+    "invalid": "4px dashed blue banana",
+    "source": ".probe {border-left:2px solid red;border-left:4px dashed blue banana !important}",
+    "expected": "2px solid rgb(255, 0, 0)",
+    "actual": "2px solid rgb(255, 0, 0)"
+  },
+  {
+    "property": "border-left",
+    "valid": "2px solid red",
+    "invalid": "-1px solid blue",
+    "source": ".probe {border-left:2px solid red;border-left:-1px solid blue !important}",
+    "expected": "2px solid rgb(255, 0, 0)",
+    "actual": "2px solid rgb(255, 0, 0)"
+  },
+  {
+    "property": "border-top-width",
+    "valid": "3px",
+    "invalid": "banana",
+    "source": ".probe {border-top-width:3px;border-top-width:banana !important}",
+    "expected": "0px",
+    "actual": "0px"
+  },
+  {
+    "property": "border-top-width",
+    "valid": "3px",
+    "invalid": "-1px",
+    "source": ".probe {border-top-width:3px;border-top-width:-1px !important}",
+    "expected": "0px",
+    "actual": "0px"
+  },
+  {
+    "property": "border-top-width",
+    "valid": "3px",
+    "invalid": "1px 2px",
+    "source": ".probe {border-top-width:3px;border-top-width:1px 2px !important}",
+    "expected": "0px",
+    "actual": "0px"
+  },
+  {
+    "property": "border-right-width",
+    "valid": "3px",
+    "invalid": "banana",
+    "source": ".probe {border-right-width:3px;border-right-width:banana !important}",
+    "expected": "0px",
+    "actual": "0px"
+  },
+  {
+    "property": "border-right-width",
+    "valid": "3px",
+    "invalid": "-1px",
+    "source": ".probe {border-right-width:3px;border-right-width:-1px !important}",
+    "expected": "0px",
+    "actual": "0px"
+  },
+  {
+    "property": "border-right-width",
+    "valid": "3px",
+    "invalid": "1px 2px",
+    "source": ".probe {border-right-width:3px;border-right-width:1px 2px !important}",
+    "expected": "0px",
+    "actual": "0px"
+  },
+  {
+    "property": "border-bottom-width",
+    "valid": "3px",
+    "invalid": "banana",
+    "source": ".probe {border-bottom-width:3px;border-bottom-width:banana !important}",
+    "expected": "0px",
+    "actual": "0px"
+  },
+  {
+    "property": "border-bottom-width",
+    "valid": "3px",
+    "invalid": "-1px",
+    "source": ".probe {border-bottom-width:3px;border-bottom-width:-1px !important}",
+    "expected": "0px",
+    "actual": "0px"
+  },
+  {
+    "property": "border-bottom-width",
+    "valid": "3px",
+    "invalid": "1px 2px",
+    "source": ".probe {border-bottom-width:3px;border-bottom-width:1px 2px !important}",
+    "expected": "0px",
+    "actual": "0px"
+  },
+  {
+    "property": "border-left-width",
+    "valid": "3px",
+    "invalid": "banana",
+    "source": ".probe {border-left-width:3px;border-left-width:banana !important}",
+    "expected": "0px",
+    "actual": "0px"
+  },
+  {
+    "property": "border-left-width",
+    "valid": "3px",
+    "invalid": "-1px",
+    "source": ".probe {border-left-width:3px;border-left-width:-1px !important}",
+    "expected": "0px",
+    "actual": "0px"
+  },
+  {
+    "property": "border-left-width",
+    "valid": "3px",
+    "invalid": "1px 2px",
+    "source": ".probe {border-left-width:3px;border-left-width:1px 2px !important}",
+    "expected": "0px",
+    "actual": "0px"
+  },
+  {
+    "property": "gap",
+    "valid": "5px",
+    "invalid": "banana",
+    "source": ".probe {gap:5px;gap:banana !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "gap",
+    "valid": "5px",
+    "invalid": "-1px",
+    "source": ".probe {gap:5px;gap:-1px !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "gap",
+    "valid": "5px",
+    "invalid": "1px 2px 3px",
+    "source": ".probe {gap:5px;gap:1px 2px 3px !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "row-gap",
+    "valid": "5px",
+    "invalid": "banana",
+    "source": ".probe {row-gap:5px;row-gap:banana !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "row-gap",
+    "valid": "5px",
+    "invalid": "-1px",
+    "source": ".probe {row-gap:5px;row-gap:-1px !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "row-gap",
+    "valid": "5px",
+    "invalid": "12",
+    "source": ".probe {row-gap:5px;row-gap:12 !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "column-gap",
+    "valid": "5px",
+    "invalid": "banana",
+    "source": ".probe {column-gap:5px;column-gap:banana !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "column-gap",
+    "valid": "5px",
+    "invalid": "-1px",
+    "source": ".probe {column-gap:5px;column-gap:-1px !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "column-gap",
+    "valid": "5px",
+    "invalid": "12",
+    "source": ".probe {column-gap:5px;column-gap:12 !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "font-size",
+    "valid": "18px",
+    "invalid": "banana",
+    "source": ".probe {font-size:18px;font-size:banana !important}",
+    "expected": "18px",
+    "actual": "18px"
+  },
+  {
+    "property": "font-size",
+    "valid": "18px",
+    "invalid": "-1px",
+    "source": ".probe {font-size:18px;font-size:-1px !important}",
+    "expected": "18px",
+    "actual": "18px"
+  },
+  {
+    "property": "font-size",
+    "valid": "18px",
+    "invalid": "12",
+    "source": ".probe {font-size:18px;font-size:12 !important}",
+    "expected": "18px",
+    "actual": "18px"
+  },
+  {
+    "property": "font-family",
+    "valid": "Inter",
+    "invalid": "\"Inter\" sans-serif",
+    "source": ".probe {font-family:Inter;font-family:\"Inter\" sans-serif !important}",
+    "expected": "Inter",
+    "actual": "Inter"
+  },
+  {
+    "property": "font-family",
+    "valid": "Inter",
+    "invalid": "Inter,",
+    "source": ".probe {font-family:Inter;font-family:Inter, !important}",
+    "expected": "Inter",
+    "actual": "Inter"
+  },
+  {
+    "property": "font-weight",
+    "valid": "600",
+    "invalid": "banana",
+    "source": ".probe {font-weight:600;font-weight:banana !important}",
+    "expected": "600",
+    "actual": "600"
+  },
+  {
+    "property": "font-weight",
+    "valid": "600",
+    "invalid": "-1",
+    "source": ".probe {font-weight:600;font-weight:-1 !important}",
+    "expected": "600",
+    "actual": "600"
+  },
+  {
+    "property": "font-weight",
+    "valid": "600",
+    "invalid": "1001",
+    "source": ".probe {font-weight:600;font-weight:1001 !important}",
+    "expected": "600",
+    "actual": "600"
+  },
+  {
+    "property": "font-style",
+    "valid": "italic",
+    "invalid": "banana",
+    "source": ".probe {font-style:italic;font-style:banana !important}",
+    "expected": "italic",
+    "actual": "italic"
+  },
+  {
+    "property": "font-style",
+    "valid": "italic",
+    "invalid": "italic normal",
+    "source": ".probe {font-style:italic;font-style:italic normal !important}",
+    "expected": "italic",
+    "actual": "italic"
+  },
+  {
+    "property": "letter-spacing",
+    "valid": ".25px",
+    "invalid": "banana",
+    "source": ".probe {letter-spacing:.25px;letter-spacing:banana !important}",
+    "expected": "0.25px",
+    "actual": "0.25px"
+  },
+  {
+    "property": "letter-spacing",
+    "valid": ".25px",
+    "invalid": "1px 2px",
+    "source": ".probe {letter-spacing:.25px;letter-spacing:1px 2px !important}",
+    "expected": "0.25px",
+    "actual": "0.25px"
+  },
+  {
+    "property": "letter-spacing",
+    "valid": ".25px",
+    "invalid": "12",
+    "source": ".probe {letter-spacing:.25px;letter-spacing:12 !important}",
+    "expected": "0.25px",
+    "actual": "0.25px"
+  },
+  {
+    "property": "line-height",
+    "valid": "1.5",
+    "invalid": "banana",
+    "source": ".probe {line-height:1.5;line-height:banana !important}",
+    "expected": "24px",
+    "actual": "24px"
+  },
+  {
+    "property": "line-height",
+    "valid": "1.5",
+    "invalid": "-1px",
+    "source": ".probe {line-height:1.5;line-height:-1px !important}",
+    "expected": "24px",
+    "actual": "24px"
+  },
+  {
+    "property": "line-height",
+    "valid": "1.5",
+    "invalid": "-1",
+    "source": ".probe {line-height:1.5;line-height:-1 !important}",
+    "expected": "24px",
+    "actual": "24px"
+  },
+  {
+    "property": "white-space",
+    "valid": "nowrap",
+    "invalid": "banana",
+    "source": ".probe {white-space:nowrap;white-space:banana !important}",
+    "expected": "nowrap",
+    "actual": "nowrap"
+  },
+  {
+    "property": "white-space",
+    "valid": "nowrap",
+    "invalid": "nowrap normal",
+    "source": ".probe {white-space:nowrap;white-space:nowrap normal !important}",
+    "expected": "nowrap",
+    "actual": "nowrap"
+  },
+  {
+    "property": "text-overflow",
+    "valid": "ellipsis",
+    "invalid": "banana",
+    "source": ".probe {text-overflow:ellipsis;text-overflow:banana !important}",
+    "expected": "ellipsis",
+    "actual": "ellipsis"
+  },
+  {
+    "property": "text-overflow",
+    "valid": "ellipsis",
+    "invalid": "ellipsis clip ellipsis",
+    "source": ".probe {text-overflow:ellipsis;text-overflow:ellipsis clip ellipsis !important}",
+    "expected": "ellipsis",
+    "actual": "ellipsis"
+  },
+  {
+    "property": "text-align",
+    "valid": "center",
+    "invalid": "banana",
+    "source": ".probe {text-align:center;text-align:banana !important}",
+    "expected": "center",
+    "actual": "center"
+  },
+  {
+    "property": "text-align",
+    "valid": "center",
+    "invalid": "left right",
+    "source": ".probe {text-align:center;text-align:left right !important}",
+    "expected": "center",
+    "actual": "center"
+  },
+  {
+    "property": "cursor",
+    "valid": "pointer",
+    "invalid": "banana",
+    "source": ".probe {cursor:pointer;cursor:banana !important}",
+    "expected": "pointer",
+    "actual": "pointer"
+  },
+  {
+    "property": "cursor",
+    "valid": "pointer",
+    "invalid": "pointer text",
+    "source": ".probe {cursor:pointer;cursor:pointer text !important}",
+    "expected": "pointer",
+    "actual": "pointer"
+  },
+  {
+    "property": "display",
+    "valid": "flex",
+    "invalid": "banana",
+    "source": ".probe {display:flex;display:banana !important}",
+    "expected": "flex",
+    "actual": "flex"
+  },
+  {
+    "property": "display",
+    "valid": "flex",
+    "invalid": "flex grid",
+    "source": ".probe {display:flex;display:flex grid !important}",
+    "expected": "flex",
+    "actual": "flex"
+  },
+  {
+    "property": "visibility",
+    "valid": "hidden",
+    "invalid": "banana",
+    "source": ".probe {visibility:hidden;visibility:banana !important}",
+    "expected": "hidden",
+    "actual": "hidden"
+  },
+  {
+    "property": "visibility",
+    "valid": "hidden",
+    "invalid": "visible hidden",
+    "source": ".probe {visibility:hidden;visibility:visible hidden !important}",
+    "expected": "hidden",
+    "actual": "hidden"
+  },
+  {
+    "property": "overflow",
+    "valid": "hidden",
+    "invalid": "banana",
+    "source": ".probe {overflow:hidden;overflow:banana !important}",
+    "expected": "hidden",
+    "actual": "hidden"
+  },
+  {
+    "property": "overflow",
+    "valid": "hidden",
+    "invalid": "hidden visible scroll",
+    "source": ".probe {overflow:hidden;overflow:hidden visible scroll !important}",
+    "expected": "hidden",
+    "actual": "hidden"
+  },
+  {
+    "property": "overflow-x",
+    "valid": "hidden",
+    "invalid": "banana",
+    "source": ".probe {overflow-x:hidden;overflow-x:banana !important}",
+    "expected": "hidden",
+    "actual": "hidden"
+  },
+  {
+    "property": "overflow-x",
+    "valid": "hidden",
+    "invalid": "hidden visible scroll",
+    "source": ".probe {overflow-x:hidden;overflow-x:hidden visible scroll !important}",
+    "expected": "hidden",
+    "actual": "hidden"
+  },
+  {
+    "property": "overflow-y",
+    "valid": "hidden",
+    "invalid": "banana",
+    "source": ".probe {overflow-y:hidden;overflow-y:banana !important}",
+    "expected": "hidden",
+    "actual": "hidden"
+  },
+  {
+    "property": "overflow-y",
+    "valid": "hidden",
+    "invalid": "hidden visible scroll",
+    "source": ".probe {overflow-y:hidden;overflow-y:hidden visible scroll !important}",
+    "expected": "hidden",
+    "actual": "hidden"
+  },
+  {
+    "property": "flex-direction",
+    "valid": "column",
+    "invalid": "banana",
+    "source": ".probe {flex-direction:column;flex-direction:banana !important}",
+    "expected": "column",
+    "actual": "column"
+  },
+  {
+    "property": "flex-direction",
+    "valid": "column",
+    "invalid": "column row",
+    "source": ".probe {flex-direction:column;flex-direction:column row !important}",
+    "expected": "column",
+    "actual": "column"
+  },
+  {
+    "property": "flex-wrap",
+    "valid": "wrap",
+    "invalid": "banana",
+    "source": ".probe {flex-wrap:wrap;flex-wrap:banana !important}",
+    "expected": "wrap",
+    "actual": "wrap"
+  },
+  {
+    "property": "flex-wrap",
+    "valid": "wrap",
+    "invalid": "wrap nowrap",
+    "source": ".probe {flex-wrap:wrap;flex-wrap:wrap nowrap !important}",
+    "expected": "wrap",
+    "actual": "wrap"
+  },
+  {
+    "property": "flex-basis",
+    "valid": "36px",
+    "invalid": "banana",
+    "source": ".probe {flex-basis:36px;flex-basis:banana !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "flex-basis",
+    "valid": "36px",
+    "invalid": "-1px",
+    "source": ".probe {flex-basis:36px;flex-basis:-1px !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "flex-basis",
+    "valid": "36px",
+    "invalid": "12",
+    "source": ".probe {flex-basis:36px;flex-basis:12 !important}",
+    "expected": "36px",
+    "actual": "36px"
+  },
+  {
+    "property": "flex",
+    "valid": "2 0 36px",
+    "invalid": "banana",
+    "source": ".probe {flex:2 0 36px;flex:banana !important}",
+    "expected": "2 0 36px",
+    "actual": "2 0 36px"
+  },
+  {
+    "property": "flex",
+    "valid": "2 0 36px",
+    "invalid": "-1",
+    "source": ".probe {flex:2 0 36px;flex:-1 !important}",
+    "expected": "2 0 36px",
+    "actual": "2 0 36px"
+  },
+  {
+    "property": "flex",
+    "valid": "2 0 36px",
+    "invalid": "5 1 20px banana",
+    "source": ".probe {flex:2 0 36px;flex:5 1 20px banana !important}",
+    "expected": "2 0 36px",
+    "actual": "2 0 36px"
+  },
+  {
+    "property": "flex",
+    "valid": "2 0 36px",
+    "invalid": "5 -1 20px",
+    "source": ".probe {flex:2 0 36px;flex:5 -1 20px !important}",
+    "expected": "2 0 36px",
+    "actual": "2 0 36px"
+  },
+  {
+    "property": "flex",
+    "valid": "2 0 36px",
+    "invalid": "5 1 -20px",
+    "source": ".probe {flex:2 0 36px;flex:5 1 -20px !important}",
+    "expected": "2 0 36px",
+    "actual": "2 0 36px"
+  },
+  {
+    "property": "flex",
+    "valid": "2 0 36px",
+    "invalid": "5 1 20px 30px",
+    "source": ".probe {flex:2 0 36px;flex:5 1 20px 30px !important}",
+    "expected": "2 0 36px",
+    "actual": "2 0 36px"
+  },
+  {
+    "property": "flex-grow",
+    "valid": "2",
+    "invalid": "banana",
+    "source": ".probe {flex-grow:2;flex-grow:banana !important}",
+    "expected": "2",
+    "actual": "2"
+  },
+  {
+    "property": "flex-grow",
+    "valid": "2",
+    "invalid": "-1",
+    "source": ".probe {flex-grow:2;flex-grow:-1 !important}",
+    "expected": "2",
+    "actual": "2"
+  },
+  {
+    "property": "flex-grow",
+    "valid": "2",
+    "invalid": "2 3",
+    "source": ".probe {flex-grow:2;flex-grow:2 3 !important}",
+    "expected": "2",
+    "actual": "2"
+  },
+  {
+    "property": "flex-shrink",
+    "valid": "2",
+    "invalid": "banana",
+    "source": ".probe {flex-shrink:2;flex-shrink:banana !important}",
+    "expected": "2",
+    "actual": "2"
+  },
+  {
+    "property": "flex-shrink",
+    "valid": "2",
+    "invalid": "-1",
+    "source": ".probe {flex-shrink:2;flex-shrink:-1 !important}",
+    "expected": "2",
+    "actual": "2"
+  },
+  {
+    "property": "flex-shrink",
+    "valid": "2",
+    "invalid": "2 3",
+    "source": ".probe {flex-shrink:2;flex-shrink:2 3 !important}",
+    "expected": "2",
+    "actual": "2"
+  },
+  {
+    "property": "align-items",
+    "valid": "center",
+    "invalid": "banana",
+    "source": ".probe {align-items:center;align-items:banana !important}",
+    "expected": "center",
+    "actual": "center"
+  },
+  {
+    "property": "align-items",
+    "valid": "center",
+    "invalid": "start end",
+    "source": ".probe {align-items:center;align-items:start end !important}",
+    "expected": "center",
+    "actual": "center"
+  },
+  {
+    "property": "align-self",
+    "valid": "center",
+    "invalid": "banana",
+    "source": ".probe {align-self:center;align-self:banana !important}",
+    "expected": "center",
+    "actual": "center"
+  },
+  {
+    "property": "align-self",
+    "valid": "center",
+    "invalid": "start end",
+    "source": ".probe {align-self:center;align-self:start end !important}",
+    "expected": "center",
+    "actual": "center"
+  },
+  {
+    "property": "align-content",
+    "valid": "center",
+    "invalid": "banana",
+    "source": ".probe {align-content:center;align-content:banana !important}",
+    "expected": "center",
+    "actual": "center"
+  },
+  {
+    "property": "align-content",
+    "valid": "center",
+    "invalid": "start end",
+    "source": ".probe {align-content:center;align-content:start end !important}",
+    "expected": "center",
+    "actual": "center"
+  },
+  {
+    "property": "justify-content",
+    "valid": "center",
+    "invalid": "banana",
+    "source": ".probe {justify-content:center;justify-content:banana !important}",
+    "expected": "center",
+    "actual": "center"
+  },
+  {
+    "property": "justify-content",
+    "valid": "center",
+    "invalid": "start end",
+    "source": ".probe {justify-content:center;justify-content:start end !important}",
+    "expected": "center",
+    "actual": "center"
+  },
+  {
+    "property": "box-shadow",
+    "valid": "1px 2px 3px red",
+    "invalid": "banana",
+    "source": ".probe {box-shadow:1px 2px 3px red;box-shadow:banana !important}",
+    "expected": "rgb(255, 0, 0) 1px 2px 3px 0px",
+    "actual": "rgb(255, 0, 0) 1px 2px 3px 0px"
+  },
+  {
+    "property": "box-shadow",
+    "valid": "1px 2px 3px red",
+    "invalid": "1px 2px -3px red",
+    "source": ".probe {box-shadow:1px 2px 3px red;box-shadow:1px 2px -3px red !important}",
+    "expected": "rgb(255, 0, 0) 1px 2px 3px 0px",
+    "actual": "rgb(255, 0, 0) 1px 2px 3px 0px"
+  },
+  {
+    "property": "position",
+    "valid": "relative",
+    "invalid": "banana",
+    "source": ".probe {position:relative;position:banana !important}",
+    "expected": "relative",
+    "actual": "relative"
+  },
+  {
+    "property": "position",
+    "valid": "relative",
+    "invalid": "absolute relative",
+    "source": ".probe {position:relative;position:absolute relative !important}",
+    "expected": "relative",
+    "actual": "relative"
+  },
+  {
+    "property": "top",
+    "valid": "5px",
+    "invalid": "banana",
+    "source": ".probe {top:5px;top:banana !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "top",
+    "valid": "5px",
+    "invalid": "12",
+    "source": ".probe {top:5px;top:12 !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "right",
+    "valid": "5px",
+    "invalid": "banana",
+    "source": ".probe {right:5px;right:banana !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "right",
+    "valid": "5px",
+    "invalid": "12",
+    "source": ".probe {right:5px;right:12 !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "bottom",
+    "valid": "5px",
+    "invalid": "banana",
+    "source": ".probe {bottom:5px;bottom:banana !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "bottom",
+    "valid": "5px",
+    "invalid": "12",
+    "source": ".probe {bottom:5px;bottom:12 !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "left",
+    "valid": "5px",
+    "invalid": "banana",
+    "source": ".probe {left:5px;left:banana !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "left",
+    "valid": "5px",
+    "invalid": "12",
+    "source": ".probe {left:5px;left:12 !important}",
+    "expected": "5px",
+    "actual": "5px"
+  },
+  {
+    "property": "inset",
+    "valid": "1px 2px 3px 4px",
+    "invalid": "banana",
+    "source": ".probe {inset:1px 2px 3px 4px;inset:banana !important}",
+    "expected": "1px 2px 3px 4px",
+    "actual": "1px 2px 3px 4px"
+  },
+  {
+    "property": "inset",
+    "valid": "1px 2px 3px 4px",
+    "invalid": "1px 2px 3px 4px 5px",
+    "source": ".probe {inset:1px 2px 3px 4px;inset:1px 2px 3px 4px 5px !important}",
+    "expected": "1px 2px 3px 4px",
+    "actual": "1px 2px 3px 4px"
+  },
+  {
+    "property": "aspect-ratio",
+    "valid": "2 / 1",
+    "invalid": "banana",
+    "source": ".probe {aspect-ratio:2 / 1;aspect-ratio:banana !important}",
+    "expected": "2 / 1",
+    "actual": "2 / 1"
+  },
+  {
+    "property": "aspect-ratio",
+    "valid": "2 / 1",
+    "invalid": "-1",
+    "source": ".probe {aspect-ratio:2 / 1;aspect-ratio:-1 !important}",
+    "expected": "2 / 1",
+    "actual": "2 / 1"
+  },
+  {
+    "property": "aspect-ratio",
+    "valid": "2 / 1",
+    "invalid": "2 / -1",
+    "source": ".probe {aspect-ratio:2 / 1;aspect-ratio:2 / -1 !important}",
+    "expected": "2 / 1",
+    "actual": "2 / 1"
+  },
+  {
+    "property": "text-decoration-line",
+    "valid": "underline",
+    "invalid": "banana",
+    "source": ".probe {text-decoration-line:underline;text-decoration-line:banana !important}",
+    "expected": "underline",
+    "actual": "underline"
+  },
+  {
+    "property": "text-decoration-line",
+    "valid": "underline",
+    "invalid": "underline none",
+    "source": ".probe {text-decoration-line:underline;text-decoration-line:underline none !important}",
+    "expected": "underline",
+    "actual": "underline"
+  },
+  {
+    "property": "text-decoration-line",
+    "valid": "underline",
+    "invalid": "underline red",
+    "source": ".probe {text-decoration-line:underline;text-decoration-line:underline red !important}",
+    "expected": "underline",
+    "actual": "underline"
+  },
+  {
+    "property": "text-decoration-color",
+    "valid": "red",
+    "invalid": "banana",
+    "source": ".probe {text-decoration-color:red;text-decoration-color:banana !important}",
+    "expected": "rgb(255, 0, 0)",
+    "actual": "rgb(255, 0, 0)"
+  },
+  {
+    "property": "text-decoration-color",
+    "valid": "red",
+    "invalid": "rgb(1 2)",
+    "source": ".probe {text-decoration-color:red;text-decoration-color:rgb(1 2) !important}",
+    "expected": "rgb(255, 0, 0)",
+    "actual": "rgb(255, 0, 0)"
+  },
+  {
+    "property": "text-decoration-color",
+    "valid": "red",
+    "invalid": "underline",
+    "source": ".probe {text-decoration-color:red;text-decoration-color:underline !important}",
+    "expected": "rgb(255, 0, 0)",
+    "actual": "rgb(255, 0, 0)"
+  },
+  {
+    "property": "text-decoration-thickness",
+    "valid": "3px",
+    "invalid": "banana",
+    "source": ".probe {text-decoration-thickness:3px;text-decoration-thickness:banana !important}",
+    "expected": "3px",
+    "actual": "3px"
+  },
+  {
+    "property": "text-decoration-thickness",
+    "valid": "3px",
+    "invalid": "12",
+    "source": ".probe {text-decoration-thickness:3px;text-decoration-thickness:12 !important}",
+    "expected": "3px",
+    "actual": "3px"
+  },
+  {
+    "property": "text-decoration-thickness",
+    "valid": "3px",
+    "invalid": "double",
+    "source": ".probe {text-decoration-thickness:3px;text-decoration-thickness:double !important}",
+    "expected": "3px",
+    "actual": "3px"
+  },
+  {
+    "property": "text-decoration-style",
+    "valid": "dashed",
+    "invalid": "banana",
+    "source": ".probe {text-decoration-style:dashed;text-decoration-style:banana !important}",
+    "expected": "dashed",
+    "actual": "dashed"
+  },
+  {
+    "property": "text-decoration-style",
+    "valid": "dashed",
+    "invalid": "solid double",
+    "source": ".probe {text-decoration-style:dashed;text-decoration-style:solid double !important}",
+    "expected": "dashed",
+    "actual": "dashed"
+  },
+  {
+    "property": "text-decoration-style",
+    "valid": "dashed",
+    "invalid": "underline",
+    "source": ".probe {text-decoration-style:dashed;text-decoration-style:underline !important}",
+    "expected": "dashed",
+    "actual": "dashed"
+  },
+  {
+    "property": "text-decoration",
+    "valid": "underline dashed red 3px",
+    "invalid": "underline double dashed",
+    "source": ".probe {text-decoration:underline dashed red 3px;text-decoration:underline double dashed !important}",
+    "expected": "underline 3px dashed rgb(255, 0, 0)",
+    "actual": "underline 3px dashed rgb(255, 0, 0)"
+  },
+  {
+    "property": "text-decoration",
+    "valid": "underline dashed red 3px",
+    "invalid": "underline red blue",
+    "source": ".probe {text-decoration:underline dashed red 3px;text-decoration:underline red blue !important}",
+    "expected": "underline 3px dashed rgb(255, 0, 0)",
+    "actual": "underline 3px dashed rgb(255, 0, 0)"
+  },
+  {
+    "property": "text-decoration",
+    "valid": "underline dashed red 3px",
+    "invalid": "underline 2px 3px",
+    "source": ".probe {text-decoration:underline dashed red 3px;text-decoration:underline 2px 3px !important}",
+    "expected": "underline 3px dashed rgb(255, 0, 0)",
+    "actual": "underline 3px dashed rgb(255, 0, 0)"
+  }
+]

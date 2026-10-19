@@ -1,0 +1,1087 @@
+{
+  "normalization": [
+    {
+      "backend": "navidrome",
+      "input": {},
+      "genres": []
+    },
+    {
+      "backend": "navidrome",
+      "input": {
+        "genre": "Legacy"
+      },
+      "genres": []
+    },
+    {
+      "backend": "navidrome",
+      "input": {
+        "genres": [],
+        "GenreItems": [],
+        "genre": "Ignored legacy"
+      },
+      "genres": []
+    },
+    {
+      "backend": "navidrome",
+      "input": {
+        "genres": [
+          {
+            "id": "one",
+            "name": "Jazz"
+          },
+          {
+            "id": "two",
+            "name": "Ambient"
+          }
+        ]
+      },
+      "genres": [
+        [
+          "one",
+          "Jazz"
+        ],
+        [
+          "two",
+          "Ambient"
+        ]
+      ]
+    },
+    {
+      "backend": "navidrome",
+      "input": {
+        "genres": [
+          {
+            "name": "No identity"
+          },
+          {
+            "id": "second",
+            "name": "Second"
+          }
+        ]
+      },
+      "genres": [
+        [
+          "",
+          "No identity"
+        ],
+        [
+          "second",
+          "Second"
+        ]
+      ]
+    },
+    {
+      "backend": "navidrome",
+      "input": {
+        "genres": [
+          {
+            "id": 3,
+            "name": "Numeric"
+          },
+          {
+            "id": "empty",
+            "name": ""
+          }
+        ]
+      },
+      "genres": [
+        [
+          "3",
+          "Numeric"
+        ],
+        [
+          "empty",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "navidrome",
+      "input": {
+        "genres": [
+          {
+            "id": "same",
+            "name": "Repeat"
+          },
+          {
+            "id": "same",
+            "name": "Repeat"
+          }
+        ]
+      },
+      "genres": [
+        [
+          "same",
+          "Repeat"
+        ],
+        [
+          "same",
+          "Repeat"
+        ]
+      ]
+    },
+    {
+      "backend": "subsonic",
+      "input": {},
+      "genres": []
+    },
+    {
+      "backend": "subsonic",
+      "input": {
+        "genre": "Legacy"
+      },
+      "genres": [
+        [
+          "Legacy",
+          "Legacy"
+        ]
+      ]
+    },
+    {
+      "backend": "subsonic",
+      "input": {
+        "genres": [],
+        "GenreItems": [],
+        "genre": "Ignored legacy"
+      },
+      "genres": []
+    },
+    {
+      "backend": "subsonic",
+      "input": {
+        "genres": [
+          {
+            "id": "one",
+            "name": "Jazz"
+          },
+          {
+            "id": "two",
+            "name": "Ambient"
+          }
+        ]
+      },
+      "genres": [
+        [
+          "Jazz",
+          "Jazz"
+        ],
+        [
+          "Ambient",
+          "Ambient"
+        ]
+      ]
+    },
+    {
+      "backend": "subsonic",
+      "input": {
+        "genres": [
+          {
+            "name": "No identity"
+          },
+          {
+            "id": "second",
+            "name": "Second"
+          }
+        ]
+      },
+      "genres": [
+        [
+          "No identity",
+          "No identity"
+        ],
+        [
+          "Second",
+          "Second"
+        ]
+      ]
+    },
+    {
+      "backend": "subsonic",
+      "input": {
+        "genres": [
+          {
+            "id": 3,
+            "name": "Numeric"
+          },
+          {
+            "id": "empty",
+            "name": ""
+          }
+        ]
+      },
+      "genres": [
+        [
+          "Numeric",
+          "Numeric"
+        ],
+        [
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "subsonic",
+      "input": {
+        "genres": [
+          {
+            "id": "same",
+            "name": "Repeat"
+          },
+          {
+            "id": "same",
+            "name": "Repeat"
+          }
+        ]
+      },
+      "genres": [
+        [
+          "Repeat",
+          "Repeat"
+        ],
+        [
+          "Repeat",
+          "Repeat"
+        ]
+      ]
+    },
+    {
+      "backend": "jellyfin",
+      "input": {},
+      "genres": []
+    },
+    {
+      "backend": "jellyfin",
+      "input": {
+        "genre": "Legacy"
+      },
+      "genres": []
+    },
+    {
+      "backend": "jellyfin",
+      "input": {
+        "genres": [],
+        "GenreItems": [],
+        "genre": "Ignored legacy"
+      },
+      "genres": []
+    },
+    {
+      "backend": "jellyfin",
+      "input": {
+        "GenreItems": [
+          {
+            "Id": "one",
+            "Name": "Jazz"
+          },
+          {
+            "Id": "two",
+            "Name": "Ambient"
+          }
+        ],
+        "Genres": [
+          "Mismatched names"
+        ]
+      },
+      "genres": [
+        [
+          "one",
+          "Jazz"
+        ],
+        [
+          "two",
+          "Ambient"
+        ]
+      ]
+    },
+    {
+      "backend": "jellyfin",
+      "input": {
+        "GenreItems": [
+          {
+            "Name": "No identity"
+          },
+          {
+            "Id": "second",
+            "Name": "Second"
+          }
+        ],
+        "Genres": [
+          "Mismatched names"
+        ]
+      },
+      "genres": [
+        [
+          "",
+          "No identity"
+        ],
+        [
+          "second",
+          "Second"
+        ]
+      ]
+    },
+    {
+      "backend": "jellyfin",
+      "input": {
+        "GenreItems": [
+          {
+            "Id": 3,
+            "Name": "Numeric"
+          },
+          {
+            "Id": "empty",
+            "Name": ""
+          }
+        ],
+        "Genres": [
+          "Mismatched names"
+        ]
+      },
+      "genres": [
+        [
+          "3",
+          "Numeric"
+        ],
+        [
+          "empty",
+          ""
+        ]
+      ]
+    },
+    {
+      "backend": "jellyfin",
+      "input": {
+        "GenreItems": [
+          {
+            "Id": "same",
+            "Name": "Repeat"
+          },
+          {
+            "Id": "same",
+            "Name": "Repeat"
+          }
+        ],
+        "Genres": [
+          "Mismatched names"
+        ]
+      },
+      "genres": [
+        [
+          "same",
+          "Repeat"
+        ],
+        [
+          "same",
+          "Repeat"
+        ]
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "name": "",
+      "color": "#fda5a6",
+      "isLight": true
+    },
+    {
+      "name": "Jazz",
+      "color": "#fbb74f",
+      "isLight": true
+    },
+    {
+      "name": "Ambient",
+      "color": "#a47d3e",
+      "isLight": true
+    },
+    {
+      "name": "Classical",
+      "color": "#3125ca",
+      "isLight": false
+    },
+    {
+      "name": "Black Metal",
+      "color": "#26152f",
+      "isLight": false
+    },
+    {
+      "name": "White Noise",
+      "color": "#dcc9d7",
+      "isLight": true
+    },
+    {
+      "name": "BlueNote",
+      "color": "#201bcc",
+      "isLight": false
+    },
+    {
+      "name": "RebeccaPurple",
+      "color": "#642984",
+      "isLight": false
+    },
+    {
+      "name": "red green blue",
+      "color": "#6a2566",
+      "isLight": false
+    },
+    {
+      "name": "RED_GREEN_BLUE",
+      "color": "#755e77",
+      "isLight": false
+    },
+    {
+      "name": "black-metal",
+      "color": "#1e2525",
+      "isLight": false
+    },
+    {
+      "name": "LightBlue",
+      "color": "#3324f6",
+      "isLight": false
+    },
+    {
+      "name": "grey gray",
+      "color": "#79877e",
+      "isLight": true
+    },
+    {
+      "name": "orange2blue",
+      "color": "#8a616f",
+      "isLight": false
+    },
+    {
+      "name": "Blue42RED",
+      "color": "#730b5f",
+      "isLight": false
+    },
+    {
+      "name": "I♥Blue",
+      "color": "#2628f8",
+      "isLight": false
+    },
+    {
+      "name": "東京 青",
+      "color": "#ada00a",
+      "isLight": true
+    },
+    {
+      "name": "😀🎶",
+      "color": "#2646c9",
+      "isLight": false
+    },
+    {
+      "name": "Σίσυφος",
+      "color": "#8237dc",
+      "isLight": false
+    },
+    {
+      "name": "Straße",
+      "color": "#abde8e",
+      "isLight": true
+    },
+    {
+      "name": "الإلكترونية",
+      "color": "#f1d849",
+      "isLight": true
+    },
+    {
+      "name": "a\"b\\c",
+      "color": "#943b9f",
+      "isLight": false
+    },
+    {
+      "name": "\nblue\tred",
+      "color": "#31cf9f",
+      "isLight": true
+    },
+    {
+      "name": "white",
+      "color": "#d7fbdd",
+      "isLight": true
+    },
+    {
+      "name": "yellow",
+      "color": "#f5cd3e",
+      "isLight": true
+    },
+    {
+      "name": "navy",
+      "color": "#04159a",
+      "isLight": false
+    }
+  ],
+  "cases": [
+    {
+      "column": "genres",
+      "genres": [],
+      "text": "",
+      "links": []
+    },
+    {
+      "column": "genreBadge",
+      "genres": [],
+      "text": "",
+      "links": []
+    },
+    {
+      "column": "genres",
+      "genres": [
+        {
+          "id": "genre-0",
+          "name": "Jazz"
+        }
+      ],
+      "text": "Jazz",
+      "links": [
+        {
+          "id": "genre-0",
+          "name": "Jazz",
+          "style": null
+        }
+      ]
+    },
+    {
+      "column": "genreBadge",
+      "genres": [
+        {
+          "id": "genre-0",
+          "name": "Jazz"
+        }
+      ],
+      "text": "Jazz",
+      "links": [
+        {
+          "id": "genre-0",
+          "name": "Jazz",
+          "style": {
+            "backgroundColor": "#fbb74f",
+            "color": "black"
+          }
+        }
+      ]
+    },
+    {
+      "column": "genres",
+      "genres": [
+        {
+          "id": "genre-0",
+          "name": "Ambient"
+        },
+        {
+          "id": "genre-1",
+          "name": "Jazz"
+        },
+        {
+          "id": "genre-2",
+          "name": "Classical"
+        }
+      ],
+      "text": "Ambient, Jazz, Classical",
+      "links": [
+        {
+          "id": "genre-0",
+          "name": "Ambient",
+          "style": null
+        },
+        {
+          "id": "genre-1",
+          "name": "Jazz",
+          "style": null
+        },
+        {
+          "id": "genre-2",
+          "name": "Classical",
+          "style": null
+        }
+      ]
+    },
+    {
+      "column": "genreBadge",
+      "genres": [
+        {
+          "id": "genre-0",
+          "name": "Ambient"
+        },
+        {
+          "id": "genre-1",
+          "name": "Jazz"
+        },
+        {
+          "id": "genre-2",
+          "name": "Classical"
+        }
+      ],
+      "text": "AmbientJazzClassical",
+      "links": [
+        {
+          "id": "genre-0",
+          "name": "Ambient",
+          "style": {
+            "backgroundColor": "#a47d3e",
+            "color": "black"
+          }
+        },
+        {
+          "id": "genre-1",
+          "name": "Jazz",
+          "style": {
+            "backgroundColor": "#fbb74f",
+            "color": "black"
+          }
+        },
+        {
+          "id": "genre-2",
+          "name": "Classical",
+          "style": {
+            "backgroundColor": "#3125ca",
+            "color": "white"
+          }
+        }
+      ]
+    },
+    {
+      "column": "genres",
+      "genres": [
+        {
+          "id": "genre-0",
+          "name": "Red"
+        },
+        {
+          "id": "genre-1",
+          "name": "Blue"
+        },
+        {
+          "id": "genre-2",
+          "name": "Green"
+        },
+        {
+          "id": "genre-3",
+          "name": "Black"
+        },
+        {
+          "id": "genre-4",
+          "name": "White"
+        },
+        {
+          "id": "genre-5",
+          "name": "Yellow"
+        }
+      ],
+      "text": "Red, Blue, Green, Black, White, Yellow",
+      "links": [
+        {
+          "id": "genre-0",
+          "name": "Red",
+          "style": null
+        },
+        {
+          "id": "genre-1",
+          "name": "Blue",
+          "style": null
+        },
+        {
+          "id": "genre-2",
+          "name": "Green",
+          "style": null
+        },
+        {
+          "id": "genre-3",
+          "name": "Black",
+          "style": null
+        },
+        {
+          "id": "genre-4",
+          "name": "White",
+          "style": null
+        },
+        {
+          "id": "genre-5",
+          "name": "Yellow",
+          "style": null
+        }
+      ]
+    },
+    {
+      "column": "genreBadge",
+      "genres": [
+        {
+          "id": "genre-0",
+          "name": "Red"
+        },
+        {
+          "id": "genre-1",
+          "name": "Blue"
+        },
+        {
+          "id": "genre-2",
+          "name": "Green"
+        },
+        {
+          "id": "genre-3",
+          "name": "Black"
+        },
+        {
+          "id": "genre-4",
+          "name": "White"
+        },
+        {
+          "id": "genre-5",
+          "name": "Yellow"
+        }
+      ],
+      "text": "RedBlueGreenBlack",
+      "links": [
+        {
+          "id": "genre-0",
+          "name": "Red",
+          "style": {
+            "backgroundColor": "#ec1619",
+            "color": "black"
+          }
+        },
+        {
+          "id": "genre-1",
+          "name": "Blue",
+          "style": {
+            "backgroundColor": "#1a12f9",
+            "color": "white"
+          }
+        },
+        {
+          "id": "genre-2",
+          "name": "Green",
+          "style": {
+            "backgroundColor": "#168437",
+            "color": "white"
+          }
+        },
+        {
+          "id": "genre-3",
+          "name": "Black",
+          "style": {
+            "backgroundColor": "#200a1d",
+            "color": "white"
+          }
+        }
+      ]
+    },
+    {
+      "column": "genres",
+      "genres": [
+        {
+          "id": "genre-0",
+          "name": "東京 青"
+        },
+        {
+          "id": "genre-1",
+          "name": "😀🎶"
+        }
+      ],
+      "text": "東京 青, 😀🎶",
+      "links": [
+        {
+          "id": "genre-0",
+          "name": "東京 青",
+          "style": null
+        },
+        {
+          "id": "genre-1",
+          "name": "😀🎶",
+          "style": null
+        }
+      ]
+    },
+    {
+      "column": "genreBadge",
+      "genres": [
+        {
+          "id": "genre-0",
+          "name": "東京 青"
+        },
+        {
+          "id": "genre-1",
+          "name": "😀🎶"
+        }
+      ],
+      "text": "東京 青😀🎶",
+      "links": [
+        {
+          "id": "genre-0",
+          "name": "東京 青",
+          "style": {
+            "backgroundColor": "#ada00a",
+            "color": "black"
+          }
+        },
+        {
+          "id": "genre-1",
+          "name": "😀🎶",
+          "style": {
+            "backgroundColor": "#2646c9",
+            "color": "white"
+          }
+        }
+      ]
+    },
+    {
+      "column": "genres",
+      "genres": [
+        {
+          "id": "genre-0",
+          "name": "Rock"
+        },
+        {
+          "id": "genre-1",
+          "name": "Rock"
+        }
+      ],
+      "text": "Rock, Rock",
+      "links": [
+        {
+          "id": "genre-0",
+          "name": "Rock",
+          "style": null
+        },
+        {
+          "id": "genre-1",
+          "name": "Rock",
+          "style": null
+        }
+      ]
+    },
+    {
+      "column": "genreBadge",
+      "genres": [
+        {
+          "id": "genre-0",
+          "name": "Rock"
+        },
+        {
+          "id": "genre-1",
+          "name": "Rock"
+        }
+      ],
+      "text": "RockRock",
+      "links": [
+        {
+          "id": "genre-0",
+          "name": "Rock",
+          "style": {
+            "backgroundColor": "#f954f0",
+            "color": "black"
+          }
+        },
+        {
+          "id": "genre-1",
+          "name": "Rock",
+          "style": {
+            "backgroundColor": "#f954f0",
+            "color": "black"
+          }
+        }
+      ]
+    },
+    {
+      "column": "genres",
+      "genres": [
+        {
+          "id": "genre-0",
+          "name": "a\"b\\c"
+        },
+        {
+          "id": "genre-1",
+          "name": "Black Metal"
+        }
+      ],
+      "text": "a\"b\\c, Black Metal",
+      "links": [
+        {
+          "id": "genre-0",
+          "name": "a\"b\\c",
+          "style": null
+        },
+        {
+          "id": "genre-1",
+          "name": "Black Metal",
+          "style": null
+        }
+      ]
+    },
+    {
+      "column": "genreBadge",
+      "genres": [
+        {
+          "id": "genre-0",
+          "name": "a\"b\\c"
+        },
+        {
+          "id": "genre-1",
+          "name": "Black Metal"
+        }
+      ],
+      "text": "a\"b\\cBlack Metal",
+      "links": [
+        {
+          "id": "genre-0",
+          "name": "a\"b\\c",
+          "style": {
+            "backgroundColor": "#943b9f",
+            "color": "white"
+          }
+        },
+        {
+          "id": "genre-1",
+          "name": "Black Metal",
+          "style": {
+            "backgroundColor": "#26152f",
+            "color": "white"
+          }
+        }
+      ]
+    }
+  ],
+  "groupCases": [
+    {
+      "songs": [],
+      "genres": [],
+      "text": ""
+    },
+    {
+      "songs": [
+        {
+          "genres": []
+        }
+      ],
+      "genres": [],
+      "text": ""
+    },
+    {
+      "songs": [
+        {
+          "genres": [
+            {
+              "id": "jazz",
+              "name": "Jazz"
+            },
+            {
+              "id": "soul",
+              "name": "Soul"
+            }
+          ]
+        },
+        {
+          "genres": [
+            {
+              "id": "jazz",
+              "name": "Changed name"
+            },
+            {
+              "id": "rock",
+              "name": "Rock"
+            }
+          ]
+        }
+      ],
+      "genres": [
+        [
+          "jazz",
+          "Jazz"
+        ],
+        [
+          "soul",
+          "Soul"
+        ],
+        [
+          "rock",
+          "Rock"
+        ]
+      ],
+      "text": "Jazz, Soul, Rock"
+    },
+    {
+      "songs": [
+        {
+          "genres": [
+            {
+              "id": "one",
+              "name": "Ambient"
+            },
+            {
+              "id": "two",
+              "name": "Ambient"
+            }
+          ]
+        }
+      ],
+      "genres": [
+        [
+          "one",
+          "Ambient"
+        ],
+        [
+          "two",
+          "Ambient"
+        ]
+      ],
+      "text": "Ambient, Ambient"
+    },
+    {
+      "songs": [
+        {
+          "genres": [
+            {
+              "id": "comma",
+              "name": "Jazz, Fusion"
+            },
+            {
+              "id": "jp",
+              "name": "東京 青"
+            }
+          ]
+        },
+        {
+          "genres": [
+            {
+              "id": "comma",
+              "name": "Changed"
+            }
+          ]
+        }
+      ],
+      "genres": [
+        [
+          "comma",
+          "Jazz, Fusion"
+        ],
+        [
+          "jp",
+          "東京 青"
+        ]
+      ],
+      "text": "Jazz, Fusion, 東京 青"
+    },
+    {
+      "songs": [
+        {
+          "genres": [
+            {
+              "id": "",
+              "name": "Empty identity"
+            },
+            {
+              "id": "",
+              "name": "Second empty"
+            }
+          ]
+        }
+      ],
+      "genres": [
+        [
+          "",
+          "Empty identity"
+        ]
+      ],
+      "text": "Empty identity"
+    }
+  ]
+}

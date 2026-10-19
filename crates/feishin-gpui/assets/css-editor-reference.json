@@ -1,0 +1,206 @@
+[
+  {
+    "name": "disabled",
+    "stored": {
+      "content": ".test { color: red; }",
+      "enabled": false
+    },
+    "editor": false,
+    "textarea": null,
+    "preview": null,
+    "buttons": [],
+    "files": [],
+    "folders": 0
+  },
+  {
+    "name": "enabled",
+    "stored": {
+      "content": ".test { color: red; }",
+      "enabled": true
+    },
+    "editor": false,
+    "textarea": null,
+    "preview": null,
+    "buttons": [
+      "common.openFolder",
+      "common.edit"
+    ],
+    "files": [],
+    "folders": 0
+  },
+  {
+    "name": "open",
+    "stored": {
+      "content": ".test { color: red; }",
+      "enabled": true
+    },
+    "editor": true,
+    "textarea": ".test { color: red; }",
+    "preview": ".test { color: red; }",
+    "buttons": [
+      "common.openFolder",
+      "common.save",
+      "common.close"
+    ],
+    "files": [],
+    "folders": 0
+  },
+  {
+    "name": "draft",
+    "stored": {
+      "content": ".test { color: red; }",
+      "enabled": true
+    },
+    "editor": true,
+    "textarea": ".test { color: blue; }",
+    "preview": ".test { color: red; }",
+    "buttons": [
+      "common.openFolder",
+      "common.save",
+      "common.close"
+    ],
+    "files": [],
+    "folders": 0
+  },
+  {
+    "name": "blur",
+    "stored": {
+      "content": ".test { color: red; }",
+      "enabled": true
+    },
+    "editor": true,
+    "textarea": ".test { color: blue; }",
+    "preview": ".test {\ncolor:blue;\n}",
+    "buttons": [
+      "common.openFolder",
+      "common.save",
+      "common.close"
+    ],
+    "files": [],
+    "folders": 0
+  },
+  {
+    "name": "close",
+    "stored": {
+      "content": ".test { color: red; }",
+      "enabled": true
+    },
+    "editor": false,
+    "textarea": null,
+    "preview": null,
+    "buttons": [
+      "common.openFolder",
+      "common.edit"
+    ],
+    "files": [],
+    "folders": 0
+  },
+  {
+    "name": "reopen",
+    "stored": {
+      "content": ".test { color: red; }",
+      "enabled": true
+    },
+    "editor": true,
+    "textarea": ".test {\ncolor:blue;\n}",
+    "preview": ".test {\ncolor:blue;\n}",
+    "buttons": [
+      "common.openFolder",
+      "common.save",
+      "common.close"
+    ],
+    "files": [],
+    "folders": 0
+  },
+  {
+    "name": "save",
+    "stored": {
+      "content": ".test {\ncolor:blue;\n}",
+      "enabled": true
+    },
+    "editor": true,
+    "textarea": ".test {\ncolor:blue;\n}",
+    "preview": ".test {\ncolor:blue;\n}",
+    "buttons": [
+      "common.openFolder",
+      "common.save",
+      "common.close"
+    ],
+    "files": [
+      ".test {\ncolor:blue;\n}"
+    ],
+    "folders": 0
+  },
+  {
+    "name": "external",
+    "stored": {
+      "content": ".test { color: green; }",
+      "enabled": true
+    },
+    "editor": true,
+    "textarea": ".test {\ncolor:blue;\n}",
+    "preview": ".test { color: green; }",
+    "buttons": [
+      "common.openFolder",
+      "common.save",
+      "common.close"
+    ],
+    "files": [
+      ".test {\ncolor:blue;\n}"
+    ],
+    "folders": 0
+  },
+  {
+    "name": "disable",
+    "stored": {
+      "content": ".test { color: green; }",
+      "enabled": false
+    },
+    "editor": false,
+    "textarea": null,
+    "preview": null,
+    "buttons": [],
+    "files": [
+      ".test {\ncolor:blue;\n}"
+    ],
+    "folders": 0
+  },
+  {
+    "name": "reenable",
+    "stored": {
+      "content": ".test { color: green; }",
+      "enabled": true
+    },
+    "editor": true,
+    "textarea": ".test { color: green; }",
+    "preview": ".test { color: green; }",
+    "buttons": [
+      "common.openFolder",
+      "common.save",
+      "common.close"
+    ],
+    "files": [
+      ".test {\ncolor:blue;\n}"
+    ],
+    "folders": 0
+  },
+  {
+    "name": "folder",
+    "stored": {
+      "content": ".test { color: green; }",
+      "enabled": true
+    },
+    "editor": true,
+    "textarea": ".test { color: green; }",
+    "preview": ".test { color: green; }",
+    "buttons": [
+      "common.openFolder",
+      "common.save",
+      "common.close"
+    ],
+    "files": [
+      ".test {\ncolor:blue;\n}"
+    ],
+    "folders": 1
+  }
+]

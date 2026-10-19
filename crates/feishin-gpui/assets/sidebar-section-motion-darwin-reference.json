@@ -1,0 +1,2130 @@
+[
+  {
+    "rem": 16,
+    "initial": false,
+    "updates": [
+      [
+        0,
+        true
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "height": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 25,
+        "height": 26.28125,
+        "opacity": 1,
+        "rotation": 24.639906635440603,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 50,
+        "height": 78.4296875,
+        "opacity": 1,
+        "rotation": 73.53193036058859,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 75,
+        "height": 123.8984375,
+        "opacity": 1,
+        "rotation": 116.15786556986534,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 100,
+        "height": 154.0546875,
+        "opacity": 1,
+        "rotation": 144.43261638042236,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 125,
+        "height": 173.0625,
+        "opacity": 1,
+        "rotation": 162.2462326690177,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 150,
+        "height": 184.40625,
+        "opacity": 1,
+        "rotation": 172.88258778712705,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 175,
+        "height": 190.265625,
+        "opacity": 1,
+        "rotation": 178.3744217103322,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 199,
+        "height": 191.9921875,
+        "opacity": 1,
+        "rotation": 179.99759266625898,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 200,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 225,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 250,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 300,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 350,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 399,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 400,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 450,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 500,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "initial": true,
+    "updates": [
+      [
+        0,
+        false
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 25,
+        "height": 165.7109375,
+        "opacity": 0.863112,
+        "rotation": 155.3600933645594,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 50,
+        "height": 113.5625,
+        "opacity": 0.591489,
+        "rotation": 106.46806963941141,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 75,
+        "height": 68.09375,
+        "opacity": 0.354679,
+        "rotation": 63.842134430134685,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 100,
+        "height": 37.9375,
+        "opacity": 0.197597,
+        "rotation": 35.567383619577654,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 125,
+        "height": 18.9296875,
+        "opacity": 0.0986322,
+        "rotation": 17.75376733098231,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 150,
+        "height": 7.5859375,
+        "opacity": 0.039541,
+        "rotation": 7.117412212872975,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 175,
+        "height": 1.7265625,
+        "opacity": 0.009031,
+        "rotation": 1.6255782896678277,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 199,
+        "height": 0,
+        "opacity": 0.0000133741,
+        "rotation": 0.0024073337410271314,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 200,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 225,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 250,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 300,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 350,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 399,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 400,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 450,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 500,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "initial": false,
+    "updates": [
+      [
+        0,
+        true
+      ],
+      [
+        50,
+        false
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "height": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 25,
+        "height": 26.28125,
+        "opacity": 1,
+        "rotation": 24.639906635440603,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 50,
+        "height": 78.4296875,
+        "opacity": 1,
+        "rotation": 73.53193036058859,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 75,
+        "height": 37.25,
+        "opacity": 0.863112,
+        "rotation": 34.926784988263464,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 100,
+        "height": 8.375,
+        "opacity": 0.591489,
+        "rotation": 7.855722599546575,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 125,
+        "height": 0.2890625,
+        "opacity": 0.354679,
+        "rotation": 0.2779120421536799,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 150,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 175,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 199,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 200,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 225,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 250,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 300,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 350,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 399,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 400,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 450,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 500,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "initial": true,
+    "updates": [
+      [
+        0,
+        false
+      ],
+      [
+        100,
+        true
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 25,
+        "height": 165.7109375,
+        "opacity": 0.863112,
+        "rotation": 155.3600933645594,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 50,
+        "height": 113.5625,
+        "opacity": 0.591489,
+        "rotation": 106.46806963941141,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 75,
+        "height": 68.09375,
+        "opacity": 0.354679,
+        "rotation": 63.842134430134685,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 100,
+        "height": 37.9375,
+        "opacity": 0.197597,
+        "rotation": 35.567383619577654,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 125,
+        "height": 68.3515625,
+        "opacity": 0.356036,
+        "rotation": 64.0864136200088,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 150,
+        "height": 120.46875,
+        "opacity": 0.627459,
+        "rotation": 112.94268439074945,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 175,
+        "height": 156.2421875,
+        "opacity": 0.813773,
+        "rotation": 146.47912402339117,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 199,
+        "height": 176.0234375,
+        "opacity": 0.916802,
+        "rotation": 165.02443780338885,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 200,
+        "height": 176.625,
+        "opacity": 0.919932,
+        "rotation": 165.58780412907254,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 225,
+        "height": 187.3359375,
+        "opacity": 0.975724,
+        "rotation": 175.63030726509302,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 250,
+        "height": 191.6328125,
+        "opacity": 0.998099,
+        "rotation": 179.65773698778202,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 300,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 350,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 399,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 400,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 450,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 500,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "initial": false,
+    "updates": [
+      [
+        0,
+        true
+      ],
+      [
+        150,
+        false
+      ],
+      [
+        200,
+        true
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "height": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 25,
+        "height": 26.28125,
+        "opacity": 1,
+        "rotation": 24.639906635440603,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 50,
+        "height": 78.4296875,
+        "opacity": 1,
+        "rotation": 73.53193036058859,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 75,
+        "height": 123.8984375,
+        "opacity": 1,
+        "rotation": 116.15786556986534,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 100,
+        "height": 154.0546875,
+        "opacity": 1,
+        "rotation": 144.43261638042236,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 125,
+        "height": 173.0625,
+        "opacity": 1,
+        "rotation": 162.2462326690177,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 150,
+        "height": 184.40625,
+        "opacity": 1,
+        "rotation": 172.88258778712705,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 175,
+        "height": 157.40625,
+        "opacity": 0.863112,
+        "rotation": 147.57271639835935,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 199,
+        "height": 107.0078125,
+        "opacity": 0.602573,
+        "rotation": 100.32515050162662,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 200,
+        "height": 104.921875,
+        "opacity": 0.591489,
+        "rotation": 98.36496414079758,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 225,
+        "height": 145.296875,
+        "opacity": 0.805962,
+        "rotation": 136.22034031181695,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 250,
+        "height": 178.828125,
+        "opacity": 0.956357,
+        "rotation": 167.65403862733203,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 300,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 350,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 399,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 400,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 450,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 500,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "initial": true,
+    "updates": [
+      [
+        0,
+        false
+      ],
+      [
+        250,
+        true
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 25,
+        "height": 165.7109375,
+        "opacity": 0.863112,
+        "rotation": 155.3600933645594,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 50,
+        "height": 113.5625,
+        "opacity": 0.591489,
+        "rotation": 106.46806963941141,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 75,
+        "height": 68.09375,
+        "opacity": 0.354679,
+        "rotation": 63.842134430134685,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 100,
+        "height": 37.9375,
+        "opacity": 0.197597,
+        "rotation": 35.567383619577654,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 125,
+        "height": 18.9296875,
+        "opacity": 0.0986322,
+        "rotation": 17.75376733098231,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 150,
+        "height": 7.5859375,
+        "opacity": 0.039541,
+        "rotation": 7.117412212872975,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 175,
+        "height": 1.7265625,
+        "opacity": 0.009031,
+        "rotation": 1.6255782896678277,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 199,
+        "height": 0,
+        "opacity": 0.0000133741,
+        "rotation": 0.0024073337410271314,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 200,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 225,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 250,
+        "height": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 300,
+        "height": 78.4296875,
+        "opacity": 1,
+        "rotation": 73.53193036058859,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 350,
+        "height": 154.0546875,
+        "opacity": 1,
+        "rotation": 144.43261638042236,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 399,
+        "height": 184.0703125,
+        "opacity": 1,
+        "rotation": 172.56646766069838,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 400,
+        "height": 184.40625,
+        "opacity": 1,
+        "rotation": 172.88258778712705,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 450,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 500,
+        "height": 192,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "initial": false,
+    "updates": [
+      [
+        0,
+        true
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "height": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 25,
+        "height": 32.8515625,
+        "opacity": 1,
+        "rotation": 24.639906635440603,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 50,
+        "height": 98.0390625,
+        "opacity": 1,
+        "rotation": 73.53193036058859,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 75,
+        "height": 154.875,
+        "opacity": 1,
+        "rotation": 116.15786556986534,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 100,
+        "height": 192.5703125,
+        "opacity": 1,
+        "rotation": 144.43261638042236,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 125,
+        "height": 216.328125,
+        "opacity": 1,
+        "rotation": 162.2462326690177,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 150,
+        "height": 230.5078125,
+        "opacity": 1,
+        "rotation": 172.88258778712705,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 175,
+        "height": 237.828125,
+        "opacity": 1,
+        "rotation": 178.3744217103322,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 199,
+        "height": 239.9921875,
+        "opacity": 1,
+        "rotation": 179.99759266625898,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 200,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 225,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 250,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 300,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 350,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 399,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 400,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 450,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 500,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "initial": true,
+    "updates": [
+      [
+        0,
+        false
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 25,
+        "height": 207.140625,
+        "opacity": 0.863112,
+        "rotation": 155.3600933645594,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 50,
+        "height": 141.953125,
+        "opacity": 0.591489,
+        "rotation": 106.46806963941141,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 75,
+        "height": 85.1171875,
+        "opacity": 0.354679,
+        "rotation": 63.842134430134685,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 100,
+        "height": 47.421875,
+        "opacity": 0.197597,
+        "rotation": 35.567383619577654,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 125,
+        "height": 23.6640625,
+        "opacity": 0.0986322,
+        "rotation": 17.75376733098231,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 150,
+        "height": 9.484375,
+        "opacity": 0.039541,
+        "rotation": 7.117412212872975,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 175,
+        "height": 2.1640625,
+        "opacity": 0.009031,
+        "rotation": 1.6255782896678277,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 199,
+        "height": 0,
+        "opacity": 0.0000133741,
+        "rotation": 0.0024073337410271314,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 200,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 225,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 250,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 300,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 350,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 399,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 400,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 450,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 500,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "initial": false,
+    "updates": [
+      [
+        0,
+        true
+      ],
+      [
+        50,
+        false
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "height": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 25,
+        "height": 32.8515625,
+        "opacity": 1,
+        "rotation": 24.639906635440603,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 50,
+        "height": 98.0390625,
+        "opacity": 1,
+        "rotation": 73.53193036058859,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 75,
+        "height": 46.5625,
+        "opacity": 0.863112,
+        "rotation": 34.926784988263464,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 100,
+        "height": 10.46875,
+        "opacity": 0.591489,
+        "rotation": 7.855722599546575,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 125,
+        "height": 0.3671875,
+        "opacity": 0.354679,
+        "rotation": 0.2779120421536799,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 150,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 175,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 199,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 200,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 225,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 250,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 300,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 350,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 399,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 400,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 450,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 500,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "initial": true,
+    "updates": [
+      [
+        0,
+        false
+      ],
+      [
+        100,
+        true
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 25,
+        "height": 207.140625,
+        "opacity": 0.863112,
+        "rotation": 155.3600933645594,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 50,
+        "height": 141.953125,
+        "opacity": 0.591489,
+        "rotation": 106.46806963941141,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 75,
+        "height": 85.1171875,
+        "opacity": 0.354679,
+        "rotation": 63.842134430134685,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 100,
+        "height": 47.421875,
+        "opacity": 0.197597,
+        "rotation": 35.567383619577654,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 125,
+        "height": 85.4453125,
+        "opacity": 0.356036,
+        "rotation": 64.0864136200088,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 150,
+        "height": 150.5859375,
+        "opacity": 0.627459,
+        "rotation": 112.94268439074945,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 175,
+        "height": 195.3046875,
+        "opacity": 0.813773,
+        "rotation": 146.47912402339117,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 199,
+        "height": 220.03125,
+        "opacity": 0.916802,
+        "rotation": 165.02443780338885,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 200,
+        "height": 220.78125,
+        "opacity": 0.919932,
+        "rotation": 165.58780412907254,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 225,
+        "height": 234.171875,
+        "opacity": 0.975724,
+        "rotation": 175.63030726509302,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 250,
+        "height": 239.5390625,
+        "opacity": 0.998099,
+        "rotation": 179.65773698778202,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 300,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 350,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 399,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 400,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 450,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 500,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "initial": false,
+    "updates": [
+      [
+        0,
+        true
+      ],
+      [
+        150,
+        false
+      ],
+      [
+        200,
+        true
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "height": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 25,
+        "height": 32.8515625,
+        "opacity": 1,
+        "rotation": 24.639906635440603,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 50,
+        "height": 98.0390625,
+        "opacity": 1,
+        "rotation": 73.53193036058859,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 75,
+        "height": 154.875,
+        "opacity": 1,
+        "rotation": 116.15786556986534,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 100,
+        "height": 192.5703125,
+        "opacity": 1,
+        "rotation": 144.43261638042236,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 125,
+        "height": 216.328125,
+        "opacity": 1,
+        "rotation": 162.2462326690177,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 150,
+        "height": 230.5078125,
+        "opacity": 1,
+        "rotation": 172.88258778712705,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 175,
+        "height": 196.7578125,
+        "opacity": 0.863112,
+        "rotation": 147.57271639835935,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 199,
+        "height": 133.765625,
+        "opacity": 0.602573,
+        "rotation": 100.32515050162662,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 200,
+        "height": 131.1484375,
+        "opacity": 0.591489,
+        "rotation": 98.36496414079758,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 225,
+        "height": 181.625,
+        "opacity": 0.805962,
+        "rotation": 136.22034031181695,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 250,
+        "height": 223.53125,
+        "opacity": 0.956357,
+        "rotation": 167.65403862733203,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 300,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 350,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 399,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 400,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 450,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 500,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "initial": true,
+    "updates": [
+      [
+        0,
+        false
+      ],
+      [
+        250,
+        true
+      ]
+    ],
+    "frames": [
+      {
+        "milliseconds": 0,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 25,
+        "height": 207.140625,
+        "opacity": 0.863112,
+        "rotation": 155.3600933645594,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 50,
+        "height": 141.953125,
+        "opacity": 0.591489,
+        "rotation": 106.46806963941141,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 75,
+        "height": 85.1171875,
+        "opacity": 0.354679,
+        "rotation": 63.842134430134685,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 100,
+        "height": 47.421875,
+        "opacity": 0.197597,
+        "rotation": 35.567383619577654,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 125,
+        "height": 23.6640625,
+        "opacity": 0.0986322,
+        "rotation": 17.75376733098231,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 150,
+        "height": 9.484375,
+        "opacity": 0.039541,
+        "rotation": 7.117412212872975,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 175,
+        "height": 2.1640625,
+        "opacity": 0.009031,
+        "rotation": 1.6255782896678277,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 199,
+        "height": 0,
+        "opacity": 0.0000133741,
+        "rotation": 0.0024073337410271314,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 200,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 225,
+        "height": 0,
+        "opacity": 0,
+        "rotation": 0,
+        "hidden": "true",
+        "inert": true,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 250,
+        "height": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": false
+      },
+      {
+        "milliseconds": 300,
+        "height": 98.0390625,
+        "opacity": 1,
+        "rotation": 73.53193036058859,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 350,
+        "height": 192.5703125,
+        "opacity": 1,
+        "rotation": 144.43261638042236,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 399,
+        "height": 230.0859375,
+        "opacity": 1,
+        "rotation": 172.56646766069838,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 400,
+        "height": 230.5078125,
+        "opacity": 1,
+        "rotation": 172.88258778712705,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 450,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      },
+      {
+        "milliseconds": 500,
+        "height": 240,
+        "opacity": 1,
+        "rotation": 180,
+        "hidden": "false",
+        "inert": false,
+        "pointerInside": true
+      }
+    ]
+  }
+]

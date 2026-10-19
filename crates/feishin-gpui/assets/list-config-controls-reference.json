@@ -1,0 +1,400 @@
+{
+  "list": [
+    "name",
+    "artists",
+    "album",
+    "duration"
+  ],
+  "widths": [
+    {
+      "input": "-20",
+      "width": 0
+    },
+    {
+      "input": "0",
+      "width": 0
+    },
+    {
+      "input": "0.5",
+      "width": 0.5
+    },
+    {
+      "input": "1",
+      "width": 1
+    },
+    {
+      "input": "10",
+      "width": 10
+    },
+    {
+      "input": "1999.5",
+      "width": 1999.5
+    },
+    {
+      "input": "2000",
+      "width": 2000
+    },
+    {
+      "input": "2500",
+      "width": 2000
+    },
+    {
+      "input": "",
+      "width": 0
+    }
+  ],
+  "reorders": [
+    {
+      "from": "name",
+      "to": "name",
+      "bottom": false,
+      "ids": [
+        "name",
+        "artists",
+        "album",
+        "duration"
+      ]
+    },
+    {
+      "from": "name",
+      "to": "name",
+      "bottom": true,
+      "ids": [
+        "name",
+        "artists",
+        "album",
+        "duration"
+      ]
+    },
+    {
+      "from": "name",
+      "to": "artists",
+      "bottom": false,
+      "ids": [
+        "artists",
+        "name",
+        "album",
+        "duration"
+      ]
+    },
+    {
+      "from": "name",
+      "to": "artists",
+      "bottom": true,
+      "ids": [
+        "artists",
+        "name",
+        "album",
+        "duration"
+      ]
+    },
+    {
+      "from": "name",
+      "to": "album",
+      "bottom": false,
+      "ids": [
+        "artists",
+        "album",
+        "name",
+        "duration"
+      ]
+    },
+    {
+      "from": "name",
+      "to": "album",
+      "bottom": true,
+      "ids": [
+        "artists",
+        "album",
+        "name",
+        "duration"
+      ]
+    },
+    {
+      "from": "name",
+      "to": "duration",
+      "bottom": false,
+      "ids": [
+        "artists",
+        "album",
+        "duration",
+        "name"
+      ]
+    },
+    {
+      "from": "name",
+      "to": "duration",
+      "bottom": true,
+      "ids": [
+        "artists",
+        "album",
+        "duration",
+        "name"
+      ]
+    },
+    {
+      "from": "artists",
+      "to": "name",
+      "bottom": false,
+      "ids": [
+        "artists",
+        "name",
+        "album",
+        "duration"
+      ]
+    },
+    {
+      "from": "artists",
+      "to": "name",
+      "bottom": true,
+      "ids": [
+        "name",
+        "artists",
+        "album",
+        "duration"
+      ]
+    },
+    {
+      "from": "artists",
+      "to": "artists",
+      "bottom": false,
+      "ids": [
+        "name",
+        "artists",
+        "album",
+        "duration"
+      ]
+    },
+    {
+      "from": "artists",
+      "to": "artists",
+      "bottom": true,
+      "ids": [
+        "name",
+        "artists",
+        "album",
+        "duration"
+      ]
+    },
+    {
+      "from": "artists",
+      "to": "album",
+      "bottom": false,
+      "ids": [
+        "name",
+        "album",
+        "artists",
+        "duration"
+      ]
+    },
+    {
+      "from": "artists",
+      "to": "album",
+      "bottom": true,
+      "ids": [
+        "name",
+        "album",
+        "artists",
+        "duration"
+      ]
+    },
+    {
+      "from": "artists",
+      "to": "duration",
+      "bottom": false,
+      "ids": [
+        "name",
+        "album",
+        "duration",
+        "artists"
+      ]
+    },
+    {
+      "from": "artists",
+      "to": "duration",
+      "bottom": true,
+      "ids": [
+        "name",
+        "album",
+        "duration",
+        "artists"
+      ]
+    },
+    {
+      "from": "album",
+      "to": "name",
+      "bottom": false,
+      "ids": [
+        "album",
+        "name",
+        "artists",
+        "duration"
+      ]
+    },
+    {
+      "from": "album",
+      "to": "name",
+      "bottom": true,
+      "ids": [
+        "name",
+        "album",
+        "artists",
+        "duration"
+      ]
+    },
+    {
+      "from": "album",
+      "to": "artists",
+      "bottom": false,
+      "ids": [
+        "name",
+        "album",
+        "artists",
+        "duration"
+      ]
+    },
+    {
+      "from": "album",
+      "to": "artists",
+      "bottom": true,
+      "ids": [
+        "name",
+        "artists",
+        "album",
+        "duration"
+      ]
+    },
+    {
+      "from": "album",
+      "to": "album",
+      "bottom": false,
+      "ids": [
+        "name",
+        "artists",
+        "album",
+        "duration"
+      ]
+    },
+    {
+      "from": "album",
+      "to": "album",
+      "bottom": true,
+      "ids": [
+        "name",
+        "artists",
+        "album",
+        "duration"
+      ]
+    },
+    {
+      "from": "album",
+      "to": "duration",
+      "bottom": false,
+      "ids": [
+        "name",
+        "artists",
+        "duration",
+        "album"
+      ]
+    },
+    {
+      "from": "album",
+      "to": "duration",
+      "bottom": true,
+      "ids": [
+        "name",
+        "artists",
+        "duration",
+        "album"
+      ]
+    },
+    {
+      "from": "duration",
+      "to": "name",
+      "bottom": false,
+      "ids": [
+        "duration",
+        "name",
+        "artists",
+        "album"
+      ]
+    },
+    {
+      "from": "duration",
+      "to": "name",
+      "bottom": true,
+      "ids": [
+        "name",
+        "duration",
+        "artists",
+        "album"
+      ]
+    },
+    {
+      "from": "duration",
+      "to": "artists",
+      "bottom": false,
+      "ids": [
+        "name",
+        "duration",
+        "artists",
+        "album"
+      ]
+    },
+    {
+      "from": "duration",
+      "to": "artists",
+      "bottom": true,
+      "ids": [
+        "name",
+        "artists",
+        "duration",
+        "album"
+      ]
+    },
+    {
+      "from": "duration",
+      "to": "album",
+      "bottom": false,
+      "ids": [
+        "name",
+        "artists",
+        "duration",
+        "album"
+      ]
+    },
+    {
+      "from": "duration",
+      "to": "album",
+      "bottom": true,
+      "ids": [
+        "name",
+        "artists",
+        "album",
+        "duration"
+      ]
+    },
+    {
+      "from": "duration",
+      "to": "duration",
+      "bottom": false,
+      "ids": [
+        "name",
+        "artists",
+        "album",
+        "duration"
+      ]
+    },
+    {
+      "from": "duration",
+      "to": "duration",
+      "bottom": true,
+      "ids": [
+        "name",
+        "artists",
+        "album",
+        "duration"
+      ]
+    }
+  ]
+}

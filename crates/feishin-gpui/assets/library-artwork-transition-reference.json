@@ -1,0 +1,81 @@
+{
+  "duration": 300,
+  "exitDuration": 300,
+  "entrance": [
+    {
+      "elapsed": 0,
+      "opacity": 0,
+      "transform": "none"
+    },
+    {
+      "elapsed": 30,
+      "opacity": 0.0947963,
+      "transform": "none"
+    },
+    {
+      "elapsed": 75,
+      "opacity": 0.408511,
+      "transform": "none"
+    },
+    {
+      "elapsed": 150,
+      "opacity": 0.802403,
+      "transform": "none"
+    },
+    {
+      "elapsed": 225,
+      "opacity": 0.960459,
+      "transform": "none"
+    },
+    {
+      "elapsed": 299,
+      "opacity": 0.999994,
+      "transform": "none"
+    },
+    {
+      "elapsed": 300,
+      "opacity": 1,
+      "transform": "none"
+    }
+  ],
+  "exit": [
+    {
+      "elapsed": 0,
+      "opacity": 1,
+      "transform": "none"
+    },
+    {
+      "elapsed": 30,
+      "opacity": 0.905204,
+      "transform": "none"
+    },
+    {
+      "elapsed": 75,
+      "opacity": 0.591489,
+      "transform": "none"
+    },
+    {
+      "elapsed": 150,
+      "opacity": 0.197597,
+      "transform": "none"
+    },
+    {
+      "elapsed": 225,
+      "opacity": 0.039541,
+      "transform": "none"
+    },
+    {
+      "elapsed": 299,
+      "opacity": 0.00000593779,
+      "transform": "none"
+    },
+    {
+      "elapsed": 300,
+      "opacity": 0,
+      "transform": "none"
+    }
+  ],
+  "retainedOnClose": true,
+  "removedAfterExit": true,
+  "restoredFocus": true
+}

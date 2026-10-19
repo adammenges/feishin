@@ -1,0 +1,1554 @@
+[
+  {
+    "server": "jellyfin",
+    "resumable": false,
+    "frames": [
+      {
+        "event": "change",
+        "at": 0,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 1999,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 2000,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-0",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 102000,
+            "albumId": "album",
+            "event": "start",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 0,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "seek",
+        "at": 2100,
+        "value": 20,
+        "status": "PLAYING",
+        "timestamp": 20,
+        "song": "song-0",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 102100,
+            "albumId": "album",
+            "event": "unpause",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 200000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "seek",
+        "at": 2500,
+        "value": 25,
+        "status": "PLAYING",
+        "timestamp": 25,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "seek",
+        "at": 3100,
+        "value": 30,
+        "status": "PLAYING",
+        "timestamp": 30,
+        "song": "song-0",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 103100,
+            "albumId": "album",
+            "event": "unpause",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 300000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "pause",
+        "at": 3200,
+        "value": null,
+        "status": "PAUSED",
+        "timestamp": 30,
+        "song": "song-0",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 103200,
+            "albumId": "album",
+            "event": "pause",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 300000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "seek",
+        "at": 4200,
+        "value": 40,
+        "status": "PAUSED",
+        "timestamp": 40,
+        "song": "song-0",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 104200,
+            "albumId": "album",
+            "event": "pause",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 400000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "play",
+        "at": 4300,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 40,
+        "song": "song-0",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 104300,
+            "albumId": "album",
+            "event": "unpause",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 400000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "poll",
+        "at": 4400,
+        "value": 45,
+        "status": "PLAYING",
+        "timestamp": 45,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "poll",
+        "at": 4500,
+        "value": 50,
+        "status": "PLAYING",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "force",
+        "at": 4600,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": true,
+        "calls": [
+          {
+            "at": 104600,
+            "albumId": "album",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 1000000000000,
+            "submission": true
+          },
+          {
+            "at": 104600,
+            "albumId": "album",
+            "event": "unpause",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 500000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "stop",
+        "at": 4700,
+        "value": null,
+        "status": "STOPPED",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": true,
+        "calls": [
+          {
+            "at": 104700,
+            "albumId": "album",
+            "event": "stop",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 500000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "play",
+        "at": 4800,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": true,
+        "calls": [
+          {
+            "at": 104800,
+            "albumId": "album",
+            "event": "start",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 500000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "change",
+        "at": 5000,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5000",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "change",
+        "at": 5500,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 7000,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 7500,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 107500,
+            "albumId": "album",
+            "event": "start",
+            "id": "song-5500",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 0,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "poll",
+        "at": 7600,
+        "value": 2,
+        "status": "PLAYING",
+        "timestamp": 2,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "poll",
+        "at": 7700,
+        "value": 7,
+        "status": "PLAYING",
+        "timestamp": 7,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "poll",
+        "at": 7800,
+        "value": 12,
+        "status": "PLAYING",
+        "timestamp": 12,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      }
+    ],
+    "reports": [
+      {
+        "at": 102000,
+        "albumId": "album",
+        "event": "start",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 0,
+        "submission": false
+      },
+      {
+        "at": 102100,
+        "albumId": "album",
+        "event": "unpause",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 200000000,
+        "submission": false
+      },
+      {
+        "at": 103100,
+        "albumId": "album",
+        "event": "unpause",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 300000000,
+        "submission": false
+      },
+      {
+        "at": 103200,
+        "albumId": "album",
+        "event": "pause",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 300000000,
+        "submission": false
+      },
+      {
+        "at": 104200,
+        "albumId": "album",
+        "event": "pause",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 400000000,
+        "submission": false
+      },
+      {
+        "at": 104300,
+        "albumId": "album",
+        "event": "unpause",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 400000000,
+        "submission": false
+      },
+      {
+        "at": 104600,
+        "albumId": "album",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 1000000000000,
+        "submission": true
+      },
+      {
+        "at": 104600,
+        "albumId": "album",
+        "event": "unpause",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 500000000,
+        "submission": false
+      },
+      {
+        "at": 104700,
+        "albumId": "album",
+        "event": "stop",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 500000000,
+        "submission": false
+      },
+      {
+        "at": 104800,
+        "albumId": "album",
+        "event": "start",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 500000000,
+        "submission": false
+      },
+      {
+        "at": 107500,
+        "albumId": "album",
+        "event": "start",
+        "id": "song-5500",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 0,
+        "submission": false
+      }
+    ]
+  },
+  {
+    "server": "jellyfin",
+    "resumable": true,
+    "frames": [
+      {
+        "event": "change",
+        "at": 0,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 1999,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 2000,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-0",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 102000,
+            "albumId": "album",
+            "event": "start",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 0,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "seek",
+        "at": 2100,
+        "value": 20,
+        "status": "PLAYING",
+        "timestamp": 20,
+        "song": "song-0",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 102100,
+            "albumId": "album",
+            "event": "unpause",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 200000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "seek",
+        "at": 2500,
+        "value": 25,
+        "status": "PLAYING",
+        "timestamp": 25,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "seek",
+        "at": 3100,
+        "value": 30,
+        "status": "PLAYING",
+        "timestamp": 30,
+        "song": "song-0",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 103100,
+            "albumId": "album",
+            "event": "unpause",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 300000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "pause",
+        "at": 3200,
+        "value": null,
+        "status": "PAUSED",
+        "timestamp": 30,
+        "song": "song-0",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 103200,
+            "albumId": "album",
+            "event": "pause",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 300000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "seek",
+        "at": 4200,
+        "value": 40,
+        "status": "PAUSED",
+        "timestamp": 40,
+        "song": "song-0",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 104200,
+            "albumId": "album",
+            "event": "pause",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 400000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "play",
+        "at": 4300,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 40,
+        "song": "song-0",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 104300,
+            "albumId": "album",
+            "event": "unpause",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 400000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "poll",
+        "at": 4400,
+        "value": 45,
+        "status": "PLAYING",
+        "timestamp": 45,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "poll",
+        "at": 4500,
+        "value": 50,
+        "status": "PLAYING",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 104500,
+            "albumId": "album",
+            "event": "timeupdate",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 500000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "force",
+        "at": 4600,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": true,
+        "calls": [
+          {
+            "at": 104600,
+            "albumId": "album",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 1000000000000,
+            "submission": true
+          },
+          {
+            "at": 104600,
+            "albumId": "album",
+            "event": "unpause",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 500000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "stop",
+        "at": 4700,
+        "value": null,
+        "status": "STOPPED",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": true,
+        "calls": [
+          {
+            "at": 104700,
+            "albumId": "album",
+            "event": "stop",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 500000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "play",
+        "at": 4800,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": true,
+        "calls": [
+          {
+            "at": 104800,
+            "albumId": "album",
+            "event": "start",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 500000000,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "change",
+        "at": 5000,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5000",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "change",
+        "at": 5500,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 7000,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 7500,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 107500,
+            "albumId": "album",
+            "event": "stop",
+            "id": "song-5000",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 0,
+            "submission": false
+          },
+          {
+            "at": 107500,
+            "albumId": "album",
+            "event": "start",
+            "id": "song-5500",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 0,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "poll",
+        "at": 7600,
+        "value": 2,
+        "status": "PLAYING",
+        "timestamp": 2,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "poll",
+        "at": 7700,
+        "value": 7,
+        "status": "PLAYING",
+        "timestamp": 7,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "poll",
+        "at": 7800,
+        "value": 12,
+        "status": "PLAYING",
+        "timestamp": 12,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 107800,
+            "albumId": "album",
+            "event": "timeupdate",
+            "id": "song-5500",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 120000000,
+            "submission": false
+          }
+        ]
+      }
+    ],
+    "reports": [
+      {
+        "at": 102000,
+        "albumId": "album",
+        "event": "start",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 0,
+        "submission": false
+      },
+      {
+        "at": 102100,
+        "albumId": "album",
+        "event": "unpause",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 200000000,
+        "submission": false
+      },
+      {
+        "at": 103100,
+        "albumId": "album",
+        "event": "unpause",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 300000000,
+        "submission": false
+      },
+      {
+        "at": 103200,
+        "albumId": "album",
+        "event": "pause",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 300000000,
+        "submission": false
+      },
+      {
+        "at": 104200,
+        "albumId": "album",
+        "event": "pause",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 400000000,
+        "submission": false
+      },
+      {
+        "at": 104300,
+        "albumId": "album",
+        "event": "unpause",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 400000000,
+        "submission": false
+      },
+      {
+        "at": 104500,
+        "albumId": "album",
+        "event": "timeupdate",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 500000000,
+        "submission": false
+      },
+      {
+        "at": 104600,
+        "albumId": "album",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 1000000000000,
+        "submission": true
+      },
+      {
+        "at": 104600,
+        "albumId": "album",
+        "event": "unpause",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 500000000,
+        "submission": false
+      },
+      {
+        "at": 104700,
+        "albumId": "album",
+        "event": "stop",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 500000000,
+        "submission": false
+      },
+      {
+        "at": 104800,
+        "albumId": "album",
+        "event": "start",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 500000000,
+        "submission": false
+      },
+      {
+        "at": 107500,
+        "albumId": "album",
+        "event": "stop",
+        "id": "song-5000",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 0,
+        "submission": false
+      },
+      {
+        "at": 107500,
+        "albumId": "album",
+        "event": "start",
+        "id": "song-5500",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 0,
+        "submission": false
+      },
+      {
+        "at": 107800,
+        "albumId": "album",
+        "event": "timeupdate",
+        "id": "song-5500",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 120000000,
+        "submission": false
+      }
+    ]
+  },
+  {
+    "server": "subsonic",
+    "resumable": false,
+    "frames": [
+      {
+        "event": "change",
+        "at": 0,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 1999,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 2000,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-0",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 102000,
+            "albumId": "album",
+            "event": "start",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 0,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "seek",
+        "at": 2100,
+        "value": 20,
+        "status": "PLAYING",
+        "timestamp": 20,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "seek",
+        "at": 2500,
+        "value": 25,
+        "status": "PLAYING",
+        "timestamp": 25,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "seek",
+        "at": 3100,
+        "value": 30,
+        "status": "PLAYING",
+        "timestamp": 30,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "pause",
+        "at": 3200,
+        "value": null,
+        "status": "PAUSED",
+        "timestamp": 30,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "seek",
+        "at": 4200,
+        "value": 40,
+        "status": "PAUSED",
+        "timestamp": 40,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "play",
+        "at": 4300,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 40,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "poll",
+        "at": 4400,
+        "value": 45,
+        "status": "PLAYING",
+        "timestamp": 45,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "poll",
+        "at": 4500,
+        "value": 50,
+        "status": "PLAYING",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "force",
+        "at": 4600,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": true,
+        "calls": [
+          {
+            "at": 104600,
+            "albumId": "album",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 100000000,
+            "submission": true
+          }
+        ]
+      },
+      {
+        "event": "stop",
+        "at": 4700,
+        "value": null,
+        "status": "STOPPED",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": true,
+        "calls": []
+      },
+      {
+        "event": "play",
+        "at": 4800,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": true,
+        "calls": []
+      },
+      {
+        "event": "change",
+        "at": 5000,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5000",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "change",
+        "at": 5500,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 7000,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 7500,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 107500,
+            "albumId": "album",
+            "event": "stop",
+            "id": "song-5000",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 0,
+            "submission": false
+          },
+          {
+            "at": 107500,
+            "albumId": "album",
+            "event": "start",
+            "id": "song-5500",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 0,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "poll",
+        "at": 7600,
+        "value": 2,
+        "status": "PLAYING",
+        "timestamp": 2,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "poll",
+        "at": 7700,
+        "value": 7,
+        "status": "PLAYING",
+        "timestamp": 7,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "poll",
+        "at": 7800,
+        "value": 12,
+        "status": "PLAYING",
+        "timestamp": 12,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      }
+    ],
+    "reports": [
+      {
+        "at": 102000,
+        "albumId": "album",
+        "event": "start",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 0,
+        "submission": false
+      },
+      {
+        "at": 104600,
+        "albumId": "album",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 100000000,
+        "submission": true
+      },
+      {
+        "at": 107500,
+        "albumId": "album",
+        "event": "stop",
+        "id": "song-5000",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 0,
+        "submission": false
+      },
+      {
+        "at": 107500,
+        "albumId": "album",
+        "event": "start",
+        "id": "song-5500",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 0,
+        "submission": false
+      }
+    ]
+  },
+  {
+    "server": "subsonic",
+    "resumable": true,
+    "frames": [
+      {
+        "event": "change",
+        "at": 0,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 1999,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 2000,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-0",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 102000,
+            "albumId": "album",
+            "event": "start",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 0,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "seek",
+        "at": 2100,
+        "value": 20,
+        "status": "PLAYING",
+        "timestamp": 20,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "seek",
+        "at": 2500,
+        "value": 25,
+        "status": "PLAYING",
+        "timestamp": 25,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "seek",
+        "at": 3100,
+        "value": 30,
+        "status": "PLAYING",
+        "timestamp": 30,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "pause",
+        "at": 3200,
+        "value": null,
+        "status": "PAUSED",
+        "timestamp": 30,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "seek",
+        "at": 4200,
+        "value": 40,
+        "status": "PAUSED",
+        "timestamp": 40,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "play",
+        "at": 4300,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 40,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "poll",
+        "at": 4400,
+        "value": 45,
+        "status": "PLAYING",
+        "timestamp": 45,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "poll",
+        "at": 4500,
+        "value": 50,
+        "status": "PLAYING",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "force",
+        "at": 4600,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": true,
+        "calls": [
+          {
+            "at": 104600,
+            "albumId": "album",
+            "id": "song-0",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 100000000,
+            "submission": true
+          }
+        ]
+      },
+      {
+        "event": "stop",
+        "at": 4700,
+        "value": null,
+        "status": "STOPPED",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": true,
+        "calls": []
+      },
+      {
+        "event": "play",
+        "at": 4800,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 50,
+        "song": "song-0",
+        "submitted": true,
+        "calls": []
+      },
+      {
+        "event": "change",
+        "at": 5000,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5000",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "change",
+        "at": 5500,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 7000,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "wait",
+        "at": 7500,
+        "value": null,
+        "status": "PLAYING",
+        "timestamp": 0,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": [
+          {
+            "at": 107500,
+            "albumId": "album",
+            "event": "stop",
+            "id": "song-5000",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 0,
+            "submission": false
+          },
+          {
+            "at": 107500,
+            "albumId": "album",
+            "event": "start",
+            "id": "song-5500",
+            "mediaType": "song",
+            "playbackRate": 1,
+            "position": 0,
+            "submission": false
+          }
+        ]
+      },
+      {
+        "event": "poll",
+        "at": 7600,
+        "value": 2,
+        "status": "PLAYING",
+        "timestamp": 2,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "poll",
+        "at": 7700,
+        "value": 7,
+        "status": "PLAYING",
+        "timestamp": 7,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      },
+      {
+        "event": "poll",
+        "at": 7800,
+        "value": 12,
+        "status": "PLAYING",
+        "timestamp": 12,
+        "song": "song-5500",
+        "submitted": false,
+        "calls": []
+      }
+    ],
+    "reports": [
+      {
+        "at": 102000,
+        "albumId": "album",
+        "event": "start",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 0,
+        "submission": false
+      },
+      {
+        "at": 104600,
+        "albumId": "album",
+        "id": "song-0",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 100000000,
+        "submission": true
+      },
+      {
+        "at": 107500,
+        "albumId": "album",
+        "event": "stop",
+        "id": "song-5000",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 0,
+        "submission": false
+      },
+      {
+        "at": 107500,
+        "albumId": "album",
+        "event": "start",
+        "id": "song-5500",
+        "mediaType": "song",
+        "playbackRate": 1,
+        "position": 0,
+        "submission": false
+      }
+    ]
+  }
+]

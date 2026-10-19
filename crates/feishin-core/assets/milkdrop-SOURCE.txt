@@ -1,0 +1,11 @@
+Original MilkDrop presets used by the existing Butterchurn base, extra and md1 packs.
+Source: https://github.com/jberg/butterchurn-presets
+Revision: c10e2616762f262de898e5d4c1f162a3e01340c1
+Excluded: Flexi + Martin - astral projection (excluded by the Electron app).
+License: MIT, see milkdrop-LICENSE.txt.
+Six texture images are decoded from imageData.js at the same revision.
+Legacy EEL equation whitespace is normalized for projectM-eval without changing values.
+
+Cloud fallback: Butterchurn 3.0.0-beta.5, https://registry.npmjs.org/butterchurn/-/butterchurn-3.0.0-beta.5.tgz
+SHA256: 4bf374256652c08ef077727e346dfdb6381e598099bbadc3da4a573b7b037c39
+License: MIT, see butterchurn-LICENSE.txt.

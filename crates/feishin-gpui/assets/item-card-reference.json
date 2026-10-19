@@ -1,0 +1,2137 @@
+[
+  {
+    "kind": "song",
+    "library": false,
+    "multi": false,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": null,
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": []
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "clicked"
+    ]
+  },
+  {
+    "kind": "song",
+    "library": false,
+    "multi": true,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": null,
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": []
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "clicked"
+    ]
+  },
+  {
+    "kind": "song",
+    "library": true,
+    "multi": false,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "select",
+            "id": "clicked"
+          }
+        ]
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "now",
+            "index": null
+          }
+        ]
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "now",
+            "index": 2
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "next",
+            "index": 2
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "last",
+            "index": 2
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "shuffle",
+            "index": 2
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "next-shuffle",
+            "index": 2
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "last-shuffle",
+            "index": 2
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "selected",
+      "clicked"
+    ]
+  },
+  {
+    "kind": "song",
+    "library": true,
+    "multi": true,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "select",
+            "id": "clicked"
+          }
+        ]
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "now",
+            "index": null
+          }
+        ]
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "now",
+            "index": 2
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "next",
+            "index": 2
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "last",
+            "index": 2
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "shuffle",
+            "index": 2
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "next-shuffle",
+            "index": 2
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "last-shuffle",
+            "index": 2
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "selected",
+      "clicked"
+    ]
+  },
+  {
+    "kind": "album",
+    "library": false,
+    "multi": false,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": "/library/albums/clicked",
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": []
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "clicked"
+    ]
+  },
+  {
+    "kind": "album",
+    "library": false,
+    "multi": true,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": "/library/albums/clicked",
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": []
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "clicked"
+    ]
+  },
+  {
+    "kind": "album",
+    "library": true,
+    "multi": false,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": "/library/albums/clicked",
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "now",
+            "index": null
+          }
+        ]
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "selected",
+      "clicked"
+    ]
+  },
+  {
+    "kind": "album",
+    "library": true,
+    "multi": true,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "select",
+            "id": "clicked"
+          }
+        ]
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "now",
+            "index": null
+          }
+        ]
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "selected",
+      "clicked"
+    ]
+  },
+  {
+    "kind": "albumArtist",
+    "library": false,
+    "multi": false,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": "/library/album-artists/clicked",
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": []
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "clicked"
+    ]
+  },
+  {
+    "kind": "albumArtist",
+    "library": false,
+    "multi": true,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": "/library/album-artists/clicked",
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": []
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "clicked"
+    ]
+  },
+  {
+    "kind": "albumArtist",
+    "library": true,
+    "multi": false,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": "/library/album-artists/clicked",
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "now",
+            "index": null
+          }
+        ]
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "selected",
+      "clicked"
+    ]
+  },
+  {
+    "kind": "albumArtist",
+    "library": true,
+    "multi": true,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "select",
+            "id": "clicked"
+          }
+        ]
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "now",
+            "index": null
+          }
+        ]
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "selected",
+      "clicked"
+    ]
+  },
+  {
+    "kind": "artist",
+    "library": false,
+    "multi": false,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": "/library/artists/clicked",
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": []
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "clicked"
+    ]
+  },
+  {
+    "kind": "artist",
+    "library": false,
+    "multi": true,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": "/library/artists/clicked",
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": []
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "clicked"
+    ]
+  },
+  {
+    "kind": "artist",
+    "library": true,
+    "multi": false,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": "/library/artists/clicked",
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "now",
+            "index": null
+          }
+        ]
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "selected",
+      "clicked"
+    ]
+  },
+  {
+    "kind": "artist",
+    "library": true,
+    "multi": true,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "select",
+            "id": "clicked"
+          }
+        ]
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "now",
+            "index": null
+          }
+        ]
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "selected",
+      "clicked"
+    ]
+  },
+  {
+    "kind": "genre",
+    "library": false,
+    "multi": false,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": "/library/genres/clicked",
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": []
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "clicked"
+    ]
+  },
+  {
+    "kind": "genre",
+    "library": false,
+    "multi": true,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": "/library/genres/clicked",
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": []
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "clicked"
+    ]
+  },
+  {
+    "kind": "genre",
+    "library": true,
+    "multi": false,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": "/library/genres/clicked",
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "now",
+            "index": null
+          }
+        ]
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "selected",
+      "clicked"
+    ]
+  },
+  {
+    "kind": "genre",
+    "library": true,
+    "multi": true,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "select",
+            "id": "clicked"
+          }
+        ]
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "now",
+            "index": null
+          }
+        ]
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "selected",
+      "clicked"
+    ]
+  },
+  {
+    "kind": "playlist",
+    "library": false,
+    "multi": false,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": "/playlists/clicked/songs",
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": []
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": false,
+    "dragged": [
+      "clicked"
+    ]
+  },
+  {
+    "kind": "playlist",
+    "library": false,
+    "multi": true,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": "/playlists/clicked/songs",
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": []
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": false,
+    "dragged": [
+      "clicked"
+    ]
+  },
+  {
+    "kind": "playlist",
+    "library": true,
+    "multi": false,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": "/playlists/clicked/songs",
+        "calls": []
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "now",
+            "index": null
+          }
+        ]
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "selected",
+      "clicked"
+    ]
+  },
+  {
+    "kind": "playlist",
+    "library": true,
+    "multi": true,
+    "clicks": [
+      {
+        "detail": 1,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "select",
+            "id": "clicked"
+          }
+        ]
+      },
+      {
+        "detail": 2,
+        "navigate": null,
+        "calls": [
+          {
+            "type": "activate",
+            "id": "clicked",
+            "mode": "now",
+            "index": null
+          }
+        ]
+      }
+    ],
+    "plays": [
+      {
+        "mode": "now",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "now"
+          }
+        ]
+      },
+      {
+        "mode": "next",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next"
+          }
+        ]
+      },
+      {
+        "mode": "last",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last"
+          }
+        ]
+      },
+      {
+        "mode": "shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "next-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "next-shuffle"
+          }
+        ]
+      },
+      {
+        "mode": "last-shuffle",
+        "calls": [
+          {
+            "type": "play",
+            "id": "clicked",
+            "mode": "last-shuffle"
+          }
+        ]
+      }
+    ],
+    "dragEnabled": true,
+    "dragged": [
+      "selected",
+      "clicked"
+    ]
+  }
+]

@@ -1,0 +1,7370 @@
+[
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "height": 480,
+      "language": "en",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        480
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        260,
+        411
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        236,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        196,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        220,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "height": 480,
+      "language": "en",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        480
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_19_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1b_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1h_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_19_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1b_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1h_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        260,
+        147
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        236,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        196,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        220,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        220,
+        260,
+        260
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        12,
+        232,
+        236,
+        236
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        208,
+        236,
+        36,
+        36
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "height": 480,
+      "language": "fr",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        480
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_2p_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_2r_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_31_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_2p_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_2r_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_31_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        260,
+        411
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        236,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        196,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        220,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "height": 480,
+      "language": "fr",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        480
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_41_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_43_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_49_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_41_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_43_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_49_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        260,
+        147
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        236,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        196,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        220,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        220,
+        260,
+        260
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        12,
+        232,
+        236,
+        236
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        208,
+        236,
+        36,
+        36
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "height": 480,
+      "language": "ar",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        480
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_5h_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_5j_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_5p_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_5h_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_5j_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_5p_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        260,
+        411
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        236,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        40,
+        80,
+        196,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        24,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "height": 480,
+      "language": "ar",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        480
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_6p_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_6r_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_71_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_6p_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_6r_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_71_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        260,
+        147
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        236,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        40,
+        80,
+        196,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        24,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        220,
+        260,
+        260
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        12,
+        232,
+        236,
+        236
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        208,
+        236,
+        36,
+        36
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "height": 900,
+      "language": "en",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        900
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_89_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_8b_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_8h_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_89_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_8b_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_8h_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        260,
+        831
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        236,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        196,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        220,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "height": 900,
+      "language": "en",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        900
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_9h_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_9j_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_9p_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_9h_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_9j_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_9p_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        260,
+        567
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        236,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        196,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        220,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        640,
+        260,
+        260
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        12,
+        652,
+        236,
+        236
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        208,
+        656,
+        36,
+        36
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "height": 900,
+      "language": "fr",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        900
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_b1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_b3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_b9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_b1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_b3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_b9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        260,
+        831
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        236,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        196,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        220,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "height": 900,
+      "language": "fr",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        900
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_c9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_cb_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_ch_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_c9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_cb_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_ch_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        260,
+        567
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        236,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        196,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        220,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        640,
+        260,
+        260
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        12,
+        652,
+        236,
+        236
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        208,
+        656,
+        36,
+        36
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "height": 900,
+      "language": "ar",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        900
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_dp_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_dr_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_e1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_dp_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_dr_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_e1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        260,
+        831
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        236,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        40,
+        80,
+        196,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        24,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "height": 900,
+      "language": "ar",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        900
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_f1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_f3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_f9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_f1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_f3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_f9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        260,
+        567
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        236,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        40,
+        80,
+        196,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        24,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          236,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        640,
+        260,
+        260
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        12,
+        652,
+        236,
+        236
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        208,
+        656,
+        36,
+        36
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "height": 480,
+      "language": "en",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        480
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_gh_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_gj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_gp_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_gh_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_gj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_gp_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        400,
+        411
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        376,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        336,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        360,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "height": 480,
+      "language": "en",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        480
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_hp_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_hr_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_i1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_hp_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_hr_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_i1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        400,
+        12
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        376,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        336,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        360,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        85,
+        400,
+        400
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        12,
+        97,
+        376,
+        376
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        348,
+        101,
+        36,
+        36
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "height": 480,
+      "language": "fr",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        480
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_j9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_jb_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_jh_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_j9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_jb_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_jh_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        400,
+        411
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        376,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        336,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        360,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "height": 480,
+      "language": "fr",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        480
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_kh_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_kj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_kp_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_kh_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_kj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_kp_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        400,
+        12
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        376,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        336,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        360,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        85,
+        400,
+        400
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        12,
+        97,
+        376,
+        376
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        348,
+        101,
+        36,
+        36
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "height": 480,
+      "language": "ar",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        480
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_m1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_m3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_m9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_m1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_m3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_m9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        400,
+        411
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        376,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        40,
+        80,
+        336,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        24,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "height": 480,
+      "language": "ar",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        480
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_n9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_nb_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_nh_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_n9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_nb_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_nh_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        400,
+        12
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        376,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        40,
+        80,
+        336,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        24,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        85,
+        400,
+        400
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        12,
+        97,
+        376,
+        376
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        348,
+        101,
+        36,
+        36
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "height": 900,
+      "language": "en",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        900
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_op_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_or_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_p1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_op_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_or_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_p1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        400,
+        831
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        376,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        336,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        360,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "height": 900,
+      "language": "en",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        900
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_q1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_q3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_q9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_q1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_q3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_q9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        400,
+        427
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        376,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        336,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        360,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        500,
+        400,
+        400
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        12,
+        512,
+        376,
+        376
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        348,
+        516,
+        36,
+        36
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "height": 900,
+      "language": "fr",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        900
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_rh_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_rj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_rp_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_rh_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_rj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_rp_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        400,
+        831
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        376,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        336,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        360,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "height": 900,
+      "language": "fr",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        900
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_sp_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_sr_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_t1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_sp_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_sr_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_t1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        400,
+        427
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        376,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        24,
+        80,
+        336,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        360,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        500,
+        400,
+        400
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        12,
+        512,
+        376,
+        376
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        348,
+        516,
+        36,
+        36
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "height": 900,
+      "language": "ar",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        900
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_u9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_ub_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_uh_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_u9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_ub_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_uh_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        400,
+        831
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        376,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        40,
+        80,
+        336,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        24,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "height": 900,
+      "language": "ar",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        900
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_vh_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_vj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_vp_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ".__m__-_r_vh_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_vj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_vp_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        69,
+        400,
+        427
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        12,
+        69,
+        376,
+        40
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        40,
+        80,
+        336,
+        18
+      ],
+      "font": 14,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        24,
+        81,
+        16,
+        16
+      ],
+      "font": 16,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          12,
+          109,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          12,
+          145,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          12,
+          181,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          12,
+          217,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          12,
+          253,
+          376,
+          36
+        ],
+        "font": 14,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        500,
+        400,
+        400
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        12,
+        512,
+        376,
+        376
+      ],
+      "font": 14,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        348,
+        516,
+        36,
+        36
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "height": 480,
+      "language": "en",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        480
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_111_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_113_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_119_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_111_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_113_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_119_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        260,
+        410
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        230,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        180,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        210,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "height": 480,
+      "language": "en",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        480
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_129_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_12b_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_12h_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_129_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_12b_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_12h_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        260,
+        145
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        230,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        180,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        210,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        220,
+        260,
+        260
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        15,
+        235,
+        230,
+        230
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        195,
+        240,
+        45,
+        45
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "height": 480,
+      "language": "fr",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        480
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_13p_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_13r_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_141_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_13p_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_13r_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_141_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        260,
+        410
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        230,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        180,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        210,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "height": 480,
+      "language": "fr",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        480
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_151_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_153_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_159_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_151_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_153_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_159_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        260,
+        145
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        230,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        180,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        210,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        220,
+        260,
+        260
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        15,
+        235,
+        230,
+        230
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        195,
+        240,
+        45,
+        45
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "height": 480,
+      "language": "ar",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        480
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_16h_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_16j_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_16p_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_16h_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_16j_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_16p_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        260,
+        410
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        230,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        50,
+        83.75,
+        180,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        30,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "height": 480,
+      "language": "ar",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        480
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_17p_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_17r_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_181_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_17p_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_17r_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_181_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        260,
+        145
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        230,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        50,
+        83.75,
+        180,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        30,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        220,
+        260,
+        260
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        15,
+        235,
+        230,
+        230
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        195,
+        240,
+        45,
+        45
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "height": 900,
+      "language": "en",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        900
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_199_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_19b_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_19h_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_199_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_19b_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_19h_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        260,
+        830
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        230,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        180,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        210,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "height": 900,
+      "language": "en",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        900
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1ah_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1aj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1ap_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1ah_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1aj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1ap_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        260,
+        565
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        230,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        180,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        210,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        640,
+        260,
+        260
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        15,
+        655,
+        230,
+        230
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        195,
+        660,
+        45,
+        45
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "height": 900,
+      "language": "fr",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        900
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1c1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1c3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1c9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1c1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1c3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1c9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        260,
+        830
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        230,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        180,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        210,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "height": 900,
+      "language": "fr",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        900
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1d9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1db_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1dh_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1d9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1db_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1dh_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        260,
+        565
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        230,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        180,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        210,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        640,
+        260,
+        260
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        15,
+        655,
+        230,
+        230
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        195,
+        660,
+        45,
+        45
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "height": 900,
+      "language": "ar",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        900
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1ep_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1er_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1f1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1ep_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1er_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1f1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        260,
+        830
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        230,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        50,
+        83.75,
+        180,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        30,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "height": 900,
+      "language": "ar",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        900
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1g1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1g3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1g9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1g1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1g3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1g9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        260,
+        565
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        230,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        50,
+        83.75,
+        180,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        30,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          230,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        640,
+        260,
+        260
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        15,
+        655,
+        230,
+        230
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        195,
+        660,
+        45,
+        45
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "height": 480,
+      "language": "en",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        480
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1hh_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1hj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1hp_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1hh_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1hj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1hp_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        400,
+        410
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        370,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        320,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        350,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "height": 480,
+      "language": "en",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        480
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1ip_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1ir_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1j1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1ip_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1ir_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1j1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        400,
+        15
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        370,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        320,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        350,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        90,
+        400,
+        400
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        15,
+        105,
+        370,
+        370
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        335,
+        110,
+        45,
+        45
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "height": 480,
+      "language": "fr",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        480
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1k9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1kb_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1kh_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1k9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1kb_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1kh_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        400,
+        410
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        370,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        320,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        350,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "height": 480,
+      "language": "fr",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        480
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1lh_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1lj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1lp_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1lh_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1lj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1lp_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        400,
+        15
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        370,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        320,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        350,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        90,
+        400,
+        400
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        15,
+        105,
+        370,
+        370
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        335,
+        110,
+        45,
+        45
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "height": 480,
+      "language": "ar",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        480
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1n1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1n3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1n9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1n1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1n3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1n9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        400,
+        410
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        370,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        50,
+        83.75,
+        320,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        30,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "height": 480,
+      "language": "ar",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        480
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1o9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1ob_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1oh_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1o9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1ob_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1oh_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        400,
+        15
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        370,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        50,
+        83.75,
+        320,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        30,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        90,
+        400,
+        400
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        15,
+        105,
+        370,
+        370
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        335,
+        110,
+        45,
+        45
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "height": 900,
+      "language": "en",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        900
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1pp_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1pr_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1q1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1pp_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1pr_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1q1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        400,
+        830
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        370,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        320,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        350,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "height": 900,
+      "language": "en",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        900
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1r1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1r3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1r9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1r1_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1r3_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1r9_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        400,
+        425
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        370,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        320,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        350,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        500,
+        400,
+        400
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        15,
+        515,
+        370,
+        370
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        335,
+        520,
+        45,
+        45
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "height": 900,
+      "language": "fr",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        900
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1sh_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1sj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1sp_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1sh_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1sj_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1sp_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        400,
+        830
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        370,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        320,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        350,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "height": 900,
+      "language": "fr",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        900
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1tp_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1tr_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1u1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1tp_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1tr_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1u1_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        400,
+        425
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "BibliothèqueAccueilAlbumsPistesListes de lectureParamètres"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        370,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "Bibliothèque"
+    },
+    "headingLabel": {
+      "bounds": [
+        30,
+        83.75,
+        320,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "Bibliothèque"
+    },
+    "chevron": {
+      "bounds": [
+        350,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Accueil"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Pistes"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Listes de lecture"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Paramètres"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        500,
+        400,
+        400
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        15,
+        515,
+        370,
+        370
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        335,
+        520,
+        45,
+        45
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "height": 900,
+      "language": "ar",
+      "image": false
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        900
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1v9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1vb_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1vh_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_1v9_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_1vb_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_1vh_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        400,
+        830
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        370,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        50,
+        83.75,
+        320,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        30,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": null,
+    "picture": null,
+    "hideDisplay": null,
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "height": 900,
+      "language": "ar",
+      "image": true
+    },
+    "sidebar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        900
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_20h_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_20j_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_20p_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "action": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ".__m__-_r_20h_{--grid-gap:var(--mantine-spacing-sm);}.__m__-_r_20j_{--col-flex-grow:auto;--col-flex-basis:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));--col-max-width:calc(58.333333333333336% - 0.4166666666666667 * var(--grid-column-gap));}.__m__-_r_20p_{--col-flex-grow:auto;--col-flex-basis:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));--col-max-width:calc(41.666666666666664% - 0.5833333333333334 * var(--grid-column-gap));}"
+    },
+    "scroll": {
+      "bounds": [
+        0,
+        70,
+        400,
+        425
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My LibraryHomeAlbumsTracksPlaylistsSettings"
+    },
+    "heading": {
+      "bounds": [
+        15,
+        70,
+        370,
+        50
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": "My Library"
+    },
+    "headingLabel": {
+      "bounds": [
+        50,
+        83.75,
+        320,
+        22.5
+      ],
+      "font": 17.5,
+      "weight": "500",
+      "text": "My Library"
+    },
+    "chevron": {
+      "bounds": [
+        30,
+        85,
+        20,
+        20
+      ],
+      "font": 20,
+      "weight": "400",
+      "text": ""
+    },
+    "rows": [
+      {
+        "bounds": [
+          15,
+          120,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Home"
+      },
+      {
+        "bounds": [
+          15,
+          165,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Albums"
+      },
+      {
+        "bounds": [
+          15,
+          210,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Tracks"
+      },
+      {
+        "bounds": [
+          15,
+          255,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Playlists"
+      },
+      {
+        "bounds": [
+          15,
+          300,
+          370,
+          45
+        ],
+        "font": 17.5,
+        "weight": "500",
+        "text": "Settings"
+      }
+    ],
+    "artwork": {
+      "bounds": [
+        0,
+        500,
+        400,
+        400
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "picture": {
+      "bounds": [
+        15,
+        515,
+        370,
+        370
+      ],
+      "font": 17.5,
+      "weight": "400",
+      "text": ""
+    },
+    "hideDisplay": "none",
+    "hide": {
+      "bounds": [
+        335,
+        520,
+        45,
+        45
+      ],
+      "display": "block"
+    },
+    "closed": {
+      "expanded": "false",
+      "height": 0
+    }
+  }
+]

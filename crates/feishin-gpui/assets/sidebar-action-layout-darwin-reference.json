@@ -1,0 +1,5294 @@
+[
+  {
+    "config": {
+      "rem": 16,
+      "width": 200,
+      "language": "en",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        200,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        12,
+        14.5,
+        99.328125,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        12,
+        0,
+        34
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        23,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Search",
+    "buttons": [
+      {
+        "bounds": [
+          119.328125,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          120.328125,
+          24.5,
+          15.5546875,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          144.8828125,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          145.8828125,
+          24.5,
+          15.5546875,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          170.4375,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          171.4375,
+          24.5,
+          15.5546875,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 200,
+      "language": "en",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        200,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        12,
+        14.5,
+        99.328125,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        12,
+        0,
+        34
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        23,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Search",
+    "buttons": [
+      {
+        "bounds": [
+          119.328125,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          120.328125,
+          24.5,
+          15.5546875,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          144.8828125,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          145.8828125,
+          24.5,
+          15.5546875,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          170.4375,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          171.4375,
+          24.5,
+          15.5546875,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 200,
+      "language": "fr",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        200,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        12,
+        14.5,
+        99.328125,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        12,
+        0,
+        34
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        23,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Recherche",
+    "buttons": [
+      {
+        "bounds": [
+          119.328125,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          120.328125,
+          24.5,
+          15.5546875,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          144.8828125,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          145.8828125,
+          24.5,
+          15.5546875,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          170.4375,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          171.4375,
+          24.5,
+          15.5546875,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 200,
+      "language": "fr",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        200,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        12,
+        14.5,
+        99.328125,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        12,
+        0,
+        34
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        23,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Recherche",
+    "buttons": [
+      {
+        "bounds": [
+          119.328125,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          120.328125,
+          24.5,
+          15.5546875,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          144.8828125,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          145.8828125,
+          24.5,
+          15.5546875,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          170.4375,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          171.4375,
+          24.5,
+          15.5546875,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 200,
+      "language": "ar",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        200,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        88.671875,
+        14.5,
+        99.328125,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        34,
+        0,
+        12
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        163,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "بحث",
+    "buttons": [
+      {
+        "bounds": [
+          63.1171875,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          64.1171875,
+          24.5,
+          15.5546875,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          37.5625,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          38.5625,
+          24.5,
+          15.5546875,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          12.0078125,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          13.0078125,
+          24.5,
+          15.5546875,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 200,
+      "language": "ar",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        200,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        88.671875,
+        14.5,
+        99.328125,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        34,
+        0,
+        12
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        163,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "بحث",
+    "buttons": [
+      {
+        "bounds": [
+          63.1171875,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          64.1171875,
+          24.5,
+          15.5546875,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          37.5625,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          38.5625,
+          24.5,
+          15.5546875,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          12.0078125,
+          14.5,
+          17.5546875,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          13.0078125,
+          24.5,
+          15.5546875,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "language": "en",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        12,
+        14.5,
+        134.328125,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        12,
+        0,
+        34
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        23,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Search",
+    "buttons": [
+      {
+        "bounds": [
+          154.328125,
+          14.5,
+          25.8828125,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          159.265625,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          188.2109375,
+          14.5,
+          25.890625,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          193.15625,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          222.1015625,
+          14.5,
+          25.890625,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          227.046875,
+          24.5,
+          16,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "language": "en",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        12,
+        14.5,
+        134.328125,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        12,
+        0,
+        34
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        23,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Search",
+    "buttons": [
+      {
+        "bounds": [
+          154.328125,
+          14.5,
+          25.8828125,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          159.265625,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          188.2109375,
+          14.5,
+          25.890625,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          193.15625,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          222.1015625,
+          14.5,
+          25.890625,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          227.046875,
+          24.5,
+          16,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "language": "fr",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        12,
+        14.5,
+        134.328125,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        12,
+        0,
+        34
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        23,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Recherche",
+    "buttons": [
+      {
+        "bounds": [
+          154.328125,
+          14.5,
+          25.8828125,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          159.265625,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          188.2109375,
+          14.5,
+          25.890625,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          193.15625,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          222.1015625,
+          14.5,
+          25.890625,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          227.046875,
+          24.5,
+          16,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "language": "fr",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        12,
+        14.5,
+        134.328125,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        12,
+        0,
+        34
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        23,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Recherche",
+    "buttons": [
+      {
+        "bounds": [
+          154.328125,
+          14.5,
+          25.8828125,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          159.265625,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          188.2109375,
+          14.5,
+          25.890625,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          193.15625,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          222.1015625,
+          14.5,
+          25.890625,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          227.046875,
+          24.5,
+          16,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "language": "ar",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        113.671875,
+        14.5,
+        134.328125,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        34,
+        0,
+        12
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        223,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "بحث",
+    "buttons": [
+      {
+        "bounds": [
+          79.7890625,
+          14.5,
+          25.8828125,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          84.734375,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          45.8984375,
+          14.5,
+          25.890625,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          50.84375,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          12.0078125,
+          14.5,
+          25.890625,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          16.953125,
+          24.5,
+          16,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 260,
+      "language": "ar",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        113.671875,
+        14.5,
+        134.328125,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        34,
+        0,
+        12
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        223,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "بحث",
+    "buttons": [
+      {
+        "bounds": [
+          79.7890625,
+          14.5,
+          25.8828125,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          84.734375,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          45.8984375,
+          14.5,
+          25.890625,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          50.84375,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          12.0078125,
+          14.5,
+          25.890625,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          16.953125,
+          24.5,
+          16,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "language": "en",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        12,
+        14.5,
+        216,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        12,
+        0,
+        34
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        23,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Search",
+    "buttons": [
+      {
+        "bounds": [
+          236,
+          14.5,
+          45.328125,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          250.6640625,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          289.328125,
+          14.5,
+          45.3359375,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          303.9921875,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          342.6640625,
+          14.5,
+          45.3359375,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          357.328125,
+          24.5,
+          16,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "language": "en",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        12,
+        14.5,
+        216,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        12,
+        0,
+        34
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        23,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Search",
+    "buttons": [
+      {
+        "bounds": [
+          236,
+          14.5,
+          45.328125,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          250.6640625,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          289.328125,
+          14.5,
+          45.3359375,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          303.9921875,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          342.6640625,
+          14.5,
+          45.3359375,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          357.328125,
+          24.5,
+          16,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "language": "fr",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        12,
+        14.5,
+        216,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        12,
+        0,
+        34
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        23,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Recherche",
+    "buttons": [
+      {
+        "bounds": [
+          236,
+          14.5,
+          45.328125,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          250.6640625,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          289.328125,
+          14.5,
+          45.3359375,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          303.9921875,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          342.6640625,
+          14.5,
+          45.3359375,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          357.328125,
+          24.5,
+          16,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "language": "fr",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        12,
+        14.5,
+        216,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        12,
+        0,
+        34
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        23,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Recherche",
+    "buttons": [
+      {
+        "bounds": [
+          236,
+          14.5,
+          45.328125,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          250.6640625,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          289.328125,
+          14.5,
+          45.3359375,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          303.9921875,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          342.6640625,
+          14.5,
+          45.3359375,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          357.328125,
+          24.5,
+          16,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "language": "ar",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        172,
+        14.5,
+        216,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        34,
+        0,
+        12
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        363,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "بحث",
+    "buttons": [
+      {
+        "bounds": [
+          118.671875,
+          14.5,
+          45.328125,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          133.3359375,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          65.3359375,
+          14.5,
+          45.3359375,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          80.0078125,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          12,
+          14.5,
+          45.3359375,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          26.671875,
+          24.5,
+          16,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 16,
+      "width": 400,
+      "language": "ar",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        172,
+        14.5,
+        216,
+        36
+      ],
+      "font": 13,
+      "radius": 3,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        34,
+        0,
+        12
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        363,
+        25.5,
+        14,
+        14
+      ],
+      "font": 14,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "بحث",
+    "buttons": [
+      {
+        "bounds": [
+          118.671875,
+          14.5,
+          45.328125,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          133.3359375,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          65.3359375,
+          14.5,
+          45.3359375,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          80.0078125,
+          24.5,
+          16,
+          16
+        ]
+      },
+      {
+        "bounds": [
+          12,
+          14.5,
+          45.3359375,
+          36
+        ],
+        "font": 13,
+        "radius": 3,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          26.671875,
+          24.5,
+          16,
+          16
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 200,
+      "language": "en",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        200,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        15,
+        10,
+        95,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        15,
+        0,
+        42.5
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        28.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Search",
+    "buttons": [
+      {
+        "bounds": [
+          120,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          121,
+          22.5,
+          13,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          145,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          146,
+          22.5,
+          13,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          170,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          171,
+          22.5,
+          13,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 200,
+      "language": "en",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        200,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        15,
+        10,
+        95,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        15,
+        0,
+        42.5
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        28.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Search",
+    "buttons": [
+      {
+        "bounds": [
+          120,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          121,
+          22.5,
+          13,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          145,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          146,
+          22.5,
+          13,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          170,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          171,
+          22.5,
+          13,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 200,
+      "language": "fr",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        200,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        15,
+        10,
+        95,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        15,
+        0,
+        42.5
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        28.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Recherche",
+    "buttons": [
+      {
+        "bounds": [
+          120,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          121,
+          22.5,
+          13,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          145,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          146,
+          22.5,
+          13,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          170,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          171,
+          22.5,
+          13,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 200,
+      "language": "fr",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        200,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        15,
+        10,
+        95,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        15,
+        0,
+        42.5
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        28.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Recherche",
+    "buttons": [
+      {
+        "bounds": [
+          120,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          121,
+          22.5,
+          13,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          145,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          146,
+          22.5,
+          13,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          170,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          171,
+          22.5,
+          13,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 200,
+      "language": "ar",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        200,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        90,
+        10,
+        95,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        42.5,
+        0,
+        15
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        153.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "بحث",
+    "buttons": [
+      {
+        "bounds": [
+          65,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          66,
+          22.5,
+          13,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          40,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          41,
+          22.5,
+          13,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          15,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          16,
+          22.5,
+          13,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 200,
+      "language": "ar",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        200,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        90,
+        10,
+        95,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        42.5,
+        0,
+        15
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        153.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "بحث",
+    "buttons": [
+      {
+        "bounds": [
+          65,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          66,
+          22.5,
+          13,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          40,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          41,
+          22.5,
+          13,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          15,
+          10,
+          15,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          16,
+          22.5,
+          13,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "language": "en",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        15,
+        10,
+        129.9921875,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        15,
+        0,
+        42.5
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        28.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Search",
+    "buttons": [
+      {
+        "bounds": [
+          154.9921875,
+          10,
+          23.328125,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          156.65625,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          188.3203125,
+          10,
+          23.3359375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          189.984375,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          221.65625,
+          10,
+          23.3359375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          223.3203125,
+          22.5,
+          20,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "language": "en",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        15,
+        10,
+        129.9921875,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        15,
+        0,
+        42.5
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        28.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Search",
+    "buttons": [
+      {
+        "bounds": [
+          154.9921875,
+          10,
+          23.328125,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          156.65625,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          188.3203125,
+          10,
+          23.3359375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          189.984375,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          221.65625,
+          10,
+          23.3359375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          223.3203125,
+          22.5,
+          20,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "language": "fr",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        15,
+        10,
+        129.9921875,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        15,
+        0,
+        42.5
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        28.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Recherche",
+    "buttons": [
+      {
+        "bounds": [
+          154.9921875,
+          10,
+          23.328125,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          156.65625,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          188.3203125,
+          10,
+          23.3359375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          189.984375,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          221.65625,
+          10,
+          23.3359375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          223.3203125,
+          22.5,
+          20,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "language": "fr",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        15,
+        10,
+        129.9921875,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        15,
+        0,
+        42.5
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        28.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Recherche",
+    "buttons": [
+      {
+        "bounds": [
+          154.9921875,
+          10,
+          23.328125,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          156.65625,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          188.3203125,
+          10,
+          23.3359375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          189.984375,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          221.65625,
+          10,
+          23.3359375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          223.3203125,
+          22.5,
+          20,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "language": "ar",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        115.0078125,
+        10,
+        129.9921875,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        42.5,
+        0,
+        15
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        213.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "بحث",
+    "buttons": [
+      {
+        "bounds": [
+          81.6796875,
+          10,
+          23.328125,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          83.34375,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          48.34375,
+          10,
+          23.3359375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          50.015625,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          15.0078125,
+          10,
+          23.3359375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          16.6796875,
+          22.5,
+          20,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 260,
+      "language": "ar",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        260,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        115.0078125,
+        10,
+        129.9921875,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        42.5,
+        0,
+        15
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        213.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "بحث",
+    "buttons": [
+      {
+        "bounds": [
+          81.6796875,
+          10,
+          23.328125,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          83.34375,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          48.34375,
+          10,
+          23.3359375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          50.015625,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          15.0078125,
+          10,
+          23.3359375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          16.6796875,
+          22.5,
+          20,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "language": "en",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        15,
+        10,
+        211.6640625,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        15,
+        0,
+        42.5
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        28.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Search",
+    "buttons": [
+      {
+        "bounds": [
+          236.6640625,
+          10,
+          42.7734375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          248.046875,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          289.4375,
+          10,
+          42.78125,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          300.828125,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          342.21875,
+          10,
+          42.7734375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          353.6015625,
+          22.5,
+          20,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "language": "en",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        15,
+        10,
+        211.6640625,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        15,
+        0,
+        42.5
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        28.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Search",
+    "buttons": [
+      {
+        "bounds": [
+          236.6640625,
+          10,
+          42.7734375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          248.046875,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          289.4375,
+          10,
+          42.78125,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          300.828125,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          342.21875,
+          10,
+          42.7734375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          353.6015625,
+          22.5,
+          20,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "language": "fr",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        15,
+        10,
+        211.6640625,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        15,
+        0,
+        42.5
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        28.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Recherche",
+    "buttons": [
+      {
+        "bounds": [
+          236.6640625,
+          10,
+          42.7734375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          248.046875,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          289.4375,
+          10,
+          42.78125,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          300.828125,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          342.21875,
+          10,
+          42.7734375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          353.6015625,
+          22.5,
+          20,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "language": "fr",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        15,
+        10,
+        211.6640625,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        15,
+        0,
+        42.5
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        28.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "Recherche",
+    "buttons": [
+      {
+        "bounds": [
+          236.6640625,
+          10,
+          42.7734375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          248.046875,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          289.4375,
+          10,
+          42.78125,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          300.828125,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          342.21875,
+          10,
+          42.7734375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          353.6015625,
+          22.5,
+          20,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "language": "ar",
+      "scanning": false
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        173.3359375,
+        10,
+        211.6640625,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        42.5,
+        0,
+        15
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        353.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "بحث",
+    "buttons": [
+      {
+        "bounds": [
+          120.5625,
+          10,
+          42.7734375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "menu",
+        "iconBounds": [
+          131.953125,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          67.78125,
+          10,
+          42.78125,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          79.171875,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          15.0078125,
+          10,
+          42.7734375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          26.3984375,
+          22.5,
+          20,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  },
+  {
+    "config": {
+      "rem": 20,
+      "width": 400,
+      "language": "ar",
+      "scanning": true
+    },
+    "bar": {
+      "bounds": [
+        0,
+        0,
+        400,
+        65
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "input": {
+      "bounds": [
+        173.3359375,
+        10,
+        211.6640625,
+        45
+      ],
+      "font": 16.25,
+      "radius": 3.75,
+      "background": "rgb(35, 35, 35)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        42.5,
+        0,
+        15
+      ]
+    },
+    "searchIcon": {
+      "bounds": [
+        353.75,
+        23.75,
+        17.5,
+        17.5
+      ],
+      "font": 17.5,
+      "radius": 0,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(201, 201, 201)",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "placeholder": "بحث",
+    "buttons": [
+      {
+        "bounds": [
+          120.5625,
+          10,
+          42.7734375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "spinner",
+        "iconBounds": [
+          131.953125,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          67.78125,
+          10,
+          42.78125,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowLeftS",
+        "iconBounds": [
+          79.171875,
+          22.5,
+          20,
+          20
+        ]
+      },
+      {
+        "bounds": [
+          15.0078125,
+          10,
+          42.7734375,
+          45
+        ],
+        "font": 16.25,
+        "radius": 3.75,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(238, 238, 238)",
+        "padding": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "icon": "arrowRightS",
+        "iconBounds": [
+          26.3984375,
+          22.5,
+          20,
+          20
+        ]
+      }
+    ],
+    "calls": [
+      "search",
+      "search",
+      "search",
+      -1,
+      1
+    ]
+  }
+]

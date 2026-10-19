@@ -1,0 +1,12 @@
+[package]
+name = "feishin-audio-capture"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+
+[target.'cfg(target_os = "macos")'.dependencies]
+screencapturekit = { version = "=11.0.0", default-features = false }

@@ -1,0 +1,748 @@
+[
+  {
+    "count": 1,
+    "event": "start",
+    "queue": [],
+    "method": "scrobblePlaying",
+    "body": {
+      "ItemId": "song",
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 1,
+    "event": "pause",
+    "queue": [],
+    "method": "scrobbleProgress",
+    "body": {
+      "EventName": "pause",
+      "IsPaused": true,
+      "ItemId": "song",
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 1,
+    "event": "unpause",
+    "queue": [],
+    "method": "scrobbleProgress",
+    "body": {
+      "EventName": "unpause",
+      "IsPaused": false,
+      "ItemId": "song",
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 1,
+    "event": "timeupdate",
+    "queue": [],
+    "method": "scrobbleProgress",
+    "body": {
+      "EventName": "timeupdate",
+      "ItemId": "song",
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 1,
+    "event": "stop",
+    "queue": [],
+    "method": "scrobbleStopped",
+    "body": {
+      "ItemId": "song",
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 1,
+    "event": "submit",
+    "queue": [],
+    "method": "scrobbleStopped",
+    "body": {
+      "IsPaused": true,
+      "ItemId": "song",
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 2,
+    "event": "start",
+    "queue": [
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      }
+    ],
+    "method": "scrobblePlaying",
+    "body": {
+      "ItemId": "song",
+      "NowPlayingQueue": [
+        {
+          "Id": "song1"
+        },
+        {
+          "Id": "song0"
+        }
+      ],
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 2,
+    "event": "pause",
+    "queue": [
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      }
+    ],
+    "method": "scrobbleProgress",
+    "body": {
+      "EventName": "pause",
+      "IsPaused": true,
+      "ItemId": "song",
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 2,
+    "event": "unpause",
+    "queue": [
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      }
+    ],
+    "method": "scrobbleProgress",
+    "body": {
+      "EventName": "unpause",
+      "IsPaused": false,
+      "ItemId": "song",
+      "NowPlayingQueue": [
+        {
+          "Id": "song1"
+        },
+        {
+          "Id": "song0"
+        }
+      ],
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 2,
+    "event": "timeupdate",
+    "queue": [
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      }
+    ],
+    "method": "scrobbleProgress",
+    "body": {
+      "EventName": "timeupdate",
+      "ItemId": "song",
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 2,
+    "event": "stop",
+    "queue": [
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      }
+    ],
+    "method": "scrobbleStopped",
+    "body": {
+      "ItemId": "song",
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 2,
+    "event": "submit",
+    "queue": [
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      }
+    ],
+    "method": "scrobbleStopped",
+    "body": {
+      "IsPaused": true,
+      "ItemId": "song",
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 30,
+    "event": "start",
+    "queue": [
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      }
+    ],
+    "method": "scrobblePlaying",
+    "body": {
+      "ItemId": "song",
+      "NowPlayingQueue": [
+        {
+          "Id": "song2"
+        },
+        {
+          "Id": "song1"
+        },
+        {
+          "Id": "song0"
+        },
+        {
+          "Id": "song2"
+        },
+        {
+          "Id": "song1"
+        },
+        {
+          "Id": "song0"
+        },
+        {
+          "Id": "song2"
+        },
+        {
+          "Id": "song1"
+        },
+        {
+          "Id": "song0"
+        },
+        {
+          "Id": "song2"
+        },
+        {
+          "Id": "song1"
+        },
+        {
+          "Id": "song0"
+        },
+        {
+          "Id": "song2"
+        },
+        {
+          "Id": "song1"
+        },
+        {
+          "Id": "song0"
+        },
+        {
+          "Id": "song2"
+        },
+        {
+          "Id": "song1"
+        },
+        {
+          "Id": "song0"
+        },
+        {
+          "Id": "song2"
+        },
+        {
+          "Id": "song1"
+        }
+      ],
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 30,
+    "event": "pause",
+    "queue": [
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      }
+    ],
+    "method": "scrobbleProgress",
+    "body": {
+      "EventName": "pause",
+      "IsPaused": true,
+      "ItemId": "song",
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 30,
+    "event": "unpause",
+    "queue": [
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      }
+    ],
+    "method": "scrobbleProgress",
+    "body": {
+      "EventName": "unpause",
+      "IsPaused": false,
+      "ItemId": "song",
+      "NowPlayingQueue": [
+        {
+          "Id": "song2"
+        },
+        {
+          "Id": "song1"
+        },
+        {
+          "Id": "song0"
+        },
+        {
+          "Id": "song2"
+        },
+        {
+          "Id": "song1"
+        },
+        {
+          "Id": "song0"
+        },
+        {
+          "Id": "song2"
+        },
+        {
+          "Id": "song1"
+        },
+        {
+          "Id": "song0"
+        },
+        {
+          "Id": "song2"
+        },
+        {
+          "Id": "song1"
+        },
+        {
+          "Id": "song0"
+        },
+        {
+          "Id": "song2"
+        },
+        {
+          "Id": "song1"
+        },
+        {
+          "Id": "song0"
+        },
+        {
+          "Id": "song2"
+        },
+        {
+          "Id": "song1"
+        },
+        {
+          "Id": "song0"
+        },
+        {
+          "Id": "song2"
+        },
+        {
+          "Id": "song1"
+        }
+      ],
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 30,
+    "event": "timeupdate",
+    "queue": [
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      }
+    ],
+    "method": "scrobbleProgress",
+    "body": {
+      "EventName": "timeupdate",
+      "ItemId": "song",
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 30,
+    "event": "stop",
+    "queue": [
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      }
+    ],
+    "method": "scrobbleStopped",
+    "body": {
+      "ItemId": "song",
+      "PositionTicks": 125000000
+    }
+  },
+  {
+    "count": 30,
+    "event": "submit",
+    "queue": [
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      },
+      {
+        "Id": "song0"
+      },
+      {
+        "Id": "song2"
+      },
+      {
+        "Id": "song1"
+      }
+    ],
+    "method": "scrobbleStopped",
+    "body": {
+      "IsPaused": true,
+      "ItemId": "song",
+      "PositionTicks": 125000000
+    }
+  }
+]

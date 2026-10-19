@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#15181e">
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/icon-256.png" type="image/png">
+<link rel="apple-touch-icon" href="/icon-256.png">
+<title>Feishin Remote</title>
+<style>
+:root{color-scheme:dark;--bg:#15181e;--card:#222730;--muted:#a3afc2;--accent:#a7c8ff;--text:#f2f5fa;--border:#414957}
+:root[data-theme=light]{color-scheme:light;--bg:#f6f7fa;--card:#fff;--muted:#586478;--text:#19202b;--border:#bdc6d5;--accent:#346bb8}
+*{box-sizing:border-box}body{margin:0 auto;padding:24px 16px;max-width:900px;background:var(--bg);color:var(--text);font:16px system-ui}h1{font-size:26px}button,input,select{font:inherit;padding:10px 14px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:inherit}button{cursor:pointer}button:hover,button[aria-pressed=true]{border-color:var(--accent)}button:disabled{opacity:.5;cursor:wait}input{min-width:0}form,.controls,nav,header{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}header{align-items:center;justify-content:space-between}input[type=range]{padding:0;flex:1}#error{color:#e47878;min-height:1.4em}.row{display:flex;gap:12px;align-items:center;padding:14px 8px;border-bottom:1px solid var(--border)}.row.current{border-left:3px solid var(--accent)}.row .info{flex:1;min-width:0}.row small{color:var(--muted);display:block}.row strong{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.row img{width:44px;height:44px;border-radius:5px;object-fit:cover}.row .moves{display:flex;gap:3px}.row .moves button{padding:6px}#player{padding:20px;background:var(--card);border-radius:12px;position:sticky;top:10px;z-index:1}#artwork{width:76px;height:76px;object-fit:cover;float:left;margin:0 16px 8px 0;cursor:zoom-in}#title{display:block}#artist{color:var(--muted)}[hidden]{display:none!important}label{display:flex;gap:10px;align-items:center;margin:12px 0}dialog{border:1px solid var(--border);border-radius:14px;background:var(--bg);color:var(--text);width:min(95vw,580px);max-height:85vh;overflow:auto}dialog::backdrop{background:#0009}dialog h2{font-size:20px}dialog button{margin:4px}#art-dialog{width:min(95vw,900px)}#art-dialog img{width:100%;max-height:75vh;object-fit:contain}#playlist-choices{display:flex;flex-direction:column}#time{font-variant-numeric:tabular-nums}.tools{display:flex;gap:8px;align-items:center}.tools #search{flex:1}.tools input{flex:1}nav button[aria-current=page]{background:var(--accent);color:var(--bg)}@media(max-width:520px){body{padding:12px 8px}.row{gap:7px}.row button{padding:8px}.row img{width:36px;height:36px}#player{padding:12px}#artwork{width:60px;height:60px}.controls{gap:5px}.controls button{padding:8px}.tools{flex-wrap:wrap}}
+</style>
+<style>
+#list[data-virtual=true]{height:600px;max-height:70vh;overflow:auto;overscroll-behavior:contain}
+#list[data-virtual=true] .row{height:76px}
+.row small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row{user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;touch-action:pan-y}
+.drag-handle{touch-action:none;cursor:grab}
+.row[data-drop=top]{box-shadow:inset 0 2px var(--accent)}
+.row[data-drop=bottom]{box-shadow:inset 0 -2px var(--accent)}
+</style>
+</head>
+<body>
+<header><h1>feishin <small>remote</small></h1><button id="theme">Theme</button></header>
+<p id="error" role="status" aria-live="polite"></p>
+<form id="login"><input name="username" placeholder="Remote username" autocomplete="username"><input name="password" type="password" placeholder="Remote password" autocomplete="current-password"><button>Connect</button></form>
+<main id="app" hidden>
+<section id="player" aria-label="Player">
+<img id="artwork" alt="Current artwork" hidden>
+<strong id="title">Nothing playing</strong><p id="artist"></p><small id="time">0:00</small>
+<div class="controls">
+<button id="previous" data-event="previous" aria-label="Previous">|◀</button><button id="play" data-event="play" aria-label="Play">▶</button><button id="pause" data-event="pause" aria-label="Pause">Ⅱ</button><button id="next" data-event="next" aria-label="Next">▶|</button><button id="stop-radio" data-event="stop-radio" hidden>Stop radio</button><button id="shuffle" data-event="shuffle" aria-pressed="false">Shuffle</button><button id="repeat" data-event="repeat">Repeat: none</button>
+</div>
+<label>Seek <input id="seek" type="range" min="0" max="1000" value="0" aria-label="Seek position"></label>
+<label>Volume <input id="volume" type="range" min="0" max="100" value="50" aria-label="Volume"></label>
+<div class="controls"><button id="favorite" aria-pressed="false">Favorite</button><label>Rating <select id="rating" aria-label="Track rating"><option value="0">None</option><option value="1">★</option><option value="2">★★</option><option value="3">★★★</option><option value="4">★★★★</option><option value="5">★★★★★</option></select></label></div>
+</section>
+<nav aria-label="Library"><button data-tab="queue" aria-current="page">Queue</button><button data-tab="tracks">Songs</button><button data-tab="albums">Albums</button><button data-tab="playlists">Playlists</button><button data-tab="radio">Radio</button></nav>
+<div class="tools"><form id="search"><input name="query" placeholder="Search library" aria-label="Search library"><button>Search</button></form><button id="clear">Clear queue</button><button id="refresh">Refresh</button></div>
+<section id="list" aria-label="Library items"></section><button id="more" hidden>Load more</button>
+</main>
+<dialog id="actions"><button data-close="actions" aria-label="Close actions">Close</button><h2 id="action-title"></h2><div id="action-buttons"></div><section id="playlist-picker" hidden><h3>Add to playlist</h3><form id="playlist-search"><input name="query" placeholder="Search playlists" aria-label="Search playlists"><button>Search</button></form><div id="playlist-choices"></div><button id="playlist-more" hidden>Load more playlists</button></section></dialog>
+<dialog id="art-dialog"><button data-close="art-dialog" aria-label="Close artwork">Close</button><img id="full-art" alt="Current artwork"></dialog>
+<script src="/remote.js" defer></script>
+</body>
+</html>

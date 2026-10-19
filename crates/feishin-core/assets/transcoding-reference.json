@@ -1,0 +1,3549 @@
+[
+  {
+    "backend": "ss",
+    "format": "",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {}
+  },
+  {
+    "backend": "ss",
+    "format": "",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {}
+  },
+  {
+    "backend": "ss",
+    "format": "",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {}
+  },
+  {
+    "backend": "ss",
+    "format": "",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "mp3",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "mp3"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "mp3",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "mp3"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "mp3",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "mp3"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "mp3",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "mp3",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "mp3",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "mp3",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "mp3",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "mp3",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "mp3",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "mp3",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "mp3",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "mp3",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "mp3",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "mp3",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "mp3",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "mp3",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "mp3",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "mp3",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "mp3",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "mp3",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "FLAC",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "FLAC"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "FLAC",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "FLAC"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "FLAC",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "FLAC"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "FLAC",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "FLAC",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "FLAC",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "FLAC",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "FLAC",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "FLAC",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "FLAC",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "FLAC",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "FLAC",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "FLAC",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "FLAC",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "FLAC",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "FLAC",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "FLAC",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "FLAC",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "FLAC",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "FLAC",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "FLAC",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "wav",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "wav"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "wav",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "wav"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "wav",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "wav"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "wav",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "wav",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "wav",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "wav",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "wav",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "wav",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "wav",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "wav",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "wav",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "wav",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "wav",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "wav",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "wav",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "wav",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "wav",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "wav",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "wav",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "wav",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "alac",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "alac"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "alac",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "alac"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "alac",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "alac"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "alac",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "alac",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "alac",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "alac",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "alac",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "alac",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "alac",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "alac",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "alac",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "alac",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "alac",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "alac",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "alac",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "alac",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "alac",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "alac",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "alac",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "alac",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "pcm_s16le",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "pcm_s16le"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "pcm_s16le",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "pcm_s16le"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "pcm_s16le",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "pcm_s16le"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "pcm_s16le",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "pcm_s16le",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "pcm_s16le",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "pcm_s16le",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "pcm_s16le",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "pcm_s16le",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "pcm_s16le",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "pcm_s16le",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "pcm_s16le",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "pcm_s16le",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "pcm_s16le",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "pcm_s16le",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "pcm_s16le",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "pcm_s16le",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "pcm_s16le",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "pcm_s16le",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "pcm_s16le",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "pcm_s16le",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "original",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "original"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "original",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "original"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "original",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "original"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "original",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "original",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "original",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "original",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "original",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "original",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "original",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "original",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "original",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "original",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "original",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "original",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "original",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "original",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "original",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "original",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "original",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "original",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "ogg",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "ogg"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "ogg",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "ogg"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "ogg",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "ogg"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "ogg",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "ogg",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "ogg",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "ogg",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "ogg",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "ogg",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "ogg",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "ogg",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "ogg",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "ogg",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "ogg",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "ogg",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "ogg",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "ogg",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "ogg",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "ogg",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "ogg",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "ogg",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "aac",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "aac"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "aac",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "aac"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "aac",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "aac"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "aac",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "aac",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "aac",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "aac",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "aac",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "aac",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "aac",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "aac",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "aac",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "aac",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "aac",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "aac",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "aac",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "aac",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "aac",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "aac",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "aac",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "aac",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "opus",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "opus"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "opus",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "opus"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "opus",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "opus"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "opus",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "opus",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "opus",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "opus",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "opus",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "opus",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "opus",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "opus",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "opus",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "opus",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "opus",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "opus",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "opus",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "opus",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "opus",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "opus",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "opus",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "opus",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "vorbis",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "vorbis"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "vorbis",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "vorbis"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "vorbis",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "vorbis"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "vorbis",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "vorbis",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "vorbis",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "vorbis",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "vorbis",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "vorbis",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "vorbis",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "vorbis",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "vorbis",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "vorbis",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "vorbis",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "vorbis",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "vorbis",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "vorbis",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "vorbis",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "vorbis",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "vorbis",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "vorbis",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "m4a",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "m4a"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "m4a",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "m4a"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "m4a",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "m4a"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "m4a",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "m4a",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "m4a",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "m4a",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "m4a",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "m4a",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "m4a",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "m4a",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "m4a",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "m4a",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "m4a",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "m4a",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "m4a",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "m4a",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "m4a",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "m4a",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "m4a",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "m4a",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "custom-codec",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "custom-codec"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "custom-codec",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "custom-codec"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "custom-codec",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "custom-codec"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "custom-codec",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "custom-codec",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "custom-codec",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "custom-codec",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "custom-codec",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "custom-codec",
+      "maxbitrate": "0"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "custom-codec",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "custom-codec",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "custom-codec",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "custom-codec",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "custom-codec",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "custom-codec",
+      "maxbitrate": "257"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "custom-codec",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "custom-codec",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "custom-codec",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "custom-codec",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "ss",
+    "format": "custom-codec",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/rest/stream.view",
+    "params": {
+      "format": "custom-codec",
+      "maxbitrate": "4294967295"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "0",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "257000",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "4294967295000",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "mp3",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "mp3",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "mp3",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "mp3",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "mp3",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "mp3",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "0",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "mp3",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "mp3",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "mp3",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "257000",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "mp3",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "mp3",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "mp3",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.mp3",
+    "params": {
+      "audiocodec": "mp3",
+      "static": "false",
+      "audiobitrate": "4294967295000",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "FLAC",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/Audio/song/stream.flac",
+    "params": {
+      "audiocodec": "flac",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "FLAC",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.flac",
+    "params": {
+      "audiocodec": "flac",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "FLAC",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.flac",
+    "params": {
+      "audiocodec": "flac",
+      "static": "false",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "FLAC",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/Audio/song/stream.flac",
+    "params": {
+      "audiocodec": "flac",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "FLAC",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.flac",
+    "params": {
+      "audiocodec": "flac",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "FLAC",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.flac",
+    "params": {
+      "audiocodec": "flac",
+      "static": "false",
+      "audiobitrate": "0",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "FLAC",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/Audio/song/stream.flac",
+    "params": {
+      "audiocodec": "flac",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "FLAC",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.flac",
+    "params": {
+      "audiocodec": "flac",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "FLAC",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.flac",
+    "params": {
+      "audiocodec": "flac",
+      "static": "false",
+      "audiobitrate": "257000",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "FLAC",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/Audio/song/stream.flac",
+    "params": {
+      "audiocodec": "flac",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "FLAC",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.flac",
+    "params": {
+      "audiocodec": "flac",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "FLAC",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.flac",
+    "params": {
+      "audiocodec": "flac",
+      "static": "false",
+      "audiobitrate": "4294967295000",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "wav",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/Audio/song/stream.wav",
+    "params": {
+      "audiocodec": "wav",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "wav",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.wav",
+    "params": {
+      "audiocodec": "wav",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "wav",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.wav",
+    "params": {
+      "audiocodec": "wav",
+      "static": "false",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "wav",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/Audio/song/stream.wav",
+    "params": {
+      "audiocodec": "wav",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "wav",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.wav",
+    "params": {
+      "audiocodec": "wav",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "wav",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.wav",
+    "params": {
+      "audiocodec": "wav",
+      "static": "false",
+      "audiobitrate": "0",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "wav",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/Audio/song/stream.wav",
+    "params": {
+      "audiocodec": "wav",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "wav",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.wav",
+    "params": {
+      "audiocodec": "wav",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "wav",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.wav",
+    "params": {
+      "audiocodec": "wav",
+      "static": "false",
+      "audiobitrate": "257000",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "wav",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/Audio/song/stream.wav",
+    "params": {
+      "audiocodec": "wav",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "wav",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.wav",
+    "params": {
+      "audiocodec": "wav",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "wav",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.wav",
+    "params": {
+      "audiocodec": "wav",
+      "static": "false",
+      "audiobitrate": "4294967295000",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "alac",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/Audio/song/stream.alac",
+    "params": {
+      "audiocodec": "alac",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "alac",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.alac",
+    "params": {
+      "audiocodec": "alac",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "alac",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.alac",
+    "params": {
+      "audiocodec": "alac",
+      "static": "false",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "alac",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/Audio/song/stream.alac",
+    "params": {
+      "audiocodec": "alac",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "alac",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.alac",
+    "params": {
+      "audiocodec": "alac",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "alac",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.alac",
+    "params": {
+      "audiocodec": "alac",
+      "static": "false",
+      "audiobitrate": "0",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "alac",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/Audio/song/stream.alac",
+    "params": {
+      "audiocodec": "alac",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "alac",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.alac",
+    "params": {
+      "audiocodec": "alac",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "alac",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.alac",
+    "params": {
+      "audiocodec": "alac",
+      "static": "false",
+      "audiobitrate": "257000",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "alac",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/Audio/song/stream.alac",
+    "params": {
+      "audiocodec": "alac",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "alac",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.alac",
+    "params": {
+      "audiocodec": "alac",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "alac",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.alac",
+    "params": {
+      "audiocodec": "alac",
+      "static": "false",
+      "audiobitrate": "4294967295000",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "pcm_s16le",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/Audio/song/stream.pcm_s16le",
+    "params": {
+      "audiocodec": "pcm_s16le",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "pcm_s16le",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.pcm_s16le",
+    "params": {
+      "audiocodec": "pcm_s16le",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "pcm_s16le",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.pcm_s16le",
+    "params": {
+      "audiocodec": "pcm_s16le",
+      "static": "false",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "pcm_s16le",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/Audio/song/stream.pcm_s16le",
+    "params": {
+      "audiocodec": "pcm_s16le",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "pcm_s16le",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.pcm_s16le",
+    "params": {
+      "audiocodec": "pcm_s16le",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "pcm_s16le",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.pcm_s16le",
+    "params": {
+      "audiocodec": "pcm_s16le",
+      "static": "false",
+      "audiobitrate": "0",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "pcm_s16le",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/Audio/song/stream.pcm_s16le",
+    "params": {
+      "audiocodec": "pcm_s16le",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "pcm_s16le",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.pcm_s16le",
+    "params": {
+      "audiocodec": "pcm_s16le",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "pcm_s16le",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.pcm_s16le",
+    "params": {
+      "audiocodec": "pcm_s16le",
+      "static": "false",
+      "audiobitrate": "257000",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "pcm_s16le",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/Audio/song/stream.pcm_s16le",
+    "params": {
+      "audiocodec": "pcm_s16le",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "pcm_s16le",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.pcm_s16le",
+    "params": {
+      "audiocodec": "pcm_s16le",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "pcm_s16le",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.pcm_s16le",
+    "params": {
+      "audiocodec": "pcm_s16le",
+      "static": "false",
+      "audiobitrate": "4294967295000",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "original",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/Audio/song/stream.original",
+    "params": {
+      "audiocodec": "original",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "original",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.original",
+    "params": {
+      "audiocodec": "original",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "original",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.original",
+    "params": {
+      "audiocodec": "original",
+      "static": "false",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "original",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/Audio/song/stream.original",
+    "params": {
+      "audiocodec": "original",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "original",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.original",
+    "params": {
+      "audiocodec": "original",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "original",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.original",
+    "params": {
+      "audiocodec": "original",
+      "static": "false",
+      "audiobitrate": "0",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "original",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/Audio/song/stream.original",
+    "params": {
+      "audiocodec": "original",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "original",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.original",
+    "params": {
+      "audiocodec": "original",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "original",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.original",
+    "params": {
+      "audiocodec": "original",
+      "static": "false",
+      "audiobitrate": "257000",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "original",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/Audio/song/stream.original",
+    "params": {
+      "audiocodec": "original",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "original",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.original",
+    "params": {
+      "audiocodec": "original",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "original",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.original",
+    "params": {
+      "audiocodec": "original",
+      "static": "false",
+      "audiobitrate": "4294967295000",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "ogg",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/Audio/song/stream.ogg",
+    "params": {
+      "audiocodec": "ogg",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "ogg",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.ogg",
+    "params": {
+      "audiocodec": "ogg",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "ogg",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.ogg",
+    "params": {
+      "audiocodec": "ogg",
+      "static": "false",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "ogg",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/Audio/song/stream.ogg",
+    "params": {
+      "audiocodec": "ogg",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "ogg",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.ogg",
+    "params": {
+      "audiocodec": "ogg",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "ogg",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.ogg",
+    "params": {
+      "audiocodec": "ogg",
+      "static": "false",
+      "audiobitrate": "0",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "ogg",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/Audio/song/stream.ogg",
+    "params": {
+      "audiocodec": "ogg",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "ogg",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.ogg",
+    "params": {
+      "audiocodec": "ogg",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "ogg",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.ogg",
+    "params": {
+      "audiocodec": "ogg",
+      "static": "false",
+      "audiobitrate": "257000",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "ogg",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/Audio/song/stream.ogg",
+    "params": {
+      "audiocodec": "ogg",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "ogg",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.ogg",
+    "params": {
+      "audiocodec": "ogg",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "ogg",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.ogg",
+    "params": {
+      "audiocodec": "ogg",
+      "static": "false",
+      "audiobitrate": "4294967295000",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "aac",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/Audio/song/stream.aac",
+    "params": {
+      "audiocodec": "aac",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "aac",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.aac",
+    "params": {
+      "audiocodec": "aac",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "aac",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.aac",
+    "params": {
+      "audiocodec": "aac",
+      "static": "false",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "aac",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/Audio/song/stream.aac",
+    "params": {
+      "audiocodec": "aac",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "aac",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.aac",
+    "params": {
+      "audiocodec": "aac",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "aac",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.aac",
+    "params": {
+      "audiocodec": "aac",
+      "static": "false",
+      "audiobitrate": "0",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "aac",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/Audio/song/stream.aac",
+    "params": {
+      "audiocodec": "aac",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "aac",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.aac",
+    "params": {
+      "audiocodec": "aac",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "aac",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.aac",
+    "params": {
+      "audiocodec": "aac",
+      "static": "false",
+      "audiobitrate": "257000",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "aac",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/Audio/song/stream.aac",
+    "params": {
+      "audiocodec": "aac",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "aac",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.aac",
+    "params": {
+      "audiocodec": "aac",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "aac",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.aac",
+    "params": {
+      "audiocodec": "aac",
+      "static": "false",
+      "audiobitrate": "4294967295000",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "opus",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/Audio/song/stream.opus",
+    "params": {
+      "audiocodec": "opus",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "opus",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.opus",
+    "params": {
+      "audiocodec": "opus",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "opus",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.opus",
+    "params": {
+      "audiocodec": "opus",
+      "static": "false",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "opus",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/Audio/song/stream.opus",
+    "params": {
+      "audiocodec": "opus",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "opus",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.opus",
+    "params": {
+      "audiocodec": "opus",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "opus",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.opus",
+    "params": {
+      "audiocodec": "opus",
+      "static": "false",
+      "audiobitrate": "0",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "opus",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/Audio/song/stream.opus",
+    "params": {
+      "audiocodec": "opus",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "opus",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.opus",
+    "params": {
+      "audiocodec": "opus",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "opus",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.opus",
+    "params": {
+      "audiocodec": "opus",
+      "static": "false",
+      "audiobitrate": "257000",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "opus",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/Audio/song/stream.opus",
+    "params": {
+      "audiocodec": "opus",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "opus",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.opus",
+    "params": {
+      "audiocodec": "opus",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "opus",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.opus",
+    "params": {
+      "audiocodec": "opus",
+      "static": "false",
+      "audiobitrate": "4294967295000",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "vorbis",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/Audio/song/stream.vorbis",
+    "params": {
+      "audiocodec": "vorbis",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "vorbis",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.vorbis",
+    "params": {
+      "audiocodec": "vorbis",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "vorbis",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.vorbis",
+    "params": {
+      "audiocodec": "vorbis",
+      "static": "false",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "vorbis",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/Audio/song/stream.vorbis",
+    "params": {
+      "audiocodec": "vorbis",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "vorbis",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.vorbis",
+    "params": {
+      "audiocodec": "vorbis",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "vorbis",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.vorbis",
+    "params": {
+      "audiocodec": "vorbis",
+      "static": "false",
+      "audiobitrate": "0",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "vorbis",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/Audio/song/stream.vorbis",
+    "params": {
+      "audiocodec": "vorbis",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "vorbis",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.vorbis",
+    "params": {
+      "audiocodec": "vorbis",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "vorbis",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.vorbis",
+    "params": {
+      "audiocodec": "vorbis",
+      "static": "false",
+      "audiobitrate": "257000",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "vorbis",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/Audio/song/stream.vorbis",
+    "params": {
+      "audiocodec": "vorbis",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "vorbis",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.vorbis",
+    "params": {
+      "audiocodec": "vorbis",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "vorbis",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.vorbis",
+    "params": {
+      "audiocodec": "vorbis",
+      "static": "false",
+      "audiobitrate": "4294967295000",
+      "audiosamplerate": "48000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "m4a",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/Audio/song/stream.m4a",
+    "params": {
+      "audiocodec": "m4a",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "m4a",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.m4a",
+    "params": {
+      "audiocodec": "m4a",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "m4a",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.m4a",
+    "params": {
+      "audiocodec": "m4a",
+      "static": "false",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "m4a",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/Audio/song/stream.m4a",
+    "params": {
+      "audiocodec": "m4a",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "m4a",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.m4a",
+    "params": {
+      "audiocodec": "m4a",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "m4a",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.m4a",
+    "params": {
+      "audiocodec": "m4a",
+      "static": "false",
+      "audiobitrate": "0",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "m4a",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/Audio/song/stream.m4a",
+    "params": {
+      "audiocodec": "m4a",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "m4a",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.m4a",
+    "params": {
+      "audiocodec": "m4a",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "m4a",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.m4a",
+    "params": {
+      "audiocodec": "m4a",
+      "static": "false",
+      "audiobitrate": "257000",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "m4a",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/Audio/song/stream.m4a",
+    "params": {
+      "audiocodec": "m4a",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "m4a",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.m4a",
+    "params": {
+      "audiocodec": "m4a",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "m4a",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.m4a",
+    "params": {
+      "audiocodec": "m4a",
+      "static": "false",
+      "audiobitrate": "4294967295000",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "custom-codec",
+    "bitrate": null,
+    "rate": null,
+    "path": "/music/Audio/song/stream.custom-codec",
+    "params": {
+      "audiocodec": "custom-codec",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "custom-codec",
+    "bitrate": null,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.custom-codec",
+    "params": {
+      "audiocodec": "custom-codec",
+      "static": "false"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "custom-codec",
+    "bitrate": null,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.custom-codec",
+    "params": {
+      "audiocodec": "custom-codec",
+      "static": "false",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "custom-codec",
+    "bitrate": 0,
+    "rate": null,
+    "path": "/music/Audio/song/stream.custom-codec",
+    "params": {
+      "audiocodec": "custom-codec",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "custom-codec",
+    "bitrate": 0,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.custom-codec",
+    "params": {
+      "audiocodec": "custom-codec",
+      "static": "false",
+      "audiobitrate": "0"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "custom-codec",
+    "bitrate": 0,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.custom-codec",
+    "params": {
+      "audiocodec": "custom-codec",
+      "static": "false",
+      "audiobitrate": "0",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "custom-codec",
+    "bitrate": 257,
+    "rate": null,
+    "path": "/music/Audio/song/stream.custom-codec",
+    "params": {
+      "audiocodec": "custom-codec",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "custom-codec",
+    "bitrate": 257,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.custom-codec",
+    "params": {
+      "audiocodec": "custom-codec",
+      "static": "false",
+      "audiobitrate": "257000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "custom-codec",
+    "bitrate": 257,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.custom-codec",
+    "params": {
+      "audiocodec": "custom-codec",
+      "static": "false",
+      "audiobitrate": "257000",
+      "audiosamplerate": "96000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "custom-codec",
+    "bitrate": 4294967295,
+    "rate": null,
+    "path": "/music/Audio/song/stream.custom-codec",
+    "params": {
+      "audiocodec": "custom-codec",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "custom-codec",
+    "bitrate": 4294967295,
+    "rate": 0,
+    "path": "/music/Audio/song/stream.custom-codec",
+    "params": {
+      "audiocodec": "custom-codec",
+      "static": "false",
+      "audiobitrate": "4294967295000"
+    }
+  },
+  {
+    "backend": "jf",
+    "format": "custom-codec",
+    "bitrate": 4294967295,
+    "rate": 96000,
+    "path": "/music/Audio/song/stream.custom-codec",
+    "params": {
+      "audiocodec": "custom-codec",
+      "static": "false",
+      "audiobitrate": "4294967295000",
+      "audiosamplerate": "96000"
+    }
+  }
+]

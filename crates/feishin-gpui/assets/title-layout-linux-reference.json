@@ -1,0 +1,5188 @@
+{
+  "cases": [
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            11,
+            63.765625,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            11,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            148.234375,
+            11,
+            63.765625,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            11,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            11,
+            63.770835876464844,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            11,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            148.22918701171875,
+            11,
+            63.770835876464844,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            11,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            8.75,
+            78.484375,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            8.75,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            131.515625,
+            8.75,
+            78.484375,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            8.75,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            8.75,
+            78.47917175292969,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            8.75,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            131.52081298828125,
+            8.75,
+            78.47917175292969,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            8.75,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            24,
+            63.765625,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            6,
+            204,
+            54
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            148.234375,
+            24,
+            63.765625,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            6,
+            204,
+            54
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            24,
+            63.770835876464844,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            6,
+            204,
+            54
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            148.22918701171875,
+            24,
+            63.770835876464844,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            6,
+            204,
+            54
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            21.75,
+            78.484375,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            200,
+            56
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            131.515625,
+            21.75,
+            78.484375,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            200,
+            56
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            21.75,
+            78.47917175292969,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            200,
+            56
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            131.52081298828125,
+            21.75,
+            78.47917175292969,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            200,
+            56
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            35,
+            63.765625,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            8,
+            204,
+            72
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            148.234375,
+            35,
+            63.765625,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            8,
+            204,
+            72
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            35,
+            63.770835876464844,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            8,
+            204,
+            72
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            148.22918701171875,
+            35,
+            63.770835876464844,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            8,
+            204,
+            72
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            32.75,
+            78.484375,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            200,
+            78
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            131.515625,
+            32.75,
+            78.484375,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            200,
+            78
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            32.75,
+            78.47917175292969,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            200,
+            78
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            131.52081298828125,
+            32.75,
+            78.47917175292969,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 0,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            200,
+            78
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "4"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            3,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            21,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            3,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            21,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            3,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            21,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            3,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            21,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            3,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            21,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            3,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            21,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            3,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            21,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            3,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            21,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -1.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            21.25,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -1.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            21.25,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -1.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            21.25,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -1.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            21.25,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -1.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            21.25,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -1.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            21.25,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -1.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            21.25,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -1.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            21.25,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            14,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            36,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            5,
+            204,
+            36
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            45,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            14,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            36,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            5,
+            204,
+            36
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            45,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            14,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            36,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            5,
+            204,
+            36
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            45,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            14,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            36,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            5,
+            204,
+            36
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            45,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            9.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            36.75,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -2,
+            200,
+            45
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            48,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            9.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            36.75,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -2,
+            200,
+            45
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            48,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            9.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            36.75,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -2,
+            200,
+            45
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            48,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            9.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            36.75,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -2,
+            200,
+            45
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            48,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            25,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            47,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            7,
+            204,
+            54
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            65,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            25,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            47,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            7,
+            204,
+            54
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            65,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            25,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            47,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            7,
+            204,
+            54
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            65,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            25,
+            204,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            47,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            7,
+            204,
+            54
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            65,
+            204,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            20.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            47.75,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -2.25,
+            200,
+            67.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            70.25,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            20.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            47.75,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -2.25,
+            200,
+            67.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            70.25,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            20.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            47.75,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -2.25,
+            200,
+            67.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            70.25,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            20.25,
+            200,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            47.75,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 1,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            -2.25,
+            200,
+            67.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            70.25,
+            200,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            48,
+            4,
+            164,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            48,
+            22,
+            164,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            8,
+            4,
+            32,
+            34
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            48,
+            4,
+            164,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            48,
+            22,
+            164,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            8,
+            4,
+            32,
+            34
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            4,
+            164,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            22,
+            164,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            180,
+            4,
+            32,
+            34
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            4,
+            164,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            22,
+            164,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            180,
+            4,
+            32,
+            34
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            48,
+            4,
+            164,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            48,
+            22,
+            164,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            8,
+            4,
+            32,
+            34
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            48,
+            4,
+            164,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            48,
+            22,
+            164,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            8,
+            4,
+            32,
+            34
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            4,
+            164,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            22,
+            164,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            180,
+            4,
+            32,
+            34
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            4,
+            164,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            22,
+            164,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            180,
+            4,
+            32,
+            34
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            50,
+            5,
+            160,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            50,
+            27.5,
+            160,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            10,
+            5,
+            30,
+            42.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            50,
+            5,
+            160,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            50,
+            27.5,
+            160,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            10,
+            5,
+            30,
+            42.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            160,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            27.5,
+            160,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            180,
+            5,
+            30,
+            42.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            160,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            27.5,
+            160,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            180,
+            5,
+            30,
+            42.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            50,
+            5,
+            160,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            50,
+            27.5,
+            160,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            10,
+            5,
+            30,
+            42.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            50,
+            5,
+            160,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            50,
+            27.5,
+            160,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            10,
+            5,
+            30,
+            42.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            160,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            27.5,
+            160,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            180,
+            5,
+            30,
+            42.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "compact",
+      "height": 40,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            160,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "1"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            27.5,
+            160,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            180,
+            5,
+            30,
+            42.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            74,
+            14,
+            138,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            74,
+            36,
+            138,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            8,
+            4,
+            58,
+            58
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            74,
+            5,
+            138,
+            36
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            74,
+            45,
+            138,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            8,
+            4,
+            58,
+            58
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            14,
+            138,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            36,
+            138,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            154,
+            4,
+            58,
+            58
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            5,
+            138,
+            36
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            45,
+            138,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            154,
+            4,
+            58,
+            58
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            74,
+            14,
+            138,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            74,
+            36,
+            138,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            8,
+            4,
+            58,
+            58
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            74,
+            5,
+            138,
+            36
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            74,
+            45,
+            138,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            8,
+            4,
+            58,
+            58
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            14,
+            138,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            36,
+            138,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            154,
+            4,
+            58,
+            58
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            5,
+            138,
+            36
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            45,
+            138,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            154,
+            4,
+            58,
+            58
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            76,
+            9.25,
+            134,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            76,
+            36.75,
+            134,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            10,
+            5,
+            56,
+            56
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            76,
+            5,
+            134,
+            45
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            76,
+            55,
+            134,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            10,
+            5,
+            56,
+            70
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            9.25,
+            134,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            36.75,
+            134,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            154,
+            5,
+            56,
+            56
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            134,
+            45
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            55,
+            134,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            154,
+            5,
+            56,
+            70
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            76,
+            9.25,
+            134,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            76,
+            36.75,
+            134,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            10,
+            5,
+            56,
+            56
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            76,
+            5,
+            134,
+            45
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            76,
+            55,
+            134,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            10,
+            5,
+            56,
+            70
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            9.25,
+            134,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            36.75,
+            134,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            154,
+            5,
+            56,
+            56
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "default",
+      "height": 66,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            134,
+            45
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "2"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            55,
+            134,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            154,
+            5,
+            56,
+            70
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            96,
+            25,
+            116,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            96,
+            47,
+            116,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            8,
+            4,
+            80,
+            80
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            96,
+            7,
+            116,
+            54
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            96,
+            65,
+            116,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            8,
+            4,
+            80,
+            80
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            25,
+            116,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            47,
+            116,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            132,
+            4,
+            80,
+            80
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            7,
+            116,
+            54
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            65,
+            116,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            132,
+            4,
+            80,
+            80
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            96,
+            25,
+            116,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            96,
+            47,
+            116,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            8,
+            4,
+            80,
+            80
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            96,
+            7,
+            116,
+            54
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            96,
+            65,
+            116,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            8,
+            4,
+            80,
+            80
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            25,
+            116,
+            18
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            47,
+            116,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            132,
+            4,
+            80,
+            80
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 16,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            8,
+            7,
+            116,
+            54
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            8,
+            65,
+            116,
+            16
+          ],
+          "font": 11,
+          "lineHeight": 16,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            132,
+            4,
+            80,
+            80
+          ],
+          "font": 14,
+          "lineHeight": 18,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            98,
+            20.25,
+            112,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            98,
+            47.75,
+            112,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            10,
+            5,
+            78,
+            78
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            98,
+            5,
+            112,
+            67.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            98,
+            77.5,
+            112,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            10,
+            5,
+            78,
+            92.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            20.25,
+            112,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            47.75,
+            112,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            132,
+            5,
+            78,
+            78
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            112,
+            67.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            77.5,
+            112,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            132,
+            5,
+            78,
+            92.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            98,
+            20.25,
+            112,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            98,
+            47.75,
+            112,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            10,
+            5,
+            78,
+            78
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": false,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            98,
+            5,
+            112,
+            67.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            98,
+            77.5,
+            112,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            10,
+            5,
+            78,
+            92.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "Short title",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            20.25,
+            112,
+            22.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            47.75,
+            112,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            132,
+            5,
+            78,
+            78
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    },
+    {
+      "column": 2,
+      "size": "large",
+      "height": 88,
+      "rem": 20,
+      "zoom": 1.5,
+      "rtl": true,
+      "width": 220,
+      "title": "A long track title with several words that should wrap across multiple lines and then be cut off",
+      "elements": [
+        {
+          "type": "title",
+          "bounds": [
+            10,
+            5,
+            112,
+            67.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "3"
+        },
+        {
+          "type": "artists",
+          "bounds": [
+            10,
+            77.5,
+            112,
+            20
+          ],
+          "font": 13.75,
+          "lineHeight": 20,
+          "lineClamp": "none"
+        },
+        {
+          "type": "artwork",
+          "bounds": [
+            132,
+            5,
+            78,
+            92.5
+          ],
+          "font": 17.5,
+          "lineHeight": 22.5,
+          "lineClamp": "none"
+        }
+      ]
+    }
+  ]
+}

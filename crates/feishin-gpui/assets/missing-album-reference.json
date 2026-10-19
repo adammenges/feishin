@@ -1,0 +1,1602 @@
+[
+  {
+    "behavior": "now",
+    "favorite": false,
+    "showFavorites": false,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "now"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "now",
+    "favorite": false,
+    "showFavorites": false,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "now"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "now",
+    "favorite": false,
+    "showFavorites": true,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "now"
+      ],
+      [
+        "favorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ],
+      [
+        "confirmed",
+        [
+          "server",
+          "loose-song"
+        ],
+        true
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "now",
+    "favorite": false,
+    "showFavorites": true,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "now"
+      ],
+      [
+        "favorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "now",
+    "favorite": true,
+    "showFavorites": false,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "now"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "now",
+    "favorite": true,
+    "showFavorites": false,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "now"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "now",
+    "favorite": true,
+    "showFavorites": true,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "now"
+      ],
+      [
+        "unfavorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ],
+      [
+        "confirmed",
+        [
+          "server",
+          "loose-song"
+        ],
+        false
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "now",
+    "favorite": true,
+    "showFavorites": true,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "now"
+      ],
+      [
+        "unfavorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "next",
+    "favorite": false,
+    "showFavorites": false,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "next"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "next",
+    "favorite": false,
+    "showFavorites": false,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "next"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "next",
+    "favorite": false,
+    "showFavorites": true,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "next"
+      ],
+      [
+        "favorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ],
+      [
+        "confirmed",
+        [
+          "server",
+          "loose-song"
+        ],
+        true
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "next",
+    "favorite": false,
+    "showFavorites": true,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "next"
+      ],
+      [
+        "favorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "next",
+    "favorite": true,
+    "showFavorites": false,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "next"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "next",
+    "favorite": true,
+    "showFavorites": false,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "next"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "next",
+    "favorite": true,
+    "showFavorites": true,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "next"
+      ],
+      [
+        "unfavorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ],
+      [
+        "confirmed",
+        [
+          "server",
+          "loose-song"
+        ],
+        false
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "next",
+    "favorite": true,
+    "showFavorites": true,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "next"
+      ],
+      [
+        "unfavorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "last",
+    "favorite": false,
+    "showFavorites": false,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "last"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "last",
+    "favorite": false,
+    "showFavorites": false,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "last"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "last",
+    "favorite": false,
+    "showFavorites": true,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "last"
+      ],
+      [
+        "favorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ],
+      [
+        "confirmed",
+        [
+          "server",
+          "loose-song"
+        ],
+        true
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "last",
+    "favorite": false,
+    "showFavorites": true,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "last"
+      ],
+      [
+        "favorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "last",
+    "favorite": true,
+    "showFavorites": false,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "last"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "last",
+    "favorite": true,
+    "showFavorites": false,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "last"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "last",
+    "favorite": true,
+    "showFavorites": true,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "last"
+      ],
+      [
+        "unfavorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ],
+      [
+        "confirmed",
+        [
+          "server",
+          "loose-song"
+        ],
+        false
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "last",
+    "favorite": true,
+    "showFavorites": true,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "last"
+      ],
+      [
+        "unfavorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "shuffle",
+    "favorite": false,
+    "showFavorites": false,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "shuffle"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "shuffle",
+    "favorite": false,
+    "showFavorites": false,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "shuffle"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "shuffle",
+    "favorite": false,
+    "showFavorites": true,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "shuffle"
+      ],
+      [
+        "favorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ],
+      [
+        "confirmed",
+        [
+          "server",
+          "loose-song"
+        ],
+        true
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "shuffle",
+    "favorite": false,
+    "showFavorites": true,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "shuffle"
+      ],
+      [
+        "favorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "shuffle",
+    "favorite": true,
+    "showFavorites": false,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "shuffle"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "shuffle",
+    "favorite": true,
+    "showFavorites": false,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "shuffle"
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "shuffle",
+    "favorite": true,
+    "showFavorites": true,
+    "rejected": false,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "shuffle"
+      ],
+      [
+        "unfavorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ],
+      [
+        "confirmed",
+        [
+          "server",
+          "loose-song"
+        ],
+        false
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  },
+  {
+    "behavior": "shuffle",
+    "favorite": true,
+    "showFavorites": true,
+    "rejected": true,
+    "calls": [
+      [
+        "detail",
+        {
+          "apiClientProps": {
+            "serverId": "server",
+            "signal": "fixture-signal"
+          },
+          "query": {
+            "id": "loose-song"
+          }
+        }
+      ],
+      [
+        "query",
+        [
+          "server",
+          "loose-song"
+        ]
+      ],
+      [
+        "play",
+        "server",
+        [
+          "loose-song"
+        ],
+        "song",
+        "shuffle"
+      ],
+      [
+        "unfavorite",
+        {
+          "apiClientProps": {
+            "serverId": "server"
+          },
+          "query": {
+            "id": [
+              "loose-song"
+            ],
+            "type": "song"
+          }
+        }
+      ]
+    ],
+    "links": [
+      "/library/album-artists/artist",
+      "/library/genres/genre"
+    ],
+    "notice": "error.badAlbum"
+  }
+]

@@ -1,0 +1,174 @@
+{
+  "electron": "43.7.0",
+  "chromium": "150.0.7871.250",
+  "cases": [
+    {
+      "single": false,
+      "color": "#5078a0",
+      "height": 400,
+      "layers": [
+        {
+          "class": "background-overlay",
+          "z": "-1"
+        }
+      ],
+      "samples": [
+        {
+          "x": 500,
+          "y": 80,
+          "rgb": [
+            62,
+            89,
+            116
+          ]
+        },
+        {
+          "x": 500,
+          "y": 120,
+          "rgb": [
+            58,
+            85,
+            113
+          ]
+        },
+        {
+          "x": 500,
+          "y": 160,
+          "rgb": [
+            55,
+            83,
+            109
+          ]
+        }
+      ]
+    },
+    {
+      "single": false,
+      "color": "#a07850",
+      "height": 400,
+      "layers": [
+        {
+          "class": "background-overlay",
+          "z": "-1"
+        }
+      ],
+      "samples": [
+        {
+          "x": 500,
+          "y": 80,
+          "rgb": [
+            116,
+            89,
+            62
+          ]
+        },
+        {
+          "x": 500,
+          "y": 120,
+          "rgb": [
+            112,
+            85,
+            58
+          ]
+        },
+        {
+          "x": 500,
+          "y": 160,
+          "rgb": [
+            108,
+            82,
+            55
+          ]
+        }
+      ]
+    },
+    {
+      "single": true,
+      "color": "#5078a0",
+      "height": 400,
+      "layers": [
+        {
+          "class": "blurred-background",
+          "z": "0"
+        },
+        {
+          "class": "background-overlay",
+          "z": "-1"
+        }
+      ],
+      "samples": [
+        {
+          "x": 500,
+          "y": 80,
+          "rgb": [
+            76,
+            113,
+            151
+          ]
+        },
+        {
+          "x": 500,
+          "y": 120,
+          "rgb": [
+            75,
+            113,
+            150
+          ]
+        },
+        {
+          "x": 500,
+          "y": 160,
+          "rgb": [
+            75,
+            112,
+            149
+          ]
+        }
+      ]
+    },
+    {
+      "single": true,
+      "color": "#a07850",
+      "height": 400,
+      "layers": [
+        {
+          "class": "blurred-background",
+          "z": "0"
+        },
+        {
+          "class": "background-overlay",
+          "z": "-1"
+        }
+      ],
+      "samples": [
+        {
+          "x": 500,
+          "y": 80,
+          "rgb": [
+            151,
+            113,
+            76
+          ]
+        },
+        {
+          "x": 500,
+          "y": 120,
+          "rgb": [
+            150,
+            113,
+            75
+          ]
+        },
+        {
+          "x": 500,
+          "y": 160,
+          "rgb": [
+            149,
+            112,
+            75
+          ]
+        }
+      ]
+    }
+  ]
+}

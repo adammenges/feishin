@@ -1,0 +1,139 @@
+.fs-button-module-root {
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition:
+        opacity 0.2s ease,
+        background-color 0.2s ease-in-out,
+        border-color 0.2s ease-in-out;
+}
+
+    .fs-button-module-root[data-disabled='true'] {
+        opacity: 0.6;
+    }
+
+    .fs-button-module-root[data-variant='default'] {
+        color: var(--theme-colors-foreground);
+        background-color: var(--theme-colors-surface);
+    }
+
+    .fs-button-module-root[data-variant='default']:hover {
+            background: color-mix(in srgb, var(--theme-colors-surface), white 5%);
+        }
+
+    .fs-button-module-root[data-variant='default']:focus-visible {
+            background: color-mix(in srgb, var(--theme-colors-surface), white 10%);
+        }
+
+    .fs-button-module-root[data-variant='outline'] {
+        --button-border: var(--theme-colors-border);
+
+        color: var(--theme-colors-foreground);
+        border: 1px solid var(--theme-colors-border);
+    }
+
+    .fs-button-module-root[data-variant='outline']:hover {
+            border: 1px solid color-mix(in srgb, var(--theme-colors-border), white 10%);
+        }
+
+    .fs-button-module-root[data-variant='outline']:focus-visible {
+            border: 1px solid color-mix(in srgb, var(--theme-colors-border), white 10%);
+        }
+
+    .fs-button-module-root[data-variant='filled'] {
+        color: var(--theme-colors-primary-contrast);
+        background: var(--theme-colors-primary-filled);
+        border: 1px solid transparent;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    .fs-button-module-root[data-variant='filled']:hover,
+        .fs-button-module-root[data-variant='filled']:focus-visible {
+            background: color-mix(in srgb, var(--theme-colors-primary-filled), black 10%);
+        }
+
+    .fs-button-module-root[data-variant='state-error'] {
+        background: var(--theme-colors-state-error);
+    }
+
+    .fs-button-module-root[data-variant='state-error']:hover,
+        .fs-button-module-root[data-variant='state-error']:focus-visible {
+            background: color-mix(in srgb, var(--theme-colors-state-error), black 10%);
+        }
+
+    .fs-button-module-root[data-variant='state-info'] {
+        background: var(--theme-colors-state-info);
+    }
+
+    .fs-button-module-root[data-variant='state-info']:hover,
+        .fs-button-module-root[data-variant='state-info']:focus-visible {
+            background: color-mix(in srgb, var(--theme-colors-state-info), black 10%);
+        }
+
+    .fs-button-module-root[data-variant='state-success'] {
+        background: var(--theme-colors-state-success);
+    }
+
+    .fs-button-module-root[data-variant='state-success']:hover,
+        .fs-button-module-root[data-variant='state-success']:focus-visible {
+            background: color-mix(in srgb, var(--theme-colors-state-success), black 10%);
+        }
+
+    .fs-button-module-root[data-variant='state-warning'] {
+        background: var(--theme-colors-state-warning);
+    }
+
+    .fs-button-module-root[data-variant='state-warning']:hover,
+        .fs-button-module-root[data-variant='state-warning']:focus-visible {
+            background: color-mix(in srgb, var(--theme-colors-state-warning), black 10%);
+        }
+
+    .fs-button-module-root[data-variant='subtle'] {
+        color: var(--theme-colors-foreground);
+        background: transparent;
+    }
+
+    [data-mantine-color-scheme='dark'] .fs-button-module-root[data-variant='subtle']:hover, [data-mantine-color-scheme='dark'] .fs-button-module-root[data-variant='subtle']:active, [data-mantine-color-scheme='dark'] .fs-button-module-root[data-variant='subtle']:focus-visible {
+                background-color: color-mix(in srgb, var(--theme-colors-background), white 10%);
+}
+
+    [data-mantine-color-scheme='light'] .fs-button-module-root[data-variant='subtle']:hover, [data-mantine-color-scheme='light'] .fs-button-module-root[data-variant='subtle']:active, [data-mantine-color-scheme='light'] .fs-button-module-root[data-variant='subtle']:focus-visible {
+                background-color: color-mix(in srgb, var(--theme-colors-background), black 5%);
+}
+
+    .fs-button-module-root[data-variant='secondary'] {
+        border: 1px solid transparent;
+    }
+
+    .fs-button-module-root[data-variant='secondary']:hover {
+            background-color: color-mix(in srgb, var(--theme-colors-background), black 5%);
+        }
+
+    .fs-button-module-root[data-variant='secondary']:focus-visible {
+            background-color: color-mix(in srgb, var(--theme-colors-background), black 10%);
+        }
+
+    .fs-button-module-root[data-variant='transparent'] {
+        color: var(--theme-colors-foreground);
+        border: 1px solid transparent;
+        transition: color 0.2s ease-in-out;
+    }
+
+    .fs-button-module-root[data-variant='transparent']:hover {
+            background-color: transparent;
+        }
+
+    [data-mantine-color-scheme='dark'] .fs-button-module-root[data-variant='transparent']:hover {
+                color: color-mix(in srgb, var(--theme-colors-foreground), black 15%);
+}
+
+    [data-mantine-color-scheme='light'] .fs-button-module-root[data-variant='transparent']:hover {
+                color: color-mix(in srgb, var(--theme-colors-foreground), white 10%);
+}
+
+    .fs-button-module-root[data-variant='transparent']:focus-visible {
+            border: 1px solid color-mix(in srgb, var(--theme-colors-border), white 10%);
+        }
+
+    .fs-button-module-root[data-variant='transparent'][data-disabled='true'] {
+            background-color: transparent;
+        }

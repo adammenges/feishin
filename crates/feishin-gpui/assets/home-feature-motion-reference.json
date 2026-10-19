@@ -1,0 +1,1634 @@
+{
+  "electron": "43.7.0",
+  "chromium": "150.0.7871.250",
+  "frames": [
+    {
+      "name": "navigation-scale",
+      "node": ".nav-arrow-left",
+      "target": ".nav-arrow-left",
+      "property": "transform",
+      "read": "new DOMMatrixReadOnly(style.transform).a",
+      "state": "hover",
+      "duration": 200,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 1
+        },
+        {
+          "milliseconds": 20,
+          "value": 1.00948
+        },
+        {
+          "milliseconds": 50,
+          "value": 1.04085
+        },
+        {
+          "milliseconds": 100,
+          "value": 1.08024
+        },
+        {
+          "milliseconds": 150,
+          "value": 1.09605
+        },
+        {
+          "milliseconds": 199,
+          "value": 1.1
+        },
+        {
+          "milliseconds": 200,
+          "value": 1.1
+        },
+        {
+          "milliseconds": 250,
+          "value": 1.1
+        },
+        {
+          "milliseconds": 299,
+          "value": 1.1
+        },
+        {
+          "milliseconds": 300,
+          "value": 1.1
+        },
+        {
+          "milliseconds": 350,
+          "value": 1.1
+        }
+      ]
+    },
+    {
+      "name": "navigation-scale",
+      "node": ".nav-arrow-left",
+      "target": ".nav-arrow-left",
+      "property": "transform",
+      "read": "new DOMMatrixReadOnly(style.transform).a",
+      "state": "active",
+      "duration": 200,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 1.1
+        },
+        {
+          "milliseconds": 20,
+          "value": 1.08578
+        },
+        {
+          "milliseconds": 50,
+          "value": 1.03872
+        },
+        {
+          "milliseconds": 100,
+          "value": 0.979639
+        },
+        {
+          "milliseconds": 150,
+          "value": 0.955931
+        },
+        {
+          "milliseconds": 199,
+          "value": 0.950002
+        },
+        {
+          "milliseconds": 200,
+          "value": 0.95
+        },
+        {
+          "milliseconds": 250,
+          "value": 0.95
+        },
+        {
+          "milliseconds": 299,
+          "value": 0.95
+        },
+        {
+          "milliseconds": 300,
+          "value": 0.95
+        },
+        {
+          "milliseconds": 350,
+          "value": 0.95
+        }
+      ]
+    },
+    {
+      "name": "navigation-scale",
+      "node": ".nav-arrow-left",
+      "target": ".nav-arrow-left",
+      "property": "transform",
+      "read": "new DOMMatrixReadOnly(style.transform).a",
+      "state": "release",
+      "duration": 200,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 0.95
+        },
+        {
+          "milliseconds": 20,
+          "value": 0.964219
+        },
+        {
+          "milliseconds": 50,
+          "value": 1.01128
+        },
+        {
+          "milliseconds": 100,
+          "value": 1.07036
+        },
+        {
+          "milliseconds": 150,
+          "value": 1.09407
+        },
+        {
+          "milliseconds": 199,
+          "value": 1.1
+        },
+        {
+          "milliseconds": 200,
+          "value": 1.1
+        },
+        {
+          "milliseconds": 250,
+          "value": 1.1
+        },
+        {
+          "milliseconds": 299,
+          "value": 1.1
+        },
+        {
+          "milliseconds": 300,
+          "value": 1.1
+        },
+        {
+          "milliseconds": 350,
+          "value": 1.1
+        }
+      ]
+    },
+    {
+      "name": "navigation-scale",
+      "node": ".nav-arrow-left",
+      "target": ".nav-arrow-left",
+      "property": "transform",
+      "read": "new DOMMatrixReadOnly(style.transform).a",
+      "state": "leave",
+      "duration": 200,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 1.1
+        },
+        {
+          "milliseconds": 20,
+          "value": 1.09052
+        },
+        {
+          "milliseconds": 50,
+          "value": 1.05915
+        },
+        {
+          "milliseconds": 100,
+          "value": 1.01976
+        },
+        {
+          "milliseconds": 150,
+          "value": 1.00395
+        },
+        {
+          "milliseconds": 199,
+          "value": 1
+        },
+        {
+          "milliseconds": 200,
+          "value": 1
+        },
+        {
+          "milliseconds": 250,
+          "value": 1
+        },
+        {
+          "milliseconds": 299,
+          "value": 1
+        },
+        {
+          "milliseconds": 300,
+          "value": 1
+        },
+        {
+          "milliseconds": 350,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "navigation-border",
+      "node": ".nav-arrow-left",
+      "target": ".nav-arrow-left",
+      "property": "border-left-color",
+      "read": "style.borderLeftColor",
+      "state": "hover",
+      "duration": 200,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": "rgba(255, 255, 255, 0.25)"
+        },
+        {
+          "milliseconds": 20,
+          "value": "rgba(255, 255, 255, 0.26)"
+        },
+        {
+          "milliseconds": 50,
+          "value": "rgba(255, 255, 255, 0.29)"
+        },
+        {
+          "milliseconds": 100,
+          "value": "rgba(255, 255, 255, 0.33)"
+        },
+        {
+          "milliseconds": 150,
+          "value": "rgba(255, 255, 255, 0.345)"
+        },
+        {
+          "milliseconds": 199,
+          "value": "rgba(255, 255, 255, 0.35)"
+        },
+        {
+          "milliseconds": 200,
+          "value": "rgba(255, 255, 255, 0.35)"
+        },
+        {
+          "milliseconds": 250,
+          "value": "rgba(255, 255, 255, 0.35)"
+        },
+        {
+          "milliseconds": 299,
+          "value": "rgba(255, 255, 255, 0.35)"
+        },
+        {
+          "milliseconds": 300,
+          "value": "rgba(255, 255, 255, 0.35)"
+        },
+        {
+          "milliseconds": 350,
+          "value": "rgba(255, 255, 255, 0.35)"
+        }
+      ]
+    },
+    {
+      "name": "navigation-border",
+      "node": ".nav-arrow-left",
+      "target": ".nav-arrow-left",
+      "property": "border-left-color",
+      "read": "style.borderLeftColor",
+      "state": "leave",
+      "duration": 200,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": "rgba(255, 255, 255, 0.35)"
+        },
+        {
+          "milliseconds": 20,
+          "value": "rgba(255, 255, 255, 0.34)"
+        },
+        {
+          "milliseconds": 50,
+          "value": "rgba(255, 255, 255, 0.31)"
+        },
+        {
+          "milliseconds": 100,
+          "value": "rgba(255, 255, 255, 0.27)"
+        },
+        {
+          "milliseconds": 150,
+          "value": "rgba(255, 255, 255, 0.255)"
+        },
+        {
+          "milliseconds": 199,
+          "value": "rgba(255, 255, 255, 0.25)"
+        },
+        {
+          "milliseconds": 200,
+          "value": "rgba(255, 255, 255, 0.25)"
+        },
+        {
+          "milliseconds": 250,
+          "value": "rgba(255, 255, 255, 0.25)"
+        },
+        {
+          "milliseconds": 299,
+          "value": "rgba(255, 255, 255, 0.25)"
+        },
+        {
+          "milliseconds": 300,
+          "value": "rgba(255, 255, 255, 0.25)"
+        },
+        {
+          "milliseconds": 350,
+          "value": "rgba(255, 255, 255, 0.25)"
+        }
+      ]
+    },
+    {
+      "name": "navigation-opacity",
+      "node": ".carousel-container",
+      "target": ".nav-arrow-left",
+      "property": "opacity",
+      "single": true,
+      "read": "Number(style.opacity)",
+      "state": "hover",
+      "duration": 200,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 0
+        },
+        {
+          "milliseconds": 20,
+          "value": 0.0947963
+        },
+        {
+          "milliseconds": 50,
+          "value": 0.408511
+        },
+        {
+          "milliseconds": 100,
+          "value": 0.802403
+        },
+        {
+          "milliseconds": 150,
+          "value": 0.960459
+        },
+        {
+          "milliseconds": 199,
+          "value": 0.999987
+        },
+        {
+          "milliseconds": 200,
+          "value": 1
+        },
+        {
+          "milliseconds": 250,
+          "value": 1
+        },
+        {
+          "milliseconds": 299,
+          "value": 1
+        },
+        {
+          "milliseconds": 300,
+          "value": 1
+        },
+        {
+          "milliseconds": 350,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "navigation-opacity",
+      "node": ".carousel-container",
+      "target": ".nav-arrow-left",
+      "property": "opacity",
+      "single": true,
+      "read": "Number(style.opacity)",
+      "state": "leave",
+      "duration": 200,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 1
+        },
+        {
+          "milliseconds": 20,
+          "value": 0.905204
+        },
+        {
+          "milliseconds": 50,
+          "value": 0.591489
+        },
+        {
+          "milliseconds": 100,
+          "value": 0.197597
+        },
+        {
+          "milliseconds": 150,
+          "value": 0.039541
+        },
+        {
+          "milliseconds": 199,
+          "value": 0.0000133741
+        },
+        {
+          "milliseconds": 200,
+          "value": 0
+        },
+        {
+          "milliseconds": 250,
+          "value": 0
+        },
+        {
+          "milliseconds": 299,
+          "value": 0
+        },
+        {
+          "milliseconds": 300,
+          "value": 0
+        },
+        {
+          "milliseconds": 350,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "artwork-shadow",
+      "node": ".carousel-item",
+      "target": ".album-image-container",
+      "property": "filter",
+      "read": "style.filter",
+      "state": "hover",
+      "duration": 300,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)"
+        },
+        {
+          "milliseconds": 20,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.506) 0px 6.50199px 21.004px) drop-shadow(rgba(0, 0, 0, 0.404) 0px 2.2008px 8.40159px)"
+        },
+        {
+          "milliseconds": 50,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.525) 0px 8.20674px 24.4135px) drop-shadow(rgba(0, 0, 0, 0.424) 0px 2.88269px 9.76539px)"
+        },
+        {
+          "milliseconds": 100,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.557) 0px 11.7586px 31.5172px) drop-shadow(rgba(0, 0, 0, 0.46) 0px 4.30345px 12.6069px)"
+        },
+        {
+          "milliseconds": 150,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.58) 0px 14.024px 36.0481px) drop-shadow(rgba(0, 0, 0, 0.482) 0px 5.20961px 14.4192px)"
+        },
+        {
+          "milliseconds": 199,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.592) 0px 15.231px 38.4619px) drop-shadow(rgba(0, 0, 0, 0.494) 0px 5.69239px 15.3848px)"
+        },
+        {
+          "milliseconds": 200,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.592) 0px 15.2482px 38.4965px) drop-shadow(rgba(0, 0, 0, 0.494) 0px 5.6993px 15.3986px)"
+        },
+        {
+          "milliseconds": 250,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.6) 0px 15.8347px 39.6695px) drop-shadow(rgba(0, 0, 0, 0.5) 0px 5.9339px 15.8678px)"
+        },
+        {
+          "milliseconds": 299,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.6) 0px 15.9999px 39.9999px) drop-shadow(rgba(0, 0, 0, 0.5) 0px 5.99998px 16px)"
+        },
+        {
+          "milliseconds": 300,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.6) 0px 16px 40px) drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 16px)"
+        },
+        {
+          "milliseconds": 350,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.6) 0px 16px 40px) drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 16px)"
+        }
+      ]
+    },
+    {
+      "name": "artwork-shadow",
+      "node": ".carousel-item",
+      "target": ".album-image-container",
+      "property": "filter",
+      "read": "style.filter",
+      "state": "leave",
+      "duration": 300,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.6) 0px 16px 40px) drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 16px)"
+        },
+        {
+          "milliseconds": 20,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.596) 0px 15.498px 38.996px) drop-shadow(rgba(0, 0, 0, 0.498) 0px 5.7992px 15.5984px)"
+        },
+        {
+          "milliseconds": 50,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.576) 0px 13.7933px 35.5865px) drop-shadow(rgba(0, 0, 0, 0.48) 0px 5.1173px 14.2346px)"
+        },
+        {
+          "milliseconds": 100,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.545) 0px 10.2414px 28.4828px) drop-shadow(rgba(0, 0, 0, 0.443) 0px 3.69655px 11.3931px)"
+        },
+        {
+          "milliseconds": 150,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.52) 0px 7.97597px 23.9519px) drop-shadow(rgba(0, 0, 0, 0.42) 0px 2.79039px 9.58077px)"
+        },
+        {
+          "milliseconds": 199,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.51) 0px 6.76903px 21.5381px) drop-shadow(rgba(0, 0, 0, 0.408) 0px 2.30761px 8.61523px)"
+        },
+        {
+          "milliseconds": 200,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.51) 0px 6.75176px 21.5035px) drop-shadow(rgba(0, 0, 0, 0.408) 0px 2.3007px 8.60141px)"
+        },
+        {
+          "milliseconds": 250,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6.16526px 20.3305px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2.0661px 8.13221px)"
+        },
+        {
+          "milliseconds": 299,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6.00006px 20.0001px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2.00002px 8.00005px)"
+        },
+        {
+          "milliseconds": 300,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)"
+        },
+        {
+          "milliseconds": 350,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)"
+        }
+      ]
+    },
+    {
+      "name": "artwork-dimming",
+      "node": ".image-section",
+      "target": ".album-image-container",
+      "pseudo": "::before",
+      "property": "background-color",
+      "read": "style.backgroundColor",
+      "state": "hover",
+      "duration": 300,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "milliseconds": 20,
+          "value": "rgba(0, 0, 0, 0.02)"
+        },
+        {
+          "milliseconds": 50,
+          "value": "rgba(0, 0, 0, 0.09)"
+        },
+        {
+          "milliseconds": 100,
+          "value": "rgba(0, 0, 0, 0.23)"
+        },
+        {
+          "milliseconds": 150,
+          "value": "rgba(0, 0, 0, 0.32)"
+        },
+        {
+          "milliseconds": 199,
+          "value": "rgba(0, 0, 0, 0.37)"
+        },
+        {
+          "milliseconds": 200,
+          "value": "rgba(0, 0, 0, 0.37)"
+        },
+        {
+          "milliseconds": 250,
+          "value": "rgba(0, 0, 0, 0.392)"
+        },
+        {
+          "milliseconds": 299,
+          "value": "rgba(0, 0, 0, 0.4)"
+        },
+        {
+          "milliseconds": 300,
+          "value": "rgba(0, 0, 0, 0.4)"
+        },
+        {
+          "milliseconds": 350,
+          "value": "rgba(0, 0, 0, 0.4)"
+        }
+      ]
+    },
+    {
+      "name": "artwork-dimming",
+      "node": ".image-section",
+      "target": ".album-image-container",
+      "pseudo": "::before",
+      "property": "background-color",
+      "read": "style.backgroundColor",
+      "state": "leave",
+      "duration": 300,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": "rgba(0, 0, 0, 0.4)"
+        },
+        {
+          "milliseconds": 20,
+          "value": "rgba(0, 0, 0, 0.38)"
+        },
+        {
+          "milliseconds": 50,
+          "value": "rgba(0, 0, 0, 0.31)"
+        },
+        {
+          "milliseconds": 100,
+          "value": "rgba(0, 0, 0, 0.17)"
+        },
+        {
+          "milliseconds": 150,
+          "value": "rgba(0, 0, 0, 0.08)"
+        },
+        {
+          "milliseconds": 199,
+          "value": "rgba(0, 0, 0, 0.03)"
+        },
+        {
+          "milliseconds": 200,
+          "value": "rgba(0, 0, 0, 0.03)"
+        },
+        {
+          "milliseconds": 250,
+          "value": "rgba(0, 0, 0, 0.008)"
+        },
+        {
+          "milliseconds": 299,
+          "value": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "milliseconds": 300,
+          "value": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "milliseconds": 350,
+          "value": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "name": "play-overlay-opacity",
+      "node": ".image-section",
+      "target": ".play-button-overlay",
+      "property": "opacity",
+      "read": "Number(style.opacity)",
+      "state": "hover",
+      "duration": 300,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 0
+        },
+        {
+          "milliseconds": 20,
+          "value": 0.0501989
+        },
+        {
+          "milliseconds": 50,
+          "value": 0.220674
+        },
+        {
+          "milliseconds": 100,
+          "value": 0.575862
+        },
+        {
+          "milliseconds": 150,
+          "value": 0.802403
+        },
+        {
+          "milliseconds": 199,
+          "value": 0.923097
+        },
+        {
+          "milliseconds": 200,
+          "value": 0.924824
+        },
+        {
+          "milliseconds": 250,
+          "value": 0.983474
+        },
+        {
+          "milliseconds": 299,
+          "value": 0.999994
+        },
+        {
+          "milliseconds": 300,
+          "value": 1
+        },
+        {
+          "milliseconds": 350,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "play-overlay-opacity",
+      "node": ".image-section",
+      "target": ".play-button-overlay",
+      "property": "opacity",
+      "read": "Number(style.opacity)",
+      "state": "leave",
+      "duration": 300,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 1
+        },
+        {
+          "milliseconds": 20,
+          "value": 0.949801
+        },
+        {
+          "milliseconds": 50,
+          "value": 0.779326
+        },
+        {
+          "milliseconds": 100,
+          "value": 0.424138
+        },
+        {
+          "milliseconds": 150,
+          "value": 0.197597
+        },
+        {
+          "milliseconds": 199,
+          "value": 0.0769033
+        },
+        {
+          "milliseconds": 200,
+          "value": 0.075176
+        },
+        {
+          "milliseconds": 250,
+          "value": 0.0165259
+        },
+        {
+          "milliseconds": 299,
+          "value": 0.00000593779
+        },
+        {
+          "milliseconds": 300,
+          "value": 0
+        },
+        {
+          "milliseconds": 350,
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "interruptions": [
+    {
+      "name": "navigation-scale",
+      "node": ".nav-arrow-left",
+      "target": ".nav-arrow-left",
+      "property": "transform",
+      "read": "new DOMMatrixReadOnly(style.transform).a",
+      "interruptAt": 50,
+      "duration": 81.70211827110742,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 1.04085
+        },
+        {
+          "milliseconds": 5,
+          "value": 1.03905
+        },
+        {
+          "milliseconds": 10,
+          "value": 1.03545
+        },
+        {
+          "milliseconds": 20,
+          "value": 1.02463
+        },
+        {
+          "milliseconds": 50,
+          "value": 1.00436
+        },
+        {
+          "milliseconds": 100,
+          "value": 1
+        },
+        {
+          "milliseconds": 200,
+          "value": 1
+        },
+        {
+          "milliseconds": 300,
+          "value": 1
+        },
+        {
+          "milliseconds": 350,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "navigation-scale",
+      "node": ".nav-arrow-left",
+      "target": ".nav-arrow-left",
+      "property": "transform",
+      "read": "new DOMMatrixReadOnly(style.transform).a",
+      "interruptAt": 100,
+      "duration": 160.48067821196875,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 1.08024
+        },
+        {
+          "milliseconds": 5,
+          "value": 1.07885
+        },
+        {
+          "milliseconds": 10,
+          "value": 1.0766
+        },
+        {
+          "milliseconds": 20,
+          "value": 1.06931
+        },
+        {
+          "milliseconds": 50,
+          "value": 1.03725
+        },
+        {
+          "milliseconds": 100,
+          "value": 1.00801
+        },
+        {
+          "milliseconds": 200,
+          "value": 1
+        },
+        {
+          "milliseconds": 300,
+          "value": 1
+        },
+        {
+          "milliseconds": 350,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "navigation-scale",
+      "node": ".nav-arrow-left",
+      "target": ".nav-arrow-left",
+      "property": "transform",
+      "read": "new DOMMatrixReadOnly(style.transform).a",
+      "interruptAt": 150,
+      "duration": 192.09179567299537,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 1.09605
+        },
+        {
+          "milliseconds": 5,
+          "value": 1.09472
+        },
+        {
+          "milliseconds": 10,
+          "value": 1.09269
+        },
+        {
+          "milliseconds": 20,
+          "value": 1.08632
+        },
+        {
+          "milliseconds": 50,
+          "value": 1.05465
+        },
+        {
+          "milliseconds": 100,
+          "value": 1.01709
+        },
+        {
+          "milliseconds": 200,
+          "value": 1
+        },
+        {
+          "milliseconds": 300,
+          "value": 1
+        },
+        {
+          "milliseconds": 350,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "navigation-border",
+      "node": ".nav-arrow-left",
+      "target": ".nav-arrow-left",
+      "property": "border-left-color",
+      "read": "style.borderLeftColor",
+      "interruptAt": 50,
+      "duration": 81.70211827110742,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": "rgba(255, 255, 255, 0.29)"
+        },
+        {
+          "milliseconds": 5,
+          "value": "rgba(255, 255, 255, 0.29)"
+        },
+        {
+          "milliseconds": 10,
+          "value": "rgba(255, 255, 255, 0.286)"
+        },
+        {
+          "milliseconds": 20,
+          "value": "rgba(255, 255, 255, 0.275)"
+        },
+        {
+          "milliseconds": 50,
+          "value": "rgba(255, 255, 255, 0.255)"
+        },
+        {
+          "milliseconds": 100,
+          "value": "rgba(255, 255, 255, 0.25)"
+        },
+        {
+          "milliseconds": 200,
+          "value": "rgba(255, 255, 255, 0.25)"
+        },
+        {
+          "milliseconds": 300,
+          "value": "rgba(255, 255, 255, 0.25)"
+        },
+        {
+          "milliseconds": 350,
+          "value": "rgba(255, 255, 255, 0.25)"
+        }
+      ]
+    },
+    {
+      "name": "navigation-border",
+      "node": ".nav-arrow-left",
+      "target": ".nav-arrow-left",
+      "property": "border-left-color",
+      "read": "style.borderLeftColor",
+      "interruptAt": 100,
+      "duration": 160.48067821196875,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": "rgba(255, 255, 255, 0.33)"
+        },
+        {
+          "milliseconds": 5,
+          "value": "rgba(255, 255, 255, 0.33)"
+        },
+        {
+          "milliseconds": 10,
+          "value": "rgba(255, 255, 255, 0.325)"
+        },
+        {
+          "milliseconds": 20,
+          "value": "rgba(255, 255, 255, 0.318)"
+        },
+        {
+          "milliseconds": 50,
+          "value": "rgba(255, 255, 255, 0.286)"
+        },
+        {
+          "milliseconds": 100,
+          "value": "rgba(255, 255, 255, 0.26)"
+        },
+        {
+          "milliseconds": 200,
+          "value": "rgba(255, 255, 255, 0.25)"
+        },
+        {
+          "milliseconds": 300,
+          "value": "rgba(255, 255, 255, 0.25)"
+        },
+        {
+          "milliseconds": 350,
+          "value": "rgba(255, 255, 255, 0.25)"
+        }
+      ]
+    },
+    {
+      "name": "navigation-border",
+      "node": ".nav-arrow-left",
+      "target": ".nav-arrow-left",
+      "property": "border-left-color",
+      "read": "style.borderLeftColor",
+      "interruptAt": 150,
+      "duration": 192.09179567299537,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": "rgba(255, 255, 255, 0.345)"
+        },
+        {
+          "milliseconds": 5,
+          "value": "rgba(255, 255, 255, 0.345)"
+        },
+        {
+          "milliseconds": 10,
+          "value": "rgba(255, 255, 255, 0.34)"
+        },
+        {
+          "milliseconds": 20,
+          "value": "rgba(255, 255, 255, 0.337)"
+        },
+        {
+          "milliseconds": 50,
+          "value": "rgba(255, 255, 255, 0.306)"
+        },
+        {
+          "milliseconds": 100,
+          "value": "rgba(255, 255, 255, 0.267)"
+        },
+        {
+          "milliseconds": 200,
+          "value": "rgba(255, 255, 255, 0.25)"
+        },
+        {
+          "milliseconds": 300,
+          "value": "rgba(255, 255, 255, 0.25)"
+        },
+        {
+          "milliseconds": 350,
+          "value": "rgba(255, 255, 255, 0.25)"
+        }
+      ]
+    },
+    {
+      "name": "navigation-opacity",
+      "node": ".carousel-container",
+      "target": ".nav-arrow-left",
+      "property": "opacity",
+      "single": true,
+      "read": "Number(style.opacity)",
+      "interruptAt": 50,
+      "duration": 81.70211827110742,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 0.408511
+        },
+        {
+          "milliseconds": 5,
+          "value": 0.390465
+        },
+        {
+          "milliseconds": 10,
+          "value": 0.354514
+        },
+        {
+          "milliseconds": 20,
+          "value": 0.246347
+        },
+        {
+          "milliseconds": 50,
+          "value": 0.0436429
+        },
+        {
+          "milliseconds": 100,
+          "value": 0
+        },
+        {
+          "milliseconds": 200,
+          "value": 0
+        },
+        {
+          "milliseconds": 300,
+          "value": 0
+        },
+        {
+          "milliseconds": 350,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "navigation-opacity",
+      "node": ".carousel-container",
+      "target": ".nav-arrow-left",
+      "property": "opacity",
+      "single": true,
+      "read": "Number(style.opacity)",
+      "interruptAt": 100,
+      "duration": 160.48067821196875,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 0.802403
+        },
+        {
+          "milliseconds": 5,
+          "value": 0.788477
+        },
+        {
+          "milliseconds": 10,
+          "value": 0.765996
+        },
+        {
+          "milliseconds": 20,
+          "value": 0.69311
+        },
+        {
+          "milliseconds": 50,
+          "value": 0.372541
+        },
+        {
+          "milliseconds": 100,
+          "value": 0.0800677
+        },
+        {
+          "milliseconds": 200,
+          "value": 0
+        },
+        {
+          "milliseconds": 300,
+          "value": 0
+        },
+        {
+          "milliseconds": 350,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "navigation-opacity",
+      "node": ".carousel-container",
+      "target": ".nav-arrow-left",
+      "property": "opacity",
+      "single": true,
+      "read": "Number(style.opacity)",
+      "interruptAt": 150,
+      "duration": 192.09179567299537,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 0.960459
+        },
+        {
+          "milliseconds": 5,
+          "value": 0.947204
+        },
+        {
+          "milliseconds": 10,
+          "value": 0.926936
+        },
+        {
+          "milliseconds": 20,
+          "value": 0.863226
+        },
+        {
+          "milliseconds": 50,
+          "value": 0.546472
+        },
+        {
+          "milliseconds": 100,
+          "value": 0.17086
+        },
+        {
+          "milliseconds": 200,
+          "value": 0
+        },
+        {
+          "milliseconds": 300,
+          "value": 0
+        },
+        {
+          "milliseconds": 350,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "artwork-shadow",
+      "node": ".carousel-item",
+      "target": ".album-image-container",
+      "property": "filter",
+      "read": "style.filter",
+      "interruptAt": 50,
+      "duration": 66.20212355435991,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.525) 0px 8.20674px 24.4135px) drop-shadow(rgba(0, 0, 0, 0.424) 0px 2.88269px 9.76539px)"
+        },
+        {
+          "milliseconds": 5,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.52) 0px 8.07272px 24.1454px) drop-shadow(rgba(0, 0, 0, 0.42) 0px 2.82909px 9.65818px)"
+        },
+        {
+          "milliseconds": 10,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.518) 0px 7.79271px 23.5854px) drop-shadow(rgba(0, 0, 0, 0.42) 0px 2.71708px 9.43417px)"
+        },
+        {
+          "milliseconds": 20,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.514) 0px 7.06486px 22.1297px) drop-shadow(rgba(0, 0, 0, 0.41) 0px 2.42595px 8.85189px)"
+        },
+        {
+          "milliseconds": 50,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6.08328px 20.1666px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2.03331px 8.06663px)"
+        },
+        {
+          "milliseconds": 100,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)"
+        },
+        {
+          "milliseconds": 200,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)"
+        },
+        {
+          "milliseconds": 300,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)"
+        },
+        {
+          "milliseconds": 350,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)"
+        }
+      ]
+    },
+    {
+      "name": "artwork-shadow",
+      "node": ".carousel-item",
+      "target": ".album-image-container",
+      "property": "filter",
+      "read": "style.filter",
+      "interruptAt": 100,
+      "duration": 172.75869528226505,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.557) 0px 11.7586px 31.5172px) drop-shadow(rgba(0, 0, 0, 0.46) 0px 4.30345px 12.6069px)"
+        },
+        {
+          "milliseconds": 5,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.557) 0px 11.6677px 31.3354px) drop-shadow(rgba(0, 0, 0, 0.46) 0px 4.26709px 12.5342px)"
+        },
+        {
+          "milliseconds": 10,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.557) 0px 11.5243px 31.0485px) drop-shadow(rgba(0, 0, 0, 0.455) 0px 4.20971px 12.4194px)"
+        },
+        {
+          "milliseconds": 20,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.553) 0px 11.0646px 30.1291px) drop-shadow(rgba(0, 0, 0, 0.45) 0px 4.02582px 12.0516px)"
+        },
+        {
+          "milliseconds": 50,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.53) 0px 8.92435px 25.8487px) drop-shadow(rgba(0, 0, 0, 0.43) 0px 3.16974px 10.3395px)"
+        },
+        {
+          "milliseconds": 100,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.51) 0px 6.74715px 21.4943px) drop-shadow(rgba(0, 0, 0, 0.408) 0px 2.29886px 8.59772px)"
+        },
+        {
+          "milliseconds": 200,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)"
+        },
+        {
+          "milliseconds": 300,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)"
+        },
+        {
+          "milliseconds": 350,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)"
+        }
+      ]
+    },
+    {
+      "name": "artwork-shadow",
+      "node": ".carousel-item",
+      "target": ".album-image-container",
+      "property": "filter",
+      "read": "style.filter",
+      "interruptAt": 150,
+      "duration": 240.72101731795308,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.58) 0px 14.024px 36.0481px) drop-shadow(rgba(0, 0, 0, 0.482) 0px 5.20961px 14.4192px)"
+        },
+        {
+          "milliseconds": 5,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.58) 0px 13.9402px 35.8804px) drop-shadow(rgba(0, 0, 0, 0.482) 0px 5.17608px 14.3522px)"
+        },
+        {
+          "milliseconds": 10,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.58) 0px 13.8198px 35.6396px) drop-shadow(rgba(0, 0, 0, 0.48) 0px 5.12793px 14.2559px)"
+        },
+        {
+          "milliseconds": 20,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.576) 0px 13.4586px 34.9171px) drop-shadow(rgba(0, 0, 0, 0.475) 0px 4.98343px 13.9669px)"
+        },
+        {
+          "milliseconds": 50,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.557) 0px 11.5136px 31.0272px) drop-shadow(rgba(0, 0, 0, 0.455) 0px 4.20544px 12.4109px)"
+        },
+        {
+          "milliseconds": 100,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.525) 0px 8.37567px 24.7514px) drop-shadow(rgba(0, 0, 0, 0.424) 0px 2.95027px 9.90054px)"
+        },
+        {
+          "milliseconds": 200,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6.13685px 20.2737px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2.05474px 8.10948px)"
+        },
+        {
+          "milliseconds": 300,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)"
+        },
+        {
+          "milliseconds": 350,
+          "value": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)"
+        }
+      ]
+    },
+    {
+      "name": "artwork-dimming",
+      "node": ".image-section",
+      "target": ".album-image-container",
+      "pseudo": "::before",
+      "property": "background-color",
+      "read": "style.backgroundColor",
+      "interruptAt": 50,
+      "duration": 66.20212355435991,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": "rgba(0, 0, 0, 0.09)"
+        },
+        {
+          "milliseconds": 5,
+          "value": "rgba(0, 0, 0, 0.082)"
+        },
+        {
+          "milliseconds": 10,
+          "value": "rgba(0, 0, 0, 0.07)"
+        },
+        {
+          "milliseconds": 20,
+          "value": "rgba(0, 0, 0, 0.043)"
+        },
+        {
+          "milliseconds": 50,
+          "value": "rgba(0, 0, 0, 0.004)"
+        },
+        {
+          "milliseconds": 100,
+          "value": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "milliseconds": 200,
+          "value": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "milliseconds": 300,
+          "value": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "milliseconds": 350,
+          "value": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "name": "artwork-dimming",
+      "node": ".image-section",
+      "target": ".album-image-container",
+      "pseudo": "::before",
+      "property": "background-color",
+      "read": "style.backgroundColor",
+      "interruptAt": 100,
+      "duration": 172.75869528226505,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": "rgba(0, 0, 0, 0.23)"
+        },
+        {
+          "milliseconds": 5,
+          "value": "rgba(0, 0, 0, 0.227)"
+        },
+        {
+          "milliseconds": 10,
+          "value": "rgba(0, 0, 0, 0.22)"
+        },
+        {
+          "milliseconds": 20,
+          "value": "rgba(0, 0, 0, 0.204)"
+        },
+        {
+          "milliseconds": 50,
+          "value": "rgba(0, 0, 0, 0.118)"
+        },
+        {
+          "milliseconds": 100,
+          "value": "rgba(0, 0, 0, 0.03)"
+        },
+        {
+          "milliseconds": 200,
+          "value": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "milliseconds": 300,
+          "value": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "milliseconds": 350,
+          "value": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "name": "artwork-dimming",
+      "node": ".image-section",
+      "target": ".album-image-container",
+      "pseudo": "::before",
+      "property": "background-color",
+      "read": "style.backgroundColor",
+      "interruptAt": 150,
+      "duration": 240.72101731795308,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": "rgba(0, 0, 0, 0.32)"
+        },
+        {
+          "milliseconds": 5,
+          "value": "rgba(0, 0, 0, 0.318)"
+        },
+        {
+          "milliseconds": 10,
+          "value": "rgba(0, 0, 0, 0.314)"
+        },
+        {
+          "milliseconds": 20,
+          "value": "rgba(0, 0, 0, 0.298)"
+        },
+        {
+          "milliseconds": 50,
+          "value": "rgba(0, 0, 0, 0.22)"
+        },
+        {
+          "milliseconds": 100,
+          "value": "rgba(0, 0, 0, 0.094)"
+        },
+        {
+          "milliseconds": 200,
+          "value": "rgba(0, 0, 0, 0.004)"
+        },
+        {
+          "milliseconds": 300,
+          "value": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "milliseconds": 350,
+          "value": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "name": "play-overlay-opacity",
+      "node": ".image-section",
+      "target": ".play-button-overlay",
+      "property": "opacity",
+      "read": "Number(style.opacity)",
+      "interruptAt": 50,
+      "duration": 66.20212355435991,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 0.220674
+        },
+        {
+          "milliseconds": 5,
+          "value": 0.207272
+        },
+        {
+          "milliseconds": 10,
+          "value": 0.179271
+        },
+        {
+          "milliseconds": 20,
+          "value": 0.106486
+        },
+        {
+          "milliseconds": 50,
+          "value": 0.00832845
+        },
+        {
+          "milliseconds": 100,
+          "value": 0
+        },
+        {
+          "milliseconds": 200,
+          "value": 0
+        },
+        {
+          "milliseconds": 300,
+          "value": 0
+        },
+        {
+          "milliseconds": 350,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "play-overlay-opacity",
+      "node": ".image-section",
+      "target": ".play-button-overlay",
+      "property": "opacity",
+      "read": "Number(style.opacity)",
+      "interruptAt": 100,
+      "duration": 172.75869528226505,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 0.575862
+        },
+        {
+          "milliseconds": 5,
+          "value": 0.566772
+        },
+        {
+          "milliseconds": 10,
+          "value": 0.552426
+        },
+        {
+          "milliseconds": 20,
+          "value": 0.506455
+        },
+        {
+          "milliseconds": 50,
+          "value": 0.292435
+        },
+        {
+          "milliseconds": 100,
+          "value": 0.0747149
+        },
+        {
+          "milliseconds": 200,
+          "value": 0
+        },
+        {
+          "milliseconds": 300,
+          "value": 0
+        },
+        {
+          "milliseconds": 350,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "play-overlay-opacity",
+      "node": ".image-section",
+      "target": ".play-button-overlay",
+      "property": "opacity",
+      "read": "Number(style.opacity)",
+      "interruptAt": 150,
+      "duration": 240.72101731795308,
+      "samples": [
+        {
+          "milliseconds": 0,
+          "value": 0.802403
+        },
+        {
+          "milliseconds": 5,
+          "value": 0.794019
+        },
+        {
+          "milliseconds": 10,
+          "value": 0.781981
+        },
+        {
+          "milliseconds": 20,
+          "value": 0.745856
+        },
+        {
+          "milliseconds": 50,
+          "value": 0.55136
+        },
+        {
+          "milliseconds": 100,
+          "value": 0.237567
+        },
+        {
+          "milliseconds": 200,
+          "value": 0.0136847
+        },
+        {
+          "milliseconds": 300,
+          "value": 0
+        },
+        {
+          "milliseconds": 350,
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

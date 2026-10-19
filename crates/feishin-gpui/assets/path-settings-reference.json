@@ -1,0 +1,142 @@
+[
+  {
+    "name": "initial",
+    "stored": {
+      "pathReplace": "/srv/",
+      "pathReplaceWith": "/local/"
+    },
+    "inputs": [
+      "/srv/",
+      "/local/"
+    ],
+    "preview": "/local/song.flac",
+    "refresh": true,
+    "refreshes": 0
+  },
+  {
+    "name": "remove-draft",
+    "stored": {
+      "pathReplace": "/srv/",
+      "pathReplaceWith": "/local/"
+    },
+    "inputs": [
+      "/wrong/",
+      "/local/"
+    ],
+    "preview": "/local/song.flac",
+    "refresh": true,
+    "refreshes": 0
+  },
+  {
+    "name": "remove-committed",
+    "stored": {
+      "pathReplace": "/wrong/",
+      "pathReplaceWith": "/local/"
+    },
+    "inputs": [
+      "/wrong/",
+      "/local/"
+    ],
+    "preview": "/local//srv/song.flac",
+    "refresh": true,
+    "refreshes": 0
+  },
+  {
+    "name": "add-draft",
+    "stored": {
+      "pathReplace": "/wrong/",
+      "pathReplaceWith": "/local/"
+    },
+    "inputs": [
+      "/wrong/",
+      "/new/"
+    ],
+    "preview": "/local//srv/song.flac",
+    "refresh": true,
+    "refreshes": 0
+  },
+  {
+    "name": "add-committed",
+    "stored": {
+      "pathReplace": "/wrong/",
+      "pathReplaceWith": "/new/"
+    },
+    "inputs": [
+      "/wrong/",
+      "/new/"
+    ],
+    "preview": "/new//srv/song.flac",
+    "refresh": true,
+    "refreshes": 0
+  },
+  {
+    "name": "refresh",
+    "stored": {
+      "pathReplace": "/wrong/",
+      "pathReplaceWith": "/new/"
+    },
+    "inputs": [
+      "/wrong/",
+      "/new/"
+    ],
+    "preview": "/new//srv/next.flac",
+    "refresh": true,
+    "refreshes": 1
+  },
+  {
+    "name": "external",
+    "stored": {
+      "pathReplace": "/srv/",
+      "pathReplaceWith": "/restored/"
+    },
+    "inputs": [
+      "/srv/",
+      "/restored/"
+    ],
+    "preview": "/restored/next.flac",
+    "refresh": true,
+    "refreshes": 1
+  },
+  {
+    "name": "immediate",
+    "stored": {
+      "pathReplace": "/srv/",
+      "pathReplaceWith": "/restored/"
+    },
+    "inputs": [
+      "/srv/",
+      "/restored/"
+    ],
+    "preview": "/restored/missing.flac",
+    "refresh": false,
+    "refreshes": 1
+  },
+  {
+    "name": "immediate-remove",
+    "stored": {
+      "pathReplace": "",
+      "pathReplaceWith": "/restored/"
+    },
+    "inputs": [
+      "",
+      "/restored/"
+    ],
+    "preview": "/restored//srv/missing.flac",
+    "refresh": false,
+    "refreshes": 1
+  },
+  {
+    "name": "immediate-add",
+    "stored": {
+      "pathReplace": "",
+      "pathReplaceWith": "/fixed/"
+    },
+    "inputs": [
+      "",
+      "/fixed/"
+    ],
+    "preview": "/fixed//srv/missing.flac",
+    "refresh": false,
+    "refreshes": 1
+  }
+]

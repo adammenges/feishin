@@ -1,0 +1,890 @@
+[
+  {
+    "defaultOffset": 0,
+    "originalOffsets": [
+      null,
+      null,
+      null
+    ],
+    "frames": [
+      {
+        "action": {
+          "type": "initial"
+        },
+        "index": 0,
+        "offset": 0,
+        "stored": null,
+        "offsets": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": 50
+        },
+        "index": 0,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          null,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 1
+        },
+        "index": 1,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          null,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": 275
+        },
+        "index": 1,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          50,
+          275,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 0
+        },
+        "index": 0,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          275,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 2
+        },
+        "index": 2,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          275,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": -125
+        },
+        "index": 2,
+        "offset": -125,
+        "stored": -125,
+        "offsets": [
+          50,
+          275,
+          -125
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 1
+        },
+        "index": 1,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          50,
+          275,
+          -125
+        ]
+      },
+      {
+        "action": {
+          "type": "refresh"
+        },
+        "index": 1,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 2
+        },
+        "index": 2,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          null,
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "defaultOffset": 0,
+    "originalOffsets": [
+      null,
+      125,
+      -750
+    ],
+    "frames": [
+      {
+        "action": {
+          "type": "initial"
+        },
+        "index": 0,
+        "offset": 0,
+        "stored": null,
+        "offsets": [
+          null,
+          125,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": 50
+        },
+        "index": 0,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          125,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 1
+        },
+        "index": 1,
+        "offset": 125,
+        "stored": 125,
+        "offsets": [
+          50,
+          125,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": 275
+        },
+        "index": 1,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          50,
+          275,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 0
+        },
+        "index": 0,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          275,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 2
+        },
+        "index": 2,
+        "offset": -750,
+        "stored": -750,
+        "offsets": [
+          50,
+          275,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": -125
+        },
+        "index": 2,
+        "offset": -125,
+        "stored": -125,
+        "offsets": [
+          50,
+          275,
+          -125
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 1
+        },
+        "index": 1,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          50,
+          275,
+          -125
+        ]
+      },
+      {
+        "action": {
+          "type": "refresh"
+        },
+        "index": 1,
+        "offset": 125,
+        "stored": 275,
+        "offsets": [
+          null,
+          125,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 2
+        },
+        "index": 2,
+        "offset": -750,
+        "stored": -750,
+        "offsets": [
+          null,
+          125,
+          -750
+        ]
+      }
+    ]
+  },
+  {
+    "defaultOffset": 250,
+    "originalOffsets": [
+      null,
+      null,
+      null
+    ],
+    "frames": [
+      {
+        "action": {
+          "type": "initial"
+        },
+        "index": 0,
+        "offset": 250,
+        "stored": null,
+        "offsets": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": 50
+        },
+        "index": 0,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          null,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 1
+        },
+        "index": 1,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          null,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": 275
+        },
+        "index": 1,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          50,
+          275,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 0
+        },
+        "index": 0,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          275,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 2
+        },
+        "index": 2,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          275,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": -125
+        },
+        "index": 2,
+        "offset": -125,
+        "stored": -125,
+        "offsets": [
+          50,
+          275,
+          -125
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 1
+        },
+        "index": 1,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          50,
+          275,
+          -125
+        ]
+      },
+      {
+        "action": {
+          "type": "refresh"
+        },
+        "index": 1,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 2
+        },
+        "index": 2,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          null,
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "defaultOffset": 250,
+    "originalOffsets": [
+      null,
+      125,
+      -750
+    ],
+    "frames": [
+      {
+        "action": {
+          "type": "initial"
+        },
+        "index": 0,
+        "offset": 250,
+        "stored": null,
+        "offsets": [
+          null,
+          125,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": 50
+        },
+        "index": 0,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          125,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 1
+        },
+        "index": 1,
+        "offset": 125,
+        "stored": 125,
+        "offsets": [
+          50,
+          125,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": 275
+        },
+        "index": 1,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          50,
+          275,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 0
+        },
+        "index": 0,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          275,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 2
+        },
+        "index": 2,
+        "offset": -750,
+        "stored": -750,
+        "offsets": [
+          50,
+          275,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": -125
+        },
+        "index": 2,
+        "offset": -125,
+        "stored": -125,
+        "offsets": [
+          50,
+          275,
+          -125
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 1
+        },
+        "index": 1,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          50,
+          275,
+          -125
+        ]
+      },
+      {
+        "action": {
+          "type": "refresh"
+        },
+        "index": 1,
+        "offset": 125,
+        "stored": 275,
+        "offsets": [
+          null,
+          125,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 2
+        },
+        "index": 2,
+        "offset": -750,
+        "stored": -750,
+        "offsets": [
+          null,
+          125,
+          -750
+        ]
+      }
+    ]
+  },
+  {
+    "defaultOffset": -500,
+    "originalOffsets": [
+      null,
+      null,
+      null
+    ],
+    "frames": [
+      {
+        "action": {
+          "type": "initial"
+        },
+        "index": 0,
+        "offset": -500,
+        "stored": null,
+        "offsets": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": 50
+        },
+        "index": 0,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          null,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 1
+        },
+        "index": 1,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          null,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": 275
+        },
+        "index": 1,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          50,
+          275,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 0
+        },
+        "index": 0,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          275,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 2
+        },
+        "index": 2,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          275,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": -125
+        },
+        "index": 2,
+        "offset": -125,
+        "stored": -125,
+        "offsets": [
+          50,
+          275,
+          -125
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 1
+        },
+        "index": 1,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          50,
+          275,
+          -125
+        ]
+      },
+      {
+        "action": {
+          "type": "refresh"
+        },
+        "index": 1,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 2
+        },
+        "index": 2,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          null,
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  {
+    "defaultOffset": -500,
+    "originalOffsets": [
+      null,
+      125,
+      -750
+    ],
+    "frames": [
+      {
+        "action": {
+          "type": "initial"
+        },
+        "index": 0,
+        "offset": -500,
+        "stored": null,
+        "offsets": [
+          null,
+          125,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": 50
+        },
+        "index": 0,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          125,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 1
+        },
+        "index": 1,
+        "offset": 125,
+        "stored": 125,
+        "offsets": [
+          50,
+          125,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": 275
+        },
+        "index": 1,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          50,
+          275,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 0
+        },
+        "index": 0,
+        "offset": 50,
+        "stored": 50,
+        "offsets": [
+          50,
+          275,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 2
+        },
+        "index": 2,
+        "offset": -750,
+        "stored": -750,
+        "offsets": [
+          50,
+          275,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "offset",
+          "value": -125
+        },
+        "index": 2,
+        "offset": -125,
+        "stored": -125,
+        "offsets": [
+          50,
+          275,
+          -125
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 1
+        },
+        "index": 1,
+        "offset": 275,
+        "stored": 275,
+        "offsets": [
+          50,
+          275,
+          -125
+        ]
+      },
+      {
+        "action": {
+          "type": "refresh"
+        },
+        "index": 1,
+        "offset": 125,
+        "stored": 275,
+        "offsets": [
+          null,
+          125,
+          -750
+        ]
+      },
+      {
+        "action": {
+          "type": "select",
+          "value": 2
+        },
+        "index": 2,
+        "offset": -750,
+        "stored": -750,
+        "offsets": [
+          null,
+          125,
+          -750
+        ]
+      }
+    ]
+  }
+]

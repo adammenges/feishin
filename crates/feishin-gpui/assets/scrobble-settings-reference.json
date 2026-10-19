@@ -1,0 +1,1610 @@
+[
+  {
+    "mode": "both",
+    "enabled": false,
+    "controls": [
+      {
+        "title": "setting.scrobble",
+        "description": {
+          "key": "setting.scrobble",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "switch",
+        "min": null,
+        "max": null,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "enabled": false
+                }
+              }
+            }
+          },
+          {
+            "value": true,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "enabled": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.scrobbleMinimumMode",
+        "description": {
+          "key": "setting.scrobbleMinimumMode",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "select",
+        "min": null,
+        "max": null,
+        "choices": [
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionBoth"
+              }
+            },
+            "value": "both"
+          },
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionSeconds"
+              }
+            },
+            "value": "seconds"
+          },
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionPercentage"
+              }
+            },
+            "value": "percentage"
+          }
+        ],
+        "changes": [
+          {
+            "value": "both",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "both"
+                }
+              }
+            }
+          },
+          {
+            "value": "seconds",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "seconds"
+                }
+              }
+            }
+          },
+          {
+            "value": "percentage",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "percentage"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.minimumScrobblePercentage",
+        "description": {
+          "key": "setting.minimumScrobblePercentage",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "slider",
+        "min": 25,
+        "max": 90,
+        "choices": null,
+        "changes": [
+          {
+            "value": 25,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 25
+                }
+              }
+            }
+          },
+          {
+            "value": 50,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 50
+                }
+              }
+            }
+          },
+          {
+            "value": 75,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 75
+                }
+              }
+            }
+          },
+          {
+            "value": 90,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 90
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.minimumScrobbleSeconds",
+        "description": {
+          "key": "setting.minimumScrobbleSeconds",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "number",
+        "min": 0,
+        "max": 1200,
+        "choices": null,
+        "changes": [
+          {
+            "value": "",
+            "settings": null
+          },
+          {
+            "value": 0,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 0
+                }
+              }
+            }
+          },
+          {
+            "value": 1,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 1
+                }
+              }
+            }
+          },
+          {
+            "value": 240,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 240
+                }
+              }
+            }
+          },
+          {
+            "value": 1200,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 1200
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.notify",
+        "description": {
+          "key": "setting.notify",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "switch",
+        "min": null,
+        "max": null,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "notify": false
+                }
+              }
+            }
+          },
+          {
+            "value": true,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "notify": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mode": "both",
+    "enabled": true,
+    "controls": [
+      {
+        "title": "setting.scrobble",
+        "description": {
+          "key": "setting.scrobble",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "switch",
+        "min": null,
+        "max": null,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "enabled": false
+                }
+              }
+            }
+          },
+          {
+            "value": true,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "enabled": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.scrobbleMinimumMode",
+        "description": {
+          "key": "setting.scrobbleMinimumMode",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "select",
+        "min": null,
+        "max": null,
+        "choices": [
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionBoth"
+              }
+            },
+            "value": "both"
+          },
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionSeconds"
+              }
+            },
+            "value": "seconds"
+          },
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionPercentage"
+              }
+            },
+            "value": "percentage"
+          }
+        ],
+        "changes": [
+          {
+            "value": "both",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "both"
+                }
+              }
+            }
+          },
+          {
+            "value": "seconds",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "seconds"
+                }
+              }
+            }
+          },
+          {
+            "value": "percentage",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "percentage"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.minimumScrobblePercentage",
+        "description": {
+          "key": "setting.minimumScrobblePercentage",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "slider",
+        "min": 25,
+        "max": 90,
+        "choices": null,
+        "changes": [
+          {
+            "value": 25,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 25
+                }
+              }
+            }
+          },
+          {
+            "value": 50,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 50
+                }
+              }
+            }
+          },
+          {
+            "value": 75,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 75
+                }
+              }
+            }
+          },
+          {
+            "value": 90,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 90
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.minimumScrobbleSeconds",
+        "description": {
+          "key": "setting.minimumScrobbleSeconds",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "number",
+        "min": 0,
+        "max": 1200,
+        "choices": null,
+        "changes": [
+          {
+            "value": "",
+            "settings": null
+          },
+          {
+            "value": 0,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 0
+                }
+              }
+            }
+          },
+          {
+            "value": 1,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 1
+                }
+              }
+            }
+          },
+          {
+            "value": 240,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 240
+                }
+              }
+            }
+          },
+          {
+            "value": 1200,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 1200
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.notify",
+        "description": {
+          "key": "setting.notify",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "switch",
+        "min": null,
+        "max": null,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "notify": false
+                }
+              }
+            }
+          },
+          {
+            "value": true,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "notify": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mode": "seconds",
+    "enabled": false,
+    "controls": [
+      {
+        "title": "setting.scrobble",
+        "description": {
+          "key": "setting.scrobble",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "switch",
+        "min": null,
+        "max": null,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "enabled": false
+                }
+              }
+            }
+          },
+          {
+            "value": true,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "enabled": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.scrobbleMinimumMode",
+        "description": {
+          "key": "setting.scrobbleMinimumMode",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "select",
+        "min": null,
+        "max": null,
+        "choices": [
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionBoth"
+              }
+            },
+            "value": "both"
+          },
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionSeconds"
+              }
+            },
+            "value": "seconds"
+          },
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionPercentage"
+              }
+            },
+            "value": "percentage"
+          }
+        ],
+        "changes": [
+          {
+            "value": "both",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "both"
+                }
+              }
+            }
+          },
+          {
+            "value": "seconds",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "seconds"
+                }
+              }
+            }
+          },
+          {
+            "value": "percentage",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "percentage"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.minimumScrobblePercentage",
+        "description": {
+          "key": "setting.minimumScrobblePercentage",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "type": "slider",
+        "min": 25,
+        "max": 90,
+        "choices": null,
+        "changes": [
+          {
+            "value": 25,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 25
+                }
+              }
+            }
+          },
+          {
+            "value": 50,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 50
+                }
+              }
+            }
+          },
+          {
+            "value": 75,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 75
+                }
+              }
+            }
+          },
+          {
+            "value": 90,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 90
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.minimumScrobbleSeconds",
+        "description": {
+          "key": "setting.minimumScrobbleSeconds",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "number",
+        "min": 0,
+        "max": 1200,
+        "choices": null,
+        "changes": [
+          {
+            "value": "",
+            "settings": null
+          },
+          {
+            "value": 0,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 0
+                }
+              }
+            }
+          },
+          {
+            "value": 1,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 1
+                }
+              }
+            }
+          },
+          {
+            "value": 240,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 240
+                }
+              }
+            }
+          },
+          {
+            "value": 1200,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 1200
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.notify",
+        "description": {
+          "key": "setting.notify",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "switch",
+        "min": null,
+        "max": null,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "notify": false
+                }
+              }
+            }
+          },
+          {
+            "value": true,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "notify": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mode": "seconds",
+    "enabled": true,
+    "controls": [
+      {
+        "title": "setting.scrobble",
+        "description": {
+          "key": "setting.scrobble",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "switch",
+        "min": null,
+        "max": null,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "enabled": false
+                }
+              }
+            }
+          },
+          {
+            "value": true,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "enabled": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.scrobbleMinimumMode",
+        "description": {
+          "key": "setting.scrobbleMinimumMode",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "select",
+        "min": null,
+        "max": null,
+        "choices": [
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionBoth"
+              }
+            },
+            "value": "both"
+          },
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionSeconds"
+              }
+            },
+            "value": "seconds"
+          },
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionPercentage"
+              }
+            },
+            "value": "percentage"
+          }
+        ],
+        "changes": [
+          {
+            "value": "both",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "both"
+                }
+              }
+            }
+          },
+          {
+            "value": "seconds",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "seconds"
+                }
+              }
+            }
+          },
+          {
+            "value": "percentage",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "percentage"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.minimumScrobblePercentage",
+        "description": {
+          "key": "setting.minimumScrobblePercentage",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "type": "slider",
+        "min": 25,
+        "max": 90,
+        "choices": null,
+        "changes": [
+          {
+            "value": 25,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 25
+                }
+              }
+            }
+          },
+          {
+            "value": 50,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 50
+                }
+              }
+            }
+          },
+          {
+            "value": 75,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 75
+                }
+              }
+            }
+          },
+          {
+            "value": 90,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 90
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.minimumScrobbleSeconds",
+        "description": {
+          "key": "setting.minimumScrobbleSeconds",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "number",
+        "min": 0,
+        "max": 1200,
+        "choices": null,
+        "changes": [
+          {
+            "value": "",
+            "settings": null
+          },
+          {
+            "value": 0,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 0
+                }
+              }
+            }
+          },
+          {
+            "value": 1,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 1
+                }
+              }
+            }
+          },
+          {
+            "value": 240,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 240
+                }
+              }
+            }
+          },
+          {
+            "value": 1200,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 1200
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.notify",
+        "description": {
+          "key": "setting.notify",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "switch",
+        "min": null,
+        "max": null,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "notify": false
+                }
+              }
+            }
+          },
+          {
+            "value": true,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "notify": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mode": "percentage",
+    "enabled": false,
+    "controls": [
+      {
+        "title": "setting.scrobble",
+        "description": {
+          "key": "setting.scrobble",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "switch",
+        "min": null,
+        "max": null,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "enabled": false
+                }
+              }
+            }
+          },
+          {
+            "value": true,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "enabled": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.scrobbleMinimumMode",
+        "description": {
+          "key": "setting.scrobbleMinimumMode",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "select",
+        "min": null,
+        "max": null,
+        "choices": [
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionBoth"
+              }
+            },
+            "value": "both"
+          },
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionSeconds"
+              }
+            },
+            "value": "seconds"
+          },
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionPercentage"
+              }
+            },
+            "value": "percentage"
+          }
+        ],
+        "changes": [
+          {
+            "value": "both",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "both"
+                }
+              }
+            }
+          },
+          {
+            "value": "seconds",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "seconds"
+                }
+              }
+            }
+          },
+          {
+            "value": "percentage",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "percentage"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.minimumScrobblePercentage",
+        "description": {
+          "key": "setting.minimumScrobblePercentage",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "slider",
+        "min": 25,
+        "max": 90,
+        "choices": null,
+        "changes": [
+          {
+            "value": 25,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 25
+                }
+              }
+            }
+          },
+          {
+            "value": 50,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 50
+                }
+              }
+            }
+          },
+          {
+            "value": 75,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 75
+                }
+              }
+            }
+          },
+          {
+            "value": 90,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 90
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.minimumScrobbleSeconds",
+        "description": {
+          "key": "setting.minimumScrobbleSeconds",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "type": "number",
+        "min": 0,
+        "max": 1200,
+        "choices": null,
+        "changes": [
+          {
+            "value": "",
+            "settings": null
+          },
+          {
+            "value": 0,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 0
+                }
+              }
+            }
+          },
+          {
+            "value": 1,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 1
+                }
+              }
+            }
+          },
+          {
+            "value": 240,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 240
+                }
+              }
+            }
+          },
+          {
+            "value": 1200,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 1200
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.notify",
+        "description": {
+          "key": "setting.notify",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "switch",
+        "min": null,
+        "max": null,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "notify": false
+                }
+              }
+            }
+          },
+          {
+            "value": true,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "notify": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mode": "percentage",
+    "enabled": true,
+    "controls": [
+      {
+        "title": "setting.scrobble",
+        "description": {
+          "key": "setting.scrobble",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "switch",
+        "min": null,
+        "max": null,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "enabled": false
+                }
+              }
+            }
+          },
+          {
+            "value": true,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "enabled": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.scrobbleMinimumMode",
+        "description": {
+          "key": "setting.scrobbleMinimumMode",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "select",
+        "min": null,
+        "max": null,
+        "choices": [
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionBoth"
+              }
+            },
+            "value": "both"
+          },
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionSeconds"
+              }
+            },
+            "value": "seconds"
+          },
+          {
+            "label": {
+              "key": "setting.scrobbleMinimumMode",
+              "options": {
+                "context": "optionPercentage"
+              }
+            },
+            "value": "percentage"
+          }
+        ],
+        "changes": [
+          {
+            "value": "both",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "both"
+                }
+              }
+            }
+          },
+          {
+            "value": "seconds",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "seconds"
+                }
+              }
+            }
+          },
+          {
+            "value": "percentage",
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "minimumMode": "percentage"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.minimumScrobblePercentage",
+        "description": {
+          "key": "setting.minimumScrobblePercentage",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "slider",
+        "min": 25,
+        "max": 90,
+        "choices": null,
+        "changes": [
+          {
+            "value": 25,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 25
+                }
+              }
+            }
+          },
+          {
+            "value": 50,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 50
+                }
+              }
+            }
+          },
+          {
+            "value": 75,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 75
+                }
+              }
+            }
+          },
+          {
+            "value": 90,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtPercentage": 90
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.minimumScrobbleSeconds",
+        "description": {
+          "key": "setting.minimumScrobbleSeconds",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "type": "number",
+        "min": 0,
+        "max": 1200,
+        "choices": null,
+        "changes": [
+          {
+            "value": "",
+            "settings": null
+          },
+          {
+            "value": 0,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 0
+                }
+              }
+            }
+          },
+          {
+            "value": 1,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 1
+                }
+              }
+            }
+          },
+          {
+            "value": 240,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 240
+                }
+              }
+            }
+          },
+          {
+            "value": 1200,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "scrobbleAtDuration": 1200
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "title": "setting.notify",
+        "description": {
+          "key": "setting.notify",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "type": "switch",
+        "min": null,
+        "max": null,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "notify": false
+                }
+              }
+            }
+          },
+          {
+            "value": true,
+            "settings": {
+              "playback": {
+                "scrobble": {
+                  "notify": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

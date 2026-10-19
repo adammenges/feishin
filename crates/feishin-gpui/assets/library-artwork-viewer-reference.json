@@ -1,0 +1,934 @@
+[
+  {
+    "width": 480,
+    "height": 640,
+    "action": "click",
+    "blur": false,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 452,
+      "height": 534,
+      "fit": "contain",
+      "filter": "none",
+      "centerHeight": 534,
+      "close": {
+        "x": 438,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(0, 0, 0, 0)"
+    },
+    "closed": true
+  },
+  {
+    "width": 480,
+    "height": 640,
+    "action": "click",
+    "blur": true,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 452,
+      "height": 534,
+      "fit": "contain",
+      "filter": "blur(10px)",
+      "centerHeight": 534,
+      "close": {
+        "x": 438,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(17, 25, 31, 0.5)"
+    },
+    "closed": true
+  },
+  {
+    "width": 480,
+    "height": 640,
+    "action": "Enter",
+    "blur": false,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 452,
+      "height": 534,
+      "fit": "contain",
+      "filter": "none",
+      "centerHeight": 534,
+      "close": {
+        "x": 438,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(0, 0, 0, 0)"
+    },
+    "closed": true
+  },
+  {
+    "width": 480,
+    "height": 640,
+    "action": "Enter",
+    "blur": true,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 452,
+      "height": 534,
+      "fit": "contain",
+      "filter": "blur(10px)",
+      "centerHeight": 534,
+      "close": {
+        "x": 438,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(17, 25, 31, 0.5)"
+    },
+    "closed": true
+  },
+  {
+    "width": 480,
+    "height": 640,
+    "action": " ",
+    "blur": false,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 452,
+      "height": 534,
+      "fit": "contain",
+      "filter": "none",
+      "centerHeight": 534,
+      "close": {
+        "x": 438,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(0, 0, 0, 0)"
+    },
+    "closed": true
+  },
+  {
+    "width": 480,
+    "height": 640,
+    "action": " ",
+    "blur": true,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 452,
+      "height": 534,
+      "fit": "contain",
+      "filter": "blur(10px)",
+      "centerHeight": 534,
+      "close": {
+        "x": 438,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(17, 25, 31, 0.5)"
+    },
+    "closed": true
+  },
+  {
+    "width": 480,
+    "height": 640,
+    "action": "Spacebar",
+    "blur": false,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 452,
+      "height": 534,
+      "fit": "contain",
+      "filter": "none",
+      "centerHeight": 534,
+      "close": {
+        "x": 438,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(0, 0, 0, 0)"
+    },
+    "closed": true
+  },
+  {
+    "width": 480,
+    "height": 640,
+    "action": "Spacebar",
+    "blur": true,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 452,
+      "height": 534,
+      "fit": "contain",
+      "filter": "blur(10px)",
+      "centerHeight": 534,
+      "close": {
+        "x": 438,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(17, 25, 31, 0.5)"
+    },
+    "closed": true
+  },
+  {
+    "width": 960,
+    "height": 900,
+    "action": "click",
+    "blur": false,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 932,
+      "height": 794,
+      "fit": "contain",
+      "filter": "none",
+      "centerHeight": 794,
+      "close": {
+        "x": 918,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(0, 0, 0, 0)"
+    },
+    "closed": true
+  },
+  {
+    "width": 960,
+    "height": 900,
+    "action": "click",
+    "blur": true,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 932,
+      "height": 794,
+      "fit": "contain",
+      "filter": "blur(10px)",
+      "centerHeight": 794,
+      "close": {
+        "x": 918,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(17, 25, 31, 0.5)"
+    },
+    "closed": true
+  },
+  {
+    "width": 960,
+    "height": 900,
+    "action": "Enter",
+    "blur": false,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 932,
+      "height": 794,
+      "fit": "contain",
+      "filter": "none",
+      "centerHeight": 794,
+      "close": {
+        "x": 918,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(0, 0, 0, 0)"
+    },
+    "closed": true
+  },
+  {
+    "width": 960,
+    "height": 900,
+    "action": "Enter",
+    "blur": true,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 932,
+      "height": 794,
+      "fit": "contain",
+      "filter": "blur(10px)",
+      "centerHeight": 794,
+      "close": {
+        "x": 918,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(17, 25, 31, 0.5)"
+    },
+    "closed": true
+  },
+  {
+    "width": 960,
+    "height": 900,
+    "action": " ",
+    "blur": false,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 932,
+      "height": 794,
+      "fit": "contain",
+      "filter": "none",
+      "centerHeight": 794,
+      "close": {
+        "x": 918,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(0, 0, 0, 0)"
+    },
+    "closed": true
+  },
+  {
+    "width": 960,
+    "height": 900,
+    "action": " ",
+    "blur": true,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 932,
+      "height": 794,
+      "fit": "contain",
+      "filter": "blur(10px)",
+      "centerHeight": 794,
+      "close": {
+        "x": 918,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(17, 25, 31, 0.5)"
+    },
+    "closed": true
+  },
+  {
+    "width": 960,
+    "height": 900,
+    "action": "Spacebar",
+    "blur": false,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 932,
+      "height": 794,
+      "fit": "contain",
+      "filter": "none",
+      "centerHeight": 794,
+      "close": {
+        "x": 918,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(0, 0, 0, 0)"
+    },
+    "closed": true
+  },
+  {
+    "width": 960,
+    "height": 900,
+    "action": "Spacebar",
+    "blur": true,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 932,
+      "height": 794,
+      "fit": "contain",
+      "filter": "blur(10px)",
+      "centerHeight": 794,
+      "close": {
+        "x": 918,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(17, 25, 31, 0.5)"
+    },
+    "closed": true
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "action": "click",
+    "blur": false,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 1412,
+      "height": 794,
+      "fit": "contain",
+      "filter": "none",
+      "centerHeight": 794,
+      "close": {
+        "x": 1398,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(0, 0, 0, 0)"
+    },
+    "closed": true
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "action": "click",
+    "blur": true,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 1412,
+      "height": 794,
+      "fit": "contain",
+      "filter": "blur(10px)",
+      "centerHeight": 794,
+      "close": {
+        "x": 1398,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(17, 25, 31, 0.5)"
+    },
+    "closed": true
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "action": "Enter",
+    "blur": false,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 1412,
+      "height": 794,
+      "fit": "contain",
+      "filter": "none",
+      "centerHeight": 794,
+      "close": {
+        "x": 1398,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(0, 0, 0, 0)"
+    },
+    "closed": true
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "action": "Enter",
+    "blur": true,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 1412,
+      "height": 794,
+      "fit": "contain",
+      "filter": "blur(10px)",
+      "centerHeight": 794,
+      "close": {
+        "x": 1398,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(17, 25, 31, 0.5)"
+    },
+    "closed": true
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "action": " ",
+    "blur": false,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 1412,
+      "height": 794,
+      "fit": "contain",
+      "filter": "none",
+      "centerHeight": 794,
+      "close": {
+        "x": 1398,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(0, 0, 0, 0)"
+    },
+    "closed": true
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "action": " ",
+    "blur": true,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 1412,
+      "height": 794,
+      "fit": "contain",
+      "filter": "blur(10px)",
+      "centerHeight": 794,
+      "close": {
+        "x": 1398,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(17, 25, 31, 0.5)"
+    },
+    "closed": true
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "action": "Spacebar",
+    "blur": false,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 1412,
+      "height": 794,
+      "fit": "contain",
+      "filter": "none",
+      "centerHeight": 794,
+      "close": {
+        "x": 1398,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(0, 0, 0, 0)"
+    },
+    "closed": true
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "action": "Spacebar",
+    "blur": true,
+    "id": "cover",
+    "kind": "album",
+    "explicit": true,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 1412,
+      "height": 794,
+      "fit": "contain",
+      "filter": "blur(10px)",
+      "centerHeight": 794,
+      "close": {
+        "x": 1398,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(17, 25, 31, 0.5)"
+    },
+    "closed": true
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "action": "click",
+    "blur": false,
+    "explicit": true,
+    "id": "",
+    "kind": "album",
+    "opened": false,
+    "requests": [],
+    "image": null,
+    "closed": true
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "action": "click",
+    "blur": false,
+    "explicit": true,
+    "id": "cover",
+    "kind": null,
+    "opened": false,
+    "requests": [],
+    "image": null,
+    "closed": true
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "action": "Escape",
+    "blur": false,
+    "explicit": true,
+    "id": "cover",
+    "kind": "album",
+    "opened": false,
+    "requests": [],
+    "image": null,
+    "closed": true
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "action": "click",
+    "blur": true,
+    "explicit": false,
+    "id": "cover",
+    "kind": "album",
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 14,
+      "y": 74,
+      "width": 1412,
+      "height": 794,
+      "fit": "contain",
+      "filter": "none",
+      "centerHeight": 794,
+      "close": {
+        "x": 1398,
+        "y": 18,
+        "width": 28,
+        "height": 28
+      },
+      "overlay": "rgba(0, 0, 0, 0)"
+    },
+    "closed": true
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "action": "click",
+    "blur": false,
+    "explicit": true,
+    "id": "cover",
+    "kind": "album",
+    "font": 20,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 17,
+      "y": 92,
+      "width": 1406,
+      "height": 794,
+      "fit": "contain",
+      "filter": "none",
+      "centerHeight": 794,
+      "close": {
+        "x": 1388,
+        "y": 22,
+        "width": 35,
+        "height": 35
+      },
+      "overlay": "rgba(0, 0, 0, 0)"
+    },
+    "closed": true
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "action": "click",
+    "blur": true,
+    "explicit": true,
+    "id": "cover",
+    "kind": "album",
+    "font": 20,
+    "opened": true,
+    "requests": [
+      {
+        "id": "cover",
+        "itemType": "album"
+      }
+    ],
+    "image": {
+      "x": 17,
+      "y": 92,
+      "width": 1406,
+      "height": 794,
+      "fit": "contain",
+      "filter": "blur(10px)",
+      "centerHeight": 794,
+      "close": {
+        "x": 1388,
+        "y": 22,
+        "width": 35,
+        "height": 35
+      },
+      "overlay": "rgba(17, 25, 31, 0.5)"
+    },
+    "closed": true
+  }
+]

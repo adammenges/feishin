@@ -1,0 +1,43 @@
+.fs-select-module-root [data-disabled='true'] {
+        opacity: 0.6;
+    }
+
+.fs-select-module-input {
+    width: 100%;
+    border: 1px solid transparent;
+}
+
+.fs-select-module-input[data-variant='default'] {
+        color: var(--theme-colors-surface-foreground);
+        background: var(--theme-colors-surface);
+    }
+
+.fs-select-module-input[data-variant='filled'] {
+        color: var(--theme-colors-foreground);
+        background: var(--theme-colors-background);
+    }
+
+.fs-select-module-input.fs-select-module-clearable {
+        padding-right: 4rem;
+    }
+
+.fs-select-module-input:focus,
+.fs-select-module-input:focus-visible {
+    border-color: color-mix(in srgb, var(--theme-colors-border), white 10%);
+}
+
+.fs-select-module-dropdown {
+    padding: var(--theme-spacing-xs);
+    color: var(--theme-colors-surface-foreground);
+    background: var(--theme-colors-surface);
+    border: 1px solid var(--theme-colors-border);
+}
+
+.fs-select-module-option {
+    position: relative;
+    padding: var(--theme-spacing-sm) var(--theme-spacing-lg);
+}
+
+.fs-select-module-option:hover {
+    background: color-mix(in srgb, var(--theme-colors-surface), white 5%);
+}

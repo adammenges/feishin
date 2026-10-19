@@ -1,0 +1,227 @@
+name: Native Rust
+
+on:
+    push:
+        paths: ['crates/**', 'Cargo.*', 'assets/**', 'scripts/**', 'docs/native/THIRD_PARTY.md', '.github/workflows/native.yml']
+    pull_request:
+        paths: ['crates/**', 'Cargo.*', 'assets/**', 'scripts/**', 'docs/native/THIRD_PARTY.md', '.github/workflows/native.yml']
+    workflow_dispatch:
+
+permissions:
+    contents: read
+
+jobs:
+    native:
+        strategy:
+            fail-fast: false
+            matrix:
+                include:
+                    - os: macos-15
+                      rust: stable
+                    - os: ubuntu-24.04
+                      rust: '1.91.0'
+                    - os: windows-latest
+                      rust: stable
+        runs-on: ${{ matrix.os }}
+        steps:
+            - uses: actions/checkout@v6
+            - name: Install Rust
+              shell: bash
+              run: rustup toolchain install "${{ matrix.rust }}" --no-self-update --component rustfmt,clippy && rustup default "${{ matrix.rust }}"
+            - name: Install Linux dependencies
+              if: runner.os == 'Linux'
+              run: |
+                  sudo apt-get update
+                  sudo apt-get install -y clang cmake libasound2-dev libfontconfig-dev libglib2.0-dev libssl-dev libwayland-dev libx11-xcb-dev libxkbcommon-x11-dev libdbus-1-dev dbus libgit2-dev libvulkan1 mesa-vulkan-drivers vulkan-validationlayers libgl1-mesa-dev libegl1-mesa-dev libglew-dev libjpeg-dev pkg-config ffmpeg mpv pulseaudio-utils weston xvfb at-spi2-core xdotool libglib2.0-bin python3-pil glslang-tools spirv-tools
+                  echo 'CXXFLAGS=-fPIC' >> "$GITHUB_ENV"
+            - name: Install Metal compiler
+              if: runner.os == 'macOS'
+              run: xcodebuild -downloadComponent MetalToolchain
+            - name: Install macOS audio test tools
+              if: runner.os == 'macOS'
+              run: brew install ffmpeg mpv
+            - name: Install Windows audio test tools
+              if: runner.os == 'Windows'
+              shell: pwsh
+              run: choco install ffmpeg mpv --yes --no-progress
+            - name: Configure Windows libclang
+              if: runner.os == 'Windows'
+              shell: pwsh
+              run: Add-Content -Path $env:GITHUB_ENV -Value 'LIBCLANG_PATH=C:\Program Files\LLVM\bin'
+            - name: Install Windows native dependencies
+              if: runner.os == 'Windows'
+              shell: pwsh
+              run: '& "$env:VCPKG_INSTALLATION_ROOT\vcpkg.exe" install glew:x64-windows-static-md zlib:x64-windows-static-md --disable-metrics'
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: '22'
+            - name: Require silent audio integration tests
+              shell: bash
+              run: |
+                  python3 - <<'PY'
+                  import os, shutil
+                  with open(os.environ['GITHUB_ENV'], 'a', encoding='utf-8') as environment:
+                      for name, executable in [('FEISHIN_TEST_FFMPEG', 'ffmpeg'), ('FEISHIN_TEST_MPV', 'mpv')]:
+                          path = shutil.which(executable)
+                          assert path, f'Required integration test tool is missing: {executable}'
+                          environment.write(f'{name}={path}\n')
+                  PY
+            - name: Native layout cache regressions
+              run: cargo test --manifest-path crates/vendor/taffy/Cargo.toml --lib --locked
+            - name: Remote client tests
+              run: node --test scripts/native-tests/remote.cjs
+            - name: Original spectrum analyzer fixtures
+              shell: bash
+              run: |
+                  npm install --ignore-scripts --no-audit --no-fund --prefix "$RUNNER_TEMP/native-spectrum" audiomotion-analyzer@4.5.4
+                  FEISHIN_AUDIOMOTION_JS="$RUNNER_TEMP/native-spectrum/node_modules/audiomotion-analyzer/src/audioMotion-analyzer.js" node scripts/native-tests/spectrum-reference.mjs > "$RUNNER_TEMP/spectrum-reference.json"
+                  python3 -c 'import json,sys; assert json.load(open(sys.argv[1])) == json.load(open(sys.argv[2]))' "$RUNNER_TEMP/spectrum-reference.json" crates/feishin-core/assets/spectrum-reference.json
+            - name: Formatting
+              run: cargo fmt --all -- --check
+            - name: Windows shader syntax and SPIR-V validation
+              if: runner.os == 'Linux'
+              run: python3 scripts/native-tests/windows-shaders.py
+            - name: Core and headless GPUI tests
+              run: cargo test --locked --workspace -- --test-threads=4
+            - name: Environment-disabled update preferences
+              env:
+                  DISABLE_AUTO_UPDATES: '1'
+              run: cargo test --locked -p feishin-gpui native_update_channel_and_automatic_preferences_persist
+            - name: Native rich text component tests
+              run: python3 scripts/native-tests/components.py
+            - name: Clippy
+              run: cargo clippy --locked --workspace --all-targets -- -D warnings
+            - name: Chromium artwork color reference checks
+              if: runner.os == 'Linux'
+              run: python3 scripts/native-tests/artwork-colors.py --check
+            - name: Actual platform OpenType shaping
+              shell: bash
+              run: |
+                  cargo run --locked -p feishin-gpui --example font-features
+                  cargo run --locked -p feishin-gpui --example font-fallbacks
+                  cargo run --locked -p feishin-gpui --example font-reload
+            - name: Actual platform punctuation and caret checks
+              if: runner.os != 'Windows'
+              shell: bash
+              run: |
+                  cargo run --locked -p feishin-gpui --example normal-line-heights
+                  cargo run --locked -p feishin-gpui --example font-styles
+                  cargo run --locked -p feishin-gpui --example font-synthesis
+                  cargo run --locked -p feishin-gpui --example font-spacing
+                  cargo run --locked -p feishin-gpui --example font-spacing-wraps
+                  cargo run --locked -p feishin-gpui --example text-cells
+                  cargo run --locked -p feishin-gpui --example text-cells -- --rtl-system
+                  cargo run --locked -p feishin-gpui --example font-tracking
+                  cargo run --locked -p feishin-gpui --example text-wraps -- --tracking
+                  cargo run --locked -p feishin-gpui --example text-wraps
+                  cargo run --locked -p feishin-gpui --example text-wraps -- --word-wraps
+                  cargo run --locked -p feishin-gpui --example text-wraps -- --keep-all
+            - name: Chromium OpenType reference checks
+              if: runner.os == 'Linux'
+              run: |
+                  python3 scripts/native-tests/font-features.py --check
+                  python3 scripts/native-tests/font-styles.py --check
+            - name: Retained Wayland window protocol tests
+              if: runner.os == 'Linux'
+              run: |
+                  cargo build --locked -p feishin-gpui --example wayland-window
+                  python3 scripts/native-tests/wayland.py target/debug/examples/wayland-window
+            - name: Native accessibility bridge tests
+              if: runner.os == 'Linux'
+              run: |
+                  cargo build --locked -p feishin-gpui --example accessibility
+                  python3 scripts/native-tests/accessibility.py target/debug/examples/accessibility
+            - name: Real remote PWA browser tests
+              if: runner.os == 'Linux'
+              run: |
+                  cargo build --locked -p feishin-core --example remote-browser
+                  node scripts/native-tests/remote-browser.mjs target/debug/examples/remote-browser
+            - name: Real music server integration tests
+              if: runner.os == 'Linux'
+              run: |
+                  python3 scripts/native-tests/live-servers.py
+                  python3 scripts/native-tests/live-servers.py --legacy
+            - name: Build native application
+              run: cargo build --locked --release --workspace
+            - name: Installer command tests
+              shell: bash
+              run: |
+                  if [ "$RUNNER_OS" = Windows ]; then
+                      python3 scripts/native-tests/updater.py target/release/feishin.exe
+                  else
+                      python3 scripts/native-tests/updater.py target/release/feishin
+                  fi
+            - name: Launch and restart command tests
+              shell: bash
+              run: |
+                  if [ "$RUNNER_OS" = Windows ]; then
+                      python3 scripts/native-tests/lifecycle.py target/release/feishin.exe
+                  else
+                      python3 scripts/native-tests/lifecycle.py target/release/feishin
+                  fi
+            - name: Package macOS bundle
+              if: runner.os == 'macOS'
+              run: |
+                  sh scripts/bundle-native.sh --skip-build
+                  python3 scripts/native-tests/updater.py target/Feishin.app/Contents/MacOS/feishin
+            - name: Package Linux archive
+              if: runner.os == 'Linux'
+              run: sh scripts/package-native-linux.sh --skip-build
+            - name: Packaged Linux startup on isolated X11 and Wayland displays
+              if: runner.os == 'Linux'
+              run: |
+                  python3 scripts/native-tests/startup.py target/feishin-linux/bin/feishin
+                  python3 scripts/native-tests/startup.py --wayland target/feishin-linux/bin/feishin
+                  python3 scripts/native-tests/startup.py --collapsed target/feishin-linux/bin/feishin
+                  python3 scripts/native-tests/startup.py --wayland --collapsed target/feishin-linux/bin/feishin
+                  FEISHIN_CHECK_DETAIL_LINKS=1 FEISHIN_CHECK_ALBUM_CONTROLS=1 FEISHIN_CHECK_THEME_SETTINGS=1 FEISHIN_CHECK_ACCENT_SPECTRUM=1 FEISHIN_CHECK_INLINE_CSS=1 FEISHIN_CHECK_IMAGE_SETTINGS=1 FEISHIN_CHECK_PATH_SETTINGS=1 FEISHIN_CHECK_COMPRESSOR_SETTINGS=1 FEISHIN_CHECK_EQUALIZER_SETTINGS=1 FEISHIN_CHECK_SMART_EDITOR=1 python3 scripts/native-tests/startup.py --library target/feishin-linux/bin/feishin
+                  FEISHIN_CHECK_DETAIL_LINKS=1 FEISHIN_CHECK_ALBUM_CONTROLS=1 FEISHIN_CHECK_THEME_SETTINGS=1 FEISHIN_CHECK_ACCENT_SPECTRUM=1 FEISHIN_CHECK_INLINE_CSS=1 FEISHIN_CHECK_IMAGE_SETTINGS=1 FEISHIN_CHECK_PATH_SETTINGS=1 FEISHIN_CHECK_COMPRESSOR_SETTINGS=1 FEISHIN_CHECK_EQUALIZER_SETTINGS=1 FEISHIN_CHECK_SMART_EDITOR=1 python3 scripts/native-tests/startup.py --wayland --library target/feishin-linux/bin/feishin
+            - name: Package Windows archive
+              if: runner.os == 'Windows'
+              shell: pwsh
+              run: |
+                  New-Item -ItemType Directory -Force target/feishin-windows/licenses
+                  Copy-Item target/release/feishin.exe target/feishin-windows/
+                  Copy-Item LICENSE target/feishin-windows/licenses/Feishin.txt
+                  Copy-Item crates/feishin-core/assets/*LICENSE.txt target/feishin-windows/licenses/
+                  Copy-Item crates/feishin-gpui/assets/*LICENSE.txt target/feishin-windows/licenses/
+                  Copy-Item crates/feishin-gpui/assets/*AUTHORS.txt target/feishin-windows/licenses/
+                  Copy-Item crates/vendor/projectm-sys/LICENSE target/feishin-windows/licenses/projectm-sys.txt
+                  Copy-Item crates/vendor/projectm-sys/libprojectM/src/libprojectM/COPYING target/feishin-windows/licenses/projectM.txt
+                  Copy-Item crates/vendor/xattr/LICENSE-MIT target/feishin-windows/licenses/xattr-MIT.txt
+                  Copy-Item crates/vendor/xattr/LICENSE-APACHE target/feishin-windows/licenses/xattr-Apache.txt
+                  Copy-Item crates/vendor/cosmic-text/LICENSE-MIT target/feishin-windows/licenses/cosmic-text-MIT.txt
+                  Copy-Item crates/vendor/cosmic-text/LICENSE-APACHE target/feishin-windows/licenses/cosmic-text-Apache.txt
+                  Copy-Item crates/feishin-core/assets/inter-OFL.txt target/feishin-windows/licenses/
+                  Copy-Item crates/feishin-core/assets/poppins-OFL.txt target/feishin-windows/licenses/
+                  Copy-Item crates/feishin-core/assets/noto-*-OFL.txt target/feishin-windows/licenses/
+                  Copy-Item crates/vendor/taglib/COPYING.LGPL target/feishin-windows/licenses/TagLib-LGPL.txt
+                  Copy-Item crates/vendor/taglib/COPYING.MPL target/feishin-windows/licenses/TagLib-MPL.txt
+                  Copy-Item crates/vendor/taglib/3rdparty/utfcpp/LICENSE target/feishin-windows/licenses/utfcpp.txt
+                  Copy-Item docs/native/THIRD_PARTY.md target/feishin-windows/licenses/
+                  Compress-Archive -Path target/feishin-windows/* -DestinationPath target/feishin-windows.zip
+            - name: Package native update asset
+              shell: bash
+              run: python3 scripts/package-native-release.py
+            - name: Verify native package contents
+              shell: bash
+              run: python3 scripts/native-tests/packages.py
+            - uses: actions/upload-artifact@v4
+              with:
+                  name: feishin-${{ runner.os }}
+                  path: |
+                      target/Feishin.app
+                      target/feishin-linux.tar.gz
+                      target/feishin-windows.zip
+                      target/feishin-native-*.zip
+                      target/feishin-native-*.tar.gz
+                      target/native-remote-browser.png
+                      target/native-startup.png
+                      target/native-startup.log
+                      target/native-startup-wayland.log
+                      target/native-startup-wayland.png
+                      target/native-startup-collapsed.png
+                      target/native-startup-collapsed.log
+                      target/native-startup-wayland-collapsed.png
+                      target/native-startup-wayland-collapsed.log
+                  if-no-files-found: error

@@ -1,0 +1,7058 @@
+[
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": true,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      144
+    ],
+    "paper": [
+      10,
+      10,
+      320,
+      124
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          22,
+          92,
+          296,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          22,
+          22,
+          296,
+          28
+        ]
+      },
+      {
+        "label": "No DLNA devices found",
+        "bounds": [
+          54,
+          58,
+          158.015625,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": true,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      106
+    ],
+    "paper": [
+      10,
+      10,
+      320,
+      86
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          22,
+          22,
+          296,
+          28
+        ]
+      },
+      {
+        "label": "Searching for devices…",
+        "bounds": [
+          103.984375,
+          58,
+          156.03125,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      218
+    ],
+    "paper": [
+      10,
+      10,
+      320,
+      198
+    ],
+    "buttons": [
+      {
+        "label": "Living room",
+        "bounds": [
+          22,
+          50,
+          296,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          22,
+          86,
+          296,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          22,
+          122,
+          296,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          22,
+          166,
+          146,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          172,
+          166,
+          146,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          22,
+          22,
+          296,
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": true,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      210
+    ],
+    "paper": [
+      10,
+      10,
+      320,
+      190
+    ],
+    "buttons": [
+      {
+        "label": "Bedroom",
+        "bounds": [
+          22,
+          114,
+          296,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          22,
+          158,
+          146,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          172,
+          158,
+          146,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          22,
+          22,
+          296,
+          28
+        ]
+      },
+      {
+        "label": "Living room + Kitchen",
+        "bounds": [
+          32,
+          58,
+          276,
+          16
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          32,
+          74,
+          276,
+          14
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          32,
+          88,
+          276,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connecting",
+    "bounds": [
+      0,
+      0,
+      340,
+      78
+    ],
+    "paper": [
+      10,
+      10,
+      320,
+      58
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "Connecting…",
+        "bounds": [
+          54,
+          30,
+          88.265625,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": false,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      372.09375,
+      146
+    ],
+    "paper": [
+      10,
+      10,
+      352.09375,
+      126
+    ],
+    "buttons": [
+      {
+        "label": "Disconnect",
+        "bounds": [
+          22,
+          74,
+          328.09375,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          22,
+          22,
+          328.09375,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          22,
+          50,
+          71.765625,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          22,
+          110,
+          328.09375,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      372.09375,
+      154
+    ],
+    "paper": [
+      10,
+      10,
+      352.09375,
+      134
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          326.09375,
+          50,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add to Group",
+        "bounds": [
+          22,
+          82,
+          159.703125,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          185.703125,
+          82,
+          164.390625,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          22,
+          22,
+          328.09375,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          22,
+          54,
+          71.765625,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          22,
+          118,
+          328.09375,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      372.09375,
+      194
+    ],
+    "paper": [
+      10,
+      10,
+      352.09375,
+      174
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          318.09375,
+          54,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          255.875,
+          87,
+          58.21875,
+          22
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          318.09375,
+          86,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          22,
+          122,
+          162.046875,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          188.046875,
+          122,
+          162.046875,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          22,
+          22,
+          328.09375,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          30,
+          58,
+          71.765625,
+          16
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          30,
+          90,
+          46.59375,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          22,
+          158,
+          328.09375,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": true,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      372.09375,
+      194
+    ],
+    "paper": [
+      10,
+      10,
+      352.09375,
+      174
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          318.09375,
+          54,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          255.875,
+          87,
+          58.21875,
+          22
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          318.09375,
+          86,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          22,
+          122,
+          162.046875,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          188.046875,
+          122,
+          162.046875,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          22,
+          22,
+          328.09375,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          30,
+          58,
+          71.765625,
+          16
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          30,
+          90,
+          46.59375,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          22,
+          158,
+          328.09375,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group-build",
+    "bounds": [
+      0,
+      0,
+      340,
+      208
+    ],
+    "paper": [
+      10,
+      10,
+      320,
+      188
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          22,
+          156,
+          92.875,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          118.875,
+          156,
+          97.5625,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Connect",
+        "bounds": [
+          220.4375,
+          156,
+          97.5625,
+          30
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Select Group Speakers",
+        "bounds": [
+          22,
+          22,
+          296,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          58,
+          56,
+          71.765625,
+          16
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          58,
+          84,
+          46.59375,
+          16
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          58,
+          112,
+          55.703125,
+          16
+        ]
+      },
+      {
+        "label": "First selected = coordinator",
+        "bounds": [
+          22,
+          134,
+          296,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "expand-group",
+    "bounds": [
+      0,
+      0,
+      340,
+      166
+    ],
+    "paper": [
+      10,
+      10,
+      320,
+      146
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          22,
+          114,
+          92.875,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          118.875,
+          114,
+          97.5625,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add",
+        "bounds": [
+          220.4375,
+          114,
+          97.5625,
+          30
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Add Speakers",
+        "bounds": [
+          22,
+          22,
+          296,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          58,
+          56,
+          71.765625,
+          16
+        ]
+      },
+      {
+        "label": "coordinator",
+        "bounds": [
+          133.765625,
+          57,
+          59.75,
+          14
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          58,
+          84,
+          55.703125,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": true,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      144
+    ],
+    "paper": [
+      10,
+      10,
+      320,
+      124
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          22,
+          92,
+          296,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          22,
+          22,
+          296,
+          28
+        ]
+      },
+      {
+        "label": "No DLNA devices found",
+        "bounds": [
+          127.984375,
+          58,
+          158.015625,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": true,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      106
+    ],
+    "paper": [
+      10,
+      10,
+      320,
+      86
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          22,
+          22,
+          296,
+          28
+        ]
+      },
+      {
+        "label": "Searching for devices…",
+        "bounds": [
+          79.984375,
+          58,
+          156.046875,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      218
+    ],
+    "paper": [
+      10,
+      10,
+      320,
+      198
+    ],
+    "buttons": [
+      {
+        "label": "Living room",
+        "bounds": [
+          22,
+          50,
+          296,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          22,
+          86,
+          296,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          22,
+          122,
+          296,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          172,
+          166,
+          146,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          22,
+          166,
+          146,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          22,
+          22,
+          296,
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": true,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      210
+    ],
+    "paper": [
+      10,
+      10,
+      320,
+      190
+    ],
+    "buttons": [
+      {
+        "label": "Bedroom",
+        "bounds": [
+          22,
+          114,
+          296,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          172,
+          158,
+          146,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          22,
+          158,
+          146,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          22,
+          22,
+          296,
+          28
+        ]
+      },
+      {
+        "label": "Living room + Kitchen",
+        "bounds": [
+          32,
+          58,
+          276,
+          16
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          32,
+          74,
+          276,
+          14
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          32,
+          88,
+          276,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connecting",
+    "bounds": [
+      0,
+      0,
+      340,
+      78
+    ],
+    "paper": [
+      10,
+      10,
+      320,
+      58
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "Connecting…",
+        "bounds": [
+          197.734375,
+          30,
+          88.265625,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": false,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      372.09375,
+      146
+    ],
+    "paper": [
+      10,
+      10,
+      352.09375,
+      126
+    ],
+    "buttons": [
+      {
+        "label": "Disconnect",
+        "bounds": [
+          22,
+          74,
+          328.09375,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          22,
+          22,
+          328.09375,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          278.328125,
+          50,
+          71.765625,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          22,
+          110,
+          328.09375,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      372.09375,
+      154
+    ],
+    "paper": [
+      10,
+      10,
+      352.09375,
+      134
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          22,
+          50,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add to Group",
+        "bounds": [
+          190.390625,
+          82,
+          159.703125,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          22,
+          82,
+          164.390625,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          22,
+          22,
+          328.09375,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          278.328125,
+          54,
+          71.765625,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          22,
+          118,
+          328.09375,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      372.09375,
+      194
+    ],
+    "paper": [
+      10,
+      10,
+      352.09375,
+      174
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          30,
+          54,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          58,
+          87,
+          58.21875,
+          22
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          30,
+          86,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          188.046875,
+          122,
+          162.046875,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          22,
+          122,
+          162.046875,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          22,
+          22,
+          328.09375,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          270.328125,
+          58,
+          71.765625,
+          16
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          295.5,
+          90,
+          46.59375,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          22,
+          158,
+          328.09375,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": true,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      372.09375,
+      194
+    ],
+    "paper": [
+      10,
+      10,
+      352.09375,
+      174
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          30,
+          54,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          58,
+          87,
+          58.21875,
+          22
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          30,
+          86,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          188.046875,
+          122,
+          162.046875,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          22,
+          122,
+          162.046875,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          22,
+          22,
+          328.09375,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          270.328125,
+          58,
+          71.765625,
+          16
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          295.5,
+          90,
+          46.59375,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          22,
+          158,
+          328.09375,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group-build",
+    "bounds": [
+      0,
+      0,
+      340,
+      208
+    ],
+    "paper": [
+      10,
+      10,
+      320,
+      188
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          225.125,
+          156,
+          92.875,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          123.5625,
+          156,
+          97.5625,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Connect",
+        "bounds": [
+          22,
+          156,
+          97.5625,
+          30
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Select Group Speakers",
+        "bounds": [
+          22,
+          22,
+          296,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          210.234375,
+          56,
+          71.765625,
+          16
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          235.40625,
+          84,
+          46.59375,
+          16
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          226.296875,
+          112,
+          55.703125,
+          16
+        ]
+      },
+      {
+        "label": "First selected = coordinator",
+        "bounds": [
+          22,
+          134,
+          296,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "expand-group",
+    "bounds": [
+      0,
+      0,
+      340,
+      166
+    ],
+    "paper": [
+      10,
+      10,
+      320,
+      146
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          225.125,
+          114,
+          92.875,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          123.5625,
+          114,
+          97.5625,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add",
+        "bounds": [
+          22,
+          114,
+          97.5625,
+          30
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Add Speakers",
+        "bounds": [
+          22,
+          22,
+          296,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          210.234375,
+          56,
+          71.765625,
+          16
+        ]
+      },
+      {
+        "label": "coordinator",
+        "bounds": [
+          146.484375,
+          57,
+          59.75,
+          14
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          226.296875,
+          84,
+          55.703125,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": true,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      143.1999969482422
+    ],
+    "paper": [
+      9.600000381469727,
+      9.600000381469727,
+      320.8000183105469,
+      124
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          21.600000381469727,
+          91.5999984741211,
+          296.8000183105469,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          21.600000381469727,
+          21.600000381469727,
+          296.8000183105469,
+          28
+        ]
+      },
+      {
+        "label": "No DLNA devices found",
+        "bounds": [
+          53.60000228881836,
+          57.60000228881836,
+          158.0124969482422,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": true,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      105.20000457763672
+    ],
+    "paper": [
+      9.600000381469727,
+      9.600000381469727,
+      320.8000183105469,
+      86
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          21.600000381469727,
+          21.600000381469727,
+          296.8000183105469,
+          28
+        ]
+      },
+      {
+        "label": "Searching for devices…",
+        "bounds": [
+          103.9749984741211,
+          57.60000228881836,
+          156.03750610351562,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      217.1999969482422
+    ],
+    "paper": [
+      9.600000381469727,
+      9.600000381469727,
+      320.8000183105469,
+      198
+    ],
+    "buttons": [
+      {
+        "label": "Living room",
+        "bounds": [
+          21.600000381469727,
+          49.60000228881836,
+          296.8000183105469,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          21.600000381469727,
+          85.5999984741211,
+          296.8000183105469,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          21.600000381469727,
+          121.5999984741211,
+          296.8000183105469,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          21.600000381469727,
+          165.60000610351562,
+          146.40000915527344,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          172,
+          165.60000610351562,
+          146.40000915527344,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          21.600000381469727,
+          21.600000381469727,
+          296.8000183105469,
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": true,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      209.1999969482422
+    ],
+    "paper": [
+      9.600000381469727,
+      9.600000381469727,
+      320.8000183105469,
+      190
+    ],
+    "buttons": [
+      {
+        "label": "Bedroom",
+        "bounds": [
+          21.600000381469727,
+          113.5999984741211,
+          296.8000183105469,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          21.600000381469727,
+          157.60000610351562,
+          146.40000915527344,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          172,
+          157.60000610351562,
+          146.40000915527344,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          21.600000381469727,
+          21.600000381469727,
+          296.8000183105469,
+          28
+        ]
+      },
+      {
+        "label": "Living room + Kitchen",
+        "bounds": [
+          31.600000381469727,
+          57.60000228881836,
+          276.8000183105469,
+          16
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          31.600000381469727,
+          73.5999984741211,
+          276.8000183105469,
+          14
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          31.600000381469727,
+          87.5999984741211,
+          276.8000183105469,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connecting",
+    "bounds": [
+      0,
+      0,
+      340,
+      77.20000457763672
+    ],
+    "paper": [
+      9.600000381469727,
+      9.600000381469727,
+      320.8000183105469,
+      58
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "Connecting…",
+        "bounds": [
+          53.60000228881836,
+          29.600000381469727,
+          88.26250457763672,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": false,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      371.2875061035156,
+      145.1999969482422
+    ],
+    "paper": [
+      9.600000381469727,
+      9.600000381469727,
+      352.0874938964844,
+      126
+    ],
+    "buttons": [
+      {
+        "label": "Disconnect",
+        "bounds": [
+          21.600000381469727,
+          73.5999984741211,
+          328.0874938964844,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          21.600000381469727,
+          21.600000381469727,
+          328.0874938964844,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          21.600000381469727,
+          49.60000228881836,
+          71.76250457763672,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          21.600000381469727,
+          109.5999984741211,
+          328.0874938964844,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      371.2875061035156,
+      153.1999969482422
+    ],
+    "paper": [
+      9.600000381469727,
+      9.600000381469727,
+      352.0874938964844,
+      134
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          325.6875,
+          49.60000228881836,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add to Group",
+        "bounds": [
+          21.600000381469727,
+          81.5999984741211,
+          159.6999969482422,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          185.3000030517578,
+          81.5999984741211,
+          164.3874969482422,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          21.600000381469727,
+          21.600000381469727,
+          328.0874938964844,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          21.600000381469727,
+          53.60000228881836,
+          71.76250457763672,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          21.600000381469727,
+          117.5999984741211,
+          328.0874938964844,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      371.2875061035156,
+      193.1999969482422
+    ],
+    "paper": [
+      9.600000381469727,
+      9.600000381469727,
+      352.0874938964844,
+      174
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          317.6875,
+          53.60000228881836,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          255.8625030517578,
+          86.5999984741211,
+          57.82500076293945,
+          22
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          317.6875,
+          85.5999984741211,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          21.600000381469727,
+          121.5999984741211,
+          162.03750610351562,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          187.6374969482422,
+          121.5999984741211,
+          162.0500030517578,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          21.600000381469727,
+          21.600000381469727,
+          328.0874938964844,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          29.600000381469727,
+          57.60000228881836,
+          71.76250457763672,
+          16
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          29.600000381469727,
+          89.5999984741211,
+          46.587501525878906,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          21.600000381469727,
+          157.60000610351562,
+          328.0874938964844,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": true,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      371.2875061035156,
+      193.1999969482422
+    ],
+    "paper": [
+      9.600000381469727,
+      9.600000381469727,
+      352.0874938964844,
+      174
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          317.6875,
+          53.60000228881836,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          255.8625030517578,
+          86.5999984741211,
+          57.82500076293945,
+          22
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          317.6875,
+          85.5999984741211,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          21.600000381469727,
+          121.5999984741211,
+          162.03750610351562,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          187.6374969482422,
+          121.5999984741211,
+          162.0500030517578,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          21.600000381469727,
+          21.600000381469727,
+          328.0874938964844,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          29.600000381469727,
+          57.60000228881836,
+          71.76250457763672,
+          16
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          29.600000381469727,
+          89.5999984741211,
+          46.587501525878906,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          21.600000381469727,
+          157.60000610351562,
+          328.0874938964844,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group-build",
+    "bounds": [
+      0,
+      0,
+      340,
+      207.1999969482422
+    ],
+    "paper": [
+      9.600000381469727,
+      9.600000381469727,
+      320.8000183105469,
+      188
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          21.600000381469727,
+          155.60000610351562,
+          93.1500015258789,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          118.75,
+          155.60000610351562,
+          97.82500457763672,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Connect",
+        "bounds": [
+          220.5749969482422,
+          155.60000610351562,
+          97.82500457763672,
+          30
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Select Group Speakers",
+        "bounds": [
+          21.600000381469727,
+          21.600000381469727,
+          296.8000183105469,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          57.60000228881836,
+          55.60000228881836,
+          71.76250457763672,
+          16
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          57.60000228881836,
+          83.5999984741211,
+          46.587501525878906,
+          16
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          57.60000228881836,
+          111.5999984741211,
+          55.712501525878906,
+          16
+        ]
+      },
+      {
+        "label": "First selected = coordinator",
+        "bounds": [
+          21.600000381469727,
+          133.60000610351562,
+          296.8000183105469,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "expand-group",
+    "bounds": [
+      0,
+      0,
+      340,
+      165.1999969482422
+    ],
+    "paper": [
+      9.600000381469727,
+      9.600000381469727,
+      320.8000183105469,
+      146
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          21.600000381469727,
+          113.5999984741211,
+          93.1500015258789,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          118.75,
+          113.5999984741211,
+          97.82500457763672,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add",
+        "bounds": [
+          220.5749969482422,
+          113.5999984741211,
+          97.82500457763672,
+          30
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Add Speakers",
+        "bounds": [
+          21.600000381469727,
+          21.600000381469727,
+          296.8000183105469,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          57.60000228881836,
+          55.60000228881836,
+          71.76250457763672,
+          16
+        ]
+      },
+      {
+        "label": "coordinator",
+        "bounds": [
+          133.3625030517578,
+          56.60000228881836,
+          59.73749923706055,
+          14
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          57.60000228881836,
+          83.5999984741211,
+          55.712501525878906,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": true,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      143.1999969482422
+    ],
+    "paper": [
+      9.60003662109375,
+      9.600000381469727,
+      320.8000183105469,
+      124
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          21.60003662109375,
+          91.5999984741211,
+          296.8000183105469,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          21.60003662109375,
+          21.600000381469727,
+          296.8000183105469,
+          28
+        ]
+      },
+      {
+        "label": "No DLNA devices found",
+        "bounds": [
+          128.38751220703125,
+          57.60000228881836,
+          158.0124969482422,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": true,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      105.20000457763672
+    ],
+    "paper": [
+      9.60003662109375,
+      9.600000381469727,
+      320.8000183105469,
+      86
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          21.60003662109375,
+          21.600000381469727,
+          296.8000183105469,
+          28
+        ]
+      },
+      {
+        "label": "Searching for devices…",
+        "bounds": [
+          79.98748779296875,
+          57.60000228881836,
+          156.03750610351562,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      217.1999969482422
+    ],
+    "paper": [
+      9.60003662109375,
+      9.600000381469727,
+      320.8000183105469,
+      198
+    ],
+    "buttons": [
+      {
+        "label": "Living room",
+        "bounds": [
+          21.60003662109375,
+          49.60000228881836,
+          296.8000183105469,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          21.60003662109375,
+          85.5999984741211,
+          296.8000183105469,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          21.60003662109375,
+          121.5999984741211,
+          296.8000183105469,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          172,
+          165.60000610351562,
+          146.40000915527344,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          21.60003662109375,
+          165.60000610351562,
+          146.40000915527344,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          21.60003662109375,
+          21.600000381469727,
+          296.8000183105469,
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": true,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      209.1999969482422
+    ],
+    "paper": [
+      9.60003662109375,
+      9.600000381469727,
+      320.8000183105469,
+      190
+    ],
+    "buttons": [
+      {
+        "label": "Bedroom",
+        "bounds": [
+          21.60003662109375,
+          113.5999984741211,
+          296.8000183105469,
+          36
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          172,
+          157.60000610351562,
+          146.40000915527344,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          21.60003662109375,
+          157.60000610351562,
+          146.40000915527344,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          21.60003662109375,
+          21.600000381469727,
+          296.8000183105469,
+          28
+        ]
+      },
+      {
+        "label": "Living room + Kitchen",
+        "bounds": [
+          31.60003662109375,
+          57.60000228881836,
+          276.8000183105469,
+          16
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          31.60003662109375,
+          73.5999984741211,
+          276.8000183105469,
+          14
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          31.60003662109375,
+          87.5999984741211,
+          276.8000183105469,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connecting",
+    "bounds": [
+      0,
+      0,
+      340,
+      77.20000457763672
+    ],
+    "paper": [
+      9.60003662109375,
+      9.600000381469727,
+      320.8000183105469,
+      58
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "Connecting…",
+        "bounds": [
+          198.13751220703125,
+          29.600000381469727,
+          88.26250457763672,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": false,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      371.2875061035156,
+      145.1999969482422
+    ],
+    "paper": [
+      9.5999755859375,
+      9.600000381469727,
+      352.0874938964844,
+      126
+    ],
+    "buttons": [
+      {
+        "label": "Disconnect",
+        "bounds": [
+          21.5999755859375,
+          73.5999984741211,
+          328.0874938964844,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          21.5999755859375,
+          21.600000381469727,
+          328.0874938964844,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          277.92498779296875,
+          49.60000228881836,
+          71.76250457763672,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          21.5999755859375,
+          109.5999984741211,
+          328.0874938964844,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      371.2875061035156,
+      153.1999969482422
+    ],
+    "paper": [
+      9.5999755859375,
+      9.600000381469727,
+      352.0874938964844,
+      134
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          21.5999755859375,
+          49.60000228881836,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add to Group",
+        "bounds": [
+          189.98748779296875,
+          81.5999984741211,
+          159.6999969482422,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          21.5999755859375,
+          81.5999984741211,
+          164.3874969482422,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          21.5999755859375,
+          21.600000381469727,
+          328.0874938964844,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          277.92498779296875,
+          53.60000228881836,
+          71.76250457763672,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          21.5999755859375,
+          117.5999984741211,
+          328.0874938964844,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      371.2875061035156,
+      193.1999969482422
+    ],
+    "paper": [
+      9.5999755859375,
+      9.600000381469727,
+      352.0874938964844,
+      174
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          29.5999755859375,
+          53.60000228881836,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          57.5999755859375,
+          86.5999984741211,
+          57.82500076293945,
+          22
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          29.5999755859375,
+          85.5999984741211,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          187.64996337890625,
+          121.5999984741211,
+          162.03750610351562,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          21.5999755859375,
+          121.5999984741211,
+          162.0500030517578,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          21.5999755859375,
+          21.600000381469727,
+          328.0874938964844,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          269.92498779296875,
+          57.60000228881836,
+          71.76250457763672,
+          16
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          295.0999755859375,
+          89.5999984741211,
+          46.587501525878906,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          21.5999755859375,
+          157.60000610351562,
+          328.0874938964844,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": true,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      371.2875061035156,
+      193.1999969482422
+    ],
+    "paper": [
+      9.5999755859375,
+      9.600000381469727,
+      352.0874938964844,
+      174
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          29.5999755859375,
+          53.60000228881836,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          57.5999755859375,
+          86.5999984741211,
+          57.82500076293945,
+          22
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          29.5999755859375,
+          85.5999984741211,
+          24,
+          24
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          187.64996337890625,
+          121.5999984741211,
+          162.03750610351562,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          21.5999755859375,
+          121.5999984741211,
+          162.0500030517578,
+          30
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          21.5999755859375,
+          21.600000381469727,
+          328.0874938964844,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          269.92498779296875,
+          57.60000228881836,
+          71.76250457763672,
+          16
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          295.0999755859375,
+          89.5999984741211,
+          46.587501525878906,
+          16
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          21.5999755859375,
+          157.60000610351562,
+          328.0874938964844,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group-build",
+    "bounds": [
+      0,
+      0,
+      340,
+      207.1999969482422
+    ],
+    "paper": [
+      9.60003662109375,
+      9.600000381469727,
+      320.8000183105469,
+      188
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          225.25,
+          155.60000610351562,
+          93.1500015258789,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          123.42498779296875,
+          155.60000610351562,
+          97.82500457763672,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Connect",
+        "bounds": [
+          21.60003662109375,
+          155.60000610351562,
+          97.82500457763672,
+          30
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Select Group Speakers",
+        "bounds": [
+          21.60003662109375,
+          21.600000381469727,
+          296.8000183105469,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          210.63751220703125,
+          55.60000228881836,
+          71.76250457763672,
+          16
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          235.8125,
+          83.5999984741211,
+          46.587501525878906,
+          16
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          226.6875,
+          111.5999984741211,
+          55.712501525878906,
+          16
+        ]
+      },
+      {
+        "label": "First selected = coordinator",
+        "bounds": [
+          21.60003662109375,
+          133.60000610351562,
+          296.8000183105469,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 16,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "expand-group",
+    "bounds": [
+      0,
+      0,
+      340,
+      165.1999969482422
+    ],
+    "paper": [
+      9.60003662109375,
+      9.600000381469727,
+      320.8000183105469,
+      146
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          225.25,
+          113.5999984741211,
+          93.1500015258789,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          123.42498779296875,
+          113.5999984741211,
+          97.82500457763672,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add",
+        "bounds": [
+          21.60003662109375,
+          113.5999984741211,
+          97.82500457763672,
+          30
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Add Speakers",
+        "bounds": [
+          21.60003662109375,
+          21.600000381469727,
+          296.8000183105469,
+          28
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          210.63751220703125,
+          55.60000228881836,
+          71.76250457763672,
+          16
+        ]
+      },
+      {
+        "label": "coordinator",
+        "bounds": [
+          146.9000244140625,
+          56.60000228881836,
+          59.73749923706055,
+          14
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          226.6875,
+          83.5999984741211,
+          55.712501525878906,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": true,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      179
+    ],
+    "paper": [
+      12,
+      12,
+      316,
+      155
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          27,
+          114.5,
+          286,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          27,
+          27,
+          286,
+          35
+        ]
+      },
+      {
+        "label": "No DLNA devices found",
+        "bounds": [
+          64,
+          72,
+          194.796875,
+          22.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": true,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      131.5
+    ],
+    "paper": [
+      12,
+      12,
+      316,
+      107.5
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          27,
+          27,
+          286,
+          35
+        ]
+      },
+      {
+        "label": "Searching for devices…",
+        "bounds": [
+          89.3125,
+          72,
+          191.375,
+          22.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      271.5
+    ],
+    "paper": [
+      12,
+      12,
+      316,
+      247.5
+    ],
+    "buttons": [
+      {
+        "label": "Living room",
+        "bounds": [
+          27,
+          62,
+          286,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          27,
+          107,
+          286,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          27,
+          152,
+          286,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          27,
+          207,
+          140.5,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          172.5,
+          207,
+          140.5,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          27,
+          27,
+          286,
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": true,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      256.5
+    ],
+    "paper": [
+      12,
+      12,
+      316,
+      232.5
+    ],
+    "buttons": [
+      {
+        "label": "Bedroom",
+        "bounds": [
+          27,
+          137,
+          286,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          27,
+          192,
+          140.5,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          172.5,
+          192,
+          140.5,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          27,
+          27,
+          286,
+          35
+        ]
+      },
+      {
+        "label": "Living room + Kitchen",
+        "bounds": [
+          37,
+          70,
+          266,
+          20
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          37,
+          90,
+          266,
+          17.5
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          37,
+          107.5,
+          266,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connecting",
+    "bounds": [
+      0,
+      0,
+      340,
+      96.5
+    ],
+    "paper": [
+      12,
+      12,
+      316,
+      72.5
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "Connecting…",
+        "bounds": [
+          67,
+          37,
+          108.3125,
+          22.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": false,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      464.109375,
+      181.5
+    ],
+    "paper": [
+      12,
+      12,
+      440.109375,
+      157.5
+    ],
+    "buttons": [
+      {
+        "label": "Disconnect",
+        "bounds": [
+          27,
+          92,
+          410.109375,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          27,
+          27,
+          410.109375,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          27,
+          62,
+          88.828125,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          27,
+          137,
+          410.109375,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      464.109375,
+      191.5
+    ],
+    "paper": [
+      12,
+      12,
+      440.109375,
+      167.5
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          407.109375,
+          62,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add to Group",
+        "bounds": [
+          27,
+          102,
+          199.625,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          231.625,
+          102,
+          205.484375,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          27,
+          27,
+          410.109375,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          27,
+          67,
+          88.828125,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          27,
+          147,
+          410.109375,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      464.109375,
+      241.5
+    ],
+    "paper": [
+      12,
+      12,
+      440.109375,
+      217.5
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          397.109375,
+          67,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          319.828125,
+          108.25,
+          72.28125,
+          27.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          397.109375,
+          107,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          27,
+          152,
+          202.546875,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          234.546875,
+          152,
+          202.5625,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          27,
+          27,
+          410.109375,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          37,
+          72,
+          88.828125,
+          20
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          37,
+          112,
+          57.6875,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          27,
+          197,
+          410.109375,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": true,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      464.109375,
+      241.5
+    ],
+    "paper": [
+      12,
+      12,
+      440.109375,
+      217.5
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          397.109375,
+          67,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          319.828125,
+          108.25,
+          72.28125,
+          27.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          397.109375,
+          107,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          27,
+          152,
+          202.546875,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          234.546875,
+          152,
+          202.5625,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          27,
+          27,
+          410.109375,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          37,
+          72,
+          88.828125,
+          20
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          37,
+          112,
+          57.6875,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          27,
+          197,
+          410.109375,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group-build",
+    "bounds": [
+      0,
+      0,
+      343.265625,
+      259
+    ],
+    "paper": [
+      12,
+      12,
+      319.265625,
+      235
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          27,
+          194.5,
+          89.1875,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          121.1875,
+          194.5,
+          95.046875,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Connect",
+        "bounds": [
+          221.234375,
+          194.5,
+          95.03125,
+          37.5
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Select Group Speakers",
+        "bounds": [
+          27,
+          27,
+          289.265625,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          72,
+          69.5,
+          88.828125,
+          20
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          72,
+          104.5,
+          57.6875,
+          20
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          72,
+          139.5,
+          69.03125,
+          20
+        ]
+      },
+      {
+        "label": "First selected = coordinator",
+        "bounds": [
+          27,
+          167,
+          289.265625,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "expand-group",
+    "bounds": [
+      0,
+      0,
+      340,
+      206.5
+    ],
+    "paper": [
+      12,
+      12,
+      316,
+      182.5
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          27,
+          142,
+          88.09375,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          120.09375,
+          142,
+          93.953125,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add",
+        "bounds": [
+          219.046875,
+          142,
+          93.953125,
+          37.5
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Add Speakers",
+        "bounds": [
+          27,
+          27,
+          286,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          72,
+          69.5,
+          88.828125,
+          20
+        ]
+      },
+      {
+        "label": "coordinator",
+        "bounds": [
+          165.828125,
+          70.75,
+          74.671875,
+          17.5
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          72,
+          104.5,
+          69.03125,
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": true,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      179
+    ],
+    "paper": [
+      12,
+      12,
+      316,
+      155
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          27,
+          114.5,
+          286,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          27,
+          27,
+          286,
+          35
+        ]
+      },
+      {
+        "label": "No DLNA devices found",
+        "bounds": [
+          81.203125,
+          72,
+          194.796875,
+          22.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": true,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      131.5
+    ],
+    "paper": [
+      12,
+      12,
+      316,
+      107.5
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          27,
+          27,
+          286,
+          35
+        ]
+      },
+      {
+        "label": "Searching for devices…",
+        "bounds": [
+          59.3125,
+          72,
+          191.390625,
+          22.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      271.5
+    ],
+    "paper": [
+      12,
+      12,
+      316,
+      247.5
+    ],
+    "buttons": [
+      {
+        "label": "Living room",
+        "bounds": [
+          27,
+          62,
+          286,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          27,
+          107,
+          286,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          27,
+          152,
+          286,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          172.5,
+          207,
+          140.5,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          27,
+          207,
+          140.5,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          27,
+          27,
+          286,
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": true,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      256.5
+    ],
+    "paper": [
+      12,
+      12,
+      316,
+      232.5
+    ],
+    "buttons": [
+      {
+        "label": "Bedroom",
+        "bounds": [
+          27,
+          137,
+          286,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          172.5,
+          192,
+          140.5,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          27,
+          192,
+          140.5,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          27,
+          27,
+          286,
+          35
+        ]
+      },
+      {
+        "label": "Living room + Kitchen",
+        "bounds": [
+          37,
+          70,
+          266,
+          20
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          37,
+          90,
+          266,
+          17.5
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          37,
+          107.5,
+          266,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connecting",
+    "bounds": [
+      0,
+      0,
+      340,
+      96.5
+    ],
+    "paper": [
+      12,
+      12,
+      316,
+      72.5
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "Connecting…",
+        "bounds": [
+          164.6875,
+          37,
+          108.3125,
+          22.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": false,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      464.109375,
+      181.5
+    ],
+    "paper": [
+      12,
+      12,
+      440.109375,
+      157.5
+    ],
+    "buttons": [
+      {
+        "label": "Disconnect",
+        "bounds": [
+          27,
+          92,
+          410.109375,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          27,
+          27,
+          410.109375,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          348.28125,
+          62,
+          88.828125,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          27,
+          137,
+          410.109375,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      464.109375,
+      191.5
+    ],
+    "paper": [
+      12,
+      12,
+      440.109375,
+      167.5
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          27,
+          62,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add to Group",
+        "bounds": [
+          237.484375,
+          102,
+          199.625,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          27,
+          102,
+          205.484375,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          27,
+          27,
+          410.109375,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          348.28125,
+          67,
+          88.828125,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          27,
+          147,
+          410.109375,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      464.109375,
+      241.5
+    ],
+    "paper": [
+      12,
+      12,
+      440.109375,
+      217.5
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          37,
+          67,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          72,
+          108.25,
+          72.28125,
+          27.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          37,
+          107,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          234.5625,
+          152,
+          202.546875,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          27,
+          152,
+          202.5625,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          27,
+          27,
+          410.109375,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          338.28125,
+          72,
+          88.828125,
+          20
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          369.421875,
+          112,
+          57.6875,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          27,
+          197,
+          410.109375,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": true,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      464.109375,
+      241.5
+    ],
+    "paper": [
+      12,
+      12,
+      440.109375,
+      217.5
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          37,
+          67,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          72,
+          108.25,
+          72.28125,
+          27.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          37,
+          107,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          234.5625,
+          152,
+          202.546875,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          27,
+          152,
+          202.5625,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          27,
+          27,
+          410.109375,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          338.28125,
+          72,
+          88.828125,
+          20
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          369.421875,
+          112,
+          57.6875,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          27,
+          197,
+          410.109375,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group-build",
+    "bounds": [
+      0,
+      0,
+      343.265625,
+      259
+    ],
+    "paper": [
+      12,
+      12,
+      319.265625,
+      235
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          227.078125,
+          194.5,
+          89.1875,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          127.03125,
+          194.5,
+          95.046875,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Connect",
+        "bounds": [
+          27,
+          194.5,
+          95.03125,
+          37.5
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Select Group Speakers",
+        "bounds": [
+          27,
+          27,
+          289.265625,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          182.4375,
+          69.5,
+          88.828125,
+          20
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          213.578125,
+          104.5,
+          57.6875,
+          20
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          202.234375,
+          139.5,
+          69.03125,
+          20
+        ]
+      },
+      {
+        "label": "First selected = coordinator",
+        "bounds": [
+          27,
+          167,
+          289.265625,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "expand-group",
+    "bounds": [
+      0,
+      0,
+      340,
+      206.5
+    ],
+    "paper": [
+      12,
+      12,
+      316,
+      182.5
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          224.90625,
+          142,
+          88.09375,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          125.953125,
+          142,
+          93.953125,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add",
+        "bounds": [
+          27,
+          142,
+          93.953125,
+          37.5
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Add Speakers",
+        "bounds": [
+          27,
+          27,
+          286,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          179.171875,
+          69.5,
+          88.828125,
+          20
+        ]
+      },
+      {
+        "label": "coordinator",
+        "bounds": [
+          99.5,
+          70.75,
+          74.671875,
+          17.5
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          198.96875,
+          104.5,
+          69.03125,
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": true,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      178.1999969482422
+    ],
+    "paper": [
+      11.600000381469727,
+      11.600000381469727,
+      316.8000183105469,
+      155
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          26.600000381469727,
+          114.0999984741211,
+          286.8000183105469,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          26.600000381469727,
+          26.600000381469727,
+          286.8000183105469,
+          35
+        ]
+      },
+      {
+        "label": "No DLNA devices found",
+        "bounds": [
+          63.60000228881836,
+          71.5999984741211,
+          194.66250610351562,
+          22.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": true,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      130.6999969482422
+    ],
+    "paper": [
+      11.600000381469727,
+      11.600000381469727,
+      316.8000183105469,
+      107.5
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          26.600000381469727,
+          26.600000381469727,
+          286.8000183105469,
+          35
+        ]
+      },
+      {
+        "label": "Searching for devices…",
+        "bounds": [
+          89.375,
+          71.5999984741211,
+          191.2375030517578,
+          22.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      270.70001220703125
+    ],
+    "paper": [
+      11.600000381469727,
+      11.600000381469727,
+      316.8000183105469,
+      247.5
+    ],
+    "buttons": [
+      {
+        "label": "Living room",
+        "bounds": [
+          26.600000381469727,
+          61.60000228881836,
+          286.8000183105469,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          26.600000381469727,
+          106.5999984741211,
+          286.8000183105469,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          26.600000381469727,
+          151.60000610351562,
+          286.8000183105469,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          26.600000381469727,
+          206.60000610351562,
+          140.90000915527344,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          172.5,
+          206.60000610351562,
+          140.90000915527344,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          26.600000381469727,
+          26.600000381469727,
+          286.8000183105469,
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": true,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      255.6999969482422
+    ],
+    "paper": [
+      11.600000381469727,
+      11.600000381469727,
+      316.8000183105469,
+      232.5
+    ],
+    "buttons": [
+      {
+        "label": "Bedroom",
+        "bounds": [
+          26.600000381469727,
+          136.60000610351562,
+          286.8000183105469,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          26.600000381469727,
+          191.60000610351562,
+          140.90000915527344,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          172.5,
+          191.60000610351562,
+          140.90000915527344,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          26.600000381469727,
+          26.600000381469727,
+          286.8000183105469,
+          35
+        ]
+      },
+      {
+        "label": "Living room + Kitchen",
+        "bounds": [
+          36.60000228881836,
+          69.5999984741211,
+          266.8000183105469,
+          20
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          36.60000228881836,
+          89.5999984741211,
+          266.8000183105469,
+          17.5
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          36.60000228881836,
+          107.0999984741211,
+          266.8000183105469,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connecting",
+    "bounds": [
+      0,
+      0,
+      340,
+      95.70000457763672
+    ],
+    "paper": [
+      11.600000381469727,
+      11.600000381469727,
+      316.8000183105469,
+      72.5
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "Connecting…",
+        "bounds": [
+          66.5999984741211,
+          36.60000228881836,
+          108.2249984741211,
+          22.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": false,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      462.9375,
+      180.6999969482422
+    ],
+    "paper": [
+      11.600000381469727,
+      11.600000381469727,
+      439.7375183105469,
+      157.5
+    ],
+    "buttons": [
+      {
+        "label": "Disconnect",
+        "bounds": [
+          26.600000381469727,
+          91.5999984741211,
+          409.7375183105469,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          26.600000381469727,
+          26.600000381469727,
+          409.7375183105469,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          26.600000381469727,
+          61.60000228881836,
+          88.76250457763672,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          26.600000381469727,
+          136.60000610351562,
+          409.7375183105469,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      462.9375,
+      190.6999969482422
+    ],
+    "paper": [
+      11.600000381469727,
+      11.600000381469727,
+      439.7375183105469,
+      167.5
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          406.3374938964844,
+          61.60000228881836,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add to Group",
+        "bounds": [
+          26.600000381469727,
+          101.5999984741211,
+          199.4499969482422,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          231.0500030517578,
+          101.5999984741211,
+          205.28750610351562,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          26.600000381469727,
+          26.600000381469727,
+          409.7375183105469,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          26.600000381469727,
+          66.5999984741211,
+          88.76250457763672,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          26.600000381469727,
+          146.60000610351562,
+          409.7375183105469,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      462.9375,
+      240.6999969482422
+    ],
+    "paper": [
+      11.600000381469727,
+      11.600000381469727,
+      439.7375183105469,
+      217.5
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          396.3374938964844,
+          66.5999984741211,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          319.51251220703125,
+          107.8499984741211,
+          71.82500457763672,
+          27.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          396.3374938964844,
+          106.5999984741211,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          26.600000381469727,
+          151.60000610351562,
+          202.3625030517578,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          233.96250915527344,
+          151.60000610351562,
+          202.375,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          26.600000381469727,
+          26.600000381469727,
+          409.7375183105469,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          36.60000228881836,
+          71.5999984741211,
+          88.76250457763672,
+          20
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          36.60000228881836,
+          111.5999984741211,
+          57.63750076293945,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          26.600000381469727,
+          196.60000610351562,
+          409.7375183105469,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": true,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      462.9375,
+      240.6999969482422
+    ],
+    "paper": [
+      11.600000381469727,
+      11.600000381469727,
+      439.7375183105469,
+      217.5
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          396.3374938964844,
+          66.5999984741211,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          319.51251220703125,
+          107.8499984741211,
+          71.82500457763672,
+          27.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          396.3374938964844,
+          106.5999984741211,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          26.600000381469727,
+          151.60000610351562,
+          202.3625030517578,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          233.96250915527344,
+          151.60000610351562,
+          202.375,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          26.600000381469727,
+          26.600000381469727,
+          409.7375183105469,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          36.60000228881836,
+          71.5999984741211,
+          88.76250457763672,
+          20
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          36.60000228881836,
+          111.5999984741211,
+          57.63750076293945,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          26.600000381469727,
+          196.60000610351562,
+          409.7375183105469,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group-build",
+    "bounds": [
+      0,
+      0,
+      341.1125183105469,
+      258.20001220703125
+    ],
+    "paper": [
+      11.600000381469727,
+      11.600000381469727,
+      317.9125061035156,
+      235
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          26.600000381469727,
+          194.10000610351562,
+          88.73750305175781,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          120.3375015258789,
+          194.10000610351562,
+          94.5875015258789,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Connect",
+        "bounds": [
+          219.9250030517578,
+          194.10000610351562,
+          94.5875015258789,
+          37.5
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Select Group Speakers",
+        "bounds": [
+          26.600000381469727,
+          26.600000381469727,
+          287.9125061035156,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          71.5999984741211,
+          69.0999984741211,
+          88.76250457763672,
+          20
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          71.5999984741211,
+          104.0999984741211,
+          57.63750076293945,
+          20
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          71.5999984741211,
+          139.10000610351562,
+          68.98750305175781,
+          20
+        ]
+      },
+      {
+        "label": "First selected = coordinator",
+        "bounds": [
+          26.600000381469727,
+          166.60000610351562,
+          287.9125061035156,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": false,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "expand-group",
+    "bounds": [
+      0,
+      0,
+      340,
+      205.6999969482422
+    ],
+    "paper": [
+      11.600000381469727,
+      11.600000381469727,
+      316.8000183105469,
+      182.5
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          26.600000381469727,
+          141.60000610351562,
+          88.375,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          119.9749984741211,
+          141.60000610351562,
+          94.2125015258789,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add",
+        "bounds": [
+          219.1875,
+          141.60000610351562,
+          94.2125015258789,
+          37.5
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Add Speakers",
+        "bounds": [
+          26.600000381469727,
+          26.600000381469727,
+          286.8000183105469,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          71.5999984741211,
+          69.0999984741211,
+          88.76250457763672,
+          20
+        ]
+      },
+      {
+        "label": "coordinator",
+        "bounds": [
+          165.3625030517578,
+          70.3499984741211,
+          74.61250305175781,
+          17.5
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          71.5999984741211,
+          104.0999984741211,
+          68.98750305175781,
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": true,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      178.1999969482422
+    ],
+    "paper": [
+      11.60003662109375,
+      11.600000381469727,
+      316.8000183105469,
+      155
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          26.60003662109375,
+          114.0999984741211,
+          286.8000183105469,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          26.60003662109375,
+          26.600000381469727,
+          286.8000183105469,
+          35
+        ]
+      },
+      {
+        "label": "No DLNA devices found",
+        "bounds": [
+          81.73748779296875,
+          71.5999984741211,
+          194.66250610351562,
+          22.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": true,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      130.6999969482422
+    ],
+    "paper": [
+      11.60003662109375,
+      11.600000381469727,
+      316.8000183105469,
+      107.5
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          26.60003662109375,
+          26.600000381469727,
+          286.8000183105469,
+          35
+        ]
+      },
+      {
+        "label": "Searching for devices…",
+        "bounds": [
+          59.375,
+          71.5999984741211,
+          191.25,
+          22.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      270.70001220703125
+    ],
+    "paper": [
+      11.60003662109375,
+      11.600000381469727,
+      316.8000183105469,
+      247.5
+    ],
+    "buttons": [
+      {
+        "label": "Living room",
+        "bounds": [
+          26.60003662109375,
+          61.60000228881836,
+          286.8000183105469,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          26.60003662109375,
+          106.5999984741211,
+          286.8000183105469,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          26.60003662109375,
+          151.60000610351562,
+          286.8000183105469,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          172.5,
+          206.60000610351562,
+          140.90000915527344,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          26.60003662109375,
+          206.60000610351562,
+          140.90000915527344,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          26.60003662109375,
+          26.600000381469727,
+          286.8000183105469,
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": true,
+    "screen": "idle",
+    "bounds": [
+      0,
+      0,
+      340,
+      255.6999969482422
+    ],
+    "paper": [
+      11.60003662109375,
+      11.600000381469727,
+      316.8000183105469,
+      232.5
+    ],
+    "buttons": [
+      {
+        "label": "Bedroom",
+        "bounds": [
+          26.60003662109375,
+          136.60000610351562,
+          286.8000183105469,
+          45
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Refresh",
+        "bounds": [
+          172.5,
+          191.60000610351562,
+          140.90000915527344,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Create Group",
+        "bounds": [
+          26.60003662109375,
+          191.60000610351562,
+          140.90000915527344,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "DLNA Devices",
+        "bounds": [
+          26.60003662109375,
+          26.600000381469727,
+          286.8000183105469,
+          35
+        ]
+      },
+      {
+        "label": "Living room + Kitchen",
+        "bounds": [
+          36.60003662109375,
+          69.5999984741211,
+          266.8000183105469,
+          20
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          36.60003662109375,
+          89.5999984741211,
+          266.8000183105469,
+          17.5
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          36.60003662109375,
+          107.0999984741211,
+          266.8000183105469,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connecting",
+    "bounds": [
+      0,
+      0,
+      340,
+      95.70000457763672
+    ],
+    "paper": [
+      11.60003662109375,
+      11.600000381469727,
+      316.8000183105469,
+      72.5
+    ],
+    "buttons": [],
+    "text": [
+      {
+        "label": "Connecting…",
+        "bounds": [
+          165.16253662109375,
+          36.60000228881836,
+          108.23750305175781,
+          22.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": false,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      462.9375,
+      180.6999969482422
+    ],
+    "paper": [
+      11.600006103515625,
+      11.600000381469727,
+      439.7375183105469,
+      157.5
+    ],
+    "buttons": [
+      {
+        "label": "Disconnect",
+        "bounds": [
+          26.60003662109375,
+          91.5999984741211,
+          409.7375183105469,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          26.60003662109375,
+          26.600000381469727,
+          409.7375183105469,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          347.57501220703125,
+          61.60000228881836,
+          88.76250457763672,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          26.60003662109375,
+          136.60000610351562,
+          409.7375183105469,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "connected",
+    "bounds": [
+      0,
+      0,
+      462.9375,
+      190.6999969482422
+    ],
+    "paper": [
+      11.600006103515625,
+      11.600000381469727,
+      439.7375183105469,
+      167.5
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          26.60003662109375,
+          61.60000228881836,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add to Group",
+        "bounds": [
+          236.88751220703125,
+          101.5999984741211,
+          199.4499969482422,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          26.60003662109375,
+          101.5999984741211,
+          205.28750610351562,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Now casting",
+        "bounds": [
+          26.60003662109375,
+          26.600000381469727,
+          409.7375183105469,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          347.57501220703125,
+          66.5999984741211,
+          88.76250457763672,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          26.60003662109375,
+          146.60000610351562,
+          409.7375183105469,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      462.9375,
+      240.6999969482422
+    ],
+    "paper": [
+      11.600006103515625,
+      11.600000381469727,
+      439.7375183105469,
+      217.5
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          36.60003662109375,
+          66.5999984741211,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          71.60003662109375,
+          107.8499984741211,
+          71.82500457763672,
+          27.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          36.60003662109375,
+          106.5999984741211,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          233.97503662109375,
+          151.60000610351562,
+          202.3625030517578,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          26.60003662109375,
+          151.60000610351562,
+          202.375,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          26.60003662109375,
+          26.600000381469727,
+          409.7375183105469,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          337.57501220703125,
+          71.5999984741211,
+          88.76250457763672,
+          20
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          368.70001220703125,
+          111.5999984741211,
+          57.63750076293945,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          26.60003662109375,
+          196.60000610351562,
+          409.7375183105469,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": true,
+    "grouped": false,
+    "screen": "group",
+    "bounds": [
+      0,
+      0,
+      462.9375,
+      240.6999969482422
+    ],
+    "paper": [
+      11.600006103515625,
+      11.600000381469727,
+      439.7375183105469,
+      217.5
+    ],
+    "buttons": [
+      {
+        "label": "",
+        "bounds": [
+          36.60003662109375,
+          66.5999984741211,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Remove",
+        "bounds": [
+          71.60003662109375,
+          107.8499984741211,
+          71.82500457763672,
+          27.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "",
+        "bounds": [
+          36.60003662109375,
+          106.5999984741211,
+          30,
+          30
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add Speaker",
+        "bounds": [
+          233.97503662109375,
+          151.60000610351562,
+          202.3625030517578,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Disconnect",
+        "bounds": [
+          26.60003662109375,
+          151.60000610351562,
+          202.375,
+          37.5
+        ],
+        "disabled": false
+      }
+    ],
+    "text": [
+      {
+        "label": "Group (2 speakers)",
+        "bounds": [
+          26.60003662109375,
+          26.600000381469727,
+          409.7375183105469,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          337.57501220703125,
+          71.5999984741211,
+          88.76250457763672,
+          20
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          368.70001220703125,
+          111.5999984741211,
+          57.63750076293945,
+          20
+        ]
+      },
+      {
+        "label": "Hold Shift and press Disconnect to keep playing on the speaker",
+        "bounds": [
+          26.60003662109375,
+          196.60000610351562,
+          409.7375183105469,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "group-build",
+    "bounds": [
+      0,
+      0,
+      341.1125183105469,
+      258.20001220703125
+    ],
+    "paper": [
+      11.5999755859375,
+      11.600000381469727,
+      317.9125061035156,
+      235
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          225.7750244140625,
+          194.10000610351562,
+          88.73750305175781,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          126.1875,
+          194.10000610351562,
+          94.5875015258789,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Connect",
+        "bounds": [
+          26.5999755859375,
+          194.10000610351562,
+          94.5875015258789,
+          37.5
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Select Group Speakers",
+        "bounds": [
+          26.5999755859375,
+          26.600000381469727,
+          287.9125061035156,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          180.75,
+          69.0999984741211,
+          88.76250457763672,
+          20
+        ]
+      },
+      {
+        "label": "Kitchen",
+        "bounds": [
+          211.875,
+          104.0999984741211,
+          57.63750076293945,
+          20
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          200.5250244140625,
+          139.10000610351562,
+          68.98750305175781,
+          20
+        ]
+      },
+      {
+        "label": "First selected = coordinator",
+        "bounds": [
+          26.5999755859375,
+          166.60000610351562,
+          287.9125061035156,
+          17.5
+        ]
+      }
+    ]
+  },
+  {
+    "rem": 20,
+    "zoom": 1.25,
+    "rtl": true,
+    "sonos": true,
+    "loading": false,
+    "empty": false,
+    "shift": false,
+    "grouped": false,
+    "screen": "expand-group",
+    "bounds": [
+      0,
+      0,
+      340,
+      205.6999969482422
+    ],
+    "paper": [
+      11.60003662109375,
+      11.600000381469727,
+      316.8000183105469,
+      182.5
+    ],
+    "buttons": [
+      {
+        "label": "Refresh",
+        "bounds": [
+          225.0250244140625,
+          141.60000610351562,
+          88.375,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Cancel",
+        "bounds": [
+          125.8125,
+          141.60000610351562,
+          94.2125015258789,
+          37.5
+        ],
+        "disabled": false
+      },
+      {
+        "label": "Add",
+        "bounds": [
+          26.60003662109375,
+          141.60000610351562,
+          94.2125015258789,
+          37.5
+        ],
+        "disabled": true
+      }
+    ],
+    "text": [
+      {
+        "label": "Add Speakers",
+        "bounds": [
+          26.60003662109375,
+          26.600000381469727,
+          286.8000183105469,
+          35
+        ]
+      },
+      {
+        "label": "Living room",
+        "bounds": [
+          179.63751220703125,
+          69.0999984741211,
+          88.76250457763672,
+          20
+        ]
+      },
+      {
+        "label": "coordinator",
+        "bounds": [
+          100.0250244140625,
+          70.3499984741211,
+          74.61250305175781,
+          17.5
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "bounds": [
+          199.41253662109375,
+          104.0999984741211,
+          68.98750305175781,
+          20
+        ]
+      }
+    ]
+  }
+]

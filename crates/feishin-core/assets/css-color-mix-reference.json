@@ -1,0 +1,567 @@
+[
+  {
+    "value": "color-mix(in srgb, #232323, black 0%)",
+    "valid": true,
+    "color": "color(srgb 0.137255 0.137255 0.137255)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, black 5%)",
+    "valid": true,
+    "color": "color(srgb 0.130392 0.130392 0.130392)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, black 10%)",
+    "valid": true,
+    "color": "color(srgb 0.123529 0.123529 0.123529)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, black 15%)",
+    "valid": true,
+    "color": "color(srgb 0.116667 0.116667 0.116667)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, black 50%)",
+    "valid": true,
+    "color": "color(srgb 0.0686275 0.0686275 0.0686275)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, black 100%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, white 0%)",
+    "valid": true,
+    "color": "color(srgb 0.137255 0.137255 0.137255)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, white 5%)",
+    "valid": true,
+    "color": "color(srgb 0.180392 0.180392 0.180392)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, white 10%)",
+    "valid": true,
+    "color": "color(srgb 0.223529 0.223529 0.223529)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, white 15%)",
+    "valid": true,
+    "color": "color(srgb 0.266667 0.266667 0.266667)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, white 50%)",
+    "valid": true,
+    "color": "color(srgb 0.568627 0.568627 0.568627)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, white 100%)",
+    "valid": true,
+    "color": "color(srgb 1 1 1)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, transparent 0%)",
+    "valid": true,
+    "color": "color(srgb 0.137255 0.137255 0.137255)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, transparent 5%)",
+    "valid": true,
+    "color": "color(srgb 0.137255 0.137255 0.137255 / 0.95)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, transparent 10%)",
+    "valid": true,
+    "color": "color(srgb 0.137255 0.137255 0.137255 / 0.9)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, transparent 15%)",
+    "valid": true,
+    "color": "color(srgb 0.137255 0.137255 0.137255 / 0.85)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, transparent 50%)",
+    "valid": true,
+    "color": "color(srgb 0.137255 0.137255 0.137255 / 0.5)"
+  },
+  {
+    "value": "color-mix(in srgb, #232323, transparent 100%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, black 0%)",
+    "valid": true,
+    "color": "color(srgb 0 0.533333 0.8)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, black 5%)",
+    "valid": true,
+    "color": "color(srgb 0 0.506667 0.76)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, black 10%)",
+    "valid": true,
+    "color": "color(srgb 0 0.48 0.72)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, black 15%)",
+    "valid": true,
+    "color": "color(srgb 0 0.453333 0.68)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, black 50%)",
+    "valid": true,
+    "color": "color(srgb 0 0.266667 0.4)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, black 100%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, white 0%)",
+    "valid": true,
+    "color": "color(srgb 0 0.533333 0.8)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, white 5%)",
+    "valid": true,
+    "color": "color(srgb 0.05 0.556667 0.81)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, white 10%)",
+    "valid": true,
+    "color": "color(srgb 0.1 0.58 0.82)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, white 15%)",
+    "valid": true,
+    "color": "color(srgb 0.15 0.603333 0.83)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, white 50%)",
+    "valid": true,
+    "color": "color(srgb 0.5 0.766667 0.9)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, white 100%)",
+    "valid": true,
+    "color": "color(srgb 1 1 1)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, transparent 0%)",
+    "valid": true,
+    "color": "color(srgb 0 0.533333 0.8)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, transparent 5%)",
+    "valid": true,
+    "color": "color(srgb 0 0.533333 0.8 / 0.95)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, transparent 10%)",
+    "valid": true,
+    "color": "color(srgb 0 0.533333 0.8 / 0.9)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, transparent 15%)",
+    "valid": true,
+    "color": "color(srgb 0 0.533333 0.8 / 0.85)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, transparent 50%)",
+    "valid": true,
+    "color": "color(srgb 0 0.533333 0.8 / 0.5)"
+  },
+  {
+    "value": "color-mix(in srgb, #0088cc, transparent 100%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, black 0%)",
+    "valid": true,
+    "color": "color(srgb 0.933333 0.933333 0.933333)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, black 5%)",
+    "valid": true,
+    "color": "color(srgb 0.886667 0.886667 0.886667)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, black 10%)",
+    "valid": true,
+    "color": "color(srgb 0.84 0.84 0.84)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, black 15%)",
+    "valid": true,
+    "color": "color(srgb 0.793333 0.793333 0.793333)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, black 50%)",
+    "valid": true,
+    "color": "color(srgb 0.466667 0.466667 0.466667)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, black 100%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, white 0%)",
+    "valid": true,
+    "color": "color(srgb 0.933333 0.933333 0.933333)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, white 5%)",
+    "valid": true,
+    "color": "color(srgb 0.936667 0.936667 0.936667)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, white 10%)",
+    "valid": true,
+    "color": "color(srgb 0.94 0.94 0.94)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, white 15%)",
+    "valid": true,
+    "color": "color(srgb 0.943333 0.943333 0.943333)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, white 50%)",
+    "valid": true,
+    "color": "color(srgb 0.966667 0.966667 0.966667)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, white 100%)",
+    "valid": true,
+    "color": "color(srgb 1 1 1)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, transparent 0%)",
+    "valid": true,
+    "color": "color(srgb 0.933333 0.933333 0.933333)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, transparent 5%)",
+    "valid": true,
+    "color": "color(srgb 0.933333 0.933333 0.933333 / 0.95)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, transparent 10%)",
+    "valid": true,
+    "color": "color(srgb 0.933333 0.933333 0.933333 / 0.9)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, transparent 15%)",
+    "valid": true,
+    "color": "color(srgb 0.933333 0.933333 0.933333 / 0.85)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, transparent 50%)",
+    "valid": true,
+    "color": "color(srgb 0.933333 0.933333 0.933333 / 0.5)"
+  },
+  {
+    "value": "color-mix(in srgb, #eeeeee, transparent 100%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), black 0%)",
+    "valid": true,
+    "color": "color(srgb 0.0392157 0.0784314 0.117647 / 0.301961)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), black 5%)",
+    "valid": true,
+    "color": "color(srgb 0.033395 0.0667899 0.100185 / 0.336863)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), black 10%)",
+    "valid": true,
+    "color": "color(srgb 0.0286672 0.0573343 0.0860015 / 0.371765)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), black 15%)",
+    "valid": true,
+    "color": "color(srgb 0.0247509 0.0495018 0.0742527 / 0.406667)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), black 50%)",
+    "valid": true,
+    "color": "color(srgb 0.0090952 0.0181904 0.0272856 / 0.65098)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), black 100%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), white 0%)",
+    "valid": true,
+    "color": "color(srgb 0.0392157 0.0784314 0.117647 / 0.301961)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), white 5%)",
+    "valid": true,
+    "color": "color(srgb 0.181823 0.215218 0.248613 / 0.336863)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), white 10%)",
+    "valid": true,
+    "color": "color(srgb 0.297654 0.326322 0.354989 / 0.371765)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), white 15%)",
+    "valid": true,
+    "color": "color(srgb 0.393603 0.418354 0.443105 / 0.406667)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), white 50%)",
+    "valid": true,
+    "color": "color(srgb 0.777168 0.786263 0.795358 / 0.65098)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), white 100%)",
+    "valid": true,
+    "color": "color(srgb 1 1 1)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), transparent 0%)",
+    "valid": true,
+    "color": "color(srgb 0.0392157 0.0784314 0.117647 / 0.301961)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), transparent 5%)",
+    "valid": true,
+    "color": "color(srgb 0.0392157 0.0784314 0.117647 / 0.286863)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), transparent 10%)",
+    "valid": true,
+    "color": "color(srgb 0.0392157 0.0784314 0.117647 / 0.271765)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), transparent 15%)",
+    "valid": true,
+    "color": "color(srgb 0.0392157 0.0784314 0.117647 / 0.256667)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), transparent 50%)",
+    "valid": true,
+    "color": "color(srgb 0.0392157 0.0784314 0.117647 / 0.15098)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10 20 30 / .3), transparent 100%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, black 0%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, black 5%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0.05)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, black 10%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0.1)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, black 15%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0.15)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, black 50%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0.5)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, black 100%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, white 0%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, white 5%)",
+    "valid": true,
+    "color": "color(srgb 1 1 1 / 0.05)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, white 10%)",
+    "valid": true,
+    "color": "color(srgb 1 1 1 / 0.1)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, white 15%)",
+    "valid": true,
+    "color": "color(srgb 1 1 1 / 0.15)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, white 50%)",
+    "valid": true,
+    "color": "color(srgb 1 1 1 / 0.5)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, white 100%)",
+    "valid": true,
+    "color": "color(srgb 1 1 1)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, transparent 0%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, transparent 5%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, transparent 10%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, transparent 15%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, transparent 50%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, transparent 100%)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0)"
+  },
+  {
+    "value": "color-mix(in srgb, rgb(10.3 20.5 30.7 / .3), black 0%)",
+    "valid": true,
+    "color": "color(srgb 0.0403922 0.0803922 0.120392 / 0.301961)"
+  },
+  {
+    "value": "color-mix(in srgb, hsl(30 50% 50% / .3), black 0%)",
+    "valid": true,
+    "color": "color(srgb 0.75 0.5 0.25 / 0.3)"
+  },
+  {
+    "value": "color-mix(in srgb, hwb(30 20% 30% / .3), black 0%)",
+    "valid": true,
+    "color": "color(srgb 0.7 0.45 0.2 / 0.3)"
+  },
+  {
+    "value": "color-mix(in srgb, red, blue)",
+    "valid": true,
+    "color": "color(srgb 0.5 0 0.5)"
+  },
+  {
+    "value": "color-mix(in srgb, red 20%, blue)",
+    "valid": true,
+    "color": "color(srgb 0.2 0 0.8)"
+  },
+  {
+    "value": "color-mix(in srgb, red 20%, blue 30%)",
+    "valid": true,
+    "color": "color(srgb 0.4 0 0.6 / 0.5)"
+  },
+  {
+    "value": "color-mix(in srgb, red 80%, blue 80%)",
+    "valid": true,
+    "color": "color(srgb 0.5 0 0.5)"
+  },
+  {
+    "value": "color-mix(in srgb, 35% rgba(255,0,0,.5), rgba(0,0,255,.8) 65%)",
+    "valid": true,
+    "color": "color(srgb 0.252537 0 0.747463 / 0.695686)"
+  },
+  {
+    "value": "color-mix(in srgb, transparent, transparent)",
+    "valid": true,
+    "color": "color(srgb 0 0 0 / 0)"
+  },
+  {
+    "value": "color-mix(in srgb, color-mix(in srgb, red 30%, blue), white 10%)",
+    "valid": true,
+    "color": "color(srgb 0.37 0.1 0.73)"
+  },
+  {
+    "value": "COLOR-MIX(in sRGB, RED, BLUE)",
+    "valid": true,
+    "color": "color(srgb 0.5 0 0.5)"
+  },
+  {
+    "value": "color-mix( in /* space */ srgb, rgb(10 20 30 / 25%) 15%, hsl(30 50% 50%))",
+    "valid": true,
+    "color": "color(srgb 0.719854 0.48212 0.244387 / 0.887647)"
+  },
+  {
+    "value": "color-mix(in srgb, red 0%, blue 0%)",
+    "valid": false,
+    "color": "rgb(18, 52, 86)"
+  },
+  {
+    "value": "color-mix(in srgb, red -1%, blue)",
+    "valid": false,
+    "color": "rgb(18, 52, 86)"
+  },
+  {
+    "value": "color-mix(in srgb, red 101%, blue)",
+    "valid": false,
+    "color": "rgb(18, 52, 86)"
+  },
+  {
+    "value": "color-mix(in srgb, red 20, blue)",
+    "valid": false,
+    "color": "rgb(18, 52, 86)"
+  },
+  {
+    "value": "color-mix(in srgb, red 10% 20%, blue)",
+    "valid": false,
+    "color": "rgb(18, 52, 86)"
+  },
+  {
+    "value": "color-mix(in srgb, red blue)",
+    "valid": false,
+    "color": "rgb(18, 52, 86)"
+  },
+  {
+    "value": "color-mix(in srgb, red, blue, white)",
+    "valid": false,
+    "color": "rgb(18, 52, 86)"
+  },
+  {
+    "value": "color-mix(in srgb, red, nonsense)",
+    "valid": false,
+    "color": "rgb(18, 52, 86)"
+  },
+  {
+    "value": "color-mix(in srgb, red,)",
+    "valid": false,
+    "color": "rgb(18, 52, 86)"
+  },
+  {
+    "value": "color-mix(in srgb red, blue)",
+    "valid": false,
+    "color": "rgb(18, 52, 86)"
+  },
+  {
+    "value": "color-mix(in srgb, red, blue) trailing",
+    "valid": false,
+    "color": "rgb(18, 52, 86)"
+  }
+]

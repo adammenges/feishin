@@ -1,0 +1,2466 @@
+[
+  {
+    "settings": {
+      "releaseChannel": null,
+      "disableAutoUpdate": true
+    },
+    "disabled": false,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "select",
+        "value": "latest",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "switch",
+        "value": false,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "releaseChannel": null,
+      "disableAutoUpdate": true
+    },
+    "disabled": true,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": false,
+        "type": "select",
+        "value": "latest",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": true,
+        "type": "switch",
+        "value": false,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "releaseChannel": null,
+      "disableAutoUpdate": false
+    },
+    "disabled": false,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "select",
+        "value": "latest",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "switch",
+        "value": true,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "releaseChannel": null,
+      "disableAutoUpdate": false
+    },
+    "disabled": true,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": false,
+        "type": "select",
+        "value": "latest",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": true,
+        "type": "switch",
+        "value": true,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "releaseChannel": "latest",
+      "disableAutoUpdate": true
+    },
+    "disabled": false,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "select",
+        "value": "latest",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "switch",
+        "value": false,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "releaseChannel": "latest",
+      "disableAutoUpdate": true
+    },
+    "disabled": true,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": false,
+        "type": "select",
+        "value": "latest",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": true,
+        "type": "switch",
+        "value": false,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "releaseChannel": "latest",
+      "disableAutoUpdate": false
+    },
+    "disabled": false,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "select",
+        "value": "latest",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "switch",
+        "value": true,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "releaseChannel": "latest",
+      "disableAutoUpdate": false
+    },
+    "disabled": true,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": false,
+        "type": "select",
+        "value": "latest",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": true,
+        "type": "switch",
+        "value": true,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "releaseChannel": "beta",
+      "disableAutoUpdate": true
+    },
+    "disabled": false,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "select",
+        "value": "beta",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "switch",
+        "value": false,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "releaseChannel": "beta",
+      "disableAutoUpdate": true
+    },
+    "disabled": true,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": false,
+        "type": "select",
+        "value": "beta",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": true,
+        "type": "switch",
+        "value": false,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "releaseChannel": "beta",
+      "disableAutoUpdate": false
+    },
+    "disabled": false,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "select",
+        "value": "beta",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "switch",
+        "value": true,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "releaseChannel": "beta",
+      "disableAutoUpdate": false
+    },
+    "disabled": true,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": false,
+        "type": "select",
+        "value": "beta",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": true,
+        "type": "switch",
+        "value": true,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "releaseChannel": "alpha",
+      "disableAutoUpdate": true
+    },
+    "disabled": false,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "select",
+        "value": "alpha",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "switch",
+        "value": false,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "releaseChannel": "alpha",
+      "disableAutoUpdate": true
+    },
+    "disabled": true,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": false,
+        "type": "select",
+        "value": "alpha",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": true,
+        "type": "switch",
+        "value": false,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "releaseChannel": "alpha",
+      "disableAutoUpdate": false
+    },
+    "disabled": false,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "select",
+        "value": "alpha",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": false,
+        "disabled": false,
+        "type": "switch",
+        "value": true,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settings": {
+      "releaseChannel": "alpha",
+      "disableAutoUpdate": false
+    },
+    "disabled": true,
+    "controls": [
+      {
+        "title": "setting.releaseChannel",
+        "description": {
+          "key": "setting.releaseChannel",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": false,
+        "type": "select",
+        "value": "alpha",
+        "choices": [
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionLatest"
+              }
+            },
+            "value": "latest"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionBeta"
+              }
+            },
+            "value": "beta"
+          },
+          {
+            "label": {
+              "key": "setting.releaseChannel",
+              "options": {
+                "context": "optionAlpha"
+              }
+            },
+            "value": "alpha"
+          }
+        ],
+        "changes": [
+          {
+            "value": "latest",
+            "settings": {
+              "window": {
+                "releaseChannel": "latest"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "latest"
+              ]
+            ]
+          },
+          {
+            "value": "beta",
+            "settings": {
+              "window": {
+                "releaseChannel": "beta"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "beta"
+              ]
+            ]
+          },
+          {
+            "value": "alpha",
+            "settings": {
+              "window": {
+                "releaseChannel": "alpha"
+              }
+            },
+            "local": [
+              [
+                "release_channel",
+                "alpha"
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          },
+          {
+            "value": "",
+            "settings": null,
+            "local": []
+          }
+        ]
+      },
+      {
+        "title": "setting.automaticUpdates",
+        "description": {
+          "key": "setting.automaticUpdates",
+          "options": {
+            "context": "description"
+          }
+        },
+        "hidden": true,
+        "disabled": true,
+        "type": "switch",
+        "value": true,
+        "choices": null,
+        "changes": [
+          {
+            "value": false,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": true
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                true
+              ]
+            ]
+          },
+          {
+            "value": true,
+            "settings": {
+              "window": {
+                "disableAutoUpdate": false
+              }
+            },
+            "local": [
+              [
+                "disable_auto_updates",
+                false
+              ]
+            ]
+          },
+          {
+            "value": null,
+            "settings": null,
+            "local": []
+          }
+        ]
+      }
+    ]
+  }
+]

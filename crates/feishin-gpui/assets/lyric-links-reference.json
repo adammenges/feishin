@@ -1,0 +1,301 @@
+{
+  "cases": [
+    {
+      "alignment": "left",
+      "width": 160,
+      "scale": 0.95,
+      "labels": [
+        "A long link that wraps onto several rows",
+        "العربية"
+      ],
+      "traces": [
+        {
+          "url": "https://example.com/first",
+          "seeks": [
+            2.5
+          ]
+        },
+        {
+          "url": "https://example.com/second",
+          "seeks": [
+            2.5,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "alignment": "left",
+      "width": 160,
+      "scale": 1,
+      "labels": [
+        "A long link that wraps onto several rows",
+        "العربية"
+      ],
+      "traces": [
+        {
+          "url": "https://example.com/first",
+          "seeks": [
+            2.5
+          ]
+        },
+        {
+          "url": "https://example.com/second",
+          "seeks": [
+            2.5,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "alignment": "left",
+      "width": 500,
+      "scale": 0.95,
+      "labels": [
+        "A long link that wraps onto several rows",
+        "العربية"
+      ],
+      "traces": [
+        {
+          "url": "https://example.com/first",
+          "seeks": [
+            2.5
+          ]
+        },
+        {
+          "url": "https://example.com/second",
+          "seeks": [
+            2.5,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "alignment": "left",
+      "width": 500,
+      "scale": 1,
+      "labels": [
+        "A long link that wraps onto several rows",
+        "العربية"
+      ],
+      "traces": [
+        {
+          "url": "https://example.com/first",
+          "seeks": [
+            2.5
+          ]
+        },
+        {
+          "url": "https://example.com/second",
+          "seeks": [
+            2.5,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "alignment": "center",
+      "width": 160,
+      "scale": 0.95,
+      "labels": [
+        "A long link that wraps onto several rows",
+        "العربية"
+      ],
+      "traces": [
+        {
+          "url": "https://example.com/first",
+          "seeks": [
+            2.5
+          ]
+        },
+        {
+          "url": "https://example.com/second",
+          "seeks": [
+            2.5,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "alignment": "center",
+      "width": 160,
+      "scale": 1,
+      "labels": [
+        "A long link that wraps onto several rows",
+        "العربية"
+      ],
+      "traces": [
+        {
+          "url": "https://example.com/first",
+          "seeks": [
+            2.5
+          ]
+        },
+        {
+          "url": "https://example.com/second",
+          "seeks": [
+            2.5,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "alignment": "center",
+      "width": 500,
+      "scale": 0.95,
+      "labels": [
+        "A long link that wraps onto several rows",
+        "العربية"
+      ],
+      "traces": [
+        {
+          "url": "https://example.com/first",
+          "seeks": [
+            2.5
+          ]
+        },
+        {
+          "url": "https://example.com/second",
+          "seeks": [
+            2.5,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "alignment": "center",
+      "width": 500,
+      "scale": 1,
+      "labels": [
+        "A long link that wraps onto several rows",
+        "العربية"
+      ],
+      "traces": [
+        {
+          "url": "https://example.com/first",
+          "seeks": [
+            2.5
+          ]
+        },
+        {
+          "url": "https://example.com/second",
+          "seeks": [
+            2.5,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "alignment": "right",
+      "width": 160,
+      "scale": 0.95,
+      "labels": [
+        "A long link that wraps onto several rows",
+        "العربية"
+      ],
+      "traces": [
+        {
+          "url": "https://example.com/first",
+          "seeks": [
+            2.5
+          ]
+        },
+        {
+          "url": "https://example.com/second",
+          "seeks": [
+            2.5,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "alignment": "right",
+      "width": 160,
+      "scale": 1,
+      "labels": [
+        "A long link that wraps onto several rows",
+        "العربية"
+      ],
+      "traces": [
+        {
+          "url": "https://example.com/first",
+          "seeks": [
+            2.5
+          ]
+        },
+        {
+          "url": "https://example.com/second",
+          "seeks": [
+            2.5,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "alignment": "right",
+      "width": 500,
+      "scale": 0.95,
+      "labels": [
+        "A long link that wraps onto several rows",
+        "العربية"
+      ],
+      "traces": [
+        {
+          "url": "https://example.com/first",
+          "seeks": [
+            2.5
+          ]
+        },
+        {
+          "url": "https://example.com/second",
+          "seeks": [
+            2.5,
+            2.5
+          ]
+        }
+      ]
+    },
+    {
+      "alignment": "right",
+      "width": 500,
+      "scale": 1,
+      "labels": [
+        "A long link that wraps onto several rows",
+        "العربية"
+      ],
+      "traces": [
+        {
+          "url": "https://example.com/first",
+          "seeks": [
+            2.5
+          ]
+        },
+        {
+          "url": "https://example.com/second",
+          "seeks": [
+            2.5,
+            2.5
+          ]
+        }
+      ]
+    }
+  ],
+  "offscreen": {
+    "scrolled": true,
+    "focused": true,
+    "visible": true,
+    "url": "https://example.com/offscreen",
+    "seeks": [
+      2.5
+    ]
+  }
+}

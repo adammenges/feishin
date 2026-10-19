@@ -1,0 +1,1076 @@
+[
+  {
+    "name": "disabled",
+    "stored": {
+      "enabled": false,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "query": null,
+    "opened": false,
+    "options": []
+  },
+  {
+    "name": "enabled",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "query": "",
+    "opened": false,
+    "options": []
+  },
+  {
+    "name": "opened",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "query": "",
+    "opened": false,
+    "options": []
+  },
+  {
+    "name": "search",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "query": "treb",
+    "opened": true,
+    "options": [
+      {
+        "text": "Treble Boost",
+        "active": false
+      },
+      {
+        "text": "Treble Cut",
+        "active": false
+      }
+    ]
+  },
+  {
+    "name": "next",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "query": "treb",
+    "opened": true,
+    "options": [
+      {
+        "text": "Treble Boost",
+        "active": true
+      },
+      {
+        "text": "Treble Cut",
+        "active": false
+      }
+    ]
+  },
+  {
+    "name": "choose",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 3
+        },
+        {
+          "freq": 6300,
+          "gain": 4
+        },
+        {
+          "freq": 10000,
+          "gain": 5
+        },
+        {
+          "freq": 16000,
+          "gain": 6
+        }
+      ]
+    },
+    "query": "treb",
+    "opened": false,
+    "options": []
+  },
+  {
+    "name": "reopen",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 3
+        },
+        {
+          "freq": 6300,
+          "gain": 4
+        },
+        {
+          "freq": 10000,
+          "gain": 5
+        },
+        {
+          "freq": 16000,
+          "gain": 6
+        }
+      ]
+    },
+    "query": "treb",
+    "opened": true,
+    "options": [
+      {
+        "text": "Treble Boost",
+        "active": false
+      },
+      {
+        "text": "Treble Cut",
+        "active": false
+      }
+    ]
+  },
+  {
+    "name": "none",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 3
+        },
+        {
+          "freq": 6300,
+          "gain": 4
+        },
+        {
+          "freq": 10000,
+          "gain": 5
+        },
+        {
+          "freq": 16000,
+          "gain": 6
+        }
+      ]
+    },
+    "query": "no match",
+    "opened": true,
+    "options": []
+  },
+  {
+    "name": "escape",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 3
+        },
+        {
+          "freq": 6300,
+          "gain": 4
+        },
+        {
+          "freq": 10000,
+          "gain": 5
+        },
+        {
+          "freq": 16000,
+          "gain": 6
+        }
+      ]
+    },
+    "query": "no match",
+    "opened": false,
+    "options": []
+  },
+  {
+    "name": "open-again",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 3
+        },
+        {
+          "freq": 6300,
+          "gain": 4
+        },
+        {
+          "freq": 10000,
+          "gain": 5
+        },
+        {
+          "freq": 16000,
+          "gain": 6
+        }
+      ]
+    },
+    "query": "no match",
+    "opened": true,
+    "options": []
+  },
+  {
+    "name": "case-insensitive",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 3
+        },
+        {
+          "freq": 6300,
+          "gain": 4
+        },
+        {
+          "freq": 10000,
+          "gain": 5
+        },
+        {
+          "freq": 16000,
+          "gain": 6
+        }
+      ]
+    },
+    "query": "BASS",
+    "opened": true,
+    "options": [
+      {
+        "text": "Bass Boost",
+        "active": false
+      },
+      {
+        "text": "Bass Cut",
+        "active": false
+      }
+    ]
+  },
+  {
+    "name": "spaces",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 0
+        },
+        {
+          "freq": 63,
+          "gain": 0
+        },
+        {
+          "freq": 125,
+          "gain": 0
+        },
+        {
+          "freq": 250,
+          "gain": 0
+        },
+        {
+          "freq": 500,
+          "gain": 0
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 1
+        },
+        {
+          "freq": 3000,
+          "gain": 2
+        },
+        {
+          "freq": 4000,
+          "gain": 3
+        },
+        {
+          "freq": 6300,
+          "gain": 4
+        },
+        {
+          "freq": 10000,
+          "gain": 5
+        },
+        {
+          "freq": 16000,
+          "gain": 6
+        }
+      ]
+    },
+    "query": " bass ",
+    "opened": true,
+    "options": [
+      {
+        "text": "Bass Boost",
+        "active": false
+      },
+      {
+        "text": "Bass Cut",
+        "active": false
+      }
+    ]
+  },
+  {
+    "name": "choose-bass",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 6
+        },
+        {
+          "freq": 63,
+          "gain": 5
+        },
+        {
+          "freq": 125,
+          "gain": 4
+        },
+        {
+          "freq": 250,
+          "gain": 2
+        },
+        {
+          "freq": 500,
+          "gain": 1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "query": " bass ",
+    "opened": false,
+    "options": []
+  },
+  {
+    "name": "disabled-again",
+    "stored": {
+      "enabled": false,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 6
+        },
+        {
+          "freq": 63,
+          "gain": 5
+        },
+        {
+          "freq": 125,
+          "gain": 4
+        },
+        {
+          "freq": 250,
+          "gain": 2
+        },
+        {
+          "freq": 500,
+          "gain": 1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "query": null,
+    "opened": false,
+    "options": []
+  },
+  {
+    "name": "enabled-again",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 6
+        },
+        {
+          "freq": 63,
+          "gain": 5
+        },
+        {
+          "freq": 125,
+          "gain": 4
+        },
+        {
+          "freq": 250,
+          "gain": 2
+        },
+        {
+          "freq": 500,
+          "gain": 1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "query": "",
+    "opened": false,
+    "options": []
+  },
+  {
+    "name": "opened-after-enable",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 6
+        },
+        {
+          "freq": 63,
+          "gain": 5
+        },
+        {
+          "freq": 125,
+          "gain": 4
+        },
+        {
+          "freq": 250,
+          "gain": 2
+        },
+        {
+          "freq": 500,
+          "gain": 1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "query": "",
+    "opened": false,
+    "options": []
+  },
+  {
+    "name": "search-after-enable",
+    "stored": {
+      "enabled": true,
+      "preamp": 0,
+      "bands": [
+        {
+          "freq": 31.5,
+          "gain": 6
+        },
+        {
+          "freq": 63,
+          "gain": 5
+        },
+        {
+          "freq": 125,
+          "gain": 4
+        },
+        {
+          "freq": 250,
+          "gain": 2
+        },
+        {
+          "freq": 500,
+          "gain": 1
+        },
+        {
+          "freq": 1000,
+          "gain": 0
+        },
+        {
+          "freq": 2000,
+          "gain": 0
+        },
+        {
+          "freq": 3000,
+          "gain": 0
+        },
+        {
+          "freq": 4000,
+          "gain": 0
+        },
+        {
+          "freq": 6300,
+          "gain": 0
+        },
+        {
+          "freq": 10000,
+          "gain": 0
+        },
+        {
+          "freq": 16000,
+          "gain": 0
+        }
+      ]
+    },
+    "query": "treb",
+    "opened": true,
+    "options": [
+      {
+        "text": "Treble Boost",
+        "active": false
+      },
+      {
+        "text": "Treble Cut",
+        "active": false
+      }
+    ]
+  }
+]

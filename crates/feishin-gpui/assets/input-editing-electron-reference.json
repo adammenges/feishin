@@ -1,0 +1,1171 @@
+{
+  "electron": "43.7.0",
+  "platforms": [
+    "darwin",
+    "linux"
+  ],
+  "metrics": [
+    {
+      "direction": "ltr",
+      "text": "ABC אבג DEF",
+      "value": "ABC אבג DEF",
+      "actions": [
+        {
+          "key": "Left",
+          "start": 0,
+          "value": "ABC אבג DEF",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 0,
+          "value": "ABC אבג DEF",
+          "selection": [
+            1,
+            1
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 1,
+          "value": "ABC אבג DEF",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 1,
+          "value": "ABC אבג DEF",
+          "selection": [
+            2,
+            2
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 2,
+          "value": "ABC אבג DEF",
+          "selection": [
+            1,
+            1
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 2,
+          "value": "ABC אבג DEF",
+          "selection": [
+            3,
+            3
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 3,
+          "value": "ABC אבג DEF",
+          "selection": [
+            2,
+            2
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 3,
+          "value": "ABC אבג DEF",
+          "selection": [
+            4,
+            4
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 4,
+          "value": "ABC אבג DEF",
+          "selection": [
+            3,
+            3
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 4,
+          "value": "ABC אבג DEF",
+          "selection": [
+            5,
+            5
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 5,
+          "value": "ABC אבג DEF",
+          "selection": [
+            4,
+            4
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 5,
+          "value": "ABC אבג DEF",
+          "selection": [
+            6,
+            6
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 6,
+          "value": "ABC אבג DEF",
+          "selection": [
+            5,
+            5
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 6,
+          "value": "ABC אבג DEF",
+          "selection": [
+            7,
+            7
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 7,
+          "value": "ABC אבג DEF",
+          "selection": [
+            6,
+            6
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 7,
+          "value": "ABC אבג DEF",
+          "selection": [
+            8,
+            8
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 8,
+          "value": "ABC אבג DEF",
+          "selection": [
+            7,
+            7
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 8,
+          "value": "ABC אבג DEF",
+          "selection": [
+            9,
+            9
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 9,
+          "value": "ABC אבג DEF",
+          "selection": [
+            8,
+            8
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 9,
+          "value": "ABC אבג DEF",
+          "selection": [
+            10,
+            10
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 10,
+          "value": "ABC אבג DEF",
+          "selection": [
+            9,
+            9
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 10,
+          "value": "ABC אבג DEF",
+          "selection": [
+            11,
+            11
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 11,
+          "value": "ABC אבג DEF",
+          "selection": [
+            10,
+            10
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 11,
+          "value": "ABC אבג DEF",
+          "selection": [
+            11,
+            11
+          ],
+          "bidi": "isolate"
+        }
+      ]
+    },
+    {
+      "direction": "ltr",
+      "text": "שָׁלוֹם äb",
+      "value": "שָׁלוֹם äb",
+      "actions": [
+        {
+          "key": "Left",
+          "start": 0,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 0,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            3,
+            3
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 1,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 1,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            4,
+            4
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 2,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 2,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            4,
+            4
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 3,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 3,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            4,
+            4
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 4,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            3,
+            3
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 4,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            6,
+            6
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 5,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            4,
+            4
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 5,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            7,
+            7
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 6,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            4,
+            4
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 6,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            7,
+            7
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 7,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            6,
+            6
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 7,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            8,
+            8
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 8,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            7,
+            7
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 8,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            10,
+            10
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 9,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            8,
+            8
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 9,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            11,
+            11
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 10,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            8,
+            8
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 10,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            11,
+            11
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 11,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            10,
+            10
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 11,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            11,
+            11
+          ],
+          "bidi": "isolate"
+        }
+      ]
+    },
+    {
+      "direction": "ltr",
+      "text": "äb",
+      "value": "äb",
+      "actions": [
+        {
+          "key": "Left",
+          "start": 0,
+          "value": "äb",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 0,
+          "value": "äb",
+          "selection": [
+            2,
+            2
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 1,
+          "value": "äb",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 1,
+          "value": "äb",
+          "selection": [
+            3,
+            3
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 2,
+          "value": "äb",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 2,
+          "value": "äb",
+          "selection": [
+            3,
+            3
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 3,
+          "value": "äb",
+          "selection": [
+            2,
+            2
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 3,
+          "value": "äb",
+          "selection": [
+            3,
+            3
+          ],
+          "bidi": "isolate"
+        }
+      ]
+    },
+    {
+      "direction": "rtl",
+      "text": "ABC אבג DEF",
+      "value": "ABC אבג DEF",
+      "actions": [
+        {
+          "key": "Left",
+          "start": 0,
+          "value": "ABC אבג DEF",
+          "selection": [
+            1,
+            1
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 0,
+          "value": "ABC אבג DEF",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 1,
+          "value": "ABC אבג DEF",
+          "selection": [
+            2,
+            2
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 1,
+          "value": "ABC אבג DEF",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 2,
+          "value": "ABC אבג DEF",
+          "selection": [
+            3,
+            3
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 2,
+          "value": "ABC אבג DEF",
+          "selection": [
+            1,
+            1
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 3,
+          "value": "ABC אבג DEF",
+          "selection": [
+            4,
+            4
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 3,
+          "value": "ABC אבג DEF",
+          "selection": [
+            2,
+            2
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 4,
+          "value": "ABC אבג DEF",
+          "selection": [
+            5,
+            5
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 4,
+          "value": "ABC אבג DEF",
+          "selection": [
+            3,
+            3
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 5,
+          "value": "ABC אבג DEF",
+          "selection": [
+            6,
+            6
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 5,
+          "value": "ABC אבג DEF",
+          "selection": [
+            4,
+            4
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 6,
+          "value": "ABC אבג DEF",
+          "selection": [
+            7,
+            7
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 6,
+          "value": "ABC אבג DEF",
+          "selection": [
+            5,
+            5
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 7,
+          "value": "ABC אבג DEF",
+          "selection": [
+            8,
+            8
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 7,
+          "value": "ABC אבג DEF",
+          "selection": [
+            6,
+            6
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 8,
+          "value": "ABC אבג DEF",
+          "selection": [
+            9,
+            9
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 8,
+          "value": "ABC אבג DEF",
+          "selection": [
+            7,
+            7
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 9,
+          "value": "ABC אבג DEF",
+          "selection": [
+            10,
+            10
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 9,
+          "value": "ABC אבג DEF",
+          "selection": [
+            8,
+            8
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 10,
+          "value": "ABC אבג DEF",
+          "selection": [
+            11,
+            11
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 10,
+          "value": "ABC אבג DEF",
+          "selection": [
+            9,
+            9
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 11,
+          "value": "ABC אבג DEF",
+          "selection": [
+            11,
+            11
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 11,
+          "value": "ABC אבג DEF",
+          "selection": [
+            10,
+            10
+          ],
+          "bidi": "isolate"
+        }
+      ]
+    },
+    {
+      "direction": "rtl",
+      "text": "שָׁלוֹם äb",
+      "value": "שָׁלוֹם äb",
+      "actions": [
+        {
+          "key": "Left",
+          "start": 0,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            3,
+            3
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 0,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 1,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            4,
+            4
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 1,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 2,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            4,
+            4
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 2,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 3,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            4,
+            4
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 3,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 4,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            6,
+            6
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 4,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            3,
+            3
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 5,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            7,
+            7
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 5,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            4,
+            4
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 6,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            7,
+            7
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 6,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            4,
+            4
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 7,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            8,
+            8
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 7,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            6,
+            6
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 8,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            10,
+            10
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 8,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            7,
+            7
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 9,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            11,
+            11
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 9,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            8,
+            8
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 10,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            11,
+            11
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 10,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            8,
+            8
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 11,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            11,
+            11
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 11,
+          "value": "שָׁלוֹם äb",
+          "selection": [
+            10,
+            10
+          ],
+          "bidi": "isolate"
+        }
+      ]
+    },
+    {
+      "direction": "rtl",
+      "text": "äb",
+      "value": "äb",
+      "actions": [
+        {
+          "key": "Left",
+          "start": 0,
+          "value": "äb",
+          "selection": [
+            2,
+            2
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 0,
+          "value": "äb",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 1,
+          "value": "äb",
+          "selection": [
+            3,
+            3
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 1,
+          "value": "äb",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 2,
+          "value": "äb",
+          "selection": [
+            3,
+            3
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 2,
+          "value": "äb",
+          "selection": [
+            0,
+            0
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Left",
+          "start": 3,
+          "value": "äb",
+          "selection": [
+            3,
+            3
+          ],
+          "bidi": "isolate"
+        },
+        {
+          "key": "Right",
+          "start": 3,
+          "value": "äb",
+          "selection": [
+            2,
+            2
+          ],
+          "bidi": "isolate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,780 @@
+{
+  "cases": [
+    {
+      "rem": 16,
+      "zoom": 1,
+      "top": 200,
+      "elements": [
+        {
+          "selector": ".target",
+          "bounds": [
+            200,
+            200,
+            80,
+            40
+          ]
+        },
+        {
+          "selector": ".popover",
+          "bounds": [
+            185,
+            140,
+            110,
+            50
+          ]
+        },
+        {
+          "selector": ".controls",
+          "bounds": [
+            195,
+            150,
+            90,
+            30
+          ]
+        },
+        {
+          "selector": ".original-action",
+          "bounds": [
+            195,
+            150,
+            30,
+            30
+          ]
+        },
+        {
+          "selector": ".original-action svg",
+          "bounds": [
+            203,
+            158,
+            14,
+            14
+          ]
+        }
+      ],
+      "frames": [
+        {
+          "milliseconds": 0,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 100,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 149,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 150,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 175,
+          "opacity": 0.220674
+        },
+        {
+          "milliseconds": 200,
+          "opacity": 0.575862
+        },
+        {
+          "milliseconds": 225,
+          "opacity": 0.802403
+        },
+        {
+          "milliseconds": 250,
+          "opacity": 0.924824
+        },
+        {
+          "milliseconds": 299,
+          "opacity": 0.999976
+        },
+        {
+          "milliseconds": 300,
+          "opacity": 1
+        }
+      ],
+      "padding": 8,
+      "radius": 5,
+      "border": 2
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "top": 20,
+      "elements": [
+        {
+          "selector": ".target",
+          "bounds": [
+            200,
+            20,
+            80,
+            40
+          ]
+        },
+        {
+          "selector": ".popover",
+          "bounds": [
+            185,
+            -40,
+            110,
+            50
+          ]
+        },
+        {
+          "selector": ".controls",
+          "bounds": [
+            195,
+            -30,
+            90,
+            30
+          ]
+        },
+        {
+          "selector": ".original-action",
+          "bounds": [
+            195,
+            -30,
+            30,
+            30
+          ]
+        },
+        {
+          "selector": ".original-action svg",
+          "bounds": [
+            203,
+            -22,
+            14,
+            14
+          ]
+        }
+      ],
+      "frames": [
+        {
+          "milliseconds": 0,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 100,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 149,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 150,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 175,
+          "opacity": 0.220674
+        },
+        {
+          "milliseconds": 200,
+          "opacity": 0.575862
+        },
+        {
+          "milliseconds": 225,
+          "opacity": 0.802403
+        },
+        {
+          "milliseconds": 250,
+          "opacity": 0.924824
+        },
+        {
+          "milliseconds": 299,
+          "opacity": 0.999976
+        },
+        {
+          "milliseconds": 300,
+          "opacity": 1
+        }
+      ],
+      "padding": 8,
+      "radius": 5,
+      "border": 2
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "top": 200,
+      "elements": [
+        {
+          "selector": ".target",
+          "bounds": [
+            300,
+            300,
+            120,
+            60
+          ]
+        },
+        {
+          "selector": ".popover",
+          "bounds": [
+            277.5,
+            210,
+            165,
+            75
+          ]
+        },
+        {
+          "selector": ".controls",
+          "bounds": [
+            292.5,
+            225,
+            135,
+            45
+          ]
+        },
+        {
+          "selector": ".original-action",
+          "bounds": [
+            292.5,
+            225,
+            45,
+            45
+          ]
+        },
+        {
+          "selector": ".original-action svg",
+          "bounds": [
+            304.5,
+            237,
+            21,
+            21
+          ]
+        }
+      ],
+      "frames": [
+        {
+          "milliseconds": 0,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 100,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 149,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 150,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 175,
+          "opacity": 0.220674
+        },
+        {
+          "milliseconds": 200,
+          "opacity": 0.575862
+        },
+        {
+          "milliseconds": 225,
+          "opacity": 0.802403
+        },
+        {
+          "milliseconds": 250,
+          "opacity": 0.924824
+        },
+        {
+          "milliseconds": 299,
+          "opacity": 0.999976
+        },
+        {
+          "milliseconds": 300,
+          "opacity": 1
+        }
+      ],
+      "padding": 8,
+      "radius": 5,
+      "border": 2
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "top": 20,
+      "elements": [
+        {
+          "selector": ".target",
+          "bounds": [
+            300,
+            30,
+            120,
+            60
+          ]
+        },
+        {
+          "selector": ".popover",
+          "bounds": [
+            277.5,
+            -60,
+            165,
+            75
+          ]
+        },
+        {
+          "selector": ".controls",
+          "bounds": [
+            292.5,
+            -45,
+            135,
+            45
+          ]
+        },
+        {
+          "selector": ".original-action",
+          "bounds": [
+            292.5,
+            -45,
+            45,
+            45
+          ]
+        },
+        {
+          "selector": ".original-action svg",
+          "bounds": [
+            304.5,
+            -33,
+            21,
+            21
+          ]
+        }
+      ],
+      "frames": [
+        {
+          "milliseconds": 0,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 100,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 149,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 150,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 175,
+          "opacity": 0.220674
+        },
+        {
+          "milliseconds": 200,
+          "opacity": 0.575862
+        },
+        {
+          "milliseconds": 225,
+          "opacity": 0.802403
+        },
+        {
+          "milliseconds": 250,
+          "opacity": 0.924824
+        },
+        {
+          "milliseconds": 299,
+          "opacity": 0.999976
+        },
+        {
+          "milliseconds": 300,
+          "opacity": 1
+        }
+      ],
+      "padding": 8,
+      "radius": 5,
+      "border": 2
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "top": 200,
+      "elements": [
+        {
+          "selector": ".target",
+          "bounds": [
+            200,
+            200,
+            80,
+            40
+          ]
+        },
+        {
+          "selector": ".popover",
+          "bounds": [
+            171.75,
+            128.5,
+            136.5,
+            61.5
+          ]
+        },
+        {
+          "selector": ".controls",
+          "bounds": [
+            183.75,
+            140.5,
+            112.5,
+            37.5
+          ]
+        },
+        {
+          "selector": ".original-action",
+          "bounds": [
+            183.75,
+            140.5,
+            37.5,
+            37.5
+          ]
+        },
+        {
+          "selector": ".original-action svg",
+          "bounds": [
+            193.75,
+            150.5,
+            17.5,
+            17.5
+          ]
+        }
+      ],
+      "frames": [
+        {
+          "milliseconds": 0,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 100,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 149,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 150,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 175,
+          "opacity": 0.220674
+        },
+        {
+          "milliseconds": 200,
+          "opacity": 0.575862
+        },
+        {
+          "milliseconds": 225,
+          "opacity": 0.802403
+        },
+        {
+          "milliseconds": 250,
+          "opacity": 0.924824
+        },
+        {
+          "milliseconds": 299,
+          "opacity": 0.999976
+        },
+        {
+          "milliseconds": 300,
+          "opacity": 1
+        }
+      ],
+      "padding": 10,
+      "radius": 6.25,
+      "border": 2
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "top": 20,
+      "elements": [
+        {
+          "selector": ".target",
+          "bounds": [
+            200,
+            20,
+            80,
+            40
+          ]
+        },
+        {
+          "selector": ".popover",
+          "bounds": [
+            171.75,
+            -51.5,
+            136.5,
+            61.5
+          ]
+        },
+        {
+          "selector": ".controls",
+          "bounds": [
+            183.75,
+            -39.5,
+            112.5,
+            37.5
+          ]
+        },
+        {
+          "selector": ".original-action",
+          "bounds": [
+            183.75,
+            -39.5,
+            37.5,
+            37.5
+          ]
+        },
+        {
+          "selector": ".original-action svg",
+          "bounds": [
+            193.75,
+            -29.5,
+            17.5,
+            17.5
+          ]
+        }
+      ],
+      "frames": [
+        {
+          "milliseconds": 0,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 100,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 149,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 150,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 175,
+          "opacity": 0.220674
+        },
+        {
+          "milliseconds": 200,
+          "opacity": 0.575862
+        },
+        {
+          "milliseconds": 225,
+          "opacity": 0.802403
+        },
+        {
+          "milliseconds": 250,
+          "opacity": 0.924824
+        },
+        {
+          "milliseconds": 299,
+          "opacity": 0.999976
+        },
+        {
+          "milliseconds": 300,
+          "opacity": 1
+        }
+      ],
+      "padding": 10,
+      "radius": 6.25,
+      "border": 2
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "top": 200,
+      "elements": [
+        {
+          "selector": ".target",
+          "bounds": [
+            300,
+            300,
+            120,
+            60
+          ]
+        },
+        {
+          "selector": ".popover",
+          "bounds": [
+            257.625,
+            192.75,
+            204.75,
+            92.25
+          ]
+        },
+        {
+          "selector": ".controls",
+          "bounds": [
+            275.625,
+            210.75,
+            168.75,
+            56.25
+          ]
+        },
+        {
+          "selector": ".original-action",
+          "bounds": [
+            275.625,
+            210.75,
+            56.25,
+            56.25
+          ]
+        },
+        {
+          "selector": ".original-action svg",
+          "bounds": [
+            290.625,
+            225.75,
+            26.25,
+            26.25
+          ]
+        }
+      ],
+      "frames": [
+        {
+          "milliseconds": 0,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 100,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 149,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 150,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 175,
+          "opacity": 0.220674
+        },
+        {
+          "milliseconds": 200,
+          "opacity": 0.575862
+        },
+        {
+          "milliseconds": 225,
+          "opacity": 0.802403
+        },
+        {
+          "milliseconds": 250,
+          "opacity": 0.924824
+        },
+        {
+          "milliseconds": 299,
+          "opacity": 0.999976
+        },
+        {
+          "milliseconds": 300,
+          "opacity": 1
+        }
+      ],
+      "padding": 10,
+      "radius": 6.25,
+      "border": 2
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "top": 20,
+      "elements": [
+        {
+          "selector": ".target",
+          "bounds": [
+            300,
+            30,
+            120,
+            60
+          ]
+        },
+        {
+          "selector": ".popover",
+          "bounds": [
+            257.625,
+            -77.25,
+            204.75,
+            92.25
+          ]
+        },
+        {
+          "selector": ".controls",
+          "bounds": [
+            275.625,
+            -59.25,
+            168.75,
+            56.25
+          ]
+        },
+        {
+          "selector": ".original-action",
+          "bounds": [
+            275.625,
+            -59.25,
+            56.25,
+            56.25
+          ]
+        },
+        {
+          "selector": ".original-action svg",
+          "bounds": [
+            290.625,
+            -44.25,
+            26.25,
+            26.25
+          ]
+        }
+      ],
+      "frames": [
+        {
+          "milliseconds": 0,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 100,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 149,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 150,
+          "opacity": 0
+        },
+        {
+          "milliseconds": 175,
+          "opacity": 0.220674
+        },
+        {
+          "milliseconds": 200,
+          "opacity": 0.575862
+        },
+        {
+          "milliseconds": 225,
+          "opacity": 0.802403
+        },
+        {
+          "milliseconds": 250,
+          "opacity": 0.924824
+        },
+        {
+          "milliseconds": 299,
+          "opacity": 0.999976
+        },
+        {
+          "milliseconds": 300,
+          "opacity": 1
+        }
+      ],
+      "padding": 10,
+      "radius": 6.25,
+      "border": 2
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "items": [
+    {
+      "id": "a",
+      "name": "Alpha",
+      "owner": "me",
+      "ownerId": "me"
+    },
+    {
+      "id": "b",
+      "name": "Hidden owned",
+      "owner": "me",
+      "ownerId": "me"
+    },
+    {
+      "id": "c",
+      "name": "Omega",
+      "owner": "me",
+      "ownerId": "me"
+    },
+    {
+      "id": "s",
+      "name": "Alpha shared",
+      "owner": "friend",
+      "ownerId": "friend"
+    },
+    {
+      "id": "t",
+      "name": "Hidden shared",
+      "owner": "friend",
+      "ownerId": "friend"
+    },
+    {
+      "id": "u",
+      "name": "Omega shared",
+      "owner": "friend",
+      "ownerId": "friend"
+    }
+  ],
+  "initial": {
+    "owned": [
+      "c",
+      "b",
+      "a"
+    ],
+    "shared": [
+      "u",
+      "t",
+      "s"
+    ]
+  },
+  "cases": [
+    {
+      "scope": "owned",
+      "filter": "",
+      "moving": [
+        "c"
+      ],
+      "target": "b",
+      "edge": "top",
+      "visible": [
+        "c",
+        "b",
+        "a"
+      ],
+      "unfiltered": [
+        "c",
+        "b",
+        "a"
+      ],
+      "orders": {
+        "owned": [
+          "c",
+          "b",
+          "a"
+        ],
+        "shared": [
+          "u",
+          "t",
+          "s"
+        ]
+      }
+    },
+    {
+      "scope": "owned",
+      "filter": "",
+      "moving": [
+        "c"
+      ],
+      "target": "b",
+      "edge": "bottom",
+      "visible": [
+        "b",
+        "c",
+        "a"
+      ],
+      "unfiltered": [
+        "b",
+        "c",
+        "a"
+      ],
+      "orders": {
+        "owned": [
+          "b",
+          "c",
+          "a"
+        ],
+        "shared": [
+          "u",
+          "t",
+          "s"
+        ]
+      }
+    },
+    {
+      "scope": "owned",
+      "filter": "",
+      "moving": [
+        "a"
+      ],
+      "target": "c",
+      "edge": "top",
+      "visible": [
+        "a",
+        "c",
+        "b"
+      ],
+      "unfiltered": [
+        "a",
+        "c",
+        "b"
+      ],
+      "orders": {
+        "owned": [
+          "a",
+          "c",
+          "b"
+        ],
+        "shared": [
+          "u",
+          "t",
+          "s"
+        ]
+      }
+    },
+    {
+      "scope": "owned",
+      "filter": "",
+      "moving": [
+        "a"
+      ],
+      "target": "c",
+      "edge": "bottom",
+      "visible": [
+        "c",
+        "a",
+        "b"
+      ],
+      "unfiltered": [
+        "c",
+        "a",
+        "b"
+      ],
+      "orders": {
+        "owned": [
+          "c",
+          "a",
+          "b"
+        ],
+        "shared": [
+          "u",
+          "t",
+          "s"
+        ]
+      }
+    },
+    {
+      "scope": "owned",
+      "filter": "",
+      "moving": [
+        "a",
+        "c"
+      ],
+      "target": "b",
+      "edge": "top",
+      "visible": [
+        "a",
+        "c",
+        "b"
+      ],
+      "unfiltered": [
+        "a",
+        "c",
+        "b"
+      ],
+      "orders": {
+        "owned": [
+          "a",
+          "c",
+          "b"
+        ],
+        "shared": [
+          "u",
+          "t",
+          "s"
+        ]
+      }
+    },
+    {
+      "scope": "owned",
+      "filter": "",
+      "moving": [
+        "a",
+        "c"
+      ],
+      "target": "b",
+      "edge": "bottom",
+      "visible": [
+        "b",
+        "a",
+        "c"
+      ],
+      "unfiltered": [
+        "b",
+        "a",
+        "c"
+      ],
+      "orders": {
+        "owned": [
+          "b",
+          "a",
+          "c"
+        ],
+        "shared": [
+          "u",
+          "t",
+          "s"
+        ]
+      }
+    },
+    {
+      "scope": "owned",
+      "filter": "hidden",
+      "moving": [
+        "c"
+      ],
+      "target": "a",
+      "edge": "top",
+      "visible": [
+        "c",
+        "a"
+      ],
+      "unfiltered": [
+        "c",
+        "a",
+        "b"
+      ],
+      "orders": {
+        "owned": [
+          "c",
+          "a"
+        ],
+        "shared": [
+          "u",
+          "t",
+          "s"
+        ]
+      }
+    },
+    {
+      "scope": "owned",
+      "filter": "hidden",
+      "moving": [
+        "c"
+      ],
+      "target": "a",
+      "edge": "bottom",
+      "visible": [
+        "a",
+        "c"
+      ],
+      "unfiltered": [
+        "a",
+        "c",
+        "b"
+      ],
+      "orders": {
+        "owned": [
+          "a",
+          "c"
+        ],
+        "shared": [
+          "u",
+          "t",
+          "s"
+        ]
+      }
+    },
+    {
+      "scope": "owned",
+      "filter": "hidden",
+      "moving": [
+        "a"
+      ],
+      "target": "c",
+      "edge": "top",
+      "visible": [
+        "a",
+        "c"
+      ],
+      "unfiltered": [
+        "a",
+        "c",
+        "b"
+      ],
+      "orders": {
+        "owned": [
+          "a",
+          "c"
+        ],
+        "shared": [
+          "u",
+          "t",
+          "s"
+        ]
+      }
+    },
+    {
+      "scope": "owned",
+      "filter": "hidden",
+      "moving": [
+        "a"
+      ],
+      "target": "c",
+      "edge": "bottom",
+      "visible": [
+        "c",
+        "a"
+      ],
+      "unfiltered": [
+        "c",
+        "a",
+        "b"
+      ],
+      "orders": {
+        "owned": [
+          "c",
+          "a"
+        ],
+        "shared": [
+          "u",
+          "t",
+          "s"
+        ]
+      }
+    },
+    {
+      "scope": "shared",
+      "filter": "",
+      "moving": [
+        "u"
+      ],
+      "target": "t",
+      "edge": "top",
+      "visible": [
+        "u",
+        "t",
+        "s"
+      ],
+      "unfiltered": [
+        "u",
+        "t",
+        "s"
+      ],
+      "orders": {
+        "owned": [
+          "c",
+          "b",
+          "a"
+        ],
+        "shared": [
+          "u",
+          "t",
+          "s"
+        ]
+      }
+    },
+    {
+      "scope": "shared",
+      "filter": "",
+      "moving": [
+        "u"
+      ],
+      "target": "t",
+      "edge": "bottom",
+      "visible": [
+        "t",
+        "u",
+        "s"
+      ],
+      "unfiltered": [
+        "t",
+        "u",
+        "s"
+      ],
+      "orders": {
+        "owned": [
+          "c",
+          "b",
+          "a"
+        ],
+        "shared": [
+          "t",
+          "u",
+          "s"
+        ]
+      }
+    },
+    {
+      "scope": "shared",
+      "filter": "",
+      "moving": [
+        "s"
+      ],
+      "target": "u",
+      "edge": "top",
+      "visible": [
+        "s",
+        "u",
+        "t"
+      ],
+      "unfiltered": [
+        "s",
+        "u",
+        "t"
+      ],
+      "orders": {
+        "owned": [
+          "c",
+          "b",
+          "a"
+        ],
+        "shared": [
+          "s",
+          "u",
+          "t"
+        ]
+      }
+    },
+    {
+      "scope": "shared",
+      "filter": "",
+      "moving": [
+        "s"
+      ],
+      "target": "u",
+      "edge": "bottom",
+      "visible": [
+        "u",
+        "s",
+        "t"
+      ],
+      "unfiltered": [
+        "u",
+        "s",
+        "t"
+      ],
+      "orders": {
+        "owned": [
+          "c",
+          "b",
+          "a"
+        ],
+        "shared": [
+          "u",
+          "s",
+          "t"
+        ]
+      }
+    },
+    {
+      "scope": "shared",
+      "filter": "",
+      "moving": [
+        "s",
+        "u"
+      ],
+      "target": "t",
+      "edge": "top",
+      "visible": [
+        "s",
+        "u",
+        "t"
+      ],
+      "unfiltered": [
+        "s",
+        "u",
+        "t"
+      ],
+      "orders": {
+        "owned": [
+          "c",
+          "b",
+          "a"
+        ],
+        "shared": [
+          "s",
+          "u",
+          "t"
+        ]
+      }
+    },
+    {
+      "scope": "shared",
+      "filter": "",
+      "moving": [
+        "s",
+        "u"
+      ],
+      "target": "t",
+      "edge": "bottom",
+      "visible": [
+        "t",
+        "s",
+        "u"
+      ],
+      "unfiltered": [
+        "t",
+        "s",
+        "u"
+      ],
+      "orders": {
+        "owned": [
+          "c",
+          "b",
+          "a"
+        ],
+        "shared": [
+          "t",
+          "s",
+          "u"
+        ]
+      }
+    },
+    {
+      "scope": "shared",
+      "filter": "hidden",
+      "moving": [
+        "u"
+      ],
+      "target": "s",
+      "edge": "top",
+      "visible": [
+        "u",
+        "s"
+      ],
+      "unfiltered": [
+        "u",
+        "s",
+        "t"
+      ],
+      "orders": {
+        "owned": [
+          "c",
+          "b",
+          "a"
+        ],
+        "shared": [
+          "u",
+          "s"
+        ]
+      }
+    },
+    {
+      "scope": "shared",
+      "filter": "hidden",
+      "moving": [
+        "u"
+      ],
+      "target": "s",
+      "edge": "bottom",
+      "visible": [
+        "s",
+        "u"
+      ],
+      "unfiltered": [
+        "s",
+        "u",
+        "t"
+      ],
+      "orders": {
+        "owned": [
+          "c",
+          "b",
+          "a"
+        ],
+        "shared": [
+          "s",
+          "u"
+        ]
+      }
+    },
+    {
+      "scope": "shared",
+      "filter": "hidden",
+      "moving": [
+        "s"
+      ],
+      "target": "u",
+      "edge": "top",
+      "visible": [
+        "s",
+        "u"
+      ],
+      "unfiltered": [
+        "s",
+        "u",
+        "t"
+      ],
+      "orders": {
+        "owned": [
+          "c",
+          "b",
+          "a"
+        ],
+        "shared": [
+          "s",
+          "u"
+        ]
+      }
+    },
+    {
+      "scope": "shared",
+      "filter": "hidden",
+      "moving": [
+        "s"
+      ],
+      "target": "u",
+      "edge": "bottom",
+      "visible": [
+        "u",
+        "s"
+      ],
+      "unfiltered": [
+        "u",
+        "s",
+        "t"
+      ],
+      "orders": {
+        "owned": [
+          "c",
+          "b",
+          "a"
+        ],
+        "shared": [
+          "u",
+          "s"
+        ]
+      }
+    }
+  ]
+}

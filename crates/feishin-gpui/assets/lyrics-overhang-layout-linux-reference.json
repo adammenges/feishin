@@ -1,0 +1,2490 @@
+{
+  "electron": "43.7.0",
+  "theme": "dark",
+  "cases": [
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 24,
+      "width": 180,
+      "alignment": "left",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            32.75,
+            10,
+            60.609375,
+            29
+          ],
+          "base": [
+            [
+              26.75,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            26.75,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            16,
+            10,
+            16.75,
+            29
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            26.75,
+            10,
+            72.609375,
+            29
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            93.359375,
+            10,
+            16.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 24,
+      "width": 180,
+      "alignment": "center",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            59.765625,
+            10,
+            60.609375,
+            29
+          ],
+          "base": [
+            [
+              53.765625,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            53.765625,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            43.015625,
+            10,
+            16.75,
+            29
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            53.765625,
+            10,
+            72.609375,
+            29
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            120.375,
+            10,
+            16.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 24,
+      "width": 180,
+      "alignment": "right",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            86.78125,
+            10,
+            60.609375,
+            29
+          ],
+          "base": [
+            [
+              80.78125,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            80.78125,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            70.03125,
+            10,
+            16.75,
+            29
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            80.78125,
+            10,
+            72.609375,
+            29
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            147.390625,
+            10,
+            16.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 24,
+      "width": 600,
+      "alignment": "left",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            32.75,
+            10,
+            60.609375,
+            29
+          ],
+          "base": [
+            [
+              26.75,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            26.75,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            16,
+            10,
+            16.75,
+            29
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            26.75,
+            10,
+            72.609375,
+            29
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            93.359375,
+            10,
+            16.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 24,
+      "width": 600,
+      "alignment": "center",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            269.765625,
+            10,
+            60.609375,
+            29
+          ],
+          "base": [
+            [
+              263.765625,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            263.765625,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            253.015625,
+            10,
+            16.75,
+            29
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            263.765625,
+            10,
+            72.609375,
+            29
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            330.375,
+            10,
+            16.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 24,
+      "width": 600,
+      "alignment": "right",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            506.78125,
+            10,
+            60.609375,
+            29
+          ],
+          "base": [
+            [
+              500.78125,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            500.78125,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            490.03125,
+            10,
+            16.75,
+            29
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            500.78125,
+            10,
+            72.609375,
+            29
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            567.390625,
+            10,
+            16.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 36,
+      "width": 180,
+      "alignment": "left",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            40.5,
+            13,
+            89.34375,
+            44
+          ],
+          "base": [
+            [
+              31.5,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            31.5,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            16,
+            13,
+            24.5,
+            44
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            31.5,
+            13,
+            107.34375,
+            44
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            129.84375,
+            13,
+            24.28125,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 36,
+      "width": 180,
+      "alignment": "center",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            45.4375,
+            13,
+            89.34375,
+            44
+          ],
+          "base": [
+            [
+              36.4375,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            36.4375,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            20.9375,
+            13,
+            24.5,
+            44
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            36.4375,
+            13,
+            107.34375,
+            44
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            134.78125,
+            13,
+            24.28125,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 36,
+      "width": 180,
+      "alignment": "right",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            50.375,
+            13,
+            89.34375,
+            44
+          ],
+          "base": [
+            [
+              41.375,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            41.375,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            25.875,
+            13,
+            24.5,
+            44
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            41.375,
+            13,
+            107.34375,
+            44
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            139.71875,
+            13,
+            24.28125,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 36,
+      "width": 600,
+      "alignment": "left",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            40.5,
+            13,
+            89.34375,
+            44
+          ],
+          "base": [
+            [
+              31.5,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            31.5,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            16,
+            13,
+            24.5,
+            44
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            31.5,
+            13,
+            107.34375,
+            44
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            129.84375,
+            13,
+            24.28125,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 36,
+      "width": 600,
+      "alignment": "center",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            255.4375,
+            13,
+            89.34375,
+            44
+          ],
+          "base": [
+            [
+              246.4375,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            246.4375,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            230.9375,
+            13,
+            24.5,
+            44
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            246.4375,
+            13,
+            107.34375,
+            44
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            344.78125,
+            13,
+            24.28125,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 36,
+      "width": 600,
+      "alignment": "right",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            470.375,
+            13,
+            89.34375,
+            44
+          ],
+          "base": [
+            [
+              461.375,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            461.375,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            445.875,
+            13,
+            24.5,
+            44
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            461.375,
+            13,
+            107.34375,
+            44
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            559.71875,
+            13,
+            24.28125,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 24,
+      "width": 180,
+      "alignment": "left",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            16,
+            10,
+            66.609375,
+            29
+          ],
+          "base": [
+            [
+              16,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            16,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "A",
+          "bounds": [
+            16,
+            10,
+            72.609375,
+            29
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            82.609375,
+            10,
+            16.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 24,
+      "width": 180,
+      "alignment": "center",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            48.390625,
+            10,
+            66.609375,
+            29
+          ],
+          "base": [
+            [
+              48.390625,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            48.390625,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "A",
+          "bounds": [
+            48.390625,
+            10,
+            72.609375,
+            29
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            115,
+            10,
+            16.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 24,
+      "width": 180,
+      "alignment": "right",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            80.78125,
+            10,
+            66.609375,
+            29
+          ],
+          "base": [
+            [
+              80.78125,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            80.78125,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "A",
+          "bounds": [
+            80.78125,
+            10,
+            72.609375,
+            29
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            147.390625,
+            10,
+            16.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 24,
+      "width": 600,
+      "alignment": "left",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            16,
+            10,
+            66.609375,
+            29
+          ],
+          "base": [
+            [
+              16,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            16,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "A",
+          "bounds": [
+            16,
+            10,
+            72.609375,
+            29
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            82.609375,
+            10,
+            16.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 24,
+      "width": 600,
+      "alignment": "center",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            258.390625,
+            10,
+            66.609375,
+            29
+          ],
+          "base": [
+            [
+              258.390625,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            258.390625,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "A",
+          "bounds": [
+            258.390625,
+            10,
+            72.609375,
+            29
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            325,
+            10,
+            16.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 24,
+      "width": 600,
+      "alignment": "right",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            500.78125,
+            10,
+            66.609375,
+            29
+          ],
+          "base": [
+            [
+              500.78125,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            500.78125,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "A",
+          "bounds": [
+            500.78125,
+            10,
+            72.609375,
+            29
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            567.390625,
+            10,
+            16.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 36,
+      "width": 180,
+      "alignment": "left",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            16,
+            13,
+            98.34375,
+            44
+          ],
+          "base": [
+            [
+              16,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            16,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "A",
+          "bounds": [
+            16,
+            13,
+            107.34375,
+            44
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            114.34375,
+            13,
+            24.28125,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 36,
+      "width": 180,
+      "alignment": "center",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            28.6875,
+            13,
+            98.34375,
+            44
+          ],
+          "base": [
+            [
+              28.6875,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            28.6875,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "A",
+          "bounds": [
+            28.6875,
+            13,
+            107.34375,
+            44
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            127.03125,
+            13,
+            24.28125,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 36,
+      "width": 180,
+      "alignment": "right",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            41.375,
+            13,
+            98.34375,
+            44
+          ],
+          "base": [
+            [
+              41.375,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            41.375,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "A",
+          "bounds": [
+            41.375,
+            13,
+            107.34375,
+            44
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            139.71875,
+            13,
+            24.28125,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 36,
+      "width": 600,
+      "alignment": "left",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            16,
+            13,
+            98.34375,
+            44
+          ],
+          "base": [
+            [
+              16,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            16,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "A",
+          "bounds": [
+            16,
+            13,
+            107.34375,
+            44
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            114.34375,
+            13,
+            24.28125,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 36,
+      "width": 600,
+      "alignment": "center",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            238.6875,
+            13,
+            98.34375,
+            44
+          ],
+          "base": [
+            [
+              238.6875,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            238.6875,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "A",
+          "bounds": [
+            238.6875,
+            13,
+            107.34375,
+            44
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            337.03125,
+            13,
+            24.28125,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "<ruby>A<rt>long reading</rt></ruby>Y",
+      "size": 36,
+      "width": 600,
+      "alignment": "right",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            461.375,
+            13,
+            98.34375,
+            44
+          ],
+          "base": [
+            [
+              461.375,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            461.375,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "A",
+          "bounds": [
+            461.375,
+            13,
+            107.34375,
+            44
+          ]
+        },
+        {
+          "text": "Y",
+          "bounds": [
+            559.71875,
+            13,
+            24.28125,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>",
+      "size": 24,
+      "width": 180,
+      "alignment": "left",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            32.75,
+            10,
+            66.609375,
+            29
+          ],
+          "base": [
+            [
+              26.75,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            26.75,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            16,
+            10,
+            16.75,
+            29
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            26.75,
+            10,
+            72.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>",
+      "size": 24,
+      "width": 180,
+      "alignment": "center",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            65.0625,
+            10,
+            66.609375,
+            29
+          ],
+          "base": [
+            [
+              59.0625,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            59.0625,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            48.3125,
+            10,
+            16.75,
+            29
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            59.0625,
+            10,
+            72.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>",
+      "size": 24,
+      "width": 180,
+      "alignment": "right",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            97.390625,
+            10,
+            66.609375,
+            29
+          ],
+          "base": [
+            [
+              91.390625,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            91.390625,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            80.640625,
+            10,
+            16.75,
+            29
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            91.390625,
+            10,
+            72.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>",
+      "size": 24,
+      "width": 600,
+      "alignment": "left",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            32.75,
+            10,
+            66.609375,
+            29
+          ],
+          "base": [
+            [
+              26.75,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            26.75,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            16,
+            10,
+            16.75,
+            29
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            26.75,
+            10,
+            72.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>",
+      "size": 24,
+      "width": 600,
+      "alignment": "center",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            275.0625,
+            10,
+            66.609375,
+            29
+          ],
+          "base": [
+            [
+              269.0625,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            269.0625,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            258.3125,
+            10,
+            16.75,
+            29
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            269.0625,
+            10,
+            72.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>",
+      "size": 24,
+      "width": 600,
+      "alignment": "right",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        39.796875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        39.796875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            517.390625,
+            10,
+            66.609375,
+            29
+          ],
+          "base": [
+            [
+              511.390625,
+              10,
+              72.609375,
+              29
+            ]
+          ],
+          "reading": [
+            511.390625,
+            -2,
+            72.609375,
+            15
+          ],
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            500.640625,
+            10,
+            16.75,
+            29
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            511.390625,
+            10,
+            72.609375,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>",
+      "size": 36,
+      "width": 180,
+      "alignment": "left",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            40.5,
+            13,
+            98.34375,
+            44
+          ],
+          "base": [
+            [
+              31.5,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            31.5,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            16,
+            13,
+            24.5,
+            44
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            31.5,
+            13,
+            107.34375,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>",
+      "size": 36,
+      "width": 180,
+      "alignment": "center",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            53.078125,
+            13,
+            98.34375,
+            44
+          ],
+          "base": [
+            [
+              44.078125,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            44.078125,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            28.578125,
+            13,
+            24.5,
+            44
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            44.078125,
+            13,
+            107.34375,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>",
+      "size": 36,
+      "width": 180,
+      "alignment": "right",
+      "links": [],
+      "line": [
+        0,
+        0,
+        180,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        148,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            65.65625,
+            13,
+            98.34375,
+            44
+          ],
+          "base": [
+            [
+              56.65625,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            56.65625,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            41.15625,
+            13,
+            24.5,
+            44
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            56.65625,
+            13,
+            107.34375,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>",
+      "size": 36,
+      "width": 600,
+      "alignment": "left",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            40.5,
+            13,
+            98.34375,
+            44
+          ],
+          "base": [
+            [
+              31.5,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            31.5,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            16,
+            13,
+            24.5,
+            44
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            31.5,
+            13,
+            107.34375,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>",
+      "size": 36,
+      "width": 600,
+      "alignment": "center",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            263.078125,
+            13,
+            98.34375,
+            44
+          ],
+          "base": [
+            [
+              254.078125,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            254.078125,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            238.578125,
+            13,
+            24.5,
+            44
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            254.078125,
+            13,
+            107.34375,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "text": "X<ruby>A<rt>long reading</rt></ruby>",
+      "size": 36,
+      "width": 600,
+      "alignment": "right",
+      "links": [],
+      "line": [
+        0,
+        0,
+        600,
+        57.1875
+      ],
+      "content": [
+        16,
+        0,
+        568,
+        57.1875
+      ],
+      "rubies": [
+        {
+          "bounds": [
+            485.65625,
+            13,
+            98.34375,
+            44
+          ],
+          "base": [
+            [
+              476.65625,
+              13,
+              107.34375,
+              44
+            ]
+          ],
+          "reading": [
+            476.65625,
+            -2,
+            107.34375,
+            21
+          ],
+          "fontSize": "18px",
+          "fontWeight": "600",
+          "lineHeight": "normal"
+        }
+      ],
+      "baseCharacters": [
+        {
+          "text": "X",
+          "bounds": [
+            461.15625,
+            13,
+            24.5,
+            44
+          ]
+        },
+        {
+          "text": "A",
+          "bounds": [
+            476.65625,
+            13,
+            107.34375,
+            44
+          ]
+        }
+      ]
+    }
+  ]
+}

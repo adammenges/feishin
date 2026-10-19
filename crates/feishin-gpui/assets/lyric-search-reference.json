@@ -1,0 +1,1019 @@
+[
+  {
+    "mode": "none",
+    "delayMs": -125,
+    "input": {
+      "LRCLIB": [
+        {
+          "id": "42",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": false,
+          "score": 0.1
+        },
+        {
+          "id": "41",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.9
+        }
+      ],
+      "Genius": [
+        {
+          "id": "43",
+          "source": "Genius",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": null,
+          "score": 0.2
+        }
+      ],
+      "SimpMusic": [
+        {
+          "id": "42",
+          "source": "SimpMusic",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.1
+        }
+      ]
+    },
+    "statuses": {
+      "LRCLIB - 42": "page.fullscreenPlayer.config.unsynchronized",
+      "LRCLIB - 41": "page.fullscreenPlayer.config.synchronized",
+      "Genius - 43": "common.unknown",
+      "SimpMusic - 42": "page.fullscreenPlayer.config.synchronized"
+    },
+    "selected": null,
+    "preview": null,
+    "order": [
+      "LRCLIB - 42",
+      "SimpMusic - 42",
+      "Genius - 43",
+      "LRCLIB - 41"
+    ],
+    "calls": []
+  },
+  {
+    "mode": "loading",
+    "delayMs": -125,
+    "input": {
+      "LRCLIB": [
+        {
+          "id": "42",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": false,
+          "score": 0.1
+        },
+        {
+          "id": "41",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.9
+        }
+      ],
+      "Genius": [
+        {
+          "id": "43",
+          "source": "Genius",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": null,
+          "score": 0.2
+        }
+      ],
+      "SimpMusic": [
+        {
+          "id": "42",
+          "source": "SimpMusic",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.1
+        }
+      ]
+    },
+    "statuses": {
+      "LRCLIB - 42": "page.fullscreenPlayer.config.unsynchronized",
+      "LRCLIB - 41": "page.fullscreenPlayer.config.synchronized",
+      "Genius - 43": "common.unknown",
+      "SimpMusic - 42": "page.fullscreenPlayer.config.synchronized"
+    },
+    "selected": {
+      "id": "42",
+      "source": "LRCLIB",
+      "name": "Chosen title",
+      "artist": "Chosen artist",
+      "isSync": false,
+      "score": 0.1
+    },
+    "preview": null,
+    "order": [
+      "LRCLIB - 42",
+      "SimpMusic - 42",
+      "Genius - 43",
+      "LRCLIB - 41"
+    ],
+    "calls": [
+      [
+        "apply",
+        {
+          "artist": "Chosen artist",
+          "id": "42",
+          "name": "Chosen title",
+          "remote": true,
+          "source": "LRCLIB"
+        }
+      ],
+      [
+        "close"
+      ]
+    ]
+  },
+  {
+    "mode": "plain",
+    "delayMs": -125,
+    "input": {
+      "LRCLIB": [
+        {
+          "id": "42",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": false,
+          "score": 0.1
+        },
+        {
+          "id": "41",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.9
+        }
+      ],
+      "Genius": [
+        {
+          "id": "43",
+          "source": "Genius",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": null,
+          "score": 0.2
+        }
+      ],
+      "SimpMusic": [
+        {
+          "id": "42",
+          "source": "SimpMusic",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.1
+        }
+      ]
+    },
+    "statuses": {
+      "LRCLIB - 42": "page.fullscreenPlayer.config.unsynchronized",
+      "LRCLIB - 41": "page.fullscreenPlayer.config.synchronized",
+      "Genius - 43": "common.unknown",
+      "SimpMusic - 42": "page.fullscreenPlayer.config.synchronized"
+    },
+    "selected": {
+      "id": "42",
+      "source": "LRCLIB",
+      "name": "Chosen title",
+      "artist": "Chosen artist",
+      "isSync": false,
+      "score": 0.1
+    },
+    "preview": "Plain lyrics",
+    "order": [
+      "LRCLIB - 42",
+      "SimpMusic - 42",
+      "Genius - 43",
+      "LRCLIB - 41"
+    ],
+    "calls": [
+      [
+        "apply",
+        {
+          "artist": "Chosen artist",
+          "id": "42",
+          "name": "Chosen title",
+          "remote": true,
+          "source": "LRCLIB"
+        }
+      ],
+      [
+        "close"
+      ],
+      [
+        "export",
+        {
+          "lyrics": {
+            "artist": "Chosen artist",
+            "lyrics": "Plain lyrics",
+            "name": "Chosen title",
+            "offsetMs": null,
+            "remote": true,
+            "source": "LRCLIB"
+          },
+          "offsetMs": -125,
+          "synced": false
+        }
+      ]
+    ]
+  },
+  {
+    "mode": "timed",
+    "delayMs": -125,
+    "input": {
+      "LRCLIB": [
+        {
+          "id": "42",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": false,
+          "score": 0.1
+        },
+        {
+          "id": "41",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.9
+        }
+      ],
+      "Genius": [
+        {
+          "id": "43",
+          "source": "Genius",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": null,
+          "score": 0.2
+        }
+      ],
+      "SimpMusic": [
+        {
+          "id": "42",
+          "source": "SimpMusic",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.1
+        }
+      ]
+    },
+    "statuses": {
+      "LRCLIB - 42": "page.fullscreenPlayer.config.unsynchronized",
+      "LRCLIB - 41": "page.fullscreenPlayer.config.synchronized",
+      "Genius - 43": "common.unknown",
+      "SimpMusic - 42": "page.fullscreenPlayer.config.synchronized"
+    },
+    "selected": {
+      "id": "42",
+      "source": "LRCLIB",
+      "name": "Chosen title",
+      "artist": "Chosen artist",
+      "isSync": false,
+      "score": 0.1
+    },
+    "preview": [
+      {
+        "startMs": 1000,
+        "text": "Timed lyrics"
+      }
+    ],
+    "order": [
+      "LRCLIB - 42",
+      "SimpMusic - 42",
+      "Genius - 43",
+      "LRCLIB - 41"
+    ],
+    "calls": [
+      [
+        "apply",
+        {
+          "artist": "Chosen artist",
+          "id": "42",
+          "name": "Chosen title",
+          "remote": true,
+          "source": "LRCLIB"
+        }
+      ],
+      [
+        "close"
+      ],
+      [
+        "export",
+        {
+          "lyrics": {
+            "artist": "Chosen artist",
+            "lyrics": [
+              {
+                "startMs": 1000,
+                "text": "Timed lyrics"
+              }
+            ],
+            "name": "Chosen title",
+            "offsetMs": null,
+            "remote": true,
+            "source": "LRCLIB"
+          },
+          "offsetMs": -125,
+          "synced": true
+        }
+      ]
+    ]
+  },
+  {
+    "mode": "none",
+    "delayMs": 0,
+    "input": {
+      "LRCLIB": [
+        {
+          "id": "42",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": false,
+          "score": 0.1
+        },
+        {
+          "id": "41",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.9
+        }
+      ],
+      "Genius": [
+        {
+          "id": "43",
+          "source": "Genius",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": null,
+          "score": 0.2
+        }
+      ],
+      "SimpMusic": [
+        {
+          "id": "42",
+          "source": "SimpMusic",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.1
+        }
+      ]
+    },
+    "statuses": {
+      "LRCLIB - 42": "page.fullscreenPlayer.config.unsynchronized",
+      "LRCLIB - 41": "page.fullscreenPlayer.config.synchronized",
+      "Genius - 43": "common.unknown",
+      "SimpMusic - 42": "page.fullscreenPlayer.config.synchronized"
+    },
+    "selected": null,
+    "preview": null,
+    "order": [
+      "LRCLIB - 42",
+      "SimpMusic - 42",
+      "Genius - 43",
+      "LRCLIB - 41"
+    ],
+    "calls": []
+  },
+  {
+    "mode": "loading",
+    "delayMs": 0,
+    "input": {
+      "LRCLIB": [
+        {
+          "id": "42",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": false,
+          "score": 0.1
+        },
+        {
+          "id": "41",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.9
+        }
+      ],
+      "Genius": [
+        {
+          "id": "43",
+          "source": "Genius",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": null,
+          "score": 0.2
+        }
+      ],
+      "SimpMusic": [
+        {
+          "id": "42",
+          "source": "SimpMusic",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.1
+        }
+      ]
+    },
+    "statuses": {
+      "LRCLIB - 42": "page.fullscreenPlayer.config.unsynchronized",
+      "LRCLIB - 41": "page.fullscreenPlayer.config.synchronized",
+      "Genius - 43": "common.unknown",
+      "SimpMusic - 42": "page.fullscreenPlayer.config.synchronized"
+    },
+    "selected": {
+      "id": "42",
+      "source": "LRCLIB",
+      "name": "Chosen title",
+      "artist": "Chosen artist",
+      "isSync": false,
+      "score": 0.1
+    },
+    "preview": null,
+    "order": [
+      "LRCLIB - 42",
+      "SimpMusic - 42",
+      "Genius - 43",
+      "LRCLIB - 41"
+    ],
+    "calls": [
+      [
+        "apply",
+        {
+          "artist": "Chosen artist",
+          "id": "42",
+          "name": "Chosen title",
+          "remote": true,
+          "source": "LRCLIB"
+        }
+      ],
+      [
+        "close"
+      ]
+    ]
+  },
+  {
+    "mode": "plain",
+    "delayMs": 0,
+    "input": {
+      "LRCLIB": [
+        {
+          "id": "42",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": false,
+          "score": 0.1
+        },
+        {
+          "id": "41",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.9
+        }
+      ],
+      "Genius": [
+        {
+          "id": "43",
+          "source": "Genius",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": null,
+          "score": 0.2
+        }
+      ],
+      "SimpMusic": [
+        {
+          "id": "42",
+          "source": "SimpMusic",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.1
+        }
+      ]
+    },
+    "statuses": {
+      "LRCLIB - 42": "page.fullscreenPlayer.config.unsynchronized",
+      "LRCLIB - 41": "page.fullscreenPlayer.config.synchronized",
+      "Genius - 43": "common.unknown",
+      "SimpMusic - 42": "page.fullscreenPlayer.config.synchronized"
+    },
+    "selected": {
+      "id": "42",
+      "source": "LRCLIB",
+      "name": "Chosen title",
+      "artist": "Chosen artist",
+      "isSync": false,
+      "score": 0.1
+    },
+    "preview": "Plain lyrics",
+    "order": [
+      "LRCLIB - 42",
+      "SimpMusic - 42",
+      "Genius - 43",
+      "LRCLIB - 41"
+    ],
+    "calls": [
+      [
+        "apply",
+        {
+          "artist": "Chosen artist",
+          "id": "42",
+          "name": "Chosen title",
+          "remote": true,
+          "source": "LRCLIB"
+        }
+      ],
+      [
+        "close"
+      ],
+      [
+        "export",
+        {
+          "lyrics": {
+            "artist": "Chosen artist",
+            "lyrics": "Plain lyrics",
+            "name": "Chosen title",
+            "offsetMs": null,
+            "remote": true,
+            "source": "LRCLIB"
+          },
+          "offsetMs": 0,
+          "synced": false
+        }
+      ]
+    ]
+  },
+  {
+    "mode": "timed",
+    "delayMs": 0,
+    "input": {
+      "LRCLIB": [
+        {
+          "id": "42",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": false,
+          "score": 0.1
+        },
+        {
+          "id": "41",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.9
+        }
+      ],
+      "Genius": [
+        {
+          "id": "43",
+          "source": "Genius",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": null,
+          "score": 0.2
+        }
+      ],
+      "SimpMusic": [
+        {
+          "id": "42",
+          "source": "SimpMusic",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.1
+        }
+      ]
+    },
+    "statuses": {
+      "LRCLIB - 42": "page.fullscreenPlayer.config.unsynchronized",
+      "LRCLIB - 41": "page.fullscreenPlayer.config.synchronized",
+      "Genius - 43": "common.unknown",
+      "SimpMusic - 42": "page.fullscreenPlayer.config.synchronized"
+    },
+    "selected": {
+      "id": "42",
+      "source": "LRCLIB",
+      "name": "Chosen title",
+      "artist": "Chosen artist",
+      "isSync": false,
+      "score": 0.1
+    },
+    "preview": [
+      {
+        "startMs": 1000,
+        "text": "Timed lyrics"
+      }
+    ],
+    "order": [
+      "LRCLIB - 42",
+      "SimpMusic - 42",
+      "Genius - 43",
+      "LRCLIB - 41"
+    ],
+    "calls": [
+      [
+        "apply",
+        {
+          "artist": "Chosen artist",
+          "id": "42",
+          "name": "Chosen title",
+          "remote": true,
+          "source": "LRCLIB"
+        }
+      ],
+      [
+        "close"
+      ],
+      [
+        "export",
+        {
+          "lyrics": {
+            "artist": "Chosen artist",
+            "lyrics": [
+              {
+                "startMs": 1000,
+                "text": "Timed lyrics"
+              }
+            ],
+            "name": "Chosen title",
+            "offsetMs": null,
+            "remote": true,
+            "source": "LRCLIB"
+          },
+          "offsetMs": 0,
+          "synced": true
+        }
+      ]
+    ]
+  },
+  {
+    "mode": "none",
+    "delayMs": 250,
+    "input": {
+      "LRCLIB": [
+        {
+          "id": "42",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": false,
+          "score": 0.1
+        },
+        {
+          "id": "41",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.9
+        }
+      ],
+      "Genius": [
+        {
+          "id": "43",
+          "source": "Genius",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": null,
+          "score": 0.2
+        }
+      ],
+      "SimpMusic": [
+        {
+          "id": "42",
+          "source": "SimpMusic",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.1
+        }
+      ]
+    },
+    "statuses": {
+      "LRCLIB - 42": "page.fullscreenPlayer.config.unsynchronized",
+      "LRCLIB - 41": "page.fullscreenPlayer.config.synchronized",
+      "Genius - 43": "common.unknown",
+      "SimpMusic - 42": "page.fullscreenPlayer.config.synchronized"
+    },
+    "selected": null,
+    "preview": null,
+    "order": [
+      "LRCLIB - 42",
+      "SimpMusic - 42",
+      "Genius - 43",
+      "LRCLIB - 41"
+    ],
+    "calls": []
+  },
+  {
+    "mode": "loading",
+    "delayMs": 250,
+    "input": {
+      "LRCLIB": [
+        {
+          "id": "42",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": false,
+          "score": 0.1
+        },
+        {
+          "id": "41",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.9
+        }
+      ],
+      "Genius": [
+        {
+          "id": "43",
+          "source": "Genius",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": null,
+          "score": 0.2
+        }
+      ],
+      "SimpMusic": [
+        {
+          "id": "42",
+          "source": "SimpMusic",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.1
+        }
+      ]
+    },
+    "statuses": {
+      "LRCLIB - 42": "page.fullscreenPlayer.config.unsynchronized",
+      "LRCLIB - 41": "page.fullscreenPlayer.config.synchronized",
+      "Genius - 43": "common.unknown",
+      "SimpMusic - 42": "page.fullscreenPlayer.config.synchronized"
+    },
+    "selected": {
+      "id": "42",
+      "source": "LRCLIB",
+      "name": "Chosen title",
+      "artist": "Chosen artist",
+      "isSync": false,
+      "score": 0.1
+    },
+    "preview": null,
+    "order": [
+      "LRCLIB - 42",
+      "SimpMusic - 42",
+      "Genius - 43",
+      "LRCLIB - 41"
+    ],
+    "calls": [
+      [
+        "apply",
+        {
+          "artist": "Chosen artist",
+          "id": "42",
+          "name": "Chosen title",
+          "remote": true,
+          "source": "LRCLIB"
+        }
+      ],
+      [
+        "close"
+      ]
+    ]
+  },
+  {
+    "mode": "plain",
+    "delayMs": 250,
+    "input": {
+      "LRCLIB": [
+        {
+          "id": "42",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": false,
+          "score": 0.1
+        },
+        {
+          "id": "41",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.9
+        }
+      ],
+      "Genius": [
+        {
+          "id": "43",
+          "source": "Genius",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": null,
+          "score": 0.2
+        }
+      ],
+      "SimpMusic": [
+        {
+          "id": "42",
+          "source": "SimpMusic",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.1
+        }
+      ]
+    },
+    "statuses": {
+      "LRCLIB - 42": "page.fullscreenPlayer.config.unsynchronized",
+      "LRCLIB - 41": "page.fullscreenPlayer.config.synchronized",
+      "Genius - 43": "common.unknown",
+      "SimpMusic - 42": "page.fullscreenPlayer.config.synchronized"
+    },
+    "selected": {
+      "id": "42",
+      "source": "LRCLIB",
+      "name": "Chosen title",
+      "artist": "Chosen artist",
+      "isSync": false,
+      "score": 0.1
+    },
+    "preview": "Plain lyrics",
+    "order": [
+      "LRCLIB - 42",
+      "SimpMusic - 42",
+      "Genius - 43",
+      "LRCLIB - 41"
+    ],
+    "calls": [
+      [
+        "apply",
+        {
+          "artist": "Chosen artist",
+          "id": "42",
+          "name": "Chosen title",
+          "remote": true,
+          "source": "LRCLIB"
+        }
+      ],
+      [
+        "close"
+      ],
+      [
+        "export",
+        {
+          "lyrics": {
+            "artist": "Chosen artist",
+            "lyrics": "Plain lyrics",
+            "name": "Chosen title",
+            "offsetMs": null,
+            "remote": true,
+            "source": "LRCLIB"
+          },
+          "offsetMs": 250,
+          "synced": false
+        }
+      ]
+    ]
+  },
+  {
+    "mode": "timed",
+    "delayMs": 250,
+    "input": {
+      "LRCLIB": [
+        {
+          "id": "42",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": false,
+          "score": 0.1
+        },
+        {
+          "id": "41",
+          "source": "LRCLIB",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.9
+        }
+      ],
+      "Genius": [
+        {
+          "id": "43",
+          "source": "Genius",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": null,
+          "score": 0.2
+        }
+      ],
+      "SimpMusic": [
+        {
+          "id": "42",
+          "source": "SimpMusic",
+          "name": "Chosen title",
+          "artist": "Chosen artist",
+          "isSync": true,
+          "score": 0.1
+        }
+      ]
+    },
+    "statuses": {
+      "LRCLIB - 42": "page.fullscreenPlayer.config.unsynchronized",
+      "LRCLIB - 41": "page.fullscreenPlayer.config.synchronized",
+      "Genius - 43": "common.unknown",
+      "SimpMusic - 42": "page.fullscreenPlayer.config.synchronized"
+    },
+    "selected": {
+      "id": "42",
+      "source": "LRCLIB",
+      "name": "Chosen title",
+      "artist": "Chosen artist",
+      "isSync": false,
+      "score": 0.1
+    },
+    "preview": [
+      {
+        "startMs": 1000,
+        "text": "Timed lyrics"
+      }
+    ],
+    "order": [
+      "LRCLIB - 42",
+      "SimpMusic - 42",
+      "Genius - 43",
+      "LRCLIB - 41"
+    ],
+    "calls": [
+      [
+        "apply",
+        {
+          "artist": "Chosen artist",
+          "id": "42",
+          "name": "Chosen title",
+          "remote": true,
+          "source": "LRCLIB"
+        }
+      ],
+      [
+        "close"
+      ],
+      [
+        "export",
+        {
+          "lyrics": {
+            "artist": "Chosen artist",
+            "lyrics": [
+              {
+                "startMs": 1000,
+                "text": "Timed lyrics"
+              }
+            ],
+            "name": "Chosen title",
+            "offsetMs": null,
+            "remote": true,
+            "source": "LRCLIB"
+          },
+          "offsetMs": 250,
+          "synced": true
+        }
+      ]
+    ]
+  }
+]

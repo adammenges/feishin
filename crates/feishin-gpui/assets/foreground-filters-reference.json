@@ -1,0 +1,2548 @@
+{
+  "platform_metrics": {
+    "darwin": {
+      "electron": "43.7.0",
+      "chromium": "150.0.7871.250",
+      "cases": [
+        {
+          "name": "filter-0",
+          "filter": "none",
+          "computed": "none",
+          "file": "foreground-filter-0-darwin.png"
+        },
+        {
+          "name": "filter-1",
+          "filter": "blur(0)",
+          "computed": "blur(0px)",
+          "file": "foreground-filter-1-darwin.png"
+        },
+        {
+          "name": "filter-2",
+          "filter": "blur(1px)",
+          "computed": "blur(1px)",
+          "file": "foreground-filter-2-darwin.png"
+        },
+        {
+          "name": "filter-3",
+          "filter": "blur(4px)",
+          "computed": "blur(4px)",
+          "file": "foreground-filter-3-darwin.png"
+        },
+        {
+          "name": "filter-4",
+          "filter": "blur(12px)",
+          "computed": "blur(12px)",
+          "file": "foreground-filter-4-darwin.png"
+        },
+        {
+          "name": "filter-5",
+          "filter": "blur(48px)",
+          "computed": "blur(48px)",
+          "file": "foreground-filter-5-darwin.png"
+        },
+        {
+          "name": "filter-6",
+          "filter": "brightness(50%)",
+          "computed": "brightness(0.5)",
+          "file": "foreground-filter-6-darwin.png"
+        },
+        {
+          "name": "filter-7",
+          "filter": "brightness(180%)",
+          "computed": "brightness(1.8)",
+          "file": "foreground-filter-7-darwin.png"
+        },
+        {
+          "name": "filter-8",
+          "filter": "contrast(0)",
+          "computed": "contrast(0)",
+          "file": "foreground-filter-8-darwin.png"
+        },
+        {
+          "name": "filter-9",
+          "filter": "contrast(180%)",
+          "computed": "contrast(1.8)",
+          "file": "foreground-filter-9-darwin.png"
+        },
+        {
+          "name": "filter-10",
+          "filter": "saturate(0)",
+          "computed": "saturate(0)",
+          "file": "foreground-filter-10-darwin.png"
+        },
+        {
+          "name": "filter-11",
+          "filter": "saturate(300%)",
+          "computed": "saturate(3)",
+          "file": "foreground-filter-11-darwin.png"
+        },
+        {
+          "name": "filter-12",
+          "filter": "grayscale()",
+          "computed": "grayscale(1)",
+          "file": "foreground-filter-12-darwin.png"
+        },
+        {
+          "name": "filter-13",
+          "filter": "grayscale(50%)",
+          "computed": "grayscale(0.5)",
+          "file": "foreground-filter-13-darwin.png"
+        },
+        {
+          "name": "filter-14",
+          "filter": "sepia()",
+          "computed": "sepia(1)",
+          "file": "foreground-filter-14-darwin.png"
+        },
+        {
+          "name": "filter-15",
+          "filter": "sepia(50%)",
+          "computed": "sepia(0.5)",
+          "file": "foreground-filter-15-darwin.png"
+        },
+        {
+          "name": "filter-16",
+          "filter": "hue-rotate(90deg)",
+          "computed": "hue-rotate(90deg)",
+          "file": "foreground-filter-16-darwin.png"
+        },
+        {
+          "name": "filter-17",
+          "filter": "hue-rotate(-120deg)",
+          "computed": "hue-rotate(-120deg)",
+          "file": "foreground-filter-17-darwin.png"
+        },
+        {
+          "name": "filter-18",
+          "filter": "invert()",
+          "computed": "invert(1)",
+          "file": "foreground-filter-18-darwin.png"
+        },
+        {
+          "name": "filter-19",
+          "filter": "invert(50%)",
+          "computed": "invert(0.5)",
+          "file": "foreground-filter-19-darwin.png"
+        },
+        {
+          "name": "filter-20",
+          "filter": "opacity(0)",
+          "computed": "opacity(0)",
+          "file": "foreground-filter-20-darwin.png"
+        },
+        {
+          "name": "filter-21",
+          "filter": "opacity(50%)",
+          "computed": "opacity(0.5)",
+          "file": "foreground-filter-21-darwin.png"
+        },
+        {
+          "name": "filter-22",
+          "filter": "opacity(200%)",
+          "computed": "opacity(1)",
+          "file": "foreground-filter-22-darwin.png"
+        },
+        {
+          "name": "filter-23",
+          "filter": "brightness(180%) contrast(50%)",
+          "computed": "brightness(1.8) contrast(0.5)",
+          "file": "foreground-filter-23-darwin.png"
+        },
+        {
+          "name": "filter-24",
+          "filter": "contrast(50%) brightness(180%)",
+          "computed": "contrast(0.5) brightness(1.8)",
+          "file": "foreground-filter-24-darwin.png"
+        },
+        {
+          "name": "filter-25",
+          "filter": "saturate(300%) blur(12px)",
+          "computed": "saturate(3) blur(12px)",
+          "file": "foreground-filter-25-darwin.png"
+        },
+        {
+          "name": "filter-26",
+          "filter": "blur(12px) saturate(300%)",
+          "computed": "blur(12px) saturate(3)",
+          "file": "foreground-filter-26-darwin.png"
+        },
+        {
+          "name": "filter-27",
+          "filter": "invert(80%) blur(12px) contrast(160%)",
+          "computed": "invert(0.8) blur(12px) contrast(1.6)",
+          "file": "foreground-filter-27-darwin.png"
+        },
+        {
+          "name": "filter-28",
+          "filter": "blur(4px) blur(12px)",
+          "computed": "blur(4px) blur(12px)",
+          "file": "foreground-filter-28-darwin.png"
+        },
+        {
+          "name": "filter-29",
+          "filter": "blur(32px) brightness(60%) blur(3px)",
+          "computed": "blur(32px) brightness(0.6) blur(3px)",
+          "file": "foreground-filter-29-darwin.png"
+        },
+        {
+          "name": "filter-30",
+          "filter": "sepia(80%) hue-rotate(90deg) saturate(180%) brightness(110%) contrast(120%)",
+          "computed": "sepia(0.8) hue-rotate(90deg) saturate(1.8) brightness(1.1) contrast(1.2)",
+          "file": "foreground-filter-30-darwin.png"
+        },
+        {
+          "name": "filter-31",
+          "filter": "blur(12px) opacity(50%)",
+          "computed": "blur(12px) opacity(0.5)",
+          "file": "foreground-filter-31-darwin.png"
+        },
+        {
+          "name": "filter-32",
+          "filter": "opacity(50%) blur(12px)",
+          "computed": "opacity(0.5) blur(12px)",
+          "file": "foreground-filter-32-darwin.png"
+        },
+        {
+          "name": "group-33",
+          "filter": "blur(12px)",
+          "opacity": 0.65,
+          "sourceOpacity": 0.5,
+          "computed": "blur(12px)",
+          "file": "foreground-group-33-darwin.png"
+        },
+        {
+          "name": "clip-34",
+          "filter": "blur(12px)",
+          "clipped": true,
+          "computed": "blur(12px)",
+          "file": "foreground-clip-34-darwin.png"
+        },
+        {
+          "name": "nested-35",
+          "filter": "blur(12px)",
+          "nested": "blur(4px) sepia(80%)",
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "computed": "blur(12px)",
+          "file": "foreground-nested-35-darwin.png"
+        },
+        {
+          "name": "scale-36",
+          "filter": "blur(12px)",
+          "scale": 1.1,
+          "computed": "blur(12px)",
+          "file": "foreground-scale-36-darwin.png"
+        },
+        {
+          "name": "group-37",
+          "filter": "invert(80%)",
+          "opacity": 0.65,
+          "sourceOpacity": 0.5,
+          "computed": "invert(0.8)",
+          "file": "foreground-group-37-darwin.png"
+        },
+        {
+          "name": "clip-38",
+          "filter": "invert(80%)",
+          "clipped": true,
+          "computed": "invert(0.8)",
+          "file": "foreground-clip-38-darwin.png"
+        },
+        {
+          "name": "nested-39",
+          "filter": "invert(80%)",
+          "nested": "blur(4px) sepia(80%)",
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "computed": "invert(0.8)",
+          "file": "foreground-nested-39-darwin.png"
+        },
+        {
+          "name": "scale-40",
+          "filter": "invert(80%)",
+          "scale": 1.1,
+          "computed": "invert(0.8)",
+          "file": "foreground-scale-40-darwin.png"
+        },
+        {
+          "name": "group-41",
+          "filter": "blur(48px) opacity(65%)",
+          "opacity": 0.65,
+          "sourceOpacity": 0.5,
+          "computed": "blur(48px) opacity(0.65)",
+          "file": "foreground-group-41-darwin.png"
+        },
+        {
+          "name": "clip-42",
+          "filter": "blur(48px) opacity(65%)",
+          "clipped": true,
+          "computed": "blur(48px) opacity(0.65)",
+          "file": "foreground-clip-42-darwin.png"
+        },
+        {
+          "name": "nested-43",
+          "filter": "blur(48px) opacity(65%)",
+          "nested": "blur(4px) sepia(80%)",
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "computed": "blur(48px) opacity(0.65)",
+          "file": "foreground-nested-43-darwin.png"
+        },
+        {
+          "name": "scale-44",
+          "filter": "blur(48px) opacity(65%)",
+          "scale": 1.1,
+          "computed": "blur(48px) opacity(0.65)",
+          "file": "foreground-scale-44-darwin.png"
+        },
+        {
+          "name": "picture-1",
+          "filter": "blur(48px)",
+          "picture": true,
+          "sourceClipped": true,
+          "opacity": 0.8,
+          "scale": 1,
+          "computed": "blur(48px)",
+          "file": "foreground-picture-1-darwin.png",
+          "sourceFile": "foreground-source-darwin.png"
+        },
+        {
+          "name": "picture-1.1",
+          "filter": "blur(48px)",
+          "picture": true,
+          "sourceClipped": true,
+          "opacity": 0.8,
+          "scale": 1.1,
+          "computed": "blur(48px)",
+          "file": "foreground-picture-1.1-darwin.png",
+          "sourceFile": "foreground-source-darwin.png"
+        },
+        {
+          "name": "picture-control-1",
+          "filter": "none",
+          "picture": true,
+          "sourceClipped": true,
+          "opacity": 0.8,
+          "scale": 1,
+          "computed": "none",
+          "file": "foreground-picture-control-1-darwin.png",
+          "sourceFile": "foreground-source-darwin.png"
+        },
+        {
+          "name": "picture-control-1.1",
+          "filter": "none",
+          "picture": true,
+          "sourceClipped": true,
+          "opacity": 0.8,
+          "scale": 1.1,
+          "computed": "none",
+          "file": "foreground-picture-control-1.1-darwin.png",
+          "sourceFile": "foreground-source-darwin.png"
+        },
+        {
+          "name": "shadow-0",
+          "filter": "drop-shadow(0 0)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgb(0, 0, 0) 0px 0px 0px)",
+          "file": "foreground-shadow-0-darwin.png"
+        },
+        {
+          "name": "shadow-1",
+          "filter": "drop-shadow(12px -8px #a0e06080)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(160, 224, 96, 0.5) 12px -8px 0px)",
+          "file": "foreground-shadow-1-darwin.png"
+        },
+        {
+          "name": "shadow-2",
+          "filter": "drop-shadow(0 6px 4px #0008)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.533) 0px 6px 4px)",
+          "file": "foreground-shadow-2-darwin.png"
+        },
+        {
+          "name": "shadow-3",
+          "filter": "drop-shadow(#d030a080 -12px 8px 12px)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(208, 48, 160, 0.5) -12px 8px 12px)",
+          "file": "foreground-shadow-3-darwin.png"
+        },
+        {
+          "name": "shadow-4",
+          "filter": "drop-shadow(0 6px 20px rgb(0 0 0 / 50%)) drop-shadow(0 2px 8px rgb(0 0 0 / 40%))",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)",
+          "file": "foreground-shadow-4-darwin.png"
+        },
+        {
+          "name": "shadow-5",
+          "filter": "drop-shadow(0 16px 40px rgb(0 0 0 / 60%)) drop-shadow(0 6px 16px rgb(0 0 0 / 50%))",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.6) 0px 16px 40px) drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 16px)",
+          "file": "foreground-shadow-5-darwin.png"
+        },
+        {
+          "name": "shadow-6",
+          "filter": "drop-shadow(0 0 4px red) drop-shadow(12px 8px 12px blue)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgb(255, 0, 0) 0px 0px 4px) drop-shadow(rgb(0, 0, 255) 12px 8px 12px)",
+          "file": "foreground-shadow-6-darwin.png"
+        },
+        {
+          "name": "shadow-7",
+          "filter": "drop-shadow(12px 8px 12px blue) drop-shadow(0 0 4px red)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgb(0, 0, 255) 12px 8px 12px) drop-shadow(rgb(255, 0, 0) 0px 0px 4px)",
+          "file": "foreground-shadow-7-darwin.png"
+        },
+        {
+          "name": "shadow-8",
+          "filter": "drop-shadow(0 6px 12px #40e080bf) invert(80%)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px) invert(0.8)",
+          "file": "foreground-shadow-8-darwin.png"
+        },
+        {
+          "name": "shadow-9",
+          "filter": "invert(80%) drop-shadow(0 6px 12px #40e080bf)",
+          "layerBackground": "transparent",
+          "computed": "invert(0.8) drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)",
+          "file": "foreground-shadow-9-darwin.png"
+        },
+        {
+          "name": "shadow-10",
+          "filter": "drop-shadow(0 6px 12px #40e080bf) blur(4px)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px) blur(4px)",
+          "file": "foreground-shadow-10-darwin.png"
+        },
+        {
+          "name": "shadow-11",
+          "filter": "blur(4px) drop-shadow(0 6px 12px #40e080bf)",
+          "layerBackground": "transparent",
+          "computed": "blur(4px) drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)",
+          "file": "foreground-shadow-11-darwin.png"
+        },
+        {
+          "name": "shadow-12",
+          "filter": "opacity(50%) drop-shadow(0 6px 12px #40e080bf)",
+          "layerBackground": "transparent",
+          "computed": "opacity(0.5) drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)",
+          "file": "foreground-shadow-12-darwin.png"
+        },
+        {
+          "name": "shadow-13",
+          "filter": "drop-shadow(0 6px 12px #40e080bf) opacity(50%)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px) opacity(0.5)",
+          "file": "foreground-shadow-13-darwin.png"
+        },
+        {
+          "name": "shadow-14",
+          "filter": "drop-shadow(0 0 4px transparent)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(0, 0, 0, 0) 0px 0px 4px)",
+          "file": "foreground-shadow-14-darwin.png"
+        },
+        {
+          "name": "shadow-clip-0",
+          "filter": "drop-shadow(0 6px 4px #0008)",
+          "clipped": true,
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.533) 0px 6px 4px)",
+          "file": "foreground-shadow-clip-0-darwin.png"
+        },
+        {
+          "name": "shadow-group-0",
+          "filter": "drop-shadow(0 6px 4px #0008)",
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "drop-shadow(-4px 3px 4px #ff008080)",
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.533) 0px 6px 4px)",
+          "file": "foreground-shadow-group-0-darwin.png"
+        },
+        {
+          "name": "shadow-picture-0",
+          "filter": "drop-shadow(0 6px 4px #0008)",
+          "picture": true,
+          "sourceClipped": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.533) 0px 6px 4px)",
+          "file": "foreground-shadow-picture-0-darwin.png",
+          "sourceFile": "foreground-source-darwin.png"
+        },
+        {
+          "name": "shadow-clip-1",
+          "filter": "drop-shadow(#d030a080 -12px 8px 12px)",
+          "clipped": true,
+          "computed": "drop-shadow(rgba(208, 48, 160, 0.5) -12px 8px 12px)",
+          "file": "foreground-shadow-clip-1-darwin.png"
+        },
+        {
+          "name": "shadow-group-1",
+          "filter": "drop-shadow(#d030a080 -12px 8px 12px)",
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "drop-shadow(-4px 3px 4px #ff008080)",
+          "computed": "drop-shadow(rgba(208, 48, 160, 0.5) -12px 8px 12px)",
+          "file": "foreground-shadow-group-1-darwin.png"
+        },
+        {
+          "name": "shadow-picture-1",
+          "filter": "drop-shadow(#d030a080 -12px 8px 12px)",
+          "picture": true,
+          "sourceClipped": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "drop-shadow(rgba(208, 48, 160, 0.5) -12px 8px 12px)",
+          "file": "foreground-shadow-picture-1-darwin.png",
+          "sourceFile": "foreground-source-darwin.png"
+        },
+        {
+          "name": "shadow-clip-2",
+          "filter": "drop-shadow(0 6px 20px rgb(0 0 0 / 50%)) drop-shadow(0 2px 8px rgb(0 0 0 / 40%))",
+          "clipped": true,
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)",
+          "file": "foreground-shadow-clip-2-darwin.png"
+        },
+        {
+          "name": "shadow-group-2",
+          "filter": "drop-shadow(0 6px 20px rgb(0 0 0 / 50%)) drop-shadow(0 2px 8px rgb(0 0 0 / 40%))",
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "drop-shadow(-4px 3px 4px #ff008080)",
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)",
+          "file": "foreground-shadow-group-2-darwin.png"
+        },
+        {
+          "name": "shadow-picture-2",
+          "filter": "drop-shadow(0 6px 20px rgb(0 0 0 / 50%)) drop-shadow(0 2px 8px rgb(0 0 0 / 40%))",
+          "picture": true,
+          "sourceClipped": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)",
+          "file": "foreground-shadow-picture-2-darwin.png",
+          "sourceFile": "foreground-source-darwin.png"
+        },
+        {
+          "name": "shadow-clip-3",
+          "filter": "drop-shadow(0 16px 40px rgb(0 0 0 / 60%)) drop-shadow(0 6px 16px rgb(0 0 0 / 50%))",
+          "clipped": true,
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.6) 0px 16px 40px) drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 16px)",
+          "file": "foreground-shadow-clip-3-darwin.png"
+        },
+        {
+          "name": "shadow-group-3",
+          "filter": "drop-shadow(0 16px 40px rgb(0 0 0 / 60%)) drop-shadow(0 6px 16px rgb(0 0 0 / 50%))",
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "drop-shadow(-4px 3px 4px #ff008080)",
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.6) 0px 16px 40px) drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 16px)",
+          "file": "foreground-shadow-group-3-darwin.png"
+        },
+        {
+          "name": "shadow-picture-3",
+          "filter": "drop-shadow(0 16px 40px rgb(0 0 0 / 60%)) drop-shadow(0 6px 16px rgb(0 0 0 / 50%))",
+          "picture": true,
+          "sourceClipped": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.6) 0px 16px 40px) drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 16px)",
+          "file": "foreground-shadow-picture-3-darwin.png",
+          "sourceFile": "foreground-source-darwin.png"
+        },
+        {
+          "name": "shadow-current-color",
+          "filter": "drop-shadow(currentColor 6px 8px 12px)",
+          "color": "#e0208090",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(224, 32, 128, 0.565) 6px 8px 12px)",
+          "file": "foreground-shadow-current-color-darwin.png"
+        },
+        {
+          "name": "shadow-inherited-color",
+          "filter": "drop-shadow(6px 8px 12px)",
+          "parentColor": "#e0208090",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(224, 32, 128, 0.565) 6px 8px 12px)",
+          "file": "foreground-shadow-inherited-color-darwin.png"
+        },
+        {
+          "name": "rounded-source-78",
+          "filter": "none",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "computed": "none",
+          "file": "foreground-rounded-source-78-darwin.png"
+        },
+        {
+          "name": "rounded-parent-79",
+          "filter": "none",
+          "clipped": true,
+          "parentRadius": 70,
+          "computed": "none",
+          "file": "foreground-rounded-parent-79-darwin.png"
+        },
+        {
+          "name": "rounded-groups-80",
+          "filter": "none",
+          "clipped": true,
+          "parentRadius": 70,
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "blur(4px) sepia(80%)",
+          "computed": "none",
+          "file": "foreground-rounded-groups-80-darwin.png"
+        },
+        {
+          "name": "rounded-picture-81",
+          "filter": "none",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "picture": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "none",
+          "file": "foreground-rounded-picture-81-darwin.png",
+          "sourceFile": "foreground-source-darwin.png"
+        },
+        {
+          "name": "rounded-source-82",
+          "filter": "blur(4px)",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "computed": "blur(4px)",
+          "file": "foreground-rounded-source-82-darwin.png"
+        },
+        {
+          "name": "rounded-parent-83",
+          "filter": "blur(4px)",
+          "clipped": true,
+          "parentRadius": 70,
+          "computed": "blur(4px)",
+          "file": "foreground-rounded-parent-83-darwin.png"
+        },
+        {
+          "name": "rounded-groups-84",
+          "filter": "blur(4px)",
+          "clipped": true,
+          "parentRadius": 70,
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "blur(4px) sepia(80%)",
+          "computed": "blur(4px)",
+          "file": "foreground-rounded-groups-84-darwin.png"
+        },
+        {
+          "name": "rounded-picture-85",
+          "filter": "blur(4px)",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "picture": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "blur(4px)",
+          "file": "foreground-rounded-picture-85-darwin.png",
+          "sourceFile": "foreground-source-darwin.png"
+        },
+        {
+          "name": "rounded-source-86",
+          "filter": "invert(80%)",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "computed": "invert(0.8)",
+          "file": "foreground-rounded-source-86-darwin.png"
+        },
+        {
+          "name": "rounded-parent-87",
+          "filter": "invert(80%)",
+          "clipped": true,
+          "parentRadius": 70,
+          "computed": "invert(0.8)",
+          "file": "foreground-rounded-parent-87-darwin.png"
+        },
+        {
+          "name": "rounded-groups-88",
+          "filter": "invert(80%)",
+          "clipped": true,
+          "parentRadius": 70,
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "blur(4px) sepia(80%)",
+          "computed": "invert(0.8)",
+          "file": "foreground-rounded-groups-88-darwin.png"
+        },
+        {
+          "name": "rounded-picture-89",
+          "filter": "invert(80%)",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "picture": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "invert(0.8)",
+          "file": "foreground-rounded-picture-89-darwin.png",
+          "sourceFile": "foreground-source-darwin.png"
+        },
+        {
+          "name": "rounded-source-90",
+          "filter": "drop-shadow(0 6px 12px #40e080bf)",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "computed": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)",
+          "file": "foreground-rounded-source-90-darwin.png"
+        },
+        {
+          "name": "rounded-parent-91",
+          "filter": "drop-shadow(0 6px 12px #40e080bf)",
+          "clipped": true,
+          "parentRadius": 70,
+          "computed": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)",
+          "file": "foreground-rounded-parent-91-darwin.png"
+        },
+        {
+          "name": "rounded-groups-92",
+          "filter": "drop-shadow(0 6px 12px #40e080bf)",
+          "clipped": true,
+          "parentRadius": 70,
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "blur(4px) sepia(80%)",
+          "computed": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)",
+          "file": "foreground-rounded-groups-92-darwin.png"
+        },
+        {
+          "name": "rounded-picture-93",
+          "filter": "drop-shadow(0 6px 12px #40e080bf)",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "picture": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)",
+          "file": "foreground-rounded-picture-93-darwin.png",
+          "sourceFile": "foreground-source-darwin.png"
+        }
+      ],
+      "cascades": [
+        {
+          "source": "span{filter:blur(3px)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:BLUR(2REM)}",
+          "filter": "blur(32px)"
+        },
+        {
+          "source": "span{filter:blur( /* gap */ 5px)}",
+          "filter": "blur(5px)"
+        },
+        {
+          "source": "span{filter:blur()}",
+          "filter": "blur(0px)"
+        },
+        {
+          "source": "span{filter:blur(0)}",
+          "filter": "blur(0px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:blur(-1px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:blur(1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:blur(50%)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:blur(3px) bogus}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:\"blur(3px)\"}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "body{filter:blur(9px)}",
+          "filter": "none"
+        },
+        {
+          "source": "body{filter:blur(9px)}span{filter:inherit}",
+          "filter": "blur(9px)"
+        },
+        {
+          "source": "body{filter:blur(9px)}span{filter:unset}",
+          "filter": "none"
+        },
+        {
+          "source": "body{filter:blur(9px)}span{filter:initial}",
+          "filter": "none"
+        },
+        {
+          "source": "body{filter:blur(9px)}span{filter:revert}",
+          "filter": "none"
+        },
+        {
+          "source": "body{--blur:5px}span{filter:blur(var(--blur))}",
+          "filter": "blur(5px)"
+        },
+        {
+          "source": "span{filter:blur(12px) saturate(180%)}",
+          "filter": "blur(12px) saturate(1.8)"
+        },
+        {
+          "source": "span{filter:saturate()}",
+          "filter": "saturate(1)"
+        },
+        {
+          "source": "span{filter:saturate(0)}",
+          "filter": "saturate(0)"
+        },
+        {
+          "source": "span{filter:saturate(50%)}",
+          "filter": "saturate(0.5)"
+        },
+        {
+          "source": "span{filter:BLUR(2PX) SATURATE(200%)}",
+          "filter": "blur(2px) saturate(2)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:blur(3px) saturate(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:blur(3px) saturate(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "body{filter:blur(9px) saturate(3)}span{filter:inherit}",
+          "filter": "blur(9px) saturate(3)"
+        },
+        {
+          "source": "body{--blur:5px;--saturation:150%}span{filter:blur(var(--blur)) saturate(var(--saturation))}",
+          "filter": "blur(5px) saturate(1.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness()}",
+          "filter": "brightness(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(0)}",
+          "filter": "brightness(0)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(.5)}",
+          "filter": "brightness(0.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(180%)}",
+          "filter": "brightness(1.8)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast()}",
+          "filter": "contrast(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast(0)}",
+          "filter": "contrast(0)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast(.5)}",
+          "filter": "contrast(0.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast(180%)}",
+          "filter": "contrast(1.8)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate()}",
+          "filter": "saturate(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(0)}",
+          "filter": "saturate(0)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(.5)}",
+          "filter": "saturate(0.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(180%)}",
+          "filter": "saturate(1.8)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale()}",
+          "filter": "grayscale(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale(0)}",
+          "filter": "grayscale(0)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale(.5)}",
+          "filter": "grayscale(0.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale(180%)}",
+          "filter": "grayscale(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia()}",
+          "filter": "sepia(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(0)}",
+          "filter": "sepia(0)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(.5)}",
+          "filter": "sepia(0.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(180%)}",
+          "filter": "sepia(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert()}",
+          "filter": "invert(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert(0)}",
+          "filter": "invert(0)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert(.5)}",
+          "filter": "invert(0.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert(180%)}",
+          "filter": "invert(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity()}",
+          "filter": "opacity(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity(0)}",
+          "filter": "opacity(0)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity(.5)}",
+          "filter": "opacity(0.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity(180%)}",
+          "filter": "opacity(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate()}",
+          "filter": "hue-rotate(0deg)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(0)}",
+          "filter": "hue-rotate(0deg)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(90deg)}",
+          "filter": "hue-rotate(90deg)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(-.5turn)}",
+          "filter": "hue-rotate(-180deg)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(100grad)}",
+          "filter": "hue-rotate(90deg)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(1rad)}",
+          "filter": "hue-rotate(57.2958deg)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(20%)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(NaN)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(2) blur(3px)}",
+          "filter": "brightness(2) blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:blur(2px) blur(4px)}",
+          "filter": "blur(2px) blur(4px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(.5) invert(.2)}",
+          "filter": "sepia(0.5) invert(0.2)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:none blur(3px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(2), contrast(1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "body{filter:brightness(2) blur(3px)}span{filter:inherit}",
+          "filter": "brightness(2) blur(3px)"
+        },
+        {
+          "source": "body{filter:sepia(.5) invert(.2)}span{filter:unset}",
+          "filter": "none"
+        },
+        {
+          "source": "body{--filter:brightness(2) blur(3px)}span{filter:var(--filter)}",
+          "filter": "brightness(2) blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(var(--missing))}",
+          "filter": "none"
+        },
+        {
+          "source": "span{filter:BRIGHTNESS( /* comment */ 50%) INVERT(.2)}",
+          "filter": "brightness(0.5) invert(0.2)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0)}",
+          "filter": "drop-shadow(rgb(0, 0, 0) 0px 0px 0px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(12px -8px #a0e06080)}",
+          "filter": "drop-shadow(rgba(160, 224, 96, 0.5) 12px -8px 0px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 6px 4px #0008)}",
+          "filter": "drop-shadow(rgba(0, 0, 0, 0.533) 0px 6px 4px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(#d030a080 -12px 8px 12px)}",
+          "filter": "drop-shadow(rgba(208, 48, 160, 0.5) -12px 8px 12px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 6px 20px rgb(0 0 0 / 50%)) drop-shadow(0 2px 8px rgb(0 0 0 / 40%))}",
+          "filter": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 16px 40px rgb(0 0 0 / 60%)) drop-shadow(0 6px 16px rgb(0 0 0 / 50%))}",
+          "filter": "drop-shadow(rgba(0, 0, 0, 0.6) 0px 16px 40px) drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 16px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0 4px red) drop-shadow(12px 8px 12px blue)}",
+          "filter": "drop-shadow(rgb(255, 0, 0) 0px 0px 4px) drop-shadow(rgb(0, 0, 255) 12px 8px 12px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(12px 8px 12px blue) drop-shadow(0 0 4px red)}",
+          "filter": "drop-shadow(rgb(0, 0, 255) 12px 8px 12px) drop-shadow(rgb(255, 0, 0) 0px 0px 4px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 6px 12px #40e080bf) invert(80%)}",
+          "filter": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px) invert(0.8)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:invert(80%) drop-shadow(0 6px 12px #40e080bf)}",
+          "filter": "invert(0.8) drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 6px 12px #40e080bf) blur(4px)}",
+          "filter": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px) blur(4px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:blur(4px) drop-shadow(0 6px 12px #40e080bf)}",
+          "filter": "blur(4px) drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:opacity(50%) drop-shadow(0 6px 12px #40e080bf)}",
+          "filter": "opacity(0.5) drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 6px 12px #40e080bf) opacity(50%)}",
+          "filter": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px) opacity(0.5)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0 4px transparent)}",
+          "filter": "drop-shadow(rgba(0, 0, 0, 0) 0px 0px 4px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(currentColor 0 .5rem 1em)}",
+          "filter": "drop-shadow(rgb(0, 0, 0) 0px 8px 16px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0 0)}",
+          "filter": "drop-shadow(rgb(0, 0, 0) 0px 0px 0px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow()}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(red)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0 -1px)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0 1px 2px)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 red 0)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0 red 1px)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0 2%)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(1 2)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(red 0 0 blue)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{color:#e0208090;filter:drop-shadow(6px 8px 12px)}",
+          "filter": "drop-shadow(rgba(224, 32, 128, 0.565) 6px 8px 12px)"
+        },
+        {
+          "source": "span{filter:drop-shadow(currentColor 6px 8px 12px);color:#e0208090}",
+          "filter": "drop-shadow(rgba(224, 32, 128, 0.565) 6px 8px 12px)"
+        },
+        {
+          "source": "body{color:#e0208090}span{filter:drop-shadow(6px 8px 12px)}",
+          "filter": "drop-shadow(rgba(224, 32, 128, 0.565) 6px 8px 12px)"
+        },
+        {
+          "source": "body{color:red;filter:drop-shadow(6px 8px 12px)}span{color:blue;filter:inherit}",
+          "filter": "drop-shadow(rgb(0, 0, 255) 6px 8px 12px)"
+        },
+        {
+          "source": "body{color:red;filter:drop-shadow(6px 8px 12px)}span{color:blue;filter:drop-shadow(6px 8px 12px)}",
+          "filter": "drop-shadow(rgb(0, 0, 255) 6px 8px 12px)"
+        },
+        {
+          "source": "span{--color:#e0208090;color:var(--color);filter:drop-shadow(6px 8px 12px)}",
+          "filter": "drop-shadow(rgba(224, 32, 128, 0.565) 6px 8px 12px)"
+        }
+      ]
+    },
+    "linux": {
+      "electron": "43.7.0",
+      "chromium": "150.0.7871.250",
+      "cases": [
+        {
+          "name": "filter-0",
+          "filter": "none",
+          "computed": "none",
+          "file": "foreground-filter-0-linux.png"
+        },
+        {
+          "name": "filter-1",
+          "filter": "blur(0)",
+          "computed": "blur(0px)",
+          "file": "foreground-filter-1-linux.png"
+        },
+        {
+          "name": "filter-2",
+          "filter": "blur(1px)",
+          "computed": "blur(1px)",
+          "file": "foreground-filter-2-linux.png"
+        },
+        {
+          "name": "filter-3",
+          "filter": "blur(4px)",
+          "computed": "blur(4px)",
+          "file": "foreground-filter-3-linux.png"
+        },
+        {
+          "name": "filter-4",
+          "filter": "blur(12px)",
+          "computed": "blur(12px)",
+          "file": "foreground-filter-4-linux.png"
+        },
+        {
+          "name": "filter-5",
+          "filter": "blur(48px)",
+          "computed": "blur(48px)",
+          "file": "foreground-filter-5-linux.png"
+        },
+        {
+          "name": "filter-6",
+          "filter": "brightness(50%)",
+          "computed": "brightness(0.5)",
+          "file": "foreground-filter-6-linux.png"
+        },
+        {
+          "name": "filter-7",
+          "filter": "brightness(180%)",
+          "computed": "brightness(1.8)",
+          "file": "foreground-filter-7-linux.png"
+        },
+        {
+          "name": "filter-8",
+          "filter": "contrast(0)",
+          "computed": "contrast(0)",
+          "file": "foreground-filter-8-linux.png"
+        },
+        {
+          "name": "filter-9",
+          "filter": "contrast(180%)",
+          "computed": "contrast(1.8)",
+          "file": "foreground-filter-9-linux.png"
+        },
+        {
+          "name": "filter-10",
+          "filter": "saturate(0)",
+          "computed": "saturate(0)",
+          "file": "foreground-filter-10-linux.png"
+        },
+        {
+          "name": "filter-11",
+          "filter": "saturate(300%)",
+          "computed": "saturate(3)",
+          "file": "foreground-filter-11-linux.png"
+        },
+        {
+          "name": "filter-12",
+          "filter": "grayscale()",
+          "computed": "grayscale(1)",
+          "file": "foreground-filter-12-linux.png"
+        },
+        {
+          "name": "filter-13",
+          "filter": "grayscale(50%)",
+          "computed": "grayscale(0.5)",
+          "file": "foreground-filter-13-linux.png"
+        },
+        {
+          "name": "filter-14",
+          "filter": "sepia()",
+          "computed": "sepia(1)",
+          "file": "foreground-filter-14-linux.png"
+        },
+        {
+          "name": "filter-15",
+          "filter": "sepia(50%)",
+          "computed": "sepia(0.5)",
+          "file": "foreground-filter-15-linux.png"
+        },
+        {
+          "name": "filter-16",
+          "filter": "hue-rotate(90deg)",
+          "computed": "hue-rotate(90deg)",
+          "file": "foreground-filter-16-linux.png"
+        },
+        {
+          "name": "filter-17",
+          "filter": "hue-rotate(-120deg)",
+          "computed": "hue-rotate(-120deg)",
+          "file": "foreground-filter-17-linux.png"
+        },
+        {
+          "name": "filter-18",
+          "filter": "invert()",
+          "computed": "invert(1)",
+          "file": "foreground-filter-18-linux.png"
+        },
+        {
+          "name": "filter-19",
+          "filter": "invert(50%)",
+          "computed": "invert(0.5)",
+          "file": "foreground-filter-19-linux.png"
+        },
+        {
+          "name": "filter-20",
+          "filter": "opacity(0)",
+          "computed": "opacity(0)",
+          "file": "foreground-filter-20-linux.png"
+        },
+        {
+          "name": "filter-21",
+          "filter": "opacity(50%)",
+          "computed": "opacity(0.5)",
+          "file": "foreground-filter-21-linux.png"
+        },
+        {
+          "name": "filter-22",
+          "filter": "opacity(200%)",
+          "computed": "opacity(1)",
+          "file": "foreground-filter-22-linux.png"
+        },
+        {
+          "name": "filter-23",
+          "filter": "brightness(180%) contrast(50%)",
+          "computed": "brightness(1.8) contrast(0.5)",
+          "file": "foreground-filter-23-linux.png"
+        },
+        {
+          "name": "filter-24",
+          "filter": "contrast(50%) brightness(180%)",
+          "computed": "contrast(0.5) brightness(1.8)",
+          "file": "foreground-filter-24-linux.png"
+        },
+        {
+          "name": "filter-25",
+          "filter": "saturate(300%) blur(12px)",
+          "computed": "saturate(3) blur(12px)",
+          "file": "foreground-filter-25-linux.png"
+        },
+        {
+          "name": "filter-26",
+          "filter": "blur(12px) saturate(300%)",
+          "computed": "blur(12px) saturate(3)",
+          "file": "foreground-filter-26-linux.png"
+        },
+        {
+          "name": "filter-27",
+          "filter": "invert(80%) blur(12px) contrast(160%)",
+          "computed": "invert(0.8) blur(12px) contrast(1.6)",
+          "file": "foreground-filter-27-linux.png"
+        },
+        {
+          "name": "filter-28",
+          "filter": "blur(4px) blur(12px)",
+          "computed": "blur(4px) blur(12px)",
+          "file": "foreground-filter-28-linux.png"
+        },
+        {
+          "name": "filter-29",
+          "filter": "blur(32px) brightness(60%) blur(3px)",
+          "computed": "blur(32px) brightness(0.6) blur(3px)",
+          "file": "foreground-filter-29-linux.png"
+        },
+        {
+          "name": "filter-30",
+          "filter": "sepia(80%) hue-rotate(90deg) saturate(180%) brightness(110%) contrast(120%)",
+          "computed": "sepia(0.8) hue-rotate(90deg) saturate(1.8) brightness(1.1) contrast(1.2)",
+          "file": "foreground-filter-30-linux.png"
+        },
+        {
+          "name": "filter-31",
+          "filter": "blur(12px) opacity(50%)",
+          "computed": "blur(12px) opacity(0.5)",
+          "file": "foreground-filter-31-linux.png"
+        },
+        {
+          "name": "filter-32",
+          "filter": "opacity(50%) blur(12px)",
+          "computed": "opacity(0.5) blur(12px)",
+          "file": "foreground-filter-32-linux.png"
+        },
+        {
+          "name": "group-33",
+          "filter": "blur(12px)",
+          "opacity": 0.65,
+          "sourceOpacity": 0.5,
+          "computed": "blur(12px)",
+          "file": "foreground-group-33-linux.png"
+        },
+        {
+          "name": "clip-34",
+          "filter": "blur(12px)",
+          "clipped": true,
+          "computed": "blur(12px)",
+          "file": "foreground-clip-34-linux.png"
+        },
+        {
+          "name": "nested-35",
+          "filter": "blur(12px)",
+          "nested": "blur(4px) sepia(80%)",
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "computed": "blur(12px)",
+          "file": "foreground-nested-35-linux.png"
+        },
+        {
+          "name": "scale-36",
+          "filter": "blur(12px)",
+          "scale": 1.1,
+          "computed": "blur(12px)",
+          "file": "foreground-scale-36-linux.png"
+        },
+        {
+          "name": "group-37",
+          "filter": "invert(80%)",
+          "opacity": 0.65,
+          "sourceOpacity": 0.5,
+          "computed": "invert(0.8)",
+          "file": "foreground-group-37-linux.png"
+        },
+        {
+          "name": "clip-38",
+          "filter": "invert(80%)",
+          "clipped": true,
+          "computed": "invert(0.8)",
+          "file": "foreground-clip-38-linux.png"
+        },
+        {
+          "name": "nested-39",
+          "filter": "invert(80%)",
+          "nested": "blur(4px) sepia(80%)",
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "computed": "invert(0.8)",
+          "file": "foreground-nested-39-linux.png"
+        },
+        {
+          "name": "scale-40",
+          "filter": "invert(80%)",
+          "scale": 1.1,
+          "computed": "invert(0.8)",
+          "file": "foreground-scale-40-linux.png"
+        },
+        {
+          "name": "group-41",
+          "filter": "blur(48px) opacity(65%)",
+          "opacity": 0.65,
+          "sourceOpacity": 0.5,
+          "computed": "blur(48px) opacity(0.65)",
+          "file": "foreground-group-41-linux.png"
+        },
+        {
+          "name": "clip-42",
+          "filter": "blur(48px) opacity(65%)",
+          "clipped": true,
+          "computed": "blur(48px) opacity(0.65)",
+          "file": "foreground-clip-42-linux.png"
+        },
+        {
+          "name": "nested-43",
+          "filter": "blur(48px) opacity(65%)",
+          "nested": "blur(4px) sepia(80%)",
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "computed": "blur(48px) opacity(0.65)",
+          "file": "foreground-nested-43-linux.png"
+        },
+        {
+          "name": "scale-44",
+          "filter": "blur(48px) opacity(65%)",
+          "scale": 1.1,
+          "computed": "blur(48px) opacity(0.65)",
+          "file": "foreground-scale-44-linux.png"
+        },
+        {
+          "name": "picture-1",
+          "filter": "blur(48px)",
+          "picture": true,
+          "sourceClipped": true,
+          "opacity": 0.8,
+          "scale": 1,
+          "computed": "blur(48px)",
+          "file": "foreground-picture-1-linux.png",
+          "sourceFile": "foreground-source-linux.png"
+        },
+        {
+          "name": "picture-1.1",
+          "filter": "blur(48px)",
+          "picture": true,
+          "sourceClipped": true,
+          "opacity": 0.8,
+          "scale": 1.1,
+          "computed": "blur(48px)",
+          "file": "foreground-picture-1.1-linux.png",
+          "sourceFile": "foreground-source-linux.png"
+        },
+        {
+          "name": "picture-control-1",
+          "filter": "none",
+          "picture": true,
+          "sourceClipped": true,
+          "opacity": 0.8,
+          "scale": 1,
+          "computed": "none",
+          "file": "foreground-picture-control-1-linux.png",
+          "sourceFile": "foreground-source-linux.png"
+        },
+        {
+          "name": "picture-control-1.1",
+          "filter": "none",
+          "picture": true,
+          "sourceClipped": true,
+          "opacity": 0.8,
+          "scale": 1.1,
+          "computed": "none",
+          "file": "foreground-picture-control-1.1-linux.png",
+          "sourceFile": "foreground-source-linux.png"
+        },
+        {
+          "name": "shadow-0",
+          "filter": "drop-shadow(0 0)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgb(0, 0, 0) 0px 0px 0px)",
+          "file": "foreground-shadow-0-linux.png"
+        },
+        {
+          "name": "shadow-1",
+          "filter": "drop-shadow(12px -8px #a0e06080)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(160, 224, 96, 0.5) 12px -8px 0px)",
+          "file": "foreground-shadow-1-linux.png"
+        },
+        {
+          "name": "shadow-2",
+          "filter": "drop-shadow(0 6px 4px #0008)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.533) 0px 6px 4px)",
+          "file": "foreground-shadow-2-linux.png"
+        },
+        {
+          "name": "shadow-3",
+          "filter": "drop-shadow(#d030a080 -12px 8px 12px)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(208, 48, 160, 0.5) -12px 8px 12px)",
+          "file": "foreground-shadow-3-linux.png"
+        },
+        {
+          "name": "shadow-4",
+          "filter": "drop-shadow(0 6px 20px rgb(0 0 0 / 50%)) drop-shadow(0 2px 8px rgb(0 0 0 / 40%))",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)",
+          "file": "foreground-shadow-4-linux.png"
+        },
+        {
+          "name": "shadow-5",
+          "filter": "drop-shadow(0 16px 40px rgb(0 0 0 / 60%)) drop-shadow(0 6px 16px rgb(0 0 0 / 50%))",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.6) 0px 16px 40px) drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 16px)",
+          "file": "foreground-shadow-5-linux.png"
+        },
+        {
+          "name": "shadow-6",
+          "filter": "drop-shadow(0 0 4px red) drop-shadow(12px 8px 12px blue)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgb(255, 0, 0) 0px 0px 4px) drop-shadow(rgb(0, 0, 255) 12px 8px 12px)",
+          "file": "foreground-shadow-6-linux.png"
+        },
+        {
+          "name": "shadow-7",
+          "filter": "drop-shadow(12px 8px 12px blue) drop-shadow(0 0 4px red)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgb(0, 0, 255) 12px 8px 12px) drop-shadow(rgb(255, 0, 0) 0px 0px 4px)",
+          "file": "foreground-shadow-7-linux.png"
+        },
+        {
+          "name": "shadow-8",
+          "filter": "drop-shadow(0 6px 12px #40e080bf) invert(80%)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px) invert(0.8)",
+          "file": "foreground-shadow-8-linux.png"
+        },
+        {
+          "name": "shadow-9",
+          "filter": "invert(80%) drop-shadow(0 6px 12px #40e080bf)",
+          "layerBackground": "transparent",
+          "computed": "invert(0.8) drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)",
+          "file": "foreground-shadow-9-linux.png"
+        },
+        {
+          "name": "shadow-10",
+          "filter": "drop-shadow(0 6px 12px #40e080bf) blur(4px)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px) blur(4px)",
+          "file": "foreground-shadow-10-linux.png"
+        },
+        {
+          "name": "shadow-11",
+          "filter": "blur(4px) drop-shadow(0 6px 12px #40e080bf)",
+          "layerBackground": "transparent",
+          "computed": "blur(4px) drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)",
+          "file": "foreground-shadow-11-linux.png"
+        },
+        {
+          "name": "shadow-12",
+          "filter": "opacity(50%) drop-shadow(0 6px 12px #40e080bf)",
+          "layerBackground": "transparent",
+          "computed": "opacity(0.5) drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)",
+          "file": "foreground-shadow-12-linux.png"
+        },
+        {
+          "name": "shadow-13",
+          "filter": "drop-shadow(0 6px 12px #40e080bf) opacity(50%)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px) opacity(0.5)",
+          "file": "foreground-shadow-13-linux.png"
+        },
+        {
+          "name": "shadow-14",
+          "filter": "drop-shadow(0 0 4px transparent)",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(0, 0, 0, 0) 0px 0px 4px)",
+          "file": "foreground-shadow-14-linux.png"
+        },
+        {
+          "name": "shadow-clip-0",
+          "filter": "drop-shadow(0 6px 4px #0008)",
+          "clipped": true,
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.533) 0px 6px 4px)",
+          "file": "foreground-shadow-clip-0-linux.png"
+        },
+        {
+          "name": "shadow-group-0",
+          "filter": "drop-shadow(0 6px 4px #0008)",
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "drop-shadow(-4px 3px 4px #ff008080)",
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.533) 0px 6px 4px)",
+          "file": "foreground-shadow-group-0-linux.png"
+        },
+        {
+          "name": "shadow-picture-0",
+          "filter": "drop-shadow(0 6px 4px #0008)",
+          "picture": true,
+          "sourceClipped": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.533) 0px 6px 4px)",
+          "file": "foreground-shadow-picture-0-linux.png",
+          "sourceFile": "foreground-source-linux.png"
+        },
+        {
+          "name": "shadow-clip-1",
+          "filter": "drop-shadow(#d030a080 -12px 8px 12px)",
+          "clipped": true,
+          "computed": "drop-shadow(rgba(208, 48, 160, 0.5) -12px 8px 12px)",
+          "file": "foreground-shadow-clip-1-linux.png"
+        },
+        {
+          "name": "shadow-group-1",
+          "filter": "drop-shadow(#d030a080 -12px 8px 12px)",
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "drop-shadow(-4px 3px 4px #ff008080)",
+          "computed": "drop-shadow(rgba(208, 48, 160, 0.5) -12px 8px 12px)",
+          "file": "foreground-shadow-group-1-linux.png"
+        },
+        {
+          "name": "shadow-picture-1",
+          "filter": "drop-shadow(#d030a080 -12px 8px 12px)",
+          "picture": true,
+          "sourceClipped": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "drop-shadow(rgba(208, 48, 160, 0.5) -12px 8px 12px)",
+          "file": "foreground-shadow-picture-1-linux.png",
+          "sourceFile": "foreground-source-linux.png"
+        },
+        {
+          "name": "shadow-clip-2",
+          "filter": "drop-shadow(0 6px 20px rgb(0 0 0 / 50%)) drop-shadow(0 2px 8px rgb(0 0 0 / 40%))",
+          "clipped": true,
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)",
+          "file": "foreground-shadow-clip-2-linux.png"
+        },
+        {
+          "name": "shadow-group-2",
+          "filter": "drop-shadow(0 6px 20px rgb(0 0 0 / 50%)) drop-shadow(0 2px 8px rgb(0 0 0 / 40%))",
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "drop-shadow(-4px 3px 4px #ff008080)",
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)",
+          "file": "foreground-shadow-group-2-linux.png"
+        },
+        {
+          "name": "shadow-picture-2",
+          "filter": "drop-shadow(0 6px 20px rgb(0 0 0 / 50%)) drop-shadow(0 2px 8px rgb(0 0 0 / 40%))",
+          "picture": true,
+          "sourceClipped": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)",
+          "file": "foreground-shadow-picture-2-linux.png",
+          "sourceFile": "foreground-source-linux.png"
+        },
+        {
+          "name": "shadow-clip-3",
+          "filter": "drop-shadow(0 16px 40px rgb(0 0 0 / 60%)) drop-shadow(0 6px 16px rgb(0 0 0 / 50%))",
+          "clipped": true,
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.6) 0px 16px 40px) drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 16px)",
+          "file": "foreground-shadow-clip-3-linux.png"
+        },
+        {
+          "name": "shadow-group-3",
+          "filter": "drop-shadow(0 16px 40px rgb(0 0 0 / 60%)) drop-shadow(0 6px 16px rgb(0 0 0 / 50%))",
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "drop-shadow(-4px 3px 4px #ff008080)",
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.6) 0px 16px 40px) drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 16px)",
+          "file": "foreground-shadow-group-3-linux.png"
+        },
+        {
+          "name": "shadow-picture-3",
+          "filter": "drop-shadow(0 16px 40px rgb(0 0 0 / 60%)) drop-shadow(0 6px 16px rgb(0 0 0 / 50%))",
+          "picture": true,
+          "sourceClipped": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "drop-shadow(rgba(0, 0, 0, 0.6) 0px 16px 40px) drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 16px)",
+          "file": "foreground-shadow-picture-3-linux.png",
+          "sourceFile": "foreground-source-linux.png"
+        },
+        {
+          "name": "shadow-current-color",
+          "filter": "drop-shadow(currentColor 6px 8px 12px)",
+          "color": "#e0208090",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(224, 32, 128, 0.565) 6px 8px 12px)",
+          "file": "foreground-shadow-current-color-linux.png"
+        },
+        {
+          "name": "shadow-inherited-color",
+          "filter": "drop-shadow(6px 8px 12px)",
+          "parentColor": "#e0208090",
+          "layerBackground": "transparent",
+          "computed": "drop-shadow(rgba(224, 32, 128, 0.565) 6px 8px 12px)",
+          "file": "foreground-shadow-inherited-color-linux.png"
+        },
+        {
+          "name": "rounded-source-78",
+          "filter": "none",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "computed": "none",
+          "file": "foreground-rounded-source-78-linux.png"
+        },
+        {
+          "name": "rounded-parent-79",
+          "filter": "none",
+          "clipped": true,
+          "parentRadius": 70,
+          "computed": "none",
+          "file": "foreground-rounded-parent-79-linux.png"
+        },
+        {
+          "name": "rounded-groups-80",
+          "filter": "none",
+          "clipped": true,
+          "parentRadius": 70,
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "blur(4px) sepia(80%)",
+          "computed": "none",
+          "file": "foreground-rounded-groups-80-linux.png"
+        },
+        {
+          "name": "rounded-picture-81",
+          "filter": "none",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "picture": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "none",
+          "file": "foreground-rounded-picture-81-linux.png",
+          "sourceFile": "foreground-source-linux.png"
+        },
+        {
+          "name": "rounded-source-82",
+          "filter": "blur(4px)",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "computed": "blur(4px)",
+          "file": "foreground-rounded-source-82-linux.png"
+        },
+        {
+          "name": "rounded-parent-83",
+          "filter": "blur(4px)",
+          "clipped": true,
+          "parentRadius": 70,
+          "computed": "blur(4px)",
+          "file": "foreground-rounded-parent-83-linux.png"
+        },
+        {
+          "name": "rounded-groups-84",
+          "filter": "blur(4px)",
+          "clipped": true,
+          "parentRadius": 70,
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "blur(4px) sepia(80%)",
+          "computed": "blur(4px)",
+          "file": "foreground-rounded-groups-84-linux.png"
+        },
+        {
+          "name": "rounded-picture-85",
+          "filter": "blur(4px)",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "picture": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "blur(4px)",
+          "file": "foreground-rounded-picture-85-linux.png",
+          "sourceFile": "foreground-source-linux.png"
+        },
+        {
+          "name": "rounded-source-86",
+          "filter": "invert(80%)",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "computed": "invert(0.8)",
+          "file": "foreground-rounded-source-86-linux.png"
+        },
+        {
+          "name": "rounded-parent-87",
+          "filter": "invert(80%)",
+          "clipped": true,
+          "parentRadius": 70,
+          "computed": "invert(0.8)",
+          "file": "foreground-rounded-parent-87-linux.png"
+        },
+        {
+          "name": "rounded-groups-88",
+          "filter": "invert(80%)",
+          "clipped": true,
+          "parentRadius": 70,
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "blur(4px) sepia(80%)",
+          "computed": "invert(0.8)",
+          "file": "foreground-rounded-groups-88-linux.png"
+        },
+        {
+          "name": "rounded-picture-89",
+          "filter": "invert(80%)",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "picture": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "invert(0.8)",
+          "file": "foreground-rounded-picture-89-linux.png",
+          "sourceFile": "foreground-source-linux.png"
+        },
+        {
+          "name": "rounded-source-90",
+          "filter": "drop-shadow(0 6px 12px #40e080bf)",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "computed": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)",
+          "file": "foreground-rounded-source-90-linux.png"
+        },
+        {
+          "name": "rounded-parent-91",
+          "filter": "drop-shadow(0 6px 12px #40e080bf)",
+          "clipped": true,
+          "parentRadius": 70,
+          "computed": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)",
+          "file": "foreground-rounded-parent-91-linux.png"
+        },
+        {
+          "name": "rounded-groups-92",
+          "filter": "drop-shadow(0 6px 12px #40e080bf)",
+          "clipped": true,
+          "parentRadius": 70,
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "opacity": 0.65,
+          "parentOpacity": 0.5,
+          "nested": "blur(4px) sepia(80%)",
+          "computed": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)",
+          "file": "foreground-rounded-groups-92-linux.png"
+        },
+        {
+          "name": "rounded-picture-93",
+          "filter": "drop-shadow(0 6px 12px #40e080bf)",
+          "sourceClipped": true,
+          "sourceRadius": 36,
+          "picture": true,
+          "scale": 1.1,
+          "opacity": 0.8,
+          "computed": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)",
+          "file": "foreground-rounded-picture-93-linux.png",
+          "sourceFile": "foreground-source-linux.png"
+        }
+      ],
+      "cascades": [
+        {
+          "source": "span{filter:blur(3px)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:BLUR(2REM)}",
+          "filter": "blur(32px)"
+        },
+        {
+          "source": "span{filter:blur( /* gap */ 5px)}",
+          "filter": "blur(5px)"
+        },
+        {
+          "source": "span{filter:blur()}",
+          "filter": "blur(0px)"
+        },
+        {
+          "source": "span{filter:blur(0)}",
+          "filter": "blur(0px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:blur(-1px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:blur(1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:blur(50%)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:blur(3px) bogus}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:\"blur(3px)\"}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "body{filter:blur(9px)}",
+          "filter": "none"
+        },
+        {
+          "source": "body{filter:blur(9px)}span{filter:inherit}",
+          "filter": "blur(9px)"
+        },
+        {
+          "source": "body{filter:blur(9px)}span{filter:unset}",
+          "filter": "none"
+        },
+        {
+          "source": "body{filter:blur(9px)}span{filter:initial}",
+          "filter": "none"
+        },
+        {
+          "source": "body{filter:blur(9px)}span{filter:revert}",
+          "filter": "none"
+        },
+        {
+          "source": "body{--blur:5px}span{filter:blur(var(--blur))}",
+          "filter": "blur(5px)"
+        },
+        {
+          "source": "span{filter:blur(12px) saturate(180%)}",
+          "filter": "blur(12px) saturate(1.8)"
+        },
+        {
+          "source": "span{filter:saturate()}",
+          "filter": "saturate(1)"
+        },
+        {
+          "source": "span{filter:saturate(0)}",
+          "filter": "saturate(0)"
+        },
+        {
+          "source": "span{filter:saturate(50%)}",
+          "filter": "saturate(0.5)"
+        },
+        {
+          "source": "span{filter:BLUR(2PX) SATURATE(200%)}",
+          "filter": "blur(2px) saturate(2)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:blur(3px) saturate(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:blur(3px) saturate(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "body{filter:blur(9px) saturate(3)}span{filter:inherit}",
+          "filter": "blur(9px) saturate(3)"
+        },
+        {
+          "source": "body{--blur:5px;--saturation:150%}span{filter:blur(var(--blur)) saturate(var(--saturation))}",
+          "filter": "blur(5px) saturate(1.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness()}",
+          "filter": "brightness(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(0)}",
+          "filter": "brightness(0)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(.5)}",
+          "filter": "brightness(0.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(180%)}",
+          "filter": "brightness(1.8)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast()}",
+          "filter": "contrast(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast(0)}",
+          "filter": "contrast(0)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast(.5)}",
+          "filter": "contrast(0.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast(180%)}",
+          "filter": "contrast(1.8)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:contrast(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate()}",
+          "filter": "saturate(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(0)}",
+          "filter": "saturate(0)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(.5)}",
+          "filter": "saturate(0.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(180%)}",
+          "filter": "saturate(1.8)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:saturate(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale()}",
+          "filter": "grayscale(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale(0)}",
+          "filter": "grayscale(0)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale(.5)}",
+          "filter": "grayscale(0.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale(180%)}",
+          "filter": "grayscale(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:grayscale(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia()}",
+          "filter": "sepia(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(0)}",
+          "filter": "sepia(0)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(.5)}",
+          "filter": "sepia(0.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(180%)}",
+          "filter": "sepia(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert()}",
+          "filter": "invert(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert(0)}",
+          "filter": "invert(0)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert(.5)}",
+          "filter": "invert(0.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert(180%)}",
+          "filter": "invert(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:invert(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity()}",
+          "filter": "opacity(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity(0)}",
+          "filter": "opacity(0)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity(.5)}",
+          "filter": "opacity(0.5)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity(180%)}",
+          "filter": "opacity(1)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity(-1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity(2px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity(2 3)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:opacity(Infinity)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate()}",
+          "filter": "hue-rotate(0deg)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(0)}",
+          "filter": "hue-rotate(0deg)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(90deg)}",
+          "filter": "hue-rotate(90deg)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(-.5turn)}",
+          "filter": "hue-rotate(-180deg)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(100grad)}",
+          "filter": "hue-rotate(90deg)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(1rad)}",
+          "filter": "hue-rotate(57.2958deg)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(20%)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:hue-rotate(NaN)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(2) blur(3px)}",
+          "filter": "brightness(2) blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:blur(2px) blur(4px)}",
+          "filter": "blur(2px) blur(4px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:sepia(.5) invert(.2)}",
+          "filter": "sepia(0.5) invert(0.2)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:none blur(3px)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(2), contrast(1)}",
+          "filter": "blur(6px)"
+        },
+        {
+          "source": "body{filter:brightness(2) blur(3px)}span{filter:inherit}",
+          "filter": "brightness(2) blur(3px)"
+        },
+        {
+          "source": "body{filter:sepia(.5) invert(.2)}span{filter:unset}",
+          "filter": "none"
+        },
+        {
+          "source": "body{--filter:brightness(2) blur(3px)}span{filter:var(--filter)}",
+          "filter": "brightness(2) blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(6px);filter:brightness(var(--missing))}",
+          "filter": "none"
+        },
+        {
+          "source": "span{filter:BRIGHTNESS( /* comment */ 50%) INVERT(.2)}",
+          "filter": "brightness(0.5) invert(0.2)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0)}",
+          "filter": "drop-shadow(rgb(0, 0, 0) 0px 0px 0px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(12px -8px #a0e06080)}",
+          "filter": "drop-shadow(rgba(160, 224, 96, 0.5) 12px -8px 0px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 6px 4px #0008)}",
+          "filter": "drop-shadow(rgba(0, 0, 0, 0.533) 0px 6px 4px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(#d030a080 -12px 8px 12px)}",
+          "filter": "drop-shadow(rgba(208, 48, 160, 0.5) -12px 8px 12px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 6px 20px rgb(0 0 0 / 50%)) drop-shadow(0 2px 8px rgb(0 0 0 / 40%))}",
+          "filter": "drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 20px) drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 8px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 16px 40px rgb(0 0 0 / 60%)) drop-shadow(0 6px 16px rgb(0 0 0 / 50%))}",
+          "filter": "drop-shadow(rgba(0, 0, 0, 0.6) 0px 16px 40px) drop-shadow(rgba(0, 0, 0, 0.5) 0px 6px 16px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0 4px red) drop-shadow(12px 8px 12px blue)}",
+          "filter": "drop-shadow(rgb(255, 0, 0) 0px 0px 4px) drop-shadow(rgb(0, 0, 255) 12px 8px 12px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(12px 8px 12px blue) drop-shadow(0 0 4px red)}",
+          "filter": "drop-shadow(rgb(0, 0, 255) 12px 8px 12px) drop-shadow(rgb(255, 0, 0) 0px 0px 4px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 6px 12px #40e080bf) invert(80%)}",
+          "filter": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px) invert(0.8)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:invert(80%) drop-shadow(0 6px 12px #40e080bf)}",
+          "filter": "invert(0.8) drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 6px 12px #40e080bf) blur(4px)}",
+          "filter": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px) blur(4px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:blur(4px) drop-shadow(0 6px 12px #40e080bf)}",
+          "filter": "blur(4px) drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:opacity(50%) drop-shadow(0 6px 12px #40e080bf)}",
+          "filter": "opacity(0.5) drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 6px 12px #40e080bf) opacity(50%)}",
+          "filter": "drop-shadow(rgba(64, 224, 128, 0.75) 0px 6px 12px) opacity(0.5)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0 4px transparent)}",
+          "filter": "drop-shadow(rgba(0, 0, 0, 0) 0px 0px 4px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(currentColor 0 .5rem 1em)}",
+          "filter": "drop-shadow(rgb(0, 0, 0) 0px 8px 16px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0 0)}",
+          "filter": "drop-shadow(rgb(0, 0, 0) 0px 0px 0px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow()}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(red)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0 -1px)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0 1px 2px)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 red 0)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0 red 1px)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(0 0 2%)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(1 2)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{filter:blur(3px);filter:drop-shadow(red 0 0 blue)}",
+          "filter": "blur(3px)"
+        },
+        {
+          "source": "span{color:#e0208090;filter:drop-shadow(6px 8px 12px)}",
+          "filter": "drop-shadow(rgba(224, 32, 128, 0.565) 6px 8px 12px)"
+        },
+        {
+          "source": "span{filter:drop-shadow(currentColor 6px 8px 12px);color:#e0208090}",
+          "filter": "drop-shadow(rgba(224, 32, 128, 0.565) 6px 8px 12px)"
+        },
+        {
+          "source": "body{color:#e0208090}span{filter:drop-shadow(6px 8px 12px)}",
+          "filter": "drop-shadow(rgba(224, 32, 128, 0.565) 6px 8px 12px)"
+        },
+        {
+          "source": "body{color:red;filter:drop-shadow(6px 8px 12px)}span{color:blue;filter:inherit}",
+          "filter": "drop-shadow(rgb(0, 0, 255) 6px 8px 12px)"
+        },
+        {
+          "source": "body{color:red;filter:drop-shadow(6px 8px 12px)}span{color:blue;filter:drop-shadow(6px 8px 12px)}",
+          "filter": "drop-shadow(rgb(0, 0, 255) 6px 8px 12px)"
+        },
+        {
+          "source": "span{--color:#e0208090;color:var(--color);filter:drop-shadow(6px 8px 12px)}",
+          "filter": "drop-shadow(rgba(224, 32, 128, 0.565) 6px 8px 12px)"
+        }
+      ]
+    }
+  }
+}

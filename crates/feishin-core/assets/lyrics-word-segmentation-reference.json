@@ -1,0 +1,2818 @@
+[
+  {
+    "word": {
+      "text": "",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "short",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "short",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "short",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "short",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "short",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "short",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "short",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "short",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "hello ",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "hello ",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "hello ",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "hello ",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "hello ",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "hello ",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "hello ",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "hello ",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "hello ",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "hello ",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "hello ",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "hello ",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "hello ",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "hello ",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "hello ",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "hello ",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "longlatinword",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "longlatinword",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "longlatinword",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "longlatinword",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "longlatinword",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "longlatinword",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "longlatinword",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "longlatinword",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "long-latin-word",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "long-latin-word",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "long-latin-word",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "long-latin-word",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "long-latin-word",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "long-latin-word",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "long-latin-word",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "long-latin-word",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "two words",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "two words",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "two words",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "two words",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "two words",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "two words",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "two words",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "two words",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "1234567890",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "1234567890",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "1234567890",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "1234567890",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "1234567890",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "1234567890",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "1234567890",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "1234567890",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "漢字音楽世界美好",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "漢字"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "音楽"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "世界"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": false,
+        "startMs": 1234,
+        "text": "美好"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "漢字音楽世界美好",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1236.5,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "漢字"
+      },
+      {
+        "endMs": 1239,
+        "isWrapAfter": true,
+        "startMs": 1236.5,
+        "text": "音楽"
+      },
+      {
+        "endMs": 1241.5,
+        "isWrapAfter": true,
+        "startMs": 1239,
+        "text": "世界"
+      },
+      {
+        "endMs": 1244,
+        "isWrapAfter": false,
+        "startMs": 1241.5,
+        "text": "美好"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "漢字音楽世界美好",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1359,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "漢字"
+      },
+      {
+        "endMs": 1484,
+        "isWrapAfter": true,
+        "startMs": 1359,
+        "text": "音楽"
+      },
+      {
+        "endMs": 1609,
+        "isWrapAfter": true,
+        "startMs": 1484,
+        "text": "世界"
+      },
+      {
+        "endMs": 1734,
+        "isWrapAfter": false,
+        "startMs": 1609,
+        "text": "美好"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "漢字音楽世界美好",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1734,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "漢字"
+      },
+      {
+        "endMs": 2234,
+        "isWrapAfter": true,
+        "startMs": 1734,
+        "text": "音楽"
+      },
+      {
+        "endMs": 2734,
+        "isWrapAfter": true,
+        "startMs": 2234,
+        "text": "世界"
+      },
+      {
+        "endMs": 3234,
+        "isWrapAfter": false,
+        "startMs": 2734,
+        "text": "美好"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "日本語の歌詞こんにちは世界",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "日本語"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "の"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "歌詞"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "こんにちは"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": false,
+        "startMs": 1234,
+        "text": "世界"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "日本語の歌詞こんにちは世界",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1236,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "日本語"
+      },
+      {
+        "endMs": 1238,
+        "isWrapAfter": true,
+        "startMs": 1236,
+        "text": "の"
+      },
+      {
+        "endMs": 1240,
+        "isWrapAfter": true,
+        "startMs": 1238,
+        "text": "歌詞"
+      },
+      {
+        "endMs": 1242,
+        "isWrapAfter": true,
+        "startMs": 1240,
+        "text": "こんにちは"
+      },
+      {
+        "endMs": 1244,
+        "isWrapAfter": false,
+        "startMs": 1242,
+        "text": "世界"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "日本語の歌詞こんにちは世界",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1334,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "日本語"
+      },
+      {
+        "endMs": 1434,
+        "isWrapAfter": true,
+        "startMs": 1334,
+        "text": "の"
+      },
+      {
+        "endMs": 1534,
+        "isWrapAfter": true,
+        "startMs": 1434,
+        "text": "歌詞"
+      },
+      {
+        "endMs": 1634,
+        "isWrapAfter": true,
+        "startMs": 1534,
+        "text": "こんにちは"
+      },
+      {
+        "endMs": 1734,
+        "isWrapAfter": false,
+        "startMs": 1634,
+        "text": "世界"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "日本語の歌詞こんにちは世界",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1634,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "日本語"
+      },
+      {
+        "endMs": 2034,
+        "isWrapAfter": true,
+        "startMs": 1634,
+        "text": "の"
+      },
+      {
+        "endMs": 2434,
+        "isWrapAfter": true,
+        "startMs": 2034,
+        "text": "歌詞"
+      },
+      {
+        "endMs": 2834,
+        "isWrapAfter": true,
+        "startMs": 2434,
+        "text": "こんにちは"
+      },
+      {
+        "endMs": 3234,
+        "isWrapAfter": false,
+        "startMs": 2834,
+        "text": "世界"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "こんにちは",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "こんにちは",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "こんにちは",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "こんにちは",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "こんにちは",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "こんにちは",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "こんにちは",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "こんにちは",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "カタカナヒラガナ",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "カ"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "タ"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "カ"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ナ"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ヒ"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ラ"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ガ"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": false,
+        "startMs": 1234,
+        "text": "ナ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "カタカナヒラガナ",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1235.25,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "カ"
+      },
+      {
+        "endMs": 1236.5,
+        "isWrapAfter": true,
+        "startMs": 1235.25,
+        "text": "タ"
+      },
+      {
+        "endMs": 1237.75,
+        "isWrapAfter": true,
+        "startMs": 1236.5,
+        "text": "カ"
+      },
+      {
+        "endMs": 1239,
+        "isWrapAfter": true,
+        "startMs": 1237.75,
+        "text": "ナ"
+      },
+      {
+        "endMs": 1240.25,
+        "isWrapAfter": true,
+        "startMs": 1239,
+        "text": "ヒ"
+      },
+      {
+        "endMs": 1241.5,
+        "isWrapAfter": true,
+        "startMs": 1240.25,
+        "text": "ラ"
+      },
+      {
+        "endMs": 1242.75,
+        "isWrapAfter": true,
+        "startMs": 1241.5,
+        "text": "ガ"
+      },
+      {
+        "endMs": 1244,
+        "isWrapAfter": false,
+        "startMs": 1242.75,
+        "text": "ナ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "カタカナヒラガナ",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1296.5,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "カ"
+      },
+      {
+        "endMs": 1359,
+        "isWrapAfter": true,
+        "startMs": 1296.5,
+        "text": "タ"
+      },
+      {
+        "endMs": 1421.5,
+        "isWrapAfter": true,
+        "startMs": 1359,
+        "text": "カ"
+      },
+      {
+        "endMs": 1484,
+        "isWrapAfter": true,
+        "startMs": 1421.5,
+        "text": "ナ"
+      },
+      {
+        "endMs": 1546.5,
+        "isWrapAfter": true,
+        "startMs": 1484,
+        "text": "ヒ"
+      },
+      {
+        "endMs": 1609,
+        "isWrapAfter": true,
+        "startMs": 1546.5,
+        "text": "ラ"
+      },
+      {
+        "endMs": 1671.5,
+        "isWrapAfter": true,
+        "startMs": 1609,
+        "text": "ガ"
+      },
+      {
+        "endMs": 1734,
+        "isWrapAfter": false,
+        "startMs": 1671.5,
+        "text": "ナ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "カタカナヒラガナ",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1484,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "カ"
+      },
+      {
+        "endMs": 1734,
+        "isWrapAfter": true,
+        "startMs": 1484,
+        "text": "タ"
+      },
+      {
+        "endMs": 1984,
+        "isWrapAfter": true,
+        "startMs": 1734,
+        "text": "カ"
+      },
+      {
+        "endMs": 2234,
+        "isWrapAfter": true,
+        "startMs": 1984,
+        "text": "ナ"
+      },
+      {
+        "endMs": 2484,
+        "isWrapAfter": true,
+        "startMs": 2234,
+        "text": "ヒ"
+      },
+      {
+        "endMs": 2734,
+        "isWrapAfter": true,
+        "startMs": 2484,
+        "text": "ラ"
+      },
+      {
+        "endMs": 2984,
+        "isWrapAfter": true,
+        "startMs": 2734,
+        "text": "ガ"
+      },
+      {
+        "endMs": 3234,
+        "isWrapAfter": false,
+        "startMs": 2984,
+        "text": "ナ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "한국어음악가사",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "한"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "국"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "어"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "음"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "악"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "가"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": false,
+        "startMs": 1234,
+        "text": "사"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "한국어음악가사",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1235.4285714285713,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "한"
+      },
+      {
+        "endMs": 1236.857142857143,
+        "isWrapAfter": true,
+        "startMs": 1235.4285714285713,
+        "text": "국"
+      },
+      {
+        "endMs": 1238.2857142857142,
+        "isWrapAfter": true,
+        "startMs": 1236.857142857143,
+        "text": "어"
+      },
+      {
+        "endMs": 1239.7142857142858,
+        "isWrapAfter": true,
+        "startMs": 1238.2857142857142,
+        "text": "음"
+      },
+      {
+        "endMs": 1241.142857142857,
+        "isWrapAfter": true,
+        "startMs": 1239.7142857142858,
+        "text": "악"
+      },
+      {
+        "endMs": 1242.5714285714287,
+        "isWrapAfter": true,
+        "startMs": 1241.142857142857,
+        "text": "가"
+      },
+      {
+        "endMs": 1244,
+        "isWrapAfter": false,
+        "startMs": 1242.5714285714287,
+        "text": "사"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "한국어음악가사",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1305.4285714285713,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "한"
+      },
+      {
+        "endMs": 1376.857142857143,
+        "isWrapAfter": true,
+        "startMs": 1305.4285714285713,
+        "text": "국"
+      },
+      {
+        "endMs": 1448.2857142857142,
+        "isWrapAfter": true,
+        "startMs": 1376.857142857143,
+        "text": "어"
+      },
+      {
+        "endMs": 1519.7142857142858,
+        "isWrapAfter": true,
+        "startMs": 1448.2857142857142,
+        "text": "음"
+      },
+      {
+        "endMs": 1591.142857142857,
+        "isWrapAfter": true,
+        "startMs": 1519.7142857142858,
+        "text": "악"
+      },
+      {
+        "endMs": 1662.5714285714284,
+        "isWrapAfter": true,
+        "startMs": 1591.142857142857,
+        "text": "가"
+      },
+      {
+        "endMs": 1734,
+        "isWrapAfter": false,
+        "startMs": 1662.5714285714284,
+        "text": "사"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "한국어음악가사",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1519.7142857142858,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "한"
+      },
+      {
+        "endMs": 1805.4285714285716,
+        "isWrapAfter": true,
+        "startMs": 1519.7142857142858,
+        "text": "국"
+      },
+      {
+        "endMs": 2091.142857142857,
+        "isWrapAfter": true,
+        "startMs": 1805.4285714285716,
+        "text": "어"
+      },
+      {
+        "endMs": 2376.857142857143,
+        "isWrapAfter": true,
+        "startMs": 2091.142857142857,
+        "text": "음"
+      },
+      {
+        "endMs": 2662.5714285714284,
+        "isWrapAfter": true,
+        "startMs": 2376.857142857143,
+        "text": "악"
+      },
+      {
+        "endMs": 2948.285714285714,
+        "isWrapAfter": true,
+        "startMs": 2662.5714285714284,
+        "text": "가"
+      },
+      {
+        "endMs": 3234,
+        "isWrapAfter": false,
+        "startMs": 2948.285714285714,
+        "text": "사"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ภาษาไทยทุกสองสัปดาห์",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ภาษา"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ไทย"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ทุก"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "สอง"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": false,
+        "startMs": 1234,
+        "text": "สัปดาห์"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ภาษาไทยทุกสองสัปดาห์",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1236,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ภาษา"
+      },
+      {
+        "endMs": 1238,
+        "isWrapAfter": true,
+        "startMs": 1236,
+        "text": "ไทย"
+      },
+      {
+        "endMs": 1240,
+        "isWrapAfter": true,
+        "startMs": 1238,
+        "text": "ทุก"
+      },
+      {
+        "endMs": 1242,
+        "isWrapAfter": true,
+        "startMs": 1240,
+        "text": "สอง"
+      },
+      {
+        "endMs": 1244,
+        "isWrapAfter": false,
+        "startMs": 1242,
+        "text": "สัปดาห์"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ภาษาไทยทุกสองสัปดาห์",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1334,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ภาษา"
+      },
+      {
+        "endMs": 1434,
+        "isWrapAfter": true,
+        "startMs": 1334,
+        "text": "ไทย"
+      },
+      {
+        "endMs": 1534,
+        "isWrapAfter": true,
+        "startMs": 1434,
+        "text": "ทุก"
+      },
+      {
+        "endMs": 1634,
+        "isWrapAfter": true,
+        "startMs": 1534,
+        "text": "สอง"
+      },
+      {
+        "endMs": 1734,
+        "isWrapAfter": false,
+        "startMs": 1634,
+        "text": "สัปดาห์"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ภาษาไทยทุกสองสัปดาห์",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1634,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ภาษา"
+      },
+      {
+        "endMs": 2034,
+        "isWrapAfter": true,
+        "startMs": 1634,
+        "text": "ไทย"
+      },
+      {
+        "endMs": 2434,
+        "isWrapAfter": true,
+        "startMs": 2034,
+        "text": "ทุก"
+      },
+      {
+        "endMs": 2834,
+        "isWrapAfter": true,
+        "startMs": 2434,
+        "text": "สอง"
+      },
+      {
+        "endMs": 3234,
+        "isWrapAfter": false,
+        "startMs": 2834,
+        "text": "สัปดาห์"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ພາສາລາວ",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ພາສາ"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": false,
+        "startMs": 1234,
+        "text": "ລາວ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ພາສາລາວ",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1239,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ພາສາ"
+      },
+      {
+        "endMs": 1244,
+        "isWrapAfter": false,
+        "startMs": 1239,
+        "text": "ລາວ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ພາສາລາວ",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1484,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ພາສາ"
+      },
+      {
+        "endMs": 1734,
+        "isWrapAfter": false,
+        "startMs": 1484,
+        "text": "ລາວ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ພາສາລາວ",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 2234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ພາສາ"
+      },
+      {
+        "endMs": 3234,
+        "isWrapAfter": false,
+        "startMs": 2234,
+        "text": "ລາວ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ភាសាខ្មែរ",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ភា"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "សា"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ខ្មែ"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": false,
+        "startMs": 1234,
+        "text": "រ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ភាសាខ្មែរ",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1236.5,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ភា"
+      },
+      {
+        "endMs": 1239,
+        "isWrapAfter": true,
+        "startMs": 1236.5,
+        "text": "សា"
+      },
+      {
+        "endMs": 1241.5,
+        "isWrapAfter": true,
+        "startMs": 1239,
+        "text": "ខ្មែ"
+      },
+      {
+        "endMs": 1244,
+        "isWrapAfter": false,
+        "startMs": 1241.5,
+        "text": "រ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ភាសាខ្មែរ",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1359,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ភា"
+      },
+      {
+        "endMs": 1484,
+        "isWrapAfter": true,
+        "startMs": 1359,
+        "text": "សា"
+      },
+      {
+        "endMs": 1609,
+        "isWrapAfter": true,
+        "startMs": 1484,
+        "text": "ខ្មែ"
+      },
+      {
+        "endMs": 1734,
+        "isWrapAfter": false,
+        "startMs": 1609,
+        "text": "រ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ភាសាខ្មែរ",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1734,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ភា"
+      },
+      {
+        "endMs": 2234,
+        "isWrapAfter": true,
+        "startMs": 1734,
+        "text": "សា"
+      },
+      {
+        "endMs": 2734,
+        "isWrapAfter": true,
+        "startMs": 2234,
+        "text": "ខ្មែ"
+      },
+      {
+        "endMs": 3234,
+        "isWrapAfter": false,
+        "startMs": 2734,
+        "text": "រ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "မြန်မာဘာသာ",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "မြ"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "န်"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "မ"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ာ"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ဘ"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "ာ"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "သ"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": false,
+        "startMs": 1234,
+        "text": "ာ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "မြန်မာဘာသာ",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1235.25,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "မြ"
+      },
+      {
+        "endMs": 1236.5,
+        "isWrapAfter": true,
+        "startMs": 1235.25,
+        "text": "န်"
+      },
+      {
+        "endMs": 1237.75,
+        "isWrapAfter": true,
+        "startMs": 1236.5,
+        "text": "မ"
+      },
+      {
+        "endMs": 1239,
+        "isWrapAfter": true,
+        "startMs": 1237.75,
+        "text": "ာ"
+      },
+      {
+        "endMs": 1240.25,
+        "isWrapAfter": true,
+        "startMs": 1239,
+        "text": "ဘ"
+      },
+      {
+        "endMs": 1241.5,
+        "isWrapAfter": true,
+        "startMs": 1240.25,
+        "text": "ာ"
+      },
+      {
+        "endMs": 1242.75,
+        "isWrapAfter": true,
+        "startMs": 1241.5,
+        "text": "သ"
+      },
+      {
+        "endMs": 1244,
+        "isWrapAfter": false,
+        "startMs": 1242.75,
+        "text": "ာ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "မြန်မာဘာသာ",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1296.5,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "မြ"
+      },
+      {
+        "endMs": 1359,
+        "isWrapAfter": true,
+        "startMs": 1296.5,
+        "text": "န်"
+      },
+      {
+        "endMs": 1421.5,
+        "isWrapAfter": true,
+        "startMs": 1359,
+        "text": "မ"
+      },
+      {
+        "endMs": 1484,
+        "isWrapAfter": true,
+        "startMs": 1421.5,
+        "text": "ာ"
+      },
+      {
+        "endMs": 1546.5,
+        "isWrapAfter": true,
+        "startMs": 1484,
+        "text": "ဘ"
+      },
+      {
+        "endMs": 1609,
+        "isWrapAfter": true,
+        "startMs": 1546.5,
+        "text": "ာ"
+      },
+      {
+        "endMs": 1671.5,
+        "isWrapAfter": true,
+        "startMs": 1609,
+        "text": "သ"
+      },
+      {
+        "endMs": 1734,
+        "isWrapAfter": false,
+        "startMs": 1671.5,
+        "text": "ာ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "မြန်မာဘာသာ",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1484,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "မြ"
+      },
+      {
+        "endMs": 1734,
+        "isWrapAfter": true,
+        "startMs": 1484,
+        "text": "န်"
+      },
+      {
+        "endMs": 1984,
+        "isWrapAfter": true,
+        "startMs": 1734,
+        "text": "မ"
+      },
+      {
+        "endMs": 2234,
+        "isWrapAfter": true,
+        "startMs": 1984,
+        "text": "ာ"
+      },
+      {
+        "endMs": 2484,
+        "isWrapAfter": true,
+        "startMs": 2234,
+        "text": "ဘ"
+      },
+      {
+        "endMs": 2734,
+        "isWrapAfter": true,
+        "startMs": 2484,
+        "text": "ာ"
+      },
+      {
+        "endMs": 2984,
+        "isWrapAfter": true,
+        "startMs": 2734,
+        "text": "သ"
+      },
+      {
+        "endMs": 3234,
+        "isWrapAfter": false,
+        "startMs": 2984,
+        "text": "ာ"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "שלוםעולם",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "שלוםעולם",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "שלוםעולם",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "שלוםעולם",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "שלוםעולם",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "שלוםעולם",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "שלוםעולם",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "שלוםעולם",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "اللغةالعربية",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "اللغةالعربية",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "اللغةالعربية",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "اللغةالعربية",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "اللغةالعربية",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "اللغةالعربية",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "اللغةالعربية",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "اللغةالعربية",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ܠܫܢܐܣܘܪܝܝܐ",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "ܠܫܢܐܣܘܪܝܝܐ",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ܠܫܢܐܣܘܪܝܝܐ",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "ܠܫܢܐܣܘܪܝܝܐ",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ܠܫܢܐܣܘܪܝܝܐ",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "ܠܫܢܐܣܘܪܝܝܐ",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ܠܫܢܐܣܘܪܝܝܐ",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "ܠܫܢܐܣܘܪܝܝܐ",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ދިވެހި",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "ދިވެހި",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ދިވެހި",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "ދިވެހި",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ދިވެހި",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "ދިވެހި",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ދިވެހި",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": true,
+    "expected": [
+      {
+        "text": "ދިވެހި",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "🙂🙂🙂",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "🙂"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "🙂"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": false,
+        "startMs": 1234,
+        "text": "🙂"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "🙂🙂🙂",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1237.3333333333333,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "🙂"
+      },
+      {
+        "endMs": 1240.6666666666667,
+        "isWrapAfter": true,
+        "startMs": 1237.3333333333333,
+        "text": "🙂"
+      },
+      {
+        "endMs": 1244,
+        "isWrapAfter": false,
+        "startMs": 1240.6666666666667,
+        "text": "🙂"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "🙂🙂🙂",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1400.6666666666667,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "🙂"
+      },
+      {
+        "endMs": 1567.3333333333333,
+        "isWrapAfter": true,
+        "startMs": 1400.6666666666667,
+        "text": "🙂"
+      },
+      {
+        "endMs": 1734,
+        "isWrapAfter": false,
+        "startMs": 1567.3333333333333,
+        "text": "🙂"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "🙂🙂🙂",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1900.6666666666665,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "🙂"
+      },
+      {
+        "endMs": 2567.333333333333,
+        "isWrapAfter": true,
+        "startMs": 1900.6666666666665,
+        "text": "🙂"
+      },
+      {
+        "endMs": 3234,
+        "isWrapAfter": false,
+        "startMs": 2567.333333333333,
+        "text": "🙂"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "👩‍👩‍👧‍👦🎵漢字",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "👩‍👩‍👧‍👦"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "🎵"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": false,
+        "startMs": 1234,
+        "text": "漢字"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "👩‍👩‍👧‍👦🎵漢字",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1237.3333333333333,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "👩‍👩‍👧‍👦"
+      },
+      {
+        "endMs": 1240.6666666666667,
+        "isWrapAfter": true,
+        "startMs": 1237.3333333333333,
+        "text": "🎵"
+      },
+      {
+        "endMs": 1244,
+        "isWrapAfter": false,
+        "startMs": 1240.6666666666667,
+        "text": "漢字"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "👩‍👩‍👧‍👦🎵漢字",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1400.6666666666667,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "👩‍👩‍👧‍👦"
+      },
+      {
+        "endMs": 1567.3333333333333,
+        "isWrapAfter": true,
+        "startMs": 1400.6666666666667,
+        "text": "🎵"
+      },
+      {
+        "endMs": 1734,
+        "isWrapAfter": false,
+        "startMs": 1567.3333333333333,
+        "text": "漢字"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "👩‍👩‍👧‍👦🎵漢字",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1900.6666666666665,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "👩‍👩‍👧‍👦"
+      },
+      {
+        "endMs": 2567.333333333333,
+        "isWrapAfter": true,
+        "startMs": 1900.6666666666665,
+        "text": "🎵"
+      },
+      {
+        "endMs": 3234,
+        "isWrapAfter": false,
+        "startMs": 2567.333333333333,
+        "text": "漢字"
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abc​def",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "abc​def",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abc​def",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "abc​def",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abc​def",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "abc​def",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abc​def",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "abc​def",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abc­def",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "abc­def",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abc­def",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "abc­def",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abc­def",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "abc­def",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abc­def",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "abc­def",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abcdef﻿",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "abcdef﻿",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abcdef﻿",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "abcdef﻿",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abcdef﻿",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "abcdef﻿",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abcdef﻿",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "abcdef﻿",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abcdef",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "abcdef"
+      },
+      {
+        "endMs": 1234,
+        "isWrapAfter": false,
+        "startMs": 1234,
+        "text": ""
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abcdef",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1239,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "abcdef"
+      },
+      {
+        "endMs": 1244,
+        "isWrapAfter": false,
+        "startMs": 1239,
+        "text": ""
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abcdef",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 1484,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "abcdef"
+      },
+      {
+        "endMs": 1734,
+        "isWrapAfter": false,
+        "startMs": 1484,
+        "text": ""
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "abcdef",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "endMs": 2234,
+        "isWrapAfter": true,
+        "startMs": 1234,
+        "text": "abcdef"
+      },
+      {
+        "endMs": 3234,
+        "isWrapAfter": false,
+        "startMs": 2234,
+        "text": ""
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ab‒cd",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "ab‒cd",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ab‒cd",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "ab‒cd",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ab‒cd",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "ab‒cd",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "ab‒cd",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "ab‒cd",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "CaféMusique",
+      "startMs": 1234,
+      "endMs": 1234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "CaféMusique",
+        "startMs": 1234,
+        "endMs": 1234,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "CaféMusique",
+      "startMs": 1234,
+      "endMs": 1244
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "CaféMusique",
+        "startMs": 1234,
+        "endMs": 1244,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "CaféMusique",
+      "startMs": 1234,
+      "endMs": 1734
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "CaféMusique",
+        "startMs": 1234,
+        "endMs": 1734,
+        "isWrapAfter": false
+      }
+    ]
+  },
+  {
+    "word": {
+      "text": "CaféMusique",
+      "startMs": 1234,
+      "endMs": 3234
+    },
+    "rtl": false,
+    "expected": [
+      {
+        "text": "CaféMusique",
+        "startMs": 1234,
+        "endMs": 3234,
+        "isWrapAfter": false
+      }
+    ]
+  }
+]

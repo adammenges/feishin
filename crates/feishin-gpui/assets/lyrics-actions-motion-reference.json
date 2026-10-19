@@ -1,0 +1,150 @@
+[
+  {
+    "phase": "frame",
+    "timing": {
+      "duration": "0.2s",
+      "easing": "ease-in-out"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "opacity": 0
+      },
+      {
+        "elapsed": 20,
+        "opacity": 0.0118335
+      },
+      {
+        "elapsed": 50,
+        "opacity": 0.0774972
+      },
+      {
+        "elapsed": 100,
+        "opacity": 0.3
+      },
+      {
+        "elapsed": 150,
+        "opacity": 0.522503
+      },
+      {
+        "elapsed": 199,
+        "opacity": 0.599972
+      },
+      {
+        "elapsed": 200,
+        "opacity": 0.6
+      }
+    ]
+  },
+  {
+    "phase": "control",
+    "timing": {
+      "duration": "0.2s",
+      "easing": "ease-in-out"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "opacity": 0
+      },
+      {
+        "elapsed": 20,
+        "opacity": 0.0197225
+      },
+      {
+        "elapsed": 50,
+        "opacity": 0.129162
+      },
+      {
+        "elapsed": 100,
+        "opacity": 0.5
+      },
+      {
+        "elapsed": 150,
+        "opacity": 0.870838
+      },
+      {
+        "elapsed": 199,
+        "opacity": 0.999953
+      },
+      {
+        "elapsed": 200,
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "phase": "focus",
+    "timing": {
+      "duration": "0.2s",
+      "easing": "ease-in-out"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "opacity": 0
+      },
+      {
+        "elapsed": 20,
+        "opacity": 0.0197225
+      },
+      {
+        "elapsed": 50,
+        "opacity": 0.129162
+      },
+      {
+        "elapsed": 100,
+        "opacity": 0.5
+      },
+      {
+        "elapsed": 150,
+        "opacity": 0.870838
+      },
+      {
+        "elapsed": 199,
+        "opacity": 0.999953
+      },
+      {
+        "elapsed": 200,
+        "opacity": 1
+      }
+    ]
+  },
+  {
+    "phase": "leave",
+    "timing": {
+      "duration": "0.2s",
+      "easing": "ease-in-out"
+    },
+    "frames": [
+      {
+        "elapsed": 0,
+        "opacity": 0.6
+      },
+      {
+        "elapsed": 20,
+        "opacity": 0.588167
+      },
+      {
+        "elapsed": 50,
+        "opacity": 0.522503
+      },
+      {
+        "elapsed": 100,
+        "opacity": 0.3
+      },
+      {
+        "elapsed": 150,
+        "opacity": 0.0774972
+      },
+      {
+        "elapsed": 199,
+        "opacity": 0.0000284084
+      },
+      {
+        "elapsed": 200,
+        "opacity": 0
+      }
+    ]
+  }
+]

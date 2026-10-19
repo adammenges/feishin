@@ -1,0 +1,322 @@
+{
+  "electron": "43.7.0",
+  "chromium": "150.0.7871.250",
+  "motion": "12.40.0",
+  "scenarios": [
+    {
+      "name": "missing",
+      "initial": {
+        "busy": false,
+        "hasLyrics": false,
+        "fade": true
+      },
+      "updates": [],
+      "frames": [
+        {
+          "milliseconds": 0,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 1
+        },
+        {
+          "milliseconds": 100,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 1
+        },
+        {
+          "milliseconds": 2999,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 1
+        },
+        {
+          "milliseconds": 3000,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 0
+        },
+        {
+          "milliseconds": 3100,
+          "mode": "missing",
+          "opacity": 0.691634,
+          "timers": 0
+        },
+        {
+          "milliseconds": 3250,
+          "mode": "missing",
+          "opacity": 0.315357,
+          "timers": 0
+        },
+        {
+          "milliseconds": 3499,
+          "mode": "missing",
+          "opacity": 0.0000075415,
+          "timers": 0
+        },
+        {
+          "milliseconds": 3500,
+          "mode": "missing",
+          "opacity": 0,
+          "timers": 0
+        }
+      ]
+    },
+    {
+      "name": "persistent",
+      "initial": {
+        "busy": false,
+        "hasLyrics": false,
+        "fade": false
+      },
+      "updates": [],
+      "frames": [
+        {
+          "milliseconds": 0,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 0
+        },
+        {
+          "milliseconds": 3000,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 0
+        },
+        {
+          "milliseconds": 3500,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 0
+        },
+        {
+          "milliseconds": 10000,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 0
+        }
+      ]
+    },
+    {
+      "name": "loading-to-missing",
+      "initial": {
+        "busy": true,
+        "hasLyrics": false,
+        "fade": true
+      },
+      "updates": [
+        [
+          1000,
+          {
+            "busy": false,
+            "hasLyrics": false,
+            "fade": true
+          }
+        ]
+      ],
+      "frames": [
+        {
+          "milliseconds": 0,
+          "mode": "loading",
+          "opacity": null,
+          "timers": 0
+        },
+        {
+          "milliseconds": 999,
+          "mode": "loading",
+          "opacity": null,
+          "timers": 0
+        },
+        {
+          "milliseconds": 1000,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 1
+        },
+        {
+          "milliseconds": 3999,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 1
+        },
+        {
+          "milliseconds": 4000,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 0
+        },
+        {
+          "milliseconds": 4250,
+          "mode": "missing",
+          "opacity": 0.315357,
+          "timers": 0
+        },
+        {
+          "milliseconds": 4500,
+          "mode": "missing",
+          "opacity": 0,
+          "timers": 0
+        }
+      ]
+    },
+    {
+      "name": "text",
+      "initial": {
+        "busy": false,
+        "hasLyrics": true,
+        "fade": true
+      },
+      "updates": [],
+      "frames": [
+        {
+          "milliseconds": 0,
+          "mode": "text",
+          "opacity": 0,
+          "timers": 0
+        },
+        {
+          "milliseconds": 100,
+          "mode": "text",
+          "opacity": 0.308366,
+          "timers": 0
+        },
+        {
+          "milliseconds": 250,
+          "mode": "text",
+          "opacity": 0.684643,
+          "timers": 0
+        },
+        {
+          "milliseconds": 499,
+          "mode": "text",
+          "opacity": 0.999992,
+          "timers": 0
+        },
+        {
+          "milliseconds": 500,
+          "mode": "text",
+          "opacity": 1,
+          "timers": 0
+        }
+      ]
+    },
+    {
+      "name": "missing-to-text",
+      "initial": {
+        "busy": false,
+        "hasLyrics": false,
+        "fade": true
+      },
+      "updates": [
+        [
+          3250,
+          {
+            "busy": false,
+            "hasLyrics": true,
+            "fade": true
+          }
+        ]
+      ],
+      "frames": [
+        {
+          "milliseconds": 0,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 1
+        },
+        {
+          "milliseconds": 3000,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 0
+        },
+        {
+          "milliseconds": 3100,
+          "mode": "missing",
+          "opacity": 0.691634,
+          "timers": 0
+        },
+        {
+          "milliseconds": 3250,
+          "mode": "text",
+          "opacity": 0,
+          "timers": 0
+        },
+        {
+          "milliseconds": 3350,
+          "mode": "text",
+          "opacity": 0.308366,
+          "timers": 0
+        },
+        {
+          "milliseconds": 3500,
+          "mode": "text",
+          "opacity": 0.684643,
+          "timers": 0
+        },
+        {
+          "milliseconds": 3750,
+          "mode": "text",
+          "opacity": 1,
+          "timers": 0
+        }
+      ]
+    },
+    {
+      "name": "fade-toggle",
+      "initial": {
+        "busy": false,
+        "hasLyrics": false,
+        "fade": true
+      },
+      "updates": [
+        [
+          3250,
+          {
+            "busy": false,
+            "hasLyrics": false,
+            "fade": false
+          }
+        ]
+      ],
+      "frames": [
+        {
+          "milliseconds": 0,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 1
+        },
+        {
+          "milliseconds": 3000,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 0
+        },
+        {
+          "milliseconds": 3100,
+          "mode": "missing",
+          "opacity": 0.691634,
+          "timers": 0
+        },
+        {
+          "milliseconds": 3350,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 0
+        },
+        {
+          "milliseconds": 3500,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 0
+        },
+        {
+          "milliseconds": 3750,
+          "mode": "missing",
+          "opacity": 1,
+          "timers": 0
+        }
+      ]
+    }
+  ]
+}

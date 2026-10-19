@@ -1,0 +1,2146 @@
+{
+  "electron": "43.7.0",
+  "chromium": "150.0.7871.250",
+  "cases": [
+    {
+      "single": false,
+      "name": "default",
+      "css": "",
+      "elements": [
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--text-fz: var(--mantine-font-size-lg); --text-lh: var(--mantine-line-height-lg); --text-line-clamp: 2; font-weight: 700; text-align: center;",
+          "fontSize": 16,
+          "fontWeight": 700,
+          "lineHeight": 22,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            122.5859375,
+            22
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-artist",
+            "mantine-Text-root"
+          ],
+          "text": "Artist",
+          "inline": "--text-fz: var(--mantine-font-size-md); --text-lh: var(--mantine-line-height-md); --text-line-clamp: 1; font-weight: 500; text-align: center;",
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            96.2734375,
+            18
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "Rock",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            47.359375,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "Rock",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            29.359375,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "1999",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            44.9140625,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "1999",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            26.9140625,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": false,
+      "name": "normal-text",
+      "css": ".fs-feature-carousel-module-title,.fs-feature-carousel-module-artist{font-size:32px;font-weight:300;line-height:40px;color:rgb(20,80,120);text-shadow:none}",
+      "elements": [
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--text-fz: var(--mantine-font-size-lg); --text-lh: var(--mantine-line-height-lg); --text-line-clamp: 2; font-weight: 700; text-align: center;",
+          "fontSize": 32,
+          "fontWeight": 700,
+          "lineHeight": 40,
+          "color": "rgb(20, 80, 120)",
+          "shadow": "none",
+          "letterSpacing": "normal",
+          "bounds": [
+            234.1015625,
+            40
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-artist",
+            "mantine-Text-root"
+          ],
+          "text": "Artist",
+          "inline": "--text-fz: var(--mantine-font-size-md); --text-lh: var(--mantine-line-height-md); --text-line-clamp: 1; font-weight: 500; text-align: center;",
+          "fontSize": 32,
+          "fontWeight": 500,
+          "lineHeight": 40,
+          "color": "rgb(20, 80, 120)",
+          "shadow": "none",
+          "letterSpacing": "normal",
+          "bounds": [
+            96.2734375,
+            40
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "Rock",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            47.359375,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "Rock",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            29.359375,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "1999",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            44.9140625,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "1999",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            26.9140625,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": false,
+      "name": "important-text",
+      "css": ".fs-feature-carousel-module-title,.fs-feature-carousel-module-artist{font-size:32px!important;font-weight:300!important;line-height:40px!important;color:rgb(20,80,120);text-shadow:none}",
+      "elements": [
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--text-fz: var(--mantine-font-size-lg); --text-lh: var(--mantine-line-height-lg); --text-line-clamp: 2; font-weight: 700; text-align: center;",
+          "fontSize": 32,
+          "fontWeight": 300,
+          "lineHeight": 40,
+          "color": "rgb(20, 80, 120)",
+          "shadow": "none",
+          "letterSpacing": "normal",
+          "bounds": [
+            210.6953125,
+            40
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-artist",
+            "mantine-Text-root"
+          ],
+          "text": "Artist",
+          "inline": "--text-fz: var(--mantine-font-size-md); --text-lh: var(--mantine-line-height-md); --text-line-clamp: 1; font-weight: 500; text-align: center;",
+          "fontSize": 32,
+          "fontWeight": 300,
+          "lineHeight": 40,
+          "color": "rgb(20, 80, 120)",
+          "shadow": "none",
+          "letterSpacing": "normal",
+          "bounds": [
+            96.2734375,
+            40
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "Rock",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            47.359375,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "Rock",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            29.359375,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "1999",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            44.9140625,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "1999",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            26.9140625,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": false,
+      "name": "div-text",
+      "css": ".fs-feature-carousel-module-title-section>div.mantine-Text-root.fs-feature-carousel-module-title{font-size:25px;color:rgb(120,40,20)} .fs-feature-carousel-module-metadata-section>.mantine-Stack-root>div.mantine-Text-root.fs-feature-carousel-module-artist{font-size:21px}",
+      "elements": [
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--text-fz: var(--mantine-font-size-lg); --text-lh: var(--mantine-line-height-lg); --text-line-clamp: 2; font-weight: 700; text-align: center;",
+          "fontSize": 25,
+          "fontWeight": 700,
+          "lineHeight": 22,
+          "color": "rgb(120, 40, 20)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            186.6796875,
+            22
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-artist",
+            "mantine-Text-root"
+          ],
+          "text": "Artist",
+          "inline": "--text-fz: var(--mantine-font-size-md); --text-lh: var(--mantine-line-height-md); --text-line-clamp: 1; font-weight: 500; text-align: center;",
+          "fontSize": 21,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            96.2734375,
+            18
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "Rock",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            47.359375,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "Rock",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            29.359375,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "1999",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            44.9140625,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "1999",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            26.9140625,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": false,
+      "name": "single-headings",
+      "css": ".fs-feature-carousel-module-single-carousel-container .fs-feature-carousel-module-metadata-section>.mantine-Stack-root>h1.mantine-Title-root.fs-feature-carousel-module-title{font-size:31px!important} .fs-feature-carousel-module-single-carousel-container h5.fs-feature-carousel-module-title{font-size:23px}",
+      "elements": [
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--text-fz: var(--mantine-font-size-lg); --text-lh: var(--mantine-line-height-lg); --text-line-clamp: 2; font-weight: 700; text-align: center;",
+          "fontSize": 16,
+          "fontWeight": 700,
+          "lineHeight": 22,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            122.5859375,
+            22
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-artist",
+            "mantine-Text-root"
+          ],
+          "text": "Artist",
+          "inline": "--text-fz: var(--mantine-font-size-md); --text-lh: var(--mantine-line-height-md); --text-line-clamp: 1; font-weight: 500; text-align: center;",
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            96.2734375,
+            18
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "Rock",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            47.359375,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "Rock",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            29.359375,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "1999",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            44.9140625,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "1999",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            26.9140625,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": false,
+      "name": "inherited-color",
+      "css": ".fs-feature-carousel-module-metadata-section{color:rgb(120,40,20);letter-spacing:2px}",
+      "elements": [
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--text-fz: var(--mantine-font-size-lg); --text-lh: var(--mantine-line-height-lg); --text-line-clamp: 2; font-weight: 700; text-align: center;",
+          "fontSize": 16,
+          "fontWeight": 700,
+          "lineHeight": 22,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            122.5859375,
+            22
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-artist",
+            "mantine-Text-root"
+          ],
+          "text": "Artist",
+          "inline": "--text-fz: var(--mantine-font-size-md); --text-lh: var(--mantine-line-height-md); --text-line-clamp: 1; font-weight: 500; text-align: center;",
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "2px",
+          "bounds": [
+            96.2734375,
+            18
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "Rock",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            47.359375,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "Rock",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            29.359375,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "1999",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            44.9140625,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "1999",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            26.9140625,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": false,
+      "name": "badge-tags",
+      "css": ".fs-feature-carousel-module-metadata-section div.mantine-Badge-root[data-variant=transparent]{background:rgb(80,120,160);height:30px;padding:3px 9px} .fs-feature-carousel-module-metadata-section .mantine-Badge-label.fs-feature-carousel-module-badge{font-size:13px;font-weight:800;letter-spacing:2px;text-shadow:none}",
+      "elements": [
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--text-fz: var(--mantine-font-size-lg); --text-lh: var(--mantine-line-height-lg); --text-line-clamp: 2; font-weight: 700; text-align: center;",
+          "fontSize": 16,
+          "fontWeight": 700,
+          "lineHeight": 22,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            122.5859375,
+            22
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-artist",
+            "mantine-Text-root"
+          ],
+          "text": "Artist",
+          "inline": "--text-fz: var(--mantine-font-size-md); --text-lh: var(--mantine-line-height-md); --text-line-clamp: 1; font-weight: 500; text-align: center;",
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            131.4921875,
+            18
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "Rock",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            65.921875,
+            30
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "Rock",
+          "inline": null,
+          "fontSize": 13,
+          "fontWeight": 800,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "2px",
+          "bounds": [
+            45.921875,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "1999",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            61.5703125,
+            30
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "1999",
+          "inline": null,
+          "fontSize": 13,
+          "fontWeight": 800,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "2px",
+          "bounds": [
+            41.5703125,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": false,
+      "name": "layout",
+      "css": ".fs-feature-carousel-module-carousel-container{padding:0 30px} .fs-feature-carousel-module-carousel{gap:18px} .fs-feature-carousel-module-carousel-link{padding:6px} .fs-feature-carousel-module-image-section{height:180px;min-height:180px;max-height:180px} .fs-feature-carousel-module-metadata-section{height:88px;min-height:88px;max-height:88px} .fs-feature-carousel-module-metadata-section>.mantine-Stack-root{gap:7px} .fs-feature-carousel-module-metadata-section .mantine-Group-root{gap:13px}",
+      "elements": [
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--text-fz: var(--mantine-font-size-lg); --text-lh: var(--mantine-line-height-lg); --text-line-clamp: 2; font-weight: 700; text-align: center;",
+          "fontSize": 16,
+          "fontWeight": 700,
+          "lineHeight": 22,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            122.5859375,
+            22
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-artist",
+            "mantine-Text-root"
+          ],
+          "text": "Artist",
+          "inline": "--text-fz: var(--mantine-font-size-md); --text-lh: var(--mantine-line-height-md); --text-line-clamp: 1; font-weight: 500; text-align: center;",
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            105.2734375,
+            18
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "Rock",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            47.359375,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "Rock",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            29.359375,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "1999",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            44.9140625,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "1999",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            26.9140625,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": false,
+      "name": "artwork",
+      "css": ".fs-feature-carousel-module-album-image-container{width:100px;max-width:100px;filter:none} img.fs-feature-carousel-module-album-image{opacity:.4;filter:brightness(.75);border-radius:9px} .fs-feature-carousel-module-blurred-background{filter:none!important;opacity:.35}",
+      "elements": [
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--text-fz: var(--mantine-font-size-lg); --text-lh: var(--mantine-line-height-lg); --text-line-clamp: 2; font-weight: 700; text-align: center;",
+          "fontSize": 16,
+          "fontWeight": 700,
+          "lineHeight": 22,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            122.5859375,
+            22
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-artist",
+            "mantine-Text-root"
+          ],
+          "text": "Artist",
+          "inline": "--text-fz: var(--mantine-font-size-md); --text-lh: var(--mantine-line-height-md); --text-line-clamp: 1; font-weight: 500; text-align: center;",
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            96.2734375,
+            18
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "Rock",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            47.359375,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "Rock",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            29.359375,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "1999",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            44.9140625,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "1999",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            26.9140625,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": false,
+      "name": "hover",
+      "css": ".fs-feature-carousel-module-carousel-item:hover .fs-feature-carousel-module-artist{color:rgb(10,200,30)} .fs-feature-carousel-module-image-section:hover .fs-feature-carousel-module-album-image-container{filter:none} .fs-feature-carousel-module-image-section:hover .fs-feature-carousel-module-play-button-overlay{opacity:.3}",
+      "elements": [
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--text-fz: var(--mantine-font-size-lg); --text-lh: var(--mantine-line-height-lg); --text-line-clamp: 2; font-weight: 700; text-align: center;",
+          "fontSize": 16,
+          "fontWeight": 700,
+          "lineHeight": 22,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            122.5859375,
+            22
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-artist",
+            "mantine-Text-root"
+          ],
+          "text": "Artist",
+          "inline": "--text-fz: var(--mantine-font-size-md); --text-lh: var(--mantine-line-height-md); --text-line-clamp: 1; font-weight: 500; text-align: center;",
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "color": "rgb(10, 200, 30)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            96.2734375,
+            18
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "Rock",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            47.359375,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "Rock",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            29.359375,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "fs-badge-module-root",
+            "mantine-Badge-root"
+          ],
+          "text": "1999",
+          "inline": "--badge-height: var(--badge-height-sm); --badge-padding-x: var(--badge-padding-x-sm); --badge-fz: var(--badge-fz-sm); --badge-radius: var(--mantine-radius-md); --badge-bg: transparent; --badge-color: var(--mantine-color-blue-light-color); --badge-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;",
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "none",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            44.9140625,
+            18
+          ]
+        },
+        {
+          "tag": "span",
+          "classes": [
+            "fs-feature-carousel-module-badge",
+            "mantine-Badge-label"
+          ],
+          "text": "1999",
+          "inline": null,
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "0.25px",
+          "bounds": [
+            26.9140625,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": true,
+      "name": "default",
+      "css": "",
+      "elements": [
+        {
+          "tag": "h1",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--title-fw: var(--mantine-h1-font-weight); --title-lh: var(--mantine-h1-line-height); --title-fz: var(--mantine-h1-font-size); font-size: clamp(1.75rem, 3dvw, 2.75rem); font-weight: 900; text-align: left; line-height: 1.1;",
+          "fontSize": 28,
+          "fontWeight": 900,
+          "lineHeight": 30.8,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            219.4609375,
+            30.796875
+          ]
+        },
+        {
+          "tag": "h5",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Artist",
+          "inline": "--title-fw: var(--mantine-h5-font-weight); --title-lh: var(--mantine-h5-line-height); --title-fz: var(--mantine-h5-font-size); font-weight: 700; text-align: left; line-height: 1.1;",
+          "fontSize": 16,
+          "fontWeight": 700,
+          "lineHeight": 17.6,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            219.4609375,
+            17.59375
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Rock • ",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            41.25,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "1999",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            33.6484375,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": true,
+      "name": "normal-text",
+      "css": ".fs-feature-carousel-module-title,.fs-feature-carousel-module-artist{font-size:32px;font-weight:300;line-height:40px;color:rgb(20,80,120);text-shadow:none}",
+      "elements": [
+        {
+          "tag": "h1",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--title-fw: var(--mantine-h1-font-weight); --title-lh: var(--mantine-h1-line-height); --title-fz: var(--mantine-h1-font-size); font-size: clamp(1.75rem, 3dvw, 2.75rem); font-weight: 900; text-align: left; line-height: 1.1;",
+          "fontSize": 28,
+          "fontWeight": 900,
+          "lineHeight": 30.8,
+          "color": "rgb(20, 80, 120)",
+          "shadow": "none",
+          "letterSpacing": "normal",
+          "bounds": [
+            219.4609375,
+            30.796875
+          ]
+        },
+        {
+          "tag": "h5",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Artist",
+          "inline": "--title-fw: var(--mantine-h5-font-weight); --title-lh: var(--mantine-h5-line-height); --title-fz: var(--mantine-h5-font-size); font-weight: 700; text-align: left; line-height: 1.1;",
+          "fontSize": 32,
+          "fontWeight": 700,
+          "lineHeight": 35.2,
+          "color": "rgb(20, 80, 120)",
+          "shadow": "none",
+          "letterSpacing": "normal",
+          "bounds": [
+            219.4609375,
+            35.1953125
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Rock • ",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 32,
+          "fontWeight": 600,
+          "lineHeight": 40,
+          "color": "rgb(20, 80, 120)",
+          "shadow": "none",
+          "letterSpacing": "normal",
+          "bounds": [
+            95.765625,
+            40
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "1999",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 32,
+          "fontWeight": 600,
+          "lineHeight": 40,
+          "color": "rgb(20, 80, 120)",
+          "shadow": "none",
+          "letterSpacing": "normal",
+          "bounds": [
+            82.5,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "single": true,
+      "name": "important-text",
+      "css": ".fs-feature-carousel-module-title,.fs-feature-carousel-module-artist{font-size:32px!important;font-weight:300!important;line-height:40px!important;color:rgb(20,80,120);text-shadow:none}",
+      "elements": [
+        {
+          "tag": "h1",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--title-fw: var(--mantine-h1-font-weight); --title-lh: var(--mantine-h1-line-height); --title-fz: var(--mantine-h1-font-size); font-size: clamp(1.75rem, 3dvw, 2.75rem); font-weight: 900; text-align: left; line-height: 1.1;",
+          "fontSize": 32,
+          "fontWeight": 300,
+          "lineHeight": 40,
+          "color": "rgb(20, 80, 120)",
+          "shadow": "none",
+          "letterSpacing": "normal",
+          "bounds": [
+            210.6953125,
+            40
+          ]
+        },
+        {
+          "tag": "h5",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Artist",
+          "inline": "--title-fw: var(--mantine-h5-font-weight); --title-lh: var(--mantine-h5-line-height); --title-fz: var(--mantine-h5-font-size); font-weight: 700; text-align: left; line-height: 1.1;",
+          "fontSize": 32,
+          "fontWeight": 300,
+          "lineHeight": 40,
+          "color": "rgb(20, 80, 120)",
+          "shadow": "none",
+          "letterSpacing": "normal",
+          "bounds": [
+            210.6953125,
+            40
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Rock • ",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 32,
+          "fontWeight": 300,
+          "lineHeight": 40,
+          "color": "rgb(20, 80, 120)",
+          "shadow": "none",
+          "letterSpacing": "normal",
+          "bounds": [
+            91.78125,
+            40
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "1999",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 32,
+          "fontWeight": 300,
+          "lineHeight": 40,
+          "color": "rgb(20, 80, 120)",
+          "shadow": "none",
+          "letterSpacing": "normal",
+          "bounds": [
+            82.5,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "single": true,
+      "name": "div-text",
+      "css": ".fs-feature-carousel-module-title-section>div.mantine-Text-root.fs-feature-carousel-module-title{font-size:25px;color:rgb(120,40,20)} .fs-feature-carousel-module-metadata-section>.mantine-Stack-root>div.mantine-Text-root.fs-feature-carousel-module-artist{font-size:21px}",
+      "elements": [
+        {
+          "tag": "h1",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--title-fw: var(--mantine-h1-font-weight); --title-lh: var(--mantine-h1-line-height); --title-fz: var(--mantine-h1-font-size); font-size: clamp(1.75rem, 3dvw, 2.75rem); font-weight: 900; text-align: left; line-height: 1.1;",
+          "fontSize": 28,
+          "fontWeight": 900,
+          "lineHeight": 30.8,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            219.4609375,
+            30.796875
+          ]
+        },
+        {
+          "tag": "h5",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Artist",
+          "inline": "--title-fw: var(--mantine-h5-font-weight); --title-lh: var(--mantine-h5-line-height); --title-fz: var(--mantine-h5-font-size); font-weight: 700; text-align: left; line-height: 1.1;",
+          "fontSize": 16,
+          "fontWeight": 700,
+          "lineHeight": 17.6,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            219.4609375,
+            17.59375
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Rock • ",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            41.25,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "1999",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            33.6484375,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": true,
+      "name": "single-headings",
+      "css": ".fs-feature-carousel-module-single-carousel-container .fs-feature-carousel-module-metadata-section>.mantine-Stack-root>h1.mantine-Title-root.fs-feature-carousel-module-title{font-size:31px!important} .fs-feature-carousel-module-single-carousel-container h5.fs-feature-carousel-module-title{font-size:23px}",
+      "elements": [
+        {
+          "tag": "h1",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--title-fw: var(--mantine-h1-font-weight); --title-lh: var(--mantine-h1-line-height); --title-fz: var(--mantine-h1-font-size); font-size: clamp(1.75rem, 3dvw, 2.75rem); font-weight: 900; text-align: left; line-height: 1.1;",
+          "fontSize": 31,
+          "fontWeight": 900,
+          "lineHeight": 34.1,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            241.875,
+            34.09375
+          ]
+        },
+        {
+          "tag": "h5",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Artist",
+          "inline": "--title-fw: var(--mantine-h5-font-weight); --title-lh: var(--mantine-h5-line-height); --title-fz: var(--mantine-h5-font-size); font-weight: 700; text-align: left; line-height: 1.1;",
+          "fontSize": 23,
+          "fontWeight": 700,
+          "lineHeight": 25.3,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            241.875,
+            25.296875
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Rock • ",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            41.25,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "1999",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            33.6484375,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": true,
+      "name": "inherited-color",
+      "css": ".fs-feature-carousel-module-metadata-section{color:rgb(120,40,20);letter-spacing:2px}",
+      "elements": [
+        {
+          "tag": "h1",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--title-fw: var(--mantine-h1-font-weight); --title-lh: var(--mantine-h1-line-height); --title-fz: var(--mantine-h1-font-size); font-size: clamp(1.75rem, 3dvw, 2.75rem); font-weight: 900; text-align: left; line-height: 1.1;",
+          "fontSize": 28,
+          "fontWeight": 900,
+          "lineHeight": 30.8,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "2px",
+          "bounds": [
+            249.4609375,
+            30.796875
+          ]
+        },
+        {
+          "tag": "h5",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Artist",
+          "inline": "--title-fw: var(--mantine-h5-font-weight); --title-lh: var(--mantine-h5-line-height); --title-fz: var(--mantine-h5-font-size); font-weight: 700; text-align: left; line-height: 1.1;",
+          "fontSize": 16,
+          "fontWeight": 700,
+          "lineHeight": 17.6,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "2px",
+          "bounds": [
+            249.4609375,
+            17.59375
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Rock • ",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "2px",
+          "bounds": [
+            53.25,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "1999",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "2px",
+          "bounds": [
+            41.6484375,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": true,
+      "name": "badge-tags",
+      "css": ".fs-feature-carousel-module-metadata-section div.mantine-Badge-root[data-variant=transparent]{background:rgb(80,120,160);height:30px;padding:3px 9px} .fs-feature-carousel-module-metadata-section .mantine-Badge-label.fs-feature-carousel-module-badge{font-size:13px;font-weight:800;letter-spacing:2px;text-shadow:none}",
+      "elements": [
+        {
+          "tag": "h1",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--title-fw: var(--mantine-h1-font-weight); --title-lh: var(--mantine-h1-line-height); --title-fz: var(--mantine-h1-font-size); font-size: clamp(1.75rem, 3dvw, 2.75rem); font-weight: 900; text-align: left; line-height: 1.1;",
+          "fontSize": 28,
+          "fontWeight": 900,
+          "lineHeight": 30.8,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            219.4609375,
+            30.796875
+          ]
+        },
+        {
+          "tag": "h5",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Artist",
+          "inline": "--title-fw: var(--mantine-h5-font-weight); --title-lh: var(--mantine-h5-line-height); --title-fz: var(--mantine-h5-font-size); font-weight: 700; text-align: left; line-height: 1.1;",
+          "fontSize": 16,
+          "fontWeight": 700,
+          "lineHeight": 17.6,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            219.4609375,
+            17.59375
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Rock • ",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            41.25,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "1999",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            33.6484375,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": true,
+      "name": "layout",
+      "css": ".fs-feature-carousel-module-carousel-container{padding:0 30px} .fs-feature-carousel-module-carousel{gap:18px} .fs-feature-carousel-module-carousel-link{padding:6px} .fs-feature-carousel-module-image-section{height:180px;min-height:180px;max-height:180px} .fs-feature-carousel-module-metadata-section{height:88px;min-height:88px;max-height:88px} .fs-feature-carousel-module-metadata-section>.mantine-Stack-root{gap:7px} .fs-feature-carousel-module-metadata-section .mantine-Group-root{gap:13px}",
+      "elements": [
+        {
+          "tag": "h1",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--title-fw: var(--mantine-h1-font-weight); --title-lh: var(--mantine-h1-line-height); --title-fz: var(--mantine-h1-font-size); font-size: clamp(1.75rem, 3dvw, 2.75rem); font-weight: 900; text-align: left; line-height: 1.1;",
+          "fontSize": 28,
+          "fontWeight": 900,
+          "lineHeight": 30.8,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            219.4609375,
+            30.796875
+          ]
+        },
+        {
+          "tag": "h5",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Artist",
+          "inline": "--title-fw: var(--mantine-h5-font-weight); --title-lh: var(--mantine-h5-line-height); --title-fz: var(--mantine-h5-font-size); font-weight: 700; text-align: left; line-height: 1.1;",
+          "fontSize": 16,
+          "fontWeight": 700,
+          "lineHeight": 17.6,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            219.4609375,
+            17.59375
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Rock • ",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            41.25,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "1999",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            33.6484375,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": true,
+      "name": "artwork",
+      "css": ".fs-feature-carousel-module-album-image-container{width:100px;max-width:100px;filter:none} img.fs-feature-carousel-module-album-image{opacity:.4;filter:brightness(.75);border-radius:9px} .fs-feature-carousel-module-blurred-background{filter:none!important;opacity:.35}",
+      "elements": [
+        {
+          "tag": "h1",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--title-fw: var(--mantine-h1-font-weight); --title-lh: var(--mantine-h1-line-height); --title-fz: var(--mantine-h1-font-size); font-size: clamp(1.75rem, 3dvw, 2.75rem); font-weight: 900; text-align: left; line-height: 1.1;",
+          "fontSize": 28,
+          "fontWeight": 900,
+          "lineHeight": 30.8,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            219.4609375,
+            30.796875
+          ]
+        },
+        {
+          "tag": "h5",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Artist",
+          "inline": "--title-fw: var(--mantine-h5-font-weight); --title-lh: var(--mantine-h5-line-height); --title-fz: var(--mantine-h5-font-size); font-weight: 700; text-align: left; line-height: 1.1;",
+          "fontSize": 16,
+          "fontWeight": 700,
+          "lineHeight": 17.6,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            219.4609375,
+            17.59375
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Rock • ",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            41.25,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "1999",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            33.6484375,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "single": true,
+      "name": "hover",
+      "css": ".fs-feature-carousel-module-carousel-item:hover .fs-feature-carousel-module-artist{color:rgb(10,200,30)} .fs-feature-carousel-module-image-section:hover .fs-feature-carousel-module-album-image-container{filter:none} .fs-feature-carousel-module-image-section:hover .fs-feature-carousel-module-play-button-overlay{opacity:.3}",
+      "elements": [
+        {
+          "tag": "h1",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Northern Lights",
+          "inline": "--title-fw: var(--mantine-h1-font-weight); --title-lh: var(--mantine-h1-line-height); --title-fz: var(--mantine-h1-font-size); font-size: clamp(1.75rem, 3dvw, 2.75rem); font-weight: 900; text-align: left; line-height: 1.1;",
+          "fontSize": 28,
+          "fontWeight": 900,
+          "lineHeight": 30.8,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            219.4609375,
+            30.796875
+          ]
+        },
+        {
+          "tag": "h5",
+          "classes": [
+            "fs-text-title-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Title-root"
+          ],
+          "text": "Artist",
+          "inline": "--title-fw: var(--mantine-h5-font-weight); --title-lh: var(--mantine-h5-line-height); --title-fz: var(--mantine-h5-font-size); font-weight: 700; text-align: left; line-height: 1.1;",
+          "fontSize": 16,
+          "fontWeight": 700,
+          "lineHeight": 17.6,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            219.4609375,
+            17.59375
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "Rock • ",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            41.25,
+            16
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "mantine-focus-auto",
+            "fs-text-module-root",
+            "fs-feature-carousel-module-title",
+            "mantine-Text-root"
+          ],
+          "text": "1999",
+          "inline": "--text-fz: var(--mantine-font-size-sm); --text-lh: var(--mantine-line-height-sm); font-weight: 600;",
+          "fontSize": 13,
+          "fontWeight": 600,
+          "lineHeight": 16,
+          "color": "rgb(255, 255, 255)",
+          "shadow": "rgba(0, 0, 0, 0.5) 0px 0px 8px",
+          "letterSpacing": "normal",
+          "bounds": [
+            33.6484375,
+            16
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5158 @@
+[
+  {
+    "mode": "empty",
+    "tree": {
+      "tag": "html",
+      "id": "",
+      "classes": [],
+      "attributes": {},
+      "children": [
+        {
+          "tag": "body",
+          "id": "",
+          "classes": [],
+          "attributes": {},
+          "children": [
+            {
+              "tag": "main",
+              "id": "scope",
+              "classes": [],
+              "attributes": {
+                "id": "scope"
+              },
+              "children": [
+                {
+                  "tag": "section",
+                  "id": "host",
+                  "classes": [
+                    "host"
+                  ],
+                  "attributes": {
+                    "class": "host",
+                    "id": "host"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "cases": [
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": ".host {opacity:.8}.host:has(> #leaf, .absent){opacity:.2}.host:not(.missing){opacity:.4}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.4
+      },
+      {
+        "source": ".host {opacity:.8}.host:has(> #leaf, .absent){opacity:.2}.host:not(.missing){opacity:.4}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": ".host::before{opacity:.8}.host:has(.leaf)::before{opacity:.2}.host::before{opacity:.4}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host::before{opacity:.8}.host:has(.leaf)::before{opacity:.2}.host::before{opacity:.4}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.4
+      },
+      {
+        "source": ".host:where(:has(#leaf)){opacity:.2}.host{opacity:.4}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.4
+      },
+      {
+        "source": ".host:where(:has(#leaf)){opacity:.2}.host{opacity:.4}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": ".host:has(> *){opacity:.2}.host{opacity:.4}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.4
+      },
+      {
+        "source": ".host:has(> *){opacity:.2}.host{opacity:.4}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25} } .host i {opacity:.75}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25} } .host i {opacity:.75}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host, #absent {i {opacity:.25}} .host i {opacity:.75}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host, #absent {i {opacity:.25}} .host i {opacity:.75}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {&.host, i {opacity:.25}} .host i {opacity:.75}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {&.host, i {opacity:.25}} .host i {opacity:.75}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host {& > .branch, > i {opacity:.25}}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {& > .branch, > i {opacity:.25}}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { [data-label=\"a&b\"] {opacity:.25}}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { [data-label=\"a&b\"] {opacity:.25}}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { .escaped\\& {opacity:.25}}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { .escaped\\& {opacity:.25}}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {:is(&, #absent) {opacity:.25}}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {:is(&, #absent) {opacity:.25}}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25 !important} } .host i {opacity:.75}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25 !important} } .host i {opacity:.75}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {opacity:.25; i, .branch {opacity:.5} opacity:.75}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {opacity:.25; i, .branch {opacity:.5} opacity:.75}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.75
+      }
+    ]
+  },
+  {
+    "mode": "direct",
+    "tree": {
+      "tag": "html",
+      "id": "",
+      "classes": [],
+      "attributes": {},
+      "children": [
+        {
+          "tag": "body",
+          "id": "",
+          "classes": [],
+          "attributes": {},
+          "children": [
+            {
+              "tag": "main",
+              "id": "scope",
+              "classes": [],
+              "attributes": {
+                "id": "scope"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "id": "",
+                  "classes": [
+                    "bar"
+                  ],
+                  "attributes": {
+                    "class": "bar"
+                  },
+                  "children": []
+                },
+                {
+                  "tag": "section",
+                  "id": "host",
+                  "classes": [
+                    "host"
+                  ],
+                  "attributes": {
+                    "class": "host",
+                    "id": "host"
+                  },
+                  "children": [
+                    {
+                      "tag": "i",
+                      "id": "leaf",
+                      "classes": [
+                        "leaf",
+                        "escaped&"
+                      ],
+                      "attributes": {
+                        "class": "leaf escaped&",
+                        "id": "leaf",
+                        "data-label": "a&b"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "cases": [
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": ".host {opacity:.8}.host:has(> #leaf, .absent){opacity:.2}.host:not(.missing){opacity:.4}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.2
+      },
+      {
+        "source": ".host {opacity:.8}.host:has(> #leaf, .absent){opacity:.2}.host:not(.missing){opacity:.4}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": ".host::before{opacity:.8}.host:has(.leaf)::before{opacity:.2}.host::before{opacity:.4}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host::before{opacity:.8}.host:has(.leaf)::before{opacity:.2}.host::before{opacity:.4}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.2
+      },
+      {
+        "source": ".host:where(:has(#leaf)){opacity:.2}.host{opacity:.4}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.4
+      },
+      {
+        "source": ".host:where(:has(#leaf)){opacity:.2}.host{opacity:.4}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": ".host:has(> *){opacity:.2}.host{opacity:.4}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.4
+      },
+      {
+        "source": ".host:has(> *){opacity:.2}.host{opacity:.4}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25} } .host i {opacity:.75}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25} } .host i {opacity:.75}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25} } .host i {opacity:.75}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 0.75
+      },
+      {
+        "source": ".host, #absent {i {opacity:.25}} .host i {opacity:.75}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host, #absent {i {opacity:.25}} .host i {opacity:.75}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host, #absent {i {opacity:.25}} .host i {opacity:.75}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host {&.host, i {opacity:.25}} .host i {opacity:.75}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {&.host, i {opacity:.25}} .host i {opacity:.75}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host {&.host, i {opacity:.25}} .host i {opacity:.75}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 0.75
+      },
+      {
+        "source": ".host {& > .branch, > i {opacity:.25}}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {& > .branch, > i {opacity:.25}}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {& > .branch, > i {opacity:.25}}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host { [data-label=\"a&b\"] {opacity:.25}}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { [data-label=\"a&b\"] {opacity:.25}}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { [data-label=\"a&b\"] {opacity:.25}}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host { .escaped\\& {opacity:.25}}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { .escaped\\& {opacity:.25}}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { .escaped\\& {opacity:.25}}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host {:is(&, #absent) {opacity:.25}}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {:is(&, #absent) {opacity:.25}}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host {:is(&, #absent) {opacity:.25}}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25 !important} } .host i {opacity:.75}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25 !important} } .host i {opacity:.75}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25 !important} } .host i {opacity:.75}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host {opacity:.25; i, .branch {opacity:.5} opacity:.75}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {opacity:.25; i, .branch {opacity:.5} opacity:.75}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.75
+      },
+      {
+        "source": ".host {opacity:.25; i, .branch {opacity:.5} opacity:.75}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 0.5
+      }
+    ]
+  },
+  {
+    "mode": "nested",
+    "tree": {
+      "tag": "html",
+      "id": "",
+      "classes": [],
+      "attributes": {},
+      "children": [
+        {
+          "tag": "body",
+          "id": "",
+          "classes": [],
+          "attributes": {},
+          "children": [
+            {
+              "tag": "main",
+              "id": "scope",
+              "classes": [],
+              "attributes": {
+                "id": "scope"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "id": "",
+                  "classes": [
+                    "branch"
+                  ],
+                  "attributes": {
+                    "class": "branch"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "id": "",
+                      "classes": [
+                        "bar"
+                      ],
+                      "attributes": {
+                        "class": "bar"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "section",
+                  "id": "host",
+                  "classes": [
+                    "host"
+                  ],
+                  "attributes": {
+                    "class": "host",
+                    "id": "host"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "id": "branch",
+                      "classes": [
+                        "branch"
+                      ],
+                      "attributes": {
+                        "class": "branch",
+                        "id": "branch"
+                      },
+                      "children": [
+                        {
+                          "tag": "i",
+                          "id": "leaf",
+                          "classes": [
+                            "leaf",
+                            "escaped&"
+                          ],
+                          "attributes": {
+                            "class": "leaf escaped&",
+                            "id": "leaf",
+                            "data-label": "a&b"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "cases": [
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } *{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope > .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } #scope .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :where(#scope) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(> .bar) .host{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } :has(.bar) .host::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.absent, .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(> .branch .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.leaf, .absent)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.host){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::before{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:not(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf):has(.branch){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf, #scope){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.branch > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf .missing){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch) > .leaf){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(.leaf)::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:has(.leaf)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch:has(.leaf))){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before .leaf{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host::before::after{opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(::before){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(.missing, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:is(.branch, ::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:has(:where(.branch, ::after)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:is(::before, .host){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:where(.host, ::after){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "scope",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": "* { opacity:1 } *::before, *::after { content:\"\";opacity:1 } .host:not(:is(::before)){opacity:.25}",
+        "id": "host",
+        "pseudo": "after",
+        "expected": 1
+      },
+      {
+        "source": ".host {opacity:.8}.host:has(> #leaf, .absent){opacity:.2}.host:not(.missing){opacity:.4}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.4
+      },
+      {
+        "source": ".host {opacity:.8}.host:has(> #leaf, .absent){opacity:.2}.host:not(.missing){opacity:.4}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": ".host::before{opacity:.8}.host:has(.leaf)::before{opacity:.2}.host::before{opacity:.4}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host::before{opacity:.8}.host:has(.leaf)::before{opacity:.2}.host::before{opacity:.4}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 0.2
+      },
+      {
+        "source": ".host:where(:has(#leaf)){opacity:.2}.host{opacity:.4}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.4
+      },
+      {
+        "source": ".host:where(:has(#leaf)){opacity:.2}.host{opacity:.4}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": ".host:has(> *){opacity:.2}.host{opacity:.4}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.4
+      },
+      {
+        "source": ".host:has(> *){opacity:.2}.host{opacity:.4}",
+        "id": "host",
+        "pseudo": "before",
+        "expected": 1
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25} } .host i {opacity:.75}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25} } .host i {opacity:.75}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25} } .host i {opacity:.75}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 0.75
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25} } .host i {opacity:.75}",
+        "id": "branch",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host, #absent {i {opacity:.25}} .host i {opacity:.75}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host, #absent {i {opacity:.25}} .host i {opacity:.75}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host, #absent {i {opacity:.25}} .host i {opacity:.75}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host, #absent {i {opacity:.25}} .host i {opacity:.75}",
+        "id": "branch",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {&.host, i {opacity:.25}} .host i {opacity:.75}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {&.host, i {opacity:.25}} .host i {opacity:.75}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host {&.host, i {opacity:.25}} .host i {opacity:.75}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 0.75
+      },
+      {
+        "source": ".host {&.host, i {opacity:.25}} .host i {opacity:.75}",
+        "id": "branch",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {& > .branch, > i {opacity:.25}}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {& > .branch, > i {opacity:.25}}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {& > .branch, > i {opacity:.25}}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {& > .branch, > i {opacity:.25}}",
+        "id": "branch",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host { [data-label=\"a&b\"] {opacity:.25}}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { [data-label=\"a&b\"] {opacity:.25}}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { [data-label=\"a&b\"] {opacity:.25}}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host { [data-label=\"a&b\"] {opacity:.25}}",
+        "id": "branch",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { .escaped\\& {opacity:.25}}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { .escaped\\& {opacity:.25}}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { .escaped\\& {opacity:.25}}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host { .escaped\\& {opacity:.25}}",
+        "id": "branch",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {:is(&, #absent) {opacity:.25}}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {:is(&, #absent) {opacity:.25}}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host {:is(&, #absent) {opacity:.25}}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {:is(&, #absent) {opacity:.25}}",
+        "id": "branch",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25 !important} } .host i {opacity:.75}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25 !important} } .host i {opacity:.75}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25 !important} } .host i {opacity:.75}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host { i, .branch {opacity:.25 !important} } .host i {opacity:.75}",
+        "id": "branch",
+        "pseudo": "",
+        "expected": 0.25
+      },
+      {
+        "source": ".host {opacity:.25; i, .branch {opacity:.5} opacity:.75}",
+        "id": "scope",
+        "pseudo": "",
+        "expected": 1
+      },
+      {
+        "source": ".host {opacity:.25; i, .branch {opacity:.5} opacity:.75}",
+        "id": "host",
+        "pseudo": "",
+        "expected": 0.75
+      },
+      {
+        "source": ".host {opacity:.25; i, .branch {opacity:.5} opacity:.75}",
+        "id": "leaf",
+        "pseudo": "",
+        "expected": 0.5
+      },
+      {
+        "source": ".host {opacity:.25; i, .branch {opacity:.5} opacity:.75}",
+        "id": "branch",
+        "pseudo": "",
+        "expected": 0.5
+      }
+    ]
+  }
+]

@@ -1,0 +1,2730 @@
+{
+  "electron": "43.7.0",
+  "chromium": "150.0.7871.250",
+  "cases": [
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": null,
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 109
+        },
+        {
+          "panel": "lyrics",
+          "y": 109,
+          "height": 100
+        },
+        {
+          "panel": "visualizer",
+          "y": 209,
+          "height": 109
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": null,
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 349
+        },
+        {
+          "panel": "lyrics",
+          "y": 349,
+          "height": 100
+        },
+        {
+          "panel": "visualizer",
+          "y": 449,
+          "height": 349
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 109
+        },
+        {
+          "panel": "lyrics",
+          "y": 109,
+          "height": 100
+        },
+        {
+          "panel": "visualizer",
+          "y": 209,
+          "height": 109
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 349
+        },
+        {
+          "panel": "lyrics",
+          "y": 349,
+          "height": 100
+        },
+        {
+          "panel": "visualizer",
+          "y": 449,
+          "height": 349
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 109
+        },
+        {
+          "panel": "lyrics",
+          "y": 109,
+          "height": 100
+        },
+        {
+          "panel": "visualizer",
+          "y": 209,
+          "height": 109
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 349
+        },
+        {
+          "panel": "lyrics",
+          "y": 349,
+          "height": 100
+        },
+        {
+          "panel": "visualizer",
+          "y": 449,
+          "height": 349
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 0
+        },
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 140
+        },
+        {
+          "panel": "visualizer",
+          "y": 140,
+          "height": 230
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 428
+        },
+        {
+          "panel": "lyrics",
+          "y": 428,
+          "height": 140
+        },
+        {
+          "panel": "visualizer",
+          "y": 568,
+          "height": 230
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": null,
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 109
+        },
+        {
+          "panel": "visualizer",
+          "y": 109,
+          "height": 100
+        },
+        {
+          "panel": "lyrics",
+          "y": 209,
+          "height": 109
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": null,
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 349
+        },
+        {
+          "panel": "visualizer",
+          "y": 349,
+          "height": 100
+        },
+        {
+          "panel": "lyrics",
+          "y": 449,
+          "height": 349
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 109
+        },
+        {
+          "panel": "visualizer",
+          "y": 109,
+          "height": 100
+        },
+        {
+          "panel": "lyrics",
+          "y": 209,
+          "height": 109
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 349
+        },
+        {
+          "panel": "visualizer",
+          "y": 349,
+          "height": 100
+        },
+        {
+          "panel": "lyrics",
+          "y": 449,
+          "height": 349
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 109
+        },
+        {
+          "panel": "visualizer",
+          "y": 109,
+          "height": 100
+        },
+        {
+          "panel": "lyrics",
+          "y": 209,
+          "height": 109
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 349
+        },
+        {
+          "panel": "visualizer",
+          "y": 349,
+          "height": 100
+        },
+        {
+          "panel": "lyrics",
+          "y": 449,
+          "height": 349
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 0
+        },
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 140
+        },
+        {
+          "panel": "lyrics",
+          "y": 140,
+          "height": 230
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 428
+        },
+        {
+          "panel": "visualizer",
+          "y": 428,
+          "height": 140
+        },
+        {
+          "panel": "lyrics",
+          "y": 568,
+          "height": 230
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "saved": null,
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 109
+        },
+        {
+          "panel": "visualizer",
+          "y": 209,
+          "height": 109
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "saved": null,
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 349
+        },
+        {
+          "panel": "visualizer",
+          "y": 449,
+          "height": 349
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "saved": [],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 109
+        },
+        {
+          "panel": "visualizer",
+          "y": 209,
+          "height": 109
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "saved": [],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 349
+        },
+        {
+          "panel": "visualizer",
+          "y": 449,
+          "height": 349
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 119
+        },
+        {
+          "panel": "visualizer",
+          "y": 199,
+          "height": 119
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 359
+        },
+        {
+          "panel": "visualizer",
+          "y": 439,
+          "height": 359
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 8
+        },
+        {
+          "panel": "visualizer",
+          "y": 88,
+          "height": 230
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue",
+        "visualizer"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 488
+        },
+        {
+          "panel": "visualizer",
+          "y": 568,
+          "height": 230
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "saved": null,
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "visualizer",
+          "y": 100,
+          "height": 109
+        },
+        {
+          "panel": "queue",
+          "y": 209,
+          "height": 109
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "saved": null,
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "visualizer",
+          "y": 100,
+          "height": 349
+        },
+        {
+          "panel": "queue",
+          "y": 449,
+          "height": 349
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "saved": [],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "visualizer",
+          "y": 100,
+          "height": 109
+        },
+        {
+          "panel": "queue",
+          "y": 209,
+          "height": 109
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "saved": [],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "visualizer",
+          "y": 100,
+          "height": 349
+        },
+        {
+          "panel": "queue",
+          "y": 449,
+          "height": 349
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "visualizer",
+          "y": 80,
+          "height": 119
+        },
+        {
+          "panel": "queue",
+          "y": 199,
+          "height": 119
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "visualizer",
+          "y": 80,
+          "height": 359
+        },
+        {
+          "panel": "queue",
+          "y": 439,
+          "height": 359
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "visualizer",
+          "y": 80,
+          "height": 140
+        },
+        {
+          "panel": "queue",
+          "y": 220,
+          "height": 98
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer",
+        "queue"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "visualizer",
+          "y": 80,
+          "height": 140
+        },
+        {
+          "panel": "queue",
+          "y": 220,
+          "height": 578
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "saved": null,
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 109
+        },
+        {
+          "panel": "lyrics",
+          "y": 209,
+          "height": 109
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "saved": null,
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 349
+        },
+        {
+          "panel": "lyrics",
+          "y": 449,
+          "height": 349
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "saved": [],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 109
+        },
+        {
+          "panel": "lyrics",
+          "y": 209,
+          "height": 109
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "saved": [],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 349
+        },
+        {
+          "panel": "lyrics",
+          "y": 449,
+          "height": 349
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 119
+        },
+        {
+          "panel": "lyrics",
+          "y": 199,
+          "height": 119
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 359
+        },
+        {
+          "panel": "lyrics",
+          "y": 439,
+          "height": 359
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 8
+        },
+        {
+          "panel": "lyrics",
+          "y": 88,
+          "height": 230
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue",
+        "lyrics"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 488
+        },
+        {
+          "panel": "lyrics",
+          "y": 568,
+          "height": 230
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "saved": null,
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "lyrics",
+          "y": 100,
+          "height": 109
+        },
+        {
+          "panel": "queue",
+          "y": 209,
+          "height": 109
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "saved": null,
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "lyrics",
+          "y": 100,
+          "height": 349
+        },
+        {
+          "panel": "queue",
+          "y": 449,
+          "height": 349
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "saved": [],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "lyrics",
+          "y": 100,
+          "height": 109
+        },
+        {
+          "panel": "queue",
+          "y": 209,
+          "height": 109
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "saved": [],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "lyrics",
+          "y": 100,
+          "height": 349
+        },
+        {
+          "panel": "queue",
+          "y": 449,
+          "height": 349
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "lyrics",
+          "y": 80,
+          "height": 119
+        },
+        {
+          "panel": "queue",
+          "y": 199,
+          "height": 119
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "lyrics",
+          "y": 80,
+          "height": 359
+        },
+        {
+          "panel": "queue",
+          "y": 439,
+          "height": 359
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "lyrics",
+          "y": 80,
+          "height": 140
+        },
+        {
+          "panel": "queue",
+          "y": 220,
+          "height": 98
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics",
+        "queue"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "lyrics",
+          "y": 80,
+          "height": 140
+        },
+        {
+          "panel": "queue",
+          "y": 220,
+          "height": 578
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue"
+      ],
+      "saved": null,
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue"
+      ],
+      "saved": null,
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue"
+      ],
+      "saved": [],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue"
+      ],
+      "saved": [],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics"
+      ],
+      "saved": null,
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics"
+      ],
+      "saved": null,
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics"
+      ],
+      "saved": [],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics"
+      ],
+      "saved": [],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer"
+      ],
+      "saved": null,
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer"
+      ],
+      "saved": null,
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer"
+      ],
+      "saved": [],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer"
+      ],
+      "saved": [],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": null,
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "visualizer",
+          "y": 100,
+          "height": 219
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": null,
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "visualizer",
+          "y": 100,
+          "height": 699
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "visualizer",
+          "y": 100,
+          "height": 219
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "visualizer",
+          "y": 100,
+          "height": 699
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "visualizer",
+          "y": 80,
+          "height": 239
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "visualizer",
+          "y": 80,
+          "height": 719
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "visualizer",
+          "y": 80,
+          "height": 239
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "visualizer"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "visualizer",
+          "y": 80,
+          "height": 719
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": null,
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "lyrics",
+          "y": 100,
+          "height": 219
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": null,
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "lyrics",
+          "y": 100,
+          "height": 699
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "lyrics",
+          "y": 100,
+          "height": 219
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "lyrics",
+          "y": 100,
+          "height": 699
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "lyrics",
+          "y": 80,
+          "height": 239
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "lyrics",
+          "y": 80,
+          "height": 719
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "lyrics",
+          "y": 80,
+          "height": 239
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "lyrics"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "lyrics",
+          "y": 80,
+          "height": 719
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics"
+      ],
+      "saved": null,
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 219
+        },
+        {
+          "panel": "lyrics",
+          "y": 219,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics"
+      ],
+      "saved": null,
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 699
+        },
+        {
+          "panel": "lyrics",
+          "y": 699,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics"
+      ],
+      "saved": [],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 219
+        },
+        {
+          "panel": "lyrics",
+          "y": 219,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics"
+      ],
+      "saved": [],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 699
+        },
+        {
+          "panel": "lyrics",
+          "y": 699,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 219
+        },
+        {
+          "panel": "lyrics",
+          "y": 219,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 699
+        },
+        {
+          "panel": "lyrics",
+          "y": 699,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 179
+        },
+        {
+          "panel": "lyrics",
+          "y": 179,
+          "height": 140
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "lyrics"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 659
+        },
+        {
+          "panel": "lyrics",
+          "y": 659,
+          "height": 140
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue"
+      ],
+      "saved": null,
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 219
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue"
+      ],
+      "saved": null,
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 699
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue"
+      ],
+      "saved": [],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 219
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue"
+      ],
+      "saved": [],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 699
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 239
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 719
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 239
+        }
+      ]
+    },
+    {
+      "order": [
+        "lyrics",
+        "queue"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "lyrics",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 719
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer"
+      ],
+      "saved": null,
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 219
+        },
+        {
+          "panel": "visualizer",
+          "y": 219,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer"
+      ],
+      "saved": null,
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 699
+        },
+        {
+          "panel": "visualizer",
+          "y": 699,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer"
+      ],
+      "saved": [],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 219
+        },
+        {
+          "panel": "visualizer",
+          "y": 219,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer"
+      ],
+      "saved": [],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 699
+        },
+        {
+          "panel": "visualizer",
+          "y": 699,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 219
+        },
+        {
+          "panel": "visualizer",
+          "y": 219,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 699
+        },
+        {
+          "panel": "visualizer",
+          "y": 699,
+          "height": 100
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 179
+        },
+        {
+          "panel": "visualizer",
+          "y": 179,
+          "height": 140
+        }
+      ]
+    },
+    {
+      "order": [
+        "queue",
+        "visualizer"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "queue",
+          "y": 0,
+          "height": 659
+        },
+        {
+          "panel": "visualizer",
+          "y": 659,
+          "height": 140
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue"
+      ],
+      "saved": null,
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 219
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue"
+      ],
+      "saved": null,
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 699
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue"
+      ],
+      "saved": [],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 219
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue"
+      ],
+      "saved": [],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 100
+        },
+        {
+          "panel": "queue",
+          "y": 100,
+          "height": 699
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 239
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue"
+      ],
+      "saved": [
+        80
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 719
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 320,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 239
+        }
+      ]
+    },
+    {
+      "order": [
+        "visualizer",
+        "queue"
+      ],
+      "saved": [
+        80,
+        140,
+        230
+      ],
+      "height": 800,
+      "panels": [
+        {
+          "panel": "visualizer",
+          "y": 0,
+          "height": 80
+        },
+        {
+          "panel": "queue",
+          "y": 80,
+          "height": 719
+        }
+      ]
+    }
+  ]
+}

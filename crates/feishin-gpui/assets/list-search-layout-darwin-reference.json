@@ -1,0 +1,3054 @@
+{
+  "electron": "43.7.0",
+  "chromium": "150.0.7871.250",
+  "cases": [
+    {
+      "rootSize": 16,
+      "viewport": 320,
+      "fill": false,
+      "mode": "closed",
+      "container": [
+        0,
+        0,
+        36,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        48,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 320,
+      "fill": false,
+      "mode": "open",
+      "container": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        64,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 320,
+      "fill": false,
+      "mode": "filled-blur",
+      "container": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        70,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            28,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Track 7",
+      "term": "Track 7",
+      "focused": false,
+      "selection": [
+        7,
+        7
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 320,
+      "fill": false,
+      "mode": "escape",
+      "container": [
+        0,
+        0,
+        36,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        48,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 320,
+      "fill": false,
+      "mode": "clear",
+      "container": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        64,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 320,
+      "fill": false,
+      "mode": "shortcut",
+      "container": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        70,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            28,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Existing",
+      "term": "Existing",
+      "focused": true,
+      "selection": [
+        0,
+        8
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 320,
+      "fill": true,
+      "mode": "closed",
+      "container": [
+        0,
+        0,
+        320,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        320,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 320,
+      "fill": true,
+      "mode": "open",
+      "container": [
+        0,
+        0,
+        320,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        320,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 320,
+      "fill": true,
+      "mode": "filled-blur",
+      "container": [
+        0,
+        0,
+        320,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        320,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            284,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Track 7",
+      "term": "Track 7",
+      "focused": false,
+      "selection": [
+        7,
+        7
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 320,
+      "fill": true,
+      "mode": "escape",
+      "container": [
+        0,
+        0,
+        320,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        320,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 320,
+      "fill": true,
+      "mode": "clear",
+      "container": [
+        0,
+        0,
+        320,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        320,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 320,
+      "fill": true,
+      "mode": "shortcut",
+      "container": [
+        0,
+        0,
+        320,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        320,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            284,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Existing",
+      "term": "Existing",
+      "focused": true,
+      "selection": [
+        0,
+        8
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 640,
+      "fill": false,
+      "mode": "closed",
+      "container": [
+        0,
+        0,
+        36,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        48,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 640,
+      "fill": false,
+      "mode": "open",
+      "container": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        128,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 640,
+      "fill": false,
+      "mode": "filled-blur",
+      "container": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        128,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            92,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Track 7",
+      "term": "Track 7",
+      "focused": false,
+      "selection": [
+        7,
+        7
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 640,
+      "fill": false,
+      "mode": "escape",
+      "container": [
+        0,
+        0,
+        36,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        48,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 640,
+      "fill": false,
+      "mode": "clear",
+      "container": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        128,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 640,
+      "fill": false,
+      "mode": "shortcut",
+      "container": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        128,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            92,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Existing",
+      "term": "Existing",
+      "focused": true,
+      "selection": [
+        0,
+        8
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 640,
+      "fill": true,
+      "mode": "closed",
+      "container": [
+        0,
+        0,
+        640,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        640,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 640,
+      "fill": true,
+      "mode": "open",
+      "container": [
+        0,
+        0,
+        640,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        640,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 640,
+      "fill": true,
+      "mode": "filled-blur",
+      "container": [
+        0,
+        0,
+        640,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        640,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            604,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Track 7",
+      "term": "Track 7",
+      "focused": false,
+      "selection": [
+        7,
+        7
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 640,
+      "fill": true,
+      "mode": "escape",
+      "container": [
+        0,
+        0,
+        640,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        640,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 640,
+      "fill": true,
+      "mode": "clear",
+      "container": [
+        0,
+        0,
+        640,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        640,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 640,
+      "fill": true,
+      "mode": "shortcut",
+      "container": [
+        0,
+        0,
+        640,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        640,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            604,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Existing",
+      "term": "Existing",
+      "focused": true,
+      "selection": [
+        0,
+        8
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 1200,
+      "fill": false,
+      "mode": "closed",
+      "container": [
+        0,
+        0,
+        36,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        48,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 1200,
+      "fill": false,
+      "mode": "open",
+      "container": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 1200,
+      "fill": false,
+      "mode": "filled-blur",
+      "container": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            164,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Track 7",
+      "term": "Track 7",
+      "focused": false,
+      "selection": [
+        7,
+        7
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 1200,
+      "fill": false,
+      "mode": "escape",
+      "container": [
+        0,
+        0,
+        36,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        48,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 1200,
+      "fill": false,
+      "mode": "clear",
+      "container": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 1200,
+      "fill": false,
+      "mode": "shortcut",
+      "container": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        200,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            164,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Existing",
+      "term": "Existing",
+      "focused": true,
+      "selection": [
+        0,
+        8
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 1200,
+      "fill": true,
+      "mode": "closed",
+      "container": [
+        0,
+        0,
+        1200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        1200,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 1200,
+      "fill": true,
+      "mode": "open",
+      "container": [
+        0,
+        0,
+        1200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        1200,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 1200,
+      "fill": true,
+      "mode": "filled-blur",
+      "container": [
+        0,
+        0,
+        1200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        1200,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            1164,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Track 7",
+      "term": "Track 7",
+      "focused": false,
+      "selection": [
+        7,
+        7
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 1200,
+      "fill": true,
+      "mode": "escape",
+      "container": [
+        0,
+        0,
+        1200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        1200,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 1200,
+      "fill": true,
+      "mode": "clear",
+      "container": [
+        0,
+        0,
+        1200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        1200,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 16,
+      "viewport": 1200,
+      "fill": true,
+      "mode": "shortcut",
+      "container": [
+        0,
+        0,
+        1200,
+        36
+      ],
+      "input": [
+        0,
+        0,
+        1200,
+        36
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            1164,
+            0,
+            36,
+            36
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            36,
+            36
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Existing",
+      "term": "Existing",
+      "focused": true,
+      "selection": [
+        0,
+        8
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 320,
+      "fill": false,
+      "mode": "closed",
+      "container": [
+        0,
+        0,
+        36,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        71,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 320,
+      "fill": false,
+      "mode": "open",
+      "container": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        71,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 320,
+      "fill": false,
+      "mode": "filled-blur",
+      "container": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        104,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            10,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Track 7",
+      "term": "Track 7",
+      "focused": false,
+      "selection": [
+        7,
+        7
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 320,
+      "fill": false,
+      "mode": "escape",
+      "container": [
+        0,
+        0,
+        36,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        71,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 320,
+      "fill": false,
+      "mode": "clear",
+      "container": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        71,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 320,
+      "fill": false,
+      "mode": "shortcut",
+      "container": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        104,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            10,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Existing",
+      "term": "Existing",
+      "focused": true,
+      "selection": [
+        0,
+        8
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 320,
+      "fill": true,
+      "mode": "closed",
+      "container": [
+        0,
+        0,
+        320,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        320,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 320,
+      "fill": true,
+      "mode": "open",
+      "container": [
+        0,
+        0,
+        320,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        320,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 320,
+      "fill": true,
+      "mode": "filled-blur",
+      "container": [
+        0,
+        0,
+        320,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        320,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            266,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Track 7",
+      "term": "Track 7",
+      "focused": false,
+      "selection": [
+        7,
+        7
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 320,
+      "fill": true,
+      "mode": "escape",
+      "container": [
+        0,
+        0,
+        320,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        320,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 320,
+      "fill": true,
+      "mode": "clear",
+      "container": [
+        0,
+        0,
+        320,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        320,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 320,
+      "fill": true,
+      "mode": "shortcut",
+      "container": [
+        0,
+        0,
+        320,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        320,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            266,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Existing",
+      "term": "Existing",
+      "focused": true,
+      "selection": [
+        0,
+        8
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 640,
+      "fill": false,
+      "mode": "closed",
+      "container": [
+        0,
+        0,
+        36,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        71,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 640,
+      "fill": false,
+      "mode": "open",
+      "container": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        128,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 640,
+      "fill": false,
+      "mode": "filled-blur",
+      "container": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        128,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            74,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Track 7",
+      "term": "Track 7",
+      "focused": false,
+      "selection": [
+        7,
+        7
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 640,
+      "fill": false,
+      "mode": "escape",
+      "container": [
+        0,
+        0,
+        36,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        71,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 640,
+      "fill": false,
+      "mode": "clear",
+      "container": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        128,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 640,
+      "fill": false,
+      "mode": "shortcut",
+      "container": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        128,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            74,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Existing",
+      "term": "Existing",
+      "focused": true,
+      "selection": [
+        0,
+        8
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 640,
+      "fill": true,
+      "mode": "closed",
+      "container": [
+        0,
+        0,
+        640,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        640,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 640,
+      "fill": true,
+      "mode": "open",
+      "container": [
+        0,
+        0,
+        640,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        640,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 640,
+      "fill": true,
+      "mode": "filled-blur",
+      "container": [
+        0,
+        0,
+        640,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        640,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            586,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Track 7",
+      "term": "Track 7",
+      "focused": false,
+      "selection": [
+        7,
+        7
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 640,
+      "fill": true,
+      "mode": "escape",
+      "container": [
+        0,
+        0,
+        640,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        640,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 640,
+      "fill": true,
+      "mode": "clear",
+      "container": [
+        0,
+        0,
+        640,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        640,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 640,
+      "fill": true,
+      "mode": "shortcut",
+      "container": [
+        0,
+        0,
+        640,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        640,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            586,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Existing",
+      "term": "Existing",
+      "focused": true,
+      "selection": [
+        0,
+        8
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 1200,
+      "fill": false,
+      "mode": "closed",
+      "container": [
+        0,
+        0,
+        36,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        71,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 1200,
+      "fill": false,
+      "mode": "open",
+      "container": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 1200,
+      "fill": false,
+      "mode": "filled-blur",
+      "container": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            146,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Track 7",
+      "term": "Track 7",
+      "focused": false,
+      "selection": [
+        7,
+        7
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 1200,
+      "fill": false,
+      "mode": "escape",
+      "container": [
+        0,
+        0,
+        36,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        71,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 1200,
+      "fill": false,
+      "mode": "clear",
+      "container": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 1200,
+      "fill": false,
+      "mode": "shortcut",
+      "container": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        200,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            146,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Existing",
+      "term": "Existing",
+      "focused": true,
+      "selection": [
+        0,
+        8
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 1200,
+      "fill": true,
+      "mode": "closed",
+      "container": [
+        0,
+        0,
+        1200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        1200,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 1200,
+      "fill": true,
+      "mode": "open",
+      "container": [
+        0,
+        0,
+        1200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        1200,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 1200,
+      "fill": true,
+      "mode": "filled-blur",
+      "container": [
+        0,
+        0,
+        1200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        1200,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            1146,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Track 7",
+      "term": "Track 7",
+      "focused": false,
+      "selection": [
+        7,
+        7
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 1200,
+      "fill": true,
+      "mode": "escape",
+      "container": [
+        0,
+        0,
+        1200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        1200,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "0",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": false,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 1200,
+      "fill": true,
+      "mode": "clear",
+      "container": [
+        0,
+        0,
+        1200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        1200,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "",
+      "term": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ]
+    },
+    {
+      "rootSize": 24,
+      "viewport": 1200,
+      "fill": true,
+      "mode": "shortcut",
+      "container": [
+        0,
+        0,
+        1200,
+        54
+      ],
+      "input": [
+        0,
+        0,
+        1200,
+        54
+      ],
+      "containerOverflow": "hidden",
+      "inputOpacity": "1",
+      "buttons": [
+        {
+          "icon": "x",
+          "bounds": [
+            1146,
+            0,
+            54,
+            54
+          ],
+          "opacity": "1"
+        },
+        {
+          "icon": "search",
+          "bounds": [
+            0,
+            0,
+            54,
+            54
+          ],
+          "opacity": "0"
+        }
+      ],
+      "value": "Existing",
+      "term": "Existing",
+      "focused": true,
+      "selection": [
+        0,
+        8
+      ]
+    }
+  ]
+}

@@ -12,14 +12,17 @@ Bug fixes are likely to be accepted without discussion.
 
 ## Development environment
 
-Feishin is built and tested with Node.js `v23.11.0` and pnpm `11.5.2`. Newer versions of Node.js are also supported.
+Feishin uses Rust 1.91 or newer and GPUI. Follow the [native development guide](docs/native/README.md) for platform dependencies, isolated profiles, packaging and tests.
 
-Useful development commands include:
+```sh
+cargo run --locked -p feishin-gpui
+cargo fmt --all -- --check
+cargo test --locked --workspace -- --test-threads=4
+cargo clippy --locked --workspace --all-targets -- -D warnings
+node --test scripts/native-tests/remote.cjs
+```
 
-- `pnpm run dev` - Start the electron app development environment
-- `pnpm run dev:watch` - Start the electron app development environment with main process autoreloading
-- `pnpm run package:dev` - Quick unpacked production build
-- `pnpm run build:remote` - Manually rebuild the remote app if you make changes
+Node 22 or newer is needed for the remote-client tests. The desktop build uses Cargo. Translation catalogs live in `crates/feishin-core/assets/locales`.
 
 ## AI Disclosure
 

@@ -1,0 +1,2119 @@
+{
+  "items": [
+    {
+      "disabled": true,
+      "id": "Now Playing",
+      "label": "page.sidebar.nowPlaying",
+      "route": "/now-playing"
+    },
+    {
+      "disabled": true,
+      "id": "Search",
+      "label": "page.sidebar.search",
+      "route": "/search/song"
+    },
+    {
+      "disabled": false,
+      "id": "Home",
+      "label": "page.sidebar.home",
+      "route": "/"
+    },
+    {
+      "disabled": false,
+      "id": "Favorites",
+      "label": "page.sidebar.favorites",
+      "route": "/favorites"
+    },
+    {
+      "disabled": false,
+      "id": "Albums",
+      "label": "page.sidebar.albums",
+      "route": "/library/albums"
+    },
+    {
+      "disabled": false,
+      "id": "Tracks",
+      "label": "page.sidebar.tracks",
+      "route": "/library/songs"
+    },
+    {
+      "disabled": false,
+      "id": "Artists",
+      "label": "page.sidebar.albumArtists",
+      "route": "/library/album-artists"
+    },
+    {
+      "disabled": false,
+      "id": "Artists-all",
+      "label": "page.sidebar.artists",
+      "route": "/library/artists"
+    },
+    {
+      "disabled": false,
+      "id": "Genres",
+      "label": "page.sidebar.genres",
+      "route": "/library/genres"
+    },
+    {
+      "disabled": false,
+      "id": "Folders",
+      "label": "page.sidebar.folders",
+      "route": "/library/folders"
+    },
+    {
+      "disabled": true,
+      "id": "Playlists",
+      "label": "page.sidebar.playlists",
+      "route": "/playlists"
+    },
+    {
+      "disabled": false,
+      "id": "Collections",
+      "label": "page.sidebar.collections",
+      "route": ""
+    },
+    {
+      "disabled": false,
+      "id": "Radio",
+      "label": "page.sidebar.radio",
+      "route": "/radio"
+    },
+    {
+      "disabled": true,
+      "id": "Settings",
+      "label": "page.sidebar.settings",
+      "route": "/settings"
+    }
+  ],
+  "defaults": {
+    "collapsed": false,
+    "expanded": [],
+    "image": false,
+    "leftWidth": "400px",
+    "rightExpanded": false,
+    "rightHeight": "320px",
+    "rightWidth": "600px"
+  },
+  "cases": [
+    {
+      "collapsed": false,
+      "width": 260,
+      "positions": [],
+      "frames": [],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 260,
+      "positions": [
+        80
+      ],
+      "frames": [
+        {
+          "x": 80,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 260,
+      "positions": [
+        159
+      ],
+      "frames": [
+        {
+          "x": 159,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 260,
+      "positions": [
+        160
+      ],
+      "frames": [
+        {
+          "x": 160,
+          "width": 260,
+          "savedWidth": 260,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 260,
+      "positions": [
+        200
+      ],
+      "frames": [
+        {
+          "x": 200,
+          "width": 260,
+          "savedWidth": 260,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 260,
+      "positions": [
+        260
+      ],
+      "frames": [
+        {
+          "x": 260,
+          "width": 260,
+          "savedWidth": 260,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 260,
+      "positions": [
+        333
+      ],
+      "frames": [
+        {
+          "x": 333,
+          "width": 333,
+          "savedWidth": 260,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 260,
+      "positions": [
+        400
+      ],
+      "frames": [
+        {
+          "x": 400,
+          "width": 400,
+          "savedWidth": 260,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 260,
+      "positions": [
+        500
+      ],
+      "frames": [
+        {
+          "x": 500,
+          "width": 400,
+          "savedWidth": 260,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 260,
+      "positions": [
+        300,
+        100
+      ],
+      "frames": [
+        {
+          "x": 300,
+          "width": 300,
+          "savedWidth": 260,
+          "collapsed": false
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 260,
+      "positions": [
+        100,
+        300
+      ],
+      "frames": [
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        },
+        {
+          "x": 300,
+          "width": 300,
+          "savedWidth": 260,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 300
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 260,
+      "positions": [
+        300,
+        100,
+        500
+      ],
+      "frames": [
+        {
+          "x": 300,
+          "width": 300,
+          "savedWidth": 260,
+          "collapsed": false
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        },
+        {
+          "x": 500,
+          "width": 400,
+          "savedWidth": 260,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 260,
+      "positions": [
+        500,
+        100,
+        200,
+        80
+      ],
+      "frames": [
+        {
+          "x": 500,
+          "width": 400,
+          "savedWidth": 260,
+          "collapsed": false
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        },
+        {
+          "x": 200,
+          "width": 260,
+          "savedWidth": 260,
+          "collapsed": false
+        },
+        {
+          "x": 80,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 333,
+      "positions": [],
+      "frames": [],
+      "final": {
+        "collapsed": false,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 333,
+      "positions": [
+        80
+      ],
+      "frames": [
+        {
+          "x": 80,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 333,
+      "positions": [
+        159
+      ],
+      "frames": [
+        {
+          "x": 159,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 333,
+      "positions": [
+        160
+      ],
+      "frames": [
+        {
+          "x": 160,
+          "width": 260,
+          "savedWidth": 333,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 333,
+      "positions": [
+        200
+      ],
+      "frames": [
+        {
+          "x": 200,
+          "width": 260,
+          "savedWidth": 333,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 333,
+      "positions": [
+        260
+      ],
+      "frames": [
+        {
+          "x": 260,
+          "width": 260,
+          "savedWidth": 333,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 333,
+      "positions": [
+        333
+      ],
+      "frames": [
+        {
+          "x": 333,
+          "width": 333,
+          "savedWidth": 333,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 333,
+      "positions": [
+        400
+      ],
+      "frames": [
+        {
+          "x": 400,
+          "width": 400,
+          "savedWidth": 333,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 333,
+      "positions": [
+        500
+      ],
+      "frames": [
+        {
+          "x": 500,
+          "width": 400,
+          "savedWidth": 333,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 333,
+      "positions": [
+        300,
+        100
+      ],
+      "frames": [
+        {
+          "x": 300,
+          "width": 300,
+          "savedWidth": 333,
+          "collapsed": false
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 333,
+      "positions": [
+        100,
+        300
+      ],
+      "frames": [
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        },
+        {
+          "x": 300,
+          "width": 300,
+          "savedWidth": 333,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 300
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 333,
+      "positions": [
+        300,
+        100,
+        500
+      ],
+      "frames": [
+        {
+          "x": 300,
+          "width": 300,
+          "savedWidth": 333,
+          "collapsed": false
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        },
+        {
+          "x": 500,
+          "width": 400,
+          "savedWidth": 333,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 333,
+      "positions": [
+        500,
+        100,
+        200,
+        80
+      ],
+      "frames": [
+        {
+          "x": 500,
+          "width": 400,
+          "savedWidth": 333,
+          "collapsed": false
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        },
+        {
+          "x": 200,
+          "width": 260,
+          "savedWidth": 333,
+          "collapsed": false
+        },
+        {
+          "x": 80,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 400,
+      "positions": [],
+      "frames": [],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 400,
+      "positions": [
+        80
+      ],
+      "frames": [
+        {
+          "x": 80,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 400,
+      "positions": [
+        159
+      ],
+      "frames": [
+        {
+          "x": 159,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 400,
+      "positions": [
+        160
+      ],
+      "frames": [
+        {
+          "x": 160,
+          "width": 260,
+          "savedWidth": 400,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 400,
+      "positions": [
+        200
+      ],
+      "frames": [
+        {
+          "x": 200,
+          "width": 260,
+          "savedWidth": 400,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 400,
+      "positions": [
+        260
+      ],
+      "frames": [
+        {
+          "x": 260,
+          "width": 260,
+          "savedWidth": 400,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 400,
+      "positions": [
+        333
+      ],
+      "frames": [
+        {
+          "x": 333,
+          "width": 333,
+          "savedWidth": 400,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 400,
+      "positions": [
+        400
+      ],
+      "frames": [
+        {
+          "x": 400,
+          "width": 400,
+          "savedWidth": 400,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 400,
+      "positions": [
+        500
+      ],
+      "frames": [
+        {
+          "x": 500,
+          "width": 400,
+          "savedWidth": 400,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 400,
+      "positions": [
+        300,
+        100
+      ],
+      "frames": [
+        {
+          "x": 300,
+          "width": 300,
+          "savedWidth": 400,
+          "collapsed": false
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 400,
+      "positions": [
+        100,
+        300
+      ],
+      "frames": [
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        },
+        {
+          "x": 300,
+          "width": 300,
+          "savedWidth": 400,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 300
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 400,
+      "positions": [
+        300,
+        100,
+        500
+      ],
+      "frames": [
+        {
+          "x": 300,
+          "width": 300,
+          "savedWidth": 400,
+          "collapsed": false
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        },
+        {
+          "x": 500,
+          "width": 400,
+          "savedWidth": 400,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": false,
+      "width": 400,
+      "positions": [
+        500,
+        100,
+        200,
+        80
+      ],
+      "frames": [
+        {
+          "x": 500,
+          "width": 400,
+          "savedWidth": 400,
+          "collapsed": false
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        },
+        {
+          "x": 200,
+          "width": 260,
+          "savedWidth": 400,
+          "collapsed": false
+        },
+        {
+          "x": 80,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 260,
+      "positions": [],
+      "frames": [],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 260,
+      "positions": [
+        80
+      ],
+      "frames": [
+        {
+          "x": 80,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 260,
+      "positions": [
+        159
+      ],
+      "frames": [
+        {
+          "x": 159,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 260,
+      "positions": [
+        160
+      ],
+      "frames": [
+        {
+          "x": 160,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 260,
+      "positions": [
+        200
+      ],
+      "frames": [
+        {
+          "x": 200,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 260,
+      "positions": [
+        260
+      ],
+      "frames": [
+        {
+          "x": 260,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 260,
+      "positions": [
+        333
+      ],
+      "frames": [
+        {
+          "x": 333,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 260,
+      "positions": [
+        400
+      ],
+      "frames": [
+        {
+          "x": 400,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 260,
+      "positions": [
+        500
+      ],
+      "frames": [
+        {
+          "x": 500,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 260,
+      "positions": [
+        300,
+        100
+      ],
+      "frames": [
+        {
+          "x": 300,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 260,
+      "positions": [
+        100,
+        300
+      ],
+      "frames": [
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        },
+        {
+          "x": 300,
+          "width": 300,
+          "savedWidth": 260,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 300
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 260,
+      "positions": [
+        300,
+        100,
+        500
+      ],
+      "frames": [
+        {
+          "x": 300,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        },
+        {
+          "x": 500,
+          "width": 400,
+          "savedWidth": 260,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 260,
+      "positions": [
+        500,
+        100,
+        200,
+        80
+      ],
+      "frames": [
+        {
+          "x": 500,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        },
+        {
+          "x": 200,
+          "width": 260,
+          "savedWidth": 260,
+          "collapsed": false
+        },
+        {
+          "x": 80,
+          "width": 80,
+          "savedWidth": 260,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 333,
+      "positions": [],
+      "frames": [],
+      "final": {
+        "collapsed": false,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 333,
+      "positions": [
+        80
+      ],
+      "frames": [
+        {
+          "x": 80,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 333,
+      "positions": [
+        159
+      ],
+      "frames": [
+        {
+          "x": 159,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 333,
+      "positions": [
+        160
+      ],
+      "frames": [
+        {
+          "x": 160,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 333,
+      "positions": [
+        200
+      ],
+      "frames": [
+        {
+          "x": 200,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 333,
+      "positions": [
+        260
+      ],
+      "frames": [
+        {
+          "x": 260,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 333,
+      "positions": [
+        333
+      ],
+      "frames": [
+        {
+          "x": 333,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 333,
+      "positions": [
+        400
+      ],
+      "frames": [
+        {
+          "x": 400,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 333,
+      "positions": [
+        500
+      ],
+      "frames": [
+        {
+          "x": 500,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 333,
+      "positions": [
+        300,
+        100
+      ],
+      "frames": [
+        {
+          "x": 300,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 333,
+      "positions": [
+        100,
+        300
+      ],
+      "frames": [
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        },
+        {
+          "x": 300,
+          "width": 300,
+          "savedWidth": 333,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 300
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 333,
+      "positions": [
+        300,
+        100,
+        500
+      ],
+      "frames": [
+        {
+          "x": 300,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        },
+        {
+          "x": 500,
+          "width": 400,
+          "savedWidth": 333,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 333,
+      "positions": [
+        500,
+        100,
+        200,
+        80
+      ],
+      "frames": [
+        {
+          "x": 500,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        },
+        {
+          "x": 200,
+          "width": 260,
+          "savedWidth": 333,
+          "collapsed": false
+        },
+        {
+          "x": 80,
+          "width": 80,
+          "savedWidth": 333,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 400,
+      "positions": [],
+      "frames": [],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 400,
+      "positions": [
+        80
+      ],
+      "frames": [
+        {
+          "x": 80,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 400,
+      "positions": [
+        159
+      ],
+      "frames": [
+        {
+          "x": 159,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 400,
+      "positions": [
+        160
+      ],
+      "frames": [
+        {
+          "x": 160,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 400,
+      "positions": [
+        200
+      ],
+      "frames": [
+        {
+          "x": 200,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 400,
+      "positions": [
+        260
+      ],
+      "frames": [
+        {
+          "x": 260,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 260
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 400,
+      "positions": [
+        333
+      ],
+      "frames": [
+        {
+          "x": 333,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 333
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 400,
+      "positions": [
+        400
+      ],
+      "frames": [
+        {
+          "x": 400,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 400,
+      "positions": [
+        500
+      ],
+      "frames": [
+        {
+          "x": 500,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 400,
+      "positions": [
+        300,
+        100
+      ],
+      "frames": [
+        {
+          "x": 300,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 400,
+      "positions": [
+        100,
+        300
+      ],
+      "frames": [
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        },
+        {
+          "x": 300,
+          "width": 300,
+          "savedWidth": 400,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 300
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 400,
+      "positions": [
+        300,
+        100,
+        500
+      ],
+      "frames": [
+        {
+          "x": 300,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        },
+        {
+          "x": 500,
+          "width": 400,
+          "savedWidth": 400,
+          "collapsed": false
+        }
+      ],
+      "final": {
+        "collapsed": false,
+        "width": 400
+      }
+    },
+    {
+      "collapsed": true,
+      "width": 400,
+      "positions": [
+        500,
+        100,
+        200,
+        80
+      ],
+      "frames": [
+        {
+          "x": 500,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        },
+        {
+          "x": 100,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        },
+        {
+          "x": 200,
+          "width": 260,
+          "savedWidth": 400,
+          "collapsed": false
+        },
+        {
+          "x": 80,
+          "width": 80,
+          "savedWidth": 400,
+          "collapsed": true
+        }
+      ],
+      "final": {
+        "collapsed": true,
+        "width": 400
+      }
+    }
+  ],
+  "artwork": [
+    {
+      "expanded": false,
+      "visualizer": false,
+      "button": null,
+      "stopped": false,
+      "update": {
+        "expanded": true
+      }
+    },
+    {
+      "expanded": false,
+      "visualizer": false,
+      "button": 0,
+      "stopped": true,
+      "update": {
+        "expanded": true
+      }
+    },
+    {
+      "expanded": false,
+      "visualizer": false,
+      "button": 2,
+      "stopped": false,
+      "update": null
+    },
+    {
+      "expanded": false,
+      "visualizer": true,
+      "button": null,
+      "stopped": false,
+      "update": {
+        "expanded": false,
+        "visualizerExpanded": false,
+        "visualizerReturnToPlayer": false
+      }
+    },
+    {
+      "expanded": false,
+      "visualizer": true,
+      "button": 0,
+      "stopped": true,
+      "update": {
+        "expanded": false,
+        "visualizerExpanded": false,
+        "visualizerReturnToPlayer": false
+      }
+    },
+    {
+      "expanded": false,
+      "visualizer": true,
+      "button": 2,
+      "stopped": false,
+      "update": null
+    },
+    {
+      "expanded": true,
+      "visualizer": false,
+      "button": null,
+      "stopped": false,
+      "update": {
+        "expanded": false,
+        "visualizerExpanded": false,
+        "visualizerReturnToPlayer": false
+      }
+    },
+    {
+      "expanded": true,
+      "visualizer": false,
+      "button": 0,
+      "stopped": true,
+      "update": {
+        "expanded": false,
+        "visualizerExpanded": false,
+        "visualizerReturnToPlayer": false
+      }
+    },
+    {
+      "expanded": true,
+      "visualizer": false,
+      "button": 2,
+      "stopped": false,
+      "update": null
+    },
+    {
+      "expanded": true,
+      "visualizer": true,
+      "button": null,
+      "stopped": false,
+      "update": {
+        "expanded": false,
+        "visualizerExpanded": false,
+        "visualizerReturnToPlayer": false
+      }
+    },
+    {
+      "expanded": true,
+      "visualizer": true,
+      "button": 0,
+      "stopped": true,
+      "update": {
+        "expanded": false,
+        "visualizerExpanded": false,
+        "visualizerReturnToPlayer": false
+      }
+    },
+    {
+      "expanded": true,
+      "visualizer": true,
+      "button": 2,
+      "stopped": false,
+      "update": null
+    }
+  ],
+  "sections": {
+    "initialOpen": [
+      "library",
+      "collections",
+      "playlists"
+    ],
+    "library": [
+      "/",
+      "/favorites",
+      "/library/albums",
+      "/library/songs",
+      "/library/album-artists",
+      "/library/artists",
+      "/library/genres",
+      "/library/folders",
+      "/radio"
+    ],
+    "artworkOutsideScroll": true,
+    "collectionOrders": [
+      {
+        "input": [],
+        "ids": []
+      },
+      {
+        "input": [
+          {
+            "id": "z",
+            "name": "Zulu"
+          },
+          {
+            "id": "a",
+            "name": "Alpha"
+          }
+        ],
+        "ids": [
+          "z",
+          "a"
+        ]
+      },
+      {
+        "input": [
+          {
+            "id": "b",
+            "name": "Same"
+          },
+          {
+            "id": "a",
+            "name": "Same"
+          }
+        ],
+        "ids": [
+          "b",
+          "a"
+        ]
+      }
+    ],
+    "playlistScopes": [
+      {
+        "regex": "",
+        "orders": {
+          "owned": [
+            "no-owner",
+            "own"
+          ],
+          "shared": [
+            "shared"
+          ]
+        },
+        "items": [
+          {
+            "id": "own",
+            "name": "Rock/Owned",
+            "owner": "me"
+          },
+          {
+            "id": "shared",
+            "name": "Rock/Shared",
+            "owner": "other"
+          },
+          {
+            "id": "no-owner",
+            "name": "Root",
+            "owner": ""
+          },
+          {
+            "id": "hidden",
+            "name": "Private",
+            "owner": "me"
+          }
+        ],
+        "owned": [
+          "no-owner",
+          "own",
+          "hidden"
+        ],
+        "shared": [
+          "shared"
+        ]
+      },
+      {
+        "regex": "private",
+        "orders": {
+          "owned": [
+            "no-owner",
+            "own"
+          ],
+          "shared": [
+            "shared"
+          ]
+        },
+        "items": [
+          {
+            "id": "own",
+            "name": "Rock/Owned",
+            "owner": "me"
+          },
+          {
+            "id": "shared",
+            "name": "Rock/Shared",
+            "owner": "other"
+          },
+          {
+            "id": "no-owner",
+            "name": "Root",
+            "owner": ""
+          },
+          {
+            "id": "hidden",
+            "name": "Private",
+            "owner": "me"
+          }
+        ],
+        "owned": [
+          "no-owner",
+          "own"
+        ],
+        "shared": [
+          "shared"
+        ]
+      },
+      {
+        "regex": "[",
+        "orders": {
+          "owned": [
+            "no-owner",
+            "own"
+          ],
+          "shared": [
+            "shared"
+          ]
+        },
+        "items": [
+          {
+            "id": "own",
+            "name": "Rock/Owned",
+            "owner": "me"
+          },
+          {
+            "id": "shared",
+            "name": "Rock/Shared",
+            "owner": "other"
+          },
+          {
+            "id": "no-owner",
+            "name": "Root",
+            "owner": ""
+          },
+          {
+            "id": "hidden",
+            "name": "Private",
+            "owner": "me"
+          }
+        ],
+        "owned": [
+          "no-owner",
+          "own",
+          "hidden"
+        ],
+        "shared": [
+          "shared"
+        ]
+      }
+    ]
+  }
+}

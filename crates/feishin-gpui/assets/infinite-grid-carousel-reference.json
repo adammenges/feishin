@@ -1,0 +1,6464 @@
+[
+  {
+    "width": 300,
+    "count": 0,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 300,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 300,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 300,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 300,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 0,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-8",
+            "placeholder-9"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 0,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-10",
+            "placeholder-11"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 20,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 23,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 23,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 23,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      }
+    ]
+  },
+  {
+    "width": 300,
+    "count": 1,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 300,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            0
+          ],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 300,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 300,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 300,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 1,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-8",
+            "placeholder-9"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 1,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-10",
+            "placeholder-11"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 21,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 24,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 24,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 24,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      }
+    ]
+  },
+  {
+    "width": 300,
+    "count": 19,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 300,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            0,
+            1
+          ],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 300,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            2,
+            3
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 300,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            4,
+            5
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 300,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            6,
+            7
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 19,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 19,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 39,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 42,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 42,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 42,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      }
+    ]
+  },
+  {
+    "width": 300,
+    "count": 20,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 300,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            0,
+            1
+          ],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 300,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            2,
+            3
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 300,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            4,
+            5
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 300,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            6,
+            7
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 20,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 20,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 40,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 43,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41,
+            42
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 43,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41,
+            42
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 43,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      }
+    ]
+  },
+  {
+    "width": 720,
+    "count": 0,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 720,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 720,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 720,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 720,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 720,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 720,
+          "count": 0,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-16",
+            "placeholder-17",
+            "placeholder-18",
+            "placeholder-19"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 720,
+          "count": 0,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-20",
+            "placeholder-21",
+            "placeholder-22",
+            "placeholder-23"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 720,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 720,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 20,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 23,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 23,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 23,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      }
+    ]
+  },
+  {
+    "width": 720,
+    "count": 1,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 720,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            0
+          ],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 720,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 720,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 720,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 720,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 720,
+          "count": 1,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-16",
+            "placeholder-17",
+            "placeholder-18",
+            "placeholder-19"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 720,
+          "count": 1,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-20",
+            "placeholder-21",
+            "placeholder-22",
+            "placeholder-23"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 720,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            20
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 720,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 21,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 24,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 24,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 24,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      }
+    ]
+  },
+  {
+    "width": 720,
+    "count": 19,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 720,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 720,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 720,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 720,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 720,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            16,
+            17,
+            18
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 720,
+          "count": 19,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            16,
+            17,
+            18,
+            "placeholder-19"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 720,
+          "count": 19,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-20",
+            "placeholder-21",
+            "placeholder-22",
+            "placeholder-23"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 720,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 720,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 39,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 42,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 42,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 42,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      }
+    ]
+  },
+  {
+    "width": 720,
+    "count": 20,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 720,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 720,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 720,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 720,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 720,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 720,
+          "count": 20,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 720,
+          "count": 20,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-20",
+            "placeholder-21",
+            "placeholder-22",
+            "placeholder-23"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 720,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 720,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 40,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 43,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41,
+            42
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 43,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41,
+            42
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 43,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      }
+    ]
+  },
+  {
+    "width": 960,
+    "count": 0,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 960,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 960,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 960,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 960,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 960,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 960,
+          "count": 0,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-20",
+            "placeholder-21",
+            "placeholder-22",
+            "placeholder-23",
+            "placeholder-24"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 960,
+          "count": 0,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-25",
+            "placeholder-26",
+            "placeholder-27",
+            "placeholder-28",
+            "placeholder-29"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 960,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 960,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 20,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 23,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 23,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 23,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      }
+    ]
+  },
+  {
+    "width": 960,
+    "count": 1,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 960,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            0
+          ],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 960,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 960,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 960,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 960,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 960,
+          "count": 1,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-20",
+            "placeholder-21",
+            "placeholder-22",
+            "placeholder-23",
+            "placeholder-24"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 960,
+          "count": 1,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-25",
+            "placeholder-26",
+            "placeholder-27",
+            "placeholder-28",
+            "placeholder-29"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 960,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 960,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            20
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 21,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 24,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 24,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 24,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      }
+    ]
+  },
+  {
+    "width": 960,
+    "count": 19,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 960,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 960,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 960,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 960,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 960,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 960,
+          "count": 19,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-20",
+            "placeholder-21",
+            "placeholder-22",
+            "placeholder-23",
+            "placeholder-24"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 960,
+          "count": 19,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-25",
+            "placeholder-26",
+            "placeholder-27",
+            "placeholder-28",
+            "placeholder-29"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 960,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 960,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 39,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 42,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 42,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 42,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      }
+    ]
+  },
+  {
+    "width": 960,
+    "count": 20,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 960,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 960,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 960,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 960,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 960,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 960,
+          "count": 20,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-20",
+            "placeholder-21",
+            "placeholder-22",
+            "placeholder-23",
+            "placeholder-24"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 960,
+          "count": 20,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-25",
+            "placeholder-26",
+            "placeholder-27",
+            "placeholder-28",
+            "placeholder-29"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 960,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 960,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 40,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 43,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41,
+            42
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 43,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41,
+            42
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 43,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "count": 0,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 1440,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 1440,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 1440,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 1440,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 1440,
+          "count": 0,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 1440,
+          "count": 0,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-32",
+            "placeholder-33",
+            "placeholder-34",
+            "placeholder-35",
+            "placeholder-36",
+            "placeholder-37",
+            "placeholder-38",
+            "placeholder-39"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1440,
+          "count": 0,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1440,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1440,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 20,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 23,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 23,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 23,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "count": 1,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 1440,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            0
+          ],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 1440,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 1440,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 1440,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 1440,
+          "count": 1,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 1440,
+          "count": 1,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-32",
+            "placeholder-33",
+            "placeholder-34",
+            "placeholder-35",
+            "placeholder-36",
+            "placeholder-37",
+            "placeholder-38",
+            "placeholder-39"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1440,
+          "count": 1,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1440,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1440,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 21,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 21,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 24,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 24,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 24,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "count": 19,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 1440,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 1440,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 1440,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            16,
+            17,
+            18
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 1440,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 1440,
+          "count": 19,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 1440,
+          "count": 19,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-32",
+            "placeholder-33",
+            "placeholder-34",
+            "placeholder-35",
+            "placeholder-36",
+            "placeholder-37",
+            "placeholder-38",
+            "placeholder-39"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1440,
+          "count": 19,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1440,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1440,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 39,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 39,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 42,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 42,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 42,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 5
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 5
+        }
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "count": 20,
+    "frames": [
+      {
+        "action": {
+          "kind": "initial"
+        },
+        "result": {
+          "page": 0,
+          "width": 1440,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "disabled": [
+            true,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 1,
+          "width": 1440,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 0
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 2,
+          "width": 1440,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 3,
+          "width": 1440,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 4,
+          "width": 1440,
+          "count": 20,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 4,
+          "width": 1440,
+          "count": 20,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-32",
+            "placeholder-33",
+            "placeholder-34",
+            "placeholder-35",
+            "placeholder-36",
+            "placeholder-37",
+            "placeholder-38",
+            "placeholder-39"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1440,
+          "count": 20,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 1
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 20,
+          "hasMore": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1440,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1440,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 300
+        },
+        "result": {
+          "page": 4,
+          "width": 300,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            8,
+            9
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 300,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [
+            10,
+            11
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 2
+        }
+      },
+      {
+        "action": {
+          "kind": "resize",
+          "width": 1600
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 40,
+          "loading": false,
+          "hasMore": true,
+          "visible": [],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "loading",
+          "value": true
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 40,
+          "loading": true,
+          "hasMore": true,
+          "visible": [
+            "placeholder-40",
+            "placeholder-41",
+            "placeholder-42",
+            "placeholder-43",
+            "placeholder-44",
+            "placeholder-45",
+            "placeholder-46",
+            "placeholder-47"
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 3
+        }
+      },
+      {
+        "action": {
+          "kind": "append",
+          "count": 3,
+          "hasMore": false
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 43,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41,
+            42
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "next"
+        },
+        "result": {
+          "page": 5,
+          "width": 1600,
+          "count": 43,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            40,
+            41,
+            42
+          ],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 43,
+          "loading": false,
+          "hasMore": false,
+          "visible": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "disabled": [
+            false,
+            false
+          ],
+          "fetchCalls": 4
+        }
+      },
+      {
+        "action": {
+          "kind": "replace",
+          "ids": [
+            9,
+            9,
+            1,
+            8,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "hasMore": false
+        },
+        "result": {
+          "page": 4,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 5
+        }
+      },
+      {
+        "action": {
+          "kind": "prev"
+        },
+        "result": {
+          "page": 3,
+          "width": 1600,
+          "count": 11,
+          "loading": false,
+          "hasMore": false,
+          "visible": [],
+          "disabled": [
+            false,
+            true
+          ],
+          "fetchCalls": 5
+        }
+      }
+    ]
+  }
+]

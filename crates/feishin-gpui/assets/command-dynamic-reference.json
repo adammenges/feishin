@@ -1,0 +1,140 @@
+[
+  {
+    "operation": {
+      "config": {
+        "groups": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "disabled": []
+      }
+    },
+    "selected": "0",
+    "focus": "query",
+    "activations": []
+  },
+  {
+    "operation": {
+      "pointer": "2"
+    },
+    "selected": "2",
+    "focus": "query",
+    "activations": []
+  },
+  {
+    "operation": {
+      "config": {
+        "groups": [
+          [
+            9,
+            0,
+            1,
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "disabled": []
+      }
+    },
+    "selected": "2",
+    "focus": "query",
+    "activations": []
+  },
+  {
+    "operation": {
+      "config": {
+        "groups": [
+          [
+            9,
+            0,
+            1,
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "disabled": [
+          2
+        ]
+      }
+    },
+    "selected": "2",
+    "focus": "query",
+    "activations": []
+  },
+  {
+    "operation": {
+      "key": "ArrowDown"
+    },
+    "selected": "9",
+    "focus": "query",
+    "activations": []
+  },
+  {
+    "operation": {
+      "pointer": "1"
+    },
+    "selected": "1",
+    "focus": "query",
+    "activations": []
+  },
+  {
+    "operation": {
+      "config": {
+        "groups": [
+          [
+            9,
+            0,
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "disabled": []
+      }
+    },
+    "selected": "9",
+    "focus": "query",
+    "activations": []
+  },
+  {
+    "operation": {
+      "config": {
+        "groups": [
+          [],
+          []
+        ],
+        "disabled": []
+      }
+    },
+    "selected": null,
+    "focus": "query",
+    "activations": []
+  },
+  {
+    "operation": {
+      "config": {
+        "groups": [
+          [],
+          [
+            5
+          ]
+        ],
+        "disabled": []
+      }
+    },
+    "selected": null,
+    "focus": "query",
+    "activations": []
+  }
+]

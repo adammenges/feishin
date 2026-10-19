@@ -1,0 +1,77 @@
+[package]
+name = "feishin-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+chrono = "0.4"
+csscolorparser = "=0.9.0"
+cssparser = "=0.37.0"
+wuff = { version = "=0.2.9", default-features = false }
+brotli-decompressor = "5"
+flate2 = "1"
+ttf-parser = "0.25"
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+indexmap = { version = "2", features = ["serde"] }
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "multipart", "rustls-tls"] }
+url = "2"
+md5 = "0.7"
+rand = "0.8"
+uuid = { version = "1", features = ["v4", "serde"] }
+directories = "6"
+keyring = { version = "3", features = ["apple-native", "windows-native", "sync-secret-service", "crypto-rust"] }
+log = "0.4"
+rodio = { version = "0.21.1", features = ["symphonia-all"] }
+interprocess = "2"
+stream-download = { version = "0.24.4", default-features = false, features = ["reqwest-rustls", "temp-storage"] }
+tokio = { version = "1", features = ["rt-multi-thread", "net", "sync", "macros", "process", "fs", "io-util"] }
+axum = { version = "0.8", features = ["ws"] }
+futures-util = "0.3"
+base64 = "0.22"
+lofty = "=0.22.4"
+discord-rich-presence = "1.1"
+html5ever = "0.27"
+markup5ever_rcdom = "0.3"
+roxmltree = "0.20"
+if-addrs = "0.13"
+socket2 = "0.6"
+soundtouch = { version = "0.5.4", features = ["bundled"] }
+icy-metadata = { version = "0.6", default-features = false }
+lindera = { version = "=6.2.0", default-features = false, features = ["embed-ipadic"] }
+keepawake = "0.6"
+regex = "1"
+regress = { version = "=0.11.1", features = ["utf16"] }
+icu_segmenter = { version = "=2.3.0", default-features = false, features = ["compiled_data"] }
+icu_locale_core = "=2.3.0"
+icu_collator = "=2.3.0"
+icu_casemap = "=2.3.0"
+icu_plurals = "=2.3.0"
+icu_decimal = "=2.3.0"
+icu_datetime = "=2.3.0"
+sys-locale = "=0.3.2"
+fixed_decimal = "=0.7.2"
+rustfft = "6"
+zip = { version = "6.0", default-features = false, features = ["deflate"] }
+semver = "1"
+sha2 = "0.10"
+tar = "0.4"
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+dbus = "0.9"
+
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.61", features = ["Win32_Foundation", "Win32_System_Threading"] }
+
+[dev-dependencies]
+tokio-tungstenite = "0.29"
+
+[build-dependencies]
+cmake = "0.1"
+cc = "1"

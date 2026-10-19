@@ -1,0 +1,456 @@
+{
+  "authorization": [
+    {
+      "username": "",
+      "password": "",
+      "header": null,
+      "accepted": true
+    },
+    {
+      "username": "",
+      "password": "",
+      "header": "Basic Og==",
+      "accepted": true
+    },
+    {
+      "username": "",
+      "password": "",
+      "header": "Basic d3Jvbmc6d3Jvbmc=",
+      "accepted": true
+    },
+    {
+      "username": "",
+      "password": "",
+      "header": "Basic Og==",
+      "accepted": true
+    },
+    {
+      "username": "phone",
+      "password": "",
+      "header": null,
+      "accepted": false
+    },
+    {
+      "username": "phone",
+      "password": "",
+      "header": "Basic Og==",
+      "accepted": false
+    },
+    {
+      "username": "phone",
+      "password": "",
+      "header": "Basic d3Jvbmc6d3Jvbmc=",
+      "accepted": false
+    },
+    {
+      "username": "phone",
+      "password": "",
+      "header": "Basic cGhvbmU6",
+      "accepted": true
+    },
+    {
+      "username": "",
+      "password": "secret",
+      "header": null,
+      "accepted": false
+    },
+    {
+      "username": "",
+      "password": "secret",
+      "header": "Basic Og==",
+      "accepted": false
+    },
+    {
+      "username": "",
+      "password": "secret",
+      "header": "Basic d3Jvbmc6d3Jvbmc=",
+      "accepted": false
+    },
+    {
+      "username": "",
+      "password": "secret",
+      "header": "Basic OnNlY3JldA==",
+      "accepted": true
+    },
+    {
+      "username": "phone",
+      "password": "secret",
+      "header": null,
+      "accepted": false
+    },
+    {
+      "username": "phone",
+      "password": "secret",
+      "header": "Basic Og==",
+      "accepted": false
+    },
+    {
+      "username": "phone",
+      "password": "secret",
+      "header": "Basic d3Jvbmc6d3Jvbmc=",
+      "accepted": false
+    },
+    {
+      "username": "phone",
+      "password": "secret",
+      "header": "Basic cGhvbmU6c2VjcmV0",
+      "accepted": true
+    }
+  ],
+  "changes": [
+    {
+      "action": "port",
+      "username": "",
+      "password": "",
+      "port": 5432,
+      "calls": [],
+      "closed": []
+    },
+    {
+      "action": "username",
+      "username": "other",
+      "password": "",
+      "port": 5432,
+      "calls": [],
+      "closed": [
+        4002
+      ]
+    },
+    {
+      "action": "password",
+      "username": "other",
+      "password": "changed",
+      "port": 5432,
+      "calls": [],
+      "closed": [
+        4002
+      ]
+    },
+    {
+      "action": "restart",
+      "port": 5432,
+      "calls": [
+        [
+          "disable"
+        ],
+        [
+          "enable",
+          5432
+        ]
+      ]
+    },
+    {
+      "action": "port",
+      "username": "phone",
+      "password": "",
+      "port": 5432,
+      "calls": [],
+      "closed": []
+    },
+    {
+      "action": "username",
+      "username": "other",
+      "password": "",
+      "port": 5432,
+      "calls": [],
+      "closed": [
+        4002
+      ]
+    },
+    {
+      "action": "password",
+      "username": "other",
+      "password": "changed",
+      "port": 5432,
+      "calls": [],
+      "closed": [
+        4002
+      ]
+    },
+    {
+      "action": "restart",
+      "port": 5432,
+      "calls": [
+        [
+          "disable"
+        ],
+        [
+          "enable",
+          5432
+        ]
+      ]
+    },
+    {
+      "action": "port",
+      "username": "",
+      "password": "secret",
+      "port": 5432,
+      "calls": [],
+      "closed": []
+    },
+    {
+      "action": "username",
+      "username": "other",
+      "password": "secret",
+      "port": 5432,
+      "calls": [],
+      "closed": [
+        4002
+      ]
+    },
+    {
+      "action": "password",
+      "username": "other",
+      "password": "changed",
+      "port": 5432,
+      "calls": [],
+      "closed": [
+        4002
+      ]
+    },
+    {
+      "action": "restart",
+      "port": 5432,
+      "calls": [
+        [
+          "disable"
+        ],
+        [
+          "enable",
+          5432
+        ]
+      ]
+    },
+    {
+      "action": "port",
+      "username": "phone",
+      "password": "secret",
+      "port": 5432,
+      "calls": [],
+      "closed": []
+    },
+    {
+      "action": "username",
+      "username": "other",
+      "password": "secret",
+      "port": 5432,
+      "calls": [],
+      "closed": [
+        4002
+      ]
+    },
+    {
+      "action": "password",
+      "username": "other",
+      "password": "changed",
+      "port": 5432,
+      "calls": [],
+      "closed": [
+        4002
+      ]
+    },
+    {
+      "action": "restart",
+      "port": 5432,
+      "calls": [
+        [
+          "disable"
+        ],
+        [
+          "enable",
+          5432
+        ]
+      ]
+    }
+  ],
+  "closes": [
+    {
+      "code": 1000,
+      "natural": false,
+      "delays": [
+        2000
+      ],
+      "reloads": 0,
+      "states": [
+        {
+          "authFailed": false,
+          "connected": false,
+          "info": {}
+        }
+      ]
+    },
+    {
+      "code": 1000,
+      "natural": true,
+      "delays": [],
+      "reloads": 0,
+      "states": []
+    },
+    {
+      "code": 1001,
+      "natural": false,
+      "delays": [
+        2000
+      ],
+      "reloads": 0,
+      "states": [
+        {
+          "authFailed": false,
+          "connected": false,
+          "info": {}
+        }
+      ]
+    },
+    {
+      "code": 1001,
+      "natural": true,
+      "delays": [],
+      "reloads": 0,
+      "states": []
+    },
+    {
+      "code": 1006,
+      "natural": false,
+      "delays": [
+        2000
+      ],
+      "reloads": 0,
+      "states": [
+        {
+          "authFailed": false,
+          "connected": false,
+          "info": {}
+        }
+      ]
+    },
+    {
+      "code": 1006,
+      "natural": true,
+      "delays": [],
+      "reloads": 0,
+      "states": []
+    },
+    {
+      "code": 1011,
+      "natural": false,
+      "delays": [
+        2000
+      ],
+      "reloads": 0,
+      "states": [
+        {
+          "authFailed": false,
+          "connected": false,
+          "info": {}
+        }
+      ]
+    },
+    {
+      "code": 1011,
+      "natural": true,
+      "delays": [],
+      "reloads": 0,
+      "states": []
+    },
+    {
+      "code": 4000,
+      "natural": false,
+      "delays": [],
+      "reloads": 0,
+      "states": [
+        {
+          "authFailed": false,
+          "connected": false,
+          "info": {}
+        }
+      ]
+    },
+    {
+      "code": 4000,
+      "natural": true,
+      "delays": [],
+      "reloads": 0,
+      "states": []
+    },
+    {
+      "code": 4001,
+      "natural": false,
+      "delays": [],
+      "reloads": 0,
+      "states": [
+        {
+          "authFailed": false,
+          "connected": false,
+          "info": {}
+        }
+      ]
+    },
+    {
+      "code": 4001,
+      "natural": true,
+      "delays": [],
+      "reloads": 0,
+      "states": []
+    },
+    {
+      "code": 4002,
+      "natural": false,
+      "delays": [],
+      "reloads": 1,
+      "states": [
+        {
+          "authFailed": false,
+          "connected": false,
+          "info": {}
+        }
+      ]
+    },
+    {
+      "code": 4002,
+      "natural": true,
+      "delays": [],
+      "reloads": 1,
+      "states": []
+    },
+    {
+      "code": 4003,
+      "natural": false,
+      "delays": [],
+      "reloads": 1,
+      "states": [
+        {
+          "authFailed": false,
+          "connected": false,
+          "info": {}
+        }
+      ]
+    },
+    {
+      "code": 4003,
+      "natural": true,
+      "delays": [],
+      "reloads": 1,
+      "states": []
+    },
+    {
+      "code": 4004,
+      "natural": false,
+      "delays": [],
+      "reloads": 0,
+      "states": [
+        {
+          "authFailed": true,
+          "connected": false,
+          "info": {}
+        }
+      ]
+    },
+    {
+      "code": 4004,
+      "natural": true,
+      "delays": [],
+      "reloads": 0,
+      "states": []
+    }
+  ]
+}

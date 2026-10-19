@@ -1,0 +1,316 @@
+[
+  {
+    "platform": "macos",
+    "mediaSession": false,
+    "playbackType": "web",
+    "bindings": [
+      {
+        "key": "MediaStop",
+        "command": "renderer-player-stop"
+      },
+      {
+        "key": "MediaPlayPause",
+        "command": "renderer-player-play-pause"
+      },
+      {
+        "key": "MediaNextTrack",
+        "command": "renderer-player-next"
+      },
+      {
+        "key": "MediaPreviousTrack",
+        "command": "renderer-player-previous"
+      }
+    ],
+    "removed": [
+      "MediaStop",
+      "MediaPlayPause",
+      "MediaNextTrack",
+      "MediaPreviousTrack"
+    ]
+  },
+  {
+    "platform": "macos",
+    "mediaSession": false,
+    "playbackType": "local",
+    "bindings": [
+      {
+        "key": "MediaStop",
+        "command": "renderer-player-stop"
+      },
+      {
+        "key": "MediaPlayPause",
+        "command": "renderer-player-play-pause"
+      },
+      {
+        "key": "MediaNextTrack",
+        "command": "renderer-player-next"
+      },
+      {
+        "key": "MediaPreviousTrack",
+        "command": "renderer-player-previous"
+      }
+    ],
+    "removed": [
+      "MediaStop",
+      "MediaPlayPause",
+      "MediaNextTrack",
+      "MediaPreviousTrack"
+    ]
+  },
+  {
+    "platform": "macos",
+    "mediaSession": true,
+    "playbackType": "web",
+    "bindings": [],
+    "removed": [
+      "MediaStop",
+      "MediaPlayPause",
+      "MediaNextTrack",
+      "MediaPreviousTrack"
+    ]
+  },
+  {
+    "platform": "macos",
+    "mediaSession": true,
+    "playbackType": "local",
+    "bindings": [
+      {
+        "key": "MediaStop",
+        "command": "renderer-player-stop"
+      },
+      {
+        "key": "MediaPlayPause",
+        "command": "renderer-player-play-pause"
+      },
+      {
+        "key": "MediaNextTrack",
+        "command": "renderer-player-next"
+      },
+      {
+        "key": "MediaPreviousTrack",
+        "command": "renderer-player-previous"
+      }
+    ],
+    "removed": [
+      "MediaStop",
+      "MediaPlayPause",
+      "MediaNextTrack",
+      "MediaPreviousTrack"
+    ]
+  },
+  {
+    "platform": "windows",
+    "mediaSession": false,
+    "playbackType": "web",
+    "bindings": [
+      {
+        "key": "MediaStop",
+        "command": "renderer-player-stop"
+      },
+      {
+        "key": "MediaPlayPause",
+        "command": "renderer-player-play-pause"
+      },
+      {
+        "key": "MediaNextTrack",
+        "command": "renderer-player-next"
+      },
+      {
+        "key": "MediaPreviousTrack",
+        "command": "renderer-player-previous"
+      }
+    ],
+    "removed": [
+      "MediaStop",
+      "MediaPlayPause",
+      "MediaNextTrack",
+      "MediaPreviousTrack"
+    ]
+  },
+  {
+    "platform": "windows",
+    "mediaSession": false,
+    "playbackType": "local",
+    "bindings": [
+      {
+        "key": "MediaStop",
+        "command": "renderer-player-stop"
+      },
+      {
+        "key": "MediaPlayPause",
+        "command": "renderer-player-play-pause"
+      },
+      {
+        "key": "MediaNextTrack",
+        "command": "renderer-player-next"
+      },
+      {
+        "key": "MediaPreviousTrack",
+        "command": "renderer-player-previous"
+      }
+    ],
+    "removed": [
+      "MediaStop",
+      "MediaPlayPause",
+      "MediaNextTrack",
+      "MediaPreviousTrack"
+    ]
+  },
+  {
+    "platform": "windows",
+    "mediaSession": true,
+    "playbackType": "web",
+    "bindings": [],
+    "removed": [
+      "MediaStop",
+      "MediaPlayPause",
+      "MediaNextTrack",
+      "MediaPreviousTrack"
+    ]
+  },
+  {
+    "platform": "windows",
+    "mediaSession": true,
+    "playbackType": "local",
+    "bindings": [
+      {
+        "key": "MediaStop",
+        "command": "renderer-player-stop"
+      },
+      {
+        "key": "MediaPlayPause",
+        "command": "renderer-player-play-pause"
+      },
+      {
+        "key": "MediaNextTrack",
+        "command": "renderer-player-next"
+      },
+      {
+        "key": "MediaPreviousTrack",
+        "command": "renderer-player-previous"
+      }
+    ],
+    "removed": [
+      "MediaStop",
+      "MediaPlayPause",
+      "MediaNextTrack",
+      "MediaPreviousTrack"
+    ]
+  },
+  {
+    "platform": "linux",
+    "mediaSession": false,
+    "playbackType": "web",
+    "bindings": [
+      {
+        "key": "MediaStop",
+        "command": "renderer-player-stop"
+      },
+      {
+        "key": "MediaPlayPause",
+        "command": "renderer-player-play-pause"
+      },
+      {
+        "key": "MediaNextTrack",
+        "command": "renderer-player-next"
+      },
+      {
+        "key": "MediaPreviousTrack",
+        "command": "renderer-player-previous"
+      }
+    ],
+    "removed": [
+      "MediaStop",
+      "MediaPlayPause",
+      "MediaNextTrack",
+      "MediaPreviousTrack"
+    ]
+  },
+  {
+    "platform": "linux",
+    "mediaSession": false,
+    "playbackType": "local",
+    "bindings": [
+      {
+        "key": "MediaStop",
+        "command": "renderer-player-stop"
+      },
+      {
+        "key": "MediaPlayPause",
+        "command": "renderer-player-play-pause"
+      },
+      {
+        "key": "MediaNextTrack",
+        "command": "renderer-player-next"
+      },
+      {
+        "key": "MediaPreviousTrack",
+        "command": "renderer-player-previous"
+      }
+    ],
+    "removed": [
+      "MediaStop",
+      "MediaPlayPause",
+      "MediaNextTrack",
+      "MediaPreviousTrack"
+    ]
+  },
+  {
+    "platform": "linux",
+    "mediaSession": true,
+    "playbackType": "web",
+    "bindings": [
+      {
+        "key": "MediaStop",
+        "command": "renderer-player-stop"
+      },
+      {
+        "key": "MediaPlayPause",
+        "command": "renderer-player-play-pause"
+      },
+      {
+        "key": "MediaNextTrack",
+        "command": "renderer-player-next"
+      },
+      {
+        "key": "MediaPreviousTrack",
+        "command": "renderer-player-previous"
+      }
+    ],
+    "removed": [
+      "MediaStop",
+      "MediaPlayPause",
+      "MediaNextTrack",
+      "MediaPreviousTrack"
+    ]
+  },
+  {
+    "platform": "linux",
+    "mediaSession": true,
+    "playbackType": "local",
+    "bindings": [
+      {
+        "key": "MediaStop",
+        "command": "renderer-player-stop"
+      },
+      {
+        "key": "MediaPlayPause",
+        "command": "renderer-player-play-pause"
+      },
+      {
+        "key": "MediaNextTrack",
+        "command": "renderer-player-next"
+      },
+      {
+        "key": "MediaPreviousTrack",
+        "command": "renderer-player-previous"
+      }
+    ],
+    "removed": [
+      "MediaStop",
+      "MediaPlayPause",
+      "MediaNextTrack",
+      "MediaPreviousTrack"
+    ]
+  }
+]

@@ -1,0 +1,1788 @@
+{
+  "master": [
+    {
+      "grouping": "solo",
+      "shift": false,
+      "muted": false,
+      "action": "slider",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          72
+        ]
+      ]
+    },
+    {
+      "grouping": "solo",
+      "shift": false,
+      "muted": false,
+      "action": "wheel-down",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          43
+        ]
+      ]
+    },
+    {
+      "grouping": "solo",
+      "shift": false,
+      "muted": false,
+      "action": "wheel-up",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          57
+        ]
+      ]
+    },
+    {
+      "grouping": "solo",
+      "shift": false,
+      "muted": false,
+      "action": "mute",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "mute-master"
+        ]
+      ]
+    },
+    {
+      "grouping": "solo",
+      "shift": false,
+      "muted": true,
+      "action": "slider",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          72
+        ]
+      ]
+    },
+    {
+      "grouping": "solo",
+      "shift": false,
+      "muted": true,
+      "action": "wheel-down",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          43
+        ]
+      ]
+    },
+    {
+      "grouping": "solo",
+      "shift": false,
+      "muted": true,
+      "action": "wheel-up",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          57
+        ]
+      ]
+    },
+    {
+      "grouping": "solo",
+      "shift": false,
+      "muted": true,
+      "action": "mute",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "mute-master"
+        ]
+      ]
+    },
+    {
+      "grouping": "solo",
+      "shift": true,
+      "muted": false,
+      "action": "slider",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          72
+        ]
+      ]
+    },
+    {
+      "grouping": "solo",
+      "shift": true,
+      "muted": false,
+      "action": "wheel-down",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          43
+        ]
+      ]
+    },
+    {
+      "grouping": "solo",
+      "shift": true,
+      "muted": false,
+      "action": "wheel-up",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          57
+        ]
+      ]
+    },
+    {
+      "grouping": "solo",
+      "shift": true,
+      "muted": false,
+      "action": "mute",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "mute-master"
+        ]
+      ]
+    },
+    {
+      "grouping": "solo",
+      "shift": true,
+      "muted": true,
+      "action": "slider",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          72
+        ]
+      ]
+    },
+    {
+      "grouping": "solo",
+      "shift": true,
+      "muted": true,
+      "action": "wheel-down",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          43
+        ]
+      ]
+    },
+    {
+      "grouping": "solo",
+      "shift": true,
+      "muted": true,
+      "action": "wheel-up",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          57
+        ]
+      ]
+    },
+    {
+      "grouping": "solo",
+      "shift": true,
+      "muted": true,
+      "action": "mute",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "mute-master"
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": false,
+      "muted": false,
+      "action": "slider",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "volume",
+          "1",
+          72
+        ],
+        [
+          "volume",
+          "2",
+          72
+        ],
+        [
+          "slider-master",
+          72
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": false,
+      "muted": false,
+      "action": "wheel-down",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "volume",
+          "1",
+          43
+        ],
+        [
+          "volume",
+          "2",
+          43
+        ],
+        [
+          "slider-master",
+          43
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": false,
+      "muted": false,
+      "action": "wheel-up",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "volume",
+          "1",
+          57
+        ],
+        [
+          "volume",
+          "2",
+          57
+        ],
+        [
+          "slider-master",
+          57
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": false,
+      "muted": false,
+      "action": "mute",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "mute",
+          "1",
+          true
+        ],
+        [
+          "mute",
+          "2",
+          true
+        ],
+        [
+          "mute-master"
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": false,
+      "muted": true,
+      "action": "slider",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "volume",
+          "1",
+          72
+        ],
+        [
+          "volume",
+          "2",
+          72
+        ],
+        [
+          "slider-master",
+          72
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": false,
+      "muted": true,
+      "action": "wheel-down",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "volume",
+          "1",
+          43
+        ],
+        [
+          "volume",
+          "2",
+          43
+        ],
+        [
+          "slider-master",
+          43
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": false,
+      "muted": true,
+      "action": "wheel-up",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "volume",
+          "1",
+          57
+        ],
+        [
+          "volume",
+          "2",
+          57
+        ],
+        [
+          "slider-master",
+          57
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": false,
+      "muted": true,
+      "action": "mute",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "mute",
+          "1",
+          false
+        ],
+        [
+          "mute",
+          "2",
+          false
+        ],
+        [
+          "mute-master"
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": true,
+      "muted": false,
+      "action": "slider",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "slider-master",
+          72
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": true,
+      "muted": false,
+      "action": "wheel-down",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "slider-master",
+          43
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": true,
+      "muted": false,
+      "action": "wheel-up",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "slider-master",
+          57
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": true,
+      "muted": false,
+      "action": "mute",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "mute-master"
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": true,
+      "muted": true,
+      "action": "slider",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "slider-master",
+          72
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": true,
+      "muted": true,
+      "action": "wheel-down",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "slider-master",
+          43
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": true,
+      "muted": true,
+      "action": "wheel-up",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "slider-master",
+          57
+        ]
+      ]
+    },
+    {
+      "grouping": "group",
+      "shift": true,
+      "muted": true,
+      "action": "mute",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": false
+        }
+      ],
+      "panel": true,
+      "calls": [
+        [
+          "mute-master"
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": false,
+      "muted": false,
+      "action": "slider",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          72
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": false,
+      "muted": false,
+      "action": "wheel-down",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          43
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": false,
+      "muted": false,
+      "action": "wheel-up",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          57
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": false,
+      "muted": false,
+      "action": "mute",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "mute-master"
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": false,
+      "muted": true,
+      "action": "slider",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          72
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": false,
+      "muted": true,
+      "action": "wheel-down",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          43
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": false,
+      "muted": true,
+      "action": "wheel-up",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          57
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": false,
+      "muted": true,
+      "action": "mute",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "mute-master"
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": true,
+      "muted": false,
+      "action": "slider",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          72
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": true,
+      "muted": false,
+      "action": "wheel-down",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          43
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": true,
+      "muted": false,
+      "action": "wheel-up",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          57
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": true,
+      "muted": false,
+      "action": "mute",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "mute-master"
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": true,
+      "muted": true,
+      "action": "slider",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          72
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": true,
+      "muted": true,
+      "action": "wheel-down",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          43
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": true,
+      "muted": true,
+      "action": "wheel-up",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "slider-master",
+          57
+        ]
+      ]
+    },
+    {
+      "grouping": "pair",
+      "shift": true,
+      "muted": true,
+      "action": "mute",
+      "members": [
+        {
+          "id": "0",
+          "coordinator": true,
+          "pair": false
+        },
+        {
+          "id": "1",
+          "coordinator": false,
+          "pair": false
+        },
+        {
+          "id": "2",
+          "coordinator": false,
+          "pair": true
+        }
+      ],
+      "panel": false,
+      "calls": [
+        [
+          "mute-master"
+        ]
+      ]
+    }
+  ],
+  "member": [
+    {
+      "muted": false,
+      "value": 0,
+      "action": "slider",
+      "calls": [
+        [
+          "volume",
+          "member",
+          0
+        ],
+        [
+          "mute",
+          "member",
+          true
+        ]
+      ]
+    },
+    {
+      "muted": false,
+      "value": 0,
+      "action": "wheel-up",
+      "calls": [
+        [
+          "volume",
+          "member",
+          7
+        ]
+      ]
+    },
+    {
+      "muted": false,
+      "value": 0,
+      "action": "wheel-down",
+      "calls": [
+        [
+          "volume",
+          "member",
+          0
+        ]
+      ]
+    },
+    {
+      "muted": false,
+      "value": 0,
+      "action": "mute",
+      "calls": [
+        [
+          "mute",
+          "member",
+          true
+        ]
+      ]
+    },
+    {
+      "muted": false,
+      "value": 1,
+      "action": "slider",
+      "calls": [
+        [
+          "volume",
+          "member",
+          1
+        ]
+      ]
+    },
+    {
+      "muted": false,
+      "value": 1,
+      "action": "wheel-up",
+      "calls": [
+        [
+          "volume",
+          "member",
+          8
+        ]
+      ]
+    },
+    {
+      "muted": false,
+      "value": 1,
+      "action": "wheel-down",
+      "calls": [
+        [
+          "volume",
+          "member",
+          0
+        ]
+      ]
+    },
+    {
+      "muted": false,
+      "value": 1,
+      "action": "mute",
+      "calls": [
+        [
+          "mute",
+          "member",
+          true
+        ]
+      ]
+    },
+    {
+      "muted": false,
+      "value": 50,
+      "action": "slider",
+      "calls": [
+        [
+          "volume",
+          "member",
+          50
+        ]
+      ]
+    },
+    {
+      "muted": false,
+      "value": 50,
+      "action": "wheel-up",
+      "calls": [
+        [
+          "volume",
+          "member",
+          57
+        ]
+      ]
+    },
+    {
+      "muted": false,
+      "value": 50,
+      "action": "wheel-down",
+      "calls": [
+        [
+          "volume",
+          "member",
+          43
+        ]
+      ]
+    },
+    {
+      "muted": false,
+      "value": 50,
+      "action": "mute",
+      "calls": [
+        [
+          "mute",
+          "member",
+          true
+        ]
+      ]
+    },
+    {
+      "muted": false,
+      "value": 100,
+      "action": "slider",
+      "calls": [
+        [
+          "volume",
+          "member",
+          100
+        ]
+      ]
+    },
+    {
+      "muted": false,
+      "value": 100,
+      "action": "wheel-up",
+      "calls": [
+        [
+          "volume",
+          "member",
+          100
+        ]
+      ]
+    },
+    {
+      "muted": false,
+      "value": 100,
+      "action": "wheel-down",
+      "calls": [
+        [
+          "volume",
+          "member",
+          93
+        ]
+      ]
+    },
+    {
+      "muted": false,
+      "value": 100,
+      "action": "mute",
+      "calls": [
+        [
+          "mute",
+          "member",
+          true
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 0,
+      "action": "slider",
+      "calls": [
+        [
+          "volume",
+          "member",
+          0
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 0,
+      "action": "wheel-up",
+      "calls": [
+        [
+          "volume",
+          "member",
+          7
+        ],
+        [
+          "mute",
+          "member",
+          false
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 0,
+      "action": "wheel-down",
+      "calls": [
+        [
+          "volume",
+          "member",
+          0
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 0,
+      "action": "mute",
+      "calls": [
+        [
+          "mute",
+          "member",
+          false
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 1,
+      "action": "slider",
+      "calls": [
+        [
+          "volume",
+          "member",
+          1
+        ],
+        [
+          "mute",
+          "member",
+          false
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 1,
+      "action": "wheel-up",
+      "calls": [
+        [
+          "volume",
+          "member",
+          8
+        ],
+        [
+          "mute",
+          "member",
+          false
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 1,
+      "action": "wheel-down",
+      "calls": [
+        [
+          "volume",
+          "member",
+          0
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 1,
+      "action": "mute",
+      "calls": [
+        [
+          "mute",
+          "member",
+          false
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 50,
+      "action": "slider",
+      "calls": [
+        [
+          "volume",
+          "member",
+          50
+        ],
+        [
+          "mute",
+          "member",
+          false
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 50,
+      "action": "wheel-up",
+      "calls": [
+        [
+          "volume",
+          "member",
+          57
+        ],
+        [
+          "mute",
+          "member",
+          false
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 50,
+      "action": "wheel-down",
+      "calls": [
+        [
+          "volume",
+          "member",
+          43
+        ],
+        [
+          "mute",
+          "member",
+          false
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 50,
+      "action": "mute",
+      "calls": [
+        [
+          "mute",
+          "member",
+          false
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 100,
+      "action": "slider",
+      "calls": [
+        [
+          "volume",
+          "member",
+          100
+        ],
+        [
+          "mute",
+          "member",
+          false
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 100,
+      "action": "wheel-up",
+      "calls": [
+        [
+          "volume",
+          "member",
+          100
+        ],
+        [
+          "mute",
+          "member",
+          false
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 100,
+      "action": "wheel-down",
+      "calls": [
+        [
+          "volume",
+          "member",
+          93
+        ],
+        [
+          "mute",
+          "member",
+          false
+        ]
+      ]
+    },
+    {
+      "muted": true,
+      "value": 100,
+      "action": "mute",
+      "calls": [
+        [
+          "mute",
+          "member",
+          false
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1022 @@
+[
+  {
+    "environment": {
+      "width": 800,
+      "height": 513,
+      "resolution": 1,
+      "dark": false,
+      "hover": true
+    },
+    "cases": [
+      {
+        "query": "screen",
+        "expected": true
+      },
+      {
+        "query": "all",
+        "expected": true
+      },
+      {
+        "query": "print",
+        "expected": false
+      },
+      {
+        "query": "only screen",
+        "expected": true
+      },
+      {
+        "query": "not screen",
+        "expected": false
+      },
+      {
+        "query": "not print",
+        "expected": true
+      },
+      {
+        "query": "(width)",
+        "expected": true
+      },
+      {
+        "query": "(height)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 800px)",
+        "expected": true
+      },
+      {
+        "query": "(max-width: 800px)",
+        "expected": true
+      },
+      {
+        "query": "(width: 800px)",
+        "expected": true
+      },
+      {
+        "query": "(width >= 800px)",
+        "expected": true
+      },
+      {
+        "query": "(width > 800px)",
+        "expected": false
+      },
+      {
+        "query": "(width <= 800px)",
+        "expected": true
+      },
+      {
+        "query": "(800px < width)",
+        "expected": false
+      },
+      {
+        "query": "(600px <= width < 1000px)",
+        "expected": true
+      },
+      {
+        "query": "(1000px > width >= 600px)",
+        "expected": true
+      },
+      {
+        "query": "(width < 0px)",
+        "expected": false
+      },
+      {
+        "query": "(width > 0)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 50rem)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 50em)",
+        "expected": true
+      },
+      {
+        "query": "(height >= 400px)",
+        "expected": true
+      },
+      {
+        "query": "(max-height: 600px)",
+        "expected": true
+      },
+      {
+        "query": "(orientation: portrait)",
+        "expected": false
+      },
+      {
+        "query": "(orientation: landscape)",
+        "expected": true
+      },
+      {
+        "query": "(aspect-ratio: 1/1)",
+        "expected": false
+      },
+      {
+        "query": "(min-aspect-ratio: 4/3)",
+        "expected": true
+      },
+      {
+        "query": "(max-aspect-ratio: 16/9)",
+        "expected": true
+      },
+      {
+        "query": "(aspect-ratio >= 1)",
+        "expected": true
+      },
+      {
+        "query": "(resolution: 1dppx)",
+        "expected": true
+      },
+      {
+        "query": "(min-resolution: 192dpi)",
+        "expected": false
+      },
+      {
+        "query": "(resolution >= 2x)",
+        "expected": false
+      },
+      {
+        "query": "(resolution: 37.7952755906dpcm)",
+        "expected": true
+      },
+      {
+        "query": "(prefers-color-scheme: dark)",
+        "expected": false
+      },
+      {
+        "query": "(prefers-color-scheme: light)",
+        "expected": true
+      },
+      {
+        "query": "(hover: hover)",
+        "expected": true
+      },
+      {
+        "query": "(hover: none)",
+        "expected": false
+      },
+      {
+        "query": "(hover)",
+        "expected": true
+      },
+      {
+        "query": "(any-hover: hover)",
+        "expected": true
+      },
+      {
+        "query": "(pointer: fine)",
+        "expected": true
+      },
+      {
+        "query": "(pointer: none)",
+        "expected": false
+      },
+      {
+        "query": "screen and (min-width: 800px)",
+        "expected": true
+      },
+      {
+        "query": "print and (width > 0px)",
+        "expected": false
+      },
+      {
+        "query": "not screen and (min-width: 800px)",
+        "expected": false
+      },
+      {
+        "query": "not print and (max-width: 800px)",
+        "expected": true
+      },
+      {
+        "query": "(width > 800px), (orientation: portrait)",
+        "expected": false
+      },
+      {
+        "query": "((width > 800px) or (orientation: portrait))",
+        "expected": false
+      },
+      {
+        "query": "((width > 800px) and (height < 900px))",
+        "expected": false
+      },
+      {
+        "query": "not (width > 800px)",
+        "expected": true
+      },
+      {
+        "query": "(width > 800px) and not (height > 900px)",
+        "expected": false
+      },
+      {
+        "query": "(min-width: 2in)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 200pt)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 10cm)",
+        "expected": true
+      },
+      {
+        "query": "(unknown-feature: enabled)",
+        "expected": false
+      },
+      {
+        "query": "not (unknown-feature: enabled)",
+        "expected": false
+      },
+      {
+        "query": "screen\nand\n(min-width: 600px)",
+        "expected": true
+      },
+      {
+        "query": "screen/*comment*/and (width > 0px)",
+        "expected": true
+      },
+      {
+        "query": "SCREEN AND (WIDTH > 0PX)",
+        "expected": true
+      },
+      {
+        "query": "(width > 800px) and (not (height > 900px))",
+        "expected": false
+      },
+      {
+        "query": "not (width: banana)",
+        "expected": false
+      },
+      {
+        "query": "not (prefers-color-scheme: invalid)",
+        "expected": false
+      }
+    ]
+  },
+  {
+    "environment": {
+      "width": 620,
+      "height": 813,
+      "resolution": 1,
+      "dark": true,
+      "hover": true
+    },
+    "cases": [
+      {
+        "query": "screen",
+        "expected": true
+      },
+      {
+        "query": "all",
+        "expected": true
+      },
+      {
+        "query": "print",
+        "expected": false
+      },
+      {
+        "query": "only screen",
+        "expected": true
+      },
+      {
+        "query": "not screen",
+        "expected": false
+      },
+      {
+        "query": "not print",
+        "expected": true
+      },
+      {
+        "query": "(width)",
+        "expected": true
+      },
+      {
+        "query": "(height)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 800px)",
+        "expected": false
+      },
+      {
+        "query": "(max-width: 800px)",
+        "expected": true
+      },
+      {
+        "query": "(width: 800px)",
+        "expected": false
+      },
+      {
+        "query": "(width >= 800px)",
+        "expected": false
+      },
+      {
+        "query": "(width > 800px)",
+        "expected": false
+      },
+      {
+        "query": "(width <= 800px)",
+        "expected": true
+      },
+      {
+        "query": "(800px < width)",
+        "expected": false
+      },
+      {
+        "query": "(600px <= width < 1000px)",
+        "expected": true
+      },
+      {
+        "query": "(1000px > width >= 600px)",
+        "expected": true
+      },
+      {
+        "query": "(width < 0px)",
+        "expected": false
+      },
+      {
+        "query": "(width > 0)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 50rem)",
+        "expected": false
+      },
+      {
+        "query": "(min-width: 50em)",
+        "expected": false
+      },
+      {
+        "query": "(height >= 400px)",
+        "expected": true
+      },
+      {
+        "query": "(max-height: 600px)",
+        "expected": false
+      },
+      {
+        "query": "(orientation: portrait)",
+        "expected": true
+      },
+      {
+        "query": "(orientation: landscape)",
+        "expected": false
+      },
+      {
+        "query": "(aspect-ratio: 1/1)",
+        "expected": false
+      },
+      {
+        "query": "(min-aspect-ratio: 4/3)",
+        "expected": false
+      },
+      {
+        "query": "(max-aspect-ratio: 16/9)",
+        "expected": true
+      },
+      {
+        "query": "(aspect-ratio >= 1)",
+        "expected": false
+      },
+      {
+        "query": "(resolution: 1dppx)",
+        "expected": true
+      },
+      {
+        "query": "(min-resolution: 192dpi)",
+        "expected": false
+      },
+      {
+        "query": "(resolution >= 2x)",
+        "expected": false
+      },
+      {
+        "query": "(resolution: 37.7952755906dpcm)",
+        "expected": true
+      },
+      {
+        "query": "(prefers-color-scheme: dark)",
+        "expected": true
+      },
+      {
+        "query": "(prefers-color-scheme: light)",
+        "expected": false
+      },
+      {
+        "query": "(hover: hover)",
+        "expected": true
+      },
+      {
+        "query": "(hover: none)",
+        "expected": false
+      },
+      {
+        "query": "(hover)",
+        "expected": true
+      },
+      {
+        "query": "(any-hover: hover)",
+        "expected": true
+      },
+      {
+        "query": "(pointer: fine)",
+        "expected": true
+      },
+      {
+        "query": "(pointer: none)",
+        "expected": false
+      },
+      {
+        "query": "screen and (min-width: 800px)",
+        "expected": false
+      },
+      {
+        "query": "print and (width > 0px)",
+        "expected": false
+      },
+      {
+        "query": "not screen and (min-width: 800px)",
+        "expected": true
+      },
+      {
+        "query": "not print and (max-width: 800px)",
+        "expected": true
+      },
+      {
+        "query": "(width > 800px), (orientation: portrait)",
+        "expected": true
+      },
+      {
+        "query": "((width > 800px) or (orientation: portrait))",
+        "expected": true
+      },
+      {
+        "query": "((width > 800px) and (height < 900px))",
+        "expected": false
+      },
+      {
+        "query": "not (width > 800px)",
+        "expected": true
+      },
+      {
+        "query": "(width > 800px) and not (height > 900px)",
+        "expected": false
+      },
+      {
+        "query": "(min-width: 2in)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 200pt)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 10cm)",
+        "expected": true
+      },
+      {
+        "query": "(unknown-feature: enabled)",
+        "expected": false
+      },
+      {
+        "query": "not (unknown-feature: enabled)",
+        "expected": false
+      },
+      {
+        "query": "screen\nand\n(min-width: 600px)",
+        "expected": true
+      },
+      {
+        "query": "screen/*comment*/and (width > 0px)",
+        "expected": true
+      },
+      {
+        "query": "SCREEN AND (WIDTH > 0PX)",
+        "expected": true
+      },
+      {
+        "query": "(width > 800px) and (not (height > 900px))",
+        "expected": false
+      },
+      {
+        "query": "not (width: banana)",
+        "expected": false
+      },
+      {
+        "query": "not (prefers-color-scheme: invalid)",
+        "expected": false
+      }
+    ]
+  },
+  {
+    "environment": {
+      "width": 1400,
+      "height": 613,
+      "resolution": 2,
+      "dark": true,
+      "hover": true
+    },
+    "cases": [
+      {
+        "query": "screen",
+        "expected": true
+      },
+      {
+        "query": "all",
+        "expected": true
+      },
+      {
+        "query": "print",
+        "expected": false
+      },
+      {
+        "query": "only screen",
+        "expected": true
+      },
+      {
+        "query": "not screen",
+        "expected": false
+      },
+      {
+        "query": "not print",
+        "expected": true
+      },
+      {
+        "query": "(width)",
+        "expected": true
+      },
+      {
+        "query": "(height)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 800px)",
+        "expected": true
+      },
+      {
+        "query": "(max-width: 800px)",
+        "expected": false
+      },
+      {
+        "query": "(width: 800px)",
+        "expected": false
+      },
+      {
+        "query": "(width >= 800px)",
+        "expected": true
+      },
+      {
+        "query": "(width > 800px)",
+        "expected": true
+      },
+      {
+        "query": "(width <= 800px)",
+        "expected": false
+      },
+      {
+        "query": "(800px < width)",
+        "expected": true
+      },
+      {
+        "query": "(600px <= width < 1000px)",
+        "expected": false
+      },
+      {
+        "query": "(1000px > width >= 600px)",
+        "expected": false
+      },
+      {
+        "query": "(width < 0px)",
+        "expected": false
+      },
+      {
+        "query": "(width > 0)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 50rem)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 50em)",
+        "expected": true
+      },
+      {
+        "query": "(height >= 400px)",
+        "expected": true
+      },
+      {
+        "query": "(max-height: 600px)",
+        "expected": false
+      },
+      {
+        "query": "(orientation: portrait)",
+        "expected": false
+      },
+      {
+        "query": "(orientation: landscape)",
+        "expected": true
+      },
+      {
+        "query": "(aspect-ratio: 1/1)",
+        "expected": false
+      },
+      {
+        "query": "(min-aspect-ratio: 4/3)",
+        "expected": true
+      },
+      {
+        "query": "(max-aspect-ratio: 16/9)",
+        "expected": false
+      },
+      {
+        "query": "(aspect-ratio >= 1)",
+        "expected": true
+      },
+      {
+        "query": "(resolution: 1dppx)",
+        "expected": false
+      },
+      {
+        "query": "(min-resolution: 192dpi)",
+        "expected": true
+      },
+      {
+        "query": "(resolution >= 2x)",
+        "expected": true
+      },
+      {
+        "query": "(resolution: 37.7952755906dpcm)",
+        "expected": false
+      },
+      {
+        "query": "(prefers-color-scheme: dark)",
+        "expected": true
+      },
+      {
+        "query": "(prefers-color-scheme: light)",
+        "expected": false
+      },
+      {
+        "query": "(hover: hover)",
+        "expected": true
+      },
+      {
+        "query": "(hover: none)",
+        "expected": false
+      },
+      {
+        "query": "(hover)",
+        "expected": true
+      },
+      {
+        "query": "(any-hover: hover)",
+        "expected": true
+      },
+      {
+        "query": "(pointer: fine)",
+        "expected": true
+      },
+      {
+        "query": "(pointer: none)",
+        "expected": false
+      },
+      {
+        "query": "screen and (min-width: 800px)",
+        "expected": true
+      },
+      {
+        "query": "print and (width > 0px)",
+        "expected": false
+      },
+      {
+        "query": "not screen and (min-width: 800px)",
+        "expected": false
+      },
+      {
+        "query": "not print and (max-width: 800px)",
+        "expected": true
+      },
+      {
+        "query": "(width > 800px), (orientation: portrait)",
+        "expected": true
+      },
+      {
+        "query": "((width > 800px) or (orientation: portrait))",
+        "expected": true
+      },
+      {
+        "query": "((width > 800px) and (height < 900px))",
+        "expected": true
+      },
+      {
+        "query": "not (width > 800px)",
+        "expected": false
+      },
+      {
+        "query": "(width > 800px) and not (height > 900px)",
+        "expected": false
+      },
+      {
+        "query": "(min-width: 2in)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 200pt)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 10cm)",
+        "expected": true
+      },
+      {
+        "query": "(unknown-feature: enabled)",
+        "expected": false
+      },
+      {
+        "query": "not (unknown-feature: enabled)",
+        "expected": false
+      },
+      {
+        "query": "screen\nand\n(min-width: 600px)",
+        "expected": true
+      },
+      {
+        "query": "screen/*comment*/and (width > 0px)",
+        "expected": true
+      },
+      {
+        "query": "SCREEN AND (WIDTH > 0PX)",
+        "expected": true
+      },
+      {
+        "query": "(width > 800px) and (not (height > 900px))",
+        "expected": true
+      },
+      {
+        "query": "not (width: banana)",
+        "expected": false
+      },
+      {
+        "query": "not (prefers-color-scheme: invalid)",
+        "expected": false
+      }
+    ]
+  },
+  {
+    "environment": {
+      "width": 820,
+      "height": 733,
+      "resolution": 1,
+      "dark": false,
+      "hover": true
+    },
+    "cases": [
+      {
+        "query": "screen",
+        "expected": true
+      },
+      {
+        "query": "all",
+        "expected": true
+      },
+      {
+        "query": "print",
+        "expected": false
+      },
+      {
+        "query": "only screen",
+        "expected": true
+      },
+      {
+        "query": "not screen",
+        "expected": false
+      },
+      {
+        "query": "not print",
+        "expected": true
+      },
+      {
+        "query": "(width)",
+        "expected": true
+      },
+      {
+        "query": "(height)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 800px)",
+        "expected": true
+      },
+      {
+        "query": "(max-width: 800px)",
+        "expected": false
+      },
+      {
+        "query": "(width: 800px)",
+        "expected": false
+      },
+      {
+        "query": "(width >= 800px)",
+        "expected": true
+      },
+      {
+        "query": "(width > 800px)",
+        "expected": true
+      },
+      {
+        "query": "(width <= 800px)",
+        "expected": false
+      },
+      {
+        "query": "(800px < width)",
+        "expected": true
+      },
+      {
+        "query": "(600px <= width < 1000px)",
+        "expected": true
+      },
+      {
+        "query": "(1000px > width >= 600px)",
+        "expected": true
+      },
+      {
+        "query": "(width < 0px)",
+        "expected": false
+      },
+      {
+        "query": "(width > 0)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 50rem)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 50em)",
+        "expected": true
+      },
+      {
+        "query": "(height >= 400px)",
+        "expected": true
+      },
+      {
+        "query": "(max-height: 600px)",
+        "expected": false
+      },
+      {
+        "query": "(orientation: portrait)",
+        "expected": false
+      },
+      {
+        "query": "(orientation: landscape)",
+        "expected": true
+      },
+      {
+        "query": "(aspect-ratio: 1/1)",
+        "expected": false
+      },
+      {
+        "query": "(min-aspect-ratio: 4/3)",
+        "expected": false
+      },
+      {
+        "query": "(max-aspect-ratio: 16/9)",
+        "expected": true
+      },
+      {
+        "query": "(aspect-ratio >= 1)",
+        "expected": true
+      },
+      {
+        "query": "(resolution: 1dppx)",
+        "expected": true
+      },
+      {
+        "query": "(min-resolution: 192dpi)",
+        "expected": false
+      },
+      {
+        "query": "(resolution >= 2x)",
+        "expected": false
+      },
+      {
+        "query": "(resolution: 37.7952755906dpcm)",
+        "expected": true
+      },
+      {
+        "query": "(prefers-color-scheme: dark)",
+        "expected": false
+      },
+      {
+        "query": "(prefers-color-scheme: light)",
+        "expected": true
+      },
+      {
+        "query": "(hover: hover)",
+        "expected": true
+      },
+      {
+        "query": "(hover: none)",
+        "expected": false
+      },
+      {
+        "query": "(hover)",
+        "expected": true
+      },
+      {
+        "query": "(any-hover: hover)",
+        "expected": true
+      },
+      {
+        "query": "(pointer: fine)",
+        "expected": true
+      },
+      {
+        "query": "(pointer: none)",
+        "expected": false
+      },
+      {
+        "query": "screen and (min-width: 800px)",
+        "expected": true
+      },
+      {
+        "query": "print and (width > 0px)",
+        "expected": false
+      },
+      {
+        "query": "not screen and (min-width: 800px)",
+        "expected": false
+      },
+      {
+        "query": "not print and (max-width: 800px)",
+        "expected": true
+      },
+      {
+        "query": "(width > 800px), (orientation: portrait)",
+        "expected": true
+      },
+      {
+        "query": "((width > 800px) or (orientation: portrait))",
+        "expected": true
+      },
+      {
+        "query": "((width > 800px) and (height < 900px))",
+        "expected": true
+      },
+      {
+        "query": "not (width > 800px)",
+        "expected": false
+      },
+      {
+        "query": "(width > 800px) and not (height > 900px)",
+        "expected": false
+      },
+      {
+        "query": "(min-width: 2in)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 200pt)",
+        "expected": true
+      },
+      {
+        "query": "(min-width: 10cm)",
+        "expected": true
+      },
+      {
+        "query": "(unknown-feature: enabled)",
+        "expected": false
+      },
+      {
+        "query": "not (unknown-feature: enabled)",
+        "expected": false
+      },
+      {
+        "query": "screen\nand\n(min-width: 600px)",
+        "expected": true
+      },
+      {
+        "query": "screen/*comment*/and (width > 0px)",
+        "expected": true
+      },
+      {
+        "query": "SCREEN AND (WIDTH > 0PX)",
+        "expected": true
+      },
+      {
+        "query": "(width > 800px) and (not (height > 900px))",
+        "expected": true
+      },
+      {
+        "query": "not (width: banana)",
+        "expected": false
+      },
+      {
+        "query": "not (prefers-color-scheme: invalid)",
+        "expected": false
+      }
+    ]
+  }
+]

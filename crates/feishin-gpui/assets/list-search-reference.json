@@ -1,0 +1,685 @@
+{
+  "cases": [
+    {
+      "enabled": false,
+      "fill": false,
+      "initial": "",
+      "action": "shortcut",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "36px",
+      "flex": null,
+      "opacity": 0
+    },
+    {
+      "enabled": false,
+      "fill": false,
+      "initial": "",
+      "action": "button",
+      "value": "",
+      "focused": true,
+      "selection": null,
+      "changes": [],
+      "width": "200px",
+      "flex": null,
+      "opacity": 1
+    },
+    {
+      "enabled": false,
+      "fill": false,
+      "initial": "",
+      "action": "empty-blur",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "36px",
+      "flex": null,
+      "opacity": 0
+    },
+    {
+      "enabled": false,
+      "fill": false,
+      "initial": "",
+      "action": "filled-blur",
+      "value": "Typed text",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "200px",
+      "flex": null,
+      "opacity": 1
+    },
+    {
+      "enabled": false,
+      "fill": false,
+      "initial": "",
+      "action": "clear",
+      "value": "",
+      "focused": true,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "200px",
+      "flex": null,
+      "opacity": 1
+    },
+    {
+      "enabled": false,
+      "fill": false,
+      "initial": "",
+      "action": "escape",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "36px",
+      "flex": null,
+      "opacity": 0
+    },
+    {
+      "enabled": false,
+      "fill": false,
+      "initial": "Existing text",
+      "action": "shortcut",
+      "value": "Existing text",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "200px",
+      "flex": null,
+      "opacity": 1
+    },
+    {
+      "enabled": false,
+      "fill": false,
+      "initial": "Existing text",
+      "action": "button",
+      "value": "Existing text",
+      "focused": true,
+      "selection": null,
+      "changes": [],
+      "width": "200px",
+      "flex": null,
+      "opacity": 1
+    },
+    {
+      "enabled": false,
+      "fill": false,
+      "initial": "Existing text",
+      "action": "empty-blur",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "36px",
+      "flex": null,
+      "opacity": 0
+    },
+    {
+      "enabled": false,
+      "fill": false,
+      "initial": "Existing text",
+      "action": "filled-blur",
+      "value": "Typed text",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "200px",
+      "flex": null,
+      "opacity": 1
+    },
+    {
+      "enabled": false,
+      "fill": false,
+      "initial": "Existing text",
+      "action": "clear",
+      "value": "",
+      "focused": true,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "200px",
+      "flex": null,
+      "opacity": 1
+    },
+    {
+      "enabled": false,
+      "fill": false,
+      "initial": "Existing text",
+      "action": "escape",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "36px",
+      "flex": null,
+      "opacity": 0
+    },
+    {
+      "enabled": false,
+      "fill": true,
+      "initial": "",
+      "action": "shortcut",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "36px",
+      "flex": "1 1 0",
+      "opacity": 0
+    },
+    {
+      "enabled": false,
+      "fill": true,
+      "initial": "",
+      "action": "button",
+      "value": "",
+      "focused": true,
+      "selection": null,
+      "changes": [],
+      "width": "100%",
+      "flex": "1 1 0",
+      "opacity": 1
+    },
+    {
+      "enabled": false,
+      "fill": true,
+      "initial": "",
+      "action": "empty-blur",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "36px",
+      "flex": "1 1 0",
+      "opacity": 0
+    },
+    {
+      "enabled": false,
+      "fill": true,
+      "initial": "",
+      "action": "filled-blur",
+      "value": "Typed text",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "100%",
+      "flex": "1 1 0",
+      "opacity": 1
+    },
+    {
+      "enabled": false,
+      "fill": true,
+      "initial": "",
+      "action": "clear",
+      "value": "",
+      "focused": true,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "100%",
+      "flex": "1 1 0",
+      "opacity": 1
+    },
+    {
+      "enabled": false,
+      "fill": true,
+      "initial": "",
+      "action": "escape",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "36px",
+      "flex": "1 1 0",
+      "opacity": 0
+    },
+    {
+      "enabled": false,
+      "fill": true,
+      "initial": "Existing text",
+      "action": "shortcut",
+      "value": "Existing text",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "100%",
+      "flex": "1 1 0",
+      "opacity": 1
+    },
+    {
+      "enabled": false,
+      "fill": true,
+      "initial": "Existing text",
+      "action": "button",
+      "value": "Existing text",
+      "focused": true,
+      "selection": null,
+      "changes": [],
+      "width": "100%",
+      "flex": "1 1 0",
+      "opacity": 1
+    },
+    {
+      "enabled": false,
+      "fill": true,
+      "initial": "Existing text",
+      "action": "empty-blur",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "36px",
+      "flex": "1 1 0",
+      "opacity": 0
+    },
+    {
+      "enabled": false,
+      "fill": true,
+      "initial": "Existing text",
+      "action": "filled-blur",
+      "value": "Typed text",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "100%",
+      "flex": "1 1 0",
+      "opacity": 1
+    },
+    {
+      "enabled": false,
+      "fill": true,
+      "initial": "Existing text",
+      "action": "clear",
+      "value": "",
+      "focused": true,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "100%",
+      "flex": "1 1 0",
+      "opacity": 1
+    },
+    {
+      "enabled": false,
+      "fill": true,
+      "initial": "Existing text",
+      "action": "escape",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "36px",
+      "flex": "1 1 0",
+      "opacity": 0
+    },
+    {
+      "enabled": true,
+      "fill": false,
+      "initial": "",
+      "action": "shortcut",
+      "value": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ],
+      "changes": [],
+      "width": "200px",
+      "flex": null,
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": false,
+      "initial": "",
+      "action": "button",
+      "value": "",
+      "focused": true,
+      "selection": null,
+      "changes": [],
+      "width": "200px",
+      "flex": null,
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": false,
+      "initial": "",
+      "action": "empty-blur",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "36px",
+      "flex": null,
+      "opacity": 0
+    },
+    {
+      "enabled": true,
+      "fill": false,
+      "initial": "",
+      "action": "filled-blur",
+      "value": "Typed text",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "200px",
+      "flex": null,
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": false,
+      "initial": "",
+      "action": "clear",
+      "value": "",
+      "focused": true,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "200px",
+      "flex": null,
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": false,
+      "initial": "",
+      "action": "escape",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "36px",
+      "flex": null,
+      "opacity": 0
+    },
+    {
+      "enabled": true,
+      "fill": false,
+      "initial": "Existing text",
+      "action": "shortcut",
+      "value": "Existing text",
+      "focused": true,
+      "selection": [
+        0,
+        13
+      ],
+      "changes": [],
+      "width": "200px",
+      "flex": null,
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": false,
+      "initial": "Existing text",
+      "action": "button",
+      "value": "Existing text",
+      "focused": true,
+      "selection": null,
+      "changes": [],
+      "width": "200px",
+      "flex": null,
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": false,
+      "initial": "Existing text",
+      "action": "empty-blur",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "36px",
+      "flex": null,
+      "opacity": 0
+    },
+    {
+      "enabled": true,
+      "fill": false,
+      "initial": "Existing text",
+      "action": "filled-blur",
+      "value": "Typed text",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "200px",
+      "flex": null,
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": false,
+      "initial": "Existing text",
+      "action": "clear",
+      "value": "",
+      "focused": true,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "200px",
+      "flex": null,
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": false,
+      "initial": "Existing text",
+      "action": "escape",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "36px",
+      "flex": null,
+      "opacity": 0
+    },
+    {
+      "enabled": true,
+      "fill": true,
+      "initial": "",
+      "action": "shortcut",
+      "value": "",
+      "focused": true,
+      "selection": [
+        0,
+        0
+      ],
+      "changes": [],
+      "width": "100%",
+      "flex": "1 1 0",
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": true,
+      "initial": "",
+      "action": "button",
+      "value": "",
+      "focused": true,
+      "selection": null,
+      "changes": [],
+      "width": "100%",
+      "flex": "1 1 0",
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": true,
+      "initial": "",
+      "action": "empty-blur",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "36px",
+      "flex": "1 1 0",
+      "opacity": 0
+    },
+    {
+      "enabled": true,
+      "fill": true,
+      "initial": "",
+      "action": "filled-blur",
+      "value": "Typed text",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "100%",
+      "flex": "1 1 0",
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": true,
+      "initial": "",
+      "action": "clear",
+      "value": "",
+      "focused": true,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "100%",
+      "flex": "1 1 0",
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": true,
+      "initial": "",
+      "action": "escape",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "36px",
+      "flex": "1 1 0",
+      "opacity": 0
+    },
+    {
+      "enabled": true,
+      "fill": true,
+      "initial": "Existing text",
+      "action": "shortcut",
+      "value": "Existing text",
+      "focused": true,
+      "selection": [
+        0,
+        13
+      ],
+      "changes": [],
+      "width": "100%",
+      "flex": "1 1 0",
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": true,
+      "initial": "Existing text",
+      "action": "button",
+      "value": "Existing text",
+      "focused": true,
+      "selection": null,
+      "changes": [],
+      "width": "100%",
+      "flex": "1 1 0",
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": true,
+      "initial": "Existing text",
+      "action": "empty-blur",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "36px",
+      "flex": "1 1 0",
+      "opacity": 0
+    },
+    {
+      "enabled": true,
+      "fill": true,
+      "initial": "Existing text",
+      "action": "filled-blur",
+      "value": "Typed text",
+      "focused": false,
+      "selection": null,
+      "changes": [],
+      "width": "100%",
+      "flex": "1 1 0",
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": true,
+      "initial": "Existing text",
+      "action": "clear",
+      "value": "",
+      "focused": true,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "100%",
+      "flex": "1 1 0",
+      "opacity": 1
+    },
+    {
+      "enabled": true,
+      "fill": true,
+      "initial": "Existing text",
+      "action": "escape",
+      "value": "",
+      "focused": false,
+      "selection": null,
+      "changes": [
+        ""
+      ],
+      "width": "36px",
+      "flex": "1 1 0",
+      "opacity": 0
+    }
+  ],
+  "debounce": {
+    "delay": 300,
+    "replacements": [
+      {
+        "value": "beatles",
+        "replace": true
+      },
+      {
+        "value": null,
+        "replace": true
+      }
+    ]
+  }
+}

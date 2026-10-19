@@ -1,0 +1,866 @@
+{
+  "electron": "43.7.0",
+  "chromium": "150.0.7871.250",
+  "motion": [
+    {
+      "direction": "open",
+      "interruptAt": null,
+      "durations": [
+        {
+          "property": "width",
+          "duration": 300
+        },
+        {
+          "property": "opacity",
+          "duration": 200
+        },
+        {
+          "property": "opacity",
+          "duration": 200
+        }
+      ],
+      "samples": [
+        {
+          "milliseconds": 0,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 5,
+          "width": 36.0781,
+          "inputOpacity": 0.00119434,
+          "buttonOpacity": 0.998806
+        },
+        {
+          "milliseconds": 10,
+          "width": 36.3438,
+          "inputOpacity": 0.00482975,
+          "buttonOpacity": 0.99517
+        },
+        {
+          "milliseconds": 25,
+          "width": 38.2188,
+          "inputOpacity": 0.031114,
+          "buttonOpacity": 0.968886
+        },
+        {
+          "milliseconds": 50,
+          "width": 45.2031,
+          "inputOpacity": 0.129162,
+          "buttonOpacity": 0.870838
+        },
+        {
+          "milliseconds": 100,
+          "width": 74,
+          "inputOpacity": 0.5,
+          "buttonOpacity": 0.5
+        },
+        {
+          "milliseconds": 150,
+          "width": 118,
+          "inputOpacity": 0.870838,
+          "buttonOpacity": 0.129162
+        },
+        {
+          "milliseconds": 200,
+          "width": 161.984,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 250,
+          "width": 190.781,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 300,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 350,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        }
+      ]
+    },
+    {
+      "direction": "open",
+      "interruptAt": 50,
+      "durations": [
+        {
+          "property": "width",
+          "duration": 16.839245813759458
+        },
+        {
+          "property": "opacity",
+          "duration": 25.8323862094576
+        },
+        {
+          "property": "opacity",
+          "duration": 25.8323862094576
+        }
+      ],
+      "samples": [
+        {
+          "milliseconds": 0,
+          "width": 45.2031,
+          "inputOpacity": 0.129162,
+          "buttonOpacity": 0.870838
+        },
+        {
+          "milliseconds": 5,
+          "width": 43.5156,
+          "inputOpacity": 0.119302,
+          "buttonOpacity": 0.880698
+        },
+        {
+          "milliseconds": 10,
+          "width": 39.1406,
+          "inputOpacity": 0.0889269,
+          "buttonOpacity": 0.911073
+        },
+        {
+          "milliseconds": 25,
+          "width": 36,
+          "inputOpacity": 0.00025709,
+          "buttonOpacity": 0.999743
+        },
+        {
+          "milliseconds": 50,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 100,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 150,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 200,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 250,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 300,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 350,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        }
+      ]
+    },
+    {
+      "direction": "open",
+      "interruptAt": 100,
+      "durations": [
+        {
+          "property": "width",
+          "duration": 69.53243363915448
+        },
+        {
+          "property": "opacity",
+          "duration": 100
+        },
+        {
+          "property": "opacity",
+          "duration": 100
+        }
+      ],
+      "samples": [
+        {
+          "milliseconds": 0,
+          "width": 74,
+          "inputOpacity": 0.5,
+          "buttonOpacity": 0.5
+        },
+        {
+          "milliseconds": 5,
+          "width": 73.625,
+          "inputOpacity": 0.497585,
+          "buttonOpacity": 0.502415
+        },
+        {
+          "milliseconds": 10,
+          "width": 72.4219,
+          "inputOpacity": 0.490139,
+          "buttonOpacity": 0.509861
+        },
+        {
+          "milliseconds": 25,
+          "width": 63.7656,
+          "inputOpacity": 0.435419,
+          "buttonOpacity": 0.564581
+        },
+        {
+          "milliseconds": 50,
+          "width": 42.2188,
+          "inputOpacity": 0.25,
+          "buttonOpacity": 0.75
+        },
+        {
+          "milliseconds": 100,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 150,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 200,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 250,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 300,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 350,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        }
+      ]
+    },
+    {
+      "direction": "open",
+      "interruptAt": 150,
+      "durations": [
+        {
+          "property": "width",
+          "duration": 150
+        },
+        {
+          "property": "opacity",
+          "duration": 174.1676137905424
+        },
+        {
+          "property": "opacity",
+          "duration": 174.1676137905424
+        }
+      ],
+      "samples": [
+        {
+          "milliseconds": 0,
+          "width": 118,
+          "inputOpacity": 0.870838,
+          "buttonOpacity": 0.129162
+        },
+        {
+          "milliseconds": 5,
+          "width": 117.812,
+          "inputOpacity": 0.869464,
+          "buttonOpacity": 0.130536
+        },
+        {
+          "milliseconds": 10,
+          "width": 117.281,
+          "inputOpacity": 0.865274,
+          "buttonOpacity": 0.134726
+        },
+        {
+          "milliseconds": 25,
+          "width": 113.391,
+          "inputOpacity": 0.834867,
+          "buttonOpacity": 0.165133
+        },
+        {
+          "milliseconds": 50,
+          "width": 98.9844,
+          "inputOpacity": 0.721613,
+          "buttonOpacity": 0.278386
+        },
+        {
+          "milliseconds": 100,
+          "width": 55,
+          "inputOpacity": 0.325615,
+          "buttonOpacity": 0.674385
+        },
+        {
+          "milliseconds": 150,
+          "width": 36,
+          "inputOpacity": 0.0335581,
+          "buttonOpacity": 0.966442
+        },
+        {
+          "milliseconds": 200,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 250,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 300,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 350,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        }
+      ]
+    },
+    {
+      "direction": "open",
+      "interruptAt": 250,
+      "durations": [
+        {
+          "property": "width",
+          "duration": 283.16075418624047
+        },
+        {
+          "property": "opacity",
+          "duration": 200
+        },
+        {
+          "property": "opacity",
+          "duration": 200
+        }
+      ],
+      "samples": [
+        {
+          "milliseconds": 0,
+          "width": 190.781,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 5,
+          "width": 190.688,
+          "inputOpacity": 0.998806,
+          "buttonOpacity": 0.00119434
+        },
+        {
+          "milliseconds": 10,
+          "width": 190.422,
+          "inputOpacity": 0.99517,
+          "buttonOpacity": 0.00482975
+        },
+        {
+          "milliseconds": 25,
+          "width": 188.422,
+          "inputOpacity": 0.968886,
+          "buttonOpacity": 0.031114
+        },
+        {
+          "milliseconds": 50,
+          "width": 181,
+          "inputOpacity": 0.870838,
+          "buttonOpacity": 0.129162
+        },
+        {
+          "milliseconds": 100,
+          "width": 150.531,
+          "inputOpacity": 0.5,
+          "buttonOpacity": 0.5
+        },
+        {
+          "milliseconds": 150,
+          "width": 105.469,
+          "inputOpacity": 0.129162,
+          "buttonOpacity": 0.870838
+        },
+        {
+          "milliseconds": 200,
+          "width": 63.7812,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 250,
+          "width": 40.2031,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 300,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 350,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        }
+      ]
+    },
+    {
+      "direction": "close",
+      "interruptAt": null,
+      "durations": [
+        {
+          "property": "width",
+          "duration": 300
+        },
+        {
+          "property": "opacity",
+          "duration": 200
+        },
+        {
+          "property": "opacity",
+          "duration": 200
+        }
+      ],
+      "samples": [
+        {
+          "milliseconds": 0,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 5,
+          "width": 199.906,
+          "inputOpacity": 0.998806,
+          "buttonOpacity": 0.00119434
+        },
+        {
+          "milliseconds": 10,
+          "width": 199.641,
+          "inputOpacity": 0.99517,
+          "buttonOpacity": 0.00482975
+        },
+        {
+          "milliseconds": 25,
+          "width": 197.766,
+          "inputOpacity": 0.968886,
+          "buttonOpacity": 0.031114
+        },
+        {
+          "milliseconds": 50,
+          "width": 190.781,
+          "inputOpacity": 0.870838,
+          "buttonOpacity": 0.129162
+        },
+        {
+          "milliseconds": 100,
+          "width": 161.984,
+          "inputOpacity": 0.5,
+          "buttonOpacity": 0.5
+        },
+        {
+          "milliseconds": 150,
+          "width": 118,
+          "inputOpacity": 0.129162,
+          "buttonOpacity": 0.870838
+        },
+        {
+          "milliseconds": 200,
+          "width": 74,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 250,
+          "width": 45.2031,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 300,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 350,
+          "width": 36,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        }
+      ]
+    },
+    {
+      "direction": "close",
+      "interruptAt": 50,
+      "durations": [
+        {
+          "property": "width",
+          "duration": 16.839245813759458
+        },
+        {
+          "property": "opacity",
+          "duration": 25.8323862094576
+        },
+        {
+          "property": "opacity",
+          "duration": 25.8323862094576
+        }
+      ],
+      "samples": [
+        {
+          "milliseconds": 0,
+          "width": 190.781,
+          "inputOpacity": 0.870838,
+          "buttonOpacity": 0.129162
+        },
+        {
+          "milliseconds": 5,
+          "width": 192.469,
+          "inputOpacity": 0.880698,
+          "buttonOpacity": 0.119302
+        },
+        {
+          "milliseconds": 10,
+          "width": 196.844,
+          "inputOpacity": 0.911073,
+          "buttonOpacity": 0.0889269
+        },
+        {
+          "milliseconds": 25,
+          "width": 200,
+          "inputOpacity": 0.999743,
+          "buttonOpacity": 0.00025709
+        },
+        {
+          "milliseconds": 50,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 100,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 150,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 200,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 250,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 300,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 350,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        }
+      ]
+    },
+    {
+      "direction": "close",
+      "interruptAt": 100,
+      "durations": [
+        {
+          "property": "width",
+          "duration": 69.53243363915448
+        },
+        {
+          "property": "opacity",
+          "duration": 100
+        },
+        {
+          "property": "opacity",
+          "duration": 100
+        }
+      ],
+      "samples": [
+        {
+          "milliseconds": 0,
+          "width": 161.984,
+          "inputOpacity": 0.5,
+          "buttonOpacity": 0.5
+        },
+        {
+          "milliseconds": 5,
+          "width": 162.359,
+          "inputOpacity": 0.502415,
+          "buttonOpacity": 0.497585
+        },
+        {
+          "milliseconds": 10,
+          "width": 163.562,
+          "inputOpacity": 0.509861,
+          "buttonOpacity": 0.490139
+        },
+        {
+          "milliseconds": 25,
+          "width": 172.219,
+          "inputOpacity": 0.564581,
+          "buttonOpacity": 0.435419
+        },
+        {
+          "milliseconds": 50,
+          "width": 193.766,
+          "inputOpacity": 0.75,
+          "buttonOpacity": 0.25
+        },
+        {
+          "milliseconds": 100,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 150,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 200,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 250,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 300,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 350,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        }
+      ]
+    },
+    {
+      "direction": "close",
+      "interruptAt": 150,
+      "durations": [
+        {
+          "property": "width",
+          "duration": 150
+        },
+        {
+          "property": "opacity",
+          "duration": 174.1676137905424
+        },
+        {
+          "property": "opacity",
+          "duration": 174.1676137905424
+        }
+      ],
+      "samples": [
+        {
+          "milliseconds": 0,
+          "width": 118,
+          "inputOpacity": 0.129162,
+          "buttonOpacity": 0.870838
+        },
+        {
+          "milliseconds": 5,
+          "width": 118.172,
+          "inputOpacity": 0.130536,
+          "buttonOpacity": 0.869464
+        },
+        {
+          "milliseconds": 10,
+          "width": 118.703,
+          "inputOpacity": 0.134726,
+          "buttonOpacity": 0.865274
+        },
+        {
+          "milliseconds": 25,
+          "width": 122.594,
+          "inputOpacity": 0.165133,
+          "buttonOpacity": 0.834867
+        },
+        {
+          "milliseconds": 50,
+          "width": 137,
+          "inputOpacity": 0.278386,
+          "buttonOpacity": 0.721613
+        },
+        {
+          "milliseconds": 100,
+          "width": 180.984,
+          "inputOpacity": 0.674385,
+          "buttonOpacity": 0.325615
+        },
+        {
+          "milliseconds": 150,
+          "width": 200,
+          "inputOpacity": 0.966442,
+          "buttonOpacity": 0.0335581
+        },
+        {
+          "milliseconds": 200,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 250,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 300,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 350,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        }
+      ]
+    },
+    {
+      "direction": "close",
+      "interruptAt": 250,
+      "durations": [
+        {
+          "property": "width",
+          "duration": 283.16075418624047
+        },
+        {
+          "property": "opacity",
+          "duration": 200
+        },
+        {
+          "property": "opacity",
+          "duration": 200
+        }
+      ],
+      "samples": [
+        {
+          "milliseconds": 0,
+          "width": 45.2031,
+          "inputOpacity": 0,
+          "buttonOpacity": 1
+        },
+        {
+          "milliseconds": 5,
+          "width": 45.2969,
+          "inputOpacity": 0.00119434,
+          "buttonOpacity": 0.998806
+        },
+        {
+          "milliseconds": 10,
+          "width": 45.5625,
+          "inputOpacity": 0.00482975,
+          "buttonOpacity": 0.99517
+        },
+        {
+          "milliseconds": 25,
+          "width": 47.5625,
+          "inputOpacity": 0.031114,
+          "buttonOpacity": 0.968886
+        },
+        {
+          "milliseconds": 50,
+          "width": 54.9844,
+          "inputOpacity": 0.129162,
+          "buttonOpacity": 0.870838
+        },
+        {
+          "milliseconds": 100,
+          "width": 85.4531,
+          "inputOpacity": 0.5,
+          "buttonOpacity": 0.5
+        },
+        {
+          "milliseconds": 150,
+          "width": 130.516,
+          "inputOpacity": 0.870838,
+          "buttonOpacity": 0.129162
+        },
+        {
+          "milliseconds": 200,
+          "width": 172.203,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 250,
+          "width": 195.781,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 300,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        },
+        {
+          "milliseconds": 350,
+          "width": 200,
+          "inputOpacity": 1,
+          "buttonOpacity": 0
+        }
+      ]
+    }
+  ]
+}

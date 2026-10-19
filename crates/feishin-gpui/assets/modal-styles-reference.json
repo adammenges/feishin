@@ -1,0 +1,620 @@
+[
+  {
+    "rem": 16,
+    "theme": "glassy",
+    "css": "/* stylelint-disable selector-class-pattern */\n.fs-player-bar-module-container {\n    background: rgb(0 0 0 / 40%) !important;\n    backdrop-filter: blur(2rem);\n}\n\n.fs-poster-card-module-image {\n    border-radius: 18px !important;\n}\n\n.fs-grid-card-controls-module-grid-card-controls-container {\n    border-radius: 18px;\n    backdrop-filter: blur(5px);\n}\n\n.fsplayer-text {\n    font-size: 45px;\n    text-align: left;\n}\n\n.fs-full-screen-player-image-module-metadata-container {\n    width: 100%;\n}\n\n.fs-full-screen-player-queue-module-grid-container::before {\n    border-radius: 18px !important;\n}\n\n.mantine-Modal-overlay {\n    backdrop-filter: blur(3px);\n}\n\n.fs-modal-module-content,\n.fs-select-module-dropdown,\n.fs-popover-module-dropdown,\n.fs-dialog-module-root,\n.fs-context-menu-module-content,\n.fs-dropdown-menu-module-menu-dropdown,\n.fs-accordion-module-panel {\n    background: rgb(4 4 9 / 50%) !important;\n    border: 0;\n    backdrop-filter: blur(2rem);\n\n    button,\n    input,\n    .fs-multi-select-module-input,\n    a {\n        border-radius: 12px;\n    }\n}\n\n.fs-context-menu-module-content,\n.fs-dropdown-menu-module-menu-dropdown {\n    border-radius: 18px;\n}\n\n.fs-accordion-module-panel {\n    border-radius: 18px;\n    backdrop-filter: none !important;\n}\n\n.fs-accordion-module-control {\n    background-color: transparent;\n}\n\n.fs-modal-module-header {\n    background: rgb(4 4 9 / 80%) !important;\n    border-radius: 18px;\n}\n\n.fs-select-module-dropdown,\n.fs-popover-module-dropdown {\n    border-radius: 18px;\n}\n\n.mantine-Center-root img {\n    border-radius: 18px;\n}\n\n.ag-header {\n    background-color: transparent !important;\n    border-radius: 8px 8px 0 0;\n}\n\n.fs-left-controls-module-playerbar-image {\n    border-radius: 8px !important;\n}\n\n.favorite_icon .mantine-ActionIcon-icon {\n    justify-content: left;\n}\n\n.fork-header svg {\n    padding-left: 2px;\n    margin-left: 5px;\n}\n\n.fs-button-module-root[data-variant='outline'] {\n    border-radius: 1rem;\n}\n\n.fs-poster-card-module-image-container {\n    border-radius: 8px !important;\n}\n\n.mantine-Table-th {\n    background-color: transparent !important;\n}\n\ntable {\n    border: 0 !important;\n}\n\n.fs-sidebar-module-accordion-content a {\n    border-radius: 8px;\n}\n\n/*\n.fs-main-content-module-main-content-container {\n    height: 100vh;\n}\n*/\n\n:has(.fs-window-bar-module-window-bar) .fs-main-content-module-main-content-container {\n    height: calc(100vh - 120px);\n}\n\n.mantine-Tabs-root {\n    input {\n        border-radius: 18px;\n    }\n\n    button:not(.mantine-focus-never) {\n        border-radius: 8px;\n    }\n}\n\n.mantine-Slider-track::before {\n    background-color: var(--theme-colors-surface);\n}\n\n/* stylelint-disable selector-not-notation */\n.fs-image-module-image:not(.ag-cell *):not(.fs-left-controls-module-image *):not(\n        .fs-sidebar-playlist-list-module-row-group *\n    ) {\n    border-radius: 18px;\n}\n\n.fs-image-module-hash {\n    border-radius: 18px;\n}\n\n/* stylelint-enable selector-not-notation */\n\n.fs-left-controls-module-image {\n    border-radius: 12px;\n}\n\n.fork-server-selector {\n    .mantine-SegmentedControl-indicator,\n    .fs-segmented-control-module-root,\n    input,\n    button {\n        border-radius: 12px;\n    }\n}\n\n.fs-text-input-module-input,\n[cmdk-item][data-selected] {\n    background: rgb(4 4 9 / 50%) !important;\n    border: 0;\n    border-radius: 18px;\n}\n\n.fs-modal-module-content [cmdk-separator] {\n    display: none;\n}\n\n/* Button fixes */\n.fs-button-module-root[data-variant='filled'] {\n    border-radius: 12px;\n}\n\n.mantine-Accordion-label {\n    button,\n    a {\n        border-radius: 8px;\n    }\n}\n\n.mantine-Grid-col button {\n    border-radius: 8px;\n}\n\n/* share dialog */\n.fs-modal-module-body {\n    .fs-textarea-module-input {\n        border-radius: 12px;\n    }\n\n    .fs-accordion-module-panel {\n        background-color: transparent;\n    }\n}\n\n.fs-feature-carousel-module-image-column {\n    align-items: normal !important;\n}\n\n.mantine-Badge-root {\n    background: rgb(1 1 5 / 45%);\n}\n\n.fs-sidebar-module-image-container img {\n    border-radius: 18px;\n}\n\n.fs-expanded-list-item-module-container {\n    border-radius: 18px;\n}\n\n.fs-page-header-module-container {\n    background-color: transparent;\n}\n\n.fs-tabs-module-tab {\n    border-radius: 0 !important;\n}\n\n.fs-full-screen-player-module-container .mantine-Group-root button {\n    border-radius: 100%;\n}\n\n.fs-full-screen-player-image-module-image {\n    border-radius: 18px;\n}\n\n.fs-segmented-control-module-root {\n    border-radius: 18px;\n}\n\n.fs-segmented-control-module-label[data-active='true'],\n.mantine-SegmentedControl-control {\n    border-radius: 8px;\n}\n\n.fs-table-config-module-group {\n    border-radius: 8px;\n}\n\n.fs-server-selector-module-button-group {\n    border-radius: 18px;\n}\n\n.fs-full-screen-player-module-container {\n    height: 100vh !important;\n\n    .fs-full-screen-player-module-responsive-container {\n        height: calc(100% - 180px);\n    }\n\n    .fs-full-screen-player-queue-module-controls-container {\n        bottom: 120px;\n    }\n}\n\n.fs-skeleton-module-skeleton,\n.fs-select-module-root div input {\n    border-radius: 18px;\n}\n\n.mantine-Modal-content {\n    border: 0;\n    border-radius: 18px;\n}\n\n.fs-item-card-controls-module-container {\n    background: #03010186;\n    border-radius: 18px;\n    box-shadow: none;\n    backdrop-filter: blur(6px);\n    transition: linear backdrop-filter 0.25s;\n\n    button {\n        border-radius: 100% !important;\n    }\n}\n\n.fs-item-card-module-image-container::before {\n    display: none;\n}\n\n.fs-action-bar-module-container .mantine-Input-input {\n    background-color: var(--theme-colors-surface) !important;\n}\n\n.fs-library-background-overlay-module-background-overlay {\n    border-radius: 18px;\n}\n\n/* i really wanted to make this transparent but does not seem to be possible :( */\n.query-editor-container {\n    padding-bottom: 120px;\n}\n\n.fs-full-screen-player-queue-module-queue-container img {\n    border-radius: 8px !important;\n}\n\n/* attempt to patch the server selector, possible unintended consequences */\n\n.mantine-Accordion-root .mantine-Accordion-item {\n    background-color: transparent;\n    border: 0;\n}\n",
+    "root": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "inner": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "overlay": {
+      "background": "rgba(0, 0, 0, 0.5)",
+      "radius": 0,
+      "border": 0,
+      "blur": "blur(3px)",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "content": {
+      "background": "rgba(4, 4, 9, 0.5)",
+      "radius": 18,
+      "border": 0,
+      "blur": "blur(32px)",
+      "shadow": "rgba(0, 0, 0, 0.4) 2px 2px 10px 2px",
+      "color": "rgb(201, 201, 201)"
+    },
+    "header": {
+      "background": "rgba(4, 4, 9, 0.8)",
+      "radius": 18,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "title": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "body": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "close": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 12,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(184, 184, 184)"
+    },
+    "button": {
+      "background": "rgb(107, 107, 107)",
+      "radius": 12,
+      "border": 2,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "input": {
+      "background": "rgba(4, 4, 9, 0.5)",
+      "radius": 12,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "textarea": {
+      "background": "rgb(59, 59, 59)",
+      "radius": 12,
+      "border": 1,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "outside": {
+      "background": "rgb(107, 107, 107)",
+      "radius": 0,
+      "border": 2,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "hover": "rgb(107, 107, 107)",
+    "active": "rgb(107, 107, 107)"
+  },
+  {
+    "rem": 16,
+    "theme": "custom",
+    "css": ".mantine-Modal-overlay { background:#102030;backdrop-filter:blur(7px) }\n .fs-modal-module-content { background:#234567 !important;border:3px solid #123456;border-radius:11px;backdrop-filter:blur(6px);box-shadow:none }\n .fs-modal-module-header { background:#345678 !important;border-radius:9px }\n .fs-modal-module-body { background:#456789 }\n .fs-modal-module-content button {border-radius:8px}\n .fs-modal-module-body button {background:#56789a;border:2px solid #123456}\n .fs-modal-module-body input {border-radius:10px}\n .fs-modal-module-body .fs-textarea-module-input {border-radius:13px}\n .fs-modal-module-close {background:#6789ab}\n .fs-modal-module-body button:hover {background:#789abc}\n .fs-modal-module-body button:active {background:#89abcd}",
+    "root": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "inner": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "overlay": {
+      "background": "rgb(16, 32, 48)",
+      "radius": 0,
+      "border": 0,
+      "blur": "blur(7px)",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "content": {
+      "background": "rgb(35, 69, 103)",
+      "radius": 11,
+      "border": 3,
+      "blur": "blur(6px)",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "header": {
+      "background": "rgb(52, 86, 120)",
+      "radius": 9,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "title": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "body": {
+      "background": "rgb(69, 103, 137)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "close": {
+      "background": "rgb(103, 137, 171)",
+      "radius": 8,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(184, 184, 184)"
+    },
+    "button": {
+      "background": "rgb(86, 120, 154)",
+      "radius": 8,
+      "border": 2,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "input": {
+      "background": "rgb(59, 59, 59)",
+      "radius": 10,
+      "border": 2,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "textarea": {
+      "background": "rgb(59, 59, 59)",
+      "radius": 13,
+      "border": 1,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "outside": {
+      "background": "rgb(107, 107, 107)",
+      "radius": 0,
+      "border": 2,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "hover": "rgb(120, 154, 188)",
+    "active": "rgb(137, 171, 205)"
+  },
+  {
+    "rem": 16,
+    "theme": "glassy-custom",
+    "css": "/* stylelint-disable selector-class-pattern */\n.fs-player-bar-module-container {\n    background: rgb(0 0 0 / 40%) !important;\n    backdrop-filter: blur(2rem);\n}\n\n.fs-poster-card-module-image {\n    border-radius: 18px !important;\n}\n\n.fs-grid-card-controls-module-grid-card-controls-container {\n    border-radius: 18px;\n    backdrop-filter: blur(5px);\n}\n\n.fsplayer-text {\n    font-size: 45px;\n    text-align: left;\n}\n\n.fs-full-screen-player-image-module-metadata-container {\n    width: 100%;\n}\n\n.fs-full-screen-player-queue-module-grid-container::before {\n    border-radius: 18px !important;\n}\n\n.mantine-Modal-overlay {\n    backdrop-filter: blur(3px);\n}\n\n.fs-modal-module-content,\n.fs-select-module-dropdown,\n.fs-popover-module-dropdown,\n.fs-dialog-module-root,\n.fs-context-menu-module-content,\n.fs-dropdown-menu-module-menu-dropdown,\n.fs-accordion-module-panel {\n    background: rgb(4 4 9 / 50%) !important;\n    border: 0;\n    backdrop-filter: blur(2rem);\n\n    button,\n    input,\n    .fs-multi-select-module-input,\n    a {\n        border-radius: 12px;\n    }\n}\n\n.fs-context-menu-module-content,\n.fs-dropdown-menu-module-menu-dropdown {\n    border-radius: 18px;\n}\n\n.fs-accordion-module-panel {\n    border-radius: 18px;\n    backdrop-filter: none !important;\n}\n\n.fs-accordion-module-control {\n    background-color: transparent;\n}\n\n.fs-modal-module-header {\n    background: rgb(4 4 9 / 80%) !important;\n    border-radius: 18px;\n}\n\n.fs-select-module-dropdown,\n.fs-popover-module-dropdown {\n    border-radius: 18px;\n}\n\n.mantine-Center-root img {\n    border-radius: 18px;\n}\n\n.ag-header {\n    background-color: transparent !important;\n    border-radius: 8px 8px 0 0;\n}\n\n.fs-left-controls-module-playerbar-image {\n    border-radius: 8px !important;\n}\n\n.favorite_icon .mantine-ActionIcon-icon {\n    justify-content: left;\n}\n\n.fork-header svg {\n    padding-left: 2px;\n    margin-left: 5px;\n}\n\n.fs-button-module-root[data-variant='outline'] {\n    border-radius: 1rem;\n}\n\n.fs-poster-card-module-image-container {\n    border-radius: 8px !important;\n}\n\n.mantine-Table-th {\n    background-color: transparent !important;\n}\n\ntable {\n    border: 0 !important;\n}\n\n.fs-sidebar-module-accordion-content a {\n    border-radius: 8px;\n}\n\n/*\n.fs-main-content-module-main-content-container {\n    height: 100vh;\n}\n*/\n\n:has(.fs-window-bar-module-window-bar) .fs-main-content-module-main-content-container {\n    height: calc(100vh - 120px);\n}\n\n.mantine-Tabs-root {\n    input {\n        border-radius: 18px;\n    }\n\n    button:not(.mantine-focus-never) {\n        border-radius: 8px;\n    }\n}\n\n.mantine-Slider-track::before {\n    background-color: var(--theme-colors-surface);\n}\n\n/* stylelint-disable selector-not-notation */\n.fs-image-module-image:not(.ag-cell *):not(.fs-left-controls-module-image *):not(\n        .fs-sidebar-playlist-list-module-row-group *\n    ) {\n    border-radius: 18px;\n}\n\n.fs-image-module-hash {\n    border-radius: 18px;\n}\n\n/* stylelint-enable selector-not-notation */\n\n.fs-left-controls-module-image {\n    border-radius: 12px;\n}\n\n.fork-server-selector {\n    .mantine-SegmentedControl-indicator,\n    .fs-segmented-control-module-root,\n    input,\n    button {\n        border-radius: 12px;\n    }\n}\n\n.fs-text-input-module-input,\n[cmdk-item][data-selected] {\n    background: rgb(4 4 9 / 50%) !important;\n    border: 0;\n    border-radius: 18px;\n}\n\n.fs-modal-module-content [cmdk-separator] {\n    display: none;\n}\n\n/* Button fixes */\n.fs-button-module-root[data-variant='filled'] {\n    border-radius: 12px;\n}\n\n.mantine-Accordion-label {\n    button,\n    a {\n        border-radius: 8px;\n    }\n}\n\n.mantine-Grid-col button {\n    border-radius: 8px;\n}\n\n/* share dialog */\n.fs-modal-module-body {\n    .fs-textarea-module-input {\n        border-radius: 12px;\n    }\n\n    .fs-accordion-module-panel {\n        background-color: transparent;\n    }\n}\n\n.fs-feature-carousel-module-image-column {\n    align-items: normal !important;\n}\n\n.mantine-Badge-root {\n    background: rgb(1 1 5 / 45%);\n}\n\n.fs-sidebar-module-image-container img {\n    border-radius: 18px;\n}\n\n.fs-expanded-list-item-module-container {\n    border-radius: 18px;\n}\n\n.fs-page-header-module-container {\n    background-color: transparent;\n}\n\n.fs-tabs-module-tab {\n    border-radius: 0 !important;\n}\n\n.fs-full-screen-player-module-container .mantine-Group-root button {\n    border-radius: 100%;\n}\n\n.fs-full-screen-player-image-module-image {\n    border-radius: 18px;\n}\n\n.fs-segmented-control-module-root {\n    border-radius: 18px;\n}\n\n.fs-segmented-control-module-label[data-active='true'],\n.mantine-SegmentedControl-control {\n    border-radius: 8px;\n}\n\n.fs-table-config-module-group {\n    border-radius: 8px;\n}\n\n.fs-server-selector-module-button-group {\n    border-radius: 18px;\n}\n\n.fs-full-screen-player-module-container {\n    height: 100vh !important;\n\n    .fs-full-screen-player-module-responsive-container {\n        height: calc(100% - 180px);\n    }\n\n    .fs-full-screen-player-queue-module-controls-container {\n        bottom: 120px;\n    }\n}\n\n.fs-skeleton-module-skeleton,\n.fs-select-module-root div input {\n    border-radius: 18px;\n}\n\n.mantine-Modal-content {\n    border: 0;\n    border-radius: 18px;\n}\n\n.fs-item-card-controls-module-container {\n    background: #03010186;\n    border-radius: 18px;\n    box-shadow: none;\n    backdrop-filter: blur(6px);\n    transition: linear backdrop-filter 0.25s;\n\n    button {\n        border-radius: 100% !important;\n    }\n}\n\n.fs-item-card-module-image-container::before {\n    display: none;\n}\n\n.fs-action-bar-module-container .mantine-Input-input {\n    background-color: var(--theme-colors-surface) !important;\n}\n\n.fs-library-background-overlay-module-background-overlay {\n    border-radius: 18px;\n}\n\n/* i really wanted to make this transparent but does not seem to be possible :( */\n.query-editor-container {\n    padding-bottom: 120px;\n}\n\n.fs-full-screen-player-queue-module-queue-container img {\n    border-radius: 8px !important;\n}\n\n/* attempt to patch the server selector, possible unintended consequences */\n\n.mantine-Accordion-root .mantine-Accordion-item {\n    background-color: transparent;\n    border: 0;\n}\n.mantine-Modal-overlay { background:#102030;backdrop-filter:blur(7px) }\n .fs-modal-module-content { background:#234567 !important;border:3px solid #123456;border-radius:11px;backdrop-filter:blur(6px);box-shadow:none }\n .fs-modal-module-header { background:#345678 !important;border-radius:9px }\n .fs-modal-module-body { background:#456789 }\n .fs-modal-module-content button {border-radius:8px}\n .fs-modal-module-body button {background:#56789a;border:2px solid #123456}\n .fs-modal-module-body input {border-radius:10px}\n .fs-modal-module-body .fs-textarea-module-input {border-radius:13px}\n .fs-modal-module-close {background:#6789ab}\n .fs-modal-module-body button:hover {background:#789abc}\n .fs-modal-module-body button:active {background:#89abcd}",
+    "root": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "inner": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "overlay": {
+      "background": "rgb(16, 32, 48)",
+      "radius": 0,
+      "border": 0,
+      "blur": "blur(7px)",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "content": {
+      "background": "rgb(35, 69, 103)",
+      "radius": 11,
+      "border": 3,
+      "blur": "blur(6px)",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "header": {
+      "background": "rgb(52, 86, 120)",
+      "radius": 9,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "title": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "body": {
+      "background": "rgb(69, 103, 137)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "close": {
+      "background": "rgb(103, 137, 171)",
+      "radius": 8,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(184, 184, 184)"
+    },
+    "button": {
+      "background": "rgb(86, 120, 154)",
+      "radius": 12,
+      "border": 2,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "input": {
+      "background": "rgba(4, 4, 9, 0.5)",
+      "radius": 10,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "textarea": {
+      "background": "rgb(59, 59, 59)",
+      "radius": 13,
+      "border": 1,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "outside": {
+      "background": "rgb(107, 107, 107)",
+      "radius": 0,
+      "border": 2,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "hover": "rgb(120, 154, 188)",
+    "active": "rgb(137, 171, 205)"
+  },
+  {
+    "rem": 20,
+    "theme": "glassy",
+    "css": "/* stylelint-disable selector-class-pattern */\n.fs-player-bar-module-container {\n    background: rgb(0 0 0 / 40%) !important;\n    backdrop-filter: blur(2rem);\n}\n\n.fs-poster-card-module-image {\n    border-radius: 18px !important;\n}\n\n.fs-grid-card-controls-module-grid-card-controls-container {\n    border-radius: 18px;\n    backdrop-filter: blur(5px);\n}\n\n.fsplayer-text {\n    font-size: 45px;\n    text-align: left;\n}\n\n.fs-full-screen-player-image-module-metadata-container {\n    width: 100%;\n}\n\n.fs-full-screen-player-queue-module-grid-container::before {\n    border-radius: 18px !important;\n}\n\n.mantine-Modal-overlay {\n    backdrop-filter: blur(3px);\n}\n\n.fs-modal-module-content,\n.fs-select-module-dropdown,\n.fs-popover-module-dropdown,\n.fs-dialog-module-root,\n.fs-context-menu-module-content,\n.fs-dropdown-menu-module-menu-dropdown,\n.fs-accordion-module-panel {\n    background: rgb(4 4 9 / 50%) !important;\n    border: 0;\n    backdrop-filter: blur(2rem);\n\n    button,\n    input,\n    .fs-multi-select-module-input,\n    a {\n        border-radius: 12px;\n    }\n}\n\n.fs-context-menu-module-content,\n.fs-dropdown-menu-module-menu-dropdown {\n    border-radius: 18px;\n}\n\n.fs-accordion-module-panel {\n    border-radius: 18px;\n    backdrop-filter: none !important;\n}\n\n.fs-accordion-module-control {\n    background-color: transparent;\n}\n\n.fs-modal-module-header {\n    background: rgb(4 4 9 / 80%) !important;\n    border-radius: 18px;\n}\n\n.fs-select-module-dropdown,\n.fs-popover-module-dropdown {\n    border-radius: 18px;\n}\n\n.mantine-Center-root img {\n    border-radius: 18px;\n}\n\n.ag-header {\n    background-color: transparent !important;\n    border-radius: 8px 8px 0 0;\n}\n\n.fs-left-controls-module-playerbar-image {\n    border-radius: 8px !important;\n}\n\n.favorite_icon .mantine-ActionIcon-icon {\n    justify-content: left;\n}\n\n.fork-header svg {\n    padding-left: 2px;\n    margin-left: 5px;\n}\n\n.fs-button-module-root[data-variant='outline'] {\n    border-radius: 1rem;\n}\n\n.fs-poster-card-module-image-container {\n    border-radius: 8px !important;\n}\n\n.mantine-Table-th {\n    background-color: transparent !important;\n}\n\ntable {\n    border: 0 !important;\n}\n\n.fs-sidebar-module-accordion-content a {\n    border-radius: 8px;\n}\n\n/*\n.fs-main-content-module-main-content-container {\n    height: 100vh;\n}\n*/\n\n:has(.fs-window-bar-module-window-bar) .fs-main-content-module-main-content-container {\n    height: calc(100vh - 120px);\n}\n\n.mantine-Tabs-root {\n    input {\n        border-radius: 18px;\n    }\n\n    button:not(.mantine-focus-never) {\n        border-radius: 8px;\n    }\n}\n\n.mantine-Slider-track::before {\n    background-color: var(--theme-colors-surface);\n}\n\n/* stylelint-disable selector-not-notation */\n.fs-image-module-image:not(.ag-cell *):not(.fs-left-controls-module-image *):not(\n        .fs-sidebar-playlist-list-module-row-group *\n    ) {\n    border-radius: 18px;\n}\n\n.fs-image-module-hash {\n    border-radius: 18px;\n}\n\n/* stylelint-enable selector-not-notation */\n\n.fs-left-controls-module-image {\n    border-radius: 12px;\n}\n\n.fork-server-selector {\n    .mantine-SegmentedControl-indicator,\n    .fs-segmented-control-module-root,\n    input,\n    button {\n        border-radius: 12px;\n    }\n}\n\n.fs-text-input-module-input,\n[cmdk-item][data-selected] {\n    background: rgb(4 4 9 / 50%) !important;\n    border: 0;\n    border-radius: 18px;\n}\n\n.fs-modal-module-content [cmdk-separator] {\n    display: none;\n}\n\n/* Button fixes */\n.fs-button-module-root[data-variant='filled'] {\n    border-radius: 12px;\n}\n\n.mantine-Accordion-label {\n    button,\n    a {\n        border-radius: 8px;\n    }\n}\n\n.mantine-Grid-col button {\n    border-radius: 8px;\n}\n\n/* share dialog */\n.fs-modal-module-body {\n    .fs-textarea-module-input {\n        border-radius: 12px;\n    }\n\n    .fs-accordion-module-panel {\n        background-color: transparent;\n    }\n}\n\n.fs-feature-carousel-module-image-column {\n    align-items: normal !important;\n}\n\n.mantine-Badge-root {\n    background: rgb(1 1 5 / 45%);\n}\n\n.fs-sidebar-module-image-container img {\n    border-radius: 18px;\n}\n\n.fs-expanded-list-item-module-container {\n    border-radius: 18px;\n}\n\n.fs-page-header-module-container {\n    background-color: transparent;\n}\n\n.fs-tabs-module-tab {\n    border-radius: 0 !important;\n}\n\n.fs-full-screen-player-module-container .mantine-Group-root button {\n    border-radius: 100%;\n}\n\n.fs-full-screen-player-image-module-image {\n    border-radius: 18px;\n}\n\n.fs-segmented-control-module-root {\n    border-radius: 18px;\n}\n\n.fs-segmented-control-module-label[data-active='true'],\n.mantine-SegmentedControl-control {\n    border-radius: 8px;\n}\n\n.fs-table-config-module-group {\n    border-radius: 8px;\n}\n\n.fs-server-selector-module-button-group {\n    border-radius: 18px;\n}\n\n.fs-full-screen-player-module-container {\n    height: 100vh !important;\n\n    .fs-full-screen-player-module-responsive-container {\n        height: calc(100% - 180px);\n    }\n\n    .fs-full-screen-player-queue-module-controls-container {\n        bottom: 120px;\n    }\n}\n\n.fs-skeleton-module-skeleton,\n.fs-select-module-root div input {\n    border-radius: 18px;\n}\n\n.mantine-Modal-content {\n    border: 0;\n    border-radius: 18px;\n}\n\n.fs-item-card-controls-module-container {\n    background: #03010186;\n    border-radius: 18px;\n    box-shadow: none;\n    backdrop-filter: blur(6px);\n    transition: linear backdrop-filter 0.25s;\n\n    button {\n        border-radius: 100% !important;\n    }\n}\n\n.fs-item-card-module-image-container::before {\n    display: none;\n}\n\n.fs-action-bar-module-container .mantine-Input-input {\n    background-color: var(--theme-colors-surface) !important;\n}\n\n.fs-library-background-overlay-module-background-overlay {\n    border-radius: 18px;\n}\n\n/* i really wanted to make this transparent but does not seem to be possible :( */\n.query-editor-container {\n    padding-bottom: 120px;\n}\n\n.fs-full-screen-player-queue-module-queue-container img {\n    border-radius: 8px !important;\n}\n\n/* attempt to patch the server selector, possible unintended consequences */\n\n.mantine-Accordion-root .mantine-Accordion-item {\n    background-color: transparent;\n    border: 0;\n}\n",
+    "root": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "inner": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "overlay": {
+      "background": "rgba(0, 0, 0, 0.5)",
+      "radius": 0,
+      "border": 0,
+      "blur": "blur(3px)",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "content": {
+      "background": "rgba(4, 4, 9, 0.5)",
+      "radius": 18,
+      "border": 0,
+      "blur": "blur(40px)",
+      "shadow": "rgba(0, 0, 0, 0.4) 2px 2px 10px 2px",
+      "color": "rgb(201, 201, 201)"
+    },
+    "header": {
+      "background": "rgba(4, 4, 9, 0.8)",
+      "radius": 18,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "title": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "body": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "close": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 12,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(184, 184, 184)"
+    },
+    "button": {
+      "background": "rgb(107, 107, 107)",
+      "radius": 12,
+      "border": 2,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "input": {
+      "background": "rgba(4, 4, 9, 0.5)",
+      "radius": 12,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "textarea": {
+      "background": "rgb(59, 59, 59)",
+      "radius": 12,
+      "border": 1,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "outside": {
+      "background": "rgb(107, 107, 107)",
+      "radius": 0,
+      "border": 2,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "hover": "rgb(107, 107, 107)",
+    "active": "rgb(107, 107, 107)"
+  },
+  {
+    "rem": 20,
+    "theme": "custom",
+    "css": ".mantine-Modal-overlay { background:#102030;backdrop-filter:blur(7px) }\n .fs-modal-module-content { background:#234567 !important;border:3px solid #123456;border-radius:11px;backdrop-filter:blur(6px);box-shadow:none }\n .fs-modal-module-header { background:#345678 !important;border-radius:9px }\n .fs-modal-module-body { background:#456789 }\n .fs-modal-module-content button {border-radius:8px}\n .fs-modal-module-body button {background:#56789a;border:2px solid #123456}\n .fs-modal-module-body input {border-radius:10px}\n .fs-modal-module-body .fs-textarea-module-input {border-radius:13px}\n .fs-modal-module-close {background:#6789ab}\n .fs-modal-module-body button:hover {background:#789abc}\n .fs-modal-module-body button:active {background:#89abcd}",
+    "root": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "inner": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "overlay": {
+      "background": "rgb(16, 32, 48)",
+      "radius": 0,
+      "border": 0,
+      "blur": "blur(7px)",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "content": {
+      "background": "rgb(35, 69, 103)",
+      "radius": 11,
+      "border": 3,
+      "blur": "blur(6px)",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "header": {
+      "background": "rgb(52, 86, 120)",
+      "radius": 9,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "title": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "body": {
+      "background": "rgb(69, 103, 137)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "close": {
+      "background": "rgb(103, 137, 171)",
+      "radius": 8,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(184, 184, 184)"
+    },
+    "button": {
+      "background": "rgb(86, 120, 154)",
+      "radius": 8,
+      "border": 2,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "input": {
+      "background": "rgb(59, 59, 59)",
+      "radius": 10,
+      "border": 2,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "textarea": {
+      "background": "rgb(59, 59, 59)",
+      "radius": 13,
+      "border": 1,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "outside": {
+      "background": "rgb(107, 107, 107)",
+      "radius": 0,
+      "border": 2,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "hover": "rgb(120, 154, 188)",
+    "active": "rgb(137, 171, 205)"
+  },
+  {
+    "rem": 20,
+    "theme": "glassy-custom",
+    "css": "/* stylelint-disable selector-class-pattern */\n.fs-player-bar-module-container {\n    background: rgb(0 0 0 / 40%) !important;\n    backdrop-filter: blur(2rem);\n}\n\n.fs-poster-card-module-image {\n    border-radius: 18px !important;\n}\n\n.fs-grid-card-controls-module-grid-card-controls-container {\n    border-radius: 18px;\n    backdrop-filter: blur(5px);\n}\n\n.fsplayer-text {\n    font-size: 45px;\n    text-align: left;\n}\n\n.fs-full-screen-player-image-module-metadata-container {\n    width: 100%;\n}\n\n.fs-full-screen-player-queue-module-grid-container::before {\n    border-radius: 18px !important;\n}\n\n.mantine-Modal-overlay {\n    backdrop-filter: blur(3px);\n}\n\n.fs-modal-module-content,\n.fs-select-module-dropdown,\n.fs-popover-module-dropdown,\n.fs-dialog-module-root,\n.fs-context-menu-module-content,\n.fs-dropdown-menu-module-menu-dropdown,\n.fs-accordion-module-panel {\n    background: rgb(4 4 9 / 50%) !important;\n    border: 0;\n    backdrop-filter: blur(2rem);\n\n    button,\n    input,\n    .fs-multi-select-module-input,\n    a {\n        border-radius: 12px;\n    }\n}\n\n.fs-context-menu-module-content,\n.fs-dropdown-menu-module-menu-dropdown {\n    border-radius: 18px;\n}\n\n.fs-accordion-module-panel {\n    border-radius: 18px;\n    backdrop-filter: none !important;\n}\n\n.fs-accordion-module-control {\n    background-color: transparent;\n}\n\n.fs-modal-module-header {\n    background: rgb(4 4 9 / 80%) !important;\n    border-radius: 18px;\n}\n\n.fs-select-module-dropdown,\n.fs-popover-module-dropdown {\n    border-radius: 18px;\n}\n\n.mantine-Center-root img {\n    border-radius: 18px;\n}\n\n.ag-header {\n    background-color: transparent !important;\n    border-radius: 8px 8px 0 0;\n}\n\n.fs-left-controls-module-playerbar-image {\n    border-radius: 8px !important;\n}\n\n.favorite_icon .mantine-ActionIcon-icon {\n    justify-content: left;\n}\n\n.fork-header svg {\n    padding-left: 2px;\n    margin-left: 5px;\n}\n\n.fs-button-module-root[data-variant='outline'] {\n    border-radius: 1rem;\n}\n\n.fs-poster-card-module-image-container {\n    border-radius: 8px !important;\n}\n\n.mantine-Table-th {\n    background-color: transparent !important;\n}\n\ntable {\n    border: 0 !important;\n}\n\n.fs-sidebar-module-accordion-content a {\n    border-radius: 8px;\n}\n\n/*\n.fs-main-content-module-main-content-container {\n    height: 100vh;\n}\n*/\n\n:has(.fs-window-bar-module-window-bar) .fs-main-content-module-main-content-container {\n    height: calc(100vh - 120px);\n}\n\n.mantine-Tabs-root {\n    input {\n        border-radius: 18px;\n    }\n\n    button:not(.mantine-focus-never) {\n        border-radius: 8px;\n    }\n}\n\n.mantine-Slider-track::before {\n    background-color: var(--theme-colors-surface);\n}\n\n/* stylelint-disable selector-not-notation */\n.fs-image-module-image:not(.ag-cell *):not(.fs-left-controls-module-image *):not(\n        .fs-sidebar-playlist-list-module-row-group *\n    ) {\n    border-radius: 18px;\n}\n\n.fs-image-module-hash {\n    border-radius: 18px;\n}\n\n/* stylelint-enable selector-not-notation */\n\n.fs-left-controls-module-image {\n    border-radius: 12px;\n}\n\n.fork-server-selector {\n    .mantine-SegmentedControl-indicator,\n    .fs-segmented-control-module-root,\n    input,\n    button {\n        border-radius: 12px;\n    }\n}\n\n.fs-text-input-module-input,\n[cmdk-item][data-selected] {\n    background: rgb(4 4 9 / 50%) !important;\n    border: 0;\n    border-radius: 18px;\n}\n\n.fs-modal-module-content [cmdk-separator] {\n    display: none;\n}\n\n/* Button fixes */\n.fs-button-module-root[data-variant='filled'] {\n    border-radius: 12px;\n}\n\n.mantine-Accordion-label {\n    button,\n    a {\n        border-radius: 8px;\n    }\n}\n\n.mantine-Grid-col button {\n    border-radius: 8px;\n}\n\n/* share dialog */\n.fs-modal-module-body {\n    .fs-textarea-module-input {\n        border-radius: 12px;\n    }\n\n    .fs-accordion-module-panel {\n        background-color: transparent;\n    }\n}\n\n.fs-feature-carousel-module-image-column {\n    align-items: normal !important;\n}\n\n.mantine-Badge-root {\n    background: rgb(1 1 5 / 45%);\n}\n\n.fs-sidebar-module-image-container img {\n    border-radius: 18px;\n}\n\n.fs-expanded-list-item-module-container {\n    border-radius: 18px;\n}\n\n.fs-page-header-module-container {\n    background-color: transparent;\n}\n\n.fs-tabs-module-tab {\n    border-radius: 0 !important;\n}\n\n.fs-full-screen-player-module-container .mantine-Group-root button {\n    border-radius: 100%;\n}\n\n.fs-full-screen-player-image-module-image {\n    border-radius: 18px;\n}\n\n.fs-segmented-control-module-root {\n    border-radius: 18px;\n}\n\n.fs-segmented-control-module-label[data-active='true'],\n.mantine-SegmentedControl-control {\n    border-radius: 8px;\n}\n\n.fs-table-config-module-group {\n    border-radius: 8px;\n}\n\n.fs-server-selector-module-button-group {\n    border-radius: 18px;\n}\n\n.fs-full-screen-player-module-container {\n    height: 100vh !important;\n\n    .fs-full-screen-player-module-responsive-container {\n        height: calc(100% - 180px);\n    }\n\n    .fs-full-screen-player-queue-module-controls-container {\n        bottom: 120px;\n    }\n}\n\n.fs-skeleton-module-skeleton,\n.fs-select-module-root div input {\n    border-radius: 18px;\n}\n\n.mantine-Modal-content {\n    border: 0;\n    border-radius: 18px;\n}\n\n.fs-item-card-controls-module-container {\n    background: #03010186;\n    border-radius: 18px;\n    box-shadow: none;\n    backdrop-filter: blur(6px);\n    transition: linear backdrop-filter 0.25s;\n\n    button {\n        border-radius: 100% !important;\n    }\n}\n\n.fs-item-card-module-image-container::before {\n    display: none;\n}\n\n.fs-action-bar-module-container .mantine-Input-input {\n    background-color: var(--theme-colors-surface) !important;\n}\n\n.fs-library-background-overlay-module-background-overlay {\n    border-radius: 18px;\n}\n\n/* i really wanted to make this transparent but does not seem to be possible :( */\n.query-editor-container {\n    padding-bottom: 120px;\n}\n\n.fs-full-screen-player-queue-module-queue-container img {\n    border-radius: 8px !important;\n}\n\n/* attempt to patch the server selector, possible unintended consequences */\n\n.mantine-Accordion-root .mantine-Accordion-item {\n    background-color: transparent;\n    border: 0;\n}\n.mantine-Modal-overlay { background:#102030;backdrop-filter:blur(7px) }\n .fs-modal-module-content { background:#234567 !important;border:3px solid #123456;border-radius:11px;backdrop-filter:blur(6px);box-shadow:none }\n .fs-modal-module-header { background:#345678 !important;border-radius:9px }\n .fs-modal-module-body { background:#456789 }\n .fs-modal-module-content button {border-radius:8px}\n .fs-modal-module-body button {background:#56789a;border:2px solid #123456}\n .fs-modal-module-body input {border-radius:10px}\n .fs-modal-module-body .fs-textarea-module-input {border-radius:13px}\n .fs-modal-module-close {background:#6789ab}\n .fs-modal-module-body button:hover {background:#789abc}\n .fs-modal-module-body button:active {background:#89abcd}",
+    "root": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "inner": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "overlay": {
+      "background": "rgb(16, 32, 48)",
+      "radius": 0,
+      "border": 0,
+      "blur": "blur(7px)",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "content": {
+      "background": "rgb(35, 69, 103)",
+      "radius": 11,
+      "border": 3,
+      "blur": "blur(6px)",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "header": {
+      "background": "rgb(52, 86, 120)",
+      "radius": 9,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "title": {
+      "background": "rgba(0, 0, 0, 0)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "body": {
+      "background": "rgb(69, 103, 137)",
+      "radius": 0,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(201, 201, 201)"
+    },
+    "close": {
+      "background": "rgb(103, 137, 171)",
+      "radius": 8,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(184, 184, 184)"
+    },
+    "button": {
+      "background": "rgb(86, 120, 154)",
+      "radius": 12,
+      "border": 2,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "input": {
+      "background": "rgba(4, 4, 9, 0.5)",
+      "radius": 10,
+      "border": 0,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "textarea": {
+      "background": "rgb(59, 59, 59)",
+      "radius": 13,
+      "border": 1,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "outside": {
+      "background": "rgb(107, 107, 107)",
+      "radius": 0,
+      "border": 2,
+      "blur": "none",
+      "shadow": "none",
+      "color": "rgb(255, 255, 255)"
+    },
+    "hover": "rgb(120, 154, 188)",
+    "active": "rgb(137, 171, 205)"
+  }
+]

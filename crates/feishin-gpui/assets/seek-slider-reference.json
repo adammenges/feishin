@@ -1,0 +1,311 @@
+[
+  {
+    "name": "hold-through-polls",
+    "events": [
+      [
+        "poll",
+        10,
+        0
+      ],
+      [
+        "change",
+        20,
+        1
+      ],
+      [
+        "poll",
+        19.9,
+        2000
+      ],
+      [
+        "poll",
+        30,
+        5000
+      ],
+      [
+        "release",
+        20,
+        5001
+      ],
+      [
+        "poll",
+        19.8,
+        5500
+      ]
+    ],
+    "frames": [
+      {
+        "event": "poll",
+        "value": 10,
+        "clock": 0,
+        "currentTime": 10,
+        "displayed": 10,
+        "seeks": []
+      },
+      {
+        "event": "change",
+        "value": 20,
+        "clock": 1,
+        "currentTime": 10,
+        "displayed": 20,
+        "seeks": []
+      },
+      {
+        "event": "poll",
+        "value": 19.9,
+        "clock": 2000,
+        "currentTime": 19.9,
+        "displayed": 20,
+        "seeks": []
+      },
+      {
+        "event": "poll",
+        "value": 30,
+        "clock": 5000,
+        "currentTime": 30,
+        "displayed": 20,
+        "seeks": []
+      },
+      {
+        "event": "release",
+        "value": 20,
+        "clock": 5001,
+        "currentTime": 30,
+        "displayed": 20,
+        "seeks": [
+          20
+        ]
+      },
+      {
+        "event": "poll",
+        "value": 19.8,
+        "clock": 5500,
+        "currentTime": 19.8,
+        "displayed": 19.8,
+        "seeks": [
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "name": "release-timeout",
+    "events": [
+      [
+        "poll",
+        10,
+        0
+      ],
+      [
+        "change",
+        80,
+        1
+      ],
+      [
+        "release",
+        80,
+        100
+      ],
+      [
+        "poll",
+        30,
+        1099
+      ],
+      [
+        "poll",
+        31,
+        1101
+      ]
+    ],
+    "frames": [
+      {
+        "event": "poll",
+        "value": 10,
+        "clock": 0,
+        "currentTime": 10,
+        "displayed": 10,
+        "seeks": []
+      },
+      {
+        "event": "change",
+        "value": 80,
+        "clock": 1,
+        "currentTime": 10,
+        "displayed": 80,
+        "seeks": []
+      },
+      {
+        "event": "release",
+        "value": 80,
+        "clock": 100,
+        "currentTime": 10,
+        "displayed": 80,
+        "seeks": [
+          80
+        ]
+      },
+      {
+        "event": "poll",
+        "value": 30,
+        "clock": 1099,
+        "currentTime": 30,
+        "displayed": 80,
+        "seeks": [
+          80
+        ]
+      },
+      {
+        "event": "poll",
+        "value": 31,
+        "clock": 1101,
+        "currentTime": 31,
+        "displayed": 31,
+        "seeks": [
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "name": "new-drag-cancels-resolution",
+    "events": [
+      [
+        "poll",
+        10,
+        0
+      ],
+      [
+        "change",
+        20,
+        1
+      ],
+      [
+        "release",
+        20,
+        10
+      ],
+      [
+        "change",
+        40,
+        15
+      ],
+      [
+        "poll",
+        39.9,
+        5000
+      ],
+      [
+        "release",
+        40,
+        5010
+      ]
+    ],
+    "frames": [
+      {
+        "event": "poll",
+        "value": 10,
+        "clock": 0,
+        "currentTime": 10,
+        "displayed": 10,
+        "seeks": []
+      },
+      {
+        "event": "change",
+        "value": 20,
+        "clock": 1,
+        "currentTime": 10,
+        "displayed": 20,
+        "seeks": []
+      },
+      {
+        "event": "release",
+        "value": 20,
+        "clock": 10,
+        "currentTime": 10,
+        "displayed": 20,
+        "seeks": [
+          20
+        ]
+      },
+      {
+        "event": "change",
+        "value": 40,
+        "clock": 15,
+        "currentTime": 10,
+        "displayed": 40,
+        "seeks": [
+          20
+        ]
+      },
+      {
+        "event": "poll",
+        "value": 39.9,
+        "clock": 5000,
+        "currentTime": 39.9,
+        "displayed": 40,
+        "seeks": [
+          20
+        ]
+      },
+      {
+        "event": "release",
+        "value": 40,
+        "clock": 5010,
+        "currentTime": 39.9,
+        "displayed": 39.9,
+        "seeks": [
+          20,
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "name": "close-release",
+    "events": [
+      [
+        "poll",
+        19.8,
+        0
+      ],
+      [
+        "change",
+        20,
+        1
+      ],
+      [
+        "release",
+        20,
+        2
+      ]
+    ],
+    "frames": [
+      {
+        "event": "poll",
+        "value": 19.8,
+        "clock": 0,
+        "currentTime": 19.8,
+        "displayed": 19.8,
+        "seeks": []
+      },
+      {
+        "event": "change",
+        "value": 20,
+        "clock": 1,
+        "currentTime": 19.8,
+        "displayed": 20,
+        "seeks": []
+      },
+      {
+        "event": "release",
+        "value": 20,
+        "clock": 2,
+        "currentTime": 19.8,
+        "displayed": 19.8,
+        "seeks": [
+          20
+        ]
+      }
+    ]
+  }
+]

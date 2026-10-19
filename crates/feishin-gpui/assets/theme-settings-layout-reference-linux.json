@@ -1,0 +1,219 @@
+[
+  {
+    "text": "Use system theme\nFollow the system-defined light or dark preference",
+    "bounds": [
+      432,
+      156.8125,
+      856,
+      38
+    ],
+    "caption": [
+      432,
+      156.8125,
+      312.75,
+      38
+    ],
+    "control": [
+      1250,
+      165.8125,
+      38,
+      20
+    ],
+    "fonts": [
+      [
+        "14px",
+        "18px"
+      ],
+      [
+        "13px",
+        "16px"
+      ]
+    ]
+  },
+  {
+    "text": "Theme\nSets the theme to use for the application",
+    "bounds": [
+      432,
+      218.8125,
+      856,
+      38
+    ],
+    "caption": [
+      432,
+      218.8125,
+      247.296875,
+      38
+    ],
+    "control": [
+      1048,
+      219.8125,
+      240,
+      36
+    ],
+    "fonts": [
+      [
+        "14px",
+        "18px"
+      ],
+      [
+        "13px",
+        "16px"
+      ]
+    ]
+  },
+  {
+    "text": "Use theme accent color\nUse the primary color defined in the selected theme instead of the custom accent color",
+    "bounds": [
+      432,
+      280.8125,
+      856,
+      54
+    ],
+    "caption": [
+      432,
+      280.8125,
+      428,
+      54
+    ],
+    "control": [
+      1250,
+      297.8125,
+      38,
+      20
+    ],
+    "fonts": [
+      [
+        "14px",
+        "18px"
+      ],
+      [
+        "13px",
+        "16px"
+      ]
+    ]
+  },
+  {
+    "text": "Accent color\nSets the accent color for the application",
+    "bounds": [
+      432,
+      358.8125,
+      856,
+      38
+    ],
+    "caption": [
+      432,
+      358.8125,
+      244,
+      38
+    ],
+    "control": [
+      1038,
+      359.8125,
+      250,
+      36
+    ],
+    "fonts": [
+      [
+        "14px",
+        "18px"
+      ],
+      [
+        "13px",
+        "16px"
+      ]
+    ]
+  },
+  {
+    "text": "Use theme primary shade\nUse the primary shade defined in the selected theme for primary color variants",
+    "bounds": [
+      432,
+      420.8125,
+      856,
+      54
+    ],
+    "caption": [
+      432,
+      420.8125,
+      428,
+      54
+    ],
+    "control": [
+      1250,
+      437.8125,
+      38,
+      20
+    ],
+    "fonts": [
+      [
+        "14px",
+        "18px"
+      ],
+      [
+        "13px",
+        "16px"
+      ]
+    ]
+  },
+  {
+    "text": "Custom Themes\nDrop .json theme files into this folder to add custom themes. They're picked up automatically whenever you add, edit, or remove a file.",
+    "bounds": [
+      432,
+      498.8125,
+      856,
+      54
+    ],
+    "caption": [
+      432,
+      498.8125,
+      428,
+      54
+    ],
+    "control": [
+      1112.34375,
+      510.8125,
+      175.65625,
+      30
+    ],
+    "fonts": [
+      [
+        "14px",
+        "18px"
+      ],
+      [
+        "13px",
+        "16px"
+      ]
+    ]
+  },
+  {
+    "text": "Enable custom CSS\nAllow for writing custom CSS",
+    "bounds": [
+      432,
+      576.8125,
+      856,
+      38
+    ],
+    "caption": [
+      432,
+      576.8125,
+      177.875,
+      38
+    ],
+    "control": [
+      1250,
+      585.8125,
+      38,
+      20
+    ],
+    "fonts": [
+      [
+        "14px",
+        "18px"
+      ],
+      [
+        "13px",
+        "16px"
+      ]
+    ]
+  }
+]

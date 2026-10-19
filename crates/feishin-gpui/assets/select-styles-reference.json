@@ -1,0 +1,726 @@
+{
+  "variables": {
+    "--theme-content-font-family": "sans-serif",
+    "--theme-colors-foreground": "#eeeeee",
+    "--theme-colors-surface-foreground": "#dddddd",
+    "--theme-colors-background": "#101010",
+    "--theme-colors-surface": "#232323",
+    "--theme-colors-border": "#404040",
+    "--theme-colors-primary-filled": "#0088cc",
+    "--theme-spacing-xs": ".25rem",
+    "--theme-spacing-sm": ".5rem",
+    "--theme-spacing-lg": "1rem",
+    "--theme-radius-xl": "1rem"
+  },
+  "custom": ".fs-select-module-input { background:#123456;border-radius:11px } .fs-select-module-input:focus {border-color:#abcdef} .fs-select-module-dropdown {background:#234567;border-color:#345678} .fs-select-module-option:hover {background:#456789}",
+  "cases": [
+    {
+      "rem": 16,
+      "state": "default",
+      "variant": "default",
+      "disabled": false,
+      "open": false,
+      "custom": false,
+      "input": {
+        "width": 180,
+        "height": 36,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgba(0, 0, 0, 0)",
+        "borderWidth": 1,
+        "radius": 3,
+        "padding": [
+          0,
+          64,
+          0,
+          12
+        ],
+        "fontSize": 13,
+        "opacity": 1
+      },
+      "dropdown": {
+        "width": 0,
+        "height": 0,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(64, 64, 64)",
+        "borderWidth": 1,
+        "radius": 3,
+        "padding": [
+          4,
+          0,
+          4,
+          4
+        ],
+        "fontSize": 14,
+        "opacity": 1
+      },
+      "option": {
+        "width": 0,
+        "height": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(221, 221, 221)",
+        "borderWidth": 0,
+        "radius": 3,
+        "padding": [
+          8,
+          16,
+          8,
+          16
+        ],
+        "fontSize": 13,
+        "opacity": 1
+      }
+    },
+    {
+      "rem": 16,
+      "state": "focus",
+      "variant": "default",
+      "disabled": false,
+      "open": false,
+      "custom": false,
+      "input": {
+        "width": 180,
+        "height": 36,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "color(srgb 0.325882 0.325882 0.325882)",
+        "borderWidth": 1,
+        "radius": 3,
+        "padding": [
+          0,
+          64,
+          0,
+          12
+        ],
+        "fontSize": 13,
+        "opacity": 1
+      },
+      "dropdown": {
+        "width": 0,
+        "height": 0,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(64, 64, 64)",
+        "borderWidth": 1,
+        "radius": 3,
+        "padding": [
+          4,
+          0,
+          4,
+          4
+        ],
+        "fontSize": 14,
+        "opacity": 1
+      },
+      "option": {
+        "width": 0,
+        "height": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(221, 221, 221)",
+        "borderWidth": 0,
+        "radius": 3,
+        "padding": [
+          8,
+          16,
+          8,
+          16
+        ],
+        "fontSize": 13,
+        "opacity": 1
+      }
+    },
+    {
+      "rem": 16,
+      "state": "disabled",
+      "variant": "default",
+      "disabled": true,
+      "open": false,
+      "custom": false,
+      "input": {
+        "width": 180,
+        "height": 36,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgba(0, 0, 0, 0)",
+        "borderWidth": 1,
+        "radius": 3,
+        "padding": [
+          0,
+          64,
+          0,
+          12
+        ],
+        "fontSize": 13,
+        "opacity": 0.6
+      },
+      "dropdown": {
+        "width": 0,
+        "height": 0,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(64, 64, 64)",
+        "borderWidth": 1,
+        "radius": 3,
+        "padding": [
+          4,
+          0,
+          4,
+          4
+        ],
+        "fontSize": 14,
+        "opacity": 1
+      },
+      "option": {
+        "width": 0,
+        "height": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(221, 221, 221)",
+        "borderWidth": 0,
+        "radius": 3,
+        "padding": [
+          8,
+          16,
+          8,
+          16
+        ],
+        "fontSize": 13,
+        "opacity": 1
+      }
+    },
+    {
+      "rem": 16,
+      "state": "open",
+      "variant": "default",
+      "disabled": false,
+      "open": true,
+      "custom": false,
+      "input": {
+        "width": 180,
+        "height": 36,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "color(srgb 0.325882 0.325882 0.325882)",
+        "borderWidth": 1,
+        "radius": 3,
+        "padding": [
+          0,
+          64,
+          0,
+          12
+        ],
+        "fontSize": 13,
+        "opacity": 1
+      },
+      "dropdown": {
+        "width": 180,
+        "height": 78,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(64, 64, 64)",
+        "borderWidth": 1,
+        "radius": 3,
+        "padding": [
+          4,
+          0,
+          4,
+          4
+        ],
+        "fontSize": 14,
+        "opacity": 1
+      },
+      "option": {
+        "width": 170,
+        "height": 34,
+        "background": "color(srgb 0.180392 0.180392 0.180392)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(221, 221, 221)",
+        "borderWidth": 0,
+        "radius": 3,
+        "padding": [
+          8,
+          16,
+          8,
+          16
+        ],
+        "fontSize": 13,
+        "opacity": 1
+      }
+    },
+    {
+      "rem": 16,
+      "state": "custom",
+      "variant": "default",
+      "disabled": false,
+      "open": false,
+      "custom": true,
+      "input": {
+        "width": 180,
+        "height": 36,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgba(0, 0, 0, 0)",
+        "borderWidth": 1,
+        "radius": 11,
+        "padding": [
+          0,
+          64,
+          0,
+          12
+        ],
+        "fontSize": 13,
+        "opacity": 1
+      },
+      "dropdown": {
+        "width": 0,
+        "height": 0,
+        "background": "rgb(35, 69, 103)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(52, 86, 120)",
+        "borderWidth": 1,
+        "radius": 3,
+        "padding": [
+          4,
+          0,
+          4,
+          4
+        ],
+        "fontSize": 14,
+        "opacity": 1
+      },
+      "option": {
+        "width": 0,
+        "height": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(221, 221, 221)",
+        "borderWidth": 0,
+        "radius": 3,
+        "padding": [
+          8,
+          16,
+          8,
+          16
+        ],
+        "fontSize": 13,
+        "opacity": 1
+      }
+    },
+    {
+      "rem": 16,
+      "state": "custom-open",
+      "variant": "default",
+      "disabled": false,
+      "open": true,
+      "custom": true,
+      "input": {
+        "width": 180,
+        "height": 36,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(171, 205, 239)",
+        "borderWidth": 1,
+        "radius": 11,
+        "padding": [
+          0,
+          64,
+          0,
+          12
+        ],
+        "fontSize": 13,
+        "opacity": 1
+      },
+      "dropdown": {
+        "width": 180,
+        "height": 78,
+        "background": "rgb(35, 69, 103)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(52, 86, 120)",
+        "borderWidth": 1,
+        "radius": 3,
+        "padding": [
+          4,
+          0,
+          4,
+          4
+        ],
+        "fontSize": 14,
+        "opacity": 1
+      },
+      "option": {
+        "width": 170,
+        "height": 34,
+        "background": "rgb(69, 103, 137)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(221, 221, 221)",
+        "borderWidth": 0,
+        "radius": 3,
+        "padding": [
+          8,
+          16,
+          8,
+          16
+        ],
+        "fontSize": 13,
+        "opacity": 1
+      }
+    },
+    {
+      "rem": 20,
+      "state": "default",
+      "variant": "default",
+      "disabled": false,
+      "open": false,
+      "custom": false,
+      "input": {
+        "width": 225,
+        "height": 45,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgba(0, 0, 0, 0)",
+        "borderWidth": 1,
+        "radius": 3.75,
+        "padding": [
+          0,
+          80,
+          0,
+          15
+        ],
+        "fontSize": 16.25,
+        "opacity": 1
+      },
+      "dropdown": {
+        "width": 0,
+        "height": 0,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(64, 64, 64)",
+        "borderWidth": 1,
+        "radius": 3.75,
+        "padding": [
+          5,
+          0,
+          5,
+          5
+        ],
+        "fontSize": 17.5,
+        "opacity": 1
+      },
+      "option": {
+        "width": 0,
+        "height": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(221, 221, 221)",
+        "borderWidth": 0,
+        "radius": 3.75,
+        "padding": [
+          10,
+          20,
+          10,
+          20
+        ],
+        "fontSize": 16.25,
+        "opacity": 1
+      }
+    },
+    {
+      "rem": 20,
+      "state": "focus",
+      "variant": "default",
+      "disabled": false,
+      "open": false,
+      "custom": false,
+      "input": {
+        "width": 225,
+        "height": 45,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "color(srgb 0.325882 0.325882 0.325882)",
+        "borderWidth": 1,
+        "radius": 3.75,
+        "padding": [
+          0,
+          80,
+          0,
+          15
+        ],
+        "fontSize": 16.25,
+        "opacity": 1
+      },
+      "dropdown": {
+        "width": 0,
+        "height": 0,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(64, 64, 64)",
+        "borderWidth": 1,
+        "radius": 3.75,
+        "padding": [
+          5,
+          0,
+          5,
+          5
+        ],
+        "fontSize": 17.5,
+        "opacity": 1
+      },
+      "option": {
+        "width": 0,
+        "height": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(221, 221, 221)",
+        "borderWidth": 0,
+        "radius": 3.75,
+        "padding": [
+          10,
+          20,
+          10,
+          20
+        ],
+        "fontSize": 16.25,
+        "opacity": 1
+      }
+    },
+    {
+      "rem": 20,
+      "state": "disabled",
+      "variant": "default",
+      "disabled": true,
+      "open": false,
+      "custom": false,
+      "input": {
+        "width": 225,
+        "height": 45,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgba(0, 0, 0, 0)",
+        "borderWidth": 1,
+        "radius": 3.75,
+        "padding": [
+          0,
+          80,
+          0,
+          15
+        ],
+        "fontSize": 16.25,
+        "opacity": 0.6
+      },
+      "dropdown": {
+        "width": 0,
+        "height": 0,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(64, 64, 64)",
+        "borderWidth": 1,
+        "radius": 3.75,
+        "padding": [
+          5,
+          0,
+          5,
+          5
+        ],
+        "fontSize": 17.5,
+        "opacity": 1
+      },
+      "option": {
+        "width": 0,
+        "height": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(221, 221, 221)",
+        "borderWidth": 0,
+        "radius": 3.75,
+        "padding": [
+          10,
+          20,
+          10,
+          20
+        ],
+        "fontSize": 16.25,
+        "opacity": 1
+      }
+    },
+    {
+      "rem": 20,
+      "state": "open",
+      "variant": "default",
+      "disabled": false,
+      "open": true,
+      "custom": false,
+      "input": {
+        "width": 225,
+        "height": 45,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "color(srgb 0.325882 0.325882 0.325882)",
+        "borderWidth": 1,
+        "radius": 3.75,
+        "padding": [
+          0,
+          80,
+          0,
+          15
+        ],
+        "fontSize": 16.25,
+        "opacity": 1
+      },
+      "dropdown": {
+        "width": 225,
+        "height": 97,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(64, 64, 64)",
+        "borderWidth": 1,
+        "radius": 3.75,
+        "padding": [
+          5,
+          0,
+          5,
+          5
+        ],
+        "fontSize": 17.5,
+        "opacity": 1
+      },
+      "option": {
+        "width": 213,
+        "height": 42.5,
+        "background": "color(srgb 0.180392 0.180392 0.180392)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(221, 221, 221)",
+        "borderWidth": 0,
+        "radius": 3.75,
+        "padding": [
+          10,
+          20,
+          10,
+          20
+        ],
+        "fontSize": 16.25,
+        "opacity": 1
+      }
+    },
+    {
+      "rem": 20,
+      "state": "custom",
+      "variant": "default",
+      "disabled": false,
+      "open": false,
+      "custom": true,
+      "input": {
+        "width": 225,
+        "height": 45,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgba(0, 0, 0, 0)",
+        "borderWidth": 1,
+        "radius": 11,
+        "padding": [
+          0,
+          80,
+          0,
+          15
+        ],
+        "fontSize": 16.25,
+        "opacity": 1
+      },
+      "dropdown": {
+        "width": 0,
+        "height": 0,
+        "background": "rgb(35, 69, 103)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(52, 86, 120)",
+        "borderWidth": 1,
+        "radius": 3.75,
+        "padding": [
+          5,
+          0,
+          5,
+          5
+        ],
+        "fontSize": 17.5,
+        "opacity": 1
+      },
+      "option": {
+        "width": 0,
+        "height": 0,
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(221, 221, 221)",
+        "borderWidth": 0,
+        "radius": 3.75,
+        "padding": [
+          10,
+          20,
+          10,
+          20
+        ],
+        "fontSize": 16.25,
+        "opacity": 1
+      }
+    },
+    {
+      "rem": 20,
+      "state": "custom-open",
+      "variant": "default",
+      "disabled": false,
+      "open": true,
+      "custom": true,
+      "input": {
+        "width": 225,
+        "height": 45,
+        "background": "rgb(35, 35, 35)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(171, 205, 239)",
+        "borderWidth": 1,
+        "radius": 11,
+        "padding": [
+          0,
+          80,
+          0,
+          15
+        ],
+        "fontSize": 16.25,
+        "opacity": 1
+      },
+      "dropdown": {
+        "width": 225,
+        "height": 97,
+        "background": "rgb(35, 69, 103)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(52, 86, 120)",
+        "borderWidth": 1,
+        "radius": 3.75,
+        "padding": [
+          5,
+          0,
+          5,
+          5
+        ],
+        "fontSize": 17.5,
+        "opacity": 1
+      },
+      "option": {
+        "width": 213,
+        "height": 42.5,
+        "background": "rgb(69, 103, 137)",
+        "color": "rgb(221, 221, 221)",
+        "border": "rgb(221, 221, 221)",
+        "borderWidth": 0,
+        "radius": 3.75,
+        "padding": [
+          10,
+          20,
+          10,
+          20
+        ],
+        "fontSize": 16.25,
+        "opacity": 1
+      }
+    }
+  ]
+}

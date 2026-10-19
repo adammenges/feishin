@@ -1,0 +1,662 @@
+[
+  {
+    "label": "Album",
+    "kind": "string",
+    "value": "album"
+  },
+  {
+    "label": "Album Artist",
+    "kind": "string",
+    "value": "albumartist"
+  },
+  {
+    "label": "Album Artists",
+    "kind": "string",
+    "value": "albumartists"
+  },
+  {
+    "label": "Album Comment",
+    "kind": "string",
+    "value": "albumcomment"
+  },
+  {
+    "label": "Album Date Added",
+    "kind": "date",
+    "value": "albumdateadded"
+  },
+  {
+    "label": "Album Date Modified",
+    "kind": "date",
+    "value": "albumdatemodified"
+  },
+  {
+    "label": "Album Duration",
+    "kind": "number",
+    "value": "albumduration"
+  },
+  {
+    "label": "Album Song Count",
+    "kind": "number",
+    "value": "albumsongcount"
+  },
+  {
+    "label": "Album Size",
+    "kind": "number",
+    "value": "albumsize"
+  },
+  {
+    "label": "Album Date Favorited",
+    "kind": "date",
+    "value": "albumdateloved"
+  },
+  {
+    "label": "Album Date Last Played",
+    "kind": "date",
+    "value": "albumlastplayed"
+  },
+  {
+    "label": "Album Date Rated",
+    "kind": "date",
+    "value": "albumdaterated"
+  },
+  {
+    "label": "Album Is Favorite",
+    "kind": "boolean",
+    "value": "albumloved"
+  },
+  {
+    "label": "Album Play Count",
+    "kind": "number",
+    "value": "albumplaycount"
+  },
+  {
+    "label": "Album Rating",
+    "kind": "number",
+    "value": "albumrating"
+  },
+  {
+    "label": "Album Type",
+    "kind": "string",
+    "value": "albumtype"
+  },
+  {
+    "label": "Album Version",
+    "kind": "string",
+    "value": "albumversion"
+  },
+  {
+    "label": "Arranger",
+    "kind": "string",
+    "value": "arranger"
+  },
+  {
+    "label": "Artist",
+    "kind": "string",
+    "value": "artist"
+  },
+  {
+    "label": "Artist Date Favorited",
+    "kind": "date",
+    "value": "artistdateloved"
+  },
+  {
+    "label": "Artist Date Last Played",
+    "kind": "date",
+    "value": "artistlastplayed"
+  },
+  {
+    "label": "Artist Date Rated",
+    "kind": "date",
+    "value": "artistdaterated"
+  },
+  {
+    "label": "Artist Is Favorite",
+    "kind": "boolean",
+    "value": "artistloved"
+  },
+  {
+    "label": "Artist Play Count",
+    "kind": "number",
+    "value": "artistplaycount"
+  },
+  {
+    "label": "Artist Rating",
+    "kind": "number",
+    "value": "artistrating"
+  },
+  {
+    "label": "Artists",
+    "kind": "string",
+    "value": "artists"
+  },
+  {
+    "label": "ASIN",
+    "kind": "string",
+    "value": "asin"
+  },
+  {
+    "label": "Average Rating",
+    "kind": "number",
+    "value": "averagerating"
+  },
+  {
+    "label": "Barcode",
+    "kind": "string",
+    "value": "barcode"
+  },
+  {
+    "label": "Bit Depth",
+    "kind": "number",
+    "value": "bitdepth"
+  },
+  {
+    "label": "Bitrate",
+    "kind": "number",
+    "value": "bitrate"
+  },
+  {
+    "label": "BPM",
+    "kind": "number",
+    "value": "bpm"
+  },
+  {
+    "label": "Catalog Number",
+    "kind": "string",
+    "value": "catalognumber"
+  },
+  {
+    "label": "Channels",
+    "kind": "number",
+    "value": "channels"
+  },
+  {
+    "label": "Comment",
+    "kind": "string",
+    "value": "comment"
+  },
+  {
+    "label": "Composer",
+    "kind": "string",
+    "value": "composer"
+  },
+  {
+    "label": "Codec",
+    "kind": "string",
+    "value": "codec"
+  },
+  {
+    "label": "Conductor",
+    "kind": "string",
+    "value": "conductor"
+  },
+  {
+    "label": "Copyright",
+    "kind": "string",
+    "value": "copyright"
+  },
+  {
+    "label": "Date Added",
+    "kind": "date",
+    "value": "dateadded"
+  },
+  {
+    "label": "Date Favorited",
+    "kind": "date",
+    "value": "dateloved"
+  },
+  {
+    "label": "Date Last Played",
+    "kind": "date",
+    "value": "lastplayed"
+  },
+  {
+    "label": "Date Modified",
+    "kind": "date",
+    "value": "datemodified"
+  },
+  {
+    "label": "DJ Mixer",
+    "kind": "string",
+    "value": "djmixer"
+  },
+  {
+    "label": "Director",
+    "kind": "string",
+    "value": "director"
+  },
+  {
+    "label": "Disc Number",
+    "kind": "number",
+    "value": "discnumber"
+  },
+  {
+    "label": "Disc Subtitle",
+    "kind": "string",
+    "value": "discsubtitle"
+  },
+  {
+    "label": "Disc Total",
+    "kind": "number",
+    "value": "disctotal"
+  },
+  {
+    "label": "Duration",
+    "kind": "number",
+    "value": "duration"
+  },
+  {
+    "label": "Encoded By",
+    "kind": "string",
+    "value": "encodedby"
+  },
+  {
+    "label": "Encoder Settings",
+    "kind": "string",
+    "value": "encodersettings"
+  },
+  {
+    "label": "Engineer",
+    "kind": "string",
+    "value": "engineer"
+  },
+  {
+    "label": "Explicit Status",
+    "kind": "string",
+    "value": "explicitstatus"
+  },
+  {
+    "label": "File Path",
+    "kind": "string",
+    "value": "filepath"
+  },
+  {
+    "label": "File Type",
+    "kind": "string",
+    "value": "filetype"
+  },
+  {
+    "label": "Genre",
+    "kind": "string",
+    "value": "genre"
+  },
+  {
+    "label": "Grouping",
+    "kind": "string",
+    "value": "grouping"
+  },
+  {
+    "label": "Has CoverArt",
+    "kind": "boolean",
+    "value": "hascoverart"
+  },
+  {
+    "label": "Is Compilation",
+    "kind": "boolean",
+    "value": "compilation"
+  },
+  {
+    "label": "Is Favorite",
+    "kind": "boolean",
+    "value": "loved"
+  },
+  {
+    "label": "ISRC",
+    "kind": "string",
+    "value": "isrc"
+  },
+  {
+    "label": "Key",
+    "kind": "string",
+    "value": "key"
+  },
+  {
+    "label": "Language",
+    "kind": "string",
+    "value": "language"
+  },
+  {
+    "label": "License",
+    "kind": "string",
+    "value": "license"
+  },
+  {
+    "label": "Library Id",
+    "kind": "string",
+    "value": "library_id"
+  },
+  {
+    "label": "Lyricist",
+    "kind": "string",
+    "value": "lyricist"
+  },
+  {
+    "label": "Lyrics",
+    "kind": "string",
+    "value": "lyrics"
+  },
+  {
+    "label": "Media",
+    "kind": "string",
+    "value": "media"
+  },
+  {
+    "label": "Missing",
+    "kind": "boolean",
+    "value": "missing"
+  },
+  {
+    "label": "Mixer",
+    "kind": "string",
+    "value": "mixer"
+  },
+  {
+    "label": "Mood",
+    "kind": "string",
+    "value": "mood"
+  },
+  {
+    "label": "Movement",
+    "kind": "string",
+    "value": "movement"
+  },
+  {
+    "label": "Movement Name",
+    "kind": "string",
+    "value": "movementname"
+  },
+  {
+    "label": "Movement Total",
+    "kind": "number",
+    "value": "movementtotal"
+  },
+  {
+    "label": "MusicBrainz Album Artist Id",
+    "kind": "string",
+    "value": "mbz_album_artist_id"
+  },
+  {
+    "label": "MusicBrainz Album Id",
+    "kind": "string",
+    "value": "mbz_album_id"
+  },
+  {
+    "label": "MusicBrainz Artist Id",
+    "kind": "string",
+    "value": "mbz_artist_id"
+  },
+  {
+    "label": "MusicBrainz Arranger Id",
+    "kind": "string",
+    "value": "musicbrainz_arrangerid"
+  },
+  {
+    "label": "MusicBrainz Composer Id",
+    "kind": "string",
+    "value": "musicbrainz_composerid"
+  },
+  {
+    "label": "MusicBrainz Conductor Id",
+    "kind": "string",
+    "value": "musicbrainz_conductorid"
+  },
+  {
+    "label": "MusicBrainz Director Id",
+    "kind": "string",
+    "value": "musicbrainz_directorid"
+  },
+  {
+    "label": "MusicBrainz Disc Id",
+    "kind": "string",
+    "value": "musicbrainz_discid"
+  },
+  {
+    "label": "MusicBrainz DJ Mixer Id",
+    "kind": "string",
+    "value": "musicbrainz_djmixerid"
+  },
+  {
+    "label": "MusicBrainz Engineer Id",
+    "kind": "string",
+    "value": "musicbrainz_engineerid"
+  },
+  {
+    "label": "MusicBrainz Lyricist Id",
+    "kind": "string",
+    "value": "musicbrainz_lyricistid"
+  },
+  {
+    "label": "MusicBrainz Mixer Id",
+    "kind": "string",
+    "value": "musicbrainz_mixerid"
+  },
+  {
+    "label": "MusicBrainz Performer Id",
+    "kind": "string",
+    "value": "musicbrainz_performerid"
+  },
+  {
+    "label": "MusicBrainz Producer Id",
+    "kind": "string",
+    "value": "musicbrainz_producerid"
+  },
+  {
+    "label": "MusicBrainz Recording Id",
+    "kind": "string",
+    "value": "mbz_recording_id"
+  },
+  {
+    "label": "MusicBrainz Release Group Id",
+    "kind": "string",
+    "value": "mbz_release_group_id"
+  },
+  {
+    "label": "MusicBrainz Release Track Id",
+    "kind": "string",
+    "value": "mbz_release_track_id"
+  },
+  {
+    "label": "MusicBrainz Remixer Id",
+    "kind": "string",
+    "value": "musicbrainz_remixerid"
+  },
+  {
+    "label": "MusicBrainz Track Id",
+    "kind": "string",
+    "value": "musicbrainz_trackid"
+  },
+  {
+    "label": "MusicBrainz Work Id",
+    "kind": "string",
+    "value": "musicbrainz_workid"
+  },
+  {
+    "label": "Name",
+    "kind": "string",
+    "value": "title"
+  },
+  {
+    "label": "Original Date",
+    "kind": "date",
+    "value": "originaldate"
+  },
+  {
+    "label": "Original Year",
+    "kind": "number",
+    "value": "originalyear"
+  },
+  {
+    "label": "Performer",
+    "kind": "string",
+    "value": "performer"
+  },
+  {
+    "label": "Play Count",
+    "kind": "number",
+    "value": "playcount"
+  },
+  {
+    "label": "Playlist",
+    "kind": "playlist",
+    "value": "id"
+  },
+  {
+    "label": "Producer",
+    "kind": "string",
+    "value": "producer"
+  },
+  {
+    "label": "R128 Album Gain",
+    "kind": "number",
+    "value": "r128_album_gain"
+  },
+  {
+    "label": "R128 Track Gain",
+    "kind": "number",
+    "value": "r128_track_gain"
+  },
+  {
+    "label": "Rating",
+    "kind": "number",
+    "value": "rating"
+  },
+  {
+    "label": "Record Label",
+    "kind": "string",
+    "value": "recordlabel"
+  },
+  {
+    "label": "Recording Date",
+    "kind": "date",
+    "value": "recordingdate"
+  },
+  {
+    "label": "Release Country",
+    "kind": "string",
+    "value": "releasecountry"
+  },
+  {
+    "label": "Release Date",
+    "kind": "date",
+    "value": "releasedate"
+  },
+  {
+    "label": "Release Status",
+    "kind": "string",
+    "value": "releasestatus"
+  },
+  {
+    "label": "Release Type",
+    "kind": "string",
+    "value": "releasetype"
+  },
+  {
+    "label": "ReplayGain Album Gain",
+    "kind": "number",
+    "value": "replaygain_album_gain"
+  },
+  {
+    "label": "ReplayGain Album Peak",
+    "kind": "number",
+    "value": "replaygain_album_peak"
+  },
+  {
+    "label": "ReplayGain Track Gain",
+    "kind": "number",
+    "value": "replaygain_track_gain"
+  },
+  {
+    "label": "ReplayGain Track Peak",
+    "kind": "number",
+    "value": "replaygain_track_peak"
+  },
+  {
+    "label": "Remixer",
+    "kind": "string",
+    "value": "remixer"
+  },
+  {
+    "label": "Script",
+    "kind": "string",
+    "value": "script"
+  },
+  {
+    "label": "Sample Rate",
+    "kind": "number",
+    "value": "samplerate"
+  },
+  {
+    "label": "Size",
+    "kind": "number",
+    "value": "size"
+  },
+  {
+    "label": "Sort Album",
+    "kind": "string",
+    "value": "sortalbum"
+  },
+  {
+    "label": "Sort Album Artist",
+    "kind": "string",
+    "value": "sortalbumartist"
+  },
+  {
+    "label": "Sort Album Artists",
+    "kind": "string",
+    "value": "albumartistssort"
+  },
+  {
+    "label": "Sort Artist",
+    "kind": "string",
+    "value": "sortartist"
+  },
+  {
+    "label": "Sort Artists",
+    "kind": "string",
+    "value": "artistssort"
+  },
+  {
+    "label": "Sort Composer",
+    "kind": "string",
+    "value": "composersort"
+  },
+  {
+    "label": "Sort Lyricist",
+    "kind": "string",
+    "value": "lyricistsort"
+  },
+  {
+    "label": "Sort Name",
+    "kind": "string",
+    "value": "sorttitle"
+  },
+  {
+    "label": "Subtitle",
+    "kind": "string",
+    "value": "subtitle"
+  },
+  {
+    "label": "Track Number",
+    "kind": "number",
+    "value": "tracknumber"
+  },
+  {
+    "label": "Track Total",
+    "kind": "number",
+    "value": "tracktotal"
+  },
+  {
+    "label": "Website",
+    "kind": "string",
+    "value": "website"
+  },
+  {
+    "label": "Work",
+    "kind": "string",
+    "value": "work"
+  },
+  {
+    "label": "Year",
+    "kind": "number",
+    "value": "year"
+  }
+]

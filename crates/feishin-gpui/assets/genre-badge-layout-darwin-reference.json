@@ -1,0 +1,7254 @@
+{
+  "electron": "43.7.0",
+  "chromium": "150.0.7871.250",
+  "cases": [
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": false,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            80,
+            112
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            4,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            0,
+            32,
+            47.2265625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            0,
+            60,
+            80,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            88,
+            69.953125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": false,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            80,
+            56
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            4,
+            80,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            32,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": false,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            180,
+            56
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            4,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            51.0078125,
+            4,
+            47.2265625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            0,
+            32,
+            97.1015625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            101.1015625,
+            32,
+            69.953125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": false,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            180,
+            56
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            4,
+            180,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            32,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": false,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            320,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            4,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            51.0078125,
+            4,
+            47.2265625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            102.234375,
+            4,
+            97.1015625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            203.3359375,
+            4,
+            69.953125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": false,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            320,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            4,
+            226.5,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            230.5,
+            4,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": false,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            80,
+            112
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            32.9921875,
+            4,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            32.7734375,
+            32,
+            47.2265625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            0,
+            60,
+            80,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            10.046875,
+            88,
+            69.953125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": false,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            80,
+            56
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            4,
+            80,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            32.9921875,
+            32,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": false,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            180,
+            56
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            132.9921875,
+            4,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            81.765625,
+            4,
+            47.2265625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            82.8984375,
+            32,
+            97.1015625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            8.9453125,
+            32,
+            69.953125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": false,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            180,
+            56
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            4,
+            180,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            132.9921875,
+            32,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": false,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            320,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            272.9921875,
+            4,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            221.765625,
+            4,
+            47.2265625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            120.6640625,
+            4,
+            97.1015625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            46.7109375,
+            4,
+            69.953125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": false,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            320,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            93.5,
+            4,
+            226.5,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            42.4921875,
+            4,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": true,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            80,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            4,
+            18,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            22,
+            4,
+            18,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            44,
+            4,
+            18,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            66,
+            4,
+            18,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": true,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            80,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            4,
+            45.25,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            49.25,
+            4,
+            30.75,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": true,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            180,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            4,
+            32.7109375,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            36.7109375,
+            4,
+            32.8203125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            73.53125,
+            4,
+            58.1171875,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            135.6484375,
+            4,
+            44.3515625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": true,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            180,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            4,
+            136.7421875,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            140.7421875,
+            4,
+            39.2578125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": true,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            320,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            4,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            51.0078125,
+            4,
+            47.2265625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            102.234375,
+            4,
+            97.1015625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            203.3359375,
+            4,
+            69.953125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": true,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            320,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            4,
+            226.5,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            230.5,
+            4,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": true,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            80,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            62,
+            4,
+            18,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            40,
+            4,
+            18,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            18,
+            4,
+            18,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            -4,
+            4,
+            18,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": true,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            80,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            34.75,
+            4,
+            45.25,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            4,
+            30.75,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": true,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            180,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            147.2890625,
+            4,
+            32.7109375,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            110.46875,
+            4,
+            32.8203125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            48.3515625,
+            4,
+            58.1171875,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            4,
+            44.3515625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": true,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            180,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            43.2578125,
+            4,
+            136.7421875,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            4,
+            39.2578125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": true,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            320,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            272.9921875,
+            4,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            221.765625,
+            4,
+            47.2265625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            120.6640625,
+            4,
+            97.1015625,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            46.7109375,
+            4,
+            69.953125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1,
+      "detail": true,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            320,
+            28
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            93.5,
+            4,
+            226.5,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            42.4921875,
+            4,
+            47.0078125,
+            20
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            120,
+            168
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            6,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            0,
+            48,
+            70.83594131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            0,
+            90,
+            120,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            132,
+            104.92188262939453,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            120,
+            84
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            6,
+            120,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            48,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            270,
+            84
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            6,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            76.51562690734863,
+            6,
+            70.83594131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            0,
+            48,
+            145.64844131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            151.64844131469727,
+            48,
+            104.92188262939453,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            270,
+            84
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            6,
+            270,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            48,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            480,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            6,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            76.51562690734863,
+            6,
+            70.83594131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            153.3515625,
+            6,
+            145.64844131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            305.00001525878906,
+            6,
+            104.92188262939453,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            480,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            6,
+            339.75,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            345.75,
+            6,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            120,
+            168
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            49.484344482421875,
+            6,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            49.164093017578125,
+            48,
+            70.83594131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            0,
+            90,
+            120,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            15.078094482421875,
+            132,
+            104.92188262939453,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            120,
+            84
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            6,
+            120,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            49.484344482421875,
+            48,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            270,
+            84
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            199.48434448242188,
+            6,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            122.6484375,
+            6,
+            70.83594131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            124.35159301757812,
+            48,
+            145.64844131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            13.4296875,
+            48,
+            104.92188262939453,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            270,
+            84
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            6,
+            270,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            199.48434448242188,
+            48,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            480,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            409.4843444824219,
+            6,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            332.6484375,
+            6,
+            70.83594131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            180.99998474121094,
+            6,
+            145.64844131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            70.078125,
+            6,
+            104.92188262939453,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            480,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            140.25,
+            6,
+            339.75,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            63.734344482421875,
+            6,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            120,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            6,
+            27,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            33,
+            6,
+            27,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            66,
+            6,
+            27,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            99,
+            6,
+            27,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            120,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            6,
+            67.875,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            73.875,
+            6,
+            46.125,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            270,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            6,
+            49.07031440734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            55.07031440734863,
+            6,
+            49.23437690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            110.30469131469727,
+            6,
+            87.17187881469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            203.47657012939453,
+            6,
+            66.52344131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            270,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            6,
+            205.10939025878906,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            211.10939025878906,
+            6,
+            58.89062690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            480,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            6,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            76.51562690734863,
+            6,
+            70.83594131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            153.3515625,
+            6,
+            145.64844131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            305.00001525878906,
+            6,
+            104.92188262939453,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            480,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            6,
+            339.75,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            345.75,
+            6,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            120,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            93,
+            6,
+            27,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            60,
+            6,
+            27,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            27,
+            6,
+            27,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            -6,
+            6,
+            27,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            120,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            52.125,
+            6,
+            67.875,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            6,
+            46.125,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            270,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            220.92965698242188,
+            6,
+            49.07031440734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            165.69534301757812,
+            6,
+            49.23437690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            72.52340698242188,
+            6,
+            87.17187881469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            6,
+            66.52344131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            270,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            64.89065551757812,
+            6,
+            205.10939025878906,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            6,
+            58.89062690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            480,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            409.4843444824219,
+            6,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            332.6484375,
+            6,
+            70.83594131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            180.99998474121094,
+            6,
+            145.64844131469727,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            70.078125,
+            6,
+            104.92188262939453,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            480,
+            42
+          ],
+          "fontSize": 16,
+          "borderWidth": 0,
+          "lineHeight": 24.8,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            140.25,
+            6,
+            339.75,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            63.734344482421875,
+            6,
+            70.51562690734863,
+            30
+          ],
+          "fontSize": 11,
+          "borderWidth": 1,
+          "lineHeight": 18,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": false,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            80,
+            140
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            5,
+            58.2578125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            0,
+            40,
+            58.53125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            0,
+            75,
+            80,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            110,
+            80,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": false,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            80,
+            70
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            5,
+            80,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            40,
+            58.2578125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": false,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            180,
+            105
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            5,
+            58.2578125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            63.2578125,
+            5,
+            58.53125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            0,
+            40,
+            120.875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            75,
+            86.9375,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": false,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            180,
+            70
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            5,
+            180,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            40,
+            58.2578125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": false,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            320,
+            70
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            5,
+            58.2578125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            63.2578125,
+            5,
+            58.53125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            126.7890625,
+            5,
+            120.875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            40,
+            86.9375,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": false,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            320,
+            70
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            5,
+            282.625,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            40,
+            58.2578125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": false,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            80,
+            140
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            21.7421875,
+            5,
+            58.2578125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            21.46875,
+            40,
+            58.53125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            0,
+            75,
+            80,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            110,
+            80,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": false,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            80,
+            70
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            5,
+            80,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            21.7421875,
+            40,
+            58.2578125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": false,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            180,
+            105
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            121.7421875,
+            5,
+            58.2578125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            58.2109375,
+            5,
+            58.53125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            59.125,
+            40,
+            120.875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            93.0625,
+            75,
+            86.9375,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": false,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            180,
+            70
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            5,
+            180,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            121.7421875,
+            40,
+            58.2578125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": false,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            320,
+            70
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            261.7421875,
+            5,
+            58.2578125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            198.2109375,
+            5,
+            58.53125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            72.3359375,
+            5,
+            120.875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            233.0625,
+            40,
+            86.9375,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": false,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            320,
+            70
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            37.375,
+            5,
+            282.625,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            261.7421875,
+            40,
+            58.2578125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": true,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            80,
+            35
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            5,
+            22,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            27,
+            5,
+            22,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            54,
+            5,
+            22,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            81,
+            5,
+            22,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": true,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            80,
+            35
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            5,
+            41.078125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            46.078125,
+            5,
+            33.921875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": true,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            180,
+            35
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            5,
+            33.796875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            38.796875,
+            5,
+            33.890625,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            77.6875,
+            5,
+            54.1796875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            136.8671875,
+            5,
+            43.1328125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": true,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            180,
+            35
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            5,
+            128.546875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            133.546875,
+            5,
+            46.453125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": true,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            320,
+            35
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            5,
+            55.25,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            60.25,
+            5,
+            55.5078125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            120.7578125,
+            5,
+            112.6875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            238.4453125,
+            5,
+            81.5546875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": true,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            320,
+            35
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            5,
+            259.90625,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            264.90625,
+            5,
+            55.09375,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": true,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            80,
+            35
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            58,
+            5,
+            22,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            31,
+            5,
+            22,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            4,
+            5,
+            22,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            -23,
+            5,
+            22,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": true,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            80,
+            35
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            38.921875,
+            5,
+            41.078125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            5,
+            33.921875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": true,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            180,
+            35
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            146.203125,
+            5,
+            33.796875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            107.3125,
+            5,
+            33.890625,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            48.1328125,
+            5,
+            54.1796875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            5,
+            43.1328125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": true,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            180,
+            35
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            51.453125,
+            5,
+            128.546875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            5,
+            46.453125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": true,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            320,
+            35
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            264.75,
+            5,
+            55.25,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            204.2421875,
+            5,
+            55.5078125,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            86.5546875,
+            5,
+            112.6875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            5,
+            81.5546875,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1,
+      "detail": true,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            320,
+            35
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            60.09375,
+            5,
+            259.90625,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            5,
+            55.09375,
+            25
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            120,
+            210
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            7.5,
+            87.39062690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            0,
+            60,
+            87.78906440734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            0,
+            112.5,
+            120,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            165,
+            120,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            120,
+            105
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            7.5,
+            120,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            60,
+            87.39062690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            270,
+            157.5
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            7.5,
+            87.39062690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            94.89062690734863,
+            7.5,
+            87.78906440734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            0,
+            60,
+            181.3125,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            112.5,
+            130.40625,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            270,
+            105
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            7.5,
+            270,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            60,
+            87.39062690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            480,
+            105
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            7.5,
+            87.39062690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            94.89062690734863,
+            7.5,
+            87.78906440734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            190.17969131469727,
+            7.5,
+            181.3125,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            60,
+            130.40625,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            480,
+            105
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            7.5,
+            423.9375,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            60,
+            87.39062690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            120,
+            210
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            32.609344482421875,
+            7.5,
+            87.39062690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            32.210906982421875,
+            60,
+            87.78906440734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            0,
+            112.5,
+            120,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            165,
+            120,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            120,
+            105
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            7.5,
+            120,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            32.609344482421875,
+            60,
+            87.39062690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            270,
+            157.5
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            182.60934448242188,
+            7.5,
+            87.39062690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            87.32034301757812,
+            7.5,
+            87.78906440734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            88.6875,
+            60,
+            181.3125,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            139.59375,
+            112.5,
+            130.40625,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            270,
+            105
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            7.5,
+            270,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            182.60934448242188,
+            60,
+            87.39062690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            480,
+            105
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            392.6093444824219,
+            7.5,
+            87.39062690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            297.3203430175781,
+            7.5,
+            87.78906440734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            108.50779724121094,
+            7.5,
+            181.3125,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            349.59375,
+            60,
+            130.40625,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": false,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            480,
+            105
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            56.0625,
+            7.5,
+            423.9375,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            392.6093444824219,
+            60,
+            87.39062690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            120,
+            52.5
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            7.5,
+            33,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            40.5,
+            7.5,
+            33,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            81,
+            7.5,
+            33,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            121.5,
+            7.5,
+            33,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": false,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            120,
+            52.5
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            7.5,
+            61.60937690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            69.10937690734863,
+            7.5,
+            50.890628814697266,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            270,
+            52.5
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            7.5,
+            50.703128814697266,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            58.203128814697266,
+            7.5,
+            50.82812690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            116.53125,
+            7.5,
+            81.26562881469727,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            205.29689025878906,
+            7.5,
+            64.70312690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": false,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            270,
+            52.5
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            7.5,
+            192.8203125,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            200.3203125,
+            7.5,
+            69.6796875,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            480,
+            52.5
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            7.5,
+            82.88281631469727,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            90.38281631469727,
+            7.5,
+            83.25,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            181.13281631469727,
+            7.5,
+            169.03125,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            357.66407775878906,
+            7.5,
+            122.33594512939453,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": false,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            480,
+            52.5
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            7.5,
+            389.8515930175781,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            397.3515930175781,
+            7.5,
+            82.64844131469727,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            120,
+            52.5
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            87,
+            7.5,
+            33,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            46.5,
+            7.5,
+            33,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            6,
+            7.5,
+            33,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            -34.5,
+            7.5,
+            33,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": true,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            120,
+            52.5
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            58.390594482421875,
+            7.5,
+            61.60937690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            7.5,
+            50.890628814697266,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            270,
+            52.5
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            219.29690551757812,
+            7.5,
+            50.703128814697266,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            160.96875,
+            7.5,
+            50.82812690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            72.20315551757812,
+            7.5,
+            81.26562881469727,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            7.5,
+            64.70312690734863,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": true,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            270,
+            52.5
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            77.1796875,
+            7.5,
+            192.8203125,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            7.5,
+            69.6796875,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "Jazz",
+        "Blue",
+        "Black Metal",
+        "Ambient",
+        "Ignored"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "JazzBlueBlack MetalAmbient",
+          "bounds": [
+            0,
+            0,
+            480,
+            52.5
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            397.1172180175781,
+            7.5,
+            82.88281631469727,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        },
+        {
+          "type": "badge",
+          "text": "Blue",
+          "bounds": [
+            306.3672180175781,
+            7.5,
+            83.25,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(26, 18, 249)"
+        },
+        {
+          "type": "badge",
+          "text": "Black Metal",
+          "bounds": [
+            129.83592224121094,
+            7.5,
+            169.03125,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(38, 21, 47)"
+        },
+        {
+          "type": "badge",
+          "text": "Ambient",
+          "bounds": [
+            0,
+            7.5,
+            122.33594512939453,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(164, 125, 62)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "zoom": 1.5,
+      "detail": true,
+      "rtl": true,
+      "width": 320,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz"
+      ],
+      "displayScale": 2,
+      "elements": [
+        {
+          "type": "group",
+          "text": "A very long genre that must fitJazz",
+          "bounds": [
+            0,
+            0,
+            480,
+            52.5
+          ],
+          "fontSize": 20,
+          "borderWidth": 0,
+          "lineHeight": 31,
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "badge",
+          "text": "A very long genre that must fit",
+          "bounds": [
+            90.14840698242188,
+            7.5,
+            389.8515930175781,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(161, 17, 2)"
+        },
+        {
+          "type": "badge",
+          "text": "Jazz",
+          "bounds": [
+            0,
+            7.5,
+            82.64844131469727,
+            37.5
+          ],
+          "fontSize": 13.75,
+          "borderWidth": 1,
+          "lineHeight": 22.5,
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(251, 183, 79)"
+        }
+      ]
+    }
+  ]
+}

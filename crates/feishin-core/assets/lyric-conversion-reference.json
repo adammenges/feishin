@@ -1,0 +1,2839 @@
+{
+  "cases": [
+    {
+      "text": "君の声",
+      "words": [
+        {
+          "text": "君の声",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ],
+      "tokens": [
+        {
+          "text": "君",
+          "romaji": "kimi",
+          "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 2,
+          "endChar": 3
+        }
+      ],
+      "romaji": [
+        {
+          "text": "kimi no koe",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>の<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ]
+    },
+    {
+      "text": "君の声",
+      "words": [
+        {
+          "text": "君",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "の",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "声",
+          "startMs": 2000,
+          "endMs": 2500
+        }
+      ],
+      "tokens": [
+        {
+          "text": "君",
+          "romaji": "kimi",
+          "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 2,
+          "endChar": 3
+        }
+      ],
+      "romaji": [
+        {
+          "text": "kimi ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "no ",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "koe",
+          "startMs": 2000,
+          "endMs": 2500
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "の",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startMs": 2000,
+          "endMs": 2500
+        }
+      ]
+    },
+    {
+      "text": "君の声",
+      "words": [
+        {
+          "text": "君",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "の声",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "君",
+          "romaji": "kimi",
+          "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 2,
+          "endChar": 3
+        }
+      ],
+      "romaji": [
+        {
+          "text": "kimi ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "no koe",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "の<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "君の声",
+      "words": [
+        {
+          "text": "君の",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "声",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "君",
+          "romaji": "kimi",
+          "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 2,
+          "endChar": 3
+        }
+      ],
+      "romaji": [
+        {
+          "text": "kimi no ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "koe",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>の",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "君の声",
+      "words": [
+        {
+          "text": "君の声x",
+          "startMs": 1000,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "君",
+          "romaji": "kimi",
+          "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 2,
+          "endChar": 3
+        }
+      ],
+      "romaji": null,
+      "furigana": null
+    },
+    {
+      "text": "取り戻す",
+      "words": [
+        {
+          "text": "取り戻す",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ],
+      "tokens": [
+        {
+          "text": "取り戻す",
+          "romaji": "torimodosu",
+          "furigana": "<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>す",
+          "startChar": 0,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "torimodosu",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>す",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ]
+    },
+    {
+      "text": "取り戻す",
+      "words": [
+        {
+          "text": "取",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "り",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "戻",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "す",
+          "startMs": 2500,
+          "endMs": 3000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "取り戻す",
+          "romaji": "torimodosu",
+          "furigana": "<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>す",
+          "startChar": 0,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "to",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "rim",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "od",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "osu",
+          "startMs": 2500,
+          "endMs": 3000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "り",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "<ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "す",
+          "startMs": 2500,
+          "endMs": 3000
+        }
+      ]
+    },
+    {
+      "text": "取り戻す",
+      "words": [
+        {
+          "text": "取",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "り戻す",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "取り戻す",
+          "romaji": "torimodosu",
+          "furigana": "<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>す",
+          "startChar": 0,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "to",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "rimodosu",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "り<ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>す",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "取り戻す",
+      "words": [
+        {
+          "text": "取り",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "戻す",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "取り戻す",
+          "romaji": "torimodosu",
+          "furigana": "<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>す",
+          "startChar": 0,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "torim",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "odosu",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "<ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>す",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "取り戻す",
+      "words": [
+        {
+          "text": "取り戻",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "す",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "取り戻す",
+          "romaji": "torimodosu",
+          "furigana": "<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>す",
+          "startChar": 0,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "torimod",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "osu",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "す",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "取り戻す",
+      "words": [
+        {
+          "text": "取り戻すx",
+          "startMs": 1000,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "取り戻す",
+          "romaji": "torimodosu",
+          "furigana": "<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>す",
+          "startChar": 0,
+          "endChar": 4
+        }
+      ],
+      "romaji": null,
+      "furigana": null
+    },
+    {
+      "text": "音楽の世界",
+      "words": [
+        {
+          "text": "音楽の世界",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ],
+      "tokens": [
+        {
+          "text": "音楽",
+          "romaji": "ongaku",
+          "furigana": "<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 2
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "世界",
+          "romaji": "sekai",
+          "furigana": "<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 5
+        }
+      ],
+      "romaji": [
+        {
+          "text": "ongaku no sekai",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>の<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ]
+    },
+    {
+      "text": "音楽の世界",
+      "words": [
+        {
+          "text": "音",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "楽",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "の",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "世",
+          "startMs": 2500,
+          "endMs": 3000
+        },
+        {
+          "text": "界",
+          "startMs": 3000,
+          "endMs": 3500
+        }
+      ],
+      "tokens": [
+        {
+          "text": "音楽",
+          "romaji": "ongaku",
+          "furigana": "<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 2
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "世界",
+          "romaji": "sekai",
+          "furigana": "<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 5
+        }
+      ],
+      "romaji": [
+        {
+          "text": "ong",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "aku ",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "no ",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "se",
+          "startMs": 2500,
+          "endMs": 3000
+        },
+        {
+          "text": "kai",
+          "startMs": 3000,
+          "endMs": 3500
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>音<rp>(</rp><rt>おん</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "<ruby>楽<rp>(</rp><rt>がく</rt><rp>)</rp></ruby>",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "の",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "<ruby>世<rp>(</rp><rt>せ</rt><rp>)</rp></ruby>",
+          "startMs": 2500,
+          "endMs": 3000
+        },
+        {
+          "text": "<ruby>界<rp>(</rp><rt>かい</rt><rp>)</rp></ruby>",
+          "startMs": 3000,
+          "endMs": 3500
+        }
+      ]
+    },
+    {
+      "text": "音楽の世界",
+      "words": [
+        {
+          "text": "音",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "楽の世界",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "音楽",
+          "romaji": "ongaku",
+          "furigana": "<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 2
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "世界",
+          "romaji": "sekai",
+          "furigana": "<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 5
+        }
+      ],
+      "romaji": [
+        {
+          "text": "ong ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "aku no sekai",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>音<rp>(</rp><rt>おん</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "<ruby>楽<rp>(</rp><rt>がく</rt><rp>)</rp></ruby>の<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "音楽の世界",
+      "words": [
+        {
+          "text": "音楽",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "の世界",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "音楽",
+          "romaji": "ongaku",
+          "furigana": "<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 2
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "世界",
+          "romaji": "sekai",
+          "furigana": "<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 5
+        }
+      ],
+      "romaji": [
+        {
+          "text": "ongaku ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "no sekai",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "の<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "音楽の世界",
+      "words": [
+        {
+          "text": "音楽の",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "世界",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "音楽",
+          "romaji": "ongaku",
+          "furigana": "<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 2
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "世界",
+          "romaji": "sekai",
+          "furigana": "<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 5
+        }
+      ],
+      "romaji": [
+        {
+          "text": "ongaku no ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "sekai",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>の",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "音楽の世界",
+      "words": [
+        {
+          "text": "音楽の世",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "界",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "音楽",
+          "romaji": "ongaku",
+          "furigana": "<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 2
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "世界",
+          "romaji": "sekai",
+          "furigana": "<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 5
+        }
+      ],
+      "romaji": [
+        {
+          "text": "ongaku no se",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "kai",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>の<ruby>世<rp>(</rp><rt>せ</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "<ruby>界<rp>(</rp><rt>かい</rt><rp>)</rp></ruby>",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "音楽の世界",
+      "words": [
+        {
+          "text": "音楽の世界x",
+          "startMs": 1000,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "音楽",
+          "romaji": "ongaku",
+          "furigana": "<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 2
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "世界",
+          "romaji": "sekai",
+          "furigana": "<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 5
+        }
+      ],
+      "romaji": null,
+      "furigana": null
+    },
+    {
+      "text": "君 ABC🙂の",
+      "words": [
+        {
+          "text": "君 ABC🙂の",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ],
+      "tokens": [
+        {
+          "text": "君",
+          "romaji": "kimi",
+          "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": " ",
+          "romaji": " ",
+          "furigana": " ",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "ABC",
+          "romaji": "ABC",
+          "furigana": "ABC",
+          "startChar": 2,
+          "endChar": 5
+        },
+        {
+          "text": "🙂",
+          "romaji": "🙂",
+          "furigana": "🙂",
+          "startChar": 5,
+          "endChar": 7
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 7,
+          "endChar": 8
+        }
+      ],
+      "romaji": [
+        {
+          "text": "kimi   ABC 🙂 no",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby> ABC🙂の",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ]
+    },
+    {
+      "text": "君 ABC🙂の",
+      "words": [
+        {
+          "text": "君",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": " ",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "A",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "B",
+          "startMs": 2500,
+          "endMs": 3000
+        },
+        {
+          "text": "C",
+          "startMs": 3000,
+          "endMs": 3500
+        },
+        {
+          "text": "🙂",
+          "startMs": 3500,
+          "endMs": 4000
+        },
+        {
+          "text": "の",
+          "startMs": 4000,
+          "endMs": 4500
+        }
+      ],
+      "tokens": [
+        {
+          "text": "君",
+          "romaji": "kimi",
+          "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": " ",
+          "romaji": " ",
+          "furigana": " ",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "ABC",
+          "romaji": "ABC",
+          "furigana": "ABC",
+          "startChar": 2,
+          "endChar": 5
+        },
+        {
+          "text": "🙂",
+          "romaji": "🙂",
+          "furigana": "🙂",
+          "startChar": 5,
+          "endChar": 7
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 7,
+          "endChar": 8
+        }
+      ],
+      "romaji": [
+        {
+          "text": "kimi",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": " ",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "A",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "B",
+          "startMs": 2500,
+          "endMs": 3000
+        },
+        {
+          "text": "C ",
+          "startMs": 3000,
+          "endMs": 3500
+        },
+        {
+          "text": "🙂 ",
+          "startMs": 3500,
+          "endMs": 4000
+        },
+        {
+          "text": "no",
+          "startMs": 4000,
+          "endMs": 4500
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": " ",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "A",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "B",
+          "startMs": 2500,
+          "endMs": 3000
+        },
+        {
+          "text": "C",
+          "startMs": 3000,
+          "endMs": 3500
+        },
+        {
+          "text": "🙂",
+          "startMs": 3500,
+          "endMs": 4000
+        },
+        {
+          "text": "の",
+          "startMs": 4000,
+          "endMs": 4500
+        }
+      ]
+    },
+    {
+      "text": "君 ABC🙂の",
+      "words": [
+        {
+          "text": "君",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": " ABC🙂の",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "君",
+          "romaji": "kimi",
+          "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": " ",
+          "romaji": " ",
+          "furigana": " ",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "ABC",
+          "romaji": "ABC",
+          "furigana": "ABC",
+          "startChar": 2,
+          "endChar": 5
+        },
+        {
+          "text": "🙂",
+          "romaji": "🙂",
+          "furigana": "🙂",
+          "startChar": 5,
+          "endChar": 7
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 7,
+          "endChar": 8
+        }
+      ],
+      "romaji": [
+        {
+          "text": "kimi",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "  ABC 🙂 no",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": " ABC🙂の",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "君 ABC🙂の",
+      "words": [
+        {
+          "text": "君 ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "ABC🙂の",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "君",
+          "romaji": "kimi",
+          "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": " ",
+          "romaji": " ",
+          "furigana": " ",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "ABC",
+          "romaji": "ABC",
+          "furigana": "ABC",
+          "startChar": 2,
+          "endChar": 5
+        },
+        {
+          "text": "🙂",
+          "romaji": "🙂",
+          "furigana": "🙂",
+          "startChar": 5,
+          "endChar": 7
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 7,
+          "endChar": 8
+        }
+      ],
+      "romaji": [
+        {
+          "text": "kimi  ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "ABC 🙂 no",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby> ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "ABC🙂の",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "君 ABC🙂の",
+      "words": [
+        {
+          "text": "君 A",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "BC🙂の",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "君",
+          "romaji": "kimi",
+          "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": " ",
+          "romaji": " ",
+          "furigana": " ",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "ABC",
+          "romaji": "ABC",
+          "furigana": "ABC",
+          "startChar": 2,
+          "endChar": 5
+        },
+        {
+          "text": "🙂",
+          "romaji": "🙂",
+          "furigana": "🙂",
+          "startChar": 5,
+          "endChar": 7
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 7,
+          "endChar": 8
+        }
+      ],
+      "romaji": [
+        {
+          "text": "kimi   A ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "BC 🙂 no",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby> A",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "BC🙂の",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "君 ABC🙂の",
+      "words": [
+        {
+          "text": "君 AB",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "C🙂の",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "君",
+          "romaji": "kimi",
+          "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": " ",
+          "romaji": " ",
+          "furigana": " ",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "ABC",
+          "romaji": "ABC",
+          "furigana": "ABC",
+          "startChar": 2,
+          "endChar": 5
+        },
+        {
+          "text": "🙂",
+          "romaji": "🙂",
+          "furigana": "🙂",
+          "startChar": 5,
+          "endChar": 7
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 7,
+          "endChar": 8
+        }
+      ],
+      "romaji": [
+        {
+          "text": "kimi   AB ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "C 🙂 no",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby> AB",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "C🙂の",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "君 ABC🙂の",
+      "words": [
+        {
+          "text": "君 ABC",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "🙂の",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "君",
+          "romaji": "kimi",
+          "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": " ",
+          "romaji": " ",
+          "furigana": " ",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "ABC",
+          "romaji": "ABC",
+          "furigana": "ABC",
+          "startChar": 2,
+          "endChar": 5
+        },
+        {
+          "text": "🙂",
+          "romaji": "🙂",
+          "furigana": "🙂",
+          "startChar": 5,
+          "endChar": 7
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 7,
+          "endChar": 8
+        }
+      ],
+      "romaji": [
+        {
+          "text": "kimi   ABC ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "🙂 no",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby> ABC",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "🙂の",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "君 ABC🙂の",
+      "words": [
+        {
+          "text": "君 ABC🙂",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "の",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "君",
+          "romaji": "kimi",
+          "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": " ",
+          "romaji": " ",
+          "furigana": " ",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "ABC",
+          "romaji": "ABC",
+          "furigana": "ABC",
+          "startChar": 2,
+          "endChar": 5
+        },
+        {
+          "text": "🙂",
+          "romaji": "🙂",
+          "furigana": "🙂",
+          "startChar": 5,
+          "endChar": 7
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 7,
+          "endChar": 8
+        }
+      ],
+      "romaji": [
+        {
+          "text": "kimi   ABC 🙂 ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "no",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby> ABC🙂",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "の",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "君 ABC🙂の",
+      "words": [
+        {
+          "text": "君 ABC🙂のx",
+          "startMs": 1000,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "君",
+          "romaji": "kimi",
+          "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": " ",
+          "romaji": " ",
+          "furigana": " ",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "ABC",
+          "romaji": "ABC",
+          "furigana": "ABC",
+          "startChar": 2,
+          "endChar": 5
+        },
+        {
+          "text": "🙂",
+          "romaji": "🙂",
+          "furigana": "🙂",
+          "startChar": 5,
+          "endChar": 7
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 7,
+          "endChar": 8
+        }
+      ],
+      "romaji": null,
+      "furigana": null
+    },
+    {
+      "text": "小さい声",
+      "words": [
+        {
+          "text": "小さい声",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ],
+      "tokens": [
+        {
+          "text": "小",
+          "romaji": "sho",
+          "furigana": "<ruby>小<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "さい",
+          "romaji": "sai",
+          "furigana": "さい",
+          "startChar": 1,
+          "endChar": 3
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "sho sai koe",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>小<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>さい<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ]
+    },
+    {
+      "text": "小さい声",
+      "words": [
+        {
+          "text": "小",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "さ",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "い",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "声",
+          "startMs": 2500,
+          "endMs": 3000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "小",
+          "romaji": "sho",
+          "furigana": "<ruby>小<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "さい",
+          "romaji": "sai",
+          "furigana": "さい",
+          "startChar": 1,
+          "endChar": 3
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "sho ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "s",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "ai ",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "koe",
+          "startMs": 2500,
+          "endMs": 3000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>小<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "さ",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "い",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startMs": 2500,
+          "endMs": 3000
+        }
+      ]
+    },
+    {
+      "text": "小さい声",
+      "words": [
+        {
+          "text": "小",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "さい声",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "小",
+          "romaji": "sho",
+          "furigana": "<ruby>小<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "さい",
+          "romaji": "sai",
+          "furigana": "さい",
+          "startChar": 1,
+          "endChar": 3
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "sho ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "sai koe",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>小<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "さい<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "小さい声",
+      "words": [
+        {
+          "text": "小さ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "い声",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "小",
+          "romaji": "sho",
+          "furigana": "<ruby>小<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "さい",
+          "romaji": "sai",
+          "furigana": "さい",
+          "startChar": 1,
+          "endChar": 3
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "sho s ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "ai koe",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>小<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>さ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "い<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "小さい声",
+      "words": [
+        {
+          "text": "小さい",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "声",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "小",
+          "romaji": "sho",
+          "furigana": "<ruby>小<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "さい",
+          "romaji": "sai",
+          "furigana": "さい",
+          "startChar": 1,
+          "endChar": 3
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "sho sai ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "koe",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "<ruby>小<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>さい",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "小さい声",
+      "words": [
+        {
+          "text": "小さい声x",
+          "startMs": 1000,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "小",
+          "romaji": "sho",
+          "furigana": "<ruby>小<rp>(</rp><rt>しょ</rt><rp>)</rp></ruby>",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "さい",
+          "romaji": "sai",
+          "furigana": "さい",
+          "startChar": 1,
+          "endChar": 3
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": null,
+      "furigana": null
+    },
+    {
+      "text": "かな 声",
+      "words": [
+        {
+          "text": "かな 声",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ],
+      "tokens": [
+        {
+          "text": "かな",
+          "romaji": "kana",
+          "furigana": "かな",
+          "startChar": 0,
+          "endChar": 2
+        },
+        {
+          "text": " ",
+          "romaji": " ",
+          "furigana": " ",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "kana   koe",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ],
+      "furigana": [
+        {
+          "text": "かな <ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ]
+    },
+    {
+      "text": "かな 声",
+      "words": [
+        {
+          "text": "か",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "な",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": " ",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "声",
+          "startMs": 2500,
+          "endMs": 3000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "かな",
+          "romaji": "kana",
+          "furigana": "かな",
+          "startChar": 0,
+          "endChar": 2
+        },
+        {
+          "text": " ",
+          "romaji": " ",
+          "furigana": " ",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "ka",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "na",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "  ",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "koe",
+          "startMs": 2500,
+          "endMs": 3000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "か",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "な",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": " ",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startMs": 2500,
+          "endMs": 3000
+        }
+      ]
+    },
+    {
+      "text": "かな 声",
+      "words": [
+        {
+          "text": "か",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "な 声",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "かな",
+          "romaji": "kana",
+          "furigana": "かな",
+          "startChar": 0,
+          "endChar": 2
+        },
+        {
+          "text": " ",
+          "romaji": " ",
+          "furigana": " ",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "ka",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "na   koe",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "か",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "な <ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "かな 声",
+      "words": [
+        {
+          "text": "かな",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": " 声",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "かな",
+          "romaji": "kana",
+          "furigana": "かな",
+          "startChar": 0,
+          "endChar": 2
+        },
+        {
+          "text": " ",
+          "romaji": " ",
+          "furigana": " ",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "kana",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "  koe",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "かな",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": " <ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "かな 声",
+      "words": [
+        {
+          "text": "かな ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "声",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "かな",
+          "romaji": "kana",
+          "furigana": "かな",
+          "startChar": 0,
+          "endChar": 2
+        },
+        {
+          "text": " ",
+          "romaji": " ",
+          "furigana": " ",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "kana   ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "koe",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "かな ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "かな 声",
+      "words": [
+        {
+          "text": "かな 声x",
+          "startMs": 1000,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "かな",
+          "romaji": "kana",
+          "furigana": "かな",
+          "startChar": 0,
+          "endChar": 2
+        },
+        {
+          "text": " ",
+          "romaji": " ",
+          "furigana": " ",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "声",
+          "romaji": "koe",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": null,
+      "furigana": null
+    },
+    {
+      "text": "A&のB",
+      "words": [
+        {
+          "text": "A&のB",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ],
+      "tokens": [
+        {
+          "text": "A",
+          "romaji": "A",
+          "furigana": "A",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "&",
+          "romaji": "&",
+          "furigana": "&",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "B",
+          "romaji": "B",
+          "furigana": "B",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "A & no B",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ],
+      "furigana": [
+        {
+          "text": "A&のB",
+          "startMs": 1000,
+          "endMs": 1500
+        }
+      ]
+    },
+    {
+      "text": "A&のB",
+      "words": [
+        {
+          "text": "A",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "&",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "の",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "B",
+          "startMs": 2500,
+          "endMs": 3000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "A",
+          "romaji": "A",
+          "furigana": "A",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "&",
+          "romaji": "&",
+          "furigana": "&",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "B",
+          "romaji": "B",
+          "furigana": "B",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "A ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "& ",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "no ",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "B",
+          "startMs": 2500,
+          "endMs": 3000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "A",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "&",
+          "startMs": 1500,
+          "endMs": 2000
+        },
+        {
+          "text": "の",
+          "startMs": 2000,
+          "endMs": 2500
+        },
+        {
+          "text": "B",
+          "startMs": 2500,
+          "endMs": 3000
+        }
+      ]
+    },
+    {
+      "text": "A&のB",
+      "words": [
+        {
+          "text": "A",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "&のB",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "A",
+          "romaji": "A",
+          "furigana": "A",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "&",
+          "romaji": "&",
+          "furigana": "&",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "B",
+          "romaji": "B",
+          "furigana": "B",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "A ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "& no B",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "A",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "&のB",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "A&のB",
+      "words": [
+        {
+          "text": "A&",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "のB",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "A",
+          "romaji": "A",
+          "furigana": "A",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "&",
+          "romaji": "&",
+          "furigana": "&",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "B",
+          "romaji": "B",
+          "furigana": "B",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "A & ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "no B",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "A&",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "のB",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "A&のB",
+      "words": [
+        {
+          "text": "A&の",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "B",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "A",
+          "romaji": "A",
+          "furigana": "A",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "&",
+          "romaji": "&",
+          "furigana": "&",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "B",
+          "romaji": "B",
+          "furigana": "B",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": [
+        {
+          "text": "A & no ",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "B",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ],
+      "furigana": [
+        {
+          "text": "A&の",
+          "startMs": 1000,
+          "endMs": 1500
+        },
+        {
+          "text": "B",
+          "startMs": 1500,
+          "endMs": 2000
+        }
+      ]
+    },
+    {
+      "text": "A&のB",
+      "words": [
+        {
+          "text": "A&のBx",
+          "startMs": 1000,
+          "endMs": 2000
+        }
+      ],
+      "tokens": [
+        {
+          "text": "A",
+          "romaji": "A",
+          "furigana": "A",
+          "startChar": 0,
+          "endChar": 1
+        },
+        {
+          "text": "&",
+          "romaji": "&",
+          "furigana": "&",
+          "startChar": 1,
+          "endChar": 2
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "furigana": "の",
+          "startChar": 2,
+          "endChar": 3
+        },
+        {
+          "text": "B",
+          "romaji": "B",
+          "furigana": "B",
+          "startChar": 3,
+          "endChar": 4
+        }
+      ],
+      "romaji": null,
+      "furigana": null
+    }
+  ]
+}

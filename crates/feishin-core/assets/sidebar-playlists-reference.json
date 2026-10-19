@@ -1,0 +1,1553 @@
+{
+  "items": [
+    {
+      "id": "0",
+      "name": "Public Mix",
+      "owner": "someone"
+    },
+    {
+      "id": "1",
+      "name": "Private Mix",
+      "owner": "me"
+    },
+    {
+      "id": "2",
+      "name": "Private-Live",
+      "owner": ""
+    },
+    {
+      "id": "3",
+      "name": "private-studio",
+      "owner": "someone"
+    },
+    {
+      "id": "4",
+      "name": "Jazz Jazz",
+      "owner": "me"
+    },
+    {
+      "id": "5",
+      "name": "Rock Rock",
+      "owner": ""
+    },
+    {
+      "id": "6",
+      "name": "Rock Jazz",
+      "owner": "someone"
+    },
+    {
+      "id": "7",
+      "name": "😀",
+      "owner": "me"
+    },
+    {
+      "id": "8",
+      "name": "A😀B",
+      "owner": ""
+    },
+    {
+      "id": "9",
+      "name": "abc",
+      "owner": "someone"
+    },
+    {
+      "id": "10",
+      "name": "a\nb",
+      "owner": "me"
+    },
+    {
+      "id": "11",
+      "name": "Kelvin",
+      "owner": ""
+    },
+    {
+      "id": "12",
+      "name": "Kelvin",
+      "owner": "someone"
+    },
+    {
+      "id": "13",
+      "name": "İSTANBUL",
+      "owner": "me"
+    },
+    {
+      "id": "14",
+      "name": "istanbul",
+      "owner": ""
+    },
+    {
+      "id": "15",
+      "name": "abc123",
+      "owner": "someone"
+    },
+    {
+      "id": "16",
+      "name": "123",
+      "owner": "me"
+    },
+    {
+      "id": "17",
+      "name": "[broken",
+      "owner": ""
+    }
+  ],
+  "order": [
+    "12",
+    "removed",
+    "3",
+    "0",
+    "17",
+    "8",
+    "7"
+  ],
+  "cases": [
+    {
+      "pattern": "",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "private",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "4",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "private",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "private",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "private",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "(?<=private-)live",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "4",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "(?<=private-)live",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "(?<=private-)live",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "(?<=private-)live",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "^(?!public)",
+      "scope": "owned",
+      "sorted": false,
+      "ids": []
+    },
+    {
+      "pattern": "^(?!public)",
+      "scope": "owned",
+      "sorted": true,
+      "ids": []
+    },
+    {
+      "pattern": "^(?!public)",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0"
+      ]
+    },
+    {
+      "pattern": "^(?!public)",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "0"
+      ]
+    },
+    {
+      "pattern": "^(\\w+) \\1$",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "^(\\w+) \\1$",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "^(\\w+) \\1$",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "^(\\w+) \\1$",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "^(?<part>\\w+) \\k<part>$",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "^(?<part>\\w+) \\k<part>$",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "^(?<part>\\w+) \\k<part>$",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "^(?<part>\\w+) \\k<part>$",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "Jazz(?= Jazz)",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "Jazz(?= Jazz)",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "Jazz(?= Jazz)",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "Jazz(?= Jazz)",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "Jazz(?! Jazz)",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "Jazz(?! Jazz)",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "Jazz(?! Jazz)",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "Jazz(?! Jazz)",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "(?<!private-)live",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "(?<!private-)live",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "(?<!private-)live",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "(?<!private-)live",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "^.$",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "^.$",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "^.$",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "^.$",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "^..$",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "^..$",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "^..$",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "^..$",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "^...$",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "17"
+      ]
+    },
+    {
+      "pattern": "^...$",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14"
+      ]
+    },
+    {
+      "pattern": "^...$",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "^...$",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "15"
+      ]
+    },
+    {
+      "pattern": "\\uD83D\\uDE00",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "\\uD83D\\uDE00",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "\\uD83D\\uDE00",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "\\uD83D\\uDE00",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "[\\uD83D\\uDE00]",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "[\\uD83D\\uDE00]",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "[\\uD83D\\uDE00]",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "[\\uD83D\\uDE00]",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "😀",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "😀",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "😀",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "😀",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "[😀]",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "[😀]",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "[😀]",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "[😀]",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "^k",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "^k",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "^k",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "^k",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "^i",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "^i",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "16"
+      ]
+    },
+    {
+      "pattern": "^i",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "^i",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "\\d+",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "17"
+      ]
+    },
+    {
+      "pattern": "\\d+",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14"
+      ]
+    },
+    {
+      "pattern": "\\d+",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12"
+      ]
+    },
+    {
+      "pattern": "\\d+",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9"
+      ]
+    },
+    {
+      "pattern": "\\p{L}",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "\\p{L}",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "\\p{L}",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "\\p{L}",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "\\u{1F600}",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "\\u{1F600}",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "\\u{1F600}",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "\\u{1F600}",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "[",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "[",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "[",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "[",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "(?<bad",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "(?<bad",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "(?<bad",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "(?<bad",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    },
+    {
+      "pattern": "\\k<missing>",
+      "scope": "owned",
+      "sorted": false,
+      "ids": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "7",
+        "8",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "pattern": "\\k<missing>",
+      "scope": "owned",
+      "sorted": true,
+      "ids": [
+        "17",
+        "8",
+        "7",
+        "1",
+        "2",
+        "4",
+        "5",
+        "10",
+        "11",
+        "13",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "pattern": "\\k<missing>",
+      "scope": "shared",
+      "sorted": false,
+      "ids": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "pattern": "\\k<missing>",
+      "scope": "shared",
+      "sorted": true,
+      "ids": [
+        "12",
+        "3",
+        "0",
+        "6",
+        "9",
+        "15"
+      ]
+    }
+  ]
+}

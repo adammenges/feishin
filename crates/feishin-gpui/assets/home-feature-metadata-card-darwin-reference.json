@@ -1,0 +1,5270 @@
+{
+  "electron": "43.7.0",
+  "chromium": "150.0.7871.250",
+  "cases": [
+    {
+      "rem": 16,
+      "single": false,
+      "width": 80,
+      "labels": [
+        "Rock",
+        "Electronic",
+        "1999"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            0,
+            0,
+            80,
+            60
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            0,
+            -14,
+            80,
+            88
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            0,
+            -14,
+            80,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "RockElectronic1999",
+          "bounds": [
+            0,
+            12,
+            80,
+            62
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "Rock",
+          "bounds": [
+            16.3203125,
+            12,
+            47.359375,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Rock",
+          "bounds": [
+            25.3203125,
+            13,
+            29.359375,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Electronic",
+          "bounds": [
+            0,
+            34,
+            80,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Electronic",
+          "bounds": [
+            9,
+            35,
+            62,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "1999",
+          "bounds": [
+            17.5390625,
+            56,
+            44.9140625,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "1999",
+          "bounds": [
+            26.5390625,
+            57,
+            26.9140625,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "single": false,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz",
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            0,
+            80,
+            60
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            -14,
+            80,
+            88
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            0,
+            -14,
+            80,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "A very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            12,
+            80,
+            62
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            12,
+            80,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            9,
+            13,
+            62,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Jazz",
+          "bounds": [
+            17.765625,
+            34,
+            44.4609375,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Jazz",
+          "bounds": [
+            26.765625,
+            35,
+            26.4609375,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "2026",
+          "bounds": [
+            17.5390625,
+            56,
+            44.9140625,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            26.5390625,
+            57,
+            26.9140625,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "single": false,
+      "width": 80,
+      "labels": [
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            0,
+            0,
+            80,
+            60
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            17.5390625,
+            8,
+            44.9140625,
+            44
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            17.5390625,
+            8,
+            44.9140625,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            17.5390625,
+            34,
+            44.9140625,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "2026",
+          "bounds": [
+            17.5390625,
+            34,
+            44.9140625,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            26.5390625,
+            35,
+            26.9140625,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "single": false,
+      "width": 120,
+      "labels": [
+        "Rock",
+        "Electronic",
+        "1999"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            0,
+            0,
+            120,
+            60
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            0,
+            -14,
+            120,
+            88
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            0,
+            -14,
+            120,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "RockElectronic1999",
+          "bounds": [
+            0,
+            12,
+            120,
+            62
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "Rock",
+          "bounds": [
+            36.3203125,
+            12,
+            47.359375,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Rock",
+          "bounds": [
+            45.3203125,
+            13,
+            29.359375,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Electronic",
+          "bounds": [
+            18.0703125,
+            34,
+            83.859375,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Electronic",
+          "bounds": [
+            27.0703125,
+            35,
+            65.859375,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "1999",
+          "bounds": [
+            37.5390625,
+            56,
+            44.9140625,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "1999",
+          "bounds": [
+            46.5390625,
+            57,
+            26.9140625,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "single": false,
+      "width": 120,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz",
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            0,
+            120,
+            60
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            -3,
+            120,
+            66
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            0,
+            -3,
+            120,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "A very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            23,
+            120,
+            40
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            23,
+            120,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            9,
+            24,
+            102,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Jazz",
+          "bounds": [
+            13.3125,
+            45,
+            44.4609375,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Jazz",
+          "bounds": [
+            22.3125,
+            46,
+            26.4609375,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "2026",
+          "bounds": [
+            61.7734375,
+            45,
+            44.9140625,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            70.7734375,
+            46,
+            26.9140625,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "single": false,
+      "width": 120,
+      "labels": [
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            0,
+            0,
+            120,
+            60
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            37.5390625,
+            8,
+            44.9140625,
+            44
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            37.5390625,
+            8,
+            44.9140625,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            37.5390625,
+            34,
+            44.9140625,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "2026",
+          "bounds": [
+            37.5390625,
+            34,
+            44.9140625,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            46.5390625,
+            35,
+            26.9140625,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "single": false,
+      "width": 180,
+      "labels": [
+        "Rock",
+        "Electronic",
+        "1999"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            0,
+            0,
+            180,
+            60
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            0,
+            -3,
+            180,
+            66
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            0,
+            -3,
+            180,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "RockElectronic1999",
+          "bounds": [
+            0,
+            23,
+            180,
+            40
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "Rock",
+          "bounds": [
+            22.390625,
+            23,
+            47.359375,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Rock",
+          "bounds": [
+            31.390625,
+            24,
+            29.359375,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Electronic",
+          "bounds": [
+            73.75,
+            23,
+            83.859375,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Electronic",
+          "bounds": [
+            82.75,
+            24,
+            65.859375,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "1999",
+          "bounds": [
+            67.5390625,
+            45,
+            44.9140625,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "1999",
+          "bounds": [
+            76.5390625,
+            46,
+            26.9140625,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "single": false,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz",
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            0,
+            180,
+            60
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            -3,
+            180,
+            66
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            0,
+            -3,
+            180,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "A very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            23,
+            180,
+            40
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            23,
+            180,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            9,
+            24,
+            162,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Jazz",
+          "bounds": [
+            43.3125,
+            45,
+            44.4609375,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Jazz",
+          "bounds": [
+            52.3125,
+            46,
+            26.4609375,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "2026",
+          "bounds": [
+            91.7734375,
+            45,
+            44.9140625,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            100.7734375,
+            46,
+            26.9140625,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "single": false,
+      "width": 180,
+      "labels": [
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            0,
+            0,
+            180,
+            60
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            67.5390625,
+            8,
+            44.9140625,
+            44
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            67.5390625,
+            8,
+            44.9140625,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            67.5390625,
+            34,
+            44.9140625,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "2026",
+          "bounds": [
+            67.5390625,
+            34,
+            44.9140625,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            76.5390625,
+            35,
+            26.9140625,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "single": false,
+      "width": 300,
+      "labels": [
+        "Rock",
+        "Electronic",
+        "1999"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            0,
+            0,
+            300,
+            60
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            57.9296875,
+            8,
+            184.1328125,
+            44
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            57.9296875,
+            8,
+            184.1328125,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "RockElectronic1999",
+          "bounds": [
+            57.9296875,
+            34,
+            184.1328125,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "Rock",
+          "bounds": [
+            57.9296875,
+            34,
+            47.359375,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Rock",
+          "bounds": [
+            66.9296875,
+            35,
+            29.359375,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Electronic",
+          "bounds": [
+            109.2890625,
+            34,
+            83.859375,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Electronic",
+          "bounds": [
+            118.2890625,
+            35,
+            65.859375,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "1999",
+          "bounds": [
+            197.1484375,
+            34,
+            44.9140625,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "1999",
+          "bounds": [
+            206.1484375,
+            35,
+            26.9140625,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "single": false,
+      "width": 300,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz",
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            0,
+            300,
+            60
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            -3,
+            300,
+            66
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            0,
+            -3,
+            300,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "A very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            23,
+            300,
+            40
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            21.640625,
+            23,
+            208.25,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            30.640625,
+            24,
+            190.25,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Jazz",
+          "bounds": [
+            233.890625,
+            23,
+            44.4609375,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Jazz",
+          "bounds": [
+            242.890625,
+            24,
+            26.4609375,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "2026",
+          "bounds": [
+            127.5390625,
+            45,
+            44.9140625,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            136.5390625,
+            46,
+            26.9140625,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 16,
+      "single": false,
+      "width": 300,
+      "labels": [
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            0,
+            0,
+            300,
+            60
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            127.5390625,
+            8,
+            44.9140625,
+            44
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            127.5390625,
+            8,
+            44.9140625,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            127.5390625,
+            34,
+            44.9140625,
+            18
+          ],
+          "fontSize": 14,
+          "fontWeight": 400,
+          "lineHeight": 18,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "2026",
+          "bounds": [
+            127.5390625,
+            34,
+            44.9140625,
+            18
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "4px",
+            "8px",
+            "4px",
+            "8px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            136.5390625,
+            35,
+            26.9140625,
+            16
+          ],
+          "fontSize": 10,
+          "fontWeight": 500,
+          "lineHeight": 16,
+          "letterSpacing": "0.25px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "single": false,
+      "width": 80,
+      "labels": [
+        "Rock",
+        "Electronic",
+        "1999"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            0,
+            0,
+            80,
+            60
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            0,
+            -25,
+            80,
+            110
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            0,
+            -25,
+            80,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 500,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "RockElectronic1999",
+          "bounds": [
+            0,
+            7.5,
+            80,
+            77.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "Rock",
+          "bounds": [
+            10.6484375,
+            7.5,
+            58.703125,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Rock",
+          "bounds": [
+            21.6484375,
+            8.75,
+            36.703125,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Electronic",
+          "bounds": [
+            0,
+            35,
+            80,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Electronic",
+          "bounds": [
+            11,
+            36.25,
+            58,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "1999",
+          "bounds": [
+            12.1796875,
+            62.5,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "1999",
+          "bounds": [
+            23.1796875,
+            63.75,
+            33.640625,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "single": false,
+      "width": 80,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz",
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            0,
+            80,
+            60
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            -25,
+            80,
+            110
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            0,
+            -25,
+            80,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 500,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "A very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            7.5,
+            80,
+            77.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            7.5,
+            80,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            11,
+            8.75,
+            58,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Jazz",
+          "bounds": [
+            12.4609375,
+            35,
+            55.078125,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Jazz",
+          "bounds": [
+            23.4609375,
+            36.25,
+            33.078125,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "2026",
+          "bounds": [
+            12.1796875,
+            62.5,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            23.1796875,
+            63.75,
+            33.640625,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "single": false,
+      "width": 80,
+      "labels": [
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            0,
+            0,
+            80,
+            60
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            12.1796875,
+            2.5,
+            55.640625,
+            55
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            12.1796875,
+            2.5,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 500,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            12.1796875,
+            35,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "2026",
+          "bounds": [
+            12.1796875,
+            35,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            23.1796875,
+            36.25,
+            33.640625,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "single": false,
+      "width": 120,
+      "labels": [
+        "Rock",
+        "Electronic",
+        "1999"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            0,
+            0,
+            120,
+            60
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            0,
+            -25,
+            120,
+            110
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            0,
+            -25,
+            120,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 500,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "RockElectronic1999",
+          "bounds": [
+            0,
+            7.5,
+            120,
+            77.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "Rock",
+          "bounds": [
+            30.6484375,
+            7.5,
+            58.703125,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Rock",
+          "bounds": [
+            41.6484375,
+            8.75,
+            36.703125,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Electronic",
+          "bounds": [
+            7.8359375,
+            35,
+            104.3203125,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Electronic",
+          "bounds": [
+            18.8359375,
+            36.25,
+            82.3203125,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "1999",
+          "bounds": [
+            32.1796875,
+            62.5,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "1999",
+          "bounds": [
+            43.1796875,
+            63.75,
+            33.640625,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "single": false,
+      "width": 120,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz",
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            0,
+            120,
+            60
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            -11.25,
+            120,
+            82.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            0,
+            -11.25,
+            120,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 500,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "A very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            21.25,
+            120,
+            50
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            21.25,
+            120,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            11,
+            22.5,
+            98,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Jazz",
+          "bounds": [
+            2.140625,
+            48.75,
+            55.078125,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Jazz",
+          "bounds": [
+            13.140625,
+            50,
+            33.078125,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "2026",
+          "bounds": [
+            62.21875,
+            48.75,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            73.21875,
+            50,
+            33.640625,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "single": false,
+      "width": 120,
+      "labels": [
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            0,
+            0,
+            120,
+            60
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            32.1796875,
+            2.5,
+            55.640625,
+            55
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            32.1796875,
+            2.5,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 500,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            32.1796875,
+            35,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "2026",
+          "bounds": [
+            32.1796875,
+            35,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            43.1796875,
+            36.25,
+            33.640625,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "single": false,
+      "width": 180,
+      "labels": [
+        "Rock",
+        "Electronic",
+        "1999"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            0,
+            0,
+            180,
+            60
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            0,
+            -11.25,
+            180,
+            82.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            0,
+            -11.25,
+            180,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 500,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "RockElectronic1999",
+          "bounds": [
+            0,
+            21.25,
+            180,
+            50
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "Rock",
+          "bounds": [
+            5.984375,
+            21.25,
+            58.703125,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Rock",
+          "bounds": [
+            16.984375,
+            22.5,
+            36.703125,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Electronic",
+          "bounds": [
+            69.6875,
+            21.25,
+            104.3203125,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Electronic",
+          "bounds": [
+            80.6875,
+            22.5,
+            82.3203125,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "1999",
+          "bounds": [
+            62.1796875,
+            48.75,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "1999",
+          "bounds": [
+            73.1796875,
+            50,
+            33.640625,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "single": false,
+      "width": 180,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz",
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            0,
+            180,
+            60
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            -11.25,
+            180,
+            82.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            0,
+            -11.25,
+            180,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 500,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "A very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            21.25,
+            180,
+            50
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            0,
+            21.25,
+            180,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            11,
+            22.5,
+            158,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Jazz",
+          "bounds": [
+            32.140625,
+            48.75,
+            55.078125,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Jazz",
+          "bounds": [
+            43.140625,
+            50,
+            33.078125,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "2026",
+          "bounds": [
+            92.21875,
+            48.75,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            103.21875,
+            50,
+            33.640625,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "single": false,
+      "width": 180,
+      "labels": [
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            0,
+            0,
+            180,
+            60
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            62.1796875,
+            2.5,
+            55.640625,
+            55
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            62.1796875,
+            2.5,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 500,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            62.1796875,
+            35,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "2026",
+          "bounds": [
+            62.1796875,
+            35,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            73.1796875,
+            36.25,
+            33.640625,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "single": false,
+      "width": 300,
+      "labels": [
+        "Rock",
+        "Electronic",
+        "1999"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            0,
+            0,
+            300,
+            60
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistRockElectronic1999",
+          "bounds": [
+            35.6640625,
+            2.5,
+            228.6640625,
+            55
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            35.6640625,
+            2.5,
+            228.6640625,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 500,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "RockElectronic1999",
+          "bounds": [
+            35.6640625,
+            35,
+            228.6640625,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "Rock",
+          "bounds": [
+            35.6640625,
+            35,
+            58.703125,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Rock",
+          "bounds": [
+            46.6640625,
+            36.25,
+            36.703125,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Electronic",
+          "bounds": [
+            99.3671875,
+            35,
+            104.3203125,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Electronic",
+          "bounds": [
+            110.3671875,
+            36.25,
+            82.3203125,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "1999",
+          "bounds": [
+            208.6875,
+            35,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "1999",
+          "bounds": [
+            219.6875,
+            36.25,
+            33.640625,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "single": false,
+      "width": 300,
+      "labels": [
+        "A very long genre that must fit",
+        "Jazz",
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            0,
+            300,
+            60
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "ArtistA very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            -11.25,
+            300,
+            82.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            0,
+            -11.25,
+            300,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 500,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "A very long genre that must fitJazz2026",
+          "bounds": [
+            0,
+            21.25,
+            300,
+            50
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            20.09375,
+            21.25,
+            259.8125,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "A very long genre that must fit",
+          "bounds": [
+            31.09375,
+            22.5,
+            237.8125,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 1,
+          "text": "Jazz",
+          "bounds": [
+            92.140625,
+            48.75,
+            55.078125,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "Jazz",
+          "bounds": [
+            103.140625,
+            50,
+            33.078125,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 2,
+          "text": "2026",
+          "bounds": [
+            152.21875,
+            48.75,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            163.21875,
+            50,
+            33.640625,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "rem": 20,
+      "single": false,
+      "width": 300,
+      "labels": [
+        "2026"
+      ],
+      "elements": [
+        {
+          "type": "container",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            0,
+            0,
+            300,
+            60
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "stack",
+          "index": null,
+          "text": "Artist2026",
+          "bounds": [
+            122.1796875,
+            2.5,
+            55.640625,
+            55
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "artist",
+          "index": null,
+          "text": "Artist",
+          "bounds": [
+            122.1796875,
+            2.5,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 500,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "group",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            122.1796875,
+            35,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 17.5,
+          "fontWeight": 400,
+          "lineHeight": 22.5,
+          "letterSpacing": "normal",
+          "textTransform": "none",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(201, 201, 201)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "root",
+          "index": 0,
+          "text": "2026",
+          "bounds": [
+            122.1796875,
+            35,
+            55.640625,
+            22.5
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "5px",
+            "10px",
+            "5px",
+            "10px"
+          ],
+          "color": "rgb(225, 225, 225)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "type": "label",
+          "index": null,
+          "text": "2026",
+          "bounds": [
+            133.1796875,
+            36.25,
+            33.640625,
+            20
+          ],
+          "fontSize": 12.5,
+          "fontWeight": 500,
+          "lineHeight": 20,
+          "letterSpacing": "0.3125px",
+          "textTransform": "uppercase",
+          "padding": [
+            "0px",
+            "0px",
+            "0px",
+            "0px"
+          ],
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      ]
+    }
+  ]
+}

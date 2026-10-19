@@ -1,0 +1,7471 @@
+{
+  "dates": [
+    {
+      "operator": "before",
+      "value": "2024-02-29",
+      "display": "beforeDate"
+    },
+    {
+      "operator": "before",
+      "value": " 2024-02-29 ",
+      "display": "beforeDate"
+    },
+    {
+      "operator": "before",
+      "value": "2024-99-99",
+      "display": "beforeDate"
+    },
+    {
+      "operator": "before",
+      "value": "2024-2-9",
+      "display": "before"
+    },
+    {
+      "operator": "before",
+      "value": "2024-02-29T12:00:00Z",
+      "display": "before"
+    },
+    {
+      "operator": "before",
+      "value": "2024",
+      "display": "before"
+    },
+    {
+      "operator": "before",
+      "value": "30",
+      "display": "before"
+    },
+    {
+      "operator": "before",
+      "value": 30,
+      "display": "before"
+    },
+    {
+      "operator": "before",
+      "value": null,
+      "display": "before"
+    },
+    {
+      "operator": "before",
+      "value": "",
+      "display": "before"
+    },
+    {
+      "operator": "before",
+      "value": [
+        "2024-01-01",
+        "2024-12-31"
+      ],
+      "display": "before"
+    },
+    {
+      "operator": "before",
+      "value": [
+        null,
+        "2024-12-31"
+      ],
+      "display": "before"
+    },
+    {
+      "operator": "before",
+      "value": [
+        null,
+        null
+      ],
+      "display": "before"
+    },
+    {
+      "operator": "before",
+      "value": [
+        "2024-01-01",
+        null
+      ],
+      "display": "before"
+    },
+    {
+      "operator": "before",
+      "value": [
+        "30",
+        "90"
+      ],
+      "display": "before"
+    },
+    {
+      "operator": "before",
+      "value": [
+        30,
+        90
+      ],
+      "display": "before"
+    },
+    {
+      "operator": "before",
+      "value": [
+        "2024-01-01"
+      ],
+      "display": "before"
+    },
+    {
+      "operator": "before",
+      "value": [
+        "bad",
+        null
+      ],
+      "display": "before"
+    },
+    {
+      "operator": "after",
+      "value": "2024-02-29",
+      "display": "afterDate"
+    },
+    {
+      "operator": "after",
+      "value": " 2024-02-29 ",
+      "display": "afterDate"
+    },
+    {
+      "operator": "after",
+      "value": "2024-99-99",
+      "display": "afterDate"
+    },
+    {
+      "operator": "after",
+      "value": "2024-2-9",
+      "display": "after"
+    },
+    {
+      "operator": "after",
+      "value": "2024-02-29T12:00:00Z",
+      "display": "after"
+    },
+    {
+      "operator": "after",
+      "value": "2024",
+      "display": "after"
+    },
+    {
+      "operator": "after",
+      "value": "30",
+      "display": "after"
+    },
+    {
+      "operator": "after",
+      "value": 30,
+      "display": "after"
+    },
+    {
+      "operator": "after",
+      "value": null,
+      "display": "after"
+    },
+    {
+      "operator": "after",
+      "value": "",
+      "display": "after"
+    },
+    {
+      "operator": "after",
+      "value": [
+        "2024-01-01",
+        "2024-12-31"
+      ],
+      "display": "after"
+    },
+    {
+      "operator": "after",
+      "value": [
+        null,
+        "2024-12-31"
+      ],
+      "display": "after"
+    },
+    {
+      "operator": "after",
+      "value": [
+        null,
+        null
+      ],
+      "display": "after"
+    },
+    {
+      "operator": "after",
+      "value": [
+        "2024-01-01",
+        null
+      ],
+      "display": "after"
+    },
+    {
+      "operator": "after",
+      "value": [
+        "30",
+        "90"
+      ],
+      "display": "after"
+    },
+    {
+      "operator": "after",
+      "value": [
+        30,
+        90
+      ],
+      "display": "after"
+    },
+    {
+      "operator": "after",
+      "value": [
+        "2024-01-01"
+      ],
+      "display": "after"
+    },
+    {
+      "operator": "after",
+      "value": [
+        "bad",
+        null
+      ],
+      "display": "after"
+    },
+    {
+      "operator": "inTheRange",
+      "value": "2024-02-29",
+      "display": "inTheRange"
+    },
+    {
+      "operator": "inTheRange",
+      "value": " 2024-02-29 ",
+      "display": "inTheRange"
+    },
+    {
+      "operator": "inTheRange",
+      "value": "2024-99-99",
+      "display": "inTheRange"
+    },
+    {
+      "operator": "inTheRange",
+      "value": "2024-2-9",
+      "display": "inTheRange"
+    },
+    {
+      "operator": "inTheRange",
+      "value": "2024-02-29T12:00:00Z",
+      "display": "inTheRange"
+    },
+    {
+      "operator": "inTheRange",
+      "value": "2024",
+      "display": "inTheRange"
+    },
+    {
+      "operator": "inTheRange",
+      "value": "30",
+      "display": "inTheRange"
+    },
+    {
+      "operator": "inTheRange",
+      "value": 30,
+      "display": "inTheRange"
+    },
+    {
+      "operator": "inTheRange",
+      "value": null,
+      "display": "inTheRange"
+    },
+    {
+      "operator": "inTheRange",
+      "value": "",
+      "display": "inTheRange"
+    },
+    {
+      "operator": "inTheRange",
+      "value": [
+        "2024-01-01",
+        "2024-12-31"
+      ],
+      "display": "inTheRangeDate"
+    },
+    {
+      "operator": "inTheRange",
+      "value": [
+        null,
+        "2024-12-31"
+      ],
+      "display": "inTheRangeDate"
+    },
+    {
+      "operator": "inTheRange",
+      "value": [
+        null,
+        null
+      ],
+      "display": "inTheRangeDate"
+    },
+    {
+      "operator": "inTheRange",
+      "value": [
+        "2024-01-01",
+        null
+      ],
+      "display": "inTheRangeDate"
+    },
+    {
+      "operator": "inTheRange",
+      "value": [
+        "30",
+        "90"
+      ],
+      "display": "inTheRange"
+    },
+    {
+      "operator": "inTheRange",
+      "value": [
+        30,
+        90
+      ],
+      "display": "inTheRange"
+    },
+    {
+      "operator": "inTheRange",
+      "value": [
+        "2024-01-01"
+      ],
+      "display": "inTheRange"
+    },
+    {
+      "operator": "inTheRange",
+      "value": [
+        "bad",
+        null
+      ],
+      "display": "inTheRange"
+    },
+    {
+      "operator": "is",
+      "value": "2024-02-29",
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": " 2024-02-29 ",
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": "2024-99-99",
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": "2024-2-9",
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": "2024-02-29T12:00:00Z",
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": "2024",
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": "30",
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": 30,
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": null,
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": "",
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": [
+        "2024-01-01",
+        "2024-12-31"
+      ],
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": [
+        null,
+        "2024-12-31"
+      ],
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": [
+        null,
+        null
+      ],
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": [
+        "2024-01-01",
+        null
+      ],
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": [
+        "30",
+        "90"
+      ],
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": [
+        30,
+        90
+      ],
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": [
+        "2024-01-01"
+      ],
+      "display": "is"
+    },
+    {
+      "operator": "is",
+      "value": [
+        "bad",
+        null
+      ],
+      "display": "is"
+    },
+    {
+      "operator": "future",
+      "value": "2024-02-29",
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": " 2024-02-29 ",
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": "2024-99-99",
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": "2024-2-9",
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": "2024-02-29T12:00:00Z",
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": "2024",
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": "30",
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": 30,
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": null,
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": "",
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": [
+        "2024-01-01",
+        "2024-12-31"
+      ],
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": [
+        null,
+        "2024-12-31"
+      ],
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": [
+        null,
+        null
+      ],
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": [
+        "2024-01-01",
+        null
+      ],
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": [
+        "30",
+        "90"
+      ],
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": [
+        30,
+        90
+      ],
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": [
+        "2024-01-01"
+      ],
+      "display": "future"
+    },
+    {
+      "operator": "future",
+      "value": [
+        "bad",
+        null
+      ],
+      "display": "future"
+    }
+  ],
+  "api": {
+    "beforeDate": "before",
+    "afterDate": "after",
+    "inTheRangeDate": "inTheRange",
+    "before": "before",
+    "after": "after",
+    "inTheRange": "inTheRange",
+    "future": "future"
+  },
+  "locales": {
+    "ar": {
+      "string": [
+        {
+          "label": "في",
+          "value": "is"
+        },
+        {
+          "label": "ليس في",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "يحتوي على",
+          "value": "contains"
+        },
+        {
+          "label": "لا يحتوي على",
+          "value": "notContains"
+        },
+        {
+          "label": "يبدأ بـ",
+          "value": "startsWith"
+        },
+        {
+          "label": "ينتهي بـ",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "في",
+          "value": "is"
+        },
+        {
+          "label": "ليس في",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "يحتوي على",
+          "value": "contains"
+        },
+        {
+          "label": "لا يحتوي على",
+          "value": "notContains"
+        },
+        {
+          "label": "أكبر من",
+          "value": "gt"
+        },
+        {
+          "label": "أقل من",
+          "value": "lt"
+        },
+        {
+          "label": "في مدى",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "في",
+          "value": "is"
+        },
+        {
+          "label": "ليس في",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "قبل",
+          "value": "before"
+        },
+        {
+          "label": "بعد",
+          "value": "after"
+        },
+        {
+          "label": "في أخِر",
+          "value": "inTheLast"
+        },
+        {
+          "label": "ليس في أخِر",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "في مدى",
+          "value": "inTheRange"
+        },
+        {
+          "label": "قبل (تاريخ)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "بعد (تاريخ)",
+          "value": "afterDate"
+        },
+        {
+          "label": "في مدى (تاريخ)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "في",
+          "value": "is"
+        },
+        {
+          "label": "ليس في",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "في",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "ليس في",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "bg": {
+      "string": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Starts with",
+          "value": "startsWith"
+        },
+        {
+          "label": "Ends with",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Is greater than",
+          "value": "gt"
+        },
+        {
+          "label": "Is less than",
+          "value": "lt"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Is before",
+          "value": "before"
+        },
+        {
+          "label": "Is after",
+          "value": "after"
+        },
+        {
+          "label": "Is in the last",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Is not in the last",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Is before (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Is after (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Is in the range (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Is in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Is not in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "ca": {
+      "string": [
+        {
+          "label": "És",
+          "value": "is"
+        },
+        {
+          "label": "No és",
+          "value": "isNot"
+        },
+        {
+          "label": "Falta",
+          "value": "isMissing"
+        },
+        {
+          "label": "Està present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Conté",
+          "value": "contains"
+        },
+        {
+          "label": "No conté",
+          "value": "notContains"
+        },
+        {
+          "label": "Comença amb",
+          "value": "startsWith"
+        },
+        {
+          "label": "Acaba en",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "És",
+          "value": "is"
+        },
+        {
+          "label": "No és",
+          "value": "isNot"
+        },
+        {
+          "label": "Falta",
+          "value": "isMissing"
+        },
+        {
+          "label": "Està present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Conté",
+          "value": "contains"
+        },
+        {
+          "label": "No conté",
+          "value": "notContains"
+        },
+        {
+          "label": "És més gran que",
+          "value": "gt"
+        },
+        {
+          "label": "És més petit que",
+          "value": "lt"
+        },
+        {
+          "label": "És entre",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "És",
+          "value": "is"
+        },
+        {
+          "label": "No és",
+          "value": "isNot"
+        },
+        {
+          "label": "Falta",
+          "value": "isMissing"
+        },
+        {
+          "label": "Està present",
+          "value": "isPresent"
+        },
+        {
+          "label": "És anterior",
+          "value": "before"
+        },
+        {
+          "label": "És posterior",
+          "value": "after"
+        },
+        {
+          "label": "És a l'últim",
+          "value": "inTheLast"
+        },
+        {
+          "label": "No és a l'últim",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "És entre",
+          "value": "inTheRange"
+        },
+        {
+          "label": "És anterior a (data)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "És posterior a (data)",
+          "value": "afterDate"
+        },
+        {
+          "label": "És entre (data)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "És",
+          "value": "is"
+        },
+        {
+          "label": "No és",
+          "value": "isNot"
+        },
+        {
+          "label": "Falta",
+          "value": "isMissing"
+        },
+        {
+          "label": "Està present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "És a",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "No és a",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "cs": {
+      "string": [
+        {
+          "label": "Je",
+          "value": "is"
+        },
+        {
+          "label": "Není",
+          "value": "isNot"
+        },
+        {
+          "label": "Chybí",
+          "value": "isMissing"
+        },
+        {
+          "label": "Je přítomen",
+          "value": "isPresent"
+        },
+        {
+          "label": "Obsahuje",
+          "value": "contains"
+        },
+        {
+          "label": "Neobsahuje",
+          "value": "notContains"
+        },
+        {
+          "label": "Začíná na",
+          "value": "startsWith"
+        },
+        {
+          "label": "Končí na",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Je",
+          "value": "is"
+        },
+        {
+          "label": "Není",
+          "value": "isNot"
+        },
+        {
+          "label": "Chybí",
+          "value": "isMissing"
+        },
+        {
+          "label": "Je přítomen",
+          "value": "isPresent"
+        },
+        {
+          "label": "Obsahuje",
+          "value": "contains"
+        },
+        {
+          "label": "Neobsahuje",
+          "value": "notContains"
+        },
+        {
+          "label": "Je větší než",
+          "value": "gt"
+        },
+        {
+          "label": "Je menší než",
+          "value": "lt"
+        },
+        {
+          "label": "Je v rozsahu",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Je",
+          "value": "is"
+        },
+        {
+          "label": "Není",
+          "value": "isNot"
+        },
+        {
+          "label": "Chybí",
+          "value": "isMissing"
+        },
+        {
+          "label": "Je přítomen",
+          "value": "isPresent"
+        },
+        {
+          "label": "Je před",
+          "value": "before"
+        },
+        {
+          "label": "Je po",
+          "value": "after"
+        },
+        {
+          "label": "Je v posledním",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Není v posledním",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Je v rozsahu",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Je před (datum)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Je po (datum)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Je v rozsahu (datum)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Je",
+          "value": "is"
+        },
+        {
+          "label": "Není",
+          "value": "isNot"
+        },
+        {
+          "label": "Chybí",
+          "value": "isMissing"
+        },
+        {
+          "label": "Je přítomen",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Je v",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Není v",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "da": {
+      "string": [
+        {
+          "label": "Er",
+          "value": "is"
+        },
+        {
+          "label": "Er ikke",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Indeholder",
+          "value": "contains"
+        },
+        {
+          "label": "Indeholder ikke",
+          "value": "notContains"
+        },
+        {
+          "label": "Starter med",
+          "value": "startsWith"
+        },
+        {
+          "label": "Slutter med",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Er",
+          "value": "is"
+        },
+        {
+          "label": "Er ikke",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Indeholder",
+          "value": "contains"
+        },
+        {
+          "label": "Indeholder ikke",
+          "value": "notContains"
+        },
+        {
+          "label": "Er større end",
+          "value": "gt"
+        },
+        {
+          "label": "Er mindre end",
+          "value": "lt"
+        },
+        {
+          "label": "Er i intervallet",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Er",
+          "value": "is"
+        },
+        {
+          "label": "Er ikke",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Er før",
+          "value": "before"
+        },
+        {
+          "label": "Er efter",
+          "value": "after"
+        },
+        {
+          "label": "Er inden for de seneste",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Er ikke inden for de seneste",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Er i intervallet",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Er før (dato)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Er efter (dato)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Er i intervallet (dato)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Er",
+          "value": "is"
+        },
+        {
+          "label": "Er ikke",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Er i",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Er ikke i",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "de": {
+      "string": [
+        {
+          "label": "Ist",
+          "value": "is"
+        },
+        {
+          "label": "Ist nicht",
+          "value": "isNot"
+        },
+        {
+          "label": "Fehlt",
+          "value": "isMissing"
+        },
+        {
+          "label": "Vorhanden",
+          "value": "isPresent"
+        },
+        {
+          "label": "Enthält",
+          "value": "contains"
+        },
+        {
+          "label": "Enthält nicht",
+          "value": "notContains"
+        },
+        {
+          "label": "Beginnt mit",
+          "value": "startsWith"
+        },
+        {
+          "label": "Endet mit",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Ist",
+          "value": "is"
+        },
+        {
+          "label": "Ist nicht",
+          "value": "isNot"
+        },
+        {
+          "label": "Fehlt",
+          "value": "isMissing"
+        },
+        {
+          "label": "Vorhanden",
+          "value": "isPresent"
+        },
+        {
+          "label": "Enthält",
+          "value": "contains"
+        },
+        {
+          "label": "Enthält nicht",
+          "value": "notContains"
+        },
+        {
+          "label": "Ist größer als",
+          "value": "gt"
+        },
+        {
+          "label": "Ist kleiner als",
+          "value": "lt"
+        },
+        {
+          "label": "Ist im bereich",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Ist",
+          "value": "is"
+        },
+        {
+          "label": "Ist nicht",
+          "value": "isNot"
+        },
+        {
+          "label": "Fehlt",
+          "value": "isMissing"
+        },
+        {
+          "label": "Vorhanden",
+          "value": "isPresent"
+        },
+        {
+          "label": "Ist vor",
+          "value": "before"
+        },
+        {
+          "label": "Ist nach",
+          "value": "after"
+        },
+        {
+          "label": "Ist in den letzten",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Ist nicht in den letzten",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Ist im bereich",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Ist vor (datum)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Ist nach (datum)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Ist im bereich (datum)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Ist",
+          "value": "is"
+        },
+        {
+          "label": "Ist nicht",
+          "value": "isNot"
+        },
+        {
+          "label": "Fehlt",
+          "value": "isMissing"
+        },
+        {
+          "label": "Vorhanden",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Ist in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Ist nicht in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "en": {
+      "string": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Starts with",
+          "value": "startsWith"
+        },
+        {
+          "label": "Ends with",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Is greater than",
+          "value": "gt"
+        },
+        {
+          "label": "Is less than",
+          "value": "lt"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Is before",
+          "value": "before"
+        },
+        {
+          "label": "Is after",
+          "value": "after"
+        },
+        {
+          "label": "Is in the last",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Is not in the last",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Is before (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Is after (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Is in the range (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Is in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Is not in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "es": {
+      "string": [
+        {
+          "label": "Es",
+          "value": "is"
+        },
+        {
+          "label": "No es",
+          "value": "isNot"
+        },
+        {
+          "label": "Falta",
+          "value": "isMissing"
+        },
+        {
+          "label": "Está presente",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contiene",
+          "value": "contains"
+        },
+        {
+          "label": "No contiene",
+          "value": "notContains"
+        },
+        {
+          "label": "Empieza con",
+          "value": "startsWith"
+        },
+        {
+          "label": "Termina con",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Es",
+          "value": "is"
+        },
+        {
+          "label": "No es",
+          "value": "isNot"
+        },
+        {
+          "label": "Falta",
+          "value": "isMissing"
+        },
+        {
+          "label": "Está presente",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contiene",
+          "value": "contains"
+        },
+        {
+          "label": "No contiene",
+          "value": "notContains"
+        },
+        {
+          "label": "Es mayor que",
+          "value": "gt"
+        },
+        {
+          "label": "Es menor que",
+          "value": "lt"
+        },
+        {
+          "label": "Está en el rango",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Es",
+          "value": "is"
+        },
+        {
+          "label": "No es",
+          "value": "isNot"
+        },
+        {
+          "label": "Falta",
+          "value": "isMissing"
+        },
+        {
+          "label": "Está presente",
+          "value": "isPresent"
+        },
+        {
+          "label": "Es antes",
+          "value": "before"
+        },
+        {
+          "label": "Es después",
+          "value": "after"
+        },
+        {
+          "label": "Está en el último",
+          "value": "inTheLast"
+        },
+        {
+          "label": "No está en el último",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Está en el rango",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Es antes (fecha)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Es después (fecha)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Está en el rango (fecha)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Es",
+          "value": "is"
+        },
+        {
+          "label": "No es",
+          "value": "isNot"
+        },
+        {
+          "label": "Falta",
+          "value": "isMissing"
+        },
+        {
+          "label": "Está presente",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Está en",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "No está en",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "et": {
+      "string": [
+        {
+          "label": "On",
+          "value": "is"
+        },
+        {
+          "label": "Ei ole",
+          "value": "isNot"
+        },
+        {
+          "label": "Puudub",
+          "value": "isMissing"
+        },
+        {
+          "label": "On olemas",
+          "value": "isPresent"
+        },
+        {
+          "label": "Sisaldab",
+          "value": "contains"
+        },
+        {
+          "label": "Ei sisalda",
+          "value": "notContains"
+        },
+        {
+          "label": "Algab",
+          "value": "startsWith"
+        },
+        {
+          "label": "Lõpeb",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "On",
+          "value": "is"
+        },
+        {
+          "label": "Ei ole",
+          "value": "isNot"
+        },
+        {
+          "label": "Puudub",
+          "value": "isMissing"
+        },
+        {
+          "label": "On olemas",
+          "value": "isPresent"
+        },
+        {
+          "label": "Sisaldab",
+          "value": "contains"
+        },
+        {
+          "label": "Ei sisalda",
+          "value": "notContains"
+        },
+        {
+          "label": "On suurem kui",
+          "value": "gt"
+        },
+        {
+          "label": "On väiksem kui",
+          "value": "lt"
+        },
+        {
+          "label": "Jääb vahemikku",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "On",
+          "value": "is"
+        },
+        {
+          "label": "Ei ole",
+          "value": "isNot"
+        },
+        {
+          "label": "Puudub",
+          "value": "isMissing"
+        },
+        {
+          "label": "On olemas",
+          "value": "isPresent"
+        },
+        {
+          "label": "On enne",
+          "value": "before"
+        },
+        {
+          "label": "On pärast",
+          "value": "after"
+        },
+        {
+          "label": "Viimase",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Pole viimase",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Jääb vahemikku",
+          "value": "inTheRange"
+        },
+        {
+          "label": "On enne (kuupäeva)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "On pärast (kuupäeva)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Jääb vahemikku (kuupäev)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "On",
+          "value": "is"
+        },
+        {
+          "label": "Ei ole",
+          "value": "isNot"
+        },
+        {
+          "label": "Puudub",
+          "value": "isMissing"
+        },
+        {
+          "label": "On olemas",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "On",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Ei ole",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "eu": {
+      "string": [
+        {
+          "label": "Da",
+          "value": "is"
+        },
+        {
+          "label": "Ez dago",
+          "value": "isNot"
+        },
+        {
+          "label": "falta da",
+          "value": "isMissing"
+        },
+        {
+          "label": "Badago",
+          "value": "isPresent"
+        },
+        {
+          "label": "Dauka",
+          "value": "contains"
+        },
+        {
+          "label": "Ez dauka",
+          "value": "notContains"
+        },
+        {
+          "label": "Honekin hasten da",
+          "value": "startsWith"
+        },
+        {
+          "label": "Honekin amaitzen da",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Da",
+          "value": "is"
+        },
+        {
+          "label": "Ez dago",
+          "value": "isNot"
+        },
+        {
+          "label": "falta da",
+          "value": "isMissing"
+        },
+        {
+          "label": "Badago",
+          "value": "isPresent"
+        },
+        {
+          "label": "Dauka",
+          "value": "contains"
+        },
+        {
+          "label": "Ez dauka",
+          "value": "notContains"
+        },
+        {
+          "label": "Hau baino handiagoa da",
+          "value": "gt"
+        },
+        {
+          "label": "Hau baino gutxiago da",
+          "value": "lt"
+        },
+        {
+          "label": "Tartean dago",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Da",
+          "value": "is"
+        },
+        {
+          "label": "Ez dago",
+          "value": "isNot"
+        },
+        {
+          "label": "falta da",
+          "value": "isMissing"
+        },
+        {
+          "label": "Badago",
+          "value": "isPresent"
+        },
+        {
+          "label": "Lehenago da",
+          "value": "before"
+        },
+        {
+          "label": "Ondoren da",
+          "value": "after"
+        },
+        {
+          "label": "Azkenengoan dago",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Ez dago azkenengoan",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Tartean dago",
+          "value": "inTheRange"
+        },
+        {
+          "label": "(Data) baino lehenagokoa da",
+          "value": "beforeDate"
+        },
+        {
+          "label": "(Data) ondoren da",
+          "value": "afterDate"
+        },
+        {
+          "label": "(Data) tartean dago",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Da",
+          "value": "is"
+        },
+        {
+          "label": "Ez dago",
+          "value": "isNot"
+        },
+        {
+          "label": "falta da",
+          "value": "isMissing"
+        },
+        {
+          "label": "Badago",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Bertan dago",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Ez dago barruan",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "fa": {
+      "string": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Starts with",
+          "value": "startsWith"
+        },
+        {
+          "label": "Ends with",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Is greater than",
+          "value": "gt"
+        },
+        {
+          "label": "Is less than",
+          "value": "lt"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Is before",
+          "value": "before"
+        },
+        {
+          "label": "Is after",
+          "value": "after"
+        },
+        {
+          "label": "Is in the last",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Is not in the last",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Is before (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Is after (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Is in the range (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Is in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Is not in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "fi": {
+      "string": [
+        {
+          "label": "On",
+          "value": "is"
+        },
+        {
+          "label": "Ei ole",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Sisältää",
+          "value": "contains"
+        },
+        {
+          "label": "Ei sisällä",
+          "value": "notContains"
+        },
+        {
+          "label": "Alkaa",
+          "value": "startsWith"
+        },
+        {
+          "label": "Loppuu",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "On",
+          "value": "is"
+        },
+        {
+          "label": "Ei ole",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Sisältää",
+          "value": "contains"
+        },
+        {
+          "label": "Ei sisällä",
+          "value": "notContains"
+        },
+        {
+          "label": "Enemmän kuin",
+          "value": "gt"
+        },
+        {
+          "label": "Vähemmän kuin",
+          "value": "lt"
+        },
+        {
+          "label": "On välillä",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "On",
+          "value": "is"
+        },
+        {
+          "label": "Ei ole",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Ennen",
+          "value": "before"
+        },
+        {
+          "label": "Jälkeen",
+          "value": "after"
+        },
+        {
+          "label": "On viimeisenä",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Ei ole viimeisenä",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "On välillä",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Ennen (päivää)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Jälkeen (päivän)",
+          "value": "afterDate"
+        },
+        {
+          "label": "On valitulla aikavälillä (päivä)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "On",
+          "value": "is"
+        },
+        {
+          "label": "Ei ole",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "On",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Ei ole",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "fr": {
+      "string": [
+        {
+          "label": "Est",
+          "value": "is"
+        },
+        {
+          "label": "N'est pas",
+          "value": "isNot"
+        },
+        {
+          "label": "Est manquant",
+          "value": "isMissing"
+        },
+        {
+          "label": "Est présent",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contient",
+          "value": "contains"
+        },
+        {
+          "label": "Ne contient pas",
+          "value": "notContains"
+        },
+        {
+          "label": "Commence par",
+          "value": "startsWith"
+        },
+        {
+          "label": "Se termine par",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Est",
+          "value": "is"
+        },
+        {
+          "label": "N'est pas",
+          "value": "isNot"
+        },
+        {
+          "label": "Est manquant",
+          "value": "isMissing"
+        },
+        {
+          "label": "Est présent",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contient",
+          "value": "contains"
+        },
+        {
+          "label": "Ne contient pas",
+          "value": "notContains"
+        },
+        {
+          "label": "Est plus grand que",
+          "value": "gt"
+        },
+        {
+          "label": "Est plus petit que",
+          "value": "lt"
+        },
+        {
+          "label": "Est dans la plage",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Est",
+          "value": "is"
+        },
+        {
+          "label": "N'est pas",
+          "value": "isNot"
+        },
+        {
+          "label": "Est manquant",
+          "value": "isMissing"
+        },
+        {
+          "label": "Est présent",
+          "value": "isPresent"
+        },
+        {
+          "label": "Est avant",
+          "value": "before"
+        },
+        {
+          "label": "Est après",
+          "value": "after"
+        },
+        {
+          "label": "Est dans le dernier",
+          "value": "inTheLast"
+        },
+        {
+          "label": "N'est pas dans le dernier",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Est dans la plage",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Est avant (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Est après (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Est dans la plage (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Est",
+          "value": "is"
+        },
+        {
+          "label": "N'est pas",
+          "value": "isNot"
+        },
+        {
+          "label": "Est manquant",
+          "value": "isMissing"
+        },
+        {
+          "label": "Est présent",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Est dans",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "N'est pas dans",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "gl": {
+      "string": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Starts with",
+          "value": "startsWith"
+        },
+        {
+          "label": "Ends with",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Is greater than",
+          "value": "gt"
+        },
+        {
+          "label": "Is less than",
+          "value": "lt"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Is before",
+          "value": "before"
+        },
+        {
+          "label": "Is after",
+          "value": "after"
+        },
+        {
+          "label": "Is in the last",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Is not in the last",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Is before (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Is after (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Is in the range (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Is in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Is not in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "hu": {
+      "string": [
+        {
+          "label": "Van",
+          "value": "is"
+        },
+        {
+          "label": "Nincs",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Tartalmaz",
+          "value": "contains"
+        },
+        {
+          "label": "Nem tartalmazza",
+          "value": "notContains"
+        },
+        {
+          "label": "Kezdődik",
+          "value": "startsWith"
+        },
+        {
+          "label": "Végződik",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Van",
+          "value": "is"
+        },
+        {
+          "label": "Nincs",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Tartalmaz",
+          "value": "contains"
+        },
+        {
+          "label": "Nem tartalmazza",
+          "value": "notContains"
+        },
+        {
+          "label": "Nagyobb mint",
+          "value": "gt"
+        },
+        {
+          "label": "Kisebb mint",
+          "value": "lt"
+        },
+        {
+          "label": "Tartományban",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Van",
+          "value": "is"
+        },
+        {
+          "label": "Nincs",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Előtt",
+          "value": "before"
+        },
+        {
+          "label": "Után",
+          "value": "after"
+        },
+        {
+          "label": "Elmúlt",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Nem az elmúlt",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Tartományban",
+          "value": "inTheRange"
+        },
+        {
+          "label": "(Dátum) előtt",
+          "value": "beforeDate"
+        },
+        {
+          "label": "(Dátum) után",
+          "value": "afterDate"
+        },
+        {
+          "label": "(Dátum) tartományban",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Van",
+          "value": "is"
+        },
+        {
+          "label": "Nincs",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Benne",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Nincs benne",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "id": {
+      "string": [
+        {
+          "label": "Adalah",
+          "value": "is"
+        },
+        {
+          "label": "Bukan",
+          "value": "isNot"
+        },
+        {
+          "label": "Tidak ada",
+          "value": "isMissing"
+        },
+        {
+          "label": "Ada",
+          "value": "isPresent"
+        },
+        {
+          "label": "Berisi",
+          "value": "contains"
+        },
+        {
+          "label": "Tidak berisi",
+          "value": "notContains"
+        },
+        {
+          "label": "Diawali dengan",
+          "value": "startsWith"
+        },
+        {
+          "label": "Diakhiri dengan",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Adalah",
+          "value": "is"
+        },
+        {
+          "label": "Bukan",
+          "value": "isNot"
+        },
+        {
+          "label": "Tidak ada",
+          "value": "isMissing"
+        },
+        {
+          "label": "Ada",
+          "value": "isPresent"
+        },
+        {
+          "label": "Berisi",
+          "value": "contains"
+        },
+        {
+          "label": "Tidak berisi",
+          "value": "notContains"
+        },
+        {
+          "label": "Lebih besar dari",
+          "value": "gt"
+        },
+        {
+          "label": "Lebih kecil dari",
+          "value": "lt"
+        },
+        {
+          "label": "Berada dalam rentang",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Adalah",
+          "value": "is"
+        },
+        {
+          "label": "Bukan",
+          "value": "isNot"
+        },
+        {
+          "label": "Tidak ada",
+          "value": "isMissing"
+        },
+        {
+          "label": "Ada",
+          "value": "isPresent"
+        },
+        {
+          "label": "Sebelum",
+          "value": "before"
+        },
+        {
+          "label": "Setelah",
+          "value": "after"
+        },
+        {
+          "label": "Dalam kurun terakhir",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Tidak dalam kurun terakhir",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Berada dalam rentang",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Sebelum (tanggal)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Setelah (tanggal)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Berada dalam rentang (tanggal)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Adalah",
+          "value": "is"
+        },
+        {
+          "label": "Bukan",
+          "value": "isNot"
+        },
+        {
+          "label": "Tidak ada",
+          "value": "isMissing"
+        },
+        {
+          "label": "Ada",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Berada di",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Tidak berada di",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "it": {
+      "string": [
+        {
+          "label": "È",
+          "value": "is"
+        },
+        {
+          "label": "Non è",
+          "value": "isNot"
+        },
+        {
+          "label": "È assente",
+          "value": "isMissing"
+        },
+        {
+          "label": "È presente",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contiene",
+          "value": "contains"
+        },
+        {
+          "label": "Non contiene",
+          "value": "notContains"
+        },
+        {
+          "label": "Inizia con",
+          "value": "startsWith"
+        },
+        {
+          "label": "Finisce con",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "È",
+          "value": "is"
+        },
+        {
+          "label": "Non è",
+          "value": "isNot"
+        },
+        {
+          "label": "È assente",
+          "value": "isMissing"
+        },
+        {
+          "label": "È presente",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contiene",
+          "value": "contains"
+        },
+        {
+          "label": "Non contiene",
+          "value": "notContains"
+        },
+        {
+          "label": "È maggiore di",
+          "value": "gt"
+        },
+        {
+          "label": "È minore di",
+          "value": "lt"
+        },
+        {
+          "label": "È nell'intervallo",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "È",
+          "value": "is"
+        },
+        {
+          "label": "Non è",
+          "value": "isNot"
+        },
+        {
+          "label": "È assente",
+          "value": "isMissing"
+        },
+        {
+          "label": "È presente",
+          "value": "isPresent"
+        },
+        {
+          "label": "È meno recente di",
+          "value": "before"
+        },
+        {
+          "label": "È più recente di",
+          "value": "after"
+        },
+        {
+          "label": "È negli ultimi",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Non è negli ultimi",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "È nell'intervallo",
+          "value": "inTheRange"
+        },
+        {
+          "label": "È meno recente di (data)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "È più recente di (data)",
+          "value": "afterDate"
+        },
+        {
+          "label": "È nell'intervallo (data)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "È",
+          "value": "is"
+        },
+        {
+          "label": "Non è",
+          "value": "isNot"
+        },
+        {
+          "label": "È assente",
+          "value": "isMissing"
+        },
+        {
+          "label": "È presente",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "È in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Non è in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "ja": {
+      "string": [
+        {
+          "label": "完全一致",
+          "value": "is"
+        },
+        {
+          "label": "不一致",
+          "value": "isNot"
+        },
+        {
+          "label": "欠落している",
+          "value": "isMissing"
+        },
+        {
+          "label": "存在する",
+          "value": "isPresent"
+        },
+        {
+          "label": "を含む",
+          "value": "contains"
+        },
+        {
+          "label": "含まれていない",
+          "value": "notContains"
+        },
+        {
+          "label": "で始まる",
+          "value": "startsWith"
+        },
+        {
+          "label": "で終わる",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "完全一致",
+          "value": "is"
+        },
+        {
+          "label": "不一致",
+          "value": "isNot"
+        },
+        {
+          "label": "欠落している",
+          "value": "isMissing"
+        },
+        {
+          "label": "存在する",
+          "value": "isPresent"
+        },
+        {
+          "label": "を含む",
+          "value": "contains"
+        },
+        {
+          "label": "含まれていない",
+          "value": "notContains"
+        },
+        {
+          "label": "より大きい",
+          "value": "gt"
+        },
+        {
+          "label": "より小さい",
+          "value": "lt"
+        },
+        {
+          "label": "範囲内",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "完全一致",
+          "value": "is"
+        },
+        {
+          "label": "不一致",
+          "value": "isNot"
+        },
+        {
+          "label": "欠落している",
+          "value": "isMissing"
+        },
+        {
+          "label": "存在する",
+          "value": "isPresent"
+        },
+        {
+          "label": "以前",
+          "value": "before"
+        },
+        {
+          "label": "以降",
+          "value": "after"
+        },
+        {
+          "label": "以内",
+          "value": "inTheLast"
+        },
+        {
+          "label": "より前",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "範囲内",
+          "value": "inTheRange"
+        },
+        {
+          "label": "以前（日付）",
+          "value": "beforeDate"
+        },
+        {
+          "label": "以降（日付）",
+          "value": "afterDate"
+        },
+        {
+          "label": "範囲内（日付）",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "完全一致",
+          "value": "is"
+        },
+        {
+          "label": "不一致",
+          "value": "isNot"
+        },
+        {
+          "label": "欠落している",
+          "value": "isMissing"
+        },
+        {
+          "label": "存在する",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "いずれか",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "いずれでもない",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "ko": {
+      "string": [
+        {
+          "label": "~이다",
+          "value": "is"
+        },
+        {
+          "label": "~이 아닙니까",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "포함",
+          "value": "contains"
+        },
+        {
+          "label": "함유하지 않음",
+          "value": "notContains"
+        },
+        {
+          "label": "~로 시작함",
+          "value": "startsWith"
+        },
+        {
+          "label": "~로 끝남",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "~이다",
+          "value": "is"
+        },
+        {
+          "label": "~이 아닙니까",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "포함",
+          "value": "contains"
+        },
+        {
+          "label": "함유하지 않음",
+          "value": "notContains"
+        },
+        {
+          "label": "~보다 크다",
+          "value": "gt"
+        },
+        {
+          "label": "~보다 작다",
+          "value": "lt"
+        },
+        {
+          "label": "범위 내에 있습니다",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "~이다",
+          "value": "is"
+        },
+        {
+          "label": "~이 아닙니까",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "~보다 앞서 있다",
+          "value": "before"
+        },
+        {
+          "label": "~ 뒤에 있나요",
+          "value": "after"
+        },
+        {
+          "label": "마지막에 있습니다",
+          "value": "inTheLast"
+        },
+        {
+          "label": "마지막에 있지 않다",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "범위 내에 있습니다",
+          "value": "inTheRange"
+        },
+        {
+          "label": "(날짜) 이전인가요",
+          "value": "beforeDate"
+        },
+        {
+          "label": "(날짜) 이후입니까",
+          "value": "afterDate"
+        },
+        {
+          "label": "범위 내에 있음 (날짜)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "~이다",
+          "value": "is"
+        },
+        {
+          "label": "~이 아닙니까",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "~ 안에 있다",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "~ 안에 있지 않다",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "lv": {
+      "string": [
+        {
+          "label": "Ir",
+          "value": "is"
+        },
+        {
+          "label": "Nav",
+          "value": "isNot"
+        },
+        {
+          "label": "Trūkst",
+          "value": "isMissing"
+        },
+        {
+          "label": "Ir pieejams",
+          "value": "isPresent"
+        },
+        {
+          "label": "Ietver",
+          "value": "contains"
+        },
+        {
+          "label": "Nesatur",
+          "value": "notContains"
+        },
+        {
+          "label": "Sākas ar",
+          "value": "startsWith"
+        },
+        {
+          "label": "Beidzas ar",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Ir",
+          "value": "is"
+        },
+        {
+          "label": "Nav",
+          "value": "isNot"
+        },
+        {
+          "label": "Trūkst",
+          "value": "isMissing"
+        },
+        {
+          "label": "Ir pieejams",
+          "value": "isPresent"
+        },
+        {
+          "label": "Ietver",
+          "value": "contains"
+        },
+        {
+          "label": "Nesatur",
+          "value": "notContains"
+        },
+        {
+          "label": "Ir lielāks par",
+          "value": "gt"
+        },
+        {
+          "label": "Ir mazāks par",
+          "value": "lt"
+        },
+        {
+          "label": "Atrodas šajā diapazonā",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Ir",
+          "value": "is"
+        },
+        {
+          "label": "Nav",
+          "value": "isNot"
+        },
+        {
+          "label": "Trūkst",
+          "value": "isMissing"
+        },
+        {
+          "label": "Ir pieejams",
+          "value": "isPresent"
+        },
+        {
+          "label": "Ir pirms",
+          "value": "before"
+        },
+        {
+          "label": "Ir pēc",
+          "value": "after"
+        },
+        {
+          "label": "Atrodas pēdējā",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Nav pēdējā",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Atrodas šajā diapazonā",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Ir pirms (%1)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Ir pēc (%1)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Ietilpst datumu diapazonā (datums)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Ir",
+          "value": "is"
+        },
+        {
+          "label": "Nav",
+          "value": "isNot"
+        },
+        {
+          "label": "Trūkst",
+          "value": "isMissing"
+        },
+        {
+          "label": "Ir pieejams",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Atrodas",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Nav iekļauts",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "nb-NO": {
+      "string": [
+        {
+          "label": "Er",
+          "value": "is"
+        },
+        {
+          "label": "Er ikke",
+          "value": "isNot"
+        },
+        {
+          "label": "Mangler",
+          "value": "isMissing"
+        },
+        {
+          "label": "Finnes",
+          "value": "isPresent"
+        },
+        {
+          "label": "Inneholder",
+          "value": "contains"
+        },
+        {
+          "label": "Inneholder ikke",
+          "value": "notContains"
+        },
+        {
+          "label": "Starter med",
+          "value": "startsWith"
+        },
+        {
+          "label": "Ender med",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Er",
+          "value": "is"
+        },
+        {
+          "label": "Er ikke",
+          "value": "isNot"
+        },
+        {
+          "label": "Mangler",
+          "value": "isMissing"
+        },
+        {
+          "label": "Finnes",
+          "value": "isPresent"
+        },
+        {
+          "label": "Inneholder",
+          "value": "contains"
+        },
+        {
+          "label": "Inneholder ikke",
+          "value": "notContains"
+        },
+        {
+          "label": "Er større enn",
+          "value": "gt"
+        },
+        {
+          "label": "Er mindre enn",
+          "value": "lt"
+        },
+        {
+          "label": "Er innenfor området",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Er",
+          "value": "is"
+        },
+        {
+          "label": "Er ikke",
+          "value": "isNot"
+        },
+        {
+          "label": "Mangler",
+          "value": "isMissing"
+        },
+        {
+          "label": "Finnes",
+          "value": "isPresent"
+        },
+        {
+          "label": "Er før",
+          "value": "before"
+        },
+        {
+          "label": "Er etter",
+          "value": "after"
+        },
+        {
+          "label": "Er inne i de siste",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Er ikke med i de siste",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Er innenfor området",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Er før (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Er etter (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Er innenfor området (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Er",
+          "value": "is"
+        },
+        {
+          "label": "Er ikke",
+          "value": "isNot"
+        },
+        {
+          "label": "Mangler",
+          "value": "isMissing"
+        },
+        {
+          "label": "Finnes",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Er inne i",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Er ikke med i",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "nl": {
+      "string": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is niet",
+          "value": "isNot"
+        },
+        {
+          "label": "Ontbreekt",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is aanwezig",
+          "value": "isPresent"
+        },
+        {
+          "label": "Bevat",
+          "value": "contains"
+        },
+        {
+          "label": "Bevat geen",
+          "value": "notContains"
+        },
+        {
+          "label": "Begint met",
+          "value": "startsWith"
+        },
+        {
+          "label": "Eindigt met",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is niet",
+          "value": "isNot"
+        },
+        {
+          "label": "Ontbreekt",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is aanwezig",
+          "value": "isPresent"
+        },
+        {
+          "label": "Bevat",
+          "value": "contains"
+        },
+        {
+          "label": "Bevat geen",
+          "value": "notContains"
+        },
+        {
+          "label": "Is groter dan",
+          "value": "gt"
+        },
+        {
+          "label": "Is minder dan",
+          "value": "lt"
+        },
+        {
+          "label": "Ligt binnen het bereik",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is niet",
+          "value": "isNot"
+        },
+        {
+          "label": "Ontbreekt",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is aanwezig",
+          "value": "isPresent"
+        },
+        {
+          "label": "Is voor",
+          "value": "before"
+        },
+        {
+          "label": "Is na",
+          "value": "after"
+        },
+        {
+          "label": "Is in de laatste",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Is niet in de laatste",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Ligt binnen het bereik",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Is vóór (datum)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Is na (datum)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Ligt binnen het bereik (datum)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is niet",
+          "value": "isNot"
+        },
+        {
+          "label": "Ontbreekt",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is aanwezig",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Is in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Is niet in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "nn": {
+      "string": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Starts with",
+          "value": "startsWith"
+        },
+        {
+          "label": "Ends with",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Is greater than",
+          "value": "gt"
+        },
+        {
+          "label": "Is less than",
+          "value": "lt"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Is before",
+          "value": "before"
+        },
+        {
+          "label": "Is after",
+          "value": "after"
+        },
+        {
+          "label": "Is in the last",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Is not in the last",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Is before (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Is after (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Is in the range (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Is in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Is not in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "pl": {
+      "string": [
+        {
+          "label": "Jest",
+          "value": "is"
+        },
+        {
+          "label": "Nie jest",
+          "value": "isNot"
+        },
+        {
+          "label": "brakuje",
+          "value": "isMissing"
+        },
+        {
+          "label": "jest",
+          "value": "isPresent"
+        },
+        {
+          "label": "Zawiera",
+          "value": "contains"
+        },
+        {
+          "label": "Nie zawiera",
+          "value": "notContains"
+        },
+        {
+          "label": "Zaczyna się od",
+          "value": "startsWith"
+        },
+        {
+          "label": "Kończy się na",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Jest",
+          "value": "is"
+        },
+        {
+          "label": "Nie jest",
+          "value": "isNot"
+        },
+        {
+          "label": "brakuje",
+          "value": "isMissing"
+        },
+        {
+          "label": "jest",
+          "value": "isPresent"
+        },
+        {
+          "label": "Zawiera",
+          "value": "contains"
+        },
+        {
+          "label": "Nie zawiera",
+          "value": "notContains"
+        },
+        {
+          "label": "Jest większe od",
+          "value": "gt"
+        },
+        {
+          "label": "Jest mniejsze od",
+          "value": "lt"
+        },
+        {
+          "label": "Jest w zakresie",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Jest",
+          "value": "is"
+        },
+        {
+          "label": "Nie jest",
+          "value": "isNot"
+        },
+        {
+          "label": "brakuje",
+          "value": "isMissing"
+        },
+        {
+          "label": "jest",
+          "value": "isPresent"
+        },
+        {
+          "label": "Jest przed",
+          "value": "before"
+        },
+        {
+          "label": "Jest po",
+          "value": "after"
+        },
+        {
+          "label": "Jest w ostatnim",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Nie jest w ostatnim",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Jest w zakresie",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Jest przed (datą)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Jest po (dacie)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Jest w zakresie (dat)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Jest",
+          "value": "is"
+        },
+        {
+          "label": "Nie jest",
+          "value": "isNot"
+        },
+        {
+          "label": "brakuje",
+          "value": "isMissing"
+        },
+        {
+          "label": "jest",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Jest w",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Nie jest w",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "pt": {
+      "string": [
+        {
+          "label": "É",
+          "value": "is"
+        },
+        {
+          "label": "Não é",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contém",
+          "value": "contains"
+        },
+        {
+          "label": "Não contém",
+          "value": "notContains"
+        },
+        {
+          "label": "Começa com",
+          "value": "startsWith"
+        },
+        {
+          "label": "Termina com",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "É",
+          "value": "is"
+        },
+        {
+          "label": "Não é",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contém",
+          "value": "contains"
+        },
+        {
+          "label": "Não contém",
+          "value": "notContains"
+        },
+        {
+          "label": "É maior que",
+          "value": "gt"
+        },
+        {
+          "label": "É menor que",
+          "value": "lt"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "É",
+          "value": "is"
+        },
+        {
+          "label": "Não é",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Is before",
+          "value": "before"
+        },
+        {
+          "label": "Is after",
+          "value": "after"
+        },
+        {
+          "label": "Is in the last",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Is not in the last",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Is before (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Is after (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Is in the range (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "É",
+          "value": "is"
+        },
+        {
+          "label": "Não é",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Is in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Is not in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "pt-BR": {
+      "string": [
+        {
+          "label": "É",
+          "value": "is"
+        },
+        {
+          "label": "Não é",
+          "value": "isNot"
+        },
+        {
+          "label": "Está faltando",
+          "value": "isMissing"
+        },
+        {
+          "label": "Está presente",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contém",
+          "value": "contains"
+        },
+        {
+          "label": "Não contém",
+          "value": "notContains"
+        },
+        {
+          "label": "Começa com",
+          "value": "startsWith"
+        },
+        {
+          "label": "Termina com",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "É",
+          "value": "is"
+        },
+        {
+          "label": "Não é",
+          "value": "isNot"
+        },
+        {
+          "label": "Está faltando",
+          "value": "isMissing"
+        },
+        {
+          "label": "Está presente",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contém",
+          "value": "contains"
+        },
+        {
+          "label": "Não contém",
+          "value": "notContains"
+        },
+        {
+          "label": "É maior que",
+          "value": "gt"
+        },
+        {
+          "label": "É menor que",
+          "value": "lt"
+        },
+        {
+          "label": "Está entre",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "É",
+          "value": "is"
+        },
+        {
+          "label": "Não é",
+          "value": "isNot"
+        },
+        {
+          "label": "Está faltando",
+          "value": "isMissing"
+        },
+        {
+          "label": "Está presente",
+          "value": "isPresent"
+        },
+        {
+          "label": "Antes de",
+          "value": "before"
+        },
+        {
+          "label": "É depois",
+          "value": "after"
+        },
+        {
+          "label": "Está no último",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Não está no último",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Está entre",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Antes de (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Depois de (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Está entre (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "É",
+          "value": "is"
+        },
+        {
+          "label": "Não é",
+          "value": "isNot"
+        },
+        {
+          "label": "Está faltando",
+          "value": "isMissing"
+        },
+        {
+          "label": "Está presente",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Está em",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Não se inclui em",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "ro": {
+      "string": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Starts with",
+          "value": "startsWith"
+        },
+        {
+          "label": "Ends with",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Is greater than",
+          "value": "gt"
+        },
+        {
+          "label": "Is less than",
+          "value": "lt"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Is before",
+          "value": "before"
+        },
+        {
+          "label": "Is after",
+          "value": "after"
+        },
+        {
+          "label": "Is in the last",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Is not in the last",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Is before (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Is after (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Is in the range (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Is in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Is not in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "ru": {
+      "string": [
+        {
+          "label": "Является",
+          "value": "is"
+        },
+        {
+          "label": "Не является",
+          "value": "isNot"
+        },
+        {
+          "label": "Отсутствует",
+          "value": "isMissing"
+        },
+        {
+          "label": "Присутствует",
+          "value": "isPresent"
+        },
+        {
+          "label": "Содержит",
+          "value": "contains"
+        },
+        {
+          "label": "Не содержит",
+          "value": "notContains"
+        },
+        {
+          "label": "Начинается с",
+          "value": "startsWith"
+        },
+        {
+          "label": "Заканчивается на",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Является",
+          "value": "is"
+        },
+        {
+          "label": "Не является",
+          "value": "isNot"
+        },
+        {
+          "label": "Отсутствует",
+          "value": "isMissing"
+        },
+        {
+          "label": "Присутствует",
+          "value": "isPresent"
+        },
+        {
+          "label": "Содержит",
+          "value": "contains"
+        },
+        {
+          "label": "Не содержит",
+          "value": "notContains"
+        },
+        {
+          "label": "Больше чем",
+          "value": "gt"
+        },
+        {
+          "label": "Меньше чем",
+          "value": "lt"
+        },
+        {
+          "label": "Находится в диапазоне",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Является",
+          "value": "is"
+        },
+        {
+          "label": "Не является",
+          "value": "isNot"
+        },
+        {
+          "label": "Отсутствует",
+          "value": "isMissing"
+        },
+        {
+          "label": "Присутствует",
+          "value": "isPresent"
+        },
+        {
+          "label": "Находится перед",
+          "value": "before"
+        },
+        {
+          "label": "Находится после",
+          "value": "after"
+        },
+        {
+          "label": "Является последним",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Не входит в последние",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Находится в диапазоне",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Находится раньше (дата)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Находится после (дата)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Находится в диапазоне (дата)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Является",
+          "value": "is"
+        },
+        {
+          "label": "Не является",
+          "value": "isNot"
+        },
+        {
+          "label": "Отсутствует",
+          "value": "isMissing"
+        },
+        {
+          "label": "Присутствует",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Является в",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Не находится в",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "sk": {
+      "string": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Starts with",
+          "value": "startsWith"
+        },
+        {
+          "label": "Ends with",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Is greater than",
+          "value": "gt"
+        },
+        {
+          "label": "Is less than",
+          "value": "lt"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Is before",
+          "value": "before"
+        },
+        {
+          "label": "Is after",
+          "value": "after"
+        },
+        {
+          "label": "Is in the last",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Is not in the last",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Is before (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Is after (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Is in the range (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Is in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Is not in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "sl": {
+      "string": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Starts with",
+          "value": "startsWith"
+        },
+        {
+          "label": "Ends with",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Is greater than",
+          "value": "gt"
+        },
+        {
+          "label": "Is less than",
+          "value": "lt"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Is before",
+          "value": "before"
+        },
+        {
+          "label": "Is after",
+          "value": "after"
+        },
+        {
+          "label": "Is in the last",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Is not in the last",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Is before (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Is after (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Is in the range (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Is in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Is not in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "sr": {
+      "string": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Starts with",
+          "value": "startsWith"
+        },
+        {
+          "label": "Ends with",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Is greater than",
+          "value": "gt"
+        },
+        {
+          "label": "Is less than",
+          "value": "lt"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Is before",
+          "value": "before"
+        },
+        {
+          "label": "Is after",
+          "value": "after"
+        },
+        {
+          "label": "Is in the last",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Is not in the last",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Is before (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Is after (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Is in the range (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Is in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Is not in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "sv": {
+      "string": [
+        {
+          "label": "Är",
+          "value": "is"
+        },
+        {
+          "label": "Är inte",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Innehåller",
+          "value": "contains"
+        },
+        {
+          "label": "Innehåller inte",
+          "value": "notContains"
+        },
+        {
+          "label": "Börjar med",
+          "value": "startsWith"
+        },
+        {
+          "label": "Slutar med",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Är",
+          "value": "is"
+        },
+        {
+          "label": "Är inte",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Innehåller",
+          "value": "contains"
+        },
+        {
+          "label": "Innehåller inte",
+          "value": "notContains"
+        },
+        {
+          "label": "Är större än",
+          "value": "gt"
+        },
+        {
+          "label": "Är mindre än",
+          "value": "lt"
+        },
+        {
+          "label": "Är inom intervallet",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Är",
+          "value": "is"
+        },
+        {
+          "label": "Är inte",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Är före",
+          "value": "before"
+        },
+        {
+          "label": "Är efter",
+          "value": "after"
+        },
+        {
+          "label": "Är inom de senaste",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Är inte inom de senaste",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Är inom intervallet",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Är före (datum)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Är efter (datum)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Är inom intervallet (datum)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Är",
+          "value": "is"
+        },
+        {
+          "label": "Är inte",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Finns i",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Finns inte i",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "ta": {
+      "string": [
+        {
+          "label": "உள்ளது",
+          "value": "is"
+        },
+        {
+          "label": "இல்லை",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "கொண்டுள்ளது",
+          "value": "contains"
+        },
+        {
+          "label": "கொண்டிருக்கவில்லை",
+          "value": "notContains"
+        },
+        {
+          "label": "உடன் தொடங்குகிறது",
+          "value": "startsWith"
+        },
+        {
+          "label": "உடன் முடிகிறது",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "உள்ளது",
+          "value": "is"
+        },
+        {
+          "label": "இல்லை",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "கொண்டுள்ளது",
+          "value": "contains"
+        },
+        {
+          "label": "கொண்டிருக்கவில்லை",
+          "value": "notContains"
+        },
+        {
+          "label": "விட அதிகமாக உள்ளது",
+          "value": "gt"
+        },
+        {
+          "label": "விட குறைவாக உள்ளது",
+          "value": "lt"
+        },
+        {
+          "label": "வரம்பில் உள்ளது",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "உள்ளது",
+          "value": "is"
+        },
+        {
+          "label": "இல்லை",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "முன்பு உள்ளது",
+          "value": "before"
+        },
+        {
+          "label": "பிறகு உள்ளது",
+          "value": "after"
+        },
+        {
+          "label": "கடைசியில் உள்ளது",
+          "value": "inTheLast"
+        },
+        {
+          "label": "கடைசியில் இல்லை",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "வரம்பில் உள்ளது",
+          "value": "inTheRange"
+        },
+        {
+          "label": "முன் (தேதி)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "பிறகு (தேதி)",
+          "value": "afterDate"
+        },
+        {
+          "label": "வரம்பில் உள்ளது (தேதி)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "உள்ளது",
+          "value": "is"
+        },
+        {
+          "label": "இல்லை",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "உள்ளது",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "உள்ளே இல்லை",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "th": {
+      "string": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Starts with",
+          "value": "startsWith"
+        },
+        {
+          "label": "Ends with",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Is greater than",
+          "value": "gt"
+        },
+        {
+          "label": "Is less than",
+          "value": "lt"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Is before",
+          "value": "before"
+        },
+        {
+          "label": "Is after",
+          "value": "after"
+        },
+        {
+          "label": "Is in the last",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Is not in the last",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Is before (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Is after (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Is in the range (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Is in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Is not in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "tl": {
+      "string": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Starts with",
+          "value": "startsWith"
+        },
+        {
+          "label": "Ends with",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "Does not contain",
+          "value": "notContains"
+        },
+        {
+          "label": "Is greater than",
+          "value": "gt"
+        },
+        {
+          "label": "Is less than",
+          "value": "lt"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Is before",
+          "value": "before"
+        },
+        {
+          "label": "Is after",
+          "value": "after"
+        },
+        {
+          "label": "Is in the last",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Is not in the last",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Is before (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Is after (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Is in the range (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Is in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Is not in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "tr": {
+      "string": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "İçermez",
+          "value": "notContains"
+        },
+        {
+          "label": "Starts with",
+          "value": "startsWith"
+        },
+        {
+          "label": "Ends with",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Contains",
+          "value": "contains"
+        },
+        {
+          "label": "İçermez",
+          "value": "notContains"
+        },
+        {
+          "label": "Is greater than",
+          "value": "gt"
+        },
+        {
+          "label": "Is less than",
+          "value": "lt"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        },
+        {
+          "label": "Is before",
+          "value": "before"
+        },
+        {
+          "label": "Is after",
+          "value": "after"
+        },
+        {
+          "label": "Is in the last",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Is not in the last",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "Is in the range",
+          "value": "inTheRange"
+        },
+        {
+          "label": "Is before (date)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Is after (date)",
+          "value": "afterDate"
+        },
+        {
+          "label": "Is in the range (date)",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Is",
+          "value": "is"
+        },
+        {
+          "label": "Is not",
+          "value": "isNot"
+        },
+        {
+          "label": "Is missing",
+          "value": "isMissing"
+        },
+        {
+          "label": "Is present",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Is in",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Is not in",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "uk": {
+      "string": [
+        {
+          "label": "Дорівнює",
+          "value": "is"
+        },
+        {
+          "label": "Не дорівнює",
+          "value": "isNot"
+        },
+        {
+          "label": "Відсутнє",
+          "value": "isMissing"
+        },
+        {
+          "label": "Присутнє",
+          "value": "isPresent"
+        },
+        {
+          "label": "Містить",
+          "value": "contains"
+        },
+        {
+          "label": "Не містить",
+          "value": "notContains"
+        },
+        {
+          "label": "Починається з",
+          "value": "startsWith"
+        },
+        {
+          "label": "Закінчується на",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "Дорівнює",
+          "value": "is"
+        },
+        {
+          "label": "Не дорівнює",
+          "value": "isNot"
+        },
+        {
+          "label": "Відсутнє",
+          "value": "isMissing"
+        },
+        {
+          "label": "Присутнє",
+          "value": "isPresent"
+        },
+        {
+          "label": "Містить",
+          "value": "contains"
+        },
+        {
+          "label": "Не містить",
+          "value": "notContains"
+        },
+        {
+          "label": "Більше ніж",
+          "value": "gt"
+        },
+        {
+          "label": "Менше ніж",
+          "value": "lt"
+        },
+        {
+          "label": "У діапазоні",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "Дорівнює",
+          "value": "is"
+        },
+        {
+          "label": "Не дорівнює",
+          "value": "isNot"
+        },
+        {
+          "label": "Відсутнє",
+          "value": "isMissing"
+        },
+        {
+          "label": "Присутнє",
+          "value": "isPresent"
+        },
+        {
+          "label": "До",
+          "value": "before"
+        },
+        {
+          "label": "Після",
+          "value": "after"
+        },
+        {
+          "label": "За останні",
+          "value": "inTheLast"
+        },
+        {
+          "label": "Не за останні",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "У діапазоні",
+          "value": "inTheRange"
+        },
+        {
+          "label": "До дати",
+          "value": "beforeDate"
+        },
+        {
+          "label": "Після дати",
+          "value": "afterDate"
+        },
+        {
+          "label": "У діапазоні дат",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "Дорівнює",
+          "value": "is"
+        },
+        {
+          "label": "Не дорівнює",
+          "value": "isNot"
+        },
+        {
+          "label": "Відсутнє",
+          "value": "isMissing"
+        },
+        {
+          "label": "Присутнє",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "Є в",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "Немає в",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "string": [
+        {
+          "label": "是",
+          "value": "is"
+        },
+        {
+          "label": "不是",
+          "value": "isNot"
+        },
+        {
+          "label": "丢失的项目",
+          "value": "isMissing"
+        },
+        {
+          "label": "存在",
+          "value": "isPresent"
+        },
+        {
+          "label": "包含",
+          "value": "contains"
+        },
+        {
+          "label": "不包含",
+          "value": "notContains"
+        },
+        {
+          "label": "以…开头",
+          "value": "startsWith"
+        },
+        {
+          "label": "以…结尾",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "是",
+          "value": "is"
+        },
+        {
+          "label": "不是",
+          "value": "isNot"
+        },
+        {
+          "label": "丢失的项目",
+          "value": "isMissing"
+        },
+        {
+          "label": "存在",
+          "value": "isPresent"
+        },
+        {
+          "label": "包含",
+          "value": "contains"
+        },
+        {
+          "label": "不包含",
+          "value": "notContains"
+        },
+        {
+          "label": "大于",
+          "value": "gt"
+        },
+        {
+          "label": "小于",
+          "value": "lt"
+        },
+        {
+          "label": "在范围内",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "是",
+          "value": "is"
+        },
+        {
+          "label": "不是",
+          "value": "isNot"
+        },
+        {
+          "label": "丢失的项目",
+          "value": "isMissing"
+        },
+        {
+          "label": "存在",
+          "value": "isPresent"
+        },
+        {
+          "label": "之前",
+          "value": "before"
+        },
+        {
+          "label": "之后",
+          "value": "after"
+        },
+        {
+          "label": "在最后",
+          "value": "inTheLast"
+        },
+        {
+          "label": "不在最后",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "在范围内",
+          "value": "inTheRange"
+        },
+        {
+          "label": "早于（日期）",
+          "value": "beforeDate"
+        },
+        {
+          "label": "晚于（日期）",
+          "value": "afterDate"
+        },
+        {
+          "label": "在（日期）范围内",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "是",
+          "value": "is"
+        },
+        {
+          "label": "不是",
+          "value": "isNot"
+        },
+        {
+          "label": "丢失的项目",
+          "value": "isMissing"
+        },
+        {
+          "label": "存在",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "在…中",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "不在…中",
+          "value": "notInPlaylist"
+        }
+      ]
+    },
+    "zh-Hant": {
+      "string": [
+        {
+          "label": "是",
+          "value": "is"
+        },
+        {
+          "label": "不是",
+          "value": "isNot"
+        },
+        {
+          "label": "不存在",
+          "value": "isMissing"
+        },
+        {
+          "label": "存在",
+          "value": "isPresent"
+        },
+        {
+          "label": "包含",
+          "value": "contains"
+        },
+        {
+          "label": "不包含",
+          "value": "notContains"
+        },
+        {
+          "label": "以…開頭",
+          "value": "startsWith"
+        },
+        {
+          "label": "以…結尾",
+          "value": "endsWith"
+        }
+      ],
+      "number": [
+        {
+          "label": "是",
+          "value": "is"
+        },
+        {
+          "label": "不是",
+          "value": "isNot"
+        },
+        {
+          "label": "不存在",
+          "value": "isMissing"
+        },
+        {
+          "label": "存在",
+          "value": "isPresent"
+        },
+        {
+          "label": "包含",
+          "value": "contains"
+        },
+        {
+          "label": "不包含",
+          "value": "notContains"
+        },
+        {
+          "label": "大於",
+          "value": "gt"
+        },
+        {
+          "label": "小於",
+          "value": "lt"
+        },
+        {
+          "label": "在範圍內",
+          "value": "inTheRange"
+        }
+      ],
+      "date": [
+        {
+          "label": "是",
+          "value": "is"
+        },
+        {
+          "label": "不是",
+          "value": "isNot"
+        },
+        {
+          "label": "不存在",
+          "value": "isMissing"
+        },
+        {
+          "label": "存在",
+          "value": "isPresent"
+        },
+        {
+          "label": "在…之前",
+          "value": "before"
+        },
+        {
+          "label": "在…之後",
+          "value": "after"
+        },
+        {
+          "label": "在最後",
+          "value": "inTheLast"
+        },
+        {
+          "label": "不在最後",
+          "value": "notInTheLast"
+        },
+        {
+          "label": "在範圍內",
+          "value": "inTheRange"
+        },
+        {
+          "label": "早於 (日期)",
+          "value": "beforeDate"
+        },
+        {
+          "label": "晚於 (日期)",
+          "value": "afterDate"
+        },
+        {
+          "label": "在（日期）範圍內",
+          "value": "inTheRangeDate"
+        }
+      ],
+      "boolean": [
+        {
+          "label": "是",
+          "value": "is"
+        },
+        {
+          "label": "不是",
+          "value": "isNot"
+        },
+        {
+          "label": "不存在",
+          "value": "isMissing"
+        },
+        {
+          "label": "存在",
+          "value": "isPresent"
+        }
+      ],
+      "playlist": [
+        {
+          "label": "在…之中",
+          "value": "inPlaylist"
+        },
+        {
+          "label": "不在…之中",
+          "value": "notInPlaylist"
+        }
+      ]
+    }
+  },
+  "sorts": [
+    {
+      "label": "Random",
+      "type": "string",
+      "value": "random"
+    },
+    {
+      "label": "Album",
+      "type": "string",
+      "value": "album"
+    },
+    {
+      "label": "Album Artist",
+      "type": "string",
+      "value": "albumartist"
+    },
+    {
+      "label": "Album Artists",
+      "type": "string",
+      "value": "albumartists"
+    },
+    {
+      "label": "Album Comment",
+      "type": "string",
+      "value": "albumcomment"
+    },
+    {
+      "label": "Album Date Added",
+      "type": "date",
+      "value": "albumdateadded"
+    },
+    {
+      "label": "Album Date Modified",
+      "type": "date",
+      "value": "albumdatemodified"
+    },
+    {
+      "label": "Album Duration",
+      "type": "number",
+      "value": "albumduration"
+    },
+    {
+      "label": "Album Song Count",
+      "type": "number",
+      "value": "albumsongcount"
+    },
+    {
+      "label": "Album Size",
+      "type": "number",
+      "value": "albumsize"
+    },
+    {
+      "label": "Album Date Favorited",
+      "type": "date",
+      "value": "albumdateloved"
+    },
+    {
+      "label": "Album Date Last Played",
+      "type": "date",
+      "value": "albumlastplayed"
+    },
+    {
+      "label": "Album Date Rated",
+      "type": "date",
+      "value": "albumdaterated"
+    },
+    {
+      "label": "Album Is Favorite",
+      "type": "boolean",
+      "value": "albumloved"
+    },
+    {
+      "label": "Album Play Count",
+      "type": "number",
+      "value": "albumplaycount"
+    },
+    {
+      "label": "Album Rating",
+      "type": "number",
+      "value": "albumrating"
+    },
+    {
+      "label": "Album Type",
+      "type": "string",
+      "value": "albumtype"
+    },
+    {
+      "label": "Album Version",
+      "type": "string",
+      "value": "albumversion"
+    },
+    {
+      "label": "Arranger",
+      "type": "string",
+      "value": "arranger"
+    },
+    {
+      "label": "Artist",
+      "type": "string",
+      "value": "artist"
+    },
+    {
+      "label": "Artist Date Favorited",
+      "type": "date",
+      "value": "artistdateloved"
+    },
+    {
+      "label": "Artist Date Last Played",
+      "type": "date",
+      "value": "artistlastplayed"
+    },
+    {
+      "label": "Artist Date Rated",
+      "type": "date",
+      "value": "artistdaterated"
+    },
+    {
+      "label": "Artist Is Favorite",
+      "type": "boolean",
+      "value": "artistloved"
+    },
+    {
+      "label": "Artist Play Count",
+      "type": "number",
+      "value": "artistplaycount"
+    },
+    {
+      "label": "Artist Rating",
+      "type": "number",
+      "value": "artistrating"
+    },
+    {
+      "label": "Artists",
+      "type": "string",
+      "value": "artists"
+    },
+    {
+      "label": "ASIN",
+      "type": "string",
+      "value": "asin"
+    },
+    {
+      "label": "Average Rating",
+      "type": "number",
+      "value": "averagerating"
+    },
+    {
+      "label": "Barcode",
+      "type": "string",
+      "value": "barcode"
+    },
+    {
+      "label": "Bit Depth",
+      "type": "number",
+      "value": "bitdepth"
+    },
+    {
+      "label": "Bitrate",
+      "type": "number",
+      "value": "bitrate"
+    },
+    {
+      "label": "BPM",
+      "type": "number",
+      "value": "bpm"
+    },
+    {
+      "label": "Catalog Number",
+      "type": "string",
+      "value": "catalognumber"
+    },
+    {
+      "label": "Channels",
+      "type": "number",
+      "value": "channels"
+    },
+    {
+      "label": "Comment",
+      "type": "string",
+      "value": "comment"
+    },
+    {
+      "label": "Composer",
+      "type": "string",
+      "value": "composer"
+    },
+    {
+      "label": "Codec",
+      "type": "string",
+      "value": "codec"
+    },
+    {
+      "label": "Conductor",
+      "type": "string",
+      "value": "conductor"
+    },
+    {
+      "label": "Copyright",
+      "type": "string",
+      "value": "copyright"
+    },
+    {
+      "label": "Date Added",
+      "type": "date",
+      "value": "dateadded"
+    },
+    {
+      "label": "Date Favorited",
+      "type": "date",
+      "value": "dateloved"
+    },
+    {
+      "label": "Date Last Played",
+      "type": "date",
+      "value": "lastplayed"
+    },
+    {
+      "label": "Date Modified",
+      "type": "date",
+      "value": "datemodified"
+    },
+    {
+      "label": "DJ Mixer",
+      "type": "string",
+      "value": "djmixer"
+    },
+    {
+      "label": "Director",
+      "type": "string",
+      "value": "director"
+    },
+    {
+      "label": "Disc Number",
+      "type": "number",
+      "value": "discnumber"
+    },
+    {
+      "label": "Disc Subtitle",
+      "type": "string",
+      "value": "discsubtitle"
+    },
+    {
+      "label": "Disc Total",
+      "type": "number",
+      "value": "disctotal"
+    },
+    {
+      "label": "Duration",
+      "type": "number",
+      "value": "duration"
+    },
+    {
+      "label": "Encoded By",
+      "type": "string",
+      "value": "encodedby"
+    },
+    {
+      "label": "Encoder Settings",
+      "type": "string",
+      "value": "encodersettings"
+    },
+    {
+      "label": "Engineer",
+      "type": "string",
+      "value": "engineer"
+    },
+    {
+      "label": "Explicit Status",
+      "type": "string",
+      "value": "explicitstatus"
+    },
+    {
+      "label": "File Path",
+      "type": "string",
+      "value": "filepath"
+    },
+    {
+      "label": "File Type",
+      "type": "string",
+      "value": "filetype"
+    },
+    {
+      "label": "Genre",
+      "type": "string",
+      "value": "genre"
+    },
+    {
+      "label": "Grouping",
+      "type": "string",
+      "value": "grouping"
+    },
+    {
+      "label": "Has CoverArt",
+      "type": "boolean",
+      "value": "hascoverart"
+    },
+    {
+      "label": "Is Compilation",
+      "type": "boolean",
+      "value": "compilation"
+    },
+    {
+      "label": "Is Favorite",
+      "type": "boolean",
+      "value": "loved"
+    },
+    {
+      "label": "ISRC",
+      "type": "string",
+      "value": "isrc"
+    },
+    {
+      "label": "Key",
+      "type": "string",
+      "value": "key"
+    },
+    {
+      "label": "Language",
+      "type": "string",
+      "value": "language"
+    },
+    {
+      "label": "License",
+      "type": "string",
+      "value": "license"
+    },
+    {
+      "label": "Library Id",
+      "type": "string",
+      "value": "library_id"
+    },
+    {
+      "label": "Lyricist",
+      "type": "string",
+      "value": "lyricist"
+    },
+    {
+      "label": "Lyrics",
+      "type": "string",
+      "value": "lyrics"
+    },
+    {
+      "label": "Media",
+      "type": "string",
+      "value": "media"
+    },
+    {
+      "label": "Missing",
+      "type": "boolean",
+      "value": "missing"
+    },
+    {
+      "label": "Mixer",
+      "type": "string",
+      "value": "mixer"
+    },
+    {
+      "label": "Mood",
+      "type": "string",
+      "value": "mood"
+    },
+    {
+      "label": "Movement",
+      "type": "string",
+      "value": "movement"
+    },
+    {
+      "label": "Movement Name",
+      "type": "string",
+      "value": "movementname"
+    },
+    {
+      "label": "Movement Total",
+      "type": "number",
+      "value": "movementtotal"
+    },
+    {
+      "label": "MusicBrainz Album Artist Id",
+      "type": "string",
+      "value": "mbz_album_artist_id"
+    },
+    {
+      "label": "MusicBrainz Album Id",
+      "type": "string",
+      "value": "mbz_album_id"
+    },
+    {
+      "label": "MusicBrainz Artist Id",
+      "type": "string",
+      "value": "mbz_artist_id"
+    },
+    {
+      "label": "MusicBrainz Arranger Id",
+      "type": "string",
+      "value": "musicbrainz_arrangerid"
+    },
+    {
+      "label": "MusicBrainz Composer Id",
+      "type": "string",
+      "value": "musicbrainz_composerid"
+    },
+    {
+      "label": "MusicBrainz Conductor Id",
+      "type": "string",
+      "value": "musicbrainz_conductorid"
+    },
+    {
+      "label": "MusicBrainz Director Id",
+      "type": "string",
+      "value": "musicbrainz_directorid"
+    },
+    {
+      "label": "MusicBrainz Disc Id",
+      "type": "string",
+      "value": "musicbrainz_discid"
+    },
+    {
+      "label": "MusicBrainz DJ Mixer Id",
+      "type": "string",
+      "value": "musicbrainz_djmixerid"
+    },
+    {
+      "label": "MusicBrainz Engineer Id",
+      "type": "string",
+      "value": "musicbrainz_engineerid"
+    },
+    {
+      "label": "MusicBrainz Lyricist Id",
+      "type": "string",
+      "value": "musicbrainz_lyricistid"
+    },
+    {
+      "label": "MusicBrainz Mixer Id",
+      "type": "string",
+      "value": "musicbrainz_mixerid"
+    },
+    {
+      "label": "MusicBrainz Performer Id",
+      "type": "string",
+      "value": "musicbrainz_performerid"
+    },
+    {
+      "label": "MusicBrainz Producer Id",
+      "type": "string",
+      "value": "musicbrainz_producerid"
+    },
+    {
+      "label": "MusicBrainz Recording Id",
+      "type": "string",
+      "value": "mbz_recording_id"
+    },
+    {
+      "label": "MusicBrainz Release Group Id",
+      "type": "string",
+      "value": "mbz_release_group_id"
+    },
+    {
+      "label": "MusicBrainz Release Track Id",
+      "type": "string",
+      "value": "mbz_release_track_id"
+    },
+    {
+      "label": "MusicBrainz Remixer Id",
+      "type": "string",
+      "value": "musicbrainz_remixerid"
+    },
+    {
+      "label": "MusicBrainz Track Id",
+      "type": "string",
+      "value": "musicbrainz_trackid"
+    },
+    {
+      "label": "MusicBrainz Work Id",
+      "type": "string",
+      "value": "musicbrainz_workid"
+    },
+    {
+      "label": "Name",
+      "type": "string",
+      "value": "title"
+    },
+    {
+      "label": "Original Date",
+      "type": "date",
+      "value": "originaldate"
+    },
+    {
+      "label": "Original Year",
+      "type": "number",
+      "value": "originalyear"
+    },
+    {
+      "label": "Performer",
+      "type": "string",
+      "value": "performer"
+    },
+    {
+      "label": "Play Count",
+      "type": "number",
+      "value": "playcount"
+    },
+    {
+      "label": "Playlist",
+      "type": "playlist",
+      "value": "id"
+    },
+    {
+      "label": "Producer",
+      "type": "string",
+      "value": "producer"
+    },
+    {
+      "label": "R128 Album Gain",
+      "type": "number",
+      "value": "r128_album_gain"
+    },
+    {
+      "label": "R128 Track Gain",
+      "type": "number",
+      "value": "r128_track_gain"
+    },
+    {
+      "label": "Rating",
+      "type": "number",
+      "value": "rating"
+    },
+    {
+      "label": "Record Label",
+      "type": "string",
+      "value": "recordlabel"
+    },
+    {
+      "label": "Recording Date",
+      "type": "date",
+      "value": "recordingdate"
+    },
+    {
+      "label": "Release Country",
+      "type": "string",
+      "value": "releasecountry"
+    },
+    {
+      "label": "Release Date",
+      "type": "date",
+      "value": "releasedate"
+    },
+    {
+      "label": "Release Status",
+      "type": "string",
+      "value": "releasestatus"
+    },
+    {
+      "label": "Release Type",
+      "type": "string",
+      "value": "releasetype"
+    },
+    {
+      "label": "ReplayGain Album Gain",
+      "type": "number",
+      "value": "replaygain_album_gain"
+    },
+    {
+      "label": "ReplayGain Album Peak",
+      "type": "number",
+      "value": "replaygain_album_peak"
+    },
+    {
+      "label": "ReplayGain Track Gain",
+      "type": "number",
+      "value": "replaygain_track_gain"
+    },
+    {
+      "label": "ReplayGain Track Peak",
+      "type": "number",
+      "value": "replaygain_track_peak"
+    },
+    {
+      "label": "Remixer",
+      "type": "string",
+      "value": "remixer"
+    },
+    {
+      "label": "Script",
+      "type": "string",
+      "value": "script"
+    },
+    {
+      "label": "Sample Rate",
+      "type": "number",
+      "value": "samplerate"
+    },
+    {
+      "label": "Size",
+      "type": "number",
+      "value": "size"
+    },
+    {
+      "label": "Sort Album",
+      "type": "string",
+      "value": "sortalbum"
+    },
+    {
+      "label": "Sort Album Artist",
+      "type": "string",
+      "value": "sortalbumartist"
+    },
+    {
+      "label": "Sort Album Artists",
+      "type": "string",
+      "value": "albumartistssort"
+    },
+    {
+      "label": "Sort Artist",
+      "type": "string",
+      "value": "sortartist"
+    },
+    {
+      "label": "Sort Artists",
+      "type": "string",
+      "value": "artistssort"
+    },
+    {
+      "label": "Sort Composer",
+      "type": "string",
+      "value": "composersort"
+    },
+    {
+      "label": "Sort Lyricist",
+      "type": "string",
+      "value": "lyricistsort"
+    },
+    {
+      "label": "Sort Name",
+      "type": "string",
+      "value": "sorttitle"
+    },
+    {
+      "label": "Subtitle",
+      "type": "string",
+      "value": "subtitle"
+    },
+    {
+      "label": "Track Number",
+      "type": "number",
+      "value": "tracknumber"
+    },
+    {
+      "label": "Track Total",
+      "type": "number",
+      "value": "tracktotal"
+    },
+    {
+      "label": "Website",
+      "type": "string",
+      "value": "website"
+    },
+    {
+      "label": "Work",
+      "type": "string",
+      "value": "work"
+    },
+    {
+      "label": "Year",
+      "type": "number",
+      "value": "year"
+    }
+  ],
+  "limits": [
+    {
+      "modeValue": "limit",
+      "value": 20,
+      "min": null,
+      "max": null,
+      "saved": {
+        "limit": 20,
+        "sortBy": [
+          "+dateAdded"
+        ]
+      }
+    },
+    {
+      "input": 2000001,
+      "modeValue": "limit",
+      "value": 2000001,
+      "min": null,
+      "max": null,
+      "saved": {
+        "limit": 2000001,
+        "sortBy": [
+          "+dateAdded"
+        ]
+      }
+    },
+    {
+      "mode": "limitPercent",
+      "modeValue": "limitPercent",
+      "value": null,
+      "min": 0,
+      "max": 100,
+      "saved": {
+        "sortBy": [
+          "+dateAdded"
+        ]
+      }
+    },
+    {
+      "input": 0,
+      "modeValue": "limitPercent",
+      "value": 0,
+      "min": 0,
+      "max": 100,
+      "saved": {
+        "limitPercent": 0,
+        "sortBy": [
+          "+dateAdded"
+        ]
+      }
+    },
+    {
+      "input": 25.5,
+      "modeValue": "limitPercent",
+      "value": 25.5,
+      "min": 0,
+      "max": 100,
+      "saved": {
+        "limitPercent": 25.5,
+        "sortBy": [
+          "+dateAdded"
+        ]
+      }
+    },
+    {
+      "mode": "limit",
+      "modeValue": "limit",
+      "value": 2000001,
+      "min": null,
+      "max": null,
+      "saved": {
+        "limit": 2000001,
+        "sortBy": [
+          "+dateAdded"
+        ]
+      }
+    },
+    {
+      "input": 0,
+      "modeValue": "limit",
+      "value": 0,
+      "min": null,
+      "max": null,
+      "saved": {
+        "limit": 0,
+        "sortBy": [
+          "+dateAdded"
+        ]
+      }
+    },
+    {
+      "input": 7.5,
+      "modeValue": "limit",
+      "value": 7.5,
+      "min": null,
+      "max": null,
+      "saved": {
+        "limit": 7.5,
+        "sortBy": [
+          "+dateAdded"
+        ]
+      }
+    },
+    {
+      "input": -1,
+      "modeValue": "limit",
+      "value": -1,
+      "min": null,
+      "max": null,
+      "saved": {
+        "limit": -1,
+        "sortBy": [
+          "+dateAdded"
+        ]
+      }
+    },
+    {
+      "input": "",
+      "modeValue": "limit",
+      "value": null,
+      "min": null,
+      "max": null,
+      "saved": {
+        "sortBy": [
+          "+dateAdded"
+        ]
+      }
+    },
+    {
+      "mode": "limitPercent",
+      "modeValue": "limitPercent",
+      "value": 25.5,
+      "min": 0,
+      "max": 100,
+      "saved": {
+        "limitPercent": 25.5,
+        "sortBy": [
+          "+dateAdded"
+        ]
+      }
+    },
+    {
+      "mode": "limit",
+      "modeValue": "limit",
+      "value": null,
+      "min": null,
+      "max": null,
+      "saved": {
+        "sortBy": [
+          "+dateAdded"
+        ]
+      }
+    }
+  ],
+  "sortStates": [
+    {
+      "sort": "",
+      "order": "desc",
+      "entries": [
+        {
+          "field": "dateAdded",
+          "order": "asc"
+        }
+      ],
+      "saved": "+dateAdded"
+    },
+    {
+      "sort": "title",
+      "order": "desc",
+      "entries": [
+        {
+          "field": "title",
+          "order": "desc"
+        }
+      ],
+      "saved": "-title"
+    },
+    {
+      "sort": "year,track",
+      "order": "desc",
+      "entries": [
+        {
+          "field": "year",
+          "order": "asc"
+        },
+        {
+          "field": "track",
+          "order": "asc"
+        }
+      ],
+      "saved": "+year,+track"
+    },
+    {
+      "sort": "-year,+track",
+      "order": "asc",
+      "entries": [
+        {
+          "field": "year",
+          "order": "desc"
+        },
+        {
+          "field": "track",
+          "order": "asc"
+        }
+      ],
+      "saved": "-year,+track"
+    },
+    {
+      "sort": "+year",
+      "order": "desc",
+      "entries": [
+        {
+          "field": "year",
+          "order": "asc"
+        }
+      ],
+      "saved": "+year"
+    },
+    {
+      "sort": " +year, -track ",
+      "order": "desc",
+      "entries": [
+        {
+          "field": "year",
+          "order": "asc"
+        },
+        {
+          "field": "track",
+          "order": "desc"
+        }
+      ],
+      "saved": "+year,-track"
+    },
+    {
+      "sort": "+",
+      "order": "asc",
+      "entries": [
+        {
+          "field": "",
+          "order": "asc"
+        }
+      ],
+      "saved": "+dateAdded"
+    }
+  ],
+  "editorActions": [
+    {
+      "action": "clear",
+      "saved": {
+        "all": []
+      },
+      "rules": [
+        {
+          "field": "",
+          "operator": "",
+          "value": ""
+        }
+      ],
+      "type": "all"
+    },
+    {
+      "action": "reset",
+      "saved": {
+        "any": [
+          {
+            "gt": {
+              "year": 1999
+            }
+          },
+          {
+            "all": [
+              {
+                "contains": {
+                  "title": "Original"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "rules": [
+        {
+          "field": "year",
+          "operator": "gt",
+          "value": 1999
+        }
+      ],
+      "type": "any"
+    }
+  ],
+  "playlistChoices": [
+    {
+      "label": "Other playlist",
+      "value": "other"
+    }
+  ]
+}

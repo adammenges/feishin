@@ -1,0 +1,5006 @@
+{
+  "locale": "en-US",
+  "raw": [
+    {
+      "id": "m0",
+      "tagName": "mood",
+      "tagValue": "Mood 10"
+    },
+    {
+      "id": "s0",
+      "tagName": "style",
+      "tagValue": "Mood 10"
+    },
+    {
+      "id": "m1",
+      "tagName": "mood",
+      "tagValue": "Mood 2"
+    },
+    {
+      "id": "s1",
+      "tagName": "style",
+      "tagValue": "Mood 2"
+    },
+    {
+      "id": "m2",
+      "tagName": "mood",
+      "tagValue": "Mood 02"
+    },
+    {
+      "id": "s2",
+      "tagName": "style",
+      "tagValue": "Mood 02"
+    },
+    {
+      "id": "m3",
+      "tagName": "mood",
+      "tagValue": "Ångström"
+    },
+    {
+      "id": "s3",
+      "tagName": "style",
+      "tagValue": "Ångström"
+    },
+    {
+      "id": "m4",
+      "tagName": "mood",
+      "tagValue": "Zulu"
+    },
+    {
+      "id": "s4",
+      "tagName": "style",
+      "tagValue": "Zulu"
+    },
+    {
+      "id": "m5",
+      "tagName": "mood",
+      "tagValue": "Äther"
+    },
+    {
+      "id": "s5",
+      "tagName": "style",
+      "tagValue": "Äther"
+    },
+    {
+      "id": "m6",
+      "tagName": "mood",
+      "tagValue": "alpha"
+    },
+    {
+      "id": "s6",
+      "tagName": "style",
+      "tagValue": "alpha"
+    },
+    {
+      "id": "m7",
+      "tagName": "mood",
+      "tagValue": "Alpha"
+    },
+    {
+      "id": "s7",
+      "tagName": "style",
+      "tagValue": "Alpha"
+    },
+    {
+      "id": "m8",
+      "tagName": "mood",
+      "tagValue": "éclair"
+    },
+    {
+      "id": "s8",
+      "tagName": "style",
+      "tagValue": "éclair"
+    },
+    {
+      "id": "m9",
+      "tagName": "mood",
+      "tagValue": "Eclair"
+    },
+    {
+      "id": "s9",
+      "tagName": "style",
+      "tagValue": "Eclair"
+    },
+    {
+      "id": "m10",
+      "tagName": "mood",
+      "tagValue": "a_b"
+    },
+    {
+      "id": "s10",
+      "tagName": "style",
+      "tagValue": "a_b"
+    },
+    {
+      "id": "m11",
+      "tagName": "mood",
+      "tagValue": "ab"
+    },
+    {
+      "id": "s11",
+      "tagName": "style",
+      "tagValue": "ab"
+    },
+    {
+      "id": "m12",
+      "tagName": "mood",
+      "tagValue": "a-b"
+    },
+    {
+      "id": "s12",
+      "tagName": "style",
+      "tagValue": "a-b"
+    },
+    {
+      "id": "m13",
+      "tagName": "mood",
+      "tagValue": "١٠"
+    },
+    {
+      "id": "s13",
+      "tagName": "style",
+      "tagValue": "١٠"
+    },
+    {
+      "id": "m14",
+      "tagName": "mood",
+      "tagValue": "٢"
+    },
+    {
+      "id": "s14",
+      "tagName": "style",
+      "tagValue": "٢"
+    },
+    {
+      "id": "m15",
+      "tagName": "mood",
+      "tagValue": "日本語"
+    },
+    {
+      "id": "s15",
+      "tagName": "style",
+      "tagValue": "日本語"
+    },
+    {
+      "id": "m16",
+      "tagName": "mood",
+      "tagValue": "東京"
+    },
+    {
+      "id": "s16",
+      "tagName": "style",
+      "tagValue": "東京"
+    },
+    {
+      "id": "m17",
+      "tagName": "mood",
+      "tagValue": "İstanbul"
+    },
+    {
+      "id": "s17",
+      "tagName": "style",
+      "tagValue": "İstanbul"
+    },
+    {
+      "id": "m18",
+      "tagName": "mood",
+      "tagValue": "istanbul"
+    },
+    {
+      "id": "s18",
+      "tagName": "style",
+      "tagValue": "istanbul"
+    },
+    {
+      "id": "m19",
+      "tagName": "mood",
+      "tagValue": "Calm"
+    },
+    {
+      "id": "s19",
+      "tagName": "style",
+      "tagValue": "Calm"
+    },
+    {
+      "id": "m20",
+      "tagName": "mood",
+      "tagValue": "calm"
+    },
+    {
+      "id": "s20",
+      "tagName": "style",
+      "tagValue": "calm"
+    },
+    {
+      "id": "m21",
+      "tagName": "mood",
+      "tagValue": ""
+    },
+    {
+      "id": "s21",
+      "tagName": "style",
+      "tagValue": ""
+    },
+    {
+      "id": "genre",
+      "tagName": "genre",
+      "tagValue": "Rock"
+    },
+    {
+      "id": "tracks",
+      "tagName": "tracktotal",
+      "tagValue": "12"
+    },
+    {
+      "id": "discs",
+      "tagName": "disctotal",
+      "tagValue": "2"
+    }
+  ],
+  "catalog": {
+    "excluded": {
+      "album": [
+        "asin",
+        "barcode",
+        "copyright",
+        "encodedby",
+        "isrc",
+        "key",
+        "language",
+        "musicbrainz_workid",
+        "script",
+        "website",
+        "work"
+      ],
+      "song": [
+        "disctotal",
+        "tracktotal"
+      ]
+    },
+    "tags": [
+      {
+        "name": "disctotal",
+        "options": [
+          {
+            "id": "discs",
+            "name": "2"
+          }
+        ]
+      },
+      {
+        "name": "mood",
+        "options": [
+          {
+            "id": "m21",
+            "name": ""
+          },
+          {
+            "id": "m14",
+            "name": "٢"
+          },
+          {
+            "id": "m13",
+            "name": "١٠"
+          },
+          {
+            "id": "m10",
+            "name": "a_b"
+          },
+          {
+            "id": "m12",
+            "name": "a-b"
+          },
+          {
+            "id": "m11",
+            "name": "ab"
+          },
+          {
+            "id": "m6",
+            "name": "alpha"
+          },
+          {
+            "id": "m7",
+            "name": "Alpha"
+          },
+          {
+            "id": "m3",
+            "name": "Ångström"
+          },
+          {
+            "id": "m5",
+            "name": "Äther"
+          },
+          {
+            "id": "m19",
+            "name": "Calm"
+          },
+          {
+            "id": "m20",
+            "name": "calm"
+          },
+          {
+            "id": "m9",
+            "name": "Eclair"
+          },
+          {
+            "id": "m8",
+            "name": "éclair"
+          },
+          {
+            "id": "m18",
+            "name": "istanbul"
+          },
+          {
+            "id": "m17",
+            "name": "İstanbul"
+          },
+          {
+            "id": "m1",
+            "name": "Mood 2"
+          },
+          {
+            "id": "m2",
+            "name": "Mood 02"
+          },
+          {
+            "id": "m0",
+            "name": "Mood 10"
+          },
+          {
+            "id": "m4",
+            "name": "Zulu"
+          },
+          {
+            "id": "m15",
+            "name": "日本語"
+          },
+          {
+            "id": "m16",
+            "name": "東京"
+          }
+        ]
+      },
+      {
+        "name": "style",
+        "options": [
+          {
+            "id": "s21",
+            "name": ""
+          },
+          {
+            "id": "s14",
+            "name": "٢"
+          },
+          {
+            "id": "s13",
+            "name": "١٠"
+          },
+          {
+            "id": "s10",
+            "name": "a_b"
+          },
+          {
+            "id": "s12",
+            "name": "a-b"
+          },
+          {
+            "id": "s11",
+            "name": "ab"
+          },
+          {
+            "id": "s6",
+            "name": "alpha"
+          },
+          {
+            "id": "s7",
+            "name": "Alpha"
+          },
+          {
+            "id": "s3",
+            "name": "Ångström"
+          },
+          {
+            "id": "s5",
+            "name": "Äther"
+          },
+          {
+            "id": "s19",
+            "name": "Calm"
+          },
+          {
+            "id": "s20",
+            "name": "calm"
+          },
+          {
+            "id": "s9",
+            "name": "Eclair"
+          },
+          {
+            "id": "s8",
+            "name": "éclair"
+          },
+          {
+            "id": "s18",
+            "name": "istanbul"
+          },
+          {
+            "id": "s17",
+            "name": "İstanbul"
+          },
+          {
+            "id": "s1",
+            "name": "Mood 2"
+          },
+          {
+            "id": "s2",
+            "name": "Mood 02"
+          },
+          {
+            "id": "s0",
+            "name": "Mood 10"
+          },
+          {
+            "id": "s4",
+            "name": "Zulu"
+          },
+          {
+            "id": "s15",
+            "name": "日本語"
+          },
+          {
+            "id": "s16",
+            "name": "東京"
+          }
+        ]
+      },
+      {
+        "name": "tracktotal",
+        "options": [
+          {
+            "id": "tracks",
+            "name": "12"
+          }
+        ]
+      }
+    ]
+  },
+  "jellyfinCatalog": {
+    "excluded": {
+      "album": [],
+      "song": []
+    },
+    "tags": [
+      {
+        "name": "Tags",
+        "options": [
+          {
+            "id": "",
+            "name": ""
+          },
+          {
+            "id": "٢",
+            "name": "٢"
+          },
+          {
+            "id": "١٠",
+            "name": "١٠"
+          },
+          {
+            "id": "a_b",
+            "name": "a_b"
+          },
+          {
+            "id": "a-b",
+            "name": "a-b"
+          },
+          {
+            "id": "ab",
+            "name": "ab"
+          },
+          {
+            "id": "alpha",
+            "name": "alpha"
+          },
+          {
+            "id": "Alpha",
+            "name": "Alpha"
+          },
+          {
+            "id": "Ångström",
+            "name": "Ångström"
+          },
+          {
+            "id": "Äther",
+            "name": "Äther"
+          },
+          {
+            "id": "Calm",
+            "name": "Calm"
+          },
+          {
+            "id": "calm",
+            "name": "calm"
+          },
+          {
+            "id": "Eclair",
+            "name": "Eclair"
+          },
+          {
+            "id": "éclair",
+            "name": "éclair"
+          },
+          {
+            "id": "istanbul",
+            "name": "istanbul"
+          },
+          {
+            "id": "İstanbul",
+            "name": "İstanbul"
+          },
+          {
+            "id": "Mood 2",
+            "name": "Mood 2"
+          },
+          {
+            "id": "Mood 02",
+            "name": "Mood 02"
+          },
+          {
+            "id": "Mood 10",
+            "name": "Mood 10"
+          },
+          {
+            "id": "Zulu",
+            "name": "Zulu"
+          },
+          {
+            "id": "日本語",
+            "name": "日本語"
+          },
+          {
+            "id": "東京",
+            "name": "東京"
+          }
+        ]
+      },
+      {
+        "name": "Studios",
+        "options": [
+          {
+            "id": "",
+            "name": ""
+          },
+          {
+            "id": "١٠",
+            "name": "١٠"
+          },
+          {
+            "id": "٢",
+            "name": "٢"
+          },
+          {
+            "id": "a_b",
+            "name": "a_b"
+          },
+          {
+            "id": "a-b",
+            "name": "a-b"
+          },
+          {
+            "id": "ab",
+            "name": "ab"
+          },
+          {
+            "id": "alpha",
+            "name": "alpha"
+          },
+          {
+            "id": "Alpha",
+            "name": "Alpha"
+          },
+          {
+            "id": "Ångström",
+            "name": "Ångström"
+          },
+          {
+            "id": "Äther",
+            "name": "Äther"
+          },
+          {
+            "id": "Calm",
+            "name": "Calm"
+          },
+          {
+            "id": "calm",
+            "name": "calm"
+          },
+          {
+            "id": "Eclair",
+            "name": "Eclair"
+          },
+          {
+            "id": "éclair",
+            "name": "éclair"
+          },
+          {
+            "id": "istanbul",
+            "name": "istanbul"
+          },
+          {
+            "id": "İstanbul",
+            "name": "İstanbul"
+          },
+          {
+            "id": "Mood 02",
+            "name": "Mood 02"
+          },
+          {
+            "id": "Mood 10",
+            "name": "Mood 10"
+          },
+          {
+            "id": "Mood 2",
+            "name": "Mood 2"
+          },
+          {
+            "id": "Zulu",
+            "name": "Zulu"
+          },
+          {
+            "id": "日本語",
+            "name": "日本語"
+          },
+          {
+            "id": "東京",
+            "name": "東京"
+          }
+        ]
+      }
+    ]
+  },
+  "cases": [
+    {
+      "source": "none",
+      "search": "",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": []
+    },
+    {
+      "source": "none",
+      "search": "",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "none",
+      "search": "a",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": []
+    },
+    {
+      "source": "none",
+      "search": "a",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "none",
+      "search": "mo",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": []
+    },
+    {
+      "source": "none",
+      "search": "mo",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "none",
+      "search": "٢",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": []
+    },
+    {
+      "source": "none",
+      "search": "٢",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverArtists",
+      "search": "",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "alpha",
+            "Alpha",
+            "Ångström",
+            "Äther",
+            "Calm",
+            "calm",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 2",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverArtists",
+      "search": "",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        },
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "Äther",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverArtists",
+      "search": "a",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "alpha",
+            "Alpha",
+            "Ångström",
+            "Äther",
+            "Calm",
+            "calm",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 2",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverArtists",
+      "search": "a",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        },
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "Äther",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverArtists",
+      "search": "mo",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "alpha",
+            "Alpha",
+            "Ångström",
+            "Äther",
+            "Calm",
+            "calm",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 2",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverArtists",
+      "search": "mo",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        },
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "Äther",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverArtists",
+      "search": "٢",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "alpha",
+            "Alpha",
+            "Ångström",
+            "Äther",
+            "Calm",
+            "calm",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 2",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverArtists",
+      "search": "٢",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        },
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "Äther",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverGenres",
+      "search": "",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "alpha",
+            "Alpha",
+            "Ångström",
+            "Äther",
+            "Calm",
+            "calm",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 2",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverGenres",
+      "search": "",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        },
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "Äther",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverGenres",
+      "search": "a",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "alpha",
+            "Alpha",
+            "Ångström",
+            "Äther",
+            "Calm",
+            "calm",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 2",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverGenres",
+      "search": "a",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        },
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "Äther",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverGenres",
+      "search": "mo",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "alpha",
+            "Alpha",
+            "Ångström",
+            "Äther",
+            "Calm",
+            "calm",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 2",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverGenres",
+      "search": "mo",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        },
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "Äther",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverGenres",
+      "search": "٢",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "alpha",
+            "Alpha",
+            "Ångström",
+            "Äther",
+            "Calm",
+            "calm",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 2",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "serverGenres",
+      "search": "٢",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        },
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "Äther",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "tag:mood",
+      "search": "",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "alpha",
+            "Alpha",
+            "Ångström",
+            "Äther",
+            "Calm",
+            "calm",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 2",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "tag:mood",
+      "search": "",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        },
+        {
+          "group": "Server",
+          "items": [
+            "٢",
+            "١٠",
+            "a_b",
+            "a-b",
+            "ab",
+            "Äther",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul",
+            "Mood 02",
+            "Mood 10",
+            "Zulu",
+            "日本語",
+            "東京"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "tag:mood",
+      "search": "a",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Server",
+          "items": [
+            "a_b",
+            "a-b",
+            "ab",
+            "alpha",
+            "Alpha",
+            "Calm",
+            "calm",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "tag:mood",
+      "search": "a",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        },
+        {
+          "group": "Server",
+          "items": [
+            "a_b",
+            "a-b",
+            "ab",
+            "Eclair",
+            "éclair",
+            "istanbul",
+            "İstanbul"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "tag:mood",
+      "search": "mo",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Server",
+          "items": [
+            "Mood 2",
+            "Mood 02",
+            "Mood 10"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "tag:mood",
+      "search": "mo",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        },
+        {
+          "group": "Server",
+          "items": [
+            "Mood 02",
+            "Mood 10"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "tag:mood",
+      "search": "٢",
+      "custom": [],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Server",
+          "items": [
+            "٢"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "tag:mood",
+      "search": "٢",
+      "custom": [
+        "Calm",
+        "alpha",
+        "Ångström",
+        "Mood 2"
+      ],
+      "server": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        {
+          "group": "Custom values",
+          "items": [
+            "alpha",
+            "Ångström",
+            "Calm",
+            "Mood 2"
+          ]
+        },
+        {
+          "group": "Server",
+          "items": [
+            "٢"
+          ]
+        }
+      ]
+    }
+  ],
+  "ordering": [
+    {
+      "language": "en-US",
+      "numeric": false,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "١٠",
+        "٢",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "calm",
+        "Calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 02",
+        "Mood 10",
+        "Mood 2",
+        "Zulu",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "en-US",
+      "numeric": true,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "calm",
+        "Calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "de",
+      "numeric": false,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "١٠",
+        "٢",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "calm",
+        "Calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 02",
+        "Mood 10",
+        "Mood 2",
+        "Zulu",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "de",
+      "numeric": true,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "calm",
+        "Calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "sv",
+      "numeric": false,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "١٠",
+        "٢",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "calm",
+        "Calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 02",
+        "Mood 10",
+        "Mood 2",
+        "Zulu",
+        "Ångström",
+        "Äther",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "sv",
+      "numeric": true,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "calm",
+        "Calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "Ångström",
+        "Äther",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "ja",
+      "numeric": false,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "١٠",
+        "٢",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "calm",
+        "Calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 02",
+        "Mood 10",
+        "Mood 2",
+        "Zulu",
+        "東京",
+        "日本語"
+      ]
+    },
+    {
+      "language": "ja",
+      "numeric": true,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "calm",
+        "Calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "東京",
+        "日本語"
+      ]
+    },
+    {
+      "language": "ar",
+      "numeric": false,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "١٠",
+        "٢",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "calm",
+        "Calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 02",
+        "Mood 10",
+        "Mood 2",
+        "Zulu",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "ar",
+      "numeric": true,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "calm",
+        "Calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "tr",
+      "numeric": false,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "١٠",
+        "٢",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "calm",
+        "Calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 02",
+        "Mood 10",
+        "Mood 2",
+        "Zulu",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "tr",
+      "numeric": true,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "calm",
+        "Calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "fr",
+      "numeric": false,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "١٠",
+        "٢",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "calm",
+        "Calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 02",
+        "Mood 10",
+        "Mood 2",
+        "Zulu",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "fr",
+      "numeric": true,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "calm",
+        "Calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "zh-Hans",
+      "numeric": false,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "١٠",
+        "٢",
+        "東京",
+        "日本語",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "calm",
+        "Calm",
+        "éclair",
+        "Eclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 02",
+        "Mood 10",
+        "Mood 2",
+        "Zulu"
+      ]
+    },
+    {
+      "language": "zh-Hans",
+      "numeric": true,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京"
+      ],
+      "expected": [
+        "",
+        "٢",
+        "١٠",
+        "東京",
+        "日本語",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "calm",
+        "Calm",
+        "éclair",
+        "Eclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "album",
+      "expected": "Album"
+    },
+    {
+      "name": "albumartist",
+      "expected": "Album Artist"
+    },
+    {
+      "name": "albumartists",
+      "expected": "Album Artists"
+    },
+    {
+      "name": "albumcomment",
+      "expected": "Album Comment"
+    },
+    {
+      "name": "albumdateadded",
+      "expected": "Album Date Added"
+    },
+    {
+      "name": "albumdatemodified",
+      "expected": "Album Date Modified"
+    },
+    {
+      "name": "albumduration",
+      "expected": "Album Duration"
+    },
+    {
+      "name": "albumsongcount",
+      "expected": "Album Song Count"
+    },
+    {
+      "name": "albumsize",
+      "expected": "Album Size"
+    },
+    {
+      "name": "albumdateloved",
+      "expected": "Album Date Favorited"
+    },
+    {
+      "name": "albumlastplayed",
+      "expected": "Album Date Last Played"
+    },
+    {
+      "name": "albumdaterated",
+      "expected": "Album Date Rated"
+    },
+    {
+      "name": "albumloved",
+      "expected": "Album Is Favorite"
+    },
+    {
+      "name": "albumplaycount",
+      "expected": "Album Play Count"
+    },
+    {
+      "name": "albumrating",
+      "expected": "Album Rating"
+    },
+    {
+      "name": "albumtype",
+      "expected": "Album Type"
+    },
+    {
+      "name": "albumversion",
+      "expected": "Album Version"
+    },
+    {
+      "name": "arranger",
+      "expected": "Arranger"
+    },
+    {
+      "name": "artist",
+      "expected": "Artist"
+    },
+    {
+      "name": "artistdateloved",
+      "expected": "Artist Date Favorited"
+    },
+    {
+      "name": "artistlastplayed",
+      "expected": "Artist Date Last Played"
+    },
+    {
+      "name": "artistdaterated",
+      "expected": "Artist Date Rated"
+    },
+    {
+      "name": "artistloved",
+      "expected": "Artist Is Favorite"
+    },
+    {
+      "name": "artistplaycount",
+      "expected": "Artist Play Count"
+    },
+    {
+      "name": "artistrating",
+      "expected": "Artist Rating"
+    },
+    {
+      "name": "artists",
+      "expected": "Artists"
+    },
+    {
+      "name": "asin",
+      "expected": "ASIN"
+    },
+    {
+      "name": "averagerating",
+      "expected": "Average Rating"
+    },
+    {
+      "name": "barcode",
+      "expected": "Barcode"
+    },
+    {
+      "name": "bitdepth",
+      "expected": "Bit Depth"
+    },
+    {
+      "name": "bitrate",
+      "expected": "Bitrate"
+    },
+    {
+      "name": "bpm",
+      "expected": "BPM"
+    },
+    {
+      "name": "catalognumber",
+      "expected": "Catalog Number"
+    },
+    {
+      "name": "channels",
+      "expected": "Channels"
+    },
+    {
+      "name": "comment",
+      "expected": "Comment"
+    },
+    {
+      "name": "composer",
+      "expected": "Composer"
+    },
+    {
+      "name": "codec",
+      "expected": "Codec"
+    },
+    {
+      "name": "conductor",
+      "expected": "Conductor"
+    },
+    {
+      "name": "copyright",
+      "expected": "Copyright"
+    },
+    {
+      "name": "dateadded",
+      "expected": "Date Added"
+    },
+    {
+      "name": "dateloved",
+      "expected": "Date Favorited"
+    },
+    {
+      "name": "lastplayed",
+      "expected": "Date Last Played"
+    },
+    {
+      "name": "datemodified",
+      "expected": "Date Modified"
+    },
+    {
+      "name": "djmixer",
+      "expected": "DJ Mixer"
+    },
+    {
+      "name": "director",
+      "expected": "Director"
+    },
+    {
+      "name": "discnumber",
+      "expected": "Disc Number"
+    },
+    {
+      "name": "discsubtitle",
+      "expected": "Disc Subtitle"
+    },
+    {
+      "name": "disctotal",
+      "expected": "Disc Total"
+    },
+    {
+      "name": "duration",
+      "expected": "Duration"
+    },
+    {
+      "name": "encodedby",
+      "expected": "Encoded By"
+    },
+    {
+      "name": "encodersettings",
+      "expected": "Encoder Settings"
+    },
+    {
+      "name": "engineer",
+      "expected": "Engineer"
+    },
+    {
+      "name": "explicitstatus",
+      "expected": "Explicit Status"
+    },
+    {
+      "name": "filepath",
+      "expected": "File Path"
+    },
+    {
+      "name": "filetype",
+      "expected": "File Type"
+    },
+    {
+      "name": "genre",
+      "expected": "Genre"
+    },
+    {
+      "name": "grouping",
+      "expected": "Grouping"
+    },
+    {
+      "name": "hascoverart",
+      "expected": "Has CoverArt"
+    },
+    {
+      "name": "compilation",
+      "expected": "Is Compilation"
+    },
+    {
+      "name": "loved",
+      "expected": "Is Favorite"
+    },
+    {
+      "name": "isrc",
+      "expected": "ISRC"
+    },
+    {
+      "name": "key",
+      "expected": "Key"
+    },
+    {
+      "name": "language",
+      "expected": "Language"
+    },
+    {
+      "name": "license",
+      "expected": "License"
+    },
+    {
+      "name": "library_id",
+      "expected": "Library Id"
+    },
+    {
+      "name": "lyricist",
+      "expected": "Lyricist"
+    },
+    {
+      "name": "lyrics",
+      "expected": "Lyrics"
+    },
+    {
+      "name": "media",
+      "expected": "Media"
+    },
+    {
+      "name": "missing",
+      "expected": "Missing"
+    },
+    {
+      "name": "mixer",
+      "expected": "Mixer"
+    },
+    {
+      "name": "mood",
+      "expected": "Mood"
+    },
+    {
+      "name": "movement",
+      "expected": "Movement"
+    },
+    {
+      "name": "movementname",
+      "expected": "Movement Name"
+    },
+    {
+      "name": "movementtotal",
+      "expected": "Movement Total"
+    },
+    {
+      "name": "mbz_album_artist_id",
+      "expected": "MusicBrainz Album Artist Id"
+    },
+    {
+      "name": "mbz_album_id",
+      "expected": "MusicBrainz Album Id"
+    },
+    {
+      "name": "mbz_artist_id",
+      "expected": "MusicBrainz Artist Id"
+    },
+    {
+      "name": "musicbrainz_arrangerid",
+      "expected": "MusicBrainz Arranger Id"
+    },
+    {
+      "name": "musicbrainz_composerid",
+      "expected": "MusicBrainz Composer Id"
+    },
+    {
+      "name": "musicbrainz_conductorid",
+      "expected": "MusicBrainz Conductor Id"
+    },
+    {
+      "name": "musicbrainz_directorid",
+      "expected": "MusicBrainz Director Id"
+    },
+    {
+      "name": "musicbrainz_discid",
+      "expected": "MusicBrainz Disc Id"
+    },
+    {
+      "name": "musicbrainz_djmixerid",
+      "expected": "MusicBrainz DJ Mixer Id"
+    },
+    {
+      "name": "musicbrainz_engineerid",
+      "expected": "MusicBrainz Engineer Id"
+    },
+    {
+      "name": "musicbrainz_lyricistid",
+      "expected": "MusicBrainz Lyricist Id"
+    },
+    {
+      "name": "musicbrainz_mixerid",
+      "expected": "MusicBrainz Mixer Id"
+    },
+    {
+      "name": "musicbrainz_performerid",
+      "expected": "MusicBrainz Performer Id"
+    },
+    {
+      "name": "musicbrainz_producerid",
+      "expected": "MusicBrainz Producer Id"
+    },
+    {
+      "name": "mbz_recording_id",
+      "expected": "MusicBrainz Recording Id"
+    },
+    {
+      "name": "mbz_release_group_id",
+      "expected": "MusicBrainz Release Group Id"
+    },
+    {
+      "name": "mbz_release_track_id",
+      "expected": "MusicBrainz Release Track Id"
+    },
+    {
+      "name": "musicbrainz_remixerid",
+      "expected": "MusicBrainz Remixer Id"
+    },
+    {
+      "name": "musicbrainz_trackid",
+      "expected": "MusicBrainz Track Id"
+    },
+    {
+      "name": "musicbrainz_workid",
+      "expected": "MusicBrainz Work Id"
+    },
+    {
+      "name": "title",
+      "expected": "Name"
+    },
+    {
+      "name": "originaldate",
+      "expected": "Original Date"
+    },
+    {
+      "name": "originalyear",
+      "expected": "Original Year"
+    },
+    {
+      "name": "performer",
+      "expected": "Performer"
+    },
+    {
+      "name": "playcount",
+      "expected": "Play Count"
+    },
+    {
+      "name": "id",
+      "expected": "Playlist"
+    },
+    {
+      "name": "producer",
+      "expected": "Producer"
+    },
+    {
+      "name": "r128_album_gain",
+      "expected": "R128 Album Gain"
+    },
+    {
+      "name": "r128_track_gain",
+      "expected": "R128 Track Gain"
+    },
+    {
+      "name": "rating",
+      "expected": "Rating"
+    },
+    {
+      "name": "recordlabel",
+      "expected": "Record Label"
+    },
+    {
+      "name": "recordingdate",
+      "expected": "Recording Date"
+    },
+    {
+      "name": "releasecountry",
+      "expected": "Release Country"
+    },
+    {
+      "name": "releasedate",
+      "expected": "Release Date"
+    },
+    {
+      "name": "releasestatus",
+      "expected": "Release Status"
+    },
+    {
+      "name": "releasetype",
+      "expected": "Release Type"
+    },
+    {
+      "name": "replaygain_album_gain",
+      "expected": "ReplayGain Album Gain"
+    },
+    {
+      "name": "replaygain_album_peak",
+      "expected": "ReplayGain Album Peak"
+    },
+    {
+      "name": "replaygain_track_gain",
+      "expected": "ReplayGain Track Gain"
+    },
+    {
+      "name": "replaygain_track_peak",
+      "expected": "ReplayGain Track Peak"
+    },
+    {
+      "name": "remixer",
+      "expected": "Remixer"
+    },
+    {
+      "name": "script",
+      "expected": "Script"
+    },
+    {
+      "name": "samplerate",
+      "expected": "Sample Rate"
+    },
+    {
+      "name": "size",
+      "expected": "Size"
+    },
+    {
+      "name": "sortalbum",
+      "expected": "Sort Album"
+    },
+    {
+      "name": "sortalbumartist",
+      "expected": "Sort Album Artist"
+    },
+    {
+      "name": "albumartistssort",
+      "expected": "Sort Album Artists"
+    },
+    {
+      "name": "sortartist",
+      "expected": "Sort Artist"
+    },
+    {
+      "name": "artistssort",
+      "expected": "Sort Artists"
+    },
+    {
+      "name": "composersort",
+      "expected": "Sort Composer"
+    },
+    {
+      "name": "lyricistsort",
+      "expected": "Sort Lyricist"
+    },
+    {
+      "name": "sorttitle",
+      "expected": "Sort Name"
+    },
+    {
+      "name": "subtitle",
+      "expected": "Subtitle"
+    },
+    {
+      "name": "tracknumber",
+      "expected": "Track Number"
+    },
+    {
+      "name": "tracktotal",
+      "expected": "Track Total"
+    },
+    {
+      "name": "website",
+      "expected": "Website"
+    },
+    {
+      "name": "work",
+      "expected": "Work"
+    },
+    {
+      "name": "year",
+      "expected": "Year"
+    },
+    {
+      "name": "",
+      "expected": ""
+    },
+    {
+      "name": "٢",
+      "expected": "٢"
+    },
+    {
+      "name": "١٠",
+      "expected": "١٠"
+    },
+    {
+      "name": "a_b",
+      "expected": "A_b"
+    },
+    {
+      "name": "a-b",
+      "expected": "A-b"
+    },
+    {
+      "name": "ab",
+      "expected": "Ab"
+    },
+    {
+      "name": "alpha",
+      "expected": "Alpha"
+    },
+    {
+      "name": "Alpha",
+      "expected": "Alpha"
+    },
+    {
+      "name": "Ångström",
+      "expected": "ÅNgström"
+    },
+    {
+      "name": "Äther",
+      "expected": "ÄTher"
+    },
+    {
+      "name": "Calm",
+      "expected": "Calm"
+    },
+    {
+      "name": "calm",
+      "expected": "Calm"
+    },
+    {
+      "name": "Eclair",
+      "expected": "Eclair"
+    },
+    {
+      "name": "éclair",
+      "expected": "éClair"
+    },
+    {
+      "name": "istanbul",
+      "expected": "Istanbul"
+    },
+    {
+      "name": "İstanbul",
+      "expected": "İStanbul"
+    },
+    {
+      "name": "Mood 2",
+      "expected": "Mood 2"
+    },
+    {
+      "name": "Mood 02",
+      "expected": "Mood 02"
+    },
+    {
+      "name": "Mood 10",
+      "expected": "Mood 10"
+    },
+    {
+      "name": "Zulu",
+      "expected": "Zulu"
+    },
+    {
+      "name": "日本語",
+      "expected": "日本語"
+    },
+    {
+      "name": "東京",
+      "expected": "東京"
+    },
+    {
+      "name": "MY_TAG",
+      "expected": "My_tag"
+    },
+    {
+      "name": "new Tag",
+      "expected": "New Tag"
+    },
+    {
+      "name": "éCLAIR",
+      "expected": "éClair"
+    },
+    {
+      "name": "aB",
+      "expected": "Ab"
+    },
+    {
+      "name": "a﻿B",
+      "expected": "A﻿B"
+    },
+    {
+      "name": "Tags",
+      "expected": "Tags"
+    },
+    {
+      "name": "Studios",
+      "expected": "Studios"
+    }
+  ],
+  "casing": [
+    {
+      "language": "en-US",
+      "numeric": false,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京",
+        "I",
+        "ı",
+        "İ",
+        "i",
+        "Istanbul",
+        "İstanbul",
+        "istanbul",
+        "ıstanbul",
+        "İ",
+        "Í",
+        "J́",
+        "ΣΟΣ",
+        "ΟΣ",
+        "Ёж"
+      ],
+      "lowercase": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "alpha",
+        "ångström",
+        "äther",
+        "calm",
+        "calm",
+        "eclair",
+        "éclair",
+        "istanbul",
+        "i̇stanbul",
+        "mood 2",
+        "mood 02",
+        "mood 10",
+        "zulu",
+        "日本語",
+        "東京",
+        "i",
+        "ı",
+        "i̇",
+        "i",
+        "istanbul",
+        "i̇stanbul",
+        "istanbul",
+        "ıstanbul",
+        "i̇",
+        "í",
+        "j́",
+        "σος",
+        "ος",
+        "ёж"
+      ],
+      "expected": [
+        "",
+        "١٠",
+        "٢",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "I",
+        "i",
+        "Í",
+        "İ",
+        "İ",
+        "istanbul",
+        "Istanbul",
+        "istanbul",
+        "İstanbul",
+        "İstanbul",
+        "ı",
+        "ıstanbul",
+        "J́",
+        "Mood 02",
+        "Mood 10",
+        "Mood 2",
+        "Zulu",
+        "ΟΣ",
+        "ΣΟΣ",
+        "Ёж",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "en-US",
+      "numeric": true,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京",
+        "I",
+        "ı",
+        "İ",
+        "i",
+        "Istanbul",
+        "İstanbul",
+        "istanbul",
+        "ıstanbul",
+        "İ",
+        "Í",
+        "J́",
+        "ΣΟΣ",
+        "ΟΣ",
+        "Ёж"
+      ],
+      "lowercase": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "alpha",
+        "ångström",
+        "äther",
+        "calm",
+        "calm",
+        "eclair",
+        "éclair",
+        "istanbul",
+        "i̇stanbul",
+        "mood 2",
+        "mood 02",
+        "mood 10",
+        "zulu",
+        "日本語",
+        "東京",
+        "i",
+        "ı",
+        "i̇",
+        "i",
+        "istanbul",
+        "i̇stanbul",
+        "istanbul",
+        "ıstanbul",
+        "i̇",
+        "í",
+        "j́",
+        "σος",
+        "ος",
+        "ёж"
+      ],
+      "expected": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "I",
+        "i",
+        "Í",
+        "İ",
+        "İ",
+        "istanbul",
+        "Istanbul",
+        "istanbul",
+        "İstanbul",
+        "İstanbul",
+        "ı",
+        "ıstanbul",
+        "J́",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "ΟΣ",
+        "ΣΟΣ",
+        "Ёж",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "tr",
+      "numeric": false,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京",
+        "I",
+        "ı",
+        "İ",
+        "i",
+        "Istanbul",
+        "İstanbul",
+        "istanbul",
+        "ıstanbul",
+        "İ",
+        "Í",
+        "J́",
+        "ΣΟΣ",
+        "ΟΣ",
+        "Ёж"
+      ],
+      "lowercase": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "alpha",
+        "ångström",
+        "äther",
+        "calm",
+        "calm",
+        "eclair",
+        "éclair",
+        "istanbul",
+        "istanbul",
+        "mood 2",
+        "mood 02",
+        "mood 10",
+        "zulu",
+        "日本語",
+        "東京",
+        "ı",
+        "ı",
+        "i",
+        "i",
+        "ıstanbul",
+        "istanbul",
+        "istanbul",
+        "ıstanbul",
+        "i",
+        "ı́",
+        "j́",
+        "σος",
+        "ος",
+        "ёж"
+      ],
+      "expected": [
+        "",
+        "١٠",
+        "٢",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "I",
+        "ı",
+        "Í",
+        "Istanbul",
+        "ıstanbul",
+        "İ",
+        "i",
+        "İ",
+        "istanbul",
+        "İstanbul",
+        "İstanbul",
+        "istanbul",
+        "J́",
+        "Mood 02",
+        "Mood 10",
+        "Mood 2",
+        "Zulu",
+        "ΟΣ",
+        "ΣΟΣ",
+        "Ёж",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "tr",
+      "numeric": true,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京",
+        "I",
+        "ı",
+        "İ",
+        "i",
+        "Istanbul",
+        "İstanbul",
+        "istanbul",
+        "ıstanbul",
+        "İ",
+        "Í",
+        "J́",
+        "ΣΟΣ",
+        "ΟΣ",
+        "Ёж"
+      ],
+      "lowercase": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "alpha",
+        "ångström",
+        "äther",
+        "calm",
+        "calm",
+        "eclair",
+        "éclair",
+        "istanbul",
+        "istanbul",
+        "mood 2",
+        "mood 02",
+        "mood 10",
+        "zulu",
+        "日本語",
+        "東京",
+        "ı",
+        "ı",
+        "i",
+        "i",
+        "ıstanbul",
+        "istanbul",
+        "istanbul",
+        "ıstanbul",
+        "i",
+        "ı́",
+        "j́",
+        "σος",
+        "ος",
+        "ёж"
+      ],
+      "expected": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "I",
+        "ı",
+        "Í",
+        "Istanbul",
+        "ıstanbul",
+        "İ",
+        "i",
+        "İ",
+        "istanbul",
+        "İstanbul",
+        "İstanbul",
+        "istanbul",
+        "J́",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "ΟΣ",
+        "ΣΟΣ",
+        "Ёж",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "az",
+      "numeric": false,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京",
+        "I",
+        "ı",
+        "İ",
+        "i",
+        "Istanbul",
+        "İstanbul",
+        "istanbul",
+        "ıstanbul",
+        "İ",
+        "Í",
+        "J́",
+        "ΣΟΣ",
+        "ΟΣ",
+        "Ёж"
+      ],
+      "lowercase": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "alpha",
+        "ångström",
+        "äther",
+        "calm",
+        "calm",
+        "eclair",
+        "éclair",
+        "istanbul",
+        "istanbul",
+        "mood 2",
+        "mood 02",
+        "mood 10",
+        "zulu",
+        "日本語",
+        "東京",
+        "ı",
+        "ı",
+        "i",
+        "i",
+        "ıstanbul",
+        "istanbul",
+        "istanbul",
+        "ıstanbul",
+        "i",
+        "ı́",
+        "j́",
+        "σος",
+        "ος",
+        "ёж"
+      ],
+      "expected": [
+        "",
+        "١٠",
+        "٢",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "I",
+        "ı",
+        "Í",
+        "Istanbul",
+        "ıstanbul",
+        "İ",
+        "i",
+        "İ",
+        "istanbul",
+        "İstanbul",
+        "İstanbul",
+        "istanbul",
+        "J́",
+        "Mood 02",
+        "Mood 10",
+        "Mood 2",
+        "Zulu",
+        "Ёж",
+        "ΟΣ",
+        "ΣΟΣ",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "az",
+      "numeric": true,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京",
+        "I",
+        "ı",
+        "İ",
+        "i",
+        "Istanbul",
+        "İstanbul",
+        "istanbul",
+        "ıstanbul",
+        "İ",
+        "Í",
+        "J́",
+        "ΣΟΣ",
+        "ΟΣ",
+        "Ёж"
+      ],
+      "lowercase": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "alpha",
+        "ångström",
+        "äther",
+        "calm",
+        "calm",
+        "eclair",
+        "éclair",
+        "istanbul",
+        "istanbul",
+        "mood 2",
+        "mood 02",
+        "mood 10",
+        "zulu",
+        "日本語",
+        "東京",
+        "ı",
+        "ı",
+        "i",
+        "i",
+        "ıstanbul",
+        "istanbul",
+        "istanbul",
+        "ıstanbul",
+        "i",
+        "ı́",
+        "j́",
+        "σος",
+        "ος",
+        "ёж"
+      ],
+      "expected": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "I",
+        "ı",
+        "Í",
+        "Istanbul",
+        "ıstanbul",
+        "İ",
+        "i",
+        "İ",
+        "istanbul",
+        "İstanbul",
+        "İstanbul",
+        "istanbul",
+        "J́",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "Ёж",
+        "ΟΣ",
+        "ΣΟΣ",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "lt",
+      "numeric": false,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京",
+        "I",
+        "ı",
+        "İ",
+        "i",
+        "Istanbul",
+        "İstanbul",
+        "istanbul",
+        "ıstanbul",
+        "İ",
+        "Í",
+        "J́",
+        "ΣΟΣ",
+        "ΟΣ",
+        "Ёж"
+      ],
+      "lowercase": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "alpha",
+        "ångström",
+        "äther",
+        "calm",
+        "calm",
+        "eclair",
+        "éclair",
+        "istanbul",
+        "i̇stanbul",
+        "mood 2",
+        "mood 02",
+        "mood 10",
+        "zulu",
+        "日本語",
+        "東京",
+        "i",
+        "ı",
+        "i̇",
+        "i",
+        "istanbul",
+        "i̇stanbul",
+        "istanbul",
+        "ıstanbul",
+        "i̇̇",
+        "i̇́",
+        "j̇́",
+        "σος",
+        "ος",
+        "ёж"
+      ],
+      "expected": [
+        "",
+        "١٠",
+        "٢",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "I",
+        "i",
+        "Í",
+        "İ",
+        "İ",
+        "istanbul",
+        "Istanbul",
+        "istanbul",
+        "İstanbul",
+        "İstanbul",
+        "ı",
+        "ıstanbul",
+        "J́",
+        "Mood 02",
+        "Mood 10",
+        "Mood 2",
+        "Zulu",
+        "ΟΣ",
+        "ΣΟΣ",
+        "Ёж",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "lt",
+      "numeric": true,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京",
+        "I",
+        "ı",
+        "İ",
+        "i",
+        "Istanbul",
+        "İstanbul",
+        "istanbul",
+        "ıstanbul",
+        "İ",
+        "Í",
+        "J́",
+        "ΣΟΣ",
+        "ΟΣ",
+        "Ёж"
+      ],
+      "lowercase": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "alpha",
+        "ångström",
+        "äther",
+        "calm",
+        "calm",
+        "eclair",
+        "éclair",
+        "istanbul",
+        "i̇stanbul",
+        "mood 2",
+        "mood 02",
+        "mood 10",
+        "zulu",
+        "日本語",
+        "東京",
+        "i",
+        "ı",
+        "i̇",
+        "i",
+        "istanbul",
+        "i̇stanbul",
+        "istanbul",
+        "ıstanbul",
+        "i̇̇",
+        "i̇́",
+        "j̇́",
+        "σος",
+        "ος",
+        "ёж"
+      ],
+      "expected": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "I",
+        "i",
+        "Í",
+        "İ",
+        "İ",
+        "istanbul",
+        "Istanbul",
+        "istanbul",
+        "İstanbul",
+        "İstanbul",
+        "ı",
+        "ıstanbul",
+        "J́",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "ΟΣ",
+        "ΣΟΣ",
+        "Ёж",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "el",
+      "numeric": false,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京",
+        "I",
+        "ı",
+        "İ",
+        "i",
+        "Istanbul",
+        "İstanbul",
+        "istanbul",
+        "ıstanbul",
+        "İ",
+        "Í",
+        "J́",
+        "ΣΟΣ",
+        "ΟΣ",
+        "Ёж"
+      ],
+      "lowercase": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "alpha",
+        "ångström",
+        "äther",
+        "calm",
+        "calm",
+        "eclair",
+        "éclair",
+        "istanbul",
+        "i̇stanbul",
+        "mood 2",
+        "mood 02",
+        "mood 10",
+        "zulu",
+        "日本語",
+        "東京",
+        "i",
+        "ı",
+        "i̇",
+        "i",
+        "istanbul",
+        "i̇stanbul",
+        "istanbul",
+        "ıstanbul",
+        "i̇",
+        "í",
+        "j́",
+        "σος",
+        "ος",
+        "ёж"
+      ],
+      "expected": [
+        "",
+        "١٠",
+        "٢",
+        "ΟΣ",
+        "ΣΟΣ",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "I",
+        "i",
+        "Í",
+        "İ",
+        "İ",
+        "istanbul",
+        "Istanbul",
+        "istanbul",
+        "İstanbul",
+        "İstanbul",
+        "ı",
+        "ıstanbul",
+        "J́",
+        "Mood 02",
+        "Mood 10",
+        "Mood 2",
+        "Zulu",
+        "Ёж",
+        "日本語",
+        "東京"
+      ]
+    },
+    {
+      "language": "el",
+      "numeric": true,
+      "input": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "istanbul",
+        "İstanbul",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "日本語",
+        "東京",
+        "I",
+        "ı",
+        "İ",
+        "i",
+        "Istanbul",
+        "İstanbul",
+        "istanbul",
+        "ıstanbul",
+        "İ",
+        "Í",
+        "J́",
+        "ΣΟΣ",
+        "ΟΣ",
+        "Ёж"
+      ],
+      "lowercase": [
+        "",
+        "٢",
+        "١٠",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "alpha",
+        "ångström",
+        "äther",
+        "calm",
+        "calm",
+        "eclair",
+        "éclair",
+        "istanbul",
+        "i̇stanbul",
+        "mood 2",
+        "mood 02",
+        "mood 10",
+        "zulu",
+        "日本語",
+        "東京",
+        "i",
+        "ı",
+        "i̇",
+        "i",
+        "istanbul",
+        "i̇stanbul",
+        "istanbul",
+        "ıstanbul",
+        "i̇",
+        "í",
+        "j́",
+        "σος",
+        "ος",
+        "ёж"
+      ],
+      "expected": [
+        "",
+        "٢",
+        "١٠",
+        "ΟΣ",
+        "ΣΟΣ",
+        "a_b",
+        "a-b",
+        "ab",
+        "alpha",
+        "Alpha",
+        "Ångström",
+        "Äther",
+        "Calm",
+        "calm",
+        "Eclair",
+        "éclair",
+        "I",
+        "i",
+        "Í",
+        "İ",
+        "İ",
+        "istanbul",
+        "Istanbul",
+        "istanbul",
+        "İstanbul",
+        "İstanbul",
+        "ı",
+        "ıstanbul",
+        "J́",
+        "Mood 2",
+        "Mood 02",
+        "Mood 10",
+        "Zulu",
+        "Ёж",
+        "日本語",
+        "東京"
+      ]
+    }
+  ]
+}

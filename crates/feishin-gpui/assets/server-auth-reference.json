@@ -1,0 +1,1291 @@
+{
+  "cases": [
+    {
+      "name": "valid",
+      "attempts": 1,
+      "delays": [
+        1000
+      ],
+      "states": [
+        "loading",
+        "valid"
+      ],
+      "navigation": [],
+      "updates": [
+        [
+          "server",
+          {
+            "isAdmin": true
+          }
+        ],
+        [
+          "server",
+          {
+            "features": {},
+            "version": "1.0"
+          }
+        ]
+      ],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "features"
+        ]
+      ]
+    },
+    {
+      "name": "permission-removed",
+      "attempts": 1,
+      "delays": [
+        1000
+      ],
+      "states": [
+        "loading",
+        "valid"
+      ],
+      "navigation": [],
+      "updates": [
+        [
+          "server",
+          {
+            "isAdmin": false
+          }
+        ],
+        [
+          "server",
+          {
+            "features": {},
+            "version": "1.0"
+          }
+        ]
+      ],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "features"
+        ]
+      ]
+    },
+    {
+      "name": "network-recovered",
+      "attempts": 2,
+      "delays": [
+        500,
+        1000
+      ],
+      "states": [
+        "loading",
+        "loading",
+        "valid"
+      ],
+      "navigation": [],
+      "updates": [
+        [
+          "server",
+          {
+            "isAdmin": true
+          }
+        ],
+        [
+          "server",
+          {
+            "features": {},
+            "version": "1.0"
+          }
+        ]
+      ],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "features"
+        ]
+      ]
+    },
+    {
+      "name": "network-unavailable",
+      "attempts": 2,
+      "delays": [
+        500
+      ],
+      "states": [
+        "loading",
+        "loading",
+        "invalid"
+      ],
+      "navigation": [
+        [
+          "/no-network",
+          {
+            "replace": true
+          }
+        ]
+      ],
+      "updates": [],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "name": "timeout-recovered",
+      "attempts": 2,
+      "delays": [
+        500,
+        1000
+      ],
+      "states": [
+        "loading",
+        "loading",
+        "valid"
+      ],
+      "navigation": [],
+      "updates": [
+        [
+          "server",
+          {
+            "isAdmin": false
+          }
+        ],
+        [
+          "server",
+          {
+            "features": {},
+            "version": "1.0"
+          }
+        ]
+      ],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "features"
+        ]
+      ]
+    },
+    {
+      "name": "aborted-unavailable",
+      "attempts": 2,
+      "delays": [
+        500
+      ],
+      "states": [
+        "loading",
+        "loading",
+        "invalid"
+      ],
+      "navigation": [
+        [
+          "/no-network",
+          {
+            "replace": true
+          }
+        ]
+      ],
+      "updates": [],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "name": "expired",
+      "attempts": 1,
+      "delays": [],
+      "states": [
+        "loading",
+        "invalid"
+      ],
+      "navigation": [],
+      "updates": [],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "current",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "forbidden",
+      "attempts": 1,
+      "delays": [],
+      "states": [
+        "loading",
+        "invalid"
+      ],
+      "navigation": [],
+      "updates": [],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "current",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "server-error",
+      "attempts": 1,
+      "delays": [],
+      "states": [
+        "loading",
+        "invalid"
+      ],
+      "navigation": [],
+      "updates": [],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "current",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "invalid-response",
+      "attempts": 1,
+      "delays": [],
+      "states": [
+        "loading",
+        "invalid"
+      ],
+      "navigation": [],
+      "updates": [],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "current",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "features-unavailable",
+      "attempts": 1,
+      "delays": [
+        1000
+      ],
+      "states": [
+        "loading",
+        "valid"
+      ],
+      "navigation": [],
+      "updates": [
+        [
+          "server",
+          {
+            "isAdmin": true
+          }
+        ]
+      ],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "features"
+        ]
+      ]
+    },
+    {
+      "name": "username-fallback",
+      "attempts": 1,
+      "delays": [
+        1000
+      ],
+      "states": [
+        "loading",
+        "valid"
+      ],
+      "navigation": [],
+      "updates": [
+        [
+          "server",
+          {
+            "isAdmin": true
+          }
+        ],
+        [
+          "server",
+          {
+            "features": {},
+            "version": "1.0"
+          }
+        ]
+      ],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "listener",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "features"
+        ]
+      ]
+    },
+    {
+      "name": "expired-saved-password",
+      "attempts": 1,
+      "delays": [
+        1000
+      ],
+      "states": [
+        "loading",
+        "valid"
+      ],
+      "navigation": [],
+      "updates": [
+        [
+          "server",
+          {
+            "credential": "renewed-token",
+            "isAdmin": true,
+            "userId": "account",
+            "username": "listener"
+          }
+        ],
+        [
+          "server",
+          {
+            "features": {},
+            "version": "1.0"
+          }
+        ]
+      ],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "password-get",
+          "server"
+        ],
+        [
+          "authenticate",
+          "http://localhost:8096",
+          "jellyfin"
+        ],
+        [
+          "features"
+        ]
+      ]
+    },
+    {
+      "name": "forbidden-saved-password",
+      "attempts": 1,
+      "delays": [
+        1000
+      ],
+      "states": [
+        "loading",
+        "valid"
+      ],
+      "navigation": [],
+      "updates": [
+        [
+          "server",
+          {
+            "credential": "renewed-token",
+            "isAdmin": true,
+            "userId": "account",
+            "username": "listener"
+          }
+        ],
+        [
+          "server",
+          {
+            "features": {},
+            "version": "1.0"
+          }
+        ]
+      ],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "password-get",
+          "server"
+        ],
+        [
+          "authenticate",
+          "http://localhost:8096",
+          "jellyfin"
+        ],
+        [
+          "features"
+        ]
+      ]
+    },
+    {
+      "name": "expired-password-missing",
+      "attempts": 1,
+      "delays": [],
+      "states": [
+        "loading",
+        "invalid"
+      ],
+      "navigation": [],
+      "updates": [],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "password-get",
+          "server"
+        ],
+        [
+          "password-remove",
+          "server"
+        ],
+        [
+          "current",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "renewal-rejected",
+      "attempts": 1,
+      "delays": [],
+      "states": [
+        "loading",
+        "invalid"
+      ],
+      "navigation": [],
+      "updates": [],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "password-get",
+          "server"
+        ],
+        [
+          "authenticate",
+          "http://localhost:8096",
+          "jellyfin"
+        ],
+        [
+          "password-remove",
+          "server"
+        ],
+        [
+          "current",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "renewal-server-failure",
+      "attempts": 1,
+      "delays": [],
+      "states": [
+        "loading",
+        "invalid"
+      ],
+      "navigation": [],
+      "updates": [],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "password-get",
+          "server"
+        ],
+        [
+          "authenticate",
+          "http://localhost:8096",
+          "jellyfin"
+        ],
+        [
+          "password-remove",
+          "server"
+        ],
+        [
+          "current",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "renewal-network-recovered",
+      "attempts": 2,
+      "delays": [
+        500,
+        1000
+      ],
+      "states": [
+        "loading",
+        "loading",
+        "valid"
+      ],
+      "navigation": [],
+      "updates": [
+        [
+          "server",
+          {
+            "credential": "renewed-token",
+            "isAdmin": true,
+            "userId": "account",
+            "username": "listener"
+          }
+        ],
+        [
+          "server",
+          {
+            "features": {},
+            "version": "1.0"
+          }
+        ]
+      ],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "password-get",
+          "server"
+        ],
+        [
+          "authenticate",
+          "http://localhost:8096",
+          "jellyfin"
+        ],
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "password-get",
+          "server"
+        ],
+        [
+          "authenticate",
+          "http://localhost:8096",
+          "jellyfin"
+        ],
+        [
+          "features"
+        ]
+      ]
+    },
+    {
+      "name": "renewal-network-unavailable",
+      "attempts": 2,
+      "delays": [
+        500
+      ],
+      "states": [
+        "loading",
+        "loading",
+        "invalid"
+      ],
+      "navigation": [
+        [
+          "/no-network",
+          {
+            "replace": true
+          }
+        ]
+      ],
+      "updates": [],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "password-get",
+          "server"
+        ],
+        [
+          "authenticate",
+          "http://localhost:8096",
+          "jellyfin"
+        ],
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "password-get",
+          "server"
+        ],
+        [
+          "authenticate",
+          "http://localhost:8096",
+          "jellyfin"
+        ]
+      ]
+    },
+    {
+      "name": "renewed-user-identity",
+      "attempts": 1,
+      "delays": [
+        1000
+      ],
+      "states": [
+        "loading",
+        "valid"
+      ],
+      "navigation": [],
+      "updates": [
+        [
+          "server",
+          {
+            "credential": "renewed-token",
+            "isAdmin": true,
+            "userId": "new-account",
+            "username": "listener"
+          }
+        ],
+        [
+          "server",
+          {
+            "features": {},
+            "version": "1.0"
+          }
+        ]
+      ],
+      "calls": [
+        [
+          "user",
+          {
+            "apiClientProps": {
+              "serverId": "server"
+            },
+            "query": {
+              "id": "account",
+              "username": "listener"
+            }
+          }
+        ],
+        [
+          "password-get",
+          "server"
+        ],
+        [
+          "authenticate",
+          "http://localhost:8096",
+          "jellyfin"
+        ],
+        [
+          "features"
+        ]
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "kind": "navidrome",
+      "remote": false,
+      "quick": false,
+      "fields": [
+        {
+          "type": "TextInput",
+          "field": "name",
+          "label": "form.addServer.input_name"
+        },
+        {
+          "type": "TextInput",
+          "field": "url",
+          "label": "form.addServer.input_url"
+        },
+        {
+          "type": "TextInput",
+          "field": "remoteUrl",
+          "label": "form.addServer.input_remoteUrl",
+          "description": "form.addServer.input_remoteUrlDescription",
+          "placeholder": "form.addServer.input_remoteUrlPlaceholder"
+        },
+        {
+          "type": "TextInput",
+          "field": "username",
+          "label": "form.addServer.input_username"
+        },
+        {
+          "type": "PasswordInput",
+          "field": "password",
+          "label": "form.addServer.input_password",
+          "description": "form.addServer.input_passwordNoSSO"
+        },
+        {
+          "type": "Checkbox",
+          "field": "savePassword",
+          "label": "form.addServer.input_savePassword"
+        }
+      ]
+    },
+    {
+      "kind": "navidrome",
+      "remote": true,
+      "quick": false,
+      "fields": [
+        {
+          "type": "TextInput",
+          "field": "name",
+          "label": "form.addServer.input_name"
+        },
+        {
+          "type": "TextInput",
+          "field": "url",
+          "label": "form.addServer.input_url"
+        },
+        {
+          "type": "TextInput",
+          "field": "remoteUrl",
+          "label": "form.addServer.input_remoteUrl",
+          "description": "form.addServer.input_remoteUrlDescription",
+          "placeholder": "form.addServer.input_remoteUrlPlaceholder"
+        },
+        {
+          "type": "Checkbox",
+          "field": "preferRemoteUrl",
+          "label": "form.addServer.input_preferRemoteUrl"
+        },
+        {
+          "type": "TextInput",
+          "field": "username",
+          "label": "form.addServer.input_username"
+        },
+        {
+          "type": "PasswordInput",
+          "field": "password",
+          "label": "form.addServer.input_password",
+          "description": "form.addServer.input_passwordNoSSO"
+        },
+        {
+          "type": "Checkbox",
+          "field": "savePassword",
+          "label": "form.addServer.input_savePassword"
+        }
+      ]
+    },
+    {
+      "kind": "jellyfin",
+      "remote": false,
+      "quick": false,
+      "fields": [
+        {
+          "type": "TextInput",
+          "field": "name",
+          "label": "form.addServer.input_name"
+        },
+        {
+          "type": "TextInput",
+          "field": "url",
+          "label": "form.addServer.input_url"
+        },
+        {
+          "type": "TextInput",
+          "field": "remoteUrl",
+          "label": "form.addServer.input_remoteUrl",
+          "description": "form.addServer.input_remoteUrlDescription",
+          "placeholder": "form.addServer.input_remoteUrlPlaceholder"
+        },
+        {
+          "type": "TextInput",
+          "field": "username",
+          "label": "form.addServer.input_username"
+        },
+        {
+          "type": "PasswordInput",
+          "field": "password",
+          "label": "form.addServer.input_password"
+        },
+        {
+          "type": "Checkbox",
+          "field": "preferInstantMix",
+          "label": "form.addServer.input_preferInstantMix",
+          "description": "form.addServer.input_preferInstantMixDescription"
+        },
+        {
+          "type": "Checkbox",
+          "field": "enableAudiobooks",
+          "label": "form.addServer.input_enableAudiobooks",
+          "description": "form.addServer.input_enableAudiobooksDescription"
+        }
+      ]
+    },
+    {
+      "kind": "jellyfin",
+      "remote": false,
+      "quick": true,
+      "fields": [
+        {
+          "type": "TextInput",
+          "field": "name",
+          "label": "form.addServer.input_name"
+        },
+        {
+          "type": "TextInput",
+          "field": "url",
+          "label": "form.addServer.input_url"
+        },
+        {
+          "type": "TextInput",
+          "field": "remoteUrl",
+          "label": "form.addServer.input_remoteUrl",
+          "description": "form.addServer.input_remoteUrlDescription",
+          "placeholder": "form.addServer.input_remoteUrlPlaceholder"
+        },
+        {
+          "type": "Checkbox",
+          "field": "preferInstantMix",
+          "label": "form.addServer.input_preferInstantMix",
+          "description": "form.addServer.input_preferInstantMixDescription"
+        },
+        {
+          "type": "Checkbox",
+          "field": "enableAudiobooks",
+          "label": "form.addServer.input_enableAudiobooks",
+          "description": "form.addServer.input_enableAudiobooksDescription"
+        }
+      ]
+    },
+    {
+      "kind": "jellyfin",
+      "remote": true,
+      "quick": false,
+      "fields": [
+        {
+          "type": "TextInput",
+          "field": "name",
+          "label": "form.addServer.input_name"
+        },
+        {
+          "type": "TextInput",
+          "field": "url",
+          "label": "form.addServer.input_url"
+        },
+        {
+          "type": "TextInput",
+          "field": "remoteUrl",
+          "label": "form.addServer.input_remoteUrl",
+          "description": "form.addServer.input_remoteUrlDescription",
+          "placeholder": "form.addServer.input_remoteUrlPlaceholder"
+        },
+        {
+          "type": "Checkbox",
+          "field": "preferRemoteUrl",
+          "label": "form.addServer.input_preferRemoteUrl"
+        },
+        {
+          "type": "TextInput",
+          "field": "username",
+          "label": "form.addServer.input_username"
+        },
+        {
+          "type": "PasswordInput",
+          "field": "password",
+          "label": "form.addServer.input_password"
+        },
+        {
+          "type": "Checkbox",
+          "field": "preferInstantMix",
+          "label": "form.addServer.input_preferInstantMix",
+          "description": "form.addServer.input_preferInstantMixDescription"
+        },
+        {
+          "type": "Checkbox",
+          "field": "enableAudiobooks",
+          "label": "form.addServer.input_enableAudiobooks",
+          "description": "form.addServer.input_enableAudiobooksDescription"
+        }
+      ]
+    },
+    {
+      "kind": "jellyfin",
+      "remote": true,
+      "quick": true,
+      "fields": [
+        {
+          "type": "TextInput",
+          "field": "name",
+          "label": "form.addServer.input_name"
+        },
+        {
+          "type": "TextInput",
+          "field": "url",
+          "label": "form.addServer.input_url"
+        },
+        {
+          "type": "TextInput",
+          "field": "remoteUrl",
+          "label": "form.addServer.input_remoteUrl",
+          "description": "form.addServer.input_remoteUrlDescription",
+          "placeholder": "form.addServer.input_remoteUrlPlaceholder"
+        },
+        {
+          "type": "Checkbox",
+          "field": "preferRemoteUrl",
+          "label": "form.addServer.input_preferRemoteUrl"
+        },
+        {
+          "type": "Checkbox",
+          "field": "preferInstantMix",
+          "label": "form.addServer.input_preferInstantMix",
+          "description": "form.addServer.input_preferInstantMixDescription"
+        },
+        {
+          "type": "Checkbox",
+          "field": "enableAudiobooks",
+          "label": "form.addServer.input_enableAudiobooks",
+          "description": "form.addServer.input_enableAudiobooksDescription"
+        }
+      ]
+    },
+    {
+      "kind": "subsonic",
+      "remote": false,
+      "quick": false,
+      "fields": [
+        {
+          "type": "TextInput",
+          "field": "name",
+          "label": "form.addServer.input_name"
+        },
+        {
+          "type": "TextInput",
+          "field": "url",
+          "label": "form.addServer.input_url"
+        },
+        {
+          "type": "TextInput",
+          "field": "remoteUrl",
+          "label": "form.addServer.input_remoteUrl",
+          "description": "form.addServer.input_remoteUrlDescription",
+          "placeholder": "form.addServer.input_remoteUrlPlaceholder"
+        },
+        {
+          "type": "TextInput",
+          "field": "username",
+          "label": "form.addServer.input_username"
+        },
+        {
+          "type": "PasswordInput",
+          "field": "password",
+          "label": "form.addServer.input_password"
+        },
+        {
+          "type": "Checkbox",
+          "field": "legacyAuth",
+          "label": "form.addServer.input_legacyAuthentication"
+        }
+      ]
+    },
+    {
+      "kind": "subsonic",
+      "remote": true,
+      "quick": false,
+      "fields": [
+        {
+          "type": "TextInput",
+          "field": "name",
+          "label": "form.addServer.input_name"
+        },
+        {
+          "type": "TextInput",
+          "field": "url",
+          "label": "form.addServer.input_url"
+        },
+        {
+          "type": "TextInput",
+          "field": "remoteUrl",
+          "label": "form.addServer.input_remoteUrl",
+          "description": "form.addServer.input_remoteUrlDescription",
+          "placeholder": "form.addServer.input_remoteUrlPlaceholder"
+        },
+        {
+          "type": "Checkbox",
+          "field": "preferRemoteUrl",
+          "label": "form.addServer.input_preferRemoteUrl"
+        },
+        {
+          "type": "TextInput",
+          "field": "username",
+          "label": "form.addServer.input_username"
+        },
+        {
+          "type": "PasswordInput",
+          "field": "password",
+          "label": "form.addServer.input_password"
+        },
+        {
+          "type": "Checkbox",
+          "field": "legacyAuth",
+          "label": "form.addServer.input_legacyAuthentication"
+        }
+      ]
+    }
+  ],
+  "page": {
+    "navigation": [
+      "/home"
+    ],
+    "labels": [
+      "error.noNetwork",
+      "error.noNetworkDescription",
+      "common.retry"
+    ],
+    "icon": {
+      "icon": "wifiOff",
+      "size": "4rem",
+      "children": []
+    }
+  }
+}

@@ -1,0 +1,124 @@
+[
+  {
+    "event": {
+      "at": 0,
+      "name": "Edited title"
+    },
+    "query": [
+      "Original song",
+      "Original artist"
+    ]
+  },
+  {
+    "event": {
+      "at": 250,
+      "artist": "Edited artist"
+    },
+    "query": [
+      "Original song",
+      "Original artist"
+    ]
+  },
+  {
+    "event": {
+      "at": 499
+    },
+    "query": [
+      "Original song",
+      "Original artist"
+    ]
+  },
+  {
+    "event": {
+      "at": 500
+    },
+    "query": [
+      "Edited title",
+      "Original artist"
+    ]
+  },
+  {
+    "event": {
+      "at": 749
+    },
+    "query": [
+      "Edited title",
+      "Original artist"
+    ]
+  },
+  {
+    "event": {
+      "at": 750
+    },
+    "query": [
+      "Edited title",
+      "Edited artist"
+    ]
+  },
+  {
+    "event": {
+      "at": 800,
+      "name": "Discarded title"
+    },
+    "query": [
+      "Edited title",
+      "Edited artist"
+    ]
+  },
+  {
+    "event": {
+      "at": 900,
+      "name": "Final title"
+    },
+    "query": [
+      "Edited title",
+      "Edited artist"
+    ]
+  },
+  {
+    "event": {
+      "at": 1000,
+      "artist": ""
+    },
+    "query": [
+      "Edited title",
+      "Edited artist"
+    ]
+  },
+  {
+    "event": {
+      "at": 1399
+    },
+    "query": [
+      "Edited title",
+      "Edited artist"
+    ]
+  },
+  {
+    "event": {
+      "at": 1400
+    },
+    "query": [
+      "Final title",
+      "Edited artist"
+    ]
+  },
+  {
+    "event": {
+      "at": 1499
+    },
+    "query": [
+      "Final title",
+      "Edited artist"
+    ]
+  },
+  {
+    "event": {
+      "at": 1500
+    },
+    "query": [
+      "Final title",
+      ""
+    ]
+  }
+]

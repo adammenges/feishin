@@ -1,0 +1,2834 @@
+[
+  {
+    "config": {
+      "rem": 16,
+      "language": "en",
+      "navigation": false,
+      "scanning": false
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          0,
+          80,
+          62
+        ],
+        "label": "Menu",
+        "icon": "LuMenu",
+        "iconBounds": [
+          28,
+          12,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          36,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          62,
+          80,
+          67.796875
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          76.3984375,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          101.3984375,
+          70.40625,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          129.796875,
+          80,
+          62
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          28,
+          141.796875,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          165.796875,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          191.796875,
+          80,
+          67.796875
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          206.1953125,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          231.1953125,
+          70.40625,
+          14
+        ]
+      }
+    ],
+    "buttons": [],
+    "calls": [],
+    "scrolledMenuY": -9.5,
+    "scrollTop": 9.5
+  },
+  {
+    "config": {
+      "rem": 16,
+      "language": "en",
+      "navigation": false,
+      "scanning": true
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          0,
+          80,
+          62
+        ],
+        "label": "Menu",
+        "icon": "CgSpinnerTwoAlt",
+        "iconBounds": [
+          28,
+          12,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          36,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          62,
+          80,
+          67.796875
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          76.3984375,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          101.3984375,
+          70.40625,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          129.796875,
+          80,
+          62
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          28,
+          141.796875,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          165.796875,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          191.796875,
+          80,
+          67.796875
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          206.1953125,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          231.1953125,
+          70.40625,
+          14
+        ]
+      }
+    ],
+    "buttons": [],
+    "calls": [],
+    "scrolledMenuY": -9.5,
+    "scrollTop": 9.5
+  },
+  {
+    "config": {
+      "rem": 16,
+      "language": "en",
+      "navigation": true,
+      "scanning": false
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          48.796875,
+          80,
+          62
+        ],
+        "label": "Menu",
+        "icon": "LuMenu",
+        "iconBounds": [
+          28,
+          60.796875,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          84.796875,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          110.796875,
+          80,
+          67.796875
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          125.1953125,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          150.1953125,
+          70.40625,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          178.59375,
+          80,
+          62
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          28,
+          190.59375,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          214.59375,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          240.59375,
+          80,
+          67.796875
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          254.9921875,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          279.9921875,
+          70.40625,
+          14
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "bounds": [
+          0,
+          0,
+          40,
+          48.796875
+        ],
+        "iconBounds": [
+          11,
+          15.3984375,
+          18,
+          18
+        ]
+      },
+      {
+        "bounds": [
+          40,
+          0,
+          40,
+          48.796875
+        ],
+        "iconBounds": [
+          51,
+          15.3984375,
+          18,
+          18
+        ]
+      }
+    ],
+    "calls": [
+      -1,
+      1
+    ],
+    "scrolledMenuY": -9.703125,
+    "scrollTop": 58.5
+  },
+  {
+    "config": {
+      "rem": 16,
+      "language": "en",
+      "navigation": true,
+      "scanning": true
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          48.796875,
+          80,
+          62
+        ],
+        "label": "Menu",
+        "icon": "CgSpinnerTwoAlt",
+        "iconBounds": [
+          28,
+          60.796875,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          84.796875,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          110.796875,
+          80,
+          67.796875
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          125.1953125,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          150.1953125,
+          70.40625,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          178.59375,
+          80,
+          62
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          28,
+          190.59375,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          214.59375,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          240.59375,
+          80,
+          67.796875
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          254.9921875,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          279.9921875,
+          70.40625,
+          14
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "bounds": [
+          0,
+          0,
+          40,
+          48.796875
+        ],
+        "iconBounds": [
+          11,
+          15.3984375,
+          18,
+          18
+        ]
+      },
+      {
+        "bounds": [
+          40,
+          0,
+          40,
+          48.796875
+        ],
+        "iconBounds": [
+          51,
+          15.3984375,
+          18,
+          18
+        ]
+      }
+    ],
+    "calls": [
+      -1,
+      1
+    ],
+    "scrolledMenuY": -9.703125,
+    "scrollTop": 58.5
+  },
+  {
+    "config": {
+      "rem": 16,
+      "language": "fr",
+      "navigation": false,
+      "scanning": false
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          0,
+          80,
+          62
+        ],
+        "label": "Menu",
+        "icon": "LuMenu",
+        "iconBounds": [
+          28,
+          12,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          36,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          62,
+          80,
+          67.796875
+        ],
+        "label": "Accueil",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          76.3984375,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          101.3984375,
+          70.40625,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          129.796875,
+          80,
+          62
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          28,
+          141.796875,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          165.796875,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          191.796875,
+          80,
+          67.796875
+        ],
+        "label": "Paramètres",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          206.1953125,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          231.1953125,
+          70.40625,
+          14
+        ]
+      }
+    ],
+    "buttons": [],
+    "calls": [],
+    "scrolledMenuY": -9.5,
+    "scrollTop": 9.5
+  },
+  {
+    "config": {
+      "rem": 16,
+      "language": "fr",
+      "navigation": false,
+      "scanning": true
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          0,
+          80,
+          62
+        ],
+        "label": "Menu",
+        "icon": "CgSpinnerTwoAlt",
+        "iconBounds": [
+          28,
+          12,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          36,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          62,
+          80,
+          67.796875
+        ],
+        "label": "Accueil",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          76.3984375,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          101.3984375,
+          70.40625,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          129.796875,
+          80,
+          62
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          28,
+          141.796875,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          165.796875,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          191.796875,
+          80,
+          67.796875
+        ],
+        "label": "Paramètres",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          206.1953125,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          231.1953125,
+          70.40625,
+          14
+        ]
+      }
+    ],
+    "buttons": [],
+    "calls": [],
+    "scrolledMenuY": -9.5,
+    "scrollTop": 9.5
+  },
+  {
+    "config": {
+      "rem": 16,
+      "language": "fr",
+      "navigation": true,
+      "scanning": false
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          48.796875,
+          80,
+          62
+        ],
+        "label": "Menu",
+        "icon": "LuMenu",
+        "iconBounds": [
+          28,
+          60.796875,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          84.796875,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          110.796875,
+          80,
+          67.796875
+        ],
+        "label": "Accueil",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          125.1953125,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          150.1953125,
+          70.40625,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          178.59375,
+          80,
+          62
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          28,
+          190.59375,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          214.59375,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          240.59375,
+          80,
+          67.796875
+        ],
+        "label": "Paramètres",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          254.9921875,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          279.9921875,
+          70.40625,
+          14
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "bounds": [
+          0,
+          0,
+          40,
+          48.796875
+        ],
+        "iconBounds": [
+          11,
+          15.3984375,
+          18,
+          18
+        ]
+      },
+      {
+        "bounds": [
+          40,
+          0,
+          40,
+          48.796875
+        ],
+        "iconBounds": [
+          51,
+          15.3984375,
+          18,
+          18
+        ]
+      }
+    ],
+    "calls": [
+      -1,
+      1
+    ],
+    "scrolledMenuY": -9.703125,
+    "scrollTop": 58.5
+  },
+  {
+    "config": {
+      "rem": 16,
+      "language": "fr",
+      "navigation": true,
+      "scanning": true
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          48.796875,
+          80,
+          62
+        ],
+        "label": "Menu",
+        "icon": "CgSpinnerTwoAlt",
+        "iconBounds": [
+          28,
+          60.796875,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          84.796875,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          110.796875,
+          80,
+          67.796875
+        ],
+        "label": "Accueil",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          125.1953125,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          150.1953125,
+          70.40625,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          178.59375,
+          80,
+          62
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          28,
+          190.59375,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          214.59375,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          240.59375,
+          80,
+          67.796875
+        ],
+        "label": "Paramètres",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          254.9921875,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          279.9921875,
+          70.40625,
+          14
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "bounds": [
+          0,
+          0,
+          40,
+          48.796875
+        ],
+        "iconBounds": [
+          11,
+          15.3984375,
+          18,
+          18
+        ]
+      },
+      {
+        "bounds": [
+          40,
+          0,
+          40,
+          48.796875
+        ],
+        "iconBounds": [
+          51,
+          15.3984375,
+          18,
+          18
+        ]
+      }
+    ],
+    "calls": [
+      -1,
+      1
+    ],
+    "scrolledMenuY": -9.703125,
+    "scrollTop": 58.5
+  },
+  {
+    "config": {
+      "rem": 16,
+      "language": "ar",
+      "navigation": false,
+      "scanning": false
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          0,
+          80,
+          62
+        ],
+        "label": "القائمة",
+        "icon": "LuMenu",
+        "iconBounds": [
+          28,
+          12,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          36,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          62,
+          80,
+          67.796875
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          76.3984375,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          101.3984375,
+          70.40625,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          129.796875,
+          80,
+          62
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          28,
+          141.796875,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          165.796875,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          191.796875,
+          80,
+          67.796875
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          206.1953125,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          231.1953125,
+          70.40625,
+          14
+        ]
+      }
+    ],
+    "buttons": [],
+    "calls": [],
+    "scrolledMenuY": -9.5,
+    "scrollTop": 9.5
+  },
+  {
+    "config": {
+      "rem": 16,
+      "language": "ar",
+      "navigation": false,
+      "scanning": true
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          0,
+          80,
+          62
+        ],
+        "label": "القائمة",
+        "icon": "CgSpinnerTwoAlt",
+        "iconBounds": [
+          28,
+          12,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          36,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          62,
+          80,
+          67.796875
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          76.3984375,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          101.3984375,
+          70.40625,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          129.796875,
+          80,
+          62
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          28,
+          141.796875,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          165.796875,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          191.796875,
+          80,
+          67.796875
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          206.1953125,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          231.1953125,
+          70.40625,
+          14
+        ]
+      }
+    ],
+    "buttons": [],
+    "calls": [],
+    "scrolledMenuY": -9.5,
+    "scrollTop": 9.5
+  },
+  {
+    "config": {
+      "rem": 16,
+      "language": "ar",
+      "navigation": true,
+      "scanning": false
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          48.796875,
+          80,
+          62
+        ],
+        "label": "القائمة",
+        "icon": "LuMenu",
+        "iconBounds": [
+          28,
+          60.796875,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          84.796875,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          110.796875,
+          80,
+          67.796875
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          125.1953125,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          150.1953125,
+          70.40625,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          178.59375,
+          80,
+          62
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          28,
+          190.59375,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          214.59375,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          240.59375,
+          80,
+          67.796875
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          254.9921875,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          279.9921875,
+          70.40625,
+          14
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "bounds": [
+          40,
+          0,
+          40,
+          48.796875
+        ],
+        "iconBounds": [
+          51,
+          15.3984375,
+          18,
+          18
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          0,
+          40,
+          48.796875
+        ],
+        "iconBounds": [
+          11,
+          15.3984375,
+          18,
+          18
+        ]
+      }
+    ],
+    "calls": [
+      -1,
+      1
+    ],
+    "scrolledMenuY": -9.703125,
+    "scrollTop": 58.5
+  },
+  {
+    "config": {
+      "rem": 16,
+      "language": "ar",
+      "navigation": true,
+      "scanning": true
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          48.796875,
+          80,
+          62
+        ],
+        "label": "القائمة",
+        "icon": "CgSpinnerTwoAlt",
+        "iconBounds": [
+          28,
+          60.796875,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          84.796875,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          110.796875,
+          80,
+          67.796875
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          125.1953125,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          150.1953125,
+          70.40625,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          178.59375,
+          80,
+          62
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          28,
+          190.59375,
+          24,
+          24
+        ],
+        "labelBounds": [
+          0,
+          214.59375,
+          80,
+          14
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          240.59375,
+          80,
+          67.796875
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          254.9921875,
+          25,
+          25
+        ],
+        "labelBounds": [
+          4.796875,
+          279.9921875,
+          70.40625,
+          14
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "bounds": [
+          40,
+          0,
+          40,
+          48.796875
+        ],
+        "iconBounds": [
+          51,
+          15.3984375,
+          18,
+          18
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          0,
+          40,
+          48.796875
+        ],
+        "iconBounds": [
+          11,
+          15.3984375,
+          18,
+          18
+        ]
+      }
+    ],
+    "calls": [
+      -1,
+      1
+    ],
+    "scrolledMenuY": -9.703125,
+    "scrollTop": 58.5
+  },
+  {
+    "config": {
+      "rem": 20,
+      "language": "en",
+      "navigation": false,
+      "scanning": false
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          0,
+          80,
+          77.5
+        ],
+        "label": "Menu",
+        "icon": "LuMenu",
+        "iconBounds": [
+          25,
+          15,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          45,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          77.5,
+          80,
+          78.5
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          95.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          120.5,
+          68,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          156,
+          80,
+          77.5
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          25,
+          171,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          201,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          233.5,
+          80,
+          78.5
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          251.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          276.5,
+          68,
+          17.5
+        ]
+      }
+    ],
+    "buttons": [],
+    "calls": [],
+    "scrolledMenuY": -62,
+    "scrollTop": 62
+  },
+  {
+    "config": {
+      "rem": 20,
+      "language": "en",
+      "navigation": false,
+      "scanning": true
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          0,
+          80,
+          77.5
+        ],
+        "label": "Menu",
+        "icon": "CgSpinnerTwoAlt",
+        "iconBounds": [
+          25,
+          15,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          45,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          77.5,
+          80,
+          78.5
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          95.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          120.5,
+          68,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          156,
+          80,
+          77.5
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          25,
+          171,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          201,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          233.5,
+          80,
+          78.5
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          251.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          276.5,
+          68,
+          17.5
+        ]
+      }
+    ],
+    "buttons": [],
+    "calls": [],
+    "scrolledMenuY": -62,
+    "scrollTop": 62
+  },
+  {
+    "config": {
+      "rem": 20,
+      "language": "en",
+      "navigation": true,
+      "scanning": false
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          121,
+          80,
+          77.5
+        ],
+        "label": "Menu",
+        "icon": "LuMenu",
+        "iconBounds": [
+          25,
+          136,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          166,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          198.5,
+          80,
+          78.5
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          216.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          241.5,
+          68,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          277,
+          80,
+          77.5
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          25,
+          292,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          322,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          354.5,
+          80,
+          78.5
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          372.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          397.5,
+          68,
+          17.5
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "bounds": [
+          0,
+          0,
+          45,
+          60.5
+        ],
+        "iconBounds": [
+          11.25,
+          19,
+          22.5,
+          22.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          60.5,
+          45,
+          60.5
+        ],
+        "iconBounds": [
+          11.25,
+          79.5,
+          22.5,
+          22.5
+        ]
+      }
+    ],
+    "calls": [
+      -1,
+      1
+    ],
+    "scrolledMenuY": 21,
+    "scrollTop": 100
+  },
+  {
+    "config": {
+      "rem": 20,
+      "language": "en",
+      "navigation": true,
+      "scanning": true
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          121,
+          80,
+          77.5
+        ],
+        "label": "Menu",
+        "icon": "CgSpinnerTwoAlt",
+        "iconBounds": [
+          25,
+          136,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          166,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          198.5,
+          80,
+          78.5
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          216.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          241.5,
+          68,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          277,
+          80,
+          77.5
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          25,
+          292,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          322,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          354.5,
+          80,
+          78.5
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          372.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          397.5,
+          68,
+          17.5
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "bounds": [
+          0,
+          0,
+          45,
+          60.5
+        ],
+        "iconBounds": [
+          11.25,
+          19,
+          22.5,
+          22.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          60.5,
+          45,
+          60.5
+        ],
+        "iconBounds": [
+          11.25,
+          79.5,
+          22.5,
+          22.5
+        ]
+      }
+    ],
+    "calls": [
+      -1,
+      1
+    ],
+    "scrolledMenuY": 21,
+    "scrollTop": 100
+  },
+  {
+    "config": {
+      "rem": 20,
+      "language": "fr",
+      "navigation": false,
+      "scanning": false
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          0,
+          80,
+          77.5
+        ],
+        "label": "Menu",
+        "icon": "LuMenu",
+        "iconBounds": [
+          25,
+          15,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          45,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          77.5,
+          80,
+          78.5
+        ],
+        "label": "Accueil",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          95.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          120.5,
+          68,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          156,
+          80,
+          77.5
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          25,
+          171,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          201,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          233.5,
+          80,
+          78.5
+        ],
+        "label": "Paramètres",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          251.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          276.5,
+          68,
+          17.5
+        ]
+      }
+    ],
+    "buttons": [],
+    "calls": [],
+    "scrolledMenuY": -62,
+    "scrollTop": 62
+  },
+  {
+    "config": {
+      "rem": 20,
+      "language": "fr",
+      "navigation": false,
+      "scanning": true
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          0,
+          80,
+          77.5
+        ],
+        "label": "Menu",
+        "icon": "CgSpinnerTwoAlt",
+        "iconBounds": [
+          25,
+          15,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          45,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          77.5,
+          80,
+          78.5
+        ],
+        "label": "Accueil",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          95.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          120.5,
+          68,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          156,
+          80,
+          77.5
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          25,
+          171,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          201,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          233.5,
+          80,
+          78.5
+        ],
+        "label": "Paramètres",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          251.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          276.5,
+          68,
+          17.5
+        ]
+      }
+    ],
+    "buttons": [],
+    "calls": [],
+    "scrolledMenuY": -62,
+    "scrollTop": 62
+  },
+  {
+    "config": {
+      "rem": 20,
+      "language": "fr",
+      "navigation": true,
+      "scanning": false
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          121,
+          80,
+          77.5
+        ],
+        "label": "Menu",
+        "icon": "LuMenu",
+        "iconBounds": [
+          25,
+          136,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          166,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          198.5,
+          80,
+          78.5
+        ],
+        "label": "Accueil",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          216.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          241.5,
+          68,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          277,
+          80,
+          77.5
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          25,
+          292,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          322,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          354.5,
+          80,
+          78.5
+        ],
+        "label": "Paramètres",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          372.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          397.5,
+          68,
+          17.5
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "bounds": [
+          0,
+          0,
+          45,
+          60.5
+        ],
+        "iconBounds": [
+          11.25,
+          19,
+          22.5,
+          22.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          60.5,
+          45,
+          60.5
+        ],
+        "iconBounds": [
+          11.25,
+          79.5,
+          22.5,
+          22.5
+        ]
+      }
+    ],
+    "calls": [
+      -1,
+      1
+    ],
+    "scrolledMenuY": 21,
+    "scrollTop": 100
+  },
+  {
+    "config": {
+      "rem": 20,
+      "language": "fr",
+      "navigation": true,
+      "scanning": true
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          121,
+          80,
+          77.5
+        ],
+        "label": "Menu",
+        "icon": "CgSpinnerTwoAlt",
+        "iconBounds": [
+          25,
+          136,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          166,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          198.5,
+          80,
+          78.5
+        ],
+        "label": "Accueil",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          216.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          241.5,
+          68,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          277,
+          80,
+          77.5
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          25,
+          292,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          322,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          354.5,
+          80,
+          78.5
+        ],
+        "label": "Paramètres",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          372.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          397.5,
+          68,
+          17.5
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "bounds": [
+          0,
+          0,
+          45,
+          60.5
+        ],
+        "iconBounds": [
+          11.25,
+          19,
+          22.5,
+          22.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          60.5,
+          45,
+          60.5
+        ],
+        "iconBounds": [
+          11.25,
+          79.5,
+          22.5,
+          22.5
+        ]
+      }
+    ],
+    "calls": [
+      -1,
+      1
+    ],
+    "scrolledMenuY": 21,
+    "scrollTop": 100
+  },
+  {
+    "config": {
+      "rem": 20,
+      "language": "ar",
+      "navigation": false,
+      "scanning": false
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          0,
+          80,
+          77.5
+        ],
+        "label": "القائمة",
+        "icon": "LuMenu",
+        "iconBounds": [
+          25,
+          15,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          45,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          77.5,
+          80,
+          78.5
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          95.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          120.5,
+          68,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          156,
+          80,
+          77.5
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          25,
+          171,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          201,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          233.5,
+          80,
+          78.5
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          251.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          276.5,
+          68,
+          17.5
+        ]
+      }
+    ],
+    "buttons": [],
+    "calls": [],
+    "scrolledMenuY": -62,
+    "scrollTop": 62
+  },
+  {
+    "config": {
+      "rem": 20,
+      "language": "ar",
+      "navigation": false,
+      "scanning": true
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          0,
+          80,
+          77.5
+        ],
+        "label": "القائمة",
+        "icon": "CgSpinnerTwoAlt",
+        "iconBounds": [
+          25,
+          15,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          45,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          77.5,
+          80,
+          78.5
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          95.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          120.5,
+          68,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          156,
+          80,
+          77.5
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          25,
+          171,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          201,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          233.5,
+          80,
+          78.5
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          251.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          276.5,
+          68,
+          17.5
+        ]
+      }
+    ],
+    "buttons": [],
+    "calls": [],
+    "scrolledMenuY": -62,
+    "scrollTop": 62
+  },
+  {
+    "config": {
+      "rem": 20,
+      "language": "ar",
+      "navigation": true,
+      "scanning": false
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          121,
+          80,
+          77.5
+        ],
+        "label": "القائمة",
+        "icon": "LuMenu",
+        "iconBounds": [
+          25,
+          136,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          166,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          198.5,
+          80,
+          78.5
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          216.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          241.5,
+          68,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          277,
+          80,
+          77.5
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          25,
+          292,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          322,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          354.5,
+          80,
+          78.5
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          372.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          397.5,
+          68,
+          17.5
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "bounds": [
+          35,
+          0,
+          45,
+          60.5
+        ],
+        "iconBounds": [
+          46.25,
+          19,
+          22.5,
+          22.5
+        ]
+      },
+      {
+        "bounds": [
+          35,
+          60.5,
+          45,
+          60.5
+        ],
+        "iconBounds": [
+          46.25,
+          79.5,
+          22.5,
+          22.5
+        ]
+      }
+    ],
+    "calls": [
+      -1,
+      1
+    ],
+    "scrolledMenuY": 21,
+    "scrollTop": 100
+  },
+  {
+    "config": {
+      "rem": 20,
+      "language": "ar",
+      "navigation": true,
+      "scanning": true
+    },
+    "tiles": [
+      {
+        "bounds": [
+          0,
+          121,
+          80,
+          77.5
+        ],
+        "label": "القائمة",
+        "icon": "CgSpinnerTwoAlt",
+        "iconBounds": [
+          25,
+          136,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          166,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          198.5,
+          80,
+          78.5
+        ],
+        "label": "Home",
+        "icon": "RiHome6Line",
+        "iconBounds": [
+          27.5,
+          216.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          241.5,
+          68,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          277,
+          80,
+          77.5
+        ],
+        "label": "Collections",
+        "icon": "LuPackage2",
+        "iconBounds": [
+          25,
+          292,
+          30,
+          30
+        ],
+        "labelBounds": [
+          0,
+          322,
+          80,
+          17.5
+        ]
+      },
+      {
+        "bounds": [
+          0,
+          354.5,
+          80,
+          78.5
+        ],
+        "label": "Settings",
+        "icon": "RiSettings2Line",
+        "iconBounds": [
+          27.5,
+          372.5,
+          25,
+          25
+        ],
+        "labelBounds": [
+          6,
+          397.5,
+          68,
+          17.5
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "bounds": [
+          35,
+          0,
+          45,
+          60.5
+        ],
+        "iconBounds": [
+          46.25,
+          19,
+          22.5,
+          22.5
+        ]
+      },
+      {
+        "bounds": [
+          35,
+          60.5,
+          45,
+          60.5
+        ],
+        "iconBounds": [
+          46.25,
+          79.5,
+          22.5,
+          22.5
+        ]
+      }
+    ],
+    "calls": [
+      -1,
+      1
+    ],
+    "scrolledMenuY": 21,
+    "scrollTop": 100
+  }
+]

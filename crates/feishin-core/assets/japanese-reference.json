@@ -1,0 +1,2287 @@
+{
+  "cases": [
+    {
+      "text": "君の声",
+      "tokens": [
+        {
+          "endChar": 1,
+          "romaji": "kimi",
+          "startChar": 0,
+          "text": "君",
+          "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>"
+        },
+        {
+          "endChar": 2,
+          "romaji": "no",
+          "startChar": 1,
+          "text": "の",
+          "furigana": "の"
+        },
+        {
+          "endChar": 3,
+          "romaji": "koe",
+          "startChar": 2,
+          "text": "声",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>"
+        }
+      ],
+      "furigana": "<ruby>君<rp>(</rp><rt>きみ</rt><rp>)</rp></ruby>の<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+      "romaji": "kimi no koe"
+    },
+    {
+      "text": "音楽の世界",
+      "tokens": [
+        {
+          "endChar": 2,
+          "romaji": "ongaku",
+          "startChar": 0,
+          "text": "音楽",
+          "furigana": "<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>"
+        },
+        {
+          "endChar": 3,
+          "romaji": "no",
+          "startChar": 2,
+          "text": "の",
+          "furigana": "の"
+        },
+        {
+          "endChar": 5,
+          "romaji": "sekai",
+          "startChar": 3,
+          "text": "世界",
+          "furigana": "<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>"
+        }
+      ],
+      "furigana": "<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>の<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>",
+      "romaji": "ongaku no sekai"
+    },
+    {
+      "text": "取り戻す",
+      "tokens": [
+        {
+          "endChar": 4,
+          "romaji": "torimodosu",
+          "startChar": 0,
+          "text": "取り戻す",
+          "furigana": "<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>す"
+        }
+      ],
+      "furigana": "<ruby>取<rp>(</rp><rt>と</rt><rp>)</rp></ruby>り<ruby>戻<rp>(</rp><rt>もど</rt><rp>)</rp></ruby>す",
+      "romaji": "torimodosu"
+    },
+    {
+      "text": "こんにちは世界",
+      "tokens": [
+        {
+          "endChar": 5,
+          "romaji": "konnichiwa",
+          "startChar": 0,
+          "text": "こんにちは",
+          "furigana": "こんにちは"
+        },
+        {
+          "endChar": 7,
+          "romaji": "sekai",
+          "startChar": 5,
+          "text": "世界",
+          "furigana": "<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>"
+        }
+      ],
+      "furigana": "こんにちは<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>",
+      "romaji": "konnichiwa sekai"
+    },
+    {
+      "text": "東京へ行きます",
+      "tokens": [
+        {
+          "endChar": 2,
+          "romaji": "tōkyō",
+          "startChar": 0,
+          "text": "東京",
+          "furigana": "<ruby>東京<rp>(</rp><rt>とうきょう</rt><rp>)</rp></ruby>"
+        },
+        {
+          "endChar": 3,
+          "romaji": "e",
+          "startChar": 2,
+          "text": "へ",
+          "furigana": "へ"
+        },
+        {
+          "endChar": 5,
+          "romaji": "iki",
+          "startChar": 3,
+          "text": "行き",
+          "furigana": "<ruby>行<rp>(</rp><rt>い</rt><rp>)</rp></ruby>き"
+        },
+        {
+          "endChar": 7,
+          "romaji": "masu",
+          "startChar": 5,
+          "text": "ます",
+          "furigana": "ます"
+        }
+      ],
+      "furigana": "<ruby>東京<rp>(</rp><rt>とうきょう</rt><rp>)</rp></ruby>へ<ruby>行<rp>(</rp><rt>い</rt><rp>)</rp></ruby>きます",
+      "romaji": "tōkyō e iki masu"
+    },
+    {
+      "text": "私は学生です",
+      "tokens": [
+        {
+          "endChar": 1,
+          "romaji": "watashi",
+          "startChar": 0,
+          "text": "私",
+          "furigana": "<ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>"
+        },
+        {
+          "endChar": 2,
+          "romaji": "wa",
+          "startChar": 1,
+          "text": "は",
+          "furigana": "は"
+        },
+        {
+          "endChar": 4,
+          "romaji": "gakusei",
+          "startChar": 2,
+          "text": "学生",
+          "furigana": "<ruby>学生<rp>(</rp><rt>がくせい</rt><rp>)</rp></ruby>"
+        },
+        {
+          "endChar": 6,
+          "romaji": "desu",
+          "startChar": 4,
+          "text": "です",
+          "furigana": "です"
+        }
+      ],
+      "furigana": "<ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>は<ruby>学生<rp>(</rp><rt>がくせい</rt><rp>)</rp></ruby>です",
+      "romaji": "watashi wa gakusei desu"
+    },
+    {
+      "text": "小さい声",
+      "tokens": [
+        {
+          "endChar": 3,
+          "romaji": "chīsai",
+          "startChar": 0,
+          "text": "小さい",
+          "furigana": "<ruby>小<rp>(</rp><rt>ちい</rt><rp>)</rp></ruby>さい"
+        },
+        {
+          "endChar": 4,
+          "romaji": "koe",
+          "startChar": 3,
+          "text": "声",
+          "furigana": "<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>"
+        }
+      ],
+      "furigana": "<ruby>小<rp>(</rp><rt>ちい</rt><rp>)</rp></ruby>さい<ruby>声<rp>(</rp><rt>こえ</rt><rp>)</rp></ruby>",
+      "romaji": "chīsai koe"
+    },
+    {
+      "text": "今日の日付2026年10月",
+      "tokens": [
+        {
+          "endChar": 2,
+          "romaji": "kyō",
+          "startChar": 0,
+          "text": "今日",
+          "furigana": "<ruby>今日<rp>(</rp><rt>きょう</rt><rp>)</rp></ruby>"
+        },
+        {
+          "endChar": 3,
+          "romaji": "no",
+          "startChar": 2,
+          "text": "の",
+          "furigana": "の"
+        },
+        {
+          "endChar": 5,
+          "romaji": "hizuke",
+          "startChar": 3,
+          "text": "日付",
+          "furigana": "<ruby>日付<rp>(</rp><rt>ひづけ</rt><rp>)</rp></ruby>"
+        },
+        {
+          "endChar": 9,
+          "romaji": "2026",
+          "startChar": 5,
+          "text": "2026",
+          "furigana": "2026"
+        },
+        {
+          "endChar": 10,
+          "romaji": "nen",
+          "startChar": 9,
+          "text": "年",
+          "furigana": "<ruby>年<rp>(</rp><rt>とし</rt><rp>)</rp></ruby>"
+        },
+        {
+          "endChar": 12,
+          "romaji": "10",
+          "startChar": 10,
+          "text": "10",
+          "furigana": "10"
+        },
+        {
+          "endChar": 13,
+          "romaji": "tsuki",
+          "startChar": 12,
+          "text": "月",
+          "furigana": "<ruby>月<rp>(</rp><rt>つき</rt><rp>)</rp></ruby>"
+        }
+      ],
+      "furigana": "<ruby>今日<rp>(</rp><rt>きょう</rt><rp>)</rp></ruby>の<ruby>日付<rp>(</rp><rt>ひづけ</rt><rp>)</rp></ruby>2026<ruby>年<rp>(</rp><rt>ねん</rt><rp>)</rp></ruby>10<ruby>月<rp>(</rp><rt>つき</rt><rp>)</rp></ruby>",
+      "romaji": "kyō no hizuke 2026 nen 10 tsuki"
+    },
+    {
+      "text": "日本語 ABC 123 🙂",
+      "tokens": [],
+      "furigana": "日本語 ABC 123 🙂",
+      "romaji": ""
+    },
+    {
+      "text": "カタカナとひらがな",
+      "tokens": [
+        {
+          "endChar": 4,
+          "romaji": "katakana",
+          "startChar": 0,
+          "text": "カタカナ",
+          "furigana": "カタカナ"
+        },
+        {
+          "endChar": 5,
+          "romaji": "to",
+          "startChar": 4,
+          "text": "と",
+          "furigana": "と"
+        },
+        {
+          "endChar": 6,
+          "romaji": "hi",
+          "startChar": 5,
+          "text": "ひ",
+          "furigana": "ひ"
+        },
+        {
+          "endChar": 7,
+          "romaji": "ra",
+          "startChar": 6,
+          "text": "ら",
+          "furigana": "ら"
+        },
+        {
+          "endChar": 8,
+          "romaji": "ga",
+          "startChar": 7,
+          "text": "が",
+          "furigana": "が"
+        },
+        {
+          "endChar": 9,
+          "romaji": "na",
+          "startChar": 8,
+          "text": "な",
+          "furigana": "な"
+        }
+      ],
+      "furigana": "カタカナとひらがな",
+      "romaji": "katakana to hi ra ga na"
+    },
+    {
+      "text": "がっこうのせんせい",
+      "tokens": [
+        {
+          "endChar": 4,
+          "romaji": "gakkō",
+          "startChar": 0,
+          "text": "がっこう",
+          "furigana": "がっこう"
+        },
+        {
+          "endChar": 5,
+          "romaji": "no",
+          "startChar": 4,
+          "text": "の",
+          "furigana": "の"
+        },
+        {
+          "endChar": 9,
+          "romaji": "sensei",
+          "startChar": 5,
+          "text": "せんせい",
+          "furigana": "せんせい"
+        }
+      ],
+      "furigana": "がっこうのせんせい",
+      "romaji": "gakkō no sensei"
+    },
+    {
+      "text": "おはようございます",
+      "tokens": [
+        {
+          "endChar": 4,
+          "romaji": "ohayō",
+          "startChar": 0,
+          "text": "おはよう",
+          "furigana": "おはよう"
+        },
+        {
+          "endChar": 7,
+          "romaji": "gozai",
+          "startChar": 4,
+          "text": "ござい",
+          "furigana": "ござい"
+        },
+        {
+          "endChar": 9,
+          "romaji": "masu",
+          "startChar": 7,
+          "text": "ます",
+          "furigana": "ます"
+        }
+      ],
+      "furigana": "おはようございます",
+      "romaji": "ohayō gozai masu"
+    },
+    {
+      "text": "ありがとう！",
+      "tokens": [
+        {
+          "endChar": 5,
+          "romaji": "arigatō",
+          "startChar": 0,
+          "text": "ありがとう",
+          "furigana": "ありがとう"
+        },
+        {
+          "endChar": 6,
+          "romaji": "！",
+          "startChar": 5,
+          "text": "！",
+          "furigana": "！"
+        }
+      ],
+      "furigana": "ありがとう！",
+      "romaji": "arigatō !"
+    },
+    {
+      "text": "走り続ける",
+      "tokens": [
+        {
+          "endChar": 2,
+          "romaji": "hashiri",
+          "startChar": 0,
+          "text": "走り",
+          "furigana": "<ruby>走<rp>(</rp><rt>はし</rt><rp>)</rp></ruby>り"
+        },
+        {
+          "endChar": 5,
+          "romaji": "tsuzukeru",
+          "startChar": 2,
+          "text": "続ける",
+          "furigana": "<ruby>続<rp>(</rp><rt>つづ</rt><rp>)</rp></ruby>ける"
+        }
+      ],
+      "furigana": "<ruby>走<rp>(</rp><rt>はし</rt><rp>)</rp></ruby>り<ruby>続<rp>(</rp><rt>つづ</rt><rp>)</rp></ruby>ける",
+      "romaji": "hashiri tsuzukeru"
+    },
+    {
+      "text": "そのままにしておく",
+      "tokens": [
+        {
+          "endChar": 4,
+          "romaji": "sonomama",
+          "startChar": 0,
+          "text": "そのまま",
+          "furigana": "そのまま"
+        },
+        {
+          "endChar": 5,
+          "romaji": "ni",
+          "startChar": 4,
+          "text": "に",
+          "furigana": "に"
+        },
+        {
+          "endChar": 6,
+          "romaji": "shi",
+          "startChar": 5,
+          "text": "し",
+          "furigana": "し"
+        },
+        {
+          "endChar": 7,
+          "romaji": "te",
+          "startChar": 6,
+          "text": "て",
+          "furigana": "て"
+        },
+        {
+          "endChar": 9,
+          "romaji": "oku",
+          "startChar": 7,
+          "text": "おく",
+          "furigana": "おく"
+        }
+      ],
+      "furigana": "そのままにしておく",
+      "romaji": "sonomama ni shi te oku"
+    },
+    {
+      "text": "きみと音楽を聴く",
+      "tokens": [
+        {
+          "endChar": 2,
+          "romaji": "kimi",
+          "startChar": 0,
+          "text": "きみ",
+          "furigana": "きみ"
+        },
+        {
+          "endChar": 3,
+          "romaji": "to",
+          "startChar": 2,
+          "text": "と",
+          "furigana": "と"
+        },
+        {
+          "endChar": 5,
+          "romaji": "ongaku",
+          "startChar": 3,
+          "text": "音楽",
+          "furigana": "<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>"
+        },
+        {
+          "endChar": 6,
+          "romaji": "o",
+          "startChar": 5,
+          "text": "を",
+          "furigana": "を"
+        },
+        {
+          "endChar": 8,
+          "romaji": "kiku",
+          "startChar": 6,
+          "text": "聴く",
+          "furigana": "<ruby>聴<rp>(</rp><rt>き</rt><rp>)</rp></ruby>く"
+        }
+      ],
+      "furigana": "きみと<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>を<ruby>聴<rp>(</rp><rt>き</rt><rp>)</rp></ruby>く",
+      "romaji": "kimi to ongaku o kiku"
+    },
+    {
+      "text": "ﾆﾎﾝｺﾞの音楽",
+      "tokens": [
+        {
+          "endChar": 5,
+          "romaji": "ﾆﾎﾝｺﾞ",
+          "startChar": 0,
+          "text": "ﾆﾎﾝｺﾞ",
+          "furigana": "ﾆﾎﾝｺﾞ"
+        },
+        {
+          "endChar": 6,
+          "romaji": "no",
+          "startChar": 5,
+          "text": "の",
+          "furigana": "の"
+        },
+        {
+          "endChar": 8,
+          "romaji": "ongaku",
+          "startChar": 6,
+          "text": "音楽",
+          "furigana": "<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>"
+        }
+      ],
+      "furigana": "ﾆﾎﾝｺﾞの<ruby>音楽<rp>(</rp><rt>おんがく</rt><rp>)</rp></ruby>",
+      "romaji": "ﾆﾎﾝｺﾞ no ongaku"
+    },
+    {
+      "text": "English",
+      "tokens": [],
+      "furigana": "English",
+      "romaji": ""
+    },
+    {
+      "text": "音乐中国",
+      "tokens": [],
+      "furigana": "音乐中国",
+      "romaji": ""
+    },
+    {
+      "text": "ハロー世界",
+      "tokens": [
+        {
+          "endChar": 3,
+          "romaji": "harō",
+          "startChar": 0,
+          "text": "ハロー",
+          "furigana": "ハロー"
+        },
+        {
+          "endChar": 5,
+          "romaji": "sekai",
+          "startChar": 3,
+          "text": "世界",
+          "furigana": "<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>"
+        }
+      ],
+      "furigana": "ハロー<ruby>世界<rp>(</rp><rt>せかい</rt><rp>)</rp></ruby>",
+      "romaji": "harō sekai"
+    },
+    {
+      "text": "歌おう",
+      "tokens": [
+        {
+          "endChar": 3,
+          "romaji": "utaō",
+          "startChar": 0,
+          "text": "歌おう",
+          "furigana": "<ruby>歌<rp>(</rp><rt>うた</rt><rp>)</rp></ruby>おう"
+        }
+      ],
+      "furigana": "<ruby>歌<rp>(</rp><rt>うた</rt><rp>)</rp></ruby>おう",
+      "romaji": "utaō"
+    },
+    {
+      "text": "走っていこう",
+      "tokens": [
+        {
+          "endChar": 3,
+          "romaji": "hashitte",
+          "startChar": 0,
+          "text": "走って",
+          "furigana": "<ruby>走<rp>(</rp><rt>はし</rt><rp>)</rp></ruby>って"
+        },
+        {
+          "endChar": 6,
+          "romaji": "ikō",
+          "startChar": 3,
+          "text": "いこう",
+          "furigana": "いこう"
+        }
+      ],
+      "furigana": "<ruby>走<rp>(</rp><rt>はし</rt><rp>)</rp></ruby>っていこう",
+      "romaji": "hashitte ikō"
+    },
+    {
+      "text": "お祝いをする",
+      "tokens": [
+        {
+          "endChar": 3,
+          "romaji": "oiwai",
+          "startChar": 0,
+          "text": "お祝い",
+          "furigana": "お<ruby>祝<rp>(</rp><rt>いわ</rt><rp>)</rp></ruby>い"
+        },
+        {
+          "endChar": 4,
+          "romaji": "o",
+          "startChar": 3,
+          "text": "を",
+          "furigana": "を"
+        },
+        {
+          "endChar": 6,
+          "romaji": "suru",
+          "startChar": 4,
+          "text": "する",
+          "furigana": "する"
+        }
+      ],
+      "furigana": "お<ruby>祝<rp>(</rp><rt>いわ</rt><rp>)</rp></ruby>いをする",
+      "romaji": "oiwai o suru"
+    },
+    {
+      "text": "待っていました",
+      "tokens": [
+        {
+          "endChar": 3,
+          "romaji": "matte",
+          "startChar": 0,
+          "text": "待って",
+          "furigana": "<ruby>待<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>って"
+        },
+        {
+          "endChar": 4,
+          "romaji": "i",
+          "startChar": 3,
+          "text": "い",
+          "furigana": "い"
+        },
+        {
+          "endChar": 6,
+          "romaji": "mashi",
+          "startChar": 4,
+          "text": "まし",
+          "furigana": "まし"
+        },
+        {
+          "endChar": 7,
+          "romaji": "ta",
+          "startChar": 6,
+          "text": "た",
+          "furigana": "た"
+        }
+      ],
+      "furigana": "<ruby>待<rp>(</rp><rt>ま</rt><rp>)</rp></ruby>っていました",
+      "romaji": "matte i mashi ta"
+    },
+    {
+      "text": "今日を生きよう",
+      "tokens": [
+        {
+          "endChar": 2,
+          "romaji": "kyō",
+          "startChar": 0,
+          "text": "今日",
+          "furigana": "<ruby>今日<rp>(</rp><rt>きょう</rt><rp>)</rp></ruby>"
+        },
+        {
+          "endChar": 3,
+          "romaji": "o",
+          "startChar": 2,
+          "text": "を",
+          "furigana": "を"
+        },
+        {
+          "endChar": 7,
+          "romaji": "ikiyō",
+          "startChar": 3,
+          "text": "生きよう",
+          "furigana": "<ruby>生<rp>(</rp><rt>い</rt><rp>)</rp></ruby>きよう"
+        }
+      ],
+      "furigana": "<ruby>今日<rp>(</rp><rt>きょう</rt><rp>)</rp></ruby>を<ruby>生<rp>(</rp><rt>い</rt><rp>)</rp></ruby>きよう",
+      "romaji": "kyō o ikiyō"
+    },
+    {
+      "text": "ﾆﾎﾝｺﾞ",
+      "tokens": [],
+      "furigana": "ﾆﾎﾝｺﾞ",
+      "romaji": ""
+    }
+  ],
+  "characters": [
+    {
+      "text": "〿",
+      "kana": false,
+      "kanji": false
+    },
+    {
+      "text": "぀",
+      "kana": true,
+      "kanji": false
+    },
+    {
+      "text": "ゟ",
+      "kana": true,
+      "kanji": false
+    },
+    {
+      "text": "゠",
+      "kana": true,
+      "kanji": false
+    },
+    {
+      "text": "ヿ",
+      "kana": true,
+      "kanji": false
+    },
+    {
+      "text": "㄀",
+      "kana": false,
+      "kanji": false
+    },
+    {
+      "text": "䷿",
+      "kana": false,
+      "kanji": false
+    },
+    {
+      "text": "一",
+      "kana": false,
+      "kanji": true
+    },
+    {
+      "text": "鿏",
+      "kana": false,
+      "kanji": true
+    },
+    {
+      "text": "鿐",
+      "kana": false,
+      "kanji": false
+    },
+    {
+      "text": "",
+      "kana": false,
+      "kanji": false
+    },
+    {
+      "text": "豈",
+      "kana": false,
+      "kanji": true
+    },
+    {
+      "text": "﫿",
+      "kana": false,
+      "kanji": true
+    },
+    {
+      "text": "ﬀ",
+      "kana": false,
+      "kanji": false
+    },
+    {
+      "text": "㏿",
+      "kana": false,
+      "kanji": false
+    },
+    {
+      "text": "㐀",
+      "kana": false,
+      "kanji": true
+    },
+    {
+      "text": "䶿",
+      "kana": false,
+      "kanji": true
+    },
+    {
+      "text": "䷀",
+      "kana": false,
+      "kanji": false
+    },
+    {
+      "text": "々",
+      "kana": false,
+      "kanji": false
+    },
+    {
+      "text": "ｶ",
+      "kana": false,
+      "kanji": false
+    },
+    {
+      "text": "𠀀",
+      "kana": false,
+      "kanji": false
+    },
+    {
+      "text": "🙂",
+      "kana": false,
+      "kanji": false
+    },
+    {
+      "text": "鿿",
+      "kana": false,
+      "kanji": false
+    }
+  ],
+  "syllables": [
+    {
+      "text": "１",
+      "romaji": "1"
+    },
+    {
+      "text": "２",
+      "romaji": "2"
+    },
+    {
+      "text": "３",
+      "romaji": "3"
+    },
+    {
+      "text": "４",
+      "romaji": "4"
+    },
+    {
+      "text": "５",
+      "romaji": "5"
+    },
+    {
+      "text": "６",
+      "romaji": "6"
+    },
+    {
+      "text": "７",
+      "romaji": "7"
+    },
+    {
+      "text": "８",
+      "romaji": "8"
+    },
+    {
+      "text": "９",
+      "romaji": "9"
+    },
+    {
+      "text": "０",
+      "romaji": "0"
+    },
+    {
+      "text": "！",
+      "romaji": "!"
+    },
+    {
+      "text": "“",
+      "romaji": "\""
+    },
+    {
+      "text": "”",
+      "romaji": "\""
+    },
+    {
+      "text": "＃",
+      "romaji": "#"
+    },
+    {
+      "text": "＄",
+      "romaji": "$"
+    },
+    {
+      "text": "％",
+      "romaji": "%"
+    },
+    {
+      "text": "＆",
+      "romaji": "&"
+    },
+    {
+      "text": "’",
+      "romaji": "'"
+    },
+    {
+      "text": "（",
+      "romaji": "("
+    },
+    {
+      "text": "）",
+      "romaji": ")"
+    },
+    {
+      "text": "＝",
+      "romaji": "="
+    },
+    {
+      "text": "～",
+      "romaji": "~"
+    },
+    {
+      "text": "｜",
+      "romaji": "|"
+    },
+    {
+      "text": "＠",
+      "romaji": "@"
+    },
+    {
+      "text": "‘",
+      "romaji": "`"
+    },
+    {
+      "text": "＋",
+      "romaji": "+"
+    },
+    {
+      "text": "＊",
+      "romaji": "*"
+    },
+    {
+      "text": "；",
+      "romaji": ";"
+    },
+    {
+      "text": "：",
+      "romaji": ":"
+    },
+    {
+      "text": "＜",
+      "romaji": "<"
+    },
+    {
+      "text": "＞",
+      "romaji": ">"
+    },
+    {
+      "text": "、",
+      "romaji": ","
+    },
+    {
+      "text": "。",
+      "romaji": "."
+    },
+    {
+      "text": "／",
+      "romaji": "/"
+    },
+    {
+      "text": "？",
+      "romaji": "?"
+    },
+    {
+      "text": "＿",
+      "romaji": "_"
+    },
+    {
+      "text": "・",
+      "romaji": "･"
+    },
+    {
+      "text": "「",
+      "romaji": "\""
+    },
+    {
+      "text": "」",
+      "romaji": "\""
+    },
+    {
+      "text": "｛",
+      "romaji": "{"
+    },
+    {
+      "text": "｝",
+      "romaji": "}"
+    },
+    {
+      "text": "￥",
+      "romaji": "\\"
+    },
+    {
+      "text": "＾",
+      "romaji": "^"
+    },
+    {
+      "text": "あ",
+      "romaji": "a"
+    },
+    {
+      "text": "い",
+      "romaji": "i"
+    },
+    {
+      "text": "う",
+      "romaji": "u"
+    },
+    {
+      "text": "え",
+      "romaji": "e"
+    },
+    {
+      "text": "お",
+      "romaji": "o"
+    },
+    {
+      "text": "ア",
+      "romaji": "a"
+    },
+    {
+      "text": "イ",
+      "romaji": "i"
+    },
+    {
+      "text": "ウ",
+      "romaji": "u"
+    },
+    {
+      "text": "エ",
+      "romaji": "e"
+    },
+    {
+      "text": "オ",
+      "romaji": "o"
+    },
+    {
+      "text": "か",
+      "romaji": "ka"
+    },
+    {
+      "text": "き",
+      "romaji": "ki"
+    },
+    {
+      "text": "く",
+      "romaji": "ku"
+    },
+    {
+      "text": "け",
+      "romaji": "ke"
+    },
+    {
+      "text": "こ",
+      "romaji": "ko"
+    },
+    {
+      "text": "カ",
+      "romaji": "ka"
+    },
+    {
+      "text": "キ",
+      "romaji": "ki"
+    },
+    {
+      "text": "ク",
+      "romaji": "ku"
+    },
+    {
+      "text": "ケ",
+      "romaji": "ke"
+    },
+    {
+      "text": "コ",
+      "romaji": "ko"
+    },
+    {
+      "text": "さ",
+      "romaji": "sa"
+    },
+    {
+      "text": "し",
+      "romaji": "shi"
+    },
+    {
+      "text": "す",
+      "romaji": "su"
+    },
+    {
+      "text": "せ",
+      "romaji": "se"
+    },
+    {
+      "text": "そ",
+      "romaji": "so"
+    },
+    {
+      "text": "サ",
+      "romaji": "sa"
+    },
+    {
+      "text": "シ",
+      "romaji": "shi"
+    },
+    {
+      "text": "ス",
+      "romaji": "su"
+    },
+    {
+      "text": "セ",
+      "romaji": "se"
+    },
+    {
+      "text": "ソ",
+      "romaji": "so"
+    },
+    {
+      "text": "た",
+      "romaji": "ta"
+    },
+    {
+      "text": "ち",
+      "romaji": "chi"
+    },
+    {
+      "text": "つ",
+      "romaji": "tsu"
+    },
+    {
+      "text": "て",
+      "romaji": "te"
+    },
+    {
+      "text": "と",
+      "romaji": "to"
+    },
+    {
+      "text": "タ",
+      "romaji": "ta"
+    },
+    {
+      "text": "チ",
+      "romaji": "chi"
+    },
+    {
+      "text": "ツ",
+      "romaji": "tsu"
+    },
+    {
+      "text": "テ",
+      "romaji": "te"
+    },
+    {
+      "text": "ト",
+      "romaji": "to"
+    },
+    {
+      "text": "な",
+      "romaji": "na"
+    },
+    {
+      "text": "に",
+      "romaji": "ni"
+    },
+    {
+      "text": "ぬ",
+      "romaji": "nu"
+    },
+    {
+      "text": "ね",
+      "romaji": "ne"
+    },
+    {
+      "text": "の",
+      "romaji": "no"
+    },
+    {
+      "text": "ナ",
+      "romaji": "na"
+    },
+    {
+      "text": "ニ",
+      "romaji": "ni"
+    },
+    {
+      "text": "ヌ",
+      "romaji": "nu"
+    },
+    {
+      "text": "ネ",
+      "romaji": "ne"
+    },
+    {
+      "text": "ノ",
+      "romaji": "no"
+    },
+    {
+      "text": "は",
+      "romaji": "ha"
+    },
+    {
+      "text": "ひ",
+      "romaji": "hi"
+    },
+    {
+      "text": "ふ",
+      "romaji": "fu"
+    },
+    {
+      "text": "へ",
+      "romaji": "he"
+    },
+    {
+      "text": "ほ",
+      "romaji": "ho"
+    },
+    {
+      "text": "ハ",
+      "romaji": "ha"
+    },
+    {
+      "text": "ヒ",
+      "romaji": "hi"
+    },
+    {
+      "text": "フ",
+      "romaji": "fu"
+    },
+    {
+      "text": "ヘ",
+      "romaji": "he"
+    },
+    {
+      "text": "ホ",
+      "romaji": "ho"
+    },
+    {
+      "text": "ま",
+      "romaji": "ma"
+    },
+    {
+      "text": "み",
+      "romaji": "mi"
+    },
+    {
+      "text": "む",
+      "romaji": "mu"
+    },
+    {
+      "text": "め",
+      "romaji": "me"
+    },
+    {
+      "text": "も",
+      "romaji": "mo"
+    },
+    {
+      "text": "マ",
+      "romaji": "ma"
+    },
+    {
+      "text": "ミ",
+      "romaji": "mi"
+    },
+    {
+      "text": "ム",
+      "romaji": "mu"
+    },
+    {
+      "text": "メ",
+      "romaji": "me"
+    },
+    {
+      "text": "モ",
+      "romaji": "mo"
+    },
+    {
+      "text": "や",
+      "romaji": "ya"
+    },
+    {
+      "text": "ゆ",
+      "romaji": "yu"
+    },
+    {
+      "text": "よ",
+      "romaji": "yo"
+    },
+    {
+      "text": "ヤ",
+      "romaji": "ya"
+    },
+    {
+      "text": "ユ",
+      "romaji": "yu"
+    },
+    {
+      "text": "ヨ",
+      "romaji": "yo"
+    },
+    {
+      "text": "ら",
+      "romaji": "ra"
+    },
+    {
+      "text": "り",
+      "romaji": "ri"
+    },
+    {
+      "text": "る",
+      "romaji": "ru"
+    },
+    {
+      "text": "れ",
+      "romaji": "re"
+    },
+    {
+      "text": "ろ",
+      "romaji": "ro"
+    },
+    {
+      "text": "ラ",
+      "romaji": "ra"
+    },
+    {
+      "text": "リ",
+      "romaji": "ri"
+    },
+    {
+      "text": "ル",
+      "romaji": "ru"
+    },
+    {
+      "text": "レ",
+      "romaji": "re"
+    },
+    {
+      "text": "ロ",
+      "romaji": "ro"
+    },
+    {
+      "text": "わ",
+      "romaji": "wa"
+    },
+    {
+      "text": "ゐ",
+      "romaji": "i"
+    },
+    {
+      "text": "ゑ",
+      "romaji": "e"
+    },
+    {
+      "text": "を",
+      "romaji": "o"
+    },
+    {
+      "text": "ワ",
+      "romaji": "wa"
+    },
+    {
+      "text": "ヰ",
+      "romaji": "i"
+    },
+    {
+      "text": "ヱ",
+      "romaji": "e"
+    },
+    {
+      "text": "ヲ",
+      "romaji": "o"
+    },
+    {
+      "text": "が",
+      "romaji": "ga"
+    },
+    {
+      "text": "ぎ",
+      "romaji": "gi"
+    },
+    {
+      "text": "ぐ",
+      "romaji": "gu"
+    },
+    {
+      "text": "げ",
+      "romaji": "ge"
+    },
+    {
+      "text": "ご",
+      "romaji": "go"
+    },
+    {
+      "text": "ガ",
+      "romaji": "ga"
+    },
+    {
+      "text": "ギ",
+      "romaji": "gi"
+    },
+    {
+      "text": "グ",
+      "romaji": "gu"
+    },
+    {
+      "text": "ゲ",
+      "romaji": "ge"
+    },
+    {
+      "text": "ゴ",
+      "romaji": "go"
+    },
+    {
+      "text": "ざ",
+      "romaji": "za"
+    },
+    {
+      "text": "じ",
+      "romaji": "ji"
+    },
+    {
+      "text": "ず",
+      "romaji": "zu"
+    },
+    {
+      "text": "ぜ",
+      "romaji": "ze"
+    },
+    {
+      "text": "ぞ",
+      "romaji": "zo"
+    },
+    {
+      "text": "ザ",
+      "romaji": "za"
+    },
+    {
+      "text": "ジ",
+      "romaji": "ji"
+    },
+    {
+      "text": "ズ",
+      "romaji": "zu"
+    },
+    {
+      "text": "ゼ",
+      "romaji": "ze"
+    },
+    {
+      "text": "ゾ",
+      "romaji": "zo"
+    },
+    {
+      "text": "だ",
+      "romaji": "da"
+    },
+    {
+      "text": "ぢ",
+      "romaji": "ji"
+    },
+    {
+      "text": "づ",
+      "romaji": "zu"
+    },
+    {
+      "text": "で",
+      "romaji": "de"
+    },
+    {
+      "text": "ど",
+      "romaji": "do"
+    },
+    {
+      "text": "ダ",
+      "romaji": "da"
+    },
+    {
+      "text": "ヂ",
+      "romaji": "ji"
+    },
+    {
+      "text": "ヅ",
+      "romaji": "zu"
+    },
+    {
+      "text": "デ",
+      "romaji": "de"
+    },
+    {
+      "text": "ド",
+      "romaji": "do"
+    },
+    {
+      "text": "ば",
+      "romaji": "ba"
+    },
+    {
+      "text": "び",
+      "romaji": "bi"
+    },
+    {
+      "text": "ぶ",
+      "romaji": "bu"
+    },
+    {
+      "text": "べ",
+      "romaji": "be"
+    },
+    {
+      "text": "ぼ",
+      "romaji": "bo"
+    },
+    {
+      "text": "バ",
+      "romaji": "ba"
+    },
+    {
+      "text": "ビ",
+      "romaji": "bi"
+    },
+    {
+      "text": "ブ",
+      "romaji": "bu"
+    },
+    {
+      "text": "ベ",
+      "romaji": "be"
+    },
+    {
+      "text": "ボ",
+      "romaji": "bo"
+    },
+    {
+      "text": "ぱ",
+      "romaji": "pa"
+    },
+    {
+      "text": "ぴ",
+      "romaji": "pi"
+    },
+    {
+      "text": "ぷ",
+      "romaji": "pu"
+    },
+    {
+      "text": "ぺ",
+      "romaji": "pe"
+    },
+    {
+      "text": "ぽ",
+      "romaji": "po"
+    },
+    {
+      "text": "パ",
+      "romaji": "pa"
+    },
+    {
+      "text": "ピ",
+      "romaji": "pi"
+    },
+    {
+      "text": "プ",
+      "romaji": "pu"
+    },
+    {
+      "text": "ペ",
+      "romaji": "pe"
+    },
+    {
+      "text": "ポ",
+      "romaji": "po"
+    },
+    {
+      "text": "きゃ",
+      "romaji": "kya"
+    },
+    {
+      "text": "きゅ",
+      "romaji": "kyu"
+    },
+    {
+      "text": "きょ",
+      "romaji": "kyo"
+    },
+    {
+      "text": "しゃ",
+      "romaji": "sha"
+    },
+    {
+      "text": "しゅ",
+      "romaji": "shu"
+    },
+    {
+      "text": "しょ",
+      "romaji": "sho"
+    },
+    {
+      "text": "ちゃ",
+      "romaji": "cha"
+    },
+    {
+      "text": "ちゅ",
+      "romaji": "chu"
+    },
+    {
+      "text": "ちょ",
+      "romaji": "cho"
+    },
+    {
+      "text": "にゃ",
+      "romaji": "nya"
+    },
+    {
+      "text": "にゅ",
+      "romaji": "nyu"
+    },
+    {
+      "text": "にょ",
+      "romaji": "nyo"
+    },
+    {
+      "text": "ひゃ",
+      "romaji": "hya"
+    },
+    {
+      "text": "ひゅ",
+      "romaji": "hyu"
+    },
+    {
+      "text": "ひょ",
+      "romaji": "hyo"
+    },
+    {
+      "text": "みゃ",
+      "romaji": "mya"
+    },
+    {
+      "text": "みゅ",
+      "romaji": "myu"
+    },
+    {
+      "text": "みょ",
+      "romaji": "myo"
+    },
+    {
+      "text": "りゃ",
+      "romaji": "rya"
+    },
+    {
+      "text": "りゅ",
+      "romaji": "ryu"
+    },
+    {
+      "text": "りょ",
+      "romaji": "ryo"
+    },
+    {
+      "text": "キャ",
+      "romaji": "kya"
+    },
+    {
+      "text": "キュ",
+      "romaji": "kyu"
+    },
+    {
+      "text": "キョ",
+      "romaji": "kyo"
+    },
+    {
+      "text": "シャ",
+      "romaji": "sha"
+    },
+    {
+      "text": "シュ",
+      "romaji": "shu"
+    },
+    {
+      "text": "ショ",
+      "romaji": "sho"
+    },
+    {
+      "text": "チャ",
+      "romaji": "cha"
+    },
+    {
+      "text": "チュ",
+      "romaji": "chu"
+    },
+    {
+      "text": "チョ",
+      "romaji": "cho"
+    },
+    {
+      "text": "ニャ",
+      "romaji": "nya"
+    },
+    {
+      "text": "ニュ",
+      "romaji": "nyu"
+    },
+    {
+      "text": "ニョ",
+      "romaji": "nyo"
+    },
+    {
+      "text": "ヒャ",
+      "romaji": "hya"
+    },
+    {
+      "text": "ヒュ",
+      "romaji": "hyu"
+    },
+    {
+      "text": "ヒョ",
+      "romaji": "hyo"
+    },
+    {
+      "text": "ミャ",
+      "romaji": "mya"
+    },
+    {
+      "text": "ミュ",
+      "romaji": "myu"
+    },
+    {
+      "text": "ミョ",
+      "romaji": "myo"
+    },
+    {
+      "text": "リャ",
+      "romaji": "rya"
+    },
+    {
+      "text": "リュ",
+      "romaji": "ryu"
+    },
+    {
+      "text": "リョ",
+      "romaji": "ryo"
+    },
+    {
+      "text": "ぎゃ",
+      "romaji": "gya"
+    },
+    {
+      "text": "ぎゅ",
+      "romaji": "gyu"
+    },
+    {
+      "text": "ぎょ",
+      "romaji": "gyo"
+    },
+    {
+      "text": "じゃ",
+      "romaji": "ja"
+    },
+    {
+      "text": "じゅ",
+      "romaji": "ju"
+    },
+    {
+      "text": "じょ",
+      "romaji": "jo"
+    },
+    {
+      "text": "ぢゃ",
+      "romaji": "ja"
+    },
+    {
+      "text": "ぢゅ",
+      "romaji": "ju"
+    },
+    {
+      "text": "ぢょ",
+      "romaji": "jo"
+    },
+    {
+      "text": "びゃ",
+      "romaji": "bya"
+    },
+    {
+      "text": "びゅ",
+      "romaji": "byu"
+    },
+    {
+      "text": "びょ",
+      "romaji": "byo"
+    },
+    {
+      "text": "ぴゃ",
+      "romaji": "pya"
+    },
+    {
+      "text": "ぴゅ",
+      "romaji": "pyu"
+    },
+    {
+      "text": "ぴょ",
+      "romaji": "pyo"
+    },
+    {
+      "text": "ギャ",
+      "romaji": "gya"
+    },
+    {
+      "text": "ギュ",
+      "romaji": "gyu"
+    },
+    {
+      "text": "ギョ",
+      "romaji": "gyo"
+    },
+    {
+      "text": "ジャ",
+      "romaji": "ja"
+    },
+    {
+      "text": "ジュ",
+      "romaji": "ju"
+    },
+    {
+      "text": "ジョ",
+      "romaji": "jo"
+    },
+    {
+      "text": "ヂャ",
+      "romaji": "ja"
+    },
+    {
+      "text": "ヂュ",
+      "romaji": "ju"
+    },
+    {
+      "text": "ヂョ",
+      "romaji": "jo"
+    },
+    {
+      "text": "ビャ",
+      "romaji": "bya"
+    },
+    {
+      "text": "ビュ",
+      "romaji": "byu"
+    },
+    {
+      "text": "ビョ",
+      "romaji": "byo"
+    },
+    {
+      "text": "ピャ",
+      "romaji": "pya"
+    },
+    {
+      "text": "ピュ",
+      "romaji": "pyu"
+    },
+    {
+      "text": "ピョ",
+      "romaji": "pyo"
+    },
+    {
+      "text": "ぁ",
+      "romaji": "a"
+    },
+    {
+      "text": "ぃ",
+      "romaji": "i"
+    },
+    {
+      "text": "ぅ",
+      "romaji": "u"
+    },
+    {
+      "text": "ぇ",
+      "romaji": "e"
+    },
+    {
+      "text": "ぉ",
+      "romaji": "o"
+    },
+    {
+      "text": "ゃ",
+      "romaji": "ya"
+    },
+    {
+      "text": "ゅ",
+      "romaji": "yu"
+    },
+    {
+      "text": "ょ",
+      "romaji": "yo"
+    },
+    {
+      "text": "ゎ",
+      "romaji": "wa"
+    },
+    {
+      "text": "ァ",
+      "romaji": "a"
+    },
+    {
+      "text": "ィ",
+      "romaji": "i"
+    },
+    {
+      "text": "ゥ",
+      "romaji": "u"
+    },
+    {
+      "text": "ェ",
+      "romaji": "e"
+    },
+    {
+      "text": "ォ",
+      "romaji": "o"
+    },
+    {
+      "text": "ャ",
+      "romaji": "ya"
+    },
+    {
+      "text": "ュ",
+      "romaji": "yu"
+    },
+    {
+      "text": "ョ",
+      "romaji": "yo"
+    },
+    {
+      "text": "ヮ",
+      "romaji": "wa"
+    },
+    {
+      "text": "ヵ",
+      "romaji": "ka"
+    },
+    {
+      "text": "ヶ",
+      "romaji": "ke"
+    },
+    {
+      "text": "ん",
+      "romaji": "n"
+    },
+    {
+      "text": "ン",
+      "romaji": "n"
+    },
+    {
+      "text": "　",
+      "romaji": " "
+    },
+    {
+      "text": "いぇ",
+      "romaji": "ye"
+    },
+    {
+      "text": "うぃ",
+      "romaji": "wi"
+    },
+    {
+      "text": "うぇ",
+      "romaji": "we"
+    },
+    {
+      "text": "うぉ",
+      "romaji": "wo"
+    },
+    {
+      "text": "きぇ",
+      "romaji": "kye"
+    },
+    {
+      "text": "くぁ",
+      "romaji": "kwa"
+    },
+    {
+      "text": "くぃ",
+      "romaji": "kwi"
+    },
+    {
+      "text": "くぇ",
+      "romaji": "kwe"
+    },
+    {
+      "text": "くぉ",
+      "romaji": "kwo"
+    },
+    {
+      "text": "ぐぁ",
+      "romaji": "gwa"
+    },
+    {
+      "text": "ぐぃ",
+      "romaji": "gwi"
+    },
+    {
+      "text": "ぐぇ",
+      "romaji": "gwe"
+    },
+    {
+      "text": "ぐぉ",
+      "romaji": "gwo"
+    },
+    {
+      "text": "イェ",
+      "romaji": "ye"
+    },
+    {
+      "text": "ウィ",
+      "romaji": "wi"
+    },
+    {
+      "text": "ウェ",
+      "romaji": "we"
+    },
+    {
+      "text": "ウォ",
+      "romaji": "wo"
+    },
+    {
+      "text": "ヴ",
+      "romaji": "vu"
+    },
+    {
+      "text": "ヴァ",
+      "romaji": "va"
+    },
+    {
+      "text": "ヴィ",
+      "romaji": "vi"
+    },
+    {
+      "text": "ヴェ",
+      "romaji": "ve"
+    },
+    {
+      "text": "ヴォ",
+      "romaji": "vo"
+    },
+    {
+      "text": "ヴュ",
+      "romaji": "vyu"
+    },
+    {
+      "text": "ヴョ",
+      "romaji": "vyo"
+    },
+    {
+      "text": "キェ",
+      "romaji": "kya"
+    },
+    {
+      "text": "クァ",
+      "romaji": "kwa"
+    },
+    {
+      "text": "クィ",
+      "romaji": "kwi"
+    },
+    {
+      "text": "クェ",
+      "romaji": "kwe"
+    },
+    {
+      "text": "クォ",
+      "romaji": "kwo"
+    },
+    {
+      "text": "グァ",
+      "romaji": "gwa"
+    },
+    {
+      "text": "グィ",
+      "romaji": "gwi"
+    },
+    {
+      "text": "グェ",
+      "romaji": "gwe"
+    },
+    {
+      "text": "グォ",
+      "romaji": "gwo"
+    },
+    {
+      "text": "しぇ",
+      "romaji": "she"
+    },
+    {
+      "text": "じぇ",
+      "romaji": "je"
+    },
+    {
+      "text": "ちぇ",
+      "romaji": "che"
+    },
+    {
+      "text": "つぁ",
+      "romaji": "tsa"
+    },
+    {
+      "text": "つぃ",
+      "romaji": "tsi"
+    },
+    {
+      "text": "つぇ",
+      "romaji": "tse"
+    },
+    {
+      "text": "つぉ",
+      "romaji": "tso"
+    },
+    {
+      "text": "てぃ",
+      "romaji": "ti"
+    },
+    {
+      "text": "てゅ",
+      "romaji": "tyu"
+    },
+    {
+      "text": "でぃ",
+      "romaji": "di"
+    },
+    {
+      "text": "でゅ",
+      "romaji": "dyu"
+    },
+    {
+      "text": "とぅ",
+      "romaji": "tu"
+    },
+    {
+      "text": "どぅ",
+      "romaji": "du"
+    },
+    {
+      "text": "にぇ",
+      "romaji": "nye"
+    },
+    {
+      "text": "ひぇ",
+      "romaji": "hye"
+    },
+    {
+      "text": "ふぁ",
+      "romaji": "fa"
+    },
+    {
+      "text": "ふぃ",
+      "romaji": "fi"
+    },
+    {
+      "text": "ふぇ",
+      "romaji": "fe"
+    },
+    {
+      "text": "ふぉ",
+      "romaji": "fo"
+    },
+    {
+      "text": "ふゅ",
+      "romaji": "fyu"
+    },
+    {
+      "text": "ふょ",
+      "romaji": "fyo"
+    },
+    {
+      "text": "シェ",
+      "romaji": "she"
+    },
+    {
+      "text": "ジェ",
+      "romaji": "je"
+    },
+    {
+      "text": "チェ",
+      "romaji": "che"
+    },
+    {
+      "text": "ツァ",
+      "romaji": "tsa"
+    },
+    {
+      "text": "ツィ",
+      "romaji": "tsi"
+    },
+    {
+      "text": "ツェ",
+      "romaji": "tse"
+    },
+    {
+      "text": "ツォ",
+      "romaji": "tso"
+    },
+    {
+      "text": "ティ",
+      "romaji": "ti"
+    },
+    {
+      "text": "テュ",
+      "romaji": "tyu"
+    },
+    {
+      "text": "ディ",
+      "romaji": "di"
+    },
+    {
+      "text": "デュ",
+      "romaji": "dyu"
+    },
+    {
+      "text": "トゥ",
+      "romaji": "tu"
+    },
+    {
+      "text": "ドゥ",
+      "romaji": "du"
+    },
+    {
+      "text": "ニェ",
+      "romaji": "nye"
+    },
+    {
+      "text": "ヒェ",
+      "romaji": "hye"
+    },
+    {
+      "text": "ファ",
+      "romaji": "fa"
+    },
+    {
+      "text": "フィ",
+      "romaji": "fi"
+    },
+    {
+      "text": "フェ",
+      "romaji": "fe"
+    },
+    {
+      "text": "フォ",
+      "romaji": "fo"
+    },
+    {
+      "text": "フュ",
+      "romaji": "fyu"
+    },
+    {
+      "text": "フョ",
+      "romaji": "fyo"
+    },
+    {
+      "text": "トーキョー",
+      "romaji": "tōkyō"
+    },
+    {
+      "text": "スーパー",
+      "romaji": "sūpā"
+    },
+    {
+      "text": "キョーー",
+      "romaji": "kyōー"
+    },
+    {
+      "text": "ー",
+      "romaji": "ー"
+    },
+    {
+      "text": "ッ",
+      "romaji": "tsu"
+    },
+    {
+      "text": "ッカ",
+      "romaji": "kka"
+    },
+    {
+      "text": "ッッチ",
+      "romaji": "tsutchi"
+    },
+    {
+      "text": "ンア",
+      "romaji": "n'a"
+    },
+    {
+      "text": "ンヤ",
+      "romaji": "n'ya"
+    },
+    {
+      "text": "ンバ",
+      "romaji": "mba"
+    },
+    {
+      "text": "ンマ",
+      "romaji": "mma"
+    },
+    {
+      "text": "ンパ",
+      "romaji": "mpa"
+    },
+    {
+      "text": "づぢ",
+      "romaji": "zuji"
+    },
+    {
+      "text": "っち",
+      "romaji": "tchi"
+    },
+    {
+      "text": "１１１！",
+      "romaji": "111!"
+    },
+    {
+      "text": "とうきょう",
+      "romaji": "toukyou"
+    },
+    {
+      "text": "音楽 ABC 🙂",
+      "romaji": "音楽 ABC 🙂"
+    }
+  ]
+}

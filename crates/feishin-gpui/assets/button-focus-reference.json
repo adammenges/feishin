@@ -1,0 +1,50 @@
+[
+  {
+    "id": "button",
+    "active": "button",
+    "focusVisible": false,
+    "events": [
+      "blur",
+      "focus",
+      "click"
+    ]
+  },
+  {
+    "id": "disabled",
+    "active": "",
+    "focusVisible": false,
+    "events": [
+      "blur"
+    ]
+  },
+  {
+    "id": "Tab",
+    "active": "button",
+    "focusVisible": true,
+    "events": [
+      "blur",
+      "focus"
+    ]
+  },
+  {
+    "id": "Enter",
+    "active": "button",
+    "focusVisible": true,
+    "events": [
+      "blur",
+      "focus",
+      "click"
+    ]
+  },
+  {
+    "id": "Space",
+    "active": "button",
+    "focusVisible": true,
+    "events": [
+      "blur",
+      "focus",
+      "click",
+      "click"
+    ]
+  }
+]
